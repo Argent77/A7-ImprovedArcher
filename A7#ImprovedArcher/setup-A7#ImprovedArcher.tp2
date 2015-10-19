@@ -1,0 +1,57 @@
+BACKUP ~A7#ImprovedArcher/backup~
+AUTHOR ~Argent77 at Spellhold Studios~
+VERSION ~v2.1~
+
+ALWAYS
+  ACTION_IF GAME_IS ~bgee bg2ee iwdee eet~ BEGIN
+    LOAD_TRA ~A7#ImprovedArcher/languages/english/kit-ee.tra~
+    LOAD_TRA ~A7#ImprovedArcher/languages/%LANGUAGE%/kit-ee.tra~
+  END
+
+  ACTION_DEFINE_ARRAY a7#noconvert BEGIN setup END
+  ACTION_DEFINE_ARRAY a7#reload BEGIN kit kit-ee END
+  LAF HANDLE_CHARSETS
+    INT_VAR
+      infer_charset = 1
+    STR_VAR
+      tra_path        = ~A7#ImprovedArcher/languages~
+      noconvert_array = a7#noconvert
+      reload_array    = a7#reload
+  END
+END
+
+README ~A7#ImprovedArcher/readme/readme.%LANGUAGE%.txt~
+       ~A7#ImprovedArcher/readme/readme.txt~
+
+LANGUAGE ~English~
+         ~english~ 
+         ~A7#ImprovedArcher/languages/english/setup.tra~
+         ~A7#ImprovedArcher/languages/english/kit.tra~
+LANGUAGE ~German~
+         ~german~ 
+         ~A7#ImprovedArcher/languages/english/setup.tra~
+         ~A7#ImprovedArcher/languages/english/kit.tra~
+         ~A7#ImprovedArcher/languages/german/setup.tra~
+         ~A7#ImprovedArcher/languages/german/kit.tra~
+LANGUAGE ~Russian (Translation by Saigon1983)~
+         ~russian~ 
+         ~A7#ImprovedArcher/languages/english/setup.tra~
+         ~A7#ImprovedArcher/languages/english/kit.tra~
+         ~A7#ImprovedArcher/languages/russian/setup.tra~
+         ~A7#ImprovedArcher/languages/russian/kit.tra~
+
+
+BEGIN @1    // Improved Archer Kit
+  REQUIRE_PREDICATE GAME_IS ~tob bgt bgee bg2ee iwdee eet~ @3   // This mod requires BG2:ToB, BG:EE, BG2:EE or IWD:EE to be installed.
+  DESIGNATED 0
+
+  INCLUDE ~A7#ImprovedArcher/lib/kit.tph~
+
+
+BEGIN @2    // Add +4 arrows, bolts and two powerful bows to the game
+  REQUIRE_PREDICATE GAME_IS ~tob bgt bg2ee iwdee eet~ @4    // This mod requires BG2:ToB, BG2:EE or IWD:EE to be installed.
+  DESIGNATED 100
+
+  INCLUDE ~A7#ImprovedArcher/lib/missiles.tph~
+  INCLUDE ~A7#ImprovedArcher/lib/bows.tph~
+

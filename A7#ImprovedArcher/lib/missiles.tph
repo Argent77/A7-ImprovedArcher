@@ -1,0 +1,66 @@
+// Installing +4 arrows bolts
+
+ACTION_IF (GAME_IS ~bgee bg2ee iwdee~) BEGIN
+  COPY ~A7#ImprovedArcher/kit/ee/A7#AROW1.BAM~ ~override~
+       ~A7#ImprovedArcher/kit/ee/A7#BOLT1.BAM~ ~override~
+END ELSE BEGIN
+  COPY ~A7#ImprovedArcher/kit/A7#AROW1.BAM~ ~override~
+       ~A7#ImprovedArcher/kit/A7#BOLT1.BAM~ ~override~
+END
+
+ACTION_IF (GAME_IS ~tob bgt bg2ee~) BEGIN
+  COPY_EXISTING ~AROW15.ITM~ ~override~
+    SAY IDENTIFIED_DESC @1113   // These enchanted missiles surpass the craftsmanship of...
+
+  COPY_EXISTING ~BOLT09.ITM~ ~override~
+    SAY IDENTIFIED_DESC @1114   // These enchanted missiles surpass the craftsmanship of...
+END
+
+COPY ~A7#ImprovedArcher/kit/A7#AROW1.ITM~ ~override~
+  SAY NAME2 @1019   // Arrow +4
+  SAY IDENTIFIED_DESC @1115   // ...
+    PATCH_IF (GAME_IS ~iwdee~) BEGIN
+      WRITE_ASCII 0x58 ~~ #8    // Description image
+    END
+
+COPY ~A7#ImprovedArcher/kit/A7#BOLT1.ITM~ ~override~
+  SAY NAME2 @1020   // Bolt +4
+  SAY IDENTIFIED_DESC @1116   // ...
+    PATCH_IF (GAME_IS ~iwdee~) BEGIN
+      WRITE_ASCII 0x58 ~~ #8    // Description image
+    END
+
+
+// Adding bows, arrows and bolts to stores and creatures
+ACTION_IF (GAME_IS ~tob bgt bg2ee~) BEGIN
+  COPY_EXISTING ~AMSMUG01.STO~ ~override~
+                ~AMSMUG02.STO~ ~override~
+    ADD_STORE_ITEM ~A7#AROW1~ AFTER ~AROW15~ #40 #0 #0 ~IDENTIFIED~ #3
+    ADD_STORE_ITEM ~A7#BOLT1~ AFTER ~BOLT09~ #40 #0 #0 ~IDENTIFIED~ #3
+
+  COPY_EXISTING ~HGKAR01.STO~ ~override~
+                ~SARBAR01.STO~ ~override~
+    ADD_STORE_ITEM ~A7#AROW1~ AFTER ~AROW15~ #40 #0 #0 ~IDENTIFIED~ #20
+    ADD_STORE_ITEM ~A7#BOLT1~ AFTER ~BOLT09~ #40 #0 #0 ~IDENTIFIED~ #20
+
+  COPY_EXISTING ~AMMERC08.CRE~ ~override~
+                ~GORBAT2.CRE~ ~override~
+                ~GORCAMB5.CRE~ ~override~
+    ADD_CRE_ITEM ~A7#AROW1~ #20 #0 #0 ~none~ ~quiver1 quiver2 quiver3 quiver4 inv1 inv2 inv3 inv4 inv5 inv6 inv7 inv8 inv9 inv10 inv11 inv12 inv13 inv14 inv15 inv16~
+
+  COPY_EXISTING ~SENDAI3.CRE~ ~override~
+    ADD_CRE_ITEM ~A7#AROW1~ #40 #0 #0 ~none~ ~quiver1 quiver2 quiver3 quiver4 inv1 inv2 inv3 inv4 inv5 inv6 inv7 inv8 inv9 inv10 inv11 inv12 inv13 inv14 inv15 inv16~
+
+  COPY_EXISTING ~DROFOD03.CRE~ ~override~
+    ADD_CRE_ITEM ~A7#BOLT1~ #10 #0 #0 ~none~ ~quiver1 quiver2 quiver3 quiver4 inv1 inv2 inv3 inv4 inv5 inv6 inv7 inv8 inv9 inv10 inv11 inv12 inv13 inv14 inv15 inv16~
+
+  ACTION_IF (GAME_IS ~bg2ee~) BEGIN
+    COPY_EXISTING ~OHBSDWM.STO~ ~override~
+      ADD_STORE_ITEM ~A7#AROW1~ AFTER ~AROW15~ #40 #0 #0 ~IDENTIFIED~ #1
+      ADD_STORE_ITEM ~A7#BOLT1~ AFTER ~BOLT09~ #40 #0 #0 ~IDENTIFIED~ #1
+
+    COPY_EXISTING ~OHNSDWM.STO~ ~override~
+      ADD_STORE_ITEM ~A7#AROW1~ AFTER ~AROW15~ #40 #0 #0 ~IDENTIFIED~ #2
+      ADD_STORE_ITEM ~A7#BOLT1~ AFTER ~BOLT09~ #40 #0 #0 ~IDENTIFIED~ #2
+  END
+END

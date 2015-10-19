@@ -1,0 +1,86 @@
+// -*- coding: cp1252 -*-
+
+// Beschreibungen
+
+@1117 = ~Die Elfen von Evareska sind bekannt für ihren Isolationismus als auch für ihr Geschick und ihren Mut im Kampf. Einer ihrer bekanntesten Krieger in den Landen der Menschen war der unglaublich treffsichere Bariah Niedergold. Obwohl die Elfen die Legende weder bestätigen noch abstreiten, halten sich Geschichten bei den Menschen, dass Bariah nie ein Ziel im Kampf verfehlt hat. Sein Bogen, angefertigt von seiner Mutter, hat nie einen Namen erhalten der außerhalb der Elfengemeinschaft bekannt war. Die Menschen, die unter seiner Macht litten, nannten ihn den "großen Sonnengreifer", da sie glaubten, dass Bariahs Pfeile bis zur Sonne flogen. Bariahs Greif wurde bei einem Überfall, der bei den Elfen von Evareska bis zum heutigen Tag in schlechter Erinnerung geblieben ist, von unsichtbaren Magiern getötet. Obwohl nur ein Magier mit seinem Leben davon kam, konnte er den Bogen an sich reißen und mit in das Territorium der Menschen bringen.
+
+EIGENSCHAFTEN:
+
+2x pro Tag Schutz vor normalen Geschossen
+
+Feuert magische +3 Pfeile ab (mit +4 auf Trefferwürfe und 1w6 Schaden) sofern keine anderen Pfeile benutzt werden.
+
+ETW0-Bonus: +4
+Initiativefaktor: 2
+Fertigkeit: Langbogen
+Waffentyp: beidhändig
+Mindeststärke: 6
+
+Gewicht: 3~
+
+@1118 = ~Zu den Komposit-Bögen zählen Lang- und Kurzbögen, die aus mehreren unterschiedlichen Materialien bestehen. Dadurch wird der Bogen flexibler und von ihm verschossene Pfeile richten größeren Schaden an.
+Zusätzlich zu den mächtigen Verzauberungen besteht der Bogen aus einem besonders erlesenen Material, das ihm ein besonders strapazierfähiges Gerüst verleiht und selbst die stärksten Schläge abwehrt. Sein ergonomisches Design erlaubt den Schützen außerdem Pfeile in höherer Geschwindigkeit abzuschießen.
+
+EIGENSCHAFTEN:
+
++4 Bonus auf Rüstungsklasse gg. Nahkampfwaffen
+3 Schüsse pro Runde
+
+ETW0-Bonus: +6
+Schaden: +2 (Geschoss)
+Initiativefaktor: 2
+Fertigkeit: Langbogen
+Waffentyp: beidhändig
+Mindeststärke: 18
+
+Gewicht: 5~
+
+
+// Natürliche Fähigkeiten
+
+@2001 = ~Kraftschuss
+Alle Schüsse, die innerhalb der nächsten 12 Sekunden nach dem Einsetzen dieser Fertigkeit erfolgen, erhalten die folgenden Eigenschaften:
+ 8. Stufe: Ziel wird zurückgestoßen (Rettungswurf gg. Odemwaffen)
+ 12. Stufe: Ziel wird zurückgestoßen (Rettungswurf gg. Odemwaffen, +1 Malus)
+ 16. Stufe: Ziel wird zurückgestoßen (Rettungswurf gg. Odemwaffen, +2 Malus)
+ 20. Stufe: Ziel wird zurückgestoßen (Rettungswurf gg. Odemwaffen, +3 Malus)~
+
+@2002 = ~Wurzelschuss
+Alle Schüsse, die innerhalb der nächsten 12 Sekunden nach dem Einsetzen dieser Fertigkeit erfolgen, erhalten die folgenden Eigenschaften:
+ 4. Stufe: Das Ziel wird für drei Runden verwickelt (Rettungswurf gg. Zauber).
+ 8. Stufe: Das Ziel wird für drei Runden verwickelt (Rettungswurf gg. Zauber, +1 Malus).
+ 12. Stufe: Das Ziel wird für vier Runden verwickelt (Rettungswurf gg. Zauber, +1 Malus).
+ 16. Stufe: Das Ziel wird für vier Runden verwickelt (Rettungswurf gg. Zauber, +2 Malus).
+ 20. Stufe: Das Ziel wird für fünf Runden verwickelt (Rettungswurf gg. Zauber, +2 Malus).~
+
+@2003 = ~Explosivschuss
+Alle Schüsse, die innerhalb der nächsten 12 Sekunden nach dem Einsetzen dieser Fertigkeit erfolgen, explodieren beim Aufprall und verursachen zusätzlich physischen Schaden bei Zielen in der unmittelbaren Umgebung mit den folgenden Eigenschaften:
+ 8. Stufe: 1w4 Schaden gegen Ziele in 8 m Radius
+ 12. Stufe: 1w4+2 Schaden gegen Ziele in 8 m Radius
+ 16. Stufe: 1w4+4 Schaden gegen Ziele in 8 m Radius
+ 20. Stufe: 1w4+6 Schaden gegen Ziele in 8 m Radius
+Vorsicht: Fügt sowohl Gegnern als auch Verbündeten und Unbeteiligten Schaden hinzu.~
+
+@2004 = ~Gesegnete Geschosse
+Erzeugt einen spirituellen Pfeil oder Bolzen mit der heiligen Macht der verehrten Gottheit des Bogenschützen. Das Geschoss ist 8 Stunden lang verfügbar, beinhaltet 20 Ladungen und die folgenden Eigenschaften:
+ 4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6 Schaden sowie Verlangsamen für zwei Runden (Rettungswurf gg. Tod).
+ 8. Stufe: +1 Verzauberung, +2 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+2 Schaden sowie Festhalten für zwei Runden (Rettungswurf gg. Tod).
+ 12. Stufe: +2 Verzauberung, +2 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+4 Schaden sowie sofortige Vernichtung (Rettungswurf gg. Tod).
+ 16. Stufe: +3 Verzauberung, +3 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+6 Schaden sowie sofortige Vernichtung (Rettungswurf gg. Tod, +2 Malus).
+ 20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+8 Schaden sowie sofortige Vernichtung (Rettungswurf gg. Tod, +4 Malus).~
+
+@2005 = ~Gesegnete Pfeile
+Erzeugt einen spirituellen Pfeil mit der heiligen Macht der verehrten Gottheit des Bogenschützen. Der Pfeil ist 8 Stunden lang verfügbar, beinhaltet 20 Ladungen und die folgenden Eigenschaften:
+ 4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6 Schaden sowie Verlangsamen für zwei Runden (Rettungswurf gg. Tod).
+ 8. Stufe: +1 Verzauberung, +2 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+2 Schaden sowie Festhalten für zwei Runden (Rettungswurf gg. Tod).
+ 12. Stufe: +2 Verzauberung, +2 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+4 Schaden sowie sofortige Vernichtung (Rettungswurf gg. Tod).
+ 16. Stufe: +3 Verzauberung, +3 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+6 Schaden sowie sofortige Vernichtung (Rettungswurf gg. Tod, +2 Malus).
+ 20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+8 Schaden sowie sofortige Vernichtung (Rettungswurf gg. Tod, +4 Malus).~
+
+@2006 = ~Gesegnete Bolzen
+Erzeugt einen spirituellen Bolzen mit der heiligen Macht der verehrten Gottheit des Bogenschützen. Der Bolzen ist 8 Stunden lang verfügbar, beinhaltet 20 Ladungen und die folgenden Eigenschaften:
+ 4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6 Schaden sowie Verlangsamen für zwei Runden (Rettungswurf gg. Tod).
+ 8. Stufe: +1 Verzauberung, +2 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+2 Schaden sowie Festhalten für zwei Runden (Rettungswurf gg. Tod).
+ 12. Stufe: +2 Verzauberung, +2 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+4 Schaden sowie sofortige Vernichtung (Rettungswurf gg. Tod).
+ 16. Stufe: +3 Verzauberung, +3 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+6 Schaden sowie sofortige Vernichtung (Rettungswurf gg. Tod, +2 Malus).
+ 20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+8 Schaden sowie sofortige Vernichtung (Rettungswurf gg. Tod, +4 Malus).~

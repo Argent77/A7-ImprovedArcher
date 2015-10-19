@@ -1,0 +1,161 @@
+// Installing two powerful bows
+
+ACTION_IF (GAME_IS ~bgee bg2ee iwdee~) BEGIN
+  COPY ~A7#ImprovedArcher/kit/ee/A7#BOW01.BAM~ ~override~
+       ~A7#ImprovedArcher/kit/ee/A7#BOW02.BAM~ ~override~
+END ELSE BEGIN
+  COPY ~A7#ImprovedArcher/kit/A7#BOW01.BAM~ ~override~
+       ~A7#ImprovedArcher/kit/A7#BOW02.BAM~ ~override~
+END
+
+COPY ~A7#ImprovedArcher/kit/A7#BOW01.ITM~ ~override~
+  SAY NAME2 @1021   // Great Sun-Reacher +4
+  SAY IDENTIFIED_DESC @1117   // The elves of Evereska are known for their...
+    PATCH_IF (GAME_IS ~iwdee~) BEGIN
+      WRITE_LONG 0x34 16000     // Higher price in IWD
+      WRITE_ASCII 0x58 ~~ #8    // Description image
+    END
+
+COPY ~A7#ImprovedArcher/kit/A7#BOW02.ITM~ ~override~
+  SAY NAME2 @1022   // The Defender +5
+  SAY IDENTIFIED_DESC @1118   // Composite longbows are bows whose staves are made from...
+    PATCH_IF (GAME_IS ~iwdee~) BEGIN
+      WRITE_LONG 0x34 9000      // Higher price in IWD
+      WRITE_ASCII 0x58 ~~ #8    // Description image
+    END
+
+
+// Adding longbow
+ACTION_IF (GAME_IS ~tob bgt bg2ee~) BEGIN
+  COPY_EXISTING ~TELTIEF2.CRE~ ~override~
+    ADD_CRE_ITEM ~A7#BOW01~ #0 #0 #0 ~none~ ~inv1 inv2 inv3 inv4 inv5 inv6 inv7 inv8 inv9 inv10 inv11 inv12 inv13 inv14 inv15 inv16~
+    ADD_CRE_ITEM ~A7#AROW1~ #40 #0 #0 ~none~ ~quiver1 quiver2 quiver3 quiver4 inv1 inv2 inv3 inv4 inv5 inv6 inv7 inv8 inv9 inv10 inv11 inv12 inv13 inv14 inv15 inv16~
+END ELSE ACTION_IF (GAME_IS ~iwdee~) BEGIN
+  <<<<<<<< A7#ImprovedArcher/inlined/ar2100.baf
+  IF
+    Global("A7#BowAdded", "MYAREA", 0)
+    GlobalGT("Chapter", "GLOBAL", 3)
+  THEN RESPONSE #100
+    SetGlobal("A7#BowAdded", "MYAREA", 1)
+    AddStoreItem("KUSMITH", "A7#BOW01", 1, 1)
+    AddStoreItem("KUSMITH", "A7#BOW02", 1, 1)
+    AddStoreItem("KUSMITH", "A7#AROW1", 240, 1)
+    AddStoreItem("KUSMITH", "A7#BOLT1", 120, 1)
+    Continue()
+  END
+  >>>>>>>>
+  EXTEND_BOTTOM ~AR2100.BCS~ ~A7#ImprovedArcher/inlined/ar2100.baf~
+END
+
+
+// Adding composite longbow
+ACTION_IF (MOD_IS_INSTALLED "setup-A7#ImprovedArcher.tp2" "100") BEGIN
+  OUTER_TEXT_SPRINT A7ARROW ~A7#AROW1~
+END ELSE BEGIN
+  OUTER_TEXT_SPRINT A7ARROW ~AROW15~
+END
+
+ACTION_IF (GAME_IS ~tob bgt bg2ee~) BEGIN
+  COPY_EXISTING ~AR6100.ARE~ ~override~
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 1949
+      fj_loc_y          = 234
+      fj_type           = 8   // nonvisible
+      fj_lock_diff      = 0
+      fj_box_left       = 1945
+      fj_box_top        = 171
+      fj_box_right      = 2000
+      fj_box_bottom     = 225
+      fj_vertex_0       = 1948 + (220 << 16)
+      fj_vertex_1       = 1965 + (225 << 16)
+      fj_vertex_2       = 1979 + (220 << 16)
+      fj_vertex_3       = 1993 + (203 << 16)
+      fj_vertex_4       = 2000 + (185 << 16)
+      fj_vertex_5       = 1967 + (171 << 16)
+      fj_vertex_6       = 1951 + (190 << 16)
+      fj_vertex_7       = 1945 + (204 << 16)
+      STR_VAR
+      fj_structure_type = ~container~
+      fj_name           = ~A7#Grave1~
+    END
+    LPF fj_are_structure
+      INT_VAR
+      fj_con_itm_idx    = SHORT_AT 0x74 - 1
+      fj_charge0        = 1
+      STR_VAR
+      fj_structure_type = ~itm~
+      fj_name           = ~A7#BOW02~
+    END
+    LPF fj_are_structure
+      INT_VAR
+      fj_con_itm_idx    = SHORT_AT 0x74 - 1
+      fj_charge0        = 40
+      STR_VAR
+      fj_structure_type = ~itm~
+      fj_name           = EVALUATE_BUFFER ~%A7ARROW%~
+    END
+    LPF fj_are_structure
+      INT_VAR
+      fj_con_itm_idx    = SHORT_AT 0x74 - 1
+      fj_charge0        = 20
+      STR_VAR
+      fj_structure_type = ~itm~
+      fj_name           = ~AROW08~    // Arrows of Fire
+    END
+    LPF fj_are_structure
+      INT_VAR
+      fj_con_itm_idx    = SHORT_AT 0x74 - 1
+      fj_charge0        = 280
+      STR_VAR
+      fj_structure_type = ~itm~
+      fj_name           = ~MISC07~    // Gold
+    END
+
+    LPF fj_are_structure
+      INT_VAR
+      fj_loc_x          = 2035
+      fj_loc_y          = 276
+      fj_type           = 8   // nonvisible
+      fj_lock_diff      = 0
+      fj_box_left       = 2035
+      fj_box_top        = 199
+      fj_box_right      = 2095
+      fj_box_bottom     = 266
+      fj_vertex_0       = 2037 + (258 << 16)
+      fj_vertex_1       = 2053 + (266 << 16)
+      fj_vertex_2       = 2072 + (256 << 16)
+      fj_vertex_3       = 2082 + (246 << 16)
+      fj_vertex_4       = 2095 + (216 << 16)
+      fj_vertex_5       = 2055 + (199 << 16)
+      fj_vertex_6       = 2041 + (220 << 16)
+      fj_vertex_7       = 2035 + (240 << 16)
+      STR_VAR
+      fj_structure_type = ~container~
+      fj_name           = ~A7#Grave2~
+    END
+    LPF fj_are_structure
+      INT_VAR
+      fj_con_itm_idx    = SHORT_AT 0x74 - 1
+      fj_charge0        = 2
+      STR_VAR
+      fj_structure_type = ~itm~
+      fj_name           = ~POTN55~    // Potion of Superior Healing
+    END
+    LPF fj_are_structure
+      INT_VAR
+      fj_con_itm_idx    = SHORT_AT 0x74 - 1
+      fj_charge0        = 1
+      STR_VAR
+      fj_structure_type = ~itm~
+      fj_name           = ~MISC42~    // Diamond
+    END
+    LPF fj_are_structure
+      INT_VAR
+      fj_con_itm_idx    = SHORT_AT 0x74 - 1
+      fj_charge0        = 65
+      STR_VAR
+      fj_structure_type = ~itm~
+      fj_name           = ~MISC07~    // Gold
+    END
+END

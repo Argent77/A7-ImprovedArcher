@@ -1,0 +1,312 @@
+// -*- coding: cp1252 -*-
+
+// Zauberbezogene Einträge
+@1000 = ~Kraftschuss~
+@1001 = ~Wurzelschuss~
+@1002 = ~Explosivschuss~
+@1003 = ~Gesegnete Geschosse~
+@1004 = ~Gesegnete Pfeile~
+@1005 = ~Gesegnete Bolzen~
+@1006 = ~Gesegneter Pfeil +1~
+@1007 = ~Gesegneter Pfeil +2~
+@1008 = ~Gesegneter Pfeil +3~
+@1009 = ~Gesegneter Pfeil +4~
+@1010 = ~Gesegneter Bolzen +1~
+@1011 = ~Gesegneter Bolzen +2~
+@1012 = ~Gesegneter Bolzen +3~
+@1013 = ~Gesegneter Bolzen +4~
+@1014 = ~Gesegnete Pfeile erschaffen~
+@1015 = ~Gesegnete Bolzen erschaffen~
+@1016 = ~Du kannst keine weiteren Schussfertigkeiten nutzen solange der derzeitige Effekt aktiv ist.~
+@1017 = ~Sicherer Schuss~
+@1018 = ~Geschossfalle~
+@1019 = ~Pfeil +4~
+@1020 = ~Bolzen +4~
+@1021 = ~Großer Sonnengreifer +3~
+@1022 = ~Der Verteidiger +5~
+
+// Beschreibungen
+@1100 = ~Bogenschütze: Der Bogenschütze ist ein Meister im Umgang mit dem Bogen. Diesem ultimativen Scharfschützen gelingt praktisch jeder Schuss, egal wie schwierig er ist. Da er sich so stark auf den Umgang mit dem Bogen spezialisiert hat, musste er sein Training mit Nahkampfwaffen und Rüstungen vernachlässigen.
+
+Vorteile:
+- alle 3 Stufen +1 auf Trefferwürfe und Schaden mit Geschosswaffen.
+- alle 6 Stufen +1 auf Rüstungsklasse gegen Geschosswaffen.
+- kann sich in den Fertigkeiten Lang- und Kurzbogen sowie Armbrust bis zur Großmeisterschaft spezialisieren (5 Punkte).
+- Wurzelschuss-Fertigkeit (1x täglich für je 4 Stufen). Kann nicht zusammen mit anderen Schussfertigkeiten verwendet werden.
+- Kraftschuss-Fertigkeit (1x täglich für je 4 Stufen, ab Stufe 8). Kann nicht zusammen mit anderen Schussfertigkeiten verwendet werden.
+- Explosivschuss-Fertigkeit (1x täglich für je 4 Stufen, ab Stufe 8). Kann nicht zusammen mit anderen Schussfertigkeiten verwendet werden.
+- Gesegnete Geschosse (1x täglich für je 4 Stufen).
+
+WURZELSCHUSS: Alle Schüsse, die innerhalb der nächsten 12 Sekunden nach dem Einsetzen dieser Fertigkeit erfolgen, erhalten die folgenden Eigenschaften:
+ 4. Stufe: Das Ziel wird für drei Runden verwickelt (Rettungswurf gg. Zauber).
+ 8. Stufe: Das Ziel wird für drei Runden verwickelt (Rettungswurf gg. Zauber, +1 Malus).
+ 12. Stufe: Das Ziel wird für vier Runden verwickelt (Rettungswurf gg. Zauber, +1 Malus).
+ 16. Stufe: Das Ziel wird für vier Runden verwickelt (Rettungswurf gg. Zauber, +2 Malus).
+ 20. Stufe: Das Ziel wird für fünf Runden verwickelt (Rettungswurf gg. Zauber, +2 Malus).
+
+KRAFTSCHUSS: Alle Schüsse, die innerhalb der nächsten 12 Sekunden nach dem Einsetzen dieser Fertigkeit erfolgen, erhalten die folgenden Eigenschaften:
+ 8. Stufe: Ziel wird zurückgestoßen (Rettungswurf gg. Odemwaffen)
+ 12. Stufe: Ziel wird zurückgestoßen (Rettungswurf gg. Odemwaffen, +1 Malus)
+ 16. Stufe: Ziel wird zurückgestoßen (Rettungswurf gg. Odemwaffen, +2 Malus)
+ 20. Stufe: Ziel wird zurückgestoßen (Rettungswurf gg. Odemwaffen, +3 Malus)
+
+EXPLOSIVSCHUSS: Alle Schüsse, die innerhalb der nächsten 12 Sekunden nach dem Einsetzen dieser Fertigkeit erfolgen, explodieren beim Aufprall und verursachen zusätzlich physischen Schaden bei Zielen in der unmittelbaren Umgebung mit den folgenden Eigenschaften:
+ 8. Stufe: 1w4 Schaden gegen Ziele in 8 m Radius
+ 12. Stufe: 1w4+2 Schaden gegen Ziele in 8 m Radius
+ 16. Stufe: 1w4+4 Schaden gegen Ziele in 8 m Radius
+ 20. Stufe: 1w4+6 Schaden gegen Ziele in 8 m Radius
+Vorsicht: Fügt sowohl Gegnern als auch Verbündeten und Unbeteiligten Schaden hinzu.
+
+GESEGNETE GESCHOSSE: Erzeugt einen spirituellen Pfeil oder Bolzen mit der heiligen Macht der verehrten Gottheit des Bogenschützen. Das Geschoss ist 8 Stunden lang verfügbar, beinhaltet 20 Ladungen und die folgenden Eigenschaften:
+ 4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6 Schaden sowie Verlangsamen für zwei Runden (Rettungswurf gg. Tod).
+ 8. Stufe: +1 Verzauberung, +2 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+2 Schaden sowie Festhalten für zwei Runden (Rettungswurf gg. Tod).
+ 12. Stufe: +2 Verzauberung, +2 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+4 Schaden sowie sofortige Vernichtung (Rettungswurf gg. Tod).
+ 16. Stufe: +3 Verzauberung, +3 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+6 Schaden sowie sofortige Vernichtung (Rettungswurf gg. Tod, +2 Malus).
+ 20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+8 Schaden sowie sofortige Vernichtung (Rettungswurf gg. Tod, +4 Malus).
+
+Nachteile:
+- -1 auf Konstitution.
+- kann keine Metallrüstungen tragen.
+- kann nur je einen Fertigkeitspunkt in Nahkampfwaffen investieren.~
+
+@1101 = ~Dieser Pfeil wurde von der verehrten Gottheit des Bogenschützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art.
+Die heilige Verzauberung des Pfeils dauert bis zu 8 Stunden an und ermöglicht dem Bogenschützen bis zu 20 Schüsse abzugeben. Danach verliert der Pfeil seine physische Form.
+
+EIGENSCHAFTEN:
+
+Untote müssen Rettungswurf gg. Tod bestehen oder werden für zwei Runden verlangsamt.
+
+Verzauberung: +1
+ETW0-Bonus: +1
+Schaden: 1w6+1, zusätzlich 1w6 Schaden gg. Untote
+Schadenstyp: Geschoss
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1102 = ~Dieser Pfeil wurde von der verehrten Gottheit des Bogenschützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art.
+Die heilige Verzauberung des Pfeils dauert bis zu 8 Stunden an und ermöglicht dem Bogenschützen bis zu 20 Schüsse abzugeben. Danach verliert der Pfeil seine physische Form.
+
+EIGENSCHAFTEN:
+
+Untote müssen Rettungswurf gg. Tod bestehen oder werden für zwei Runden festgehalten.
+
+Verzauberung: +1
+ETW0-Bonus: +2
+Schaden: 1w6+2, zusätzlich 1w6+2 Schaden gg. Untote
+Schadenstyp: Geschoss
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1103 = ~Dieser Pfeil wurde von der verehrten Gottheit des Bogenschützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
+Die heilige Verzauberung des Pfeils dauert bis zu 8 Stunden an und ermöglicht dem Bogenschützen bis zu 20 Schüsse abzugeben. Danach verliert der Pfeil seine physische Form.
+
+EIGENSCHAFTEN:
+
+Untote müssen Rettungswurf gg. Tod bestehen oder werden zerstört.
+
+Verzauberung: +2
+ETW0-Bonus: +2
+Schaden: 1w6+2, zusätzlich 1w6+4 Schaden gg. Untote
+Schadenstyp: Geschoss
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1104 = ~Dieser Pfeil wurde von der verehrten Gottheit des Bogenschützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
+Die heilige Verzauberung des Pfeils dauert bis zu 8 Stunden an und ermöglicht dem Bogenschützen bis zu 20 Schüsse abzugeben. Danach verliert der Pfeil seine physische Form.
+
+EIGENSCHAFTEN:
+
+Untote müssen Rettungswurf gg. Tod (+2 Malus) bestehen oder werden zerstört.
+
+Verzauberung: +3
+ETW0-Bonus: +3
+Schaden: 1w6+3, zusätzlich 1w6+6 Schaden gg. Untote
+Schadenstyp: Geschoss
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1105 = ~Dieser Pfeil wurde von der verehrten Gottheit des Bogenschützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
+Die heilige Verzauberung des Pfeils dauert bis zu 8 Stunden an und ermöglicht dem Bogenschützen bis zu 20 Schüsse abzugeben. Danach verliert der Pfeil seine physische Form.
+
+EIGENSCHAFTEN:
+
+Untote müssen Rettungswurf gg. Tod (+4 Malus) bestehen oder werden zerstört.
+
+Verzauberung: +4
+ETW0-Bonus: +4
+Schaden: 1w6+4, zusätzlich 1w6+8 Schaden gg. Untote
+Schadenstyp: Geschoss
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1106 = ~Dieser Bolzen wurde von der verehrten Gottheit des Bogenschützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art.
+Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Bogenschützen bis zu 20 Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
+
+EIGENSCHAFTEN:
+
+Untote müssen Rettungswurf gg. Tod bestehen oder werden für zwei Runden verlangsamt.
+
+Verzauberung: +1
+ETW0-Bonus: +1
+Schaden: 1w8+1, zusätzlich 1w6 Schaden gg. Untote
+Schadenstyp: Geschoss
+Schusswaffe: Armbrust
+
+Gewicht: 0~
+
+@1107 = ~Dieser Bolzen wurde von der verehrten Gottheit des Bogenschützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art.
+Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Bogenschützen bis zu 20 Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
+
+EIGENSCHAFTEN:
+
+Untote müssen Rettungswurf gg. Tod bestehen oder werden für zwei Runden festgehalten.
+
+Verzauberung: +1
+ETW0-Bonus: +2
+Schaden: 1w8+2, zusätzlich 1w6+2 Schaden gg. Untote
+Schadenstyp: Geschoss
+Schusswaffe: Armbrust
+
+Gewicht: 0~
+
+@1108 = ~Dieser Bolzen wurde von der verehrten Gottheit des Bogenschützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
+Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Bogenschützen bis zu 20 Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
+
+EIGENSCHAFTEN:
+
+Untote müssen Rettungswurf gg. Tod bestehen oder werden zerstört.
+
+Verzauberung: +2
+ETW0-Bonus: +2
+Schaden: 1w8+2, zusätzlich 1w6+4 Schaden gg. Untote
+Schadenstyp: Geschoss
+Schusswaffe: Armbrust
+
+Gewicht: 0~
+
+@1109 = ~Dieser Bolzen wurde von der verehrten Gottheit des Bogenschützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
+Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Bogenschützen bis zu 20 Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
+
+EIGENSCHAFTEN:
+
+Untote müssen Rettungswurf gg. Tod (+2 Malus) bestehen oder werden zerstört.
+
+Verzauberung: +3
+ETW0-Bonus: +3
+Schaden: 1w8+3, zusätzlich 1w6+6 Schaden gg. Untote
+Schadenstyp: Geschoss
+Schusswaffe: Armbrust
+
+Gewicht: 0~
+
+@1110 = ~Dieser Bolzen wurde von der verehrten Gottheit des Bogenschützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
+Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Bogenschützen bis zu 20 Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
+
+EIGENSCHAFTEN:
+
+Untote müssen Rettungswurf gg. Tod (+4 Malus) bestehen oder werden zerstört.
+
+Verzauberung: +4
+ETW0-Bonus: +4
+Schaden: 1w8+4, zusätzlich 1w6+8 Schaden gg. Untote
+Schadenstyp: Geschoss
+Schusswaffe: Armbrust
+
+Gewicht: 0~
+
+@1111 = ~Sicherer Schuss
+Hochstufige Bogenschützen haben gelernt, sich perfekt auf ihre Fernkampfwaffe einzustellen. Dadurch sind sie in der Lage, mit erschreckender Genauigkeit und Geschwindigkeit Schwachpunkte ihrer Gegner zu ermitteln und ins Ziel zu nehmen. Mit dieser Fertigkeit geht der Bogenschütze in Stellung und feuert Geschosse in schneller Folge ab. Für die nächsten 12 Sekunden nach Einsetzen dieser Fertigkeit wird die Anzahl der Angriffe pro Runde auf 10 gesetzt und jeder Schuss richtet kritischen Schaden an.
+Da diese Technik allerhöchste Konzentration abverlangt, kann sich der Bogenschütze in dieser Zeit nicht vom Fleck bewegen. Kann nicht zusammen mit anderen Schussfertigkeiten verwendet werden.
+
+Voraussetzung: Kritischer Schlag~
+
+@1112 = ~Geschossfalle stellen
+Mit Hilfe dieser Fertigkeit kann der Bogenschütze eine federgelagerte Geschossfalle stellen sofern keine feindlichen Kreaturen in Sicht sind. Sie verursacht beim Opfer 3w10 physischen Geschossschaden sowie jeweils 1w10 Schaden in diversen Elementen.~
+
+@1113 = ~Die Qualität dieser verzauberten Geschosse übertreffen die Handwerkskunst der meisten Pfeile die Du jemals gesehen hast.
+
+EIGENSCHAFTEN:
+
+ETW0-Bonus: +3
+Schaden: 1w6 (Geschoss)
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1114 = ~Die Qualität dieser verzauberten Geschosse übertreffen die Handwerkskunst der meisten Bolzen die Du jemals gesehen hast.
+
+EIGENSCHAFTEN:
+
+ETW0-Bonus: +3
+Schaden: 1w8 (Geschoss)
+Schusswaffe: Armbrust
+
+Gewicht: 0~
+
+@1115 = ~Die Qualität dieser verzauberten Geschosse übertreffen die Handwerkskunst der meisten Pfeile die Du jemals gesehen hast.
+
+EIGENSCHAFTEN:
+
+ETW0-Bonus: +4
+Schaden: 1w6 (Geschoss)
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1116 = ~Die Qualität dieser verzauberten Geschosse übertreffen die Handwerkskunst der meisten Bolzen die Du jemals gesehen hast.
+
+EIGENSCHAFTEN:
+
+ETW0-Bonus: +4
+Schaden: 1w8 (Geschoss)
+Schusswaffe: Armbrust
+
+Gewicht: 0~
+
+@1117 = ~Die Elfen von Evareska sind bekannt für ihren Isolationismus als auch für ihr Geschick und ihren Mut im Kampf. Einer ihrer bekanntesten Krieger in den Landen der Menschen war der unglaublich treffsichere Bariah Niedergold. Obwohl die Elfen die Legende weder bestätigen noch abstreiten, halten sich Geschichten bei den Menschen, dass Bariah nie ein Ziel im Kampf verfehlt hat. Sein Bogen, angefertigt von seiner Mutter, hat nie einen Namen erhalten der außerhalb der Elfengemeinschaft bekannt war. Die Menschen, die unter seiner Macht litten, nannten ihn den "großen Sonnengreifer", da sie glaubten, dass Bariahs Pfeile bis zur Sonne flogen. Bariahs Greif wurde bei einem Überfall, der bei den Elfen von Evareska bis zum heutigen Tag in schlechter Erinnerung geblieben ist, von unsichtbaren Magiern getötet. Obwohl nur ein Magier mit seinem Leben davon kam, konnte er den Bogen an sich reißen und mit in das Territorium der Menschen bringen.
+
+EIGENSCHAFTEN:
+
+2x pro Tag Schutz vor normalen Geschossen
+
+Feuert magische +3 Pfeile ab (mit +4 auf Trefferwürfe und 1w6 Schaden) sofern keine anderen Pfeile benutzt werden.
+
+ETW0-Bonus: +4
+Gewicht: 3
+Initiativefaktor: 2
+Fertigkeit: Langbogen
+Waffentyp: beidhändig
+Mindeststärke: 6
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Dieben~
+
+@1118 = ~Zu den Komposit-Bögen zählen Lang- und Kurzbögen, die aus mehreren unterschiedlichen Materialien bestehen. Dadurch wird der Bogen flexibler und von ihm verschossene Pfeile richten größeren Schaden an.
+Zusätzlich zu den mächtigen Verzauberungen besteht der Bogen aus einem besonders erlesenen Material, das ihm ein besonders strapazierfähiges Gerüst verleiht und selbst die stärksten Schläge abwehrt. Sein ergonomisches Design erlaubt den Schützen außerdem Pfeile in höherer Geschwindigkeit abzuschießen.
+
+EIGENSCHAFTEN:
+
++4 Bonus auf Rüstungsklasse gg. Nahkampfwaffen
+3 Schüsse pro Runde
+
+ETW0-Bonus: +6
+Schaden: +2 (Geschoss)
+Gewicht: 5
+Initiativefaktor: 2
+Fertigkeit: Langbogen
+Waffentyp: beidhändig
+Mindeststärke: 18
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Dieben
+ Barden~
+
