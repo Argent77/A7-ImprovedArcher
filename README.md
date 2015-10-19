@@ -1,7 +1,5 @@
 #Improved Archer Kit
 
-**Version:** 2.1
-
 **Author:**  Argent77
 
 
