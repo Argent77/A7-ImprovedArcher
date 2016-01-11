@@ -1,6 +1,6 @@
 // Installing two powerful bows
 
-ACTION_IF (GAME_IS ~bgee bg2ee iwdee~) BEGIN
+ACTION_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
   COPY ~A7#ImprovedArcher/kit/ee/A7#BOW01.BAM~ ~override~
        ~A7#ImprovedArcher/kit/ee/A7#BOW02.BAM~ ~override~
 END ELSE BEGIN
@@ -26,7 +26,7 @@ COPY ~A7#ImprovedArcher/kit/A7#BOW02.ITM~ ~override~
 
 
 // Adding longbow
-ACTION_IF (GAME_IS ~tob bgt bg2ee~) BEGIN
+ACTION_IF (GAME_IS ~tob bgt bg2ee eet~) BEGIN
   COPY_EXISTING ~TELTIEF2.CRE~ ~override~
     ADD_CRE_ITEM ~A7#BOW01~ #0 #0 #0 ~none~ ~inv1 inv2 inv3 inv4 inv5 inv6 inv7 inv8 inv9 inv10 inv11 inv12 inv13 inv14 inv15 inv16~
     ADD_CRE_ITEM ~A7#AROW1~ #40 #0 #0 ~none~ ~quiver1 quiver2 quiver3 quiver4 inv1 inv2 inv3 inv4 inv5 inv6 inv7 inv8 inv9 inv10 inv11 inv12 inv13 inv14 inv15 inv16~
@@ -55,7 +55,7 @@ END ELSE BEGIN
   OUTER_TEXT_SPRINT A7ARROW ~AROW15~
 END
 
-ACTION_IF (GAME_IS ~tob bgt bg2ee~) BEGIN
+ACTION_IF (GAME_IS ~tob bgt bg2ee eet~) BEGIN
   COPY_EXISTING ~AR6100.ARE~ ~override~
     LPF fj_are_structure
       INT_VAR

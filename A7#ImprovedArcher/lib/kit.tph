@@ -86,7 +86,7 @@ COPY_EXISTING ~LUABBR.2DA~ ~override~
     END
   END
 
-ACTION_IF (GAME_IS ~bgee bg2ee iwdee~) BEGIN
+ACTION_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
   // Updating Archer description
   COPY_EXISTING ~CLASTEXT.2DA~ ~override~
     COUNT_2DA_COLS numCols
@@ -199,7 +199,7 @@ COPY ~A7#ImprovedArcher/kit/A7#IN04.2DA~  ~override~
 // Ability: Power Shot
 COPY ~A7#ImprovedArcher/kit/A7#IN01.SPL~ ~override~
   SAY NAME1 @1000   // Power Shot
-  PATCH_IF (GAME_IS ~bgee bg2ee iwdee~) BEGIN
+  PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
     SAY UNIDENTIFIED_DESC @2001   // Power Shot...
   END
 
@@ -207,7 +207,7 @@ COPY ~A7#ImprovedArcher/kit/A7#IN01.SPL~ ~override~
 // Ability: Rooted Shot
 COPY ~A7#ImprovedArcher/kit/A7#IN02.SPL~ ~override~
   SAY NAME1 @1001   // Rooted Shot
-  PATCH_IF (GAME_IS ~bgee bg2ee iwdee~) BEGIN
+  PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
     SAY UNIDENTIFIED_DESC @2002   // Rooted Shot...
   END
 
@@ -216,7 +216,7 @@ COPY ~A7#ImprovedArcher/kit/A7#IN02.SPL~ ~override~
 ADD_PROJECTILE ~A7#ImprovedArcher/kit/A7#IN03.PRO~
 COPY ~A7#ImprovedArcher/kit/A7#IN03.SPL~ ~override~
   SAY NAME1 @1002   // Explosive Shot
-  PATCH_IF (GAME_IS ~bgee bg2ee iwdee~) BEGIN
+  PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
     SAY UNIDENTIFIED_DESC @2003   // Explosive Shot...
   END
 COPY ~A7#ImprovedArcher/kit/A7#IN31A.SPL~  ~override~
@@ -247,13 +247,13 @@ COPY_EXISTING ~A7#IN01.SPL~ ~override~
 // Ability: Create Blessed Ammunition
 COPY ~A7#ImprovedArcher/kit/A7#IN04.SPL~ ~override~
   SAY NAME1 @1003   // Create Blessed Ammunition
-  PATCH_IF (GAME_IS ~bgee bg2ee iwdee~) BEGIN
+  PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
     SAY UNIDENTIFIED_DESC @2004   // Create Spiritual Ammunition...
   END
 
 COPY ~%spl_arrow%~ ~override~
   SAY NAME1 @1004   // Create Blessed Arrows
-  PATCH_IF (GAME_IS ~bgee bg2ee iwdee~) BEGIN
+  PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
     SAY UNIDENTIFIED_DESC @2005   // Create Spiritual Arrows...
   END
   READ_LONG 0x6a "effects_ofs"
@@ -267,7 +267,7 @@ COPY ~%spl_arrow%~ ~override~
 
 COPY ~%spl_bolt%~ ~override~
   SAY NAME1 @1005   // Create Blessed Bolts
-  PATCH_IF (GAME_IS ~bgee bg2ee iwdee~) BEGIN
+  PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
     SAY UNIDENTIFIED_DESC @2006   // Create Spiritual Bolts...
   END
   READ_LONG 0x6a "effects_ofs"
