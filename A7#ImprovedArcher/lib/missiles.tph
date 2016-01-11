@@ -1,6 +1,6 @@
 // Installing +4 arrows bolts
 
-ACTION_IF (GAME_IS ~bgee bg2ee iwdee~) BEGIN
+ACTION_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
   COPY ~A7#ImprovedArcher/kit/ee/A7#AROW1.BAM~ ~override~
        ~A7#ImprovedArcher/kit/ee/A7#BOLT1.BAM~ ~override~
 END ELSE BEGIN
@@ -8,7 +8,7 @@ END ELSE BEGIN
        ~A7#ImprovedArcher/kit/A7#BOLT1.BAM~ ~override~
 END
 
-ACTION_IF (GAME_IS ~tob bgt bg2ee~) BEGIN
+ACTION_IF (GAME_IS ~tob bgt bg2ee eet~) BEGIN
   COPY_EXISTING ~AROW15.ITM~ ~override~
     SAY IDENTIFIED_DESC @1113   // These enchanted missiles surpass the craftsmanship of...
 
@@ -32,7 +32,7 @@ COPY ~A7#ImprovedArcher/kit/A7#BOLT1.ITM~ ~override~
 
 
 // Adding bows, arrows and bolts to stores and creatures
-ACTION_IF (GAME_IS ~tob bgt bg2ee~) BEGIN
+ACTION_IF (GAME_IS ~tob bgt bg2ee eet~) BEGIN
   COPY_EXISTING ~AMSMUG01.STO~ ~override~
                 ~AMSMUG02.STO~ ~override~
     ADD_STORE_ITEM ~A7#AROW1~ AFTER ~AROW15~ #40 #0 #0 ~IDENTIFIED~ #3
@@ -54,7 +54,7 @@ ACTION_IF (GAME_IS ~tob bgt bg2ee~) BEGIN
   COPY_EXISTING ~DROFOD03.CRE~ ~override~
     ADD_CRE_ITEM ~A7#BOLT1~ #10 #0 #0 ~none~ ~quiver1 quiver2 quiver3 quiver4 inv1 inv2 inv3 inv4 inv5 inv6 inv7 inv8 inv9 inv10 inv11 inv12 inv13 inv14 inv15 inv16~
 
-  ACTION_IF (GAME_IS ~bg2ee~) BEGIN
+  ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
     COPY_EXISTING ~OHBSDWM.STO~ ~override~
       ADD_STORE_ITEM ~A7#AROW1~ AFTER ~AROW15~ #40 #0 #0 ~IDENTIFIED~ #1
       ADD_STORE_ITEM ~A7#BOLT1~ AFTER ~BOLT09~ #40 #0 #0 ~IDENTIFIED~ #1
