@@ -27,7 +27,7 @@ Components
 ~~~~~~~~~~
 
 The mod includes two components:
-1. Improved Archer Kit (supports BG2:ToB, BGT, BG:EE, BG2:EE and IWD:EE)
+1. Improved Archer Kit (supports BG2:ToB, BGT, BG:EE, BG:SoD, BG2:EE and IWD:EE)
 - Installs the Archer kit
 
 2. Add +4 arrows, bolts and two powerful bows to the game (supports BG2:ToB, BGT, BG2:EE and IWD:EE)
@@ -176,6 +176,10 @@ Not Usable By:
 
 History
 ~~~~~~~
+
+2.2 (2016-??-??)
+  - Added Siege of Dragonspear support
+  - Improved compatibility with Enhanced Edition patches v2.x
 
 2.1 (2015-03-29)
   - Changed location of a longbow from 1st level to 3rd level of Watcher's Keep

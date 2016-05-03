@@ -1,7 +1,7 @@
 // Installing Ranger -> Archer kit
 
-// Defines a work-around for a buggy implementation of opcode 122 (Create inventory item) in the Enhanced Editions
-ACTION_IF (GAME_IS ~bgee iwdee~) BEGIN
+// Defines a work-around for a buggy implementation of opcode 122 (Create inventory item) in the Enhanced Editions patch v1.x
+ACTION_IF (GAME_IS ~iwdee~) BEGIN
   OUTER_TEXT_SPRINT spl_arrow "A7#ImprovedArcher/kit/ee/A7#IN04A.SPL"
   OUTER_TEXT_SPRINT spl_bolt  "A7#ImprovedArcher/kit/ee/A7#IN04B.SPL"
 END ELSE BEGIN
@@ -11,18 +11,21 @@ END
 OUTER_SET help_strref = RESOLVE_STR_REF(@1100)    // Archer kit description
 
 // Updating Archer description and ability table
+OUTER_SET kit_id = "-1"
 COPY_EXISTING ~KITLIST.2DA~ ~override~
   COUNT_2DA_COLS numCols
   COUNT_2DA_ROWS numCols numRows
   SET found = 0
   FOR (row = 0; row < numRows && found < 1; row += 1) BEGIN
     READ_2DA_ENTRY row 1 numCols value
-    PATCH_IF (~%value%~ STRING_EQUAL_CASE ~FERALAN~) BEGIN
-      SET_2DA_ENTRY %row% 4 %numCols% ~%help_strref%~
-      SET_2DA_ENTRY %row% 5 %numCols% ~CLABA7R1~
+    PATCH_IF (~%value%~ STRING_EQUAL_CASE ~FERALAN~ || ~%value%~ STRING_EQUAL_CASE ~ARCHER~) BEGIN
+      READ_2DA_ENTRY row 0 numCols kit_id
+      SET_2DA_ENTRY row 4 numCols ~%help_strref%~
+      SET_2DA_ENTRY row 5 numCols ~CLABA7R1~
       found = 1
     END
   END
+BUT_ONLY
 
 // Limiting weapon styles
 COPY_EXISTING ~WEAPPROF.2DA~ ~override~
@@ -32,19 +35,20 @@ COPY_EXISTING ~WEAPPROF.2DA~ ~override~
   FOR (row = 0; row < numRows && found < 4; row += 1) BEGIN
     READ_2DA_ENTRY row 0 numCols value
     PATCH_IF (~%value%~ STRING_EQUAL_CASE ~2HANDED~) BEGIN
-      SET_2DA_ENTRY %row% 36 %numCols% ~1~
+      SET_2DA_ENTRY row 36 numCols ~1~
       found += 1
     END ELSE PATCH_IF (~%value%~ STRING_EQUAL_CASE ~SWORDANDSHIELD~) BEGIN
-      SET_2DA_ENTRY %row% 36 %numCols% ~1~
+      SET_2DA_ENTRY row 36 numCols ~1~
       found += 1
     END ELSE PATCH_IF (~%value%~ STRING_EQUAL_CASE ~SINGLEWEAPON~) BEGIN
-      SET_2DA_ENTRY %row% 36 %numCols% ~1~
+      SET_2DA_ENTRY row 36 numCols ~1~
       found += 1
     END ELSE PATCH_IF (~%value%~ STRING_EQUAL_CASE ~2WEAPON~) BEGIN
-      SET_2DA_ENTRY %row% 36 %numCols% ~2~
+      SET_2DA_ENTRY row 36 numCols ~2~
       found += 1
     END
   END
+BUT_ONLY
 
 // Modifying DEX and CON requirements
 COPY_EXISTING ~ABCLASRQ.2DA~ ~override~
@@ -54,11 +58,12 @@ COPY_EXISTING ~ABCLASRQ.2DA~ ~override~
   FOR (row = 0; row < numRows && found < 1; row += 1) BEGIN
     READ_2DA_ENTRY row 0 numCols value
     PATCH_IF (~%value%~ STRING_EQUAL_CASE ~FERALAN~) BEGIN
-      SET_2DA_ENTRY %row% 2 %numCols% ~14~
-      SET_2DA_ENTRY %row% 3 %numCols% ~13~
+      SET_2DA_ENTRY row 2 numCols ~14~
+      SET_2DA_ENTRY row 3 numCols ~13~
       found = 1
     END
   END
+BUT_ONLY
 
 // Setting CON penalty
 COPY_EXISTING ~ABCLSMOD.2DA~ ~override~
@@ -68,10 +73,11 @@ COPY_EXISTING ~ABCLSMOD.2DA~ ~override~
   FOR (row = 0; row < numRows && found < 1; row += 1) BEGIN
     READ_2DA_ENTRY row 0 numCols value
     PATCH_IF (~%value%~ STRING_EQUAL_CASE ~FERALAN~) BEGIN
-      SET_2DA_ENTRY %row% 3 %numCols% ~-1~
+      SET_2DA_ENTRY row 3 numCols ~-1~
       found = 1
     END
   END
+BUT_ONLY
 
 // Setting new HLA table
 COPY_EXISTING ~LUABBR.2DA~ ~override~
@@ -81,27 +87,63 @@ COPY_EXISTING ~LUABBR.2DA~ ~override~
   FOR (row = 0; row < numRows && found < 1; row += 1) BEGIN
     READ_2DA_ENTRY row 0 numCols value
     PATCH_IF (~%value%~ STRING_EQUAL_CASE ~FERALAN~) BEGIN
-      SET_2DA_ENTRY %row% 1 %numCols% ~A7ra1~
+      SET_2DA_ENTRY row 1 numCols ~A7ra1~
       found = 1
     END
   END
+BUT_ONLY
 
-ACTION_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
+ACTION_IF (GAME_IS ~bgee sod bg2ee eet iwdee~) BEGIN
   // Updating Archer description
   COPY_EXISTING ~CLASTEXT.2DA~ ~override~
     COUNT_2DA_COLS numCols
     COUNT_2DA_ROWS numCols numRows
     SET found = 0
     FOR (row = 0; row < numRows && found < 2; row += 1) BEGIN
-      READ_2DA_ENTRY row 0 numCols value
-      PATCH_IF (~%value%~ STRING_EQUAL_CASE ~ARCHER~) BEGIN
-        SET_2DA_ENTRY %row% 4 %numCols% ~%help_strref%~
-        found += 1
-      END ELSE PATCH_IF (~%value%~ STRING_EQUAL_CASE ~FALLEN_ARCHER~) BEGIN
-        SET_2DA_ENTRY %row% 4 %numCols% ~%help_strref%~
+      READ_2DA_ENTRY row 2 numCols id
+      PATCH_IF (kit_id >= 0 && id = kit_id) BEGIN
+        SET_2DA_ENTRY row 4 numCols ~%help_strref%~
         found += 1
       END
     END
+  BUT_ONLY
+
+  // Handling SoD class text
+  INCLUDE ~A7#ImprovedArcher/lib/campaigns.tph~
+  LAF CAMPAIGN_EXISTS RET exists END
+  ACTION_IF (exists != 0) BEGIN
+    LAF GET_CAMPAIGN_INFO RET cmp_clastext END
+    OUTER_TEXT_SPRINT clastext_file ~%cmp_clastext%.2DA~
+    ACTION_IF (FILE_EXISTS_IN_GAME ~%clastext_file%~) BEGIN
+      COPY_EXISTING ~%clastext_file%~ ~override~
+        COUNT_2DA_COLS numCols
+        COUNT_2DA_ROWS numCols numRows
+        SET found = 0
+        FOR (row = 0; row < numRows && found < 2; row += 1) BEGIN
+          READ_2DA_ENTRY row 2 numCols id
+          PATCH_IF (kit_id >= 0 && id = kit_id) BEGIN
+            SET_2DA_ENTRY row 4 numCols ~%help_strref%~
+            found += 1
+          END
+        END
+      BUT_ONLY
+    END
+  END
+
+  // In-game help
+  ACTION_IF (FILE_EXISTS_IN_GAME ~ENGINEST.2DA~) BEGIN
+    COPY_EXISTING ~ENGINEST.2DA~ ~override~
+      COUNT_2DA_COLS numCols
+      COUNT_2DA_ROWS numCols numRows
+      SET found = 0
+      FOR (row = 0; row < numRows && found < 2; row += 1) BEGIN
+        READ_2DA_ENTRY row 0 numCols value
+        PATCH_IF (~%value%~ STRING_EQUAL_CASE ~STRREF_GUI_HELP_KIT_FERALAN~) BEGIN
+          SET_2DA_ENTRY row 1 numCols ~%help_strref%~
+        END
+      END
+    BUT_ONLY
+  END
 
   COPY ~A7#ImprovedArcher/kit/ee/A7#IARO1.BAM~ ~override~
        ~A7#ImprovedArcher/kit/ee/A7#IBLT1.BAM~ ~override~
@@ -199,7 +241,7 @@ COPY ~A7#ImprovedArcher/kit/A7#IN04.2DA~  ~override~
 // Ability: Power Shot
 COPY ~A7#ImprovedArcher/kit/A7#IN01.SPL~ ~override~
   SAY NAME1 @1000   // Power Shot
-  PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
+  PATCH_IF (GAME_IS ~bgee sod bg2ee eet iwdee~) BEGIN
     SAY UNIDENTIFIED_DESC @2001   // Power Shot...
   END
 
@@ -207,7 +249,7 @@ COPY ~A7#ImprovedArcher/kit/A7#IN01.SPL~ ~override~
 // Ability: Rooted Shot
 COPY ~A7#ImprovedArcher/kit/A7#IN02.SPL~ ~override~
   SAY NAME1 @1001   // Rooted Shot
-  PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
+  PATCH_IF (GAME_IS ~bgee sod bg2ee eet iwdee~) BEGIN
     SAY UNIDENTIFIED_DESC @2002   // Rooted Shot...
   END
 
@@ -216,7 +258,7 @@ COPY ~A7#ImprovedArcher/kit/A7#IN02.SPL~ ~override~
 ADD_PROJECTILE ~A7#ImprovedArcher/kit/A7#IN03.PRO~
 COPY ~A7#ImprovedArcher/kit/A7#IN03.SPL~ ~override~
   SAY NAME1 @1002   // Explosive Shot
-  PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
+  PATCH_IF (GAME_IS ~bgee sod bg2ee eet iwdee~) BEGIN
     SAY UNIDENTIFIED_DESC @2003   // Explosive Shot...
   END
 COPY ~A7#ImprovedArcher/kit/A7#IN31A.SPL~  ~override~
@@ -247,13 +289,13 @@ COPY_EXISTING ~A7#IN01.SPL~ ~override~
 // Ability: Create Blessed Ammunition
 COPY ~A7#ImprovedArcher/kit/A7#IN04.SPL~ ~override~
   SAY NAME1 @1003   // Create Blessed Ammunition
-  PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
+  PATCH_IF (GAME_IS ~bgee sod bg2ee eet iwdee~) BEGIN
     SAY UNIDENTIFIED_DESC @2004   // Create Spiritual Ammunition...
   END
 
 COPY ~%spl_arrow%~ ~override~
   SAY NAME1 @1004   // Create Blessed Arrows
-  PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
+  PATCH_IF (GAME_IS ~bgee sod bg2ee eet iwdee~) BEGIN
     SAY UNIDENTIFIED_DESC @2005   // Create Spiritual Arrows...
   END
   READ_LONG 0x6a "effects_ofs"
@@ -267,7 +309,7 @@ COPY ~%spl_arrow%~ ~override~
 
 COPY ~%spl_bolt%~ ~override~
   SAY NAME1 @1005   // Create Blessed Bolts
-  PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
+  PATCH_IF (GAME_IS ~bgee sod bg2ee eet iwdee~) BEGIN
     SAY UNIDENTIFIED_DESC @2006   // Create Spiritual Bolts...
   END
   READ_LONG 0x6a "effects_ofs"

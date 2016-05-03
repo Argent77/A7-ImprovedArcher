@@ -24,7 +24,7 @@ benefits of the improved Archer kit.
 
 The mod includes two components:
 
-1. Improved Archer Kit (supports BG2:ToB, BGT, BG:EE, BG2:EE and IWD:EE)
+1. Improved Archer Kit (supports BG2:ToB, BGT, BG:EE, BG:SoD, BG2:EE and IWD:EE)
   - Installs the Archer kit
 
 2. Add +4 arrows, bolts and two powerful bows to the game (supports BG2:ToB, BGT, BG2:EE and IWD:EE)

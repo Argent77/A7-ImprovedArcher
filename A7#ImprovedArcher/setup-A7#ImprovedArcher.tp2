@@ -3,7 +3,7 @@ AUTHOR ~Argent77 at Spellhold Studios~
 VERSION ~v2.1~
 
 ALWAYS
-  ACTION_IF GAME_IS ~bgee bg2ee iwdee eet~ BEGIN
+  ACTION_IF GAME_IS ~bgee sod bg2ee iwdee eet~ BEGIN
     LOAD_TRA ~A7#ImprovedArcher/languages/english/kit-ee.tra~
     LOAD_TRA ~A7#ImprovedArcher/languages/%LANGUAGE%/kit-ee.tra~
   END
@@ -42,7 +42,7 @@ LANGUAGE ~Russian (Translation by Saigon1983)~
 
 
 BEGIN @1    // Improved Archer Kit
-  REQUIRE_PREDICATE GAME_IS ~tob bgt bgee bg2ee iwdee eet~ @3   // This mod requires BG2:ToB, BG:EE, BG2:EE or IWD:EE to be installed.
+  REQUIRE_PREDICATE GAME_IS ~tob bgt bgee sod bg2ee iwdee eet~ @3   // This mod requires BG2:ToB, BG:EE, BG2:EE or IWD:EE to be installed.
   DESIGNATED 0
 
   INCLUDE ~A7#ImprovedArcher/lib/kit.tph~
