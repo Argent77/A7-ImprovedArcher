@@ -33,6 +33,12 @@ LANGUAGE ~German~
          ~A7#ImprovedArcher/languages/english/kit.tra~
          ~A7#ImprovedArcher/languages/german/setup.tra~
          ~A7#ImprovedArcher/languages/german/kit.tra~
+LANGUAGE ~Italian (Translation by Aedan)~
+         ~italian~ 
+         ~A7#ImprovedArcher/languages/english/setup.tra~
+         ~A7#ImprovedArcher/languages/english/kit.tra~
+         ~A7#ImprovedArcher/languages/italian/setup.tra~
+         ~A7#ImprovedArcher/languages/italian/kit.tra~
 LANGUAGE ~Russian (Translation by Saigon1983)~
          ~russian~ 
          ~A7#ImprovedArcher/languages/english/setup.tra~

@@ -1,0 +1,96 @@
+// -*- coding: cp1252 -*-
+
+// Descriptions
+@1117 = ~Gli elfi di Evereska sono noti per il loro isolazionismo così come per la loro abilità e coraggio in battaglia. Uno dei loro guerrieri più conosciuti in territorio umano fu Bariah Goldendown, arciere incredibilmente preciso. Sebbene gli elfi non confermeranno o smentiranno mai la leggenda, alcuni racconti umani sostengono che Bariah, grazie alla sua vista acuta, non mancò mai un bersaglio in battaglia. Il suo arco, forgiato da sua madre, non ricevette mai un nome che fosse noto al di fuori della famiglia. Gli umani che furono colpiti dal suo potere lo chiamarono "L'Arco Che Raggiunge il Sole", credendo che le frecce di Bariah potessero raggiungere il cielo. In uno scontro che molti abitanti di Evereska ricordano ancora oggi con amarezza, il grifone di Bariah fu ucciso in cielo dagli incantesimi di un mago invisibile che tese un'imboscata ad una pattuglia elfica. Anche se solo un mago riuscì a scappare vivo, ebbe modo di portare l'arco con sé.
+
+STATISTICHE:
+
+Abilità attivabili:
+- Protezione dai Proiettili Normali due volte al giorno
+
+Abilità in combattimento:
+– Quando non sono equipaggiate munizioni, l'arco scocca frecce +3 che infliggono 1d6 punti di danno da proiettile con un bonus pari a +4 ai tiri per colpire
+
+THAC0: +4
+Fattore-velocità: 2
+Tipo di Competenza: Arco Lungo
+Tipo: A due mani
+Richiede:
+Forza 6
+
+Peso: 3~
+
+@1118 = ~Gli archi compositi sono archi lunghi o corti i cui listelli sono stati realizzati con più tipi di materiale. Questo conferisce loro più elasticità e fa sì che le frecce scoccate dall'arco infliggano un danno maggiore.
+In aggiunta a potenti incantamenti, i materiali utilizzati per questo speciale arco sono di qualità particolarmente ricercata. La struttura eccezionalmente durevole dell'arco può essere utilizzata per deflettere persino i colpi più forti e la foggia ergonomica permette a chi lo utilizza di scoccare frecce in rapida successione.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+– Bonus pari a +4 alla Classe Armatura contro le armi da mischia
+– 3 attacchi per round
+
+THAC0: +6
+Danno: +2 (proiettile)
+Fattore-velocità: 2
+Tipo di Competenza: Arco Lungo
+Tipo: A due mani
+Richiede:
+Forza 18
+
+Peso: 5~
+
+
+// Innate ability descriptions
+@2001 = ~Colpo Potente
+Tutti gli attacchi a distanza messi a segno nei successivi 12 secondi hanno la possibilità di rendere privo di sensi il bersaglio a seconda del livello dell'arciere:
+
+8° livello: Rende privo di sensi il bersaglio se questi non effettua con successo un tiro-salvezza contro Soffio.
+12° livello: Rende privo di sensi il bersaglio se questi non effettua con successo un tiro-salvezza contro Soffio con una penalità pari a -1.
+16° livello: Rende privo di sensi il bersaglio se questi non effettua con successo un tiro-salvezza contro Soffio con una penalità pari a -2.
+20° livello: Rende privo di sensi il bersaglio se questi non effettua con successo un tiro-salvezza contro Soffio con una penalità pari a -3.~
+
+@2002 = ~Colpo della Radice
+Tutti gli attacchi a distanza messi a segno nei successivi 12 secondi renderanno intralciato il bersaglio a seconda del livello dell'arciere:
+
+4° livello: Il bersaglio viene intralciato per tre round se non effettua con successo un tiro-salvezza contro Morte.
+8° livello: Il bersaglio viene intralciato per tre round se non effettua con successo un tiro-salvezza contro Morte con una penalità pari a -1.
+12° livello: Il bersaglio viene intralciato per quattro round se non effettua con successo un tiro-salvezza contro Morte con una penalità pari a -1.
+16° livello: Il bersaglio viene intralciato per quattro round se non effettua con successo un tiro-salvezza contro Morte con una penalità pari a -2.
+20° livello: Il bersaglio viene intralciato per cinque round se non effettua con successo un tiro-salvezza contro Morte con una penalità pari a -2.~
+
+@2003 = ~Colpo Esplosivo
+Tutti gli attacchi a distanza messi a segno nei successivi 12 secondi esploderanno all'impatto e causeranno danno fisico ai bersagli in un raggio di 4,5 metri a seconda del livello dell'arciere:
+
+8° livello: 1d4 punti di danno ai bersagli nelle vicinanze
+12° livello: 1d4+2 punti di danno ai bersagli nelle vicinanze
+16° livello: 1d4+4 punti di danno ai bersagli nelle vicinanze
+20° livello: 1d4+6 punti di danno ai bersagli nelle vicinanze
+
+Attenzione: Quest'abilità danneggia allo stesso modo nemici, alleati e innocenti nelle vicinanze.~
+
+@2004 = ~Creare Munizioni Benedette
+Crea una freccia o un quadrello spirituale benedetto dal dio o dalla dea venerata dall'arciere che dura per 8 ore.
+
+4° livello: incantamento pari a +1, bonus pari a +1 ai tiri per colpire e al danno, 1d6 punti di danno addizionale e rallentamento per due round contro non morti che non effettuano con successo un tiro-salvezza contro Morte.
+8° livello: incantamento pari a +1, bonus pari a +2 ai tiri per colpire e al danno, 1d6+2 punti di danno addizionale e blocco per due round contro non morti che non effettuano con successo un tiro-salvezza contro Morte.
+12° livello: incantamento pari a +2, bonus pari a +2 ai tiri per colpire e al danno, 1d6+4 punti di danno addizionale e morte immediata contro non morti che non effettuano con successo un tiro-salvezza contro Morte.
+16° livello: incantamento pari a +3, bonus pari a +3 ai tiri per colpire e al danno, 1d6+6 punti di danno addizionale e morte immediata contro non morti che non effettuano con successo un tiro-salvezza contro Morte con una penalità pari a -2.
+20° livello: incantamento pari a +4, bonus pari a +4 ai tiri per colpire e al danno, 1d6+8 punti di danno addizionale e morte immediata contro non morti che non effettuano con successo un tiro-salvezza contro Morte con una penalità pari a -4.~
+
+@2005 = ~Creare Frecce Benedette
+Crea una freccia spirituale benedetta dal dio o dalla dea venerata dall'arciere che dura per 8 ore.
+
+4° livello: incantamento pari a +1, bonus pari a +1 ai tiri per colpire e al danno, 1d6 punti di danno addizionale e rallentamento per due round contro non morti che non effettuano con successo un tiro-salvezza contro Morte.
+8° livello: incantamento pari a +1, bonus pari a +2 ai tiri per colpire e al danno, 1d6+2 punti di danno addizionale e blocco per due round contro non morti che non effettuano con successo un tiro-salvezza contro Morte.
+12° livello: incantamento pari a +2, bonus pari a +2 ai tiri per colpire e al danno, 1d6+4 punti di danno addizionale e morte immediata contro non morti che non effettuano con successo un tiro-salvezza contro Morte.
+16° livello: incantamento pari a +3, bonus pari a +3 ai tiri per colpire e al danno, 1d6+6 punti di danno addizionale e morte immediata contro non morti che non effettuano con successo un tiro-salvezza contro Morte con una penalità pari a -2.
+20° livello: incantamento pari a +4, bonus pari a +4 ai tiri per colpire e al danno, 1d6+8 punti di danno addizionale e morte immediata contro non morti che non effettuano con successo un tiro-salvezza contro Morte con una penalità pari a -4.~
+
+@2006 = ~Creare Quadrelli Benedetti
+Crea un quadrello spirituale benedetto dal dio o dalla dea venerata dall'arciere che dura per 8 ore.
+
+4° livello: incantamento pari a +1, bonus pari a +1 ai tiri per colpire e al danno, 1d6 punti di danno addizionale e rallentamento per due round contro non morti che non effettuano con successo un tiro-salvezza contro Morte.
+8° livello: incantamento pari a +1, bonus pari a +2 ai tiri per colpire e al danno, 1d6+2 punti di danno addizionale e blocco per due round contro non morti che non effettuano con successo un tiro-salvezza contro Morte.
+12° livello: incantamento pari a +2, bonus pari a +2 ai tiri per colpire e al danno, 1d6+4 punti di danno addizionale e morte immediata contro non morti che non effettuano con successo un tiro-salvezza contro Morte.
+16° livello: incantamento pari a +3, bonus pari a +3 ai tiri per colpire e al danno, 1d6+6 punti di danno addizionale e morte immediata contro non morti che non effettuano con successo un tiro-salvezza contro Morte con una penalità pari a -2.
+20° livello: incantamento pari a +4, bonus pari a +4 ai tiri per colpire e al danno, 1d6+8 punti di danno addizionale e morte immediata contro non morti che non effettuano con successo un tiro-salvezza contro Morte con una penalità pari a -4.~

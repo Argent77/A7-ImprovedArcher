@@ -180,6 +180,7 @@ History
 2.2 (2016-??-??)
   - Added Siege of Dragonspear support
   - Improved compatibility with Enhanced Edition patches v2.x
+  - Added Italian translation (Thanks Aedan)
 
 2.1 (2015-03-29)
   - Changed location of a longbow from 1st level to 3rd level of Watcher's Keep
