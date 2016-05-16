@@ -180,6 +180,7 @@ History
 2.2 (2016-??-??)
   - Added Siege of Dragonspear support
   - Improved compatibility with Enhanced Edition patches v2.x
+  - Added custom portrait icons for shot abilities in Enhanced Edition patches v2.x
   - Added Italian translation (Thanks Aedan)
 
 2.1 (2015-03-29)
