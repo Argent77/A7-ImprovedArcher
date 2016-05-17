@@ -252,16 +252,24 @@ ACTION_IF (GAME_IS ~bgee sod bg2ee eet~) BEGIN
       END
       PATCH_IF (icon_index > 82) BEGIN
         // Note: Adding rows in reverse order since 2DA functions don't update max. rows internally
-        DEFINE_ARRAY tra_refs BEGIN 1017 1002 1001 1000 END
+        DEFINE_ASSOCIATIVE_ARRAY icon_defs BEGIN 
+          1017 => ~A7#IN0AD~
+          1002 => ~A7#IN03D~
+          1001 => ~A7#IN02D~
+          1000 => ~A7#IN01D~
+        END
         SET cur_index = icon_index + 4
-        PHP_EACH tra_refs AS _ => ref BEGIN
+        PHP_EACH icon_defs AS ref => icn_name BEGIN
           SET cur_strref = RESOLVE_STR_REF((AT ref))
-          TEXT_SPRINT icon_row ~%cur_index%        %cur_strref%          A7#INSHT~
+          TEXT_SPRINT icon_row ~%cur_index%        %cur_strref%          %icn_name%~
           INSERT_2DA_ROW tbl_items numCols ~%icon_row%~
           SET cur_index -= 1
         END
         INNER_ACTION BEGIN
-          COPY ~A7#ImprovedArcher/kit/ee/A7#INSHT.BAM~ ~override~
+          COPY ~A7#ImprovedArcher/kit/ee/A7#IN01D.BAM~ ~override~
+          COPY ~A7#ImprovedArcher/kit/ee/A7#IN02D.BAM~ ~override~
+          COPY ~A7#ImprovedArcher/kit/ee/A7#IN03D.BAM~ ~override~
+          COPY ~A7#ImprovedArcher/kit/ee/A7#IN0AD.BAM~ ~override~
         END
       END
     END
