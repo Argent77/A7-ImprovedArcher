@@ -93,7 +93,7 @@ COPY_EXISTING ~LUABBR.2DA~ ~override~
   END
 BUT_ONLY
 
-ACTION_IF (GAME_IS ~bgee sod bg2ee eet iwdee~) BEGIN
+ACTION_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
   // Updating Archer description
   COPY_EXISTING ~CLASTEXT.2DA~ ~override~
     COUNT_2DA_COLS numCols
@@ -238,7 +238,7 @@ COPY ~A7#ImprovedArcher/kit/A7#IN04.2DA~  ~override~
      ~A7#ImprovedArcher/kit/A7#ENTG1.VVC~ ~override~
 
 // Initializing user-defined status icons for shot abilities (EE-only)
-ACTION_IF (GAME_IS ~bgee sod bg2ee eet~) BEGIN
+ACTION_IF (GAME_IS ~bgee bg2ee eet~) BEGIN
   COPY_EXISTING ~STATDESC.2DA~ ~override~
     SET icon_index = 82
     COUNT_2DA_COLS numCols
@@ -280,7 +280,7 @@ END
 // Ability: Power Shot
 COPY ~A7#ImprovedArcher/kit/A7#IN01.SPL~ ~override~
   SAY NAME1 @1000   // Power Shot
-  PATCH_IF (GAME_IS ~bgee sod bg2ee eet iwdee~) BEGIN
+  PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
     SAY UNIDENTIFIED_DESC @2001   // Power Shot...
     PATCH_IF (icon_index != 82) BEGIN
       LPF ALTER_EFFECT
@@ -298,7 +298,7 @@ COPY ~A7#ImprovedArcher/kit/A7#IN01.SPL~ ~override~
 // Ability: Rooting Shot
 COPY ~A7#ImprovedArcher/kit/A7#IN02.SPL~ ~override~
   SAY NAME1 @1001   // Rooting Shot
-  PATCH_IF (GAME_IS ~bgee sod bg2ee eet iwdee~) BEGIN
+  PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
     SAY UNIDENTIFIED_DESC @2002   // Rooting Shot...
     PATCH_IF (icon_index != 82) BEGIN
       LPF ALTER_EFFECT
@@ -317,7 +317,7 @@ COPY ~A7#ImprovedArcher/kit/A7#IN02.SPL~ ~override~
 ADD_PROJECTILE ~A7#ImprovedArcher/kit/A7#IN03.PRO~
 COPY ~A7#ImprovedArcher/kit/A7#IN03.SPL~ ~override~
   SAY NAME1 @1002   // Explosive Shot
-  PATCH_IF (GAME_IS ~bgee sod bg2ee eet iwdee~) BEGIN
+  PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
     SAY UNIDENTIFIED_DESC @2003   // Explosive Shot...
     PATCH_IF (icon_index != 82) BEGIN
       LPF ALTER_EFFECT
@@ -358,13 +358,13 @@ COPY_EXISTING ~A7#IN01.SPL~ ~override~
 // Ability: Create Blessed Ammunition
 COPY ~A7#ImprovedArcher/kit/A7#IN04.SPL~ ~override~
   SAY NAME1 @1003   // Create Blessed Ammunition
-  PATCH_IF (GAME_IS ~bgee sod bg2ee eet iwdee~) BEGIN
+  PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
     SAY UNIDENTIFIED_DESC @2004   // Create Spiritual Ammunition...
   END
 
 COPY ~%spl_arrow%~ ~override~
   SAY NAME1 @1004   // Create Blessed Arrows
-  PATCH_IF (GAME_IS ~bgee sod bg2ee eet iwdee~) BEGIN
+  PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
     SAY UNIDENTIFIED_DESC @2005   // Create Spiritual Arrows...
   END
   READ_LONG 0x6a "effects_ofs"
@@ -378,7 +378,7 @@ COPY ~%spl_arrow%~ ~override~
 
 COPY ~%spl_bolt%~ ~override~
   SAY NAME1 @1005   // Create Blessed Bolts
-  PATCH_IF (GAME_IS ~bgee sod bg2ee eet iwdee~) BEGIN
+  PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
     SAY UNIDENTIFIED_DESC @2006   // Create Spiritual Bolts...
   END
   READ_LONG 0x6a "effects_ofs"
@@ -466,7 +466,7 @@ COPY ~A7#ImprovedArcher/kit/A7#INBTE.ITM~ ~override~
 COPY ~A7#ImprovedArcher/kit/A7#IN0A.SPL~ ~override~
   SAY NAME1 @1017   // Sure Shot
   SAY UNIDENTIFIED_DESC @1111   // Sure Shot...
-  PATCH_IF (GAME_IS ~bgee sod bg2ee eet iwdee~ AND icon_index != 82) BEGIN
+  PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~ AND icon_index != 82) BEGIN
     LPF ALTER_EFFECT
     INT_VAR
       check_globals     = 0

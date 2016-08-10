@@ -1,6 +1,6 @@
 // Installing +4 arrows bolts
 
-ACTION_IF (GAME_IS ~bgee sod bg2ee eet iwdee~) BEGIN
+ACTION_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
   COPY ~A7#ImprovedArcher/kit/ee/A7#AROW1.BAM~ ~override~
        ~A7#ImprovedArcher/kit/ee/A7#BOLT1.BAM~ ~override~
 END ELSE BEGIN
