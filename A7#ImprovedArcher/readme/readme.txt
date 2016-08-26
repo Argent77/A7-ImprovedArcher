@@ -182,6 +182,7 @@ History
   - Improved compatibility with Enhanced Edition patches v2.x
   - Added custom portrait icons for shot abilities in Enhanced Edition patches v2.x
   - Added Italian translation (Thanks Aedan)
+  - Added Polish translation (Thanks Cahir)
 
 2.1 (2015-03-29)
   - Changed location of a longbow from 1st level to 3rd level of Watcher's Keep

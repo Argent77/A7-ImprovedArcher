@@ -20,7 +20,7 @@ ALWAYS
   END
 END
 
-README ~A7#ImprovedArcher/readme/readme.%LANGUAGE%.txt~
+README ~A7#ImprovedArcher/readme/readme-%LANGUAGE%.txt~
        ~A7#ImprovedArcher/readme/readme.txt~
 
 LANGUAGE ~English~
@@ -39,6 +39,12 @@ LANGUAGE ~Italian (Translation by Aedan)~
          ~A7#ImprovedArcher/languages/english/kit.tra~
          ~A7#ImprovedArcher/languages/italian/setup.tra~
          ~A7#ImprovedArcher/languages/italian/kit.tra~
+LANGUAGE ~Polish (Translation by Cahir)~
+         ~polish~ 
+         ~A7#ImprovedArcher/languages/english/setup.tra~
+         ~A7#ImprovedArcher/languages/english/kit.tra~
+         ~A7#ImprovedArcher/languages/polish/setup.tra~
+         ~A7#ImprovedArcher/languages/polish/kit.tra~
 LANGUAGE ~Russian (Translation by Saigon1983)~
          ~russian~ 
          ~A7#ImprovedArcher/languages/english/setup.tra~
