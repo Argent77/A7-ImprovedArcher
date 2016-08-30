@@ -139,7 +139,7 @@ Nie może używać:
 History
 ~~~~~~~
 
-2.2 (2016-??-??)
+2.2 (2016-08-30)
   - Added Siege of Dragonspear support
   - Improved compatibility with Enhanced Edition patches v2.x
   - Added custom portrait icons for shot abilities in Enhanced Edition patches v2.x

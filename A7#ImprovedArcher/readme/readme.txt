@@ -1,7 +1,7 @@
 Improved Archer Kit
 ~~~~~~~~~~~~~~~~~~~
 
-Version: 2.1
+Version: 2.2
 Author:  Argent77
 
 
@@ -177,7 +177,7 @@ Not Usable By:
 History
 ~~~~~~~
 
-2.2 (2016-??-??)
+2.2 (2016-08-30)
   - Added Siege of Dragonspear support
   - Improved compatibility with Enhanced Edition patches v2.x
   - Added custom portrait icons for shot abilities in Enhanced Edition patches v2.x
