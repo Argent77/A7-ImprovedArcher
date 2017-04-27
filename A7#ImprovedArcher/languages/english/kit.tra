@@ -299,7 +299,8 @@ Not Usable By:
  Druid
  Cleric
  Mage
- Thief~
+ Thief
+ Monk~
 
 @1118 = ~Composite longbows are bows whose staves are made from more than one type of material. This gives greater flexibility and makes arrows fired from this bow deliver more damage.
 In addition to powerful enchantments, the materials used for this particular bow are of especially exquisite quality. The bow's exceptionally durable frame can be used to deflect even the strongest blows and the ergonomic design allows the user to shoot missiles in rapid succession.
@@ -322,6 +323,5 @@ Not Usable By:
  Cleric
  Mage
  Thief
+ Monk
  Bard~
-
- 

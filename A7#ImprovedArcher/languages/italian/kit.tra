@@ -308,7 +308,8 @@ Non utilizzabile da:
 Druido
 Chierico
 Mago
-Ladro~
+Ladro
+Monaco~
 
 @1118 = ~Gli archi compositi sono archi lunghi o corti i cui listelli sono stati realizzati con più tipi di materiale. Questo conferisce loro più elasticità e fa sì che le frecce scoccate dall'arco infliggano un danno maggiore.
 In aggiunta a potenti incantamenti, i materiali utilizzati per questo speciale arco sono di qualità particolarmente ricercata. La struttura eccezionalmente durevole dell'arco può essere utilizzata per deflettere persino i colpi più forti e la foggia ergonomica permette a chi lo utilizza di scoccare frecce in rapida successione.
@@ -333,4 +334,5 @@ Druido
 Chierico
 Mago
 Ladro
+Monaco
 Bardo~
