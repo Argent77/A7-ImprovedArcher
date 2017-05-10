@@ -4,6 +4,11 @@ Improved Archer Kit
 Version: 2.2
 Author:  Argent77
 
+Download:   https://github.com/Argent77/A7-ImprovedArcher/releases/latest
+            http://www.shsforums.net/files/file/1116-improved-archer-kit/
+Discussion: http://www.shsforums.net/topic/58012-improved-archer-kit/
+            https://forums.beamdog.com/discussion/34696/mod-improved-archer-kit-for-bgee-bg2ee-iwd-ee-and-original-bg2-bgt
+
 
 Overview
 ~~~~~~~~
@@ -174,8 +179,30 @@ Not Usable By:
  Bard
 
 
+Credits
+~~~~~~~
+
+Writing, coding and testing: Argent77
+
+Italian translation: Aedan
+Polish translation: Cahir
+Russian translation: Saigon1983
+
+
+Copyright Notice
+~~~~~~~~~~~~~~~~
+
+The mod "Improved Archer Kit" is licensed under the "Creative Commons Attribution-ShareAlike 4.0 International License" 
+(http://creativecommons.org/licenses/by-sa/4.0/).
+
+
 History
 ~~~~~~~
+
+2.3 (2017-??-??)
+  - Fixed THAC0 bonus of bow 'The Defender +5'
+  - Excluded shamans from unusability list of arrows
+  - Added 'Monk' to unusability list of bows
 
 2.2 (2016-08-30)
   - Added Siege of Dragonspear support

@@ -1,5 +1,24 @@
 // Installing +4 arrows bolts
 
+// Shamans *can* use bows
+DEFINE_PATCH_FUNCTION REMOVE_SHAMAN_RESTRICTION
+BEGIN
+  PATCH_IF (GAME_IS ~bgee bg2ee iwdee eet~ &&
+            IDS_OF_SYMBOL(~class~ ~shaman~) > 0) BEGIN
+    WRITE_LONG 0x1e (THIS BAND BNOT (1 << 30))  // Druids are handled by opcode
+    LPF ADD_ITEM_EQEFFECT
+    INT_VAR
+      opcode      = 319   // Restrict item
+      target      = 1     // Self
+      timing      = 2     // While equipped
+      parameter1  = IDS_OF_SYMBOL(~class~ ~druid~)
+      parameter2  = 5     // CLASS.IDS
+      special     = RESOLVE_STR_REF(@1119)  // Druid
+    END
+  END
+END
+
+
 ACTION_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
   COPY ~A7#ImprovedArcher/kit/ee/A7#AROW1.BAM~ ~override~
        ~A7#ImprovedArcher/kit/ee/A7#BOLT1.BAM~ ~override~
@@ -19,16 +38,18 @@ END
 COPY ~A7#ImprovedArcher/kit/A7#AROW1.ITM~ ~override~
   SAY NAME2 @1019   // Arrow +4
   SAY IDENTIFIED_DESC @1115   // ...
-    PATCH_IF (GAME_IS ~iwdee~) BEGIN
-      WRITE_ASCII 0x58 ~~ #8    // Description image
-    END
+  LPF REMOVE_SHAMAN_RESTRICTION END
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
 
 COPY ~A7#ImprovedArcher/kit/A7#BOLT1.ITM~ ~override~
   SAY NAME2 @1020   // Bolt +4
   SAY IDENTIFIED_DESC @1116   // ...
-    PATCH_IF (GAME_IS ~iwdee~) BEGIN
-      WRITE_ASCII 0x58 ~~ #8    // Description image
-    END
+  LPF REMOVE_SHAMAN_RESTRICTION END
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
 
 
 // Adding bows, arrows and bolts to stores and creatures
