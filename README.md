@@ -4,7 +4,7 @@
 **Author:**  Argent77
 
 
-##Overview
+## Overview
 
 The original Archer kit does not scale very well with progressing levels. While the kit is very strong in the early 
 parts of the game, it becomes less useful compared to the other ranger kits later on.
@@ -12,7 +12,7 @@ This mod attempts to improve the kit by giving the Archer a couple more features
 against very powerful enemies.
 
 
-##Installation
+## Installation
 
 This is a WeiDU mod, that means it is very easy to install. Simply unpack "A7#ImprovedArcher-v1.7z" into your game 
 directory and run either "setup-A7#ImprovedArcher.exe" (on Windows) or "setup-A7#ImprovedArcher" (on Mac OS X). 
@@ -20,7 +20,7 @@ Follow the instructions and you are ready to start. It is strongly recommended t
 benefits of the improved Archer kit.
 
 
-##Components
+## Components
 
 The mod includes two components:
 
@@ -38,7 +38,7 @@ IWDEE only:
 Each component can be installed independently.
 
 
-##Kit Description
+## Kit Description
 
 **ARCHER:** The Archer is the epitome of skill with the bow-the ultimate marksman, able to make almost any shot, no matter 
 how difficult. To become so skilled with the bow, the Archer has had to sacrifice some of his proficiency with melee 
@@ -108,7 +108,7 @@ Disadvantages:
 - May only become Proficient (one slot) with melee weapons.
 
 
-##Longbow Descriptions
+## Longbow Descriptions
 
 **Great Sun-Reacher +3:**
 The elves of Evereska are known for their isolationism as much as their skill and bravery in battle.  One of their most 
