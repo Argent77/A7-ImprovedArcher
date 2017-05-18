@@ -116,6 +116,7 @@ Nie może używać:
  Kapłan
  Mag
  Złodziej
+ Mnich
 
 Obrońca +5:
 Łuki refleksyjne to łuki krótkie lub długie, których drzewce wykonano z kilku rodzajów drewna. Dzięki temu są bardziej elastyczne, a wystrzeliwane strzały zadają większe obrażenia. Oprócz potężnych zaklęć, które na niego rzucono, łuk ten wykonano z materiałów wyjątkowej jakości. Wyjątkowo wytrzymałe łęczysko może służyć do odbijania nawet najsilniejszych ciosów, a jego ergonomiczny kształt pozwala użytkownikowi strzelać z ogromną prędkością.
@@ -138,6 +139,7 @@ Nie może używać:
  Kapłan
  Mag
  Złodziej
+ Mnich
  Bard
 
 
@@ -146,6 +148,7 @@ Credits
 
 Writing, coding and testing: Argent77
 
+French translation: Gwendolyne
 Italian translation: Aedan
 Polish translation: Cahir
 Russian translation: Saigon1983
@@ -162,6 +165,7 @@ History
 ~~~~~~~
 
 2.3 (2017-??-??)
+  - Added French translation (Thanks Gwendolyne)
   - Fixed THAC0 bonus of bow 'The Defender +5'
   - Excluded shamans from unusability list of arrows
   - Added 'Monk' to unusability list of bows
