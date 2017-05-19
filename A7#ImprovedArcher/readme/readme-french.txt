@@ -63,17 +63,17 @@ Avantages :
 
 TIR IMMOBILISANT : Tout tir réussi dans les 12 secondes qui suivent peut enchevêtrer la cible :
  niveau 4  : Enchevêtre la cible pendant trois rounds si elle rate son JS contre les sorts.
- niveau 8  : Enchevêtre la cible pendant trois rounds si elle rate son JS contre les sorts à -1.
- niveau 12 : Enchevêtre la cible pendant quatre rounds si elle rate son JS contre les sorts à -1.
- niveau 16 : Enchevêtre la cible pendant quatre rounds si elle rate son JS contre les sorts à -2.
- niveau 20 : Enchevêtre la cible pendant cinq rounds si elle rate son JS contre les sorts à -2.
+ niveau 8  : Enchevêtre la cible pendant trois rounds si elle rate son JS contre les sorts avec un malus de 1.
+ niveau 12 : Enchevêtre la cible pendant quatre rounds si elle rate son JS contre les sorts avec un malus de 1.
+ niveau 16 : Enchevêtre la cible pendant quatre rounds si elle rate son JS contre les sorts avec un malus de 2.
+ niveau 20 : Enchevêtre la cible pendant cinq rounds si elle rate son JS contre les sorts avec un malus de 2.
 
 TIR RENVERSANT : Tout tir réussi dans les 12 secondes qui suivent peut renverser la cible, selon le niveau 
                  de l'Archer :
  niveau 8  : Renverse la cible si elle rate son JS contre les souffles.
- niveau 12 : Renverse la cible si elle rate son JS contre les souffles à -1.
- niveau 16 : Renverse la cible si elle rate son JS contre les souffles à -2.
- niveau 20 : Renverse la cible si elle rate son JS contre les souffles à -3.
+ niveau 12 : Renverse la cible si elle rate son JS contre les souffles avec un malus de 1.
+ niveau 16 : Renverse la cible si elle rate son JS contre les souffles avec un malus de 2.
+ niveau 20 : Renverse la cible si elle rate son JS contre les souffles avec un malus de 3.
 
 TIR EXPLOSIF : Tout tir réussi dans les 12 secondes qui suivent explose à l'impact et inflige à toutes les 
                créatures situées dans un rayon de 5 mètres des dégâts dépendant du niveau de l'Archer :
@@ -92,9 +92,9 @@ CREÉER DES MUNITIONS BÉNIES : L'Archer crée une munition spirituelle (flèche
  niveau 12 : munition +2, +2 au toucher et aux dégâts, 1d6+4 points supplémentaires contre les morts-vivants 
              qui sont instantanément détruits s'ils ratent leur JS contre la mort.
  niveau 16 : munition +3, +3 au toucher et aux dégâts, 1d6+6 points supplémentaires contre les morts-vivants 
-             qui sont instantanément détruits s'ils ratent leur JS contre la mort à -2.
+             qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 2.
  niveau 20 : munition +4, +4 au toucher et aux dégâts, 1d6+8 points supplémentaires contre les morts-vivants 
-             qui sont instantanément détruits s'ils ratent leur JS contre la mort à -4.
+             qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 4.
 
 TIR de PRÉCISION (HLA) : A haut niveau, les Archers ont acquis une parfaite maîtrise de leur arme de trait, ce qui 
                          leur permet de viser les points vitaux de leur cible avec une précision et une vitesse 
@@ -157,7 +157,7 @@ Le Défenseur +5 :
 Les arcs composites sont des arcs longs dont les branches sont faites de plusieurs matériaux. Cela rend l'arc plus souple, 
 ce qui accroît sa portée et les dégâts que ses traits infligent.
 Non seulement celui-ci bénéficie d'enchantements puissants, mais les matériaux utilisés pour le fabriquer sont d'une qualité 
-hors du commun. Son cadre exceptionnellement résistant peut dévier jusqu'aux coups les plus puissants alors que son design 
+hors du commun. Son cadre exceptionnellement résistant peut dévier jusqu'aux coups les plus puissants alors que sa conception 
 ergonomique permet de tirer des flèches en rafales.
 
 PARAMÈTRES :
