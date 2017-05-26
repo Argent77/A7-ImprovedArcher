@@ -1,4 +1,4 @@
-#Improved Archer Kit
+# Improved Archer Kit
 *A mod for BG2, BG:EE, BG2:EE and IWD:EE.*
 
 **Author:**  Argent77
