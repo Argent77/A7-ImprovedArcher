@@ -208,6 +208,7 @@ History
   - Fixed THAC0 bonus of bow 'The Defender +5'
   - Excluded shamans from unusability list of arrows
   - Added 'Monk' to unusability list of bows
+  - Fixed incorrect record screen class description in EET
 
 2.2 (2016-08-30)
   - Added Siege of Dragonspear support

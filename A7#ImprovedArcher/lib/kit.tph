@@ -94,40 +94,42 @@ COPY_EXISTING ~LUABBR.2DA~ ~override~
 BUT_ONLY
 
 ACTION_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
-  // Updating Archer description
-  COPY_EXISTING ~CLASTEXT.2DA~ ~override~
-    COUNT_2DA_COLS numCols
-    COUNT_2DA_ROWS numCols numRows
-    SET found = 0
-    FOR (row = 0; row < numRows && found < 2; row += 1) BEGIN
-      READ_2DA_ENTRY row 2 numCols id
-      PATCH_IF (kit_id >= 0 && id = kit_id) BEGIN
-        SET_2DA_ENTRY row 4 numCols ~%help_strref%~
-        found += 1
-      END
-    END
-  BUT_ONLY
-
-  // Handling SoD class text
-  INCLUDE ~A7#ImprovedArcher/lib/campaigns.tph~
-  LAF CAMPAIGN_EXISTS RET exists END
-  ACTION_IF (exists != 0) BEGIN
-    LAF GET_CAMPAIGN_INFO RET cmp_clastext END
-    OUTER_TEXT_SPRINT clastext_file ~%cmp_clastext%.2DA~
-    ACTION_IF (FILE_EXISTS_IN_GAME ~%clastext_file%~) BEGIN
-      COPY_EXISTING ~%clastext_file%~ ~override~
-        COUNT_2DA_COLS numCols
-        COUNT_2DA_ROWS numCols numRows
-        SET found = 0
-        FOR (row = 0; row < numRows && found < 2; row += 1) BEGIN
-          READ_2DA_ENTRY row 2 numCols id
-          PATCH_IF (kit_id >= 0 && id = kit_id) BEGIN
-            SET_2DA_ENTRY row 4 numCols ~%help_strref%~
-            found += 1
-          END
+  ACTION_IF (FILE_EXISTS_IN_GAME ~campaign.2da~) BEGIN
+    // retrieving externalized class table(s)
+    COPY_EXISTING - ~campaign.2da~ ~override~
+      COUNT_2DA_COLS numCols
+      COUNT_2DA_ROWS numCols numRows
+      SET idx = 0
+      FOR (row = 0; row < numRows; row += 1) BEGIN
+        READ_2DA_ENTRY row 30 numCols file
+        PATCH_IF (FILE_EXISTS_IN_GAME ~%file%.2da~) BEGIN
+          TEXT_SPRINT EVAL ~campaign_%idx%~ ~%file%.2DA~
+          SET idx += 1
         END
-      BUT_ONLY
-    END
+      END
+    BUT_ONLY IF_EXISTS
+  END ELSE BEGIN
+    // using hardcoded class table
+    OUTER_TEXT_SPRINT campaign_0 ~CLASTEXT.2DA~
+  END
+
+  // updating class text
+  OUTER_SET idx = 0
+  OUTER_WHILE (VARIABLE_IS_SET EVAL "campaign_%idx%") BEGIN
+    OUTER_TEXT_SPRINT file $EVAL ~campaign~(~%idx%~)
+    COPY_EXISTING ~%file%~ ~override~
+      COUNT_2DA_COLS numCols
+      COUNT_2DA_ROWS numCols numRows
+      SET found = 0
+      FOR (row = 0; row < numRows && found < 2; row += 1) BEGIN
+        READ_2DA_ENTRY row 2 numCols id
+        PATCH_IF (kit_id >= 0 && id = kit_id) BEGIN
+          SET_2DA_ENTRY row 4 numCols ~%help_strref%~
+          found += 1
+        END
+      END
+    BUT_ONLY IF_EXISTS
+    OUTER_SET idx += 1
   END
 
   // In-game help
