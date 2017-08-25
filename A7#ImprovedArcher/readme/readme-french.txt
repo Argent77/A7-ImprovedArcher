@@ -1,7 +1,7 @@
 Kit Archer Amélioré
 ~~~~~~~~~~~~~~~~~~~
 
-Version : 2.2
+Version : 2.3
 Auteur  : Argent77
 
 
@@ -203,7 +203,7 @@ The mod "Improved Archer Kit" is licensed under the "Creative Commons Attributio
 History
 ~~~~~~~
 
-2.3 (2017-??-??)
+2.3 (2017-08-25)
   - Added French translation (Thanks Gwendolyne)
   - Fixed THAC0 bonus of bow 'The Defender +5'
   - Excluded shamans from unusability list of arrows
