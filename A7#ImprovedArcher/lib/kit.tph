@@ -94,23 +94,26 @@ COPY_EXISTING ~LUABBR.2DA~ ~override~
 BUT_ONLY
 
 ACTION_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
+  // using hardcoded class table by default
+  OUTER_TEXT_SPRINT campaign_0 ~CLASTEXT.2DA~
+
   ACTION_IF (FILE_EXISTS_IN_GAME ~campaign.2da~) BEGIN
     // retrieving externalized class table(s)
     COPY_EXISTING - ~campaign.2da~ ~override~
       COUNT_2DA_COLS numCols
       COUNT_2DA_ROWS numCols numRows
-      SET idx = 0
-      FOR (row = 0; row < numRows; row += 1) BEGIN
-        READ_2DA_ENTRY row 30 numCols file
-        PATCH_IF (FILE_EXISTS_IN_GAME ~%file%.2da~) BEGIN
-          TEXT_SPRINT EVAL ~campaign_%idx%~ ~%file%.2DA~
-          SET idx += 1
+      COUNT_2DA_ROWS (numCols - 1) numRowsHdr
+      PATCH_IF (numRowsHdr > numRows) BEGIN
+        SET idx = 0
+        FOR (row = 0; row < numRows; row += 1) BEGIN
+          READ_2DA_ENTRY row 30 numCols file
+          PATCH_IF (FILE_EXISTS_IN_GAME ~%file%.2da~) BEGIN
+            TEXT_SPRINT EVAL ~campaign_%idx%~ ~%file%.2DA~
+            SET idx += 1
+          END
         END
       END
     BUT_ONLY IF_EXISTS
-  END ELSE BEGIN
-    // using hardcoded class table
-    OUTER_TEXT_SPRINT campaign_0 ~CLASTEXT.2DA~
   END
 
   // updating class text
