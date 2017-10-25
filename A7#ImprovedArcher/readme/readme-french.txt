@@ -1,8 +1,13 @@
 Kit Archer Amélioré
 ~~~~~~~~~~~~~~~~~~~
 
-Version : 2.3
-Auteur  : Argent77
+Version :         2.4
+Auteur  :         Argent77
+
+Téléchargement :  https://github.com/Argent77/A7-ImprovedArcher/releases/latest
+                  http://www.shsforums.net/files/file/1116-improved-archer-kit/
+Discussion :      http://www.shsforums.net/topic/58012-improved-archer-kit/
+                  https://forums.beamdog.com/discussion/34696/mod-improved-archer-kit-for-bgee-bg2ee-iwd-ee-and-original-bg2-bgt
 
 
 Généralités
@@ -202,6 +207,9 @@ The mod "Improved Archer Kit" is licensed under the "Creative Commons Attributio
 
 History
 ~~~~~~~
+
+2.4 (2017-10-25)
+  - Fixed a bug that may cause installation error in BG2:EE
 
 2.3 (2017-08-25)
   - Added French translation (Thanks Gwendolyne)

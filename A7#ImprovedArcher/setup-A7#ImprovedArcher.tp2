@@ -1,6 +1,6 @@
 BACKUP ~A7#ImprovedArcher/backup~
 AUTHOR ~Argent77 at Spellhold Studios~
-VERSION ~v2.3~
+VERSION ~v2.4~
 
 ALWAYS
   ACTION_IF GAME_IS ~bgee bg2ee iwdee eet~ BEGIN
