@@ -45,8 +45,8 @@ how difficult. To become so skilled with the bow, the Archer has had to sacrific
 weapons and armor.
 
 Advantages:
-- +1 to hit and damage rolls with any missile weapon every 3 levels.
-- +1 to AC vs. missile weapons every 6 levels.
+- +1 bonus to hit and damage rolls with any missile weapon as well as to AC vs. missile weapons every 6 levels.
+- +5% chance to score a critical hit at level 9, 13 and 18.
 - May achieve Grandmastery (5 slots) in longbows, shortbows, and crossbows.
 - May use Rooting Shot ability once per day every 4 levels. Can not be used together with other shot abilities.
 - May use Power Shot ability once per day every 4 levels, starting at level 8. Can not be used together with other 

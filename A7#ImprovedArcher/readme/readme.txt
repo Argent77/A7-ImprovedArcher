@@ -54,8 +54,8 @@ how difficult. To become so skilled with the bow, the Archer has had to sacrific
 weapons and armor.
 
 Advantages:
-- +1 to hit and damage rolls with any missile weapon every 3 levels.
-- +1 to AC vs. missile weapons every 6 levels.
+- +1 bonus to hit and damage rolls with any missile weapon as well as to AC vs. missile weapons every 6 levels.
+- +5% chance to score a critical hit at level 9, 13 and 18.
 - May achieve Grandmastery (5 slots) in longbows, shortbows, and crossbows.
 - May use Rooting Shot ability once per day every 4 levels. Can not be used together with other shot abilities.
 - May use Power Shot ability once per day every 4 levels, starting at level 8. Can not be used together with other 
@@ -201,6 +201,9 @@ The mod "Improved Archer Kit" is licensed under the "Creative Commons Attributio
 
 History
 ~~~~~~~
+
+2.5 (20??-??-??)
+  - Rebalanced combat bonuses of the kit
 
 2.4 (2017-10-25)
   - Fixed a bug that may cause installation error in BG2:EE

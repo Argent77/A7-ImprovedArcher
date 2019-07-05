@@ -160,6 +160,7 @@ ACTION_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
        ~A7#ImprovedArcher/kit/ee/A7#IN4BB.BAM~ ~override~
        ~A7#ImprovedArcher/kit/ee/A7#IN0AB.BAM~ ~override~
        ~A7#ImprovedArcher/kit/ee/A7#IN0BB.SPL~ ~override~
+       ~A7#ImprovedArcher/kit/ee/A7#IN06.SPL~  ~override~
 END ELSE BEGIN
   COPY ~A7#ImprovedArcher/kit/A7#IARO1.BAM~ ~override~
        ~A7#ImprovedArcher/kit/A7#IBLT1.BAM~ ~override~
@@ -171,12 +172,25 @@ END ELSE BEGIN
        ~A7#ImprovedArcher/kit/A7#IN4BB.BAM~ ~override~
        ~A7#ImprovedArcher/kit/A7#IN0AB.BAM~ ~override~
        ~A7#ImprovedArcher/kit/A7#IN0BB.SPL~ ~override~
+       ~A7#ImprovedArcher/kit/A7#IN06.SPL~  ~override~
+       ~A7#ImprovedArcher/kit/A7#IN06A.EFF~ ~override~
+       ~A7#ImprovedArcher/kit/A7#IN06B.EFF~ ~override~
+       ~A7#ImprovedArcher/kit/A7#IN06C.EFF~ ~override~
 END
 
 ACTION_IF (GAME_IS ~iwdee~) BEGIN
   COPY ~A7#ImprovedArcher/kit/CLABA7R1_iwd.2DA~ ~override/CLABA7R1.2DA~
 END ELSE BEGIN
   COPY ~A7#ImprovedArcher/kit/CLABA7R1_bg.2DA~ ~override/CLABA7R1.2DA~
+    PATCH_IF (NOT GAME_IS ~bgee bg2ee eet~) BEGIN
+      SET p = INDEX_BUFFER(~AP_A7#IN06~)
+      WHILE (p > 0) BEGIN
+        SET p = INDEX_BUFFER(~AP_A7#IN06~ p + 1)
+        PATCH_IF (p > 0) BEGIN
+          WRITE_ASCII p ~****      ~ #10
+        END
+      END
+    END
 END
 
 COPY ~A7#ImprovedArcher/kit/A7#IN04.2DA~  ~override~
