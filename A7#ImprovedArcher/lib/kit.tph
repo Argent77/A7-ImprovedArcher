@@ -1,7 +1,7 @@
 // Installing Ranger -> Archer kit
 
 // Defines a work-around for a buggy implementation of opcode 122 (Create inventory item) in the Enhanced Editions patch v1.x
-ACTION_IF (GAME_IS ~iwdee~) BEGIN
+ACTION_IF (GAME_IS ~iwdee~ && NOT FILE_EXISTS_IN_GAME ~achievem.2da~) BEGIN
   OUTER_TEXT_SPRINT spl_arrow "A7#ImprovedArcher/kit/ee/A7#IN04A.SPL"
   OUTER_TEXT_SPRINT spl_bolt  "A7#ImprovedArcher/kit/ee/A7#IN04B.SPL"
 END ELSE BEGIN
@@ -416,12 +416,18 @@ COPY ~A7#ImprovedArcher/kit/A7#INARA.ITM~ ~override~
   PATCH_IF (GAME_IS ~iwdee~) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
+  PATCH_IF (GAME_IS ~tob bgt~) BEGIN // apply compatible arrow projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+  END
 
 COPY ~A7#ImprovedArcher/kit/A7#INARB.ITM~ ~override~
   SAY NAME2 @1006   // Blessed Arrow +1
   SAY IDENTIFIED_DESC @1102   // This is an arrow that has been blessed by the Archer's worshipped god or goddess...
   PATCH_IF (GAME_IS ~iwdee~) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (GAME_IS ~tob bgt~) BEGIN // apply compatible arrow projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
   END
 
 COPY ~A7#ImprovedArcher/kit/A7#INARC.ITM~ ~override~
@@ -430,12 +436,18 @@ COPY ~A7#ImprovedArcher/kit/A7#INARC.ITM~ ~override~
   PATCH_IF (GAME_IS ~iwdee~) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
+  PATCH_IF (GAME_IS ~tob bgt~) BEGIN // apply compatible arrow projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+  END
 
 COPY ~A7#ImprovedArcher/kit/A7#INARD.ITM~ ~override~
   SAY NAME2 @1008   // Blessed Arrow +3
   SAY IDENTIFIED_DESC @1104   // This is an arrow that has been blessed by the Archer's worshipped god or goddess...
   PATCH_IF (GAME_IS ~iwdee~) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (GAME_IS ~tob bgt~) BEGIN // apply compatible arrow projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
   END
 
 COPY ~A7#ImprovedArcher/kit/A7#INARE.ITM~ ~override~
@@ -444,12 +456,18 @@ COPY ~A7#ImprovedArcher/kit/A7#INARE.ITM~ ~override~
   PATCH_IF (GAME_IS ~iwdee~) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
+  PATCH_IF (GAME_IS ~tob bgt~) BEGIN // apply compatible arrow projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+  END
 
 COPY ~A7#ImprovedArcher/kit/A7#INBTA.ITM~ ~override~
   SAY NAME2 @1010   // Blessed Bolt +1
   SAY IDENTIFIED_DESC @1106   // This is an bolt that has been blessed by the Archer's worshipped god or goddess...
   PATCH_IF (GAME_IS ~iwdee~) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (GAME_IS ~tob bgt~) BEGIN // apply compatible bolt projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
   END
 
 COPY ~A7#ImprovedArcher/kit/A7#INBTB.ITM~ ~override~
@@ -458,12 +476,18 @@ COPY ~A7#ImprovedArcher/kit/A7#INBTB.ITM~ ~override~
   PATCH_IF (GAME_IS ~iwdee~) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
+  PATCH_IF (GAME_IS ~tob bgt~) BEGIN // apply compatible bolt projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+  END
 
 COPY ~A7#ImprovedArcher/kit/A7#INBTC.ITM~ ~override~
   SAY NAME2 @1011   // Blessed Bolt +2
   SAY IDENTIFIED_DESC @1108   // This is an bolt that has been blessed by the Archer's worshipped god or goddess...
   PATCH_IF (GAME_IS ~iwdee~) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (GAME_IS ~tob bgt~) BEGIN // apply compatible bolt projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
   END
 
 COPY ~A7#ImprovedArcher/kit/A7#INBTD.ITM~ ~override~
@@ -472,12 +496,18 @@ COPY ~A7#ImprovedArcher/kit/A7#INBTD.ITM~ ~override~
   PATCH_IF (GAME_IS ~iwdee~) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
+  PATCH_IF (GAME_IS ~tob bgt~) BEGIN // apply compatible bolt projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+  END
 
 COPY ~A7#ImprovedArcher/kit/A7#INBTE.ITM~ ~override~
   SAY NAME2 @1013   // Blessed Bolt +4
   SAY IDENTIFIED_DESC @1110   // This is an bolt that has been blessed by the Archer's worshipped god or goddess...
   PATCH_IF (GAME_IS ~iwdee~) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (GAME_IS ~tob bgt~) BEGIN // apply compatible bolt projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
   END
 
 

@@ -53,7 +53,7 @@ Advantages:
   shot abilities.
 - May use Explosive Shot ability once per day every 4 levels, starting at level 8. Can not be used together with other 
   shot abilities.
-- May use Create Blessed Ammunition ability once per day every 4 levels.
+- May use Create Blessed Ammunition ability once per day every 8 levels, starting at level 4.
 
 ROOTING SHOT: All successful ranged attacks within the next 12 seconds will entangle the target, according to the 
               level of the Archer:
@@ -78,8 +78,9 @@ EXPLOSIVE SHOT: All successful ranged attacks within the next 12 seconds will ex
  20th level: 1d4+6 damage to nearby targets
 Caution: Damages enemies, allies and innocent bystanders alike.
 
-CREATE BLESSED AMMUNITION: Create a spiritual arrow or bolt blessed by the Archer's worshipped god or goddess for 
-                           8 hours containing a score of charges.
+CREATE BLESSED AMMUNITION: Create a spiritual arrow or bolt blessed by the Archer's worshipped god or goddess for
+                           8 hours containing one score of charges. Number of charges doubles at levels 8 and 16
+                           respectively.
  4th level: +1 enchantment, +1 to hit and damage rolls, additional 1d6 damage and slow for two rounds to undead if 
             failed save vs. Death.
  8th level: +1 enchantment, +2 to hit and damage rolls, additional 1d6+2 damage and hold for two rounds to undead if 

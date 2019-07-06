@@ -35,7 +35,7 @@ Vorteile:
 - Wurzelschuss-Fertigkeit (1x täglich für je 4 Stufen). Kann nicht zusammen mit anderen Schussfertigkeiten verwendet werden.
 - Kraftschuss-Fertigkeit (1x täglich für je 4 Stufen, ab Stufe 8). Kann nicht zusammen mit anderen Schussfertigkeiten verwendet werden.
 - Explosivschuss-Fertigkeit (1x täglich für je 4 Stufen, ab Stufe 8). Kann nicht zusammen mit anderen Schussfertigkeiten verwendet werden.
-- Gesegnete Geschosse (1x täglich für je 4 Stufen).
+- Gesegnete Geschosse (1x täglich für je 8 Stufen, ab Stufe 4).
 
 WURZELSCHUSS: Alle Schüsse, die innerhalb der nächsten 12 Sekunden nach dem Einsetzen dieser Fertigkeit erfolgen, erhalten die folgenden Eigenschaften:
  4. Stufe: Das Ziel wird für drei Runden verwickelt (Rettungswurf gg. Zauber).
@@ -57,7 +57,7 @@ EXPLOSIVSCHUSS: Alle Schüsse, die innerhalb der nächsten 12 Sekunden nach dem Ei
  20. Stufe: 1w4+6 Schaden gegen Ziele in 8 m Radius
 Vorsicht: Fügt sowohl Gegnern als auch Verbündeten und Unbeteiligten Schaden hinzu.
 
-GESEGNETE GESCHOSSE: Erzeugt einen spirituellen Pfeil oder Bolzen mit der heiligen Macht der verehrten Gottheit des Bogenschützen. Das Geschoss ist 8 Stunden lang verfügbar, beinhaltet 20 Ladungen und die folgenden Eigenschaften:
+GESEGNETE GESCHOSSE: Erzeugt einen spirituellen Pfeil oder Bolzen mit der heiligen Macht der verehrten Gottheit des Bogenschützen. Das Geschoss ist 8 Stunden lang verfügbar und beinhaltet 20 Ladungen. Die Anzahl der Ladungen verdoppelt sich jeweils auf Stufe 8 und 16.
  4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6 Schaden sowie Verlangsamen für zwei Runden (Rettungswurf gg. Tod).
  8. Stufe: +1 Verzauberung, +2 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+2 Schaden sowie Festhalten für zwei Runden (Rettungswurf gg. Tod).
  12. Stufe: +2 Verzauberung, +2 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+4 Schaden sowie sofortige Vernichtung (Rettungswurf gg. Tod).
