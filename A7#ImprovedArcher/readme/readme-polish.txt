@@ -148,6 +148,8 @@ Credits
 
 Writing, coding and testing: Argent77
 
+Incorporated ideas from "Universal Archer Kit" by semiticgod
+
 French translation: Gwendolyne
 Italian translation: Aedan
 Polish translation: Cahir

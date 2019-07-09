@@ -1,0 +1,39 @@
+// Installing Paladin -> Bow Knight kit (de: Ritterschütze)
+INCLUDE ~A7#ImprovedArcher/lib/fl#add_kit_ee.tpa~
+
+ADD_KIT ~A7_BOWKNIGHT~
+        ~A7_BOWKNIGHT 1 1 1 1 1 1 1 1~   // clasweap.2da
+        ~A7_BOWKNIGHT 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 5 5 2 5 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~  // weapprof.2da
+        ~A7_BOWKNIGHT 12 0 9 0 13 17~    // abclasrq.2da
+        ~A7_BOWKNIGHT 0 0 0 0 0 0~       // abclsmod.2da
+        ~A7_BOWKNIGHT 17 0 0 0 0 17~     // abdcdsrq.2da
+        ~A7_BOWKNIGHT 15 0 0 0 0 15~     // abdcscrq.2da
+        ~A7_BOWKNIGHT 1 0 0 0 0 0 0 0 0~ // alignmnt.2da
+        ~A7_BOWKNIGHT 0 0 0 0 0 0~       // dualclas.2da
+        ~A7#ImprovedArcher/kit/%CLAB_DIR%/CLABA7P1.2DA~   // path to kit clabxxx.2da
+        ~K_P_H K_P_D K_P_G K_P_E K_P_HE K_P_HL K_P_HO~    // class/race combinations for kittable.2da
+        ~0x00008000 6~ // unusability and parent class info for kitlist.2da
+        ~A7pa1~     // luabbr.2da
+        ~LEAT14 * HELM07 BAG26 RING06 RING31 CLCK02 BOOT01 AMUL20 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 BOW18 XBOW09 STAF08~  // 25stweap.2da
+        SAY @1301   // lower name
+        SAY @1302   // mixed name
+        SAY @1300   // kit description
+
+LAF fl#add_kit_ee
+STR_VAR
+    kit_name = "A7_BOWKNIGHT"
+    clsrcreq = "1 0 0 0 0 0 0"
+    clswpbon = "1 0 2"
+    hpclass = "HPWAR"
+    numwslot = "3"
+    clascolr = "25 28 57 2 24" // using default paladin colors
+    bdstweap = "LEAT05 * HELM01 * RING06 * * * * * BELT02 AROW02,40 BULL02,40 BOLT02,40 POTN08,5 POTN17,3 POTN03,1 BOW06 XBOW05 SW2H02"
+END
+
+COPY ~A7#ImprovedArcher/kit/LUA7PA1.2DA~ ~override~
+
+COPY_EXISTING ~CLABA7P1.2DA~ ~override~
+  PATCH_IF (GAME_IS ~tob bgt~) BEGIN
+    LPF CLAB_FIX_ENTRY END
+  END
+  BUT_ONLY

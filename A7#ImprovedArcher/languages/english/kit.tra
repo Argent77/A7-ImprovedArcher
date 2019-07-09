@@ -24,14 +24,20 @@
 @1020 = ~Bolt +4~
 @1021 = ~Great Sun-Reacher +3~
 @1022 = ~The Defender +5~
+@1023 = ~Create Blessed Bullets~
+@1024 = ~Blessed Bullet +1~
+@1025 = ~Blessed Bullet +2~
+@1026 = ~Blessed Bullet +3~
+@1027 = ~Blessed Bullet +4~
+@1028 = ~Blessed Bullets created~
 
 // Descriptions
-@1100 = ~ARCHER: The Archer is the epitome of skill with the bow-the ultimate marks<PRO_MANWOMAN>, able to make almost any shot, no matter how difficult. To become so skilled with the bow, the Archer has had to sacrifice some of <PRO_HISHER> proficiency with melee weapons and armor.
+@1100 = ~ARCHER: The Archer is the epitome of skill with the bow - the ultimate marksman, able to make almost any shot, no matter how difficult. To become so skilled with the bow, the Archer has had to sacrifice some of his proficiency with melee weapons and armor.
 
 Advantages:
 - +1 bonus to hit and damage rolls with any missile weapon as well as to AC vs. missile weapons every 6 levels.
-- +5% chance to score a critical hit at level 9, 13 and 18.
-- May achieve Grandmastery (5 slots) in longbows, shortbows, and crossbows.
+- +5% chance to score a critical hit at levels 9, 13 and 18.
+- May achieve Grandmastery (5 slots) in longbows, shortbows and crossbows.
 - May use Rooting Shot ability once per day every 4 levels. Can not be used together with other shot abilities.
 - May use Power Shot ability once per day every 4 levels, starting at level 8. Can not be used together with other shot abilities.
 - May use Explosive Shot ability once per day every 4 levels, starting at level 8. Can not be used together with other shot abilities.
@@ -69,8 +75,8 @@ Disadvantages:
 - May not wear any metal armor.
 - May only become Proficient (one slot) with melee weapons.~
 
-@1101 = ~This is an arrow that has been blessed by the Archer's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and causes additional damage to undead of any kind. 
-The divine enchantment of the arrow lasts for eight hours and allows the Archer to release a score of charges. After that the arrow will lose its physical form.
+@1101 = ~This is an arrow that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and causes additional damage to undead of any kind. 
+The divine enchantment of the arrow lasts for eight hours and allows the user to release a given number of charges. After that the arrow will lose its physical form.
 
 STATISTICS:
 
@@ -85,8 +91,8 @@ Launcher: Bow
 
 Weight: 0~
 
-@1102 = ~This is an arrow that has been blessed by the Archer's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and causes additional damage to undead of any kind. 
-The divine enchantment of the arrow lasts for eight hours and allows the Archer to release a score of charges. After that the arrow will lose its physical form.
+@1102 = ~This is an arrow that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and causes additional damage to undead of any kind. 
+The divine enchantment of the arrow lasts for eight hours and allows the user to release a given number of charges. After that the arrow will lose its physical form.
 
 STATISTICS:
 
@@ -102,8 +108,8 @@ Launcher: Bow
 Weight: 0~
 
 
-@1103 = ~This is an arrow that has been blessed by the Archer's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the arrow causes additional damage to undead creatures and may even destroy them. 
-The divine enchantment of the arrow lasts for eight hours and allows the Archer to release a score of charges. After that the arrow will lose its physical form.
+@1103 = ~This is an arrow that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the arrow causes additional damage to undead creatures and may even destroy them. 
+The divine enchantment of the arrow lasts for eight hours and allows the user to release a given number of charges. After that the arrow will lose its physical form.
 
 STATISTICS:
 
@@ -118,8 +124,8 @@ Launcher: Bow
 
 Weight: 0~
 
-@1104 = ~This is an arrow that has been blessed by the Archer's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the arrow causes additional damage to undead creatures and may even destroy them. 
-The divine enchantment of the arrow lasts for eight hours and allows the Archer to release a score of charges. After that the arrow will lose its physical form.
+@1104 = ~This is an arrow that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the arrow causes additional damage to undead creatures and may even destroy them. 
+The divine enchantment of the arrow lasts for eight hours and allows the user to release a given number of charges. After that the arrow will lose its physical form.
 
 STATISTICS:
 
@@ -134,8 +140,8 @@ Launcher: Bow
 
 Weight: 0~
 
-@1105 = ~This is an arrow that has been blessed by the Archer's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the arrow causes additional damage to undead creatures and may even destroy them. 
-The divine enchantment of the arrow lasts for eight hours and allows the Archer to release a score of charges. After that the arrow will lose its physical form.
+@1105 = ~This is an arrow that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the arrow causes additional damage to undead creatures and may even destroy them. 
+The divine enchantment of the arrow lasts for eight hours and allows the user to release a given number of charges. After that the arrow will lose its physical form.
 
 STATISTICS:
 
@@ -150,8 +156,8 @@ Launcher: Bow
 
 Weight: 0~
 
-@1106 = ~This is a bolt that has been blessed by the Archer's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and causes additional damage to undead of any kind. 
-The divine enchantment of the bolt lasts for eight hours and allows the Archer to release a score of charges. After that the bolt will lose its physical form.
+@1106 = ~This is a bolt that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and causes additional damage to undead of any kind. 
+The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
 
 STATISTICS:
 
@@ -166,8 +172,8 @@ Launcher: Crossbow
 
 Weight: 0~
 
-@1107 = ~This is a bolt that has been blessed by the Archer's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and causes additional damage to undead of any kind. 
-The divine enchantment of the bolt lasts for eight hours and allows the Archer to release a score of charges. After that the bolt will lose its physical form.
+@1107 = ~This is a bolt that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and causes additional damage to undead of any kind. 
+The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
 
 STATISTICS:
 
@@ -182,8 +188,8 @@ Launcher: Crossbow
 
 Weight: 0~
 
-@1108 = ~This is a bolt that has been blessed by the Archer's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the bolt causes additional damage to undead creatures and may even destroy them. 
-The divine enchantment of the bolt lasts for eight hours and allows the Archer to release a score of charges. After that the bolt will lose its physical form.
+@1108 = ~This is a bolt that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the bolt causes additional damage to undead creatures and may even destroy them. 
+The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
 
 STATISTICS:
 
@@ -198,8 +204,8 @@ Launcher: Crossbow
 
 Weight: 0~
 
-@1109 = ~This is a bolt that has been blessed by the Archer's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the bolt causes additional damage to undead creatures and may even destroy them. 
-The divine enchantment of the bolt lasts for eight hours and allows the Archer to release a score of charges. After that the bolt will lose its physical form.
+@1109 = ~This is a bolt that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the bolt causes additional damage to undead creatures and may even destroy them. 
+The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
 
 STATISTICS:
 
@@ -214,8 +220,8 @@ Launcher: Crossbow
 
 Weight: 0~
 
-@1110 = ~This is a bolt that has been blessed by the Archer's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the bolt causes additional damage to undead creatures and may even destroy them. 
-The divine enchantment of the bolt lasts for eight hours and allows the Archer to release a score of charges. After that the bolt will lose its physical form.
+@1110 = ~This is a bolt that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the bolt causes additional damage to undead creatures and may even destroy them. 
+The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
 
 STATISTICS:
 
@@ -231,13 +237,13 @@ Launcher: Crossbow
 Weight: 0~
 
 @1111 = ~Sure Shot
-High-level Archers have gained perfect control over their ranged weapon of choice which allows them to point out and target vital areas of the opponent with frightening precision and speed. By enabling this ability, the Archer takes up <PRO_HISHER> stance and shoots missiles in rapid succession. For the next 12 seconds this ability sets one's number of attacks per round to 10 and every shot is considered a critical hit.
-Since this technique requires utmost skill and concentration, the Archer is rooted to the spot for the next two rounds. It can not be used together with other shot abilities.
+High-level marksmen have gained perfect control over their ranged weapon of choice which allows them to point out and target vital areas of the opponent with frightening precision and speed. By enabling this ability, the shooter takes up <PRO_HISHER> stance and shoots missiles in rapid succession. For the next 12 seconds this ability sets one's number of attacks per round to 10 and every shot is considered a critical hit.
+Since this technique requires utmost skill and concentration, the shooter is rooted to the spot for the next two rounds. It can not be used together with other shot abilities.
 
 Requires: Critical Strike~
 
 @1112 = ~Set Missile Trap
-This ability allows the Archer to set a powerful spring-loaded missile trap in the chosen location when no hostile creatures are in sight. It does 3d10 missile damage and each 1d10 damage of various elemental types to the unsuspecting creature that sets it off.~
+This ability allows the marksman to set a powerful spring-loaded missile trap in the chosen location when no hostile creatures are in sight. It does 3d10 missile damage and each 1d10 damage of various elemental types to the unsuspecting creature that sets it off.~
 
 @1113 = ~These enchanted missiles surpass the craftsmanship of many arrow, magical or otherwise, you have seen. 
 
@@ -325,3 +331,201 @@ Not Usable By:
  Thief
  Monk
  Bard~
+
+@1119 = ~~
+
+@1120 = ~This is a bullet that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and causes additional damage to undead of any kind. 
+The divine enchantment of the bullet lasts for eight hours and allows the user to release a given number of charges. After that the bullet will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Undead must save vs. Death or be slowed for two rounds
+
+Enchantment: +1
+THAC0: +1
+Damage: 1d4+2, additional 1d6 damage vs. undead
+Damage type: Missile
+Launcher: Sling
+
+Weight: 0~
+
+@1121 = ~This is a bullet that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and causes additional damage to undead of any kind. 
+The divine enchantment of the bullet lasts for eight hours and allows the user to release a given number of charges. After that the bullet will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Undead must save vs. Death or be held for two rounds
+
+Enchantment: +1
+THAC0: +2
+Damage: 1d4+3, additional 1d6+2 damage vs. undead
+Damage type: Missile
+Launcher: Sling
+
+Weight: 0~
+
+@1122 = ~This is a bullet that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the bullet causes additional damage to undead creatures and may even destroy them. 
+The divine enchantment of the bullet lasts for eight hours and allows the user to release a given number of charges. After that the bullet will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Undead must save vs. Death or be utterly destroyed
+
+Enchantment: +2
+THAC0: +2
+Damage: 1d4+3, additional 1d6+4 damage vs. undead
+Damage type: Missile
+Launcher: Sling
+
+Weight: 0~
+
+@1123 = ~This is a bullet that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the bullet causes additional damage to undead creatures and may even destroy them. 
+The divine enchantment of the bullet lasts for eight hours and allows the user to release a given number of charges. After that the bullet will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Undead must save vs. Death at -2 penalty or be utterly destroyed
+
+Enchantment: +3
+THAC0: +3
+Damage: 1d4+4, additional 1d6+6 damage vs. undead
+Damage type: Missile
+Launcher: Sling
+
+Weight: 0~
+
+@1124 = ~This is a bullet that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the bullet causes additional damage to undead creatures and may even destroy them. 
+The divine enchantment of the bullet lasts for eight hours and allows the user to release a given number of charges. After that the bullet will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Undead must save vs. Death at -4 penalty or be utterly destroyed
+
+Enchantment: +4
+THAC0: +4
+Damage: 1d4+5, additional 1d6+8 damage vs. undead
+Damage type: Missile
+Launcher: Sling
+
+Weight: 0~
+
+
+@1200 = ~MARKSMAN: The Marksman is the epitome of skill with any ranged weapon - the ultimate marksman, able to make almost any shot, no matter how difficult. To become so skilled with their ranged weapon of choice, the Marksman has had to sacrifice some of his proficiency with melee weapons and armor.
+
+Advantages:
+- +1 bonus to hit and damage rolls with any missile weapon as well as to AC vs. missile weapons every 6 levels.
+- +5% chance to score a critical hit at levels 9, 13 and 18.
+- May achieve Grandmastery (5 slots) in longbows, shortbows, crossbows, darts and slings.
+- May use Rooting Shot ability once per day every 4 levels. Can not be used together with other shot abilities.
+- May use Power Shot ability once per day every 4 levels, starting at level 8. Can not be used together with other shot abilities.
+- May use Explosive Shot ability once per day every 4 levels, starting at level 8. Can not be used together with other shot abilities.
+
+ROOTING SHOT: All successful ranged attacks within the next 12 seconds will entangle the target, according to the level of the Marksman:
+ 4th level: Target is entangled for three rounds if failed save vs. Spell.
+ 8th level: Target is entangled for three rounds if failed save vs. Spell at -1 penalty.
+ 12th level: Target is entangled for four rounds if failed save vs. Spell at -1 penalty.
+ 16th level: Target is entangled for four rounds if failed save vs. Spell at -2 penalty.
+ 20th level: Target is entangled for five rounds if failed save vs. Spell at -2 penalty.
+
+POWER SHOT: All successful ranged attacks within the next 12 seconds have a chance to knock back the target, according to the level of the Marksman:
+ 8th level: Knock back target if failed save vs. Breath.
+ 12th level: Knock back target if failed save vs. Breath at -1 penalty.
+ 16th level: Knock back target if failed save vs. Breath at -2 penalty.
+ 20th level: Knock back target if failed save vs. Breath at -3 penalty.
+
+EXPLOSIVE SHOT: All successful ranged attacks within the next 12 seconds will explode on impact and cause physical damage to nearby targets in 15' range, according to the level of the Marksman:
+ 8th level: 1d4 damage to nearby targets
+ 12th level: 1d4+2 damage to nearby targets
+ 16th level: 1d4+4 damage to nearby targets
+ 20th level: 1d4+6 damage to nearby targets
+Caution: Damages enemies, allies and innocent bystanders alike.
+
+Disadvantages:
+- May not wear any metal armor.
+- May only become Specialized (two slots) with melee weapons.
+- May only allocate one slot in any fighting style.~
+
+@1201 = ~marksman~
+@1202 = ~Marksman~
+
+
+@1300 = ~BOW KNIGHT: The Bow Knight is the epitome of skill with any ranged weapon - the ultimate marksman, able to make almost any shot, no matter how difficult. To become so skilled with their ranged weapon of choice, the Bow Knight has had to sacrifice some of his proficiency with melee weapons and armor.
+
+Advantages:
+- +1 bonus to hit and damage rolls with any missile weapon as well as to AC vs. missile weapons every 6 levels.
+- +5% chance to score a critical hit at levels 9, 13 and 18.
+- May achieve Grandmastery (5 slots) in longbows, shortbows, crossbows and slings.
+- May use Rooting Shot ability once per day every 4 levels. Can not be used together with other shot abilities.
+- May use Power Shot ability once per day every 4 levels, starting at level 8. Can not be used together with other shot abilities.
+- May use Create Blessed Ammunition ability once per day every 8 levels, starting at level 4.
+
+ROOTING SHOT: All successful ranged attacks within the next 12 seconds will entangle the target, according to the level of the Bow Knight:
+ 4th level: Target is entangled for three rounds if failed save vs. Spell.
+ 8th level: Target is entangled for three rounds if failed save vs. Spell at -1 penalty.
+ 12th level: Target is entangled for four rounds if failed save vs. Spell at -1 penalty.
+ 16th level: Target is entangled for four rounds if failed save vs. Spell at -2 penalty.
+ 20th level: Target is entangled for five rounds if failed save vs. Spell at -2 penalty.
+
+POWER SHOT: All successful ranged attacks within the next 12 seconds have a chance to knock back the target, according to the level of the Bow Knight:
+ 8th level: Knock back target if failed save vs. Breath.
+ 12th level: Knock back target if failed save vs. Breath at -1 penalty.
+ 16th level: Knock back target if failed save vs. Breath at -2 penalty.
+ 20th level: Knock back target if failed save vs. Breath at -3 penalty.
+
+CREATE BLESSED AMMUNITION: Create a spiritual arrow or bolt blessed by the Bow Knight's worshipped god for 8 hours containing one score of charges. Number of charges doubles at levels 8 and 16 respectively.
+ 4th level: +1 enchantment, +1 to hit and damage rolls, additional 1d6 damage and slow for two rounds to undead if failed save vs. Death.
+ 8th level: +1 enchantment, +2 to hit and damage rolls, additional 1d6+2 damage and hold for two rounds to undead if failed save vs. Death.
+ 12th level: +2 enchantment, +2 to hit and damage rolls, additional 1d6+4 damage and instant death to undead if failed save vs. Death.
+ 16th level: +3 enchantment, +3 to hit and damage rolls, additional 1d6+6 damage and instant death to undead if failed save vs. Death at -2 penalty.
+ 20th level: +4 enchantment, +4 to hit and damage rolls, additional 1d6+8 damage and instant death to undead if failed save vs. Death at -4 penalty.
+
+Disadvantages:
+- May not wear any metal armor.
+- May only become Proficient (one slot) with melee weapons.
+- May only allocate one slot in any fighting style.~
+
+@1301 = ~bow knight~
+@1302 = ~Bow Knight~
+
+
+@1400 = ~SHARPSHOOTER: The Sharpshooter is the epitome of skill with any ranged weapon - the ultimate sniper, able to make almost any shot, no matter how difficult. To become so skilled with their ranged weapon of choice, the Sharpshooter has had to sacrifice some of his thieving skills.
+
+Advantages:
+- +1 bonus to hit and damage rolls with any missile weapon as well as to AC vs. missile weapons every 8 levels.
+- +5% chance to score a critical hit at levels 13 and 18.
+- May achieve Grandmastery (5 slots) in shortbows, crossbows, darts and slings.
+- May use Rooting Shot ability once per day every 4 levels. Can not be used together with other shot abilities.
+- May use Power Shot ability once per day every 4 levels, starting at level 8. Can not be used together with other shot abilities.
+- May use Explosive Shot ability once per day every 4 levels, starting at level 8. Can not be used together with other shot abilities.
+
+ROOTING SHOT: All successful ranged attacks within the next 12 seconds will entangle the target, according to the level of the Bow Knight:
+ 4th level: Target is entangled for three rounds if failed save vs. Spell.
+ 8th level: Target is entangled for three rounds if failed save vs. Spell at -1 penalty.
+ 12th level: Target is entangled for four rounds if failed save vs. Spell at -1 penalty.
+ 16th level: Target is entangled for four rounds if failed save vs. Spell at -2 penalty.
+ 20th level: Target is entangled for five rounds if failed save vs. Spell at -2 penalty.
+
+POWER SHOT: All successful ranged attacks within the next 12 seconds have a chance to knock back the target, according to the level of the Bow Knight:
+ 8th level: Knock back target if failed save vs. Breath.
+ 12th level: Knock back target if failed save vs. Breath at -1 penalty.
+ 16th level: Knock back target if failed save vs. Breath at -2 penalty.
+ 20th level: Knock back target if failed save vs. Breath at -3 penalty.
+
+EXPLOSIVE SHOT: All successful ranged attacks within the next 12 seconds will explode on impact and cause physical damage to nearby targets in 15' range, according to the level of the Marksman:
+ 8th level: 1d4 damage to nearby targets
+ 12th level: 1d4+2 damage to nearby targets
+ 16th level: 1d4+4 damage to nearby targets
+ 20th level: 1d4+6 damage to nearby targets
+Caution: Damages enemies, allies and innocent bystanders alike.
+
+Disadvantages:
+- May only distribute 15 skill points per level among thieving skills.
+- May not use Backstab ability.~
+
+@1401 = ~sharpshooter~
+@1402 = ~Sharpshooter~

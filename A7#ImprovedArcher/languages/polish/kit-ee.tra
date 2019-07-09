@@ -1,325 +1,325 @@
-// -*- coding: cp1252 -*-
+// -*- coding: utf-8 -*-
 
 // Descriptions
-@1100 = ~£UCZNIK: Jest uosobieniem mistrzowskiego pos³ugiwania siê ³ukiem. To znakomity strzelec, umiej¹cy oddaæ strza³ niemal z ka¿dej pozycji, niezale¿nie od stopnia trudnoœci. Aby zyskaæ takie umiejêtnoœci, ³ucznik musia³ poœwiêciæ czêœæ swoich punktów bieg³oœci za pos³ugiwanie siê broni¹ rêczn¹ i zbroj¹.
+@1100 = ~ÅUCZNIK: Jest uosobieniem mistrzowskiego posÅ‚ugiwania siÄ™ Å‚ukiem. To znakomity strzelec, umiejÄ…cy oddaÄ‡ strzaÅ‚ niemal z kaÅ¼dej pozycji, niezaleÅ¼nie od stopnia trudnoÅ›ci. Aby zyskaÄ‡ takie umiejÄ™tnoÅ›ci, Å‚ucznik musiaÅ‚ poÅ›wiÄ™ciÄ‡ czÄ™Å›Ä‡ swoich punktÃ³w biegÅ‚oÅ›ci za posÅ‚ugiwanie siÄ™ broniÄ… rÄ™cznÄ… i zbrojÄ….
 
 Zalety:
-- +1 do trafienia i obra¿eñ ka¿d¹ broni¹ strzeleck¹, za ka¿de trzy poziomy doœwiadczenia.
-- +1 do Klasy Pancerza przeciw broniom strzeleckim, za ka¿de szeœæ poziomów doœwiadczenia.
-- Mo¿e osi¹gn¹æ Wielkie mistrzostwo (piêæ punktów bieg³oœci) w d³ugich ³ukach, krótkich ³ukach oraz kuszach.
-- Co cztery poziomy doœwiadczenia zyskuje zdolnoœæ Opl¹tuj¹cego strza³u, do wykorzystania raz dziennie.
-- Co cztery poziomy doœwiadczenia, pocz¹wszy od 8. poziomu, zyskuje zdolnoœæ Potê¿nego strza³u, do wykorzystania raz dziennie. Zdolnoœæ ta nie mo¿e zostaæ u¿yta w po³¹czeniu z innymi umiejêtnoœciami strzeleckimi.
-- Co cztery poziomy doœwiadczenia, pocz¹wszy od 8. poziomu, zyskuje zdolnoœæ Wybuchowego strza³u, do wykorzystania raz dziennie. Zdolnoœæ ta nie mo¿e zostaæ u¿yta w po³¹czeniu z innymi umiejêtnoœciami strzeleckimi.
-- Co cztery poziomy doœwiadczenia zyskuje zdolnoœæ Stworzenia b³ogos³awionej amunicji, do wykorzystania raz dziennie.
+- +1 do trafienia i obraÅ¼eÅ„ kaÅ¼dÄ… broniÄ… strzeleckÄ…, za kaÅ¼de trzy poziomy doÅ›wiadczenia.
+- +1 do Klasy Pancerza przeciw broniom strzeleckim, za kaÅ¼de szeÅ›Ä‡ poziomÃ³w doÅ›wiadczenia.
+- MoÅ¼e osiÄ…gnÄ…Ä‡ Wielkie mistrzostwo (piÄ™Ä‡ punktÃ³w biegÅ‚oÅ›ci) w dÅ‚ugich Å‚ukach, krÃ³tkich Å‚ukach oraz kuszach.
+- Co cztery poziomy doÅ›wiadczenia zyskuje zdolnoÅ›Ä‡ OplÄ…tujÄ…cego strzaÅ‚u, do wykorzystania raz dziennie.
+- Co cztery poziomy doÅ›wiadczenia, poczÄ…wszy od 8. poziomu, zyskuje zdolnoÅ›Ä‡ PotÄ™Å¼nego strzaÅ‚u, do wykorzystania raz dziennie. ZdolnoÅ›Ä‡ ta nie moÅ¼e zostaÄ‡ uÅ¼yta w poÅ‚Ä…czeniu z innymi umiejÄ™tnoÅ›ciami strzeleckimi.
+- Co cztery poziomy doÅ›wiadczenia, poczÄ…wszy od 8. poziomu, zyskuje zdolnoÅ›Ä‡ Wybuchowego strzaÅ‚u, do wykorzystania raz dziennie. ZdolnoÅ›Ä‡ ta nie moÅ¼e zostaÄ‡ uÅ¼yta w poÅ‚Ä…czeniu z innymi umiejÄ™tnoÅ›ciami strzeleckimi.
+- Co cztery poziomy doÅ›wiadczenia zyskuje zdolnoÅ›Ä‡ Stworzenia bÅ‚ogosÅ‚awionej amunicji, do wykorzystania raz dziennie.
 
-OPL¥TUJ¥CY STRZA£: Ka¿dy udany atak dystansowy, wykonany w przeci¹gu nastêpnych dwunastu sekund, spowoduje opl¹tanie celu, zgodnie z poziomem ³ucznika:
-4. poziom: Cel jest opl¹tany przez trzy rundy, jeœli nie wykona rzutu obronnego przeciw czarom.
-8. poziom: Cel jest opl¹tany przez trzy rundy, jeœli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -1.
-12. poziom: Cel jest opl¹tany przez cztery rundy, jeœli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -1.
-16. poziom: Cel jest opl¹tany przez cztery rundy, jeœli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -2.
-20. poziom: Cel jest opl¹tany przez piêæ rund, jeœli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -2.
+OPLÄ„TUJÄ„CY STRZAÅ: KaÅ¼dy udany atak dystansowy, wykonany w przeciÄ…gu nastÄ™pnych dwunastu sekund, spowoduje oplÄ…tanie celu, zgodnie z poziomem Å‚ucznika:
+4. poziom: Cel jest oplÄ…tany przez trzy rundy, jeÅ›li nie wykona rzutu obronnego przeciw czarom.
+8. poziom: Cel jest oplÄ…tany przez trzy rundy, jeÅ›li nie wykona rzutu obronnego przeciw czarom z modyfikatorem -1.
+12. poziom: Cel jest oplÄ…tany przez cztery rundy, jeÅ›li nie wykona rzutu obronnego przeciw czarom z modyfikatorem -1.
+16. poziom: Cel jest oplÄ…tany przez cztery rundy, jeÅ›li nie wykona rzutu obronnego przeciw czarom z modyfikatorem -2.
+20. poziom: Cel jest oplÄ…tany przez piÄ™Ä‡ rund, jeÅ›li nie wykona rzutu obronnego przeciw czarom z modyfikatorem -2.
 
-POTÊ¯NY STRZA£: Ka¿dy udany atak dystansowy, wykonany w przeci¹gu nastêpnych dwunastu sekund, ma szansê na odrzucenie celu, w zale¿noœci od poziomu ³ucznika:
-8. poziom: Odrzuca cel, jeœli ten nie wykona rzutu obronnego przeciw zioniêciom.
-12. poziom: Odrzuca cel, jeœli ten nie wykona rzutu obronnego przeciw zioniêciom z modyfikatorem -1.
-16. poziom: Odrzuca cel, jeœli ten nie wykona rzutu obronnego przeciw zioniêciom z modyfikatorem -2.
-20. poziom: Odrzuca cel, jeœli ten nie wykona rzutu obronnego przeciw zioniêciom z modyfikatorem -3.
+POTÄ˜Å»NY STRZAÅ: KaÅ¼dy udany atak dystansowy, wykonany w przeciÄ…gu nastÄ™pnych dwunastu sekund, ma szansÄ™ na odrzucenie celu, w zaleÅ¼noÅ›ci od poziomu Å‚ucznika:
+8. poziom: Odrzuca cel, jeÅ›li ten nie wykona rzutu obronnego przeciw zioniÄ™ciom.
+12. poziom: Odrzuca cel, jeÅ›li ten nie wykona rzutu obronnego przeciw zioniÄ™ciom z modyfikatorem -1.
+16. poziom: Odrzuca cel, jeÅ›li ten nie wykona rzutu obronnego przeciw zioniÄ™ciom z modyfikatorem -2.
+20. poziom: Odrzuca cel, jeÅ›li ten nie wykona rzutu obronnego przeciw zioniÄ™ciom z modyfikatorem -3.
 
-WYBUCHOWY STRZA£: Ka¿dy udany atak dystansowy, wykonany w przeci¹gu nastêpnych dwunastu sekund, powoduje eksplozjê wystrzelonego pocisku po trafieniu, zadaj¹c fizyczne obra¿enia znajduj¹cym siê w promieniu piêciu metrów celom, w zale¿noœci od poziomu ³ucznika:
-8. poziom: 1k4 obra¿eñ pobliskim celom
-12. poziom: 1k4 +2 obra¿eñ pobliskim celom
-16. poziom: 1k4 +4 obra¿eñ pobliskim celom
-20. poziom: 1k4 +6 obra¿eñ pobliskim celom
-Uwaga: Rani wrogów, sojuszników i niewinne stworzenia.
+WYBUCHOWY STRZAÅ: KaÅ¼dy udany atak dystansowy, wykonany w przeciÄ…gu nastÄ™pnych dwunastu sekund, powoduje eksplozjÄ™ wystrzelonego pocisku po trafieniu, zadajÄ…c fizyczne obraÅ¼enia znajdujÄ…cym siÄ™ w promieniu piÄ™ciu metrÃ³w celom, w zaleÅ¼noÅ›ci od poziomu Å‚ucznika:
+8. poziom: 1k4 obraÅ¼eÅ„ pobliskim celom
+12. poziom: 1k4 +2 obraÅ¼eÅ„ pobliskim celom
+16. poziom: 1k4 +4 obraÅ¼eÅ„ pobliskim celom
+20. poziom: 1k4 +6 obraÅ¼eÅ„ pobliskim celom
+Uwaga: Rani wrogÃ³w, sojusznikÃ³w i niewinne stworzenia.
 
-STWORZENIE B£OGOS£AWIONEJ AMUNICJI: Tworzy przepe³nion¹ energi¹ duchow¹ strza³ê lub be³t, pob³ogos³awione przez bóstwo, które wyznaje ³ucznik. Pocisk przez osiem godzin i zawiera du¿o ³adunków.
-4. poziom: umagicznienie +1, +1 do testów trafienia i obra¿eñ, dodatkowe 1k6 obra¿eñ i spowolnienie przez dwie rundy, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci.
-8. poziom: umagicznienie +1, +2 do testów trafienia i obra¿eñ, dodatkowe 1k6 +2 obra¿eñ i unieruchomienie przez dwie rundy, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci.
-12. poziom: umagicznienie +2, +2 do testów trafienia i obra¿eñ, dodatkowe 1k6 +4 obra¿eñ i natychmiastowa œmieræ, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci.
-16. poziom: umagicznienie +3, +3 do testów trafienia i obra¿eñ, dodatkowe 1k6 +6 obra¿eñ i natychmiastowa œmieræ, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci z modyfikatorem -2.
-20. poziom: umagicznienie +3, +4 do testów trafienia i obra¿eñ, dodatkowe 1k6 +8 obra¿eñ i natychmiastowa œmieræ, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci z modyfikatorem -4.
+STWORZENIE BÅOGOSÅAWIONEJ AMUNICJI: Tworzy przepeÅ‚nionÄ… energiÄ… duchowÄ… strzaÅ‚Ä™ lub beÅ‚t, pobÅ‚ogosÅ‚awione przez bÃ³stwo, ktÃ³re wyznaje Å‚ucznik. Pocisk przez osiem godzin i zawiera duÅ¼o Å‚adunkÃ³w.
+4. poziom: umagicznienie +1, +1 do testÃ³w trafienia i obraÅ¼eÅ„, dodatkowe 1k6 obraÅ¼eÅ„ i spowolnienie przez dwie rundy, w przypadku nieumarÅ‚ego, jeÅ›li ten nie wykona rzutu obronnego przeciw Å›mierci.
+8. poziom: umagicznienie +1, +2 do testÃ³w trafienia i obraÅ¼eÅ„, dodatkowe 1k6 +2 obraÅ¼eÅ„ i unieruchomienie przez dwie rundy, w przypadku nieumarÅ‚ego, jeÅ›li ten nie wykona rzutu obronnego przeciw Å›mierci.
+12. poziom: umagicznienie +2, +2 do testÃ³w trafienia i obraÅ¼eÅ„, dodatkowe 1k6 +4 obraÅ¼eÅ„ i natychmiastowa Å›mierÄ‡, w przypadku nieumarÅ‚ego, jeÅ›li ten nie wykona rzutu obronnego przeciw Å›mierci.
+16. poziom: umagicznienie +3, +3 do testÃ³w trafienia i obraÅ¼eÅ„, dodatkowe 1k6 +6 obraÅ¼eÅ„ i natychmiastowa Å›mierÄ‡, w przypadku nieumarÅ‚ego, jeÅ›li ten nie wykona rzutu obronnego przeciw Å›mierci z modyfikatorem -2.
+20. poziom: umagicznienie +3, +4 do testÃ³w trafienia i obraÅ¼eÅ„, dodatkowe 1k6 +8 obraÅ¼eÅ„ i natychmiastowa Å›mierÄ‡, w przypadku nieumarÅ‚ego, jeÅ›li ten nie wykona rzutu obronnego przeciw Å›mierci z modyfikatorem -4.
 
 Wady:
 - -1 do Kondycji.
-- Nie mo¿e nosiæ ¿adnej metalowej zbroi.
-- £ucznik mo¿e osi¹gn¹æ stopieñ Wyszkolony (jeden punkt bieg³oœci) w broniach do walki wrêcz.~
+- Nie moÅ¼e nosiÄ‡ Å¼adnej metalowej zbroi.
+- Åucznik moÅ¼e osiÄ…gnÄ…Ä‡ stopieÅ„ Wyszkolony (jeden punkt biegÅ‚oÅ›ci) w broniach do walki wrÄ™cz.~
 
-@1101 = ~Strza³a ta zosta³a pob³ogos³awiona przez bóstwo bêd¹ce patronem ³ucznika. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki, jak równie¿ spowodowaæ dodatkowe obra¿enia wszelkiego rodzaju nieumar³ym. Pochodz¹ce od bóstwa umagicznienie strza³y utrzymuje siê przez osiem godzin i pozwala ³ucznikowi na wypuszczenie dwudziestu strza³. Po tym strza³a traci swoj¹ fizyczn¹ postaæ.
+@1101 = ~StrzaÅ‚a ta zostaÅ‚a pobÅ‚ogosÅ‚awiona przez bÃ³stwo bÄ™dÄ…ce patronem Å‚ucznika. Potrafi przeszyÄ‡ nawet istoty, ktÃ³re sÄ… normalnie niewraÅ¼liwe na fizyczne ataki, jak rÃ³wnieÅ¼ spowodowaÄ‡ dodatkowe obraÅ¼enia wszelkiego rodzaju nieumarÅ‚ym. PochodzÄ…ce od bÃ³stwa umagicznienie strzaÅ‚y utrzymuje siÄ™ przez osiem godzin i pozwala Å‚ucznikowi na wypuszczenie dwudziestu strzaÅ‚. Po tym strzaÅ‚a traci swojÄ… fizycznÄ… postaÄ‡.
 
 PARAMETRY:
 
 Specjalne:
-– Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci lub zostan¹ spowolnieni na dwie rundy
+â€“ Nieumarli muszÄ… wykonaÄ‡ udany rzut obronny przeciw Å›mierci lub zostanÄ… spowolnieni na dwie rundy
 
 Umagicznienie: +1
 TraK0: +1
-Obra¿enia: 1k6 +1, dodatkowe 1k6 obra¿eñ przeciw nieumar³ym
-Typ obra¿eñ: pocisk
-Wyrzutnia: ³uk
+ObraÅ¼enia: 1k6 +1, dodatkowe 1k6 obraÅ¼eÅ„ przeciw nieumarÅ‚ym
+Typ obraÅ¼eÅ„: pocisk
+Wyrzutnia: Å‚uk
 
 Waga: 0~
 
-@1102 = ~Strza³a ta zosta³a pob³ogos³awiona przez bóstwo bêd¹ce patronem ³ucznika. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki, jak równie¿ spowodowaæ dodatkowe obra¿enia wszelkiego rodzaju nieumar³ym. Pochodz¹ce od bóstwa umagicznienie strza³y utrzymuje siê przez osiem godzin i pozwala ³ucznikowi na wypuszczenie dwudziestu strza³. Po tym strza³a traci swoj¹ fizyczn¹ postaæ.
+@1102 = ~StrzaÅ‚a ta zostaÅ‚a pobÅ‚ogosÅ‚awiona przez bÃ³stwo bÄ™dÄ…ce patronem Å‚ucznika. Potrafi przeszyÄ‡ nawet istoty, ktÃ³re sÄ… normalnie niewraÅ¼liwe na fizyczne ataki, jak rÃ³wnieÅ¼ spowodowaÄ‡ dodatkowe obraÅ¼enia wszelkiego rodzaju nieumarÅ‚ym. PochodzÄ…ce od bÃ³stwa umagicznienie strzaÅ‚y utrzymuje siÄ™ przez osiem godzin i pozwala Å‚ucznikowi na wypuszczenie dwudziestu strzaÅ‚. Po tym strzaÅ‚a traci swojÄ… fizycznÄ… postaÄ‡.
 
 PARAMETRY:
 
 Specjalne:
-– Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci lub zostan¹ unieruchomieni na dwie rundy
+â€“ Nieumarli muszÄ… wykonaÄ‡ udany rzut obronny przeciw Å›mierci lub zostanÄ… unieruchomieni na dwie rundy
 
 Umagicznienie: +1
 TraK0: +2
-Obra¿enia: 1k6 +2, dodatkowe 1k6 +2 obra¿eñ przeciw nieumar³ym
-Typ obra¿eñ: pocisk
-Wyrzutnia: ³uk
+ObraÅ¼enia: 1k6 +2, dodatkowe 1k6 +2 obraÅ¼eÅ„ przeciw nieumarÅ‚ym
+Typ obraÅ¼eÅ„: pocisk
+Wyrzutnia: Å‚uk
 
 Waga: 0~
 
-@1103 = ~Strza³a ta zosta³a pob³ogos³awiona przez bóstwo bêd¹ce patronem ³ucznika. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki. B³ogos³awieñstwo, jakim zosta³a obdarzona strza³a, sprawia, ¿e zadaje ona dodatkowe obra¿enia nieumar³ym, a nawet mo¿e spowodowaæ ich natychmiastowe zniszczenie. Pochodz¹ce od bóstwa umagicznienie strza³y utrzymuje siê przez osiem godzin i pozwala ³ucznikowi na wypuszczenie dwudziestu strza³. Po tym strza³a traci swoj¹ fizyczn¹ postaæ.
+@1103 = ~StrzaÅ‚a ta zostaÅ‚a pobÅ‚ogosÅ‚awiona przez bÃ³stwo bÄ™dÄ…ce patronem Å‚ucznika. Potrafi przeszyÄ‡ nawet istoty, ktÃ³re sÄ… normalnie niewraÅ¼liwe na fizyczne ataki. BÅ‚ogosÅ‚awieÅ„stwo, jakim zostaÅ‚a obdarzona strzaÅ‚a, sprawia, Å¼e zadaje ona dodatkowe obraÅ¼enia nieumarÅ‚ym, a nawet moÅ¼e spowodowaÄ‡ ich natychmiastowe zniszczenie. PochodzÄ…ce od bÃ³stwa umagicznienie strzaÅ‚y utrzymuje siÄ™ przez osiem godzin i pozwala Å‚ucznikowi na wypuszczenie dwudziestu strzaÅ‚. Po tym strzaÅ‚a traci swojÄ… fizycznÄ… postaÄ‡.
 
 PARAMETRY:
 
 Specjalne:
-– Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci lub zostan¹ zniszczeni
+â€“ Nieumarli muszÄ… wykonaÄ‡ udany rzut obronny przeciw Å›mierci lub zostanÄ… zniszczeni
 
 Umagicznienie: +2
 TraK0: +2
-Obra¿enia: 1k6 +2, dodatkowe 1k6 +4 obra¿eñ przeciw nieumar³ym
-Typ obra¿eñ: pocisk
-Wyrzutnia: ³uk
+ObraÅ¼enia: 1k6 +2, dodatkowe 1k6 +4 obraÅ¼eÅ„ przeciw nieumarÅ‚ym
+Typ obraÅ¼eÅ„: pocisk
+Wyrzutnia: Å‚uk
 
 Waga: 0~
 
-@1104 = ~Strza³a ta zosta³a pob³ogos³awiona przez bóstwo bêd¹ce patronem ³ucznika. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki. B³ogos³awieñstwo, jakim zosta³a obdarzona strza³a, sprawia, ¿e zadaje ona dodatkowe obra¿enia nieumar³ym, a nawet mo¿e spowodowaæ ich natychmiastowe zniszczenie. Pochodz¹ce od bóstwa umagicznienie strza³y utrzymuje siê przez osiem godzin i pozwala ³ucznikowi na wypuszczenie dwudziestu strza³. Po tym strza³a traci swoj¹ fizyczn¹ postaæ.
+@1104 = ~StrzaÅ‚a ta zostaÅ‚a pobÅ‚ogosÅ‚awiona przez bÃ³stwo bÄ™dÄ…ce patronem Å‚ucznika. Potrafi przeszyÄ‡ nawet istoty, ktÃ³re sÄ… normalnie niewraÅ¼liwe na fizyczne ataki. BÅ‚ogosÅ‚awieÅ„stwo, jakim zostaÅ‚a obdarzona strzaÅ‚a, sprawia, Å¼e zadaje ona dodatkowe obraÅ¼enia nieumarÅ‚ym, a nawet moÅ¼e spowodowaÄ‡ ich natychmiastowe zniszczenie. PochodzÄ…ce od bÃ³stwa umagicznienie strzaÅ‚y utrzymuje siÄ™ przez osiem godzin i pozwala Å‚ucznikowi na wypuszczenie dwudziestu strzaÅ‚. Po tym strzaÅ‚a traci swojÄ… fizycznÄ… postaÄ‡.
 
 PARAMETRY:
 
 Specjalne:
-– Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci z modyfikatorem -2 lub zostan¹ zniszczeni
+â€“ Nieumarli muszÄ… wykonaÄ‡ udany rzut obronny przeciw Å›mierci z modyfikatorem -2 lub zostanÄ… zniszczeni
 
 Umagicznienie: +3
 TraK0: +3
-Obra¿enia: 1k6 +3, dodatkowe 1k6 +6 obra¿eñ przeciw nieumar³ym
-Typ obra¿eñ: pocisk
-Wyrzutnia: ³uk
+ObraÅ¼enia: 1k6 +3, dodatkowe 1k6 +6 obraÅ¼eÅ„ przeciw nieumarÅ‚ym
+Typ obraÅ¼eÅ„: pocisk
+Wyrzutnia: Å‚uk
 
 Waga: 0~
 
-@1105 = ~Strza³a ta zosta³a pob³ogos³awiona przez bóstwo bêd¹ce patronem ³ucznika. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki. B³ogos³awieñstwo, jakim zosta³a obdarzona strza³a, sprawia, ¿e zadaje ona dodatkowe obra¿enia nieumar³ym, a nawet mo¿e spowodowaæ ich natychmiastowe zniszczenie. Pochodz¹ce od bóstwa umagicznienie strza³y utrzymuje siê przez osiem godzin i pozwala ³ucznikowi na wypuszczenie dwudziestu strza³. Po tym strza³a traci swoj¹ fizyczn¹ postaæ.
+@1105 = ~StrzaÅ‚a ta zostaÅ‚a pobÅ‚ogosÅ‚awiona przez bÃ³stwo bÄ™dÄ…ce patronem Å‚ucznika. Potrafi przeszyÄ‡ nawet istoty, ktÃ³re sÄ… normalnie niewraÅ¼liwe na fizyczne ataki. BÅ‚ogosÅ‚awieÅ„stwo, jakim zostaÅ‚a obdarzona strzaÅ‚a, sprawia, Å¼e zadaje ona dodatkowe obraÅ¼enia nieumarÅ‚ym, a nawet moÅ¼e spowodowaÄ‡ ich natychmiastowe zniszczenie. PochodzÄ…ce od bÃ³stwa umagicznienie strzaÅ‚y utrzymuje siÄ™ przez osiem godzin i pozwala Å‚ucznikowi na wypuszczenie dwudziestu strzaÅ‚. Po tym strzaÅ‚a traci swojÄ… fizycznÄ… postaÄ‡.
 
 PARAMETRY:
 
 Specjalne:
-– Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci z modyfikatorem -4 lub zostan¹ zniszczeni
+â€“ Nieumarli muszÄ… wykonaÄ‡ udany rzut obronny przeciw Å›mierci z modyfikatorem -4 lub zostanÄ… zniszczeni
 
 Umagicznienie: +4
 TraK0: +4
-Obra¿enia: 1k6 +4, dodatkowe 1k6 +8 obra¿eñ przeciw nieumar³ym
-Typ obra¿eñ: pocisk
-Wyrzutnia: ³uk
+ObraÅ¼enia: 1k6 +4, dodatkowe 1k6 +8 obraÅ¼eÅ„ przeciw nieumarÅ‚ym
+Typ obraÅ¼eÅ„: pocisk
+Wyrzutnia: Å‚uk
 
 Waga: 0~
 
-@1106 = ~Be³t ten zosta³ pob³ogos³awiony przez bóstwo bêd¹ce patronem ³ucznika. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki, jak równie¿ spowodowaæ dodatkowe obra¿enia wszelkiego rodzaju nieumar³ym. Pochodz¹ce od bóstwa umagicznienie be³tu utrzymuje siê przez osiem godzin i pozwala ³ucznikowi na wypuszczenie dwudziestu be³tów. Po tym be³t traci swoj¹ fizyczn¹ postaæ.
+@1106 = ~BeÅ‚t ten zostaÅ‚ pobÅ‚ogosÅ‚awiony przez bÃ³stwo bÄ™dÄ…ce patronem Å‚ucznika. Potrafi przeszyÄ‡ nawet istoty, ktÃ³re sÄ… normalnie niewraÅ¼liwe na fizyczne ataki, jak rÃ³wnieÅ¼ spowodowaÄ‡ dodatkowe obraÅ¼enia wszelkiego rodzaju nieumarÅ‚ym. PochodzÄ…ce od bÃ³stwa umagicznienie beÅ‚tu utrzymuje siÄ™ przez osiem godzin i pozwala Å‚ucznikowi na wypuszczenie dwudziestu beÅ‚tÃ³w. Po tym beÅ‚t traci swojÄ… fizycznÄ… postaÄ‡.
 
 PARAMETRY:
 
 Specjalne:
-– Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci lub zostan¹ spowolnieni na dwie rundy
+â€“ Nieumarli muszÄ… wykonaÄ‡ udany rzut obronny przeciw Å›mierci lub zostanÄ… spowolnieni na dwie rundy
 
 Umagicznienie: +1
 TraK0: +1
-Obra¿enia: 1k8 +1, dodatkowe 1k6 obra¿eñ przeciw nieumar³ym
-Typ obra¿eñ: pocisk
+ObraÅ¼enia: 1k8 +1, dodatkowe 1k6 obraÅ¼eÅ„ przeciw nieumarÅ‚ym
+Typ obraÅ¼eÅ„: pocisk
 Wyrzutnia: kusza
 
 Waga: 0~
 
-@1107 = ~Be³t ten zosta³ pob³ogos³awiony przez bóstwo bêd¹ce patronem ³ucznika. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki, jak równie¿ spowodowaæ dodatkowe obra¿enia wszelkiego rodzaju nieumar³ym. Pochodz¹ce od bóstwa umagicznienie be³tu utrzymuje siê przez osiem godzin i pozwala ³ucznikowi na wypuszczenie dwudziestu be³tów. Po tym be³t traci swoj¹ fizyczn¹ postaæ.
+@1107 = ~BeÅ‚t ten zostaÅ‚ pobÅ‚ogosÅ‚awiony przez bÃ³stwo bÄ™dÄ…ce patronem Å‚ucznika. Potrafi przeszyÄ‡ nawet istoty, ktÃ³re sÄ… normalnie niewraÅ¼liwe na fizyczne ataki, jak rÃ³wnieÅ¼ spowodowaÄ‡ dodatkowe obraÅ¼enia wszelkiego rodzaju nieumarÅ‚ym. PochodzÄ…ce od bÃ³stwa umagicznienie beÅ‚tu utrzymuje siÄ™ przez osiem godzin i pozwala Å‚ucznikowi na wypuszczenie dwudziestu beÅ‚tÃ³w. Po tym beÅ‚t traci swojÄ… fizycznÄ… postaÄ‡.
 
 PARAMETRY:
 
 Specjalne:
-– Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci lub zostan¹ unieruchomieni na dwie rundy
+â€“ Nieumarli muszÄ… wykonaÄ‡ udany rzut obronny przeciw Å›mierci lub zostanÄ… unieruchomieni na dwie rundy
 
 Umagicznienie: +1
 TraK0: +2
-Obra¿enia: 1k8 +2, dodatkowe 1k6 +2 obra¿eñ przeciw nieumar³ym
-Typ obra¿eñ: pocisk
+ObraÅ¼enia: 1k8 +2, dodatkowe 1k6 +2 obraÅ¼eÅ„ przeciw nieumarÅ‚ym
+Typ obraÅ¼eÅ„: pocisk
 Wyrzutnia: kusza
 
 Waga: 0~
 
-@1108 = ~Be³t ten zosta³ pob³ogos³awiony przez bóstwo bêd¹ce patronem ³ucznika. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki. B³ogos³awieñstwo, jakim zosta³ obdarzony be³t, sprawia, ¿e zadaje on dodatkowe obra¿enia nieumar³ym, a nawet mo¿e spowodowaæ ich natychmiastowe zniszczenie. Pochodz¹ce od bóstwa umagicznienie be³tu utrzymuje siê przez osiem godzin i pozwala ³ucznikowi na wypuszczenie dwudziestu be³tów. Po tym be³t traci swoj¹ fizyczn¹ postaæ.
+@1108 = ~BeÅ‚t ten zostaÅ‚ pobÅ‚ogosÅ‚awiony przez bÃ³stwo bÄ™dÄ…ce patronem Å‚ucznika. Potrafi przeszyÄ‡ nawet istoty, ktÃ³re sÄ… normalnie niewraÅ¼liwe na fizyczne ataki. BÅ‚ogosÅ‚awieÅ„stwo, jakim zostaÅ‚ obdarzony beÅ‚t, sprawia, Å¼e zadaje on dodatkowe obraÅ¼enia nieumarÅ‚ym, a nawet moÅ¼e spowodowaÄ‡ ich natychmiastowe zniszczenie. PochodzÄ…ce od bÃ³stwa umagicznienie beÅ‚tu utrzymuje siÄ™ przez osiem godzin i pozwala Å‚ucznikowi na wypuszczenie dwudziestu beÅ‚tÃ³w. Po tym beÅ‚t traci swojÄ… fizycznÄ… postaÄ‡.
 
 PARAMETRY:
 
 Specjalne:
-– Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci lub zostan¹ zniszczeni
+â€“ Nieumarli muszÄ… wykonaÄ‡ udany rzut obronny przeciw Å›mierci lub zostanÄ… zniszczeni
 
 Umagicznienie: +2
 TraK0: +2
-Obra¿enia: 1k8 +2, dodatkowe 1k6 +4 obra¿eñ przeciw nieumar³ym
-Typ obra¿eñ: pocisk
+ObraÅ¼enia: 1k8 +2, dodatkowe 1k6 +4 obraÅ¼eÅ„ przeciw nieumarÅ‚ym
+Typ obraÅ¼eÅ„: pocisk
 Wyrzutnia: kusza
 
 Waga: 0~
 
-@1109 = ~Be³t ten zosta³ pob³ogos³awiony przez bóstwo bêd¹ce patronem ³ucznika. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki. B³ogos³awieñstwo, jakim zosta³ obdarzony be³t, sprawia, ¿e zadaje on dodatkowe obra¿enia nieumar³ym, a nawet mo¿e spowodowaæ ich natychmiastowe zniszczenie. Pochodz¹ce od bóstwa umagicznienie be³tu utrzymuje siê przez osiem godzin i pozwala ³ucznikowi na wypuszczenie dwudziestu be³tów. Po tym be³t traci swoj¹ fizyczn¹ postaæ.
+@1109 = ~BeÅ‚t ten zostaÅ‚ pobÅ‚ogosÅ‚awiony przez bÃ³stwo bÄ™dÄ…ce patronem Å‚ucznika. Potrafi przeszyÄ‡ nawet istoty, ktÃ³re sÄ… normalnie niewraÅ¼liwe na fizyczne ataki. BÅ‚ogosÅ‚awieÅ„stwo, jakim zostaÅ‚ obdarzony beÅ‚t, sprawia, Å¼e zadaje on dodatkowe obraÅ¼enia nieumarÅ‚ym, a nawet moÅ¼e spowodowaÄ‡ ich natychmiastowe zniszczenie. PochodzÄ…ce od bÃ³stwa umagicznienie beÅ‚tu utrzymuje siÄ™ przez osiem godzin i pozwala Å‚ucznikowi na wypuszczenie dwudziestu beÅ‚tÃ³w. Po tym beÅ‚t traci swojÄ… fizycznÄ… postaÄ‡.
 
 PARAMETRY:
 
 Specjalne:
-– Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci z modyfikatorem -2 lub zostan¹ zniszczeni
+â€“ Nieumarli muszÄ… wykonaÄ‡ udany rzut obronny przeciw Å›mierci z modyfikatorem -2 lub zostanÄ… zniszczeni
 
 Umagicznienie: +3
 TraK0: +3
-Obra¿enia: 1k8 +3, dodatkowe 1k6 +6 obra¿eñ przeciw nieumar³ym
-Typ obra¿eñ: pocisk
+ObraÅ¼enia: 1k8 +3, dodatkowe 1k6 +6 obraÅ¼eÅ„ przeciw nieumarÅ‚ym
+Typ obraÅ¼eÅ„: pocisk
 Wyrzutnia: kusza
 
 Waga: 0~
 
-@1110 = ~Be³t ten zosta³ pob³ogos³awiony przez bóstwo bêd¹ce patronem ³ucznika. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki. B³ogos³awieñstwo, jakim zosta³ obdarzony be³t, sprawia, ¿e zadaje on dodatkowe obra¿enia nieumar³ym, a nawet mo¿e spowodowaæ ich natychmiastowe zniszczenie. Pochodz¹ce od bóstwa umagicznienie be³tu utrzymuje siê przez osiem godzin i pozwala ³ucznikowi na wypuszczenie dwudziestu be³tów. Po tym be³t traci swoj¹ fizyczn¹ postaæ.
+@1110 = ~BeÅ‚t ten zostaÅ‚ pobÅ‚ogosÅ‚awiony przez bÃ³stwo bÄ™dÄ…ce patronem Å‚ucznika. Potrafi przeszyÄ‡ nawet istoty, ktÃ³re sÄ… normalnie niewraÅ¼liwe na fizyczne ataki. BÅ‚ogosÅ‚awieÅ„stwo, jakim zostaÅ‚ obdarzony beÅ‚t, sprawia, Å¼e zadaje on dodatkowe obraÅ¼enia nieumarÅ‚ym, a nawet moÅ¼e spowodowaÄ‡ ich natychmiastowe zniszczenie. PochodzÄ…ce od bÃ³stwa umagicznienie beÅ‚tu utrzymuje siÄ™ przez osiem godzin i pozwala Å‚ucznikowi na wypuszczenie dwudziestu beÅ‚tÃ³w. Po tym beÅ‚t traci swojÄ… fizycznÄ… postaÄ‡.
 
 PARAMETRY:
 
 Specjalne:
-– Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci z modyfikatorem -4 lub zostan¹ zniszczeni
+â€“ Nieumarli muszÄ… wykonaÄ‡ udany rzut obronny przeciw Å›mierci z modyfikatorem -4 lub zostanÄ… zniszczeni
 
 Umagicznienie: +4
 TraK0: +4
-Obra¿enia: 1k8 +4, dodatkowe 1k6 +8 obra¿eñ przeciw nieumar³ym
-Typ obra¿eñ: pocisk
+ObraÅ¼enia: 1k8 +4, dodatkowe 1k6 +8 obraÅ¼eÅ„ przeciw nieumarÅ‚ym
+Typ obraÅ¼eÅ„: pocisk
 Wyrzutnia: kusza
 
 Waga: 0~
 
-@1111 = ~Nieomylny strza³
+@1111 = ~Nieomylny strzaÅ‚
 
-Wysokopoziomowi ³ucznicy posiadaj¹ pe³n¹ kontrolê nad wybranymi przez siebie broniami dystansowymi, co pozwala im celowaæ w istotne organy przeciwnika z przera¿aj¹c¹ precyzj¹ i szybkoœci¹. Po aktywowaniu tej zdolnoœci ³ucznik przyjmuje odpowiedni¹ postawê i zaczyna wystrzeliwaæ strza³y jedna po drugiej. Przez nastêpne dwanaœcie rund zdolnoœæ ta ustala iloœæ ataków ³ucznika na dziesiêæ i sprawia, ¿e ka¿dy jego strza³ jest trafieniem krytycznym. Z racji tego, ¿e technika ta wymaga najwy¿szych umiejêtnoœci i koncentracji, ³ucznik jest przykuty do miejsca przez nastêpne dwie rundy. Zdolnoœci tej nie mo¿na u¿yæ razem z innymi zdolnoœciami strzeleckimi.
+Wysokopoziomowi Å‚ucznicy posiadajÄ… peÅ‚nÄ… kontrolÄ™ nad wybranymi przez siebie broniami dystansowymi, co pozwala im celowaÄ‡ w istotne organy przeciwnika z przeraÅ¼ajÄ…cÄ… precyzjÄ… i szybkoÅ›ciÄ…. Po aktywowaniu tej zdolnoÅ›ci Å‚ucznik przyjmuje odpowiedniÄ… postawÄ™ i zaczyna wystrzeliwaÄ‡ strzaÅ‚y jedna po drugiej. Przez nastÄ™pne dwanaÅ›cie rund zdolnoÅ›Ä‡ ta ustala iloÅ›Ä‡ atakÃ³w Å‚ucznika na dziesiÄ™Ä‡ i sprawia, Å¼e kaÅ¼dy jego strzaÅ‚ jest trafieniem krytycznym. Z racji tego, Å¼e technika ta wymaga najwyÅ¼szych umiejÄ™tnoÅ›ci i koncentracji, Å‚ucznik jest przykuty do miejsca przez nastÄ™pne dwie rundy. ZdolnoÅ›ci tej nie moÅ¼na uÅ¼yÄ‡ razem z innymi zdolnoÅ›ciami strzeleckimi.
 
 Wymagania: Uderzenie krytyczne~
 
-@1112 = ~Zastawianie pu³apek z pociskami
+@1112 = ~Zastawianie puÅ‚apek z pociskami
 
-Zdolnoœæ ta pozwala ³ucznikowi na zastawienie potê¿nej sprê¿ynowej pu³apki z pociskami w wybranym przez siebie miejscu, pod warunkiem, ¿e w zasiêgu wzroku nie ma wrogich istot. Pu³apka zadaje istocie, która j¹ uruchomi, 3k10 obra¿eñ od pocisków oraz 1k10 obra¿eñ od ró¿nego rodzaju ¿ywio³ów.~
+ZdolnoÅ›Ä‡ ta pozwala Å‚ucznikowi na zastawienie potÄ™Å¼nej sprÄ™Å¼ynowej puÅ‚apki z pociskami w wybranym przez siebie miejscu, pod warunkiem, Å¼e w zasiÄ™gu wzroku nie ma wrogich istot. PuÅ‚apka zadaje istocie, ktÃ³ra jÄ… uruchomi, 3k10 obraÅ¼eÅ„ od pociskÃ³w oraz 1k10 obraÅ¼eÅ„ od rÃ³Å¼nego rodzaju Å¼ywioÅ‚Ã³w.~
 
-@1113 = ~Te zaklête strza³y przewy¿szaj¹ swym wykonaniem wiele innych strza³, które w ¿yciu widzia³eœ. 
-
-PARAMETRY:
-
-TraK0: +3
-Obra¿enia: 1k6 
-Typ obra¿eñ: pocisk
-Wyrzutnia: ³uk
-
-Waga: 0~~Te zaklête strza³y przewy¿szaj¹ swym wykonaniem wiele innych strza³, które w ¿yciu widzia³aœ. 
+@1113 = ~Te zaklÄ™te strzaÅ‚y przewyÅ¼szajÄ… swym wykonaniem wiele innych strzaÅ‚, ktÃ³re w Å¼yciu widziaÅ‚eÅ›. 
 
 PARAMETRY:
 
 TraK0: +3
-Obra¿enia: 1k6
-Typ obra¿eñ: pocisk
-Wyrzutnia: ³uk
+ObraÅ¼enia: 1k6 
+Typ obraÅ¼eÅ„: pocisk
+Wyrzutnia: Å‚uk
 
-Waga: 0~
-
-@1114 = ~Te zaklête be³ty przewy¿szaj¹ swym wykonaniem wiele innych be³tów, które w ¿yciu widzia³eœ.
+Waga: 0~~Te zaklÄ™te strzaÅ‚y przewyÅ¼szajÄ… swym wykonaniem wiele innych strzaÅ‚, ktÃ³re w Å¼yciu widziaÅ‚aÅ›. 
 
 PARAMETRY:
 
 TraK0: +3
-Obra¿enia: 1k8
-Typ obra¿eñ: pocisk
-Wyrzutnia: kusza
+ObraÅ¼enia: 1k6
+Typ obraÅ¼eÅ„: pocisk
+Wyrzutnia: Å‚uk
 
-Waga: 0~~Te zaklête be³ty przewy¿szaj¹ swym wykonaniem wiele innych be³tów, które w ¿yciu widzia³aœ.
+Waga: 0~
+
+@1114 = ~Te zaklÄ™te beÅ‚ty przewyÅ¼szajÄ… swym wykonaniem wiele innych beÅ‚tÃ³w, ktÃ³re w Å¼yciu widziaÅ‚eÅ›.
 
 PARAMETRY:
 
 TraK0: +3
-Obra¿enia: 1k8
-Typ obra¿eñ: pocisk
+ObraÅ¼enia: 1k8
+Typ obraÅ¼eÅ„: pocisk
+Wyrzutnia: kusza
+
+Waga: 0~~Te zaklÄ™te beÅ‚ty przewyÅ¼szajÄ… swym wykonaniem wiele innych beÅ‚tÃ³w, ktÃ³re w Å¼yciu widziaÅ‚aÅ›.
+
+PARAMETRY:
+
+TraK0: +3
+ObraÅ¼enia: 1k8
+Typ obraÅ¼eÅ„: pocisk
 Wyrzutnia: kusza
 
 Waga: 0~
 
-@1115 = ~Te zaklête strza³y przewy¿szaj¹ swym wykonaniem wiele innych strza³, które w ¿yciu widzia³eœ.  
+@1115 = ~Te zaklÄ™te strzaÅ‚y przewyÅ¼szajÄ… swym wykonaniem wiele innych strzaÅ‚, ktÃ³re w Å¼yciu widziaÅ‚eÅ›.  
 
 PARAMETRY:
 
 TraK0: +4
-Obra¿enia: 1k6
-Typ obra¿eñ: pocisk
-Wyrzutnia: ³uk
+ObraÅ¼enia: 1k6
+Typ obraÅ¼eÅ„: pocisk
+Wyrzutnia: Å‚uk
 
-Waga: 0~~Te zaklête strza³y przewy¿szaj¹ swym wykonaniem wiele innych strza³, które w ¿yciu widzia³aœ.  
+Waga: 0~~Te zaklÄ™te strzaÅ‚y przewyÅ¼szajÄ… swym wykonaniem wiele innych strzaÅ‚, ktÃ³re w Å¼yciu widziaÅ‚aÅ›.  
 
 PARAMETRY:
 
 TraK0: +4
-Obra¿enia: 1k6
-Typ obra¿eñ: pocisk
-Wyrzutnia: ³uk
+ObraÅ¼enia: 1k6
+Typ obraÅ¼eÅ„: pocisk
+Wyrzutnia: Å‚uk
 
 Waga: 0~
 
-@1116 = ~Te zaklête be³ty przewy¿szaj¹ swym wykonaniem wiele innych be³tów, które w ¿yciu widzia³eœ.  
+@1116 = ~Te zaklÄ™te beÅ‚ty przewyÅ¼szajÄ… swym wykonaniem wiele innych beÅ‚tÃ³w, ktÃ³re w Å¼yciu widziaÅ‚eÅ›.  
 
 PARAMETRY:
 
 TraK0: +4
-Obra¿enia: 1k8
-Typ obra¿eñ: pocisk
+ObraÅ¼enia: 1k8
+Typ obraÅ¼eÅ„: pocisk
 Wyrzutnia: kusza
 
-Waga: 0~~Te zaklête be³ty przewy¿szaj¹ swym wykonaniem wiele innych be³tów, które w ¿yciu widzia³aœ.  
+Waga: 0~~Te zaklÄ™te beÅ‚ty przewyÅ¼szajÄ… swym wykonaniem wiele innych beÅ‚tÃ³w, ktÃ³re w Å¼yciu widziaÅ‚aÅ›.  
 
 PARAMETRY:
 
 TraK0: +4
-Obra¿enia: 1k8
-Typ obra¿eñ: pocisk
+ObraÅ¼enia: 1k8
+Typ obraÅ¼eÅ„: pocisk
 Wyrzutnia: kusza
 
 Waga: 0~
 
-@1117 = ~Elfowie z Evereski znani s¹ ze swego izolacjonizmu w równym stopniu, co z umiejêtnoœci i odwagi w walce. Jednym z najbardziej znanych ludziom elfich wojowników by³ niebywale uzdolniony ³ucznik o imieniu Bariah Goldendown. Chocia¿ elfy nie potwierdzaj¹ ani nie zaprzeczaj¹ legendom, niektóre z opowiadanych przez ludzi historii g³osz¹, ¿e maj¹cy iœcie sokoli wzrok Bariah nigdy nie spud³owa³ w czasie bitwy. £uk, którego u¿ywa³, zosta³ wykonany przez jego matkê i otrzyma³ nazwê, która nie by³a znana nikomu, poza jego rodzin¹. Ludzie, którzy poczuli na w³asnej skórze potêgê tej broni, nazwali j¹ Siêgaj¹cym s³oñca, wierz¹c, ¿e wypuszczane przez elfa strza³y mog³y siêgn¹æ niebios. Podczas bitwy, któr¹ elfowie z Evereski do dziœ wspominaj¹ z gorycz¹, gryf, na którym lata³ Bariah, zosta³ zabity podczas lotu przez zaklêcia niewidzialnych czarodziejów, którzy przygotowali zasadzkê na patrol elfów. Mimo i¿ prze¿y³ tylko jeden mag, uda³o mu siê zabraæ ze sob¹ Siêgaj¹cego s³oñca.
+@1117 = ~Elfowie z Evereski znani sÄ… ze swego izolacjonizmu w rÃ³wnym stopniu, co z umiejÄ™tnoÅ›ci i odwagi w walce. Jednym z najbardziej znanych ludziom elfich wojownikÃ³w byÅ‚ niebywale uzdolniony Å‚ucznik o imieniu Bariah Goldendown. ChociaÅ¼ elfy nie potwierdzajÄ… ani nie zaprzeczajÄ… legendom, niektÃ³re z opowiadanych przez ludzi historii gÅ‚oszÄ…, Å¼e majÄ…cy iÅ›cie sokoli wzrok Bariah nigdy nie spudÅ‚owaÅ‚ w czasie bitwy. Åuk, ktÃ³rego uÅ¼ywaÅ‚, zostaÅ‚ wykonany przez jego matkÄ™ i otrzymaÅ‚ nazwÄ™, ktÃ³ra nie byÅ‚a znana nikomu, poza jego rodzinÄ…. Ludzie, ktÃ³rzy poczuli na wÅ‚asnej skÃ³rze potÄ™gÄ™ tej broni, nazwali jÄ… SiÄ™gajÄ…cym sÅ‚oÅ„ca, wierzÄ…c, Å¼e wypuszczane przez elfa strzaÅ‚y mogÅ‚y siÄ™gnÄ…Ä‡ niebios. Podczas bitwy, ktÃ³rÄ… elfowie z Evereski do dziÅ› wspominajÄ… z goryczÄ…, gryf, na ktÃ³rym lataÅ‚ Bariah, zostaÅ‚ zabity podczas lotu przez zaklÄ™cia niewidzialnych czarodziejÃ³w, ktÃ³rzy przygotowali zasadzkÄ™ na patrol elfÃ³w. Mimo iÅ¼ przeÅ¼yÅ‚ tylko jeden mag, udaÅ‚o mu siÄ™ zabraÄ‡ ze sobÄ… SiÄ™gajÄ…cego sÅ‚oÅ„ca.
 
 PARAMETRY:
 
-W³aœciwoœci ³adunków:
-– Ochrona przed zwyk³ymi pociskami, dwa razy dziennie
+WÅ‚aÅ›ciwoÅ›ci Å‚adunkÃ³w:
+â€“ Ochrona przed zwykÅ‚ymi pociskami, dwa razy dziennie
 
 Specjalne:
-– Jeœli nie zostanie wyposa¿ony w strza³y, ³uk ten wystrzeliwuje strza³y +3, które zadaj¹ 1k6 obra¿eñ od pocisków i zapewniaj¹ premiê +4 do trafienia
+â€“ JeÅ›li nie zostanie wyposaÅ¼ony w strzaÅ‚y, Å‚uk ten wystrzeliwuje strzaÅ‚y +3, ktÃ³re zadajÄ… 1k6 obraÅ¼eÅ„ od pociskÃ³w i zapewniajÄ… premiÄ™ +4 do trafienia
 
 TraK0: +4
-OpóŸnienie: 2
-Rodzaj bieg³oœci: d³ugi ³uk
-Typ broni: 2-rêczna
+OpÃ³Åºnienie: 2
+Rodzaj biegÅ‚oÅ›ci: dÅ‚ugi Å‚uk
+Typ broni: 2-rÄ™czna
 
 Wymagania:
-– Si³a: 6
+â€“ SiÅ‚a: 6
 
 Waga: 3~
 
-@1118 = ~£uki refleksyjne to ³uki krótkie lub d³ugie, których drzewce wykonano z kilku rodzajów drewna. Dziêki temu s¹ bardziej elastyczne, a wystrzeliwane strza³y zadaj¹ wiêksze obra¿enia. Oprócz potê¿nych zaklêæ, które na niego rzucono, ³uk ten wykonano z materia³ów wyj¹tkowej jakoœci. Wyj¹tkowo wytrzyma³e ³êczysko mo¿e s³u¿yæ do odbijania nawet najsilniejszych ciosów, a jego ergonomiczny kszta³t pozwala u¿ytkownikowi strzelaæ z ogromn¹ prêdkoœci¹.
+@1118 = ~Åuki refleksyjne to Å‚uki krÃ³tkie lub dÅ‚ugie, ktÃ³rych drzewce wykonano z kilku rodzajÃ³w drewna. DziÄ™ki temu sÄ… bardziej elastyczne, a wystrzeliwane strzaÅ‚y zadajÄ… wiÄ™ksze obraÅ¼enia. OprÃ³cz potÄ™Å¼nych zaklÄ™Ä‡, ktÃ³re na niego rzucono, Å‚uk ten wykonano z materiaÅ‚Ã³w wyjÄ…tkowej jakoÅ›ci. WyjÄ…tkowo wytrzymaÅ‚e Å‚Ä™czysko moÅ¼e sÅ‚uÅ¼yÄ‡ do odbijania nawet najsilniejszych ciosÃ³w, a jego ergonomiczny ksztaÅ‚t pozwala uÅ¼ytkownikowi strzelaÄ‡ z ogromnÄ… prÄ™dkoÅ›ciÄ….
 
 PARAMETRY:
 
 Specjalne:
-– Klasa Pancerza: +4 przeciw broniom do walki wrêcz
-– Trzy strza³y na rundê
+â€“ Klasa Pancerza: +4 przeciw broniom do walki wrÄ™cz
+â€“ Trzy strzaÅ‚y na rundÄ™
 
 TraK0: +6
-Obra¿enia: +2 (pocisk)
-OpóŸnienie: 2
-Rodzaj bieg³oœci: d³ugi ³uk
-Typ broni: 2-rêczna
+ObraÅ¼enia: +2 (pocisk)
+OpÃ³Åºnienie: 2
+Rodzaj biegÅ‚oÅ›ci: dÅ‚ugi Å‚uk
+Typ broni: 2-rÄ™czna
 
 Wymagania:
-– Si³a: 18
+â€“ SiÅ‚a: 18
 
 Waga: 5~
 
@@ -327,55 +327,55 @@ Waga: 5~
 
 
 // Innate ability descriptions
-@2001 = ~Potê¿ny strza³
+@2001 = ~PotÄ™Å¼ny strzaÅ‚
 
-Ka¿dy udany atak dystansowy, wykonany w przeci¹gu nastêpnych dwunastu sekund, ma szansê na odrzucenie celu, w zale¿noœci od poziomu ³ucznika:
-8. poziom: Odrzuca cel, jeœli ten nie wykona rzutu obronnego przeciw zioniêciom.
-12. poziom: Odrzuca cel, jeœli ten nie wykona rzutu obronnego przeciw zioniêciom z modyfikatorem -1.
-16. poziom: Odrzuca cel, jeœli ten nie wykona rzutu obronnego przeciw zioniêciom z modyfikatorem -2.
-20. poziom: Odrzuca cel, jeœli ten nie wykona rzutu obronnego przeciw zioniêciom z modyfikatorem -3.~
+KaÅ¼dy udany atak dystansowy, wykonany w przeciÄ…gu nastÄ™pnych dwunastu sekund, ma szansÄ™ na odrzucenie celu, w zaleÅ¼noÅ›ci od poziomu Å‚ucznika:
+8. poziom: Odrzuca cel, jeÅ›li ten nie wykona rzutu obronnego przeciw zioniÄ™ciom.
+12. poziom: Odrzuca cel, jeÅ›li ten nie wykona rzutu obronnego przeciw zioniÄ™ciom z modyfikatorem -1.
+16. poziom: Odrzuca cel, jeÅ›li ten nie wykona rzutu obronnego przeciw zioniÄ™ciom z modyfikatorem -2.
+20. poziom: Odrzuca cel, jeÅ›li ten nie wykona rzutu obronnego przeciw zioniÄ™ciom z modyfikatorem -3.~
 
-@2002 = ~Opl¹tuj¹cy strza³
+@2002 = ~OplÄ…tujÄ…cy strzaÅ‚
 
-Ka¿dy udany atak dystansowy, wykonany w przeci¹gu nastêpnych dwunastu sekund, spowoduje opl¹tanie celu, zgodnie z poziomem ³ucznika:
-4. poziom: Cel jest opl¹tany przez trzy rundy, jeœli nie wykona rzutu obronnego przeciw czarom.
-8. poziom: Cel jest opl¹tany przez trzy rundy, jeœli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -1.
-12. poziom: Cel jest opl¹tany przez cztery rundy, jeœli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -1.
-16. poziom: Cel jest opl¹tany przez cztery rundy, jeœli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -2.
-20. poziom: Cel jest opl¹tany przez piêæ rund, jeœli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -2.~
+KaÅ¼dy udany atak dystansowy, wykonany w przeciÄ…gu nastÄ™pnych dwunastu sekund, spowoduje oplÄ…tanie celu, zgodnie z poziomem Å‚ucznika:
+4. poziom: Cel jest oplÄ…tany przez trzy rundy, jeÅ›li nie wykona rzutu obronnego przeciw czarom.
+8. poziom: Cel jest oplÄ…tany przez trzy rundy, jeÅ›li nie wykona rzutu obronnego przeciw czarom z modyfikatorem -1.
+12. poziom: Cel jest oplÄ…tany przez cztery rundy, jeÅ›li nie wykona rzutu obronnego przeciw czarom z modyfikatorem -1.
+16. poziom: Cel jest oplÄ…tany przez cztery rundy, jeÅ›li nie wykona rzutu obronnego przeciw czarom z modyfikatorem -2.
+20. poziom: Cel jest oplÄ…tany przez piÄ™Ä‡ rund, jeÅ›li nie wykona rzutu obronnego przeciw czarom z modyfikatorem -2.~
 
-@2003 = ~Wybuchowy strza³
+@2003 = ~Wybuchowy strzaÅ‚
 
-Ka¿dy udany atak dystansowy, wykonany w przeci¹gu nastêpnych dwunastu sekund, powoduje eksplozjê wystrzelonego pocisku po trafieniu, zadaj¹c fizyczne obra¿enia znajduj¹cym siê w promieniu piêciu metrów celom, w zale¿noœci od poziomu ³ucznika:
-8. poziom: 1k4 obra¿eñ pobliskim celom
-12. poziom: 1k4 +2 obra¿eñ pobliskim celom
-16. poziom: 1k4 +4 obra¿eñ pobliskim celom
-20. poziom: 1k4 +6 obra¿eñ pobliskim celom
-Uwaga: Rani wrogów, sojuszników i niewinne stworzenia.~
+KaÅ¼dy udany atak dystansowy, wykonany w przeciÄ…gu nastÄ™pnych dwunastu sekund, powoduje eksplozjÄ™ wystrzelonego pocisku po trafieniu, zadajÄ…c fizyczne obraÅ¼enia znajdujÄ…cym siÄ™ w promieniu piÄ™ciu metrÃ³w celom, w zaleÅ¼noÅ›ci od poziomu Å‚ucznika:
+8. poziom: 1k4 obraÅ¼eÅ„ pobliskim celom
+12. poziom: 1k4 +2 obraÅ¼eÅ„ pobliskim celom
+16. poziom: 1k4 +4 obraÅ¼eÅ„ pobliskim celom
+20. poziom: 1k4 +6 obraÅ¼eÅ„ pobliskim celom
+Uwaga: Rani wrogÃ³w, sojusznikÃ³w i niewinne stworzenia.~
 
-@2004 = ~Stworzenie b³ogos³awionej amunicji
+@2004 = ~Stworzenie bÅ‚ogosÅ‚awionej amunicji
 
-Tworzy przepe³nion¹ energi¹ duchow¹ strza³ê lub be³t, pob³ogos³awione przez bóstwo, które wyznaje ³ucznik. Pocisk istnieje osiem godzin i zawiera du¿o ³adunków.
-4. poziom: umagicznienie +1, +1 do trafienia i obra¿eñ, dodatkowe 1k6 obra¿eñ i spowolnienie przez dwie rundy, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci.
-8. poziom: umagicznienie +1, +2 do trafienia i obra¿eñ, dodatkowe 1k6 +2 obra¿eñ i unieruchomienie przez dwie rundy, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci.
-12. poziom: umagicznienie +2, +2 do trafienia i obra¿eñ, dodatkowe 1k6 +4 obra¿eñ i natychmiastowa œmieræ, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci.
-16. poziom: umagicznienie +3, +3 do trafienia i obra¿eñ, dodatkowe 1k6 +6 obra¿eñ i natychmiastowa œmieræ, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci z modyfikatorem -2.
-20. poziom: umagicznienie +3, +4 do trafienia i obra¿eñ, dodatkowe 1k6 +8 obra¿eñ i natychmiastowa œmieræ, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci z modyfikatorem -4.~
+Tworzy przepeÅ‚nionÄ… energiÄ… duchowÄ… strzaÅ‚Ä™ lub beÅ‚t, pobÅ‚ogosÅ‚awione przez bÃ³stwo, ktÃ³re wyznaje Å‚ucznik. Pocisk istnieje osiem godzin i zawiera duÅ¼o Å‚adunkÃ³w.
+4. poziom: umagicznienie +1, +1 do trafienia i obraÅ¼eÅ„, dodatkowe 1k6 obraÅ¼eÅ„ i spowolnienie przez dwie rundy, w przypadku nieumarÅ‚ego, jeÅ›li ten nie wykona rzutu obronnego przeciw Å›mierci.
+8. poziom: umagicznienie +1, +2 do trafienia i obraÅ¼eÅ„, dodatkowe 1k6 +2 obraÅ¼eÅ„ i unieruchomienie przez dwie rundy, w przypadku nieumarÅ‚ego, jeÅ›li ten nie wykona rzutu obronnego przeciw Å›mierci.
+12. poziom: umagicznienie +2, +2 do trafienia i obraÅ¼eÅ„, dodatkowe 1k6 +4 obraÅ¼eÅ„ i natychmiastowa Å›mierÄ‡, w przypadku nieumarÅ‚ego, jeÅ›li ten nie wykona rzutu obronnego przeciw Å›mierci.
+16. poziom: umagicznienie +3, +3 do trafienia i obraÅ¼eÅ„, dodatkowe 1k6 +6 obraÅ¼eÅ„ i natychmiastowa Å›mierÄ‡, w przypadku nieumarÅ‚ego, jeÅ›li ten nie wykona rzutu obronnego przeciw Å›mierci z modyfikatorem -2.
+20. poziom: umagicznienie +3, +4 do trafienia i obraÅ¼eÅ„, dodatkowe 1k6 +8 obraÅ¼eÅ„ i natychmiastowa Å›mierÄ‡, w przypadku nieumarÅ‚ego, jeÅ›li ten nie wykona rzutu obronnego przeciw Å›mierci z modyfikatorem -4.~
 
-@2005 = ~Stworzenie pob³ogos³awionych strza³
+@2005 = ~Stworzenie pobÅ‚ogosÅ‚awionych strzaÅ‚
 
-Tworzy przepe³nion¹ energi¹ duchow¹ strza³ê, pob³ogos³awion¹ przez bóstwo, które wyznaje ³ucznik. Pocisk istnieje osiem godzin i zawiera du¿o ³adunków.
-4. poziom: umagicznienie +1, +1 do trafienia i obra¿eñ, dodatkowe 1k6 obra¿eñ i spowolnienie przez dwie rundy, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci.
-8. poziom: umagicznienie +1, +2 do trafienia i obra¿eñ, dodatkowe 1k6 +2 obra¿eñ i unieruchomienie przez dwie rundy, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci.
-12. poziom: umagicznienie +2, +2 do trafienia i obra¿eñ, dodatkowe 1k6 +4 obra¿eñ i natychmiastowa œmieræ, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci.
-16. poziom: umagicznienie +3, +3 do trafienia i obra¿eñ, dodatkowe 1k6 +6 obra¿eñ i natychmiastowa œmieræ, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci z modyfikatorem -2.
-20. poziom: umagicznienie +3, +4 do trafienia i obra¿eñ, dodatkowe 1k6 +8 obra¿eñ i natychmiastowa œmieræ, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci z modyfikatorem -4.~
+Tworzy przepeÅ‚nionÄ… energiÄ… duchowÄ… strzaÅ‚Ä™, pobÅ‚ogosÅ‚awionÄ… przez bÃ³stwo, ktÃ³re wyznaje Å‚ucznik. Pocisk istnieje osiem godzin i zawiera duÅ¼o Å‚adunkÃ³w.
+4. poziom: umagicznienie +1, +1 do trafienia i obraÅ¼eÅ„, dodatkowe 1k6 obraÅ¼eÅ„ i spowolnienie przez dwie rundy, w przypadku nieumarÅ‚ego, jeÅ›li ten nie wykona rzutu obronnego przeciw Å›mierci.
+8. poziom: umagicznienie +1, +2 do trafienia i obraÅ¼eÅ„, dodatkowe 1k6 +2 obraÅ¼eÅ„ i unieruchomienie przez dwie rundy, w przypadku nieumarÅ‚ego, jeÅ›li ten nie wykona rzutu obronnego przeciw Å›mierci.
+12. poziom: umagicznienie +2, +2 do trafienia i obraÅ¼eÅ„, dodatkowe 1k6 +4 obraÅ¼eÅ„ i natychmiastowa Å›mierÄ‡, w przypadku nieumarÅ‚ego, jeÅ›li ten nie wykona rzutu obronnego przeciw Å›mierci.
+16. poziom: umagicznienie +3, +3 do trafienia i obraÅ¼eÅ„, dodatkowe 1k6 +6 obraÅ¼eÅ„ i natychmiastowa Å›mierÄ‡, w przypadku nieumarÅ‚ego, jeÅ›li ten nie wykona rzutu obronnego przeciw Å›mierci z modyfikatorem -2.
+20. poziom: umagicznienie +3, +4 do trafienia i obraÅ¼eÅ„, dodatkowe 1k6 +8 obraÅ¼eÅ„ i natychmiastowa Å›mierÄ‡, w przypadku nieumarÅ‚ego, jeÅ›li ten nie wykona rzutu obronnego przeciw Å›mierci z modyfikatorem -4.~
 
-@2006 = ~Stworzenie pob³ogos³awionych be³tów
+@2006 = ~Stworzenie pobÅ‚ogosÅ‚awionych beÅ‚tÃ³w
 
-Tworzy przepe³niony energi¹ duchow¹ be³t, pob³ogos³awiony przez bóstwo, które wyznaje ³ucznik. Pocisk istnieje osiem godzin i zawiera du¿o ³adunków.
-4. poziom: umagicznienie +1, +1 do trafienia i obra¿eñ, dodatkowe 1k6 obra¿eñ i spowolnienie przez dwie rundy, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci.
-8. poziom: umagicznienie +1, +2 do trafienia i obra¿eñ, dodatkowe 1k6 +2 obra¿eñ i unieruchomienie przez dwie rundy, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci.
-12. poziom: umagicznienie +2, +2 do trafienia i obra¿eñ, dodatkowe 1k6 +4 obra¿eñ i natychmiastowa œmieræ, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci.
-16. poziom: umagicznienie +3, +3 do trafienia i obra¿eñ, dodatkowe 1k6 +6 obra¿eñ i natychmiastowa œmieræ, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci z modyfikatorem -2.
-20. poziom: umagicznienie +3, +4 do trafienia i obra¿eñ, dodatkowe 1k6 +8 obra¿eñ i natychmiastowa œmieræ, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci z modyfikatorem -4.~
+Tworzy przepeÅ‚niony energiÄ… duchowÄ… beÅ‚t, pobÅ‚ogosÅ‚awiony przez bÃ³stwo, ktÃ³re wyznaje Å‚ucznik. Pocisk istnieje osiem godzin i zawiera duÅ¼o Å‚adunkÃ³w.
+4. poziom: umagicznienie +1, +1 do trafienia i obraÅ¼eÅ„, dodatkowe 1k6 obraÅ¼eÅ„ i spowolnienie przez dwie rundy, w przypadku nieumarÅ‚ego, jeÅ›li ten nie wykona rzutu obronnego przeciw Å›mierci.
+8. poziom: umagicznienie +1, +2 do trafienia i obraÅ¼eÅ„, dodatkowe 1k6 +2 obraÅ¼eÅ„ i unieruchomienie przez dwie rundy, w przypadku nieumarÅ‚ego, jeÅ›li ten nie wykona rzutu obronnego przeciw Å›mierci.
+12. poziom: umagicznienie +2, +2 do trafienia i obraÅ¼eÅ„, dodatkowe 1k6 +4 obraÅ¼eÅ„ i natychmiastowa Å›mierÄ‡, w przypadku nieumarÅ‚ego, jeÅ›li ten nie wykona rzutu obronnego przeciw Å›mierci.
+16. poziom: umagicznienie +3, +3 do trafienia i obraÅ¼eÅ„, dodatkowe 1k6 +6 obraÅ¼eÅ„ i natychmiastowa Å›mierÄ‡, w przypadku nieumarÅ‚ego, jeÅ›li ten nie wykona rzutu obronnego przeciw Å›mierci z modyfikatorem -2.
+20. poziom: umagicznienie +3, +4 do trafienia i obraÅ¼eÅ„, dodatkowe 1k6 +8 obraÅ¼eÅ„ i natychmiastowa Å›mierÄ‡, w przypadku nieumarÅ‚ego, jeÅ›li ten nie wykona rzutu obronnego przeciw Å›mierci z modyfikatorem -4.~

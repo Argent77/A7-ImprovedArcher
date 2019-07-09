@@ -4,48 +4,59 @@
 ACTION_IF (GAME_IS ~iwdee~ && NOT FILE_EXISTS_IN_GAME ~achievem.2da~) BEGIN
   OUTER_TEXT_SPRINT spl_arrow "A7#ImprovedArcher/kit/ee/A7#IN04A.SPL"
   OUTER_TEXT_SPRINT spl_bolt  "A7#ImprovedArcher/kit/ee/A7#IN04B.SPL"
+  OUTER_TEXT_SPRINT spl_bullet  "A7#ImprovedArcher/kit/ee/A7#IN04C.SPL"
 END ELSE BEGIN
   OUTER_TEXT_SPRINT spl_arrow "A7#ImprovedArcher/kit/A7#IN04A.SPL"
   OUTER_TEXT_SPRINT spl_bolt  "A7#ImprovedArcher/kit/A7#IN04B.SPL"
+  OUTER_TEXT_SPRINT spl_bullet  "A7#ImprovedArcher/kit/A7#IN04C.SPL"
 END
 OUTER_SET help_strref = RESOLVE_STR_REF(@1100)    // Archer kit description
 
 // Updating Archer description and ability table
 OUTER_SET kit_id = "-1"
+OUTER_TEXT_SPRINT kit_symbol ~~
 COPY_EXISTING ~KITLIST.2DA~ ~override~
   COUNT_2DA_COLS numCols
   COUNT_2DA_ROWS numCols numRows
-  SET found = 0
-  FOR (row = 0; row < numRows && found < 1; row += 1) BEGIN
+  FOR (row = 0; row < numRows; row += 1) BEGIN
     READ_2DA_ENTRY row 1 numCols value
     PATCH_IF (~%value%~ STRING_EQUAL_CASE ~FERALAN~ || ~%value%~ STRING_EQUAL_CASE ~ARCHER~) BEGIN
       READ_2DA_ENTRY row 0 numCols kit_id
+      READ_2DA_ENTRY row 1 numCols kit_symbol
       SET_2DA_ENTRY row 4 numCols ~%help_strref%~
       SET_2DA_ENTRY row 5 numCols ~CLABA7R1~
-      found = 1
+      SET row = numRows
     END
   END
 BUT_ONLY
 
-// Limiting weapon styles
+// Adjusting weapon proficiencies and styles
 COPY_EXISTING ~WEAPPROF.2DA~ ~override~
   COUNT_2DA_COLS numCols
   COUNT_2DA_ROWS numCols numRows
-  SET found = 0
-  FOR (row = 0; row < numRows && found < 4; row += 1) BEGIN
+  // finding archer column
+  SET kit_col = 36
+  FOR (col = 3; col < numCols - 1; ++col) BEGIN
+    READ_2DA_ENTRY 2 col 1 name
+    PATCH_IF (~%name%~ STR_EQ ~%kit_symbol%~) BEGIN
+      SET kit_col = col + 1
+      SET col = numCols
+    END
+  END
+  // adjusting proficiencies
+  FOR (row = 0; row < numRows; row += 1) BEGIN
     READ_2DA_ENTRY row 0 numCols value
-    PATCH_IF (~%value%~ STRING_EQUAL_CASE ~2HANDED~) BEGIN
-      SET_2DA_ENTRY row 36 numCols ~1~
-      found += 1
-    END ELSE PATCH_IF (~%value%~ STRING_EQUAL_CASE ~SWORDANDSHIELD~) BEGIN
-      SET_2DA_ENTRY row 36 numCols ~1~
-      found += 1
-    END ELSE PATCH_IF (~%value%~ STRING_EQUAL_CASE ~SINGLEWEAPON~) BEGIN
-      SET_2DA_ENTRY row 36 numCols ~1~
-      found += 1
-    END ELSE PATCH_IF (~%value%~ STRING_EQUAL_CASE ~2WEAPON~) BEGIN
-      SET_2DA_ENTRY row 36 numCols ~2~
-      found += 1
+    PATCH_MATCH ~%value%~ WITH
+      // ~CROSSBOW~ ~LONGBOW~ ~SHORTBOW~ ~DART~ ~SLING~ BEGIN
+        // SET_2DA_ENTRY row kit_col numCols ~5~
+      // END
+      ~2HANDED~ ~SWORDANDSHIELD~ ~SINGLEWEAPON~ BEGIN
+        SET_2DA_ENTRY row kit_col numCols ~1~
+      END
+      ~2WEAPON~ BEGIN
+        SET_2DA_ENTRY row kit_col numCols ~2~
+      END
+      DEFAULT
     END
   END
 BUT_ONLY
@@ -54,13 +65,12 @@ BUT_ONLY
 COPY_EXISTING ~ABCLASRQ.2DA~ ~override~
   COUNT_2DA_COLS numCols
   COUNT_2DA_ROWS numCols numRows
-  SET found = 0
-  FOR (row = 0; row < numRows && found < 1; row += 1) BEGIN
+  FOR (row = 0; row < numRows; row += 1) BEGIN
     READ_2DA_ENTRY row 0 numCols value
     PATCH_IF (~%value%~ STRING_EQUAL_CASE ~FERALAN~) BEGIN
       SET_2DA_ENTRY row 2 numCols ~14~
       SET_2DA_ENTRY row 3 numCols ~13~
-      found = 1
+      SET row = numRows
     END
   END
 BUT_ONLY
@@ -69,12 +79,11 @@ BUT_ONLY
 COPY_EXISTING ~ABCLSMOD.2DA~ ~override~
   COUNT_2DA_COLS numCols
   COUNT_2DA_ROWS numCols numRows
-  SET found = 0
-  FOR (row = 0; row < numRows && found < 1; row += 1) BEGIN
+  FOR (row = 0; row < numRows; row += 1) BEGIN
     READ_2DA_ENTRY row 0 numCols value
     PATCH_IF (~%value%~ STRING_EQUAL_CASE ~FERALAN~) BEGIN
       SET_2DA_ENTRY row 3 numCols ~-1~
-      found = 1
+      SET row = numRows
     END
   END
 BUT_ONLY
@@ -83,12 +92,11 @@ BUT_ONLY
 COPY_EXISTING ~LUABBR.2DA~ ~override~
   COUNT_2DA_COLS numCols
   COUNT_2DA_ROWS numCols numRows
-  SET found = 0
-  FOR (row = 0; row < numRows && found < 1; row += 1) BEGIN
+  FOR (row = 0; row < numRows; row += 1) BEGIN
     READ_2DA_ENTRY row 0 numCols value
     PATCH_IF (~%value%~ STRING_EQUAL_CASE ~FERALAN~) BEGIN
       SET_2DA_ENTRY row 1 numCols ~A7ra1~
-      found = 1
+      SET row = numRows
     END
   END
 BUT_ONLY
@@ -152,24 +160,28 @@ ACTION_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
 
   COPY ~A7#ImprovedArcher/kit/ee/A7#IARO1.BAM~ ~override~
        ~A7#ImprovedArcher/kit/ee/A7#IBLT1.BAM~ ~override~
+       ~A7#ImprovedArcher/kit/ee/A7#IBUL1.BAM~ ~override~
        ~A7#ImprovedArcher/kit/ee/A7#IN01B.BAM~ ~override~
        ~A7#ImprovedArcher/kit/ee/A7#IN02B.BAM~ ~override~
        ~A7#ImprovedArcher/kit/ee/A7#IN03B.BAM~ ~override~
        ~A7#ImprovedArcher/kit/ee/A7#IN04B.BAM~ ~override~
        ~A7#ImprovedArcher/kit/ee/A7#IN4AB.BAM~ ~override~
        ~A7#ImprovedArcher/kit/ee/A7#IN4BB.BAM~ ~override~
+       ~A7#ImprovedArcher/kit/ee/A7#IN4CB.BAM~ ~override~
        ~A7#ImprovedArcher/kit/ee/A7#IN0AB.BAM~ ~override~
        ~A7#ImprovedArcher/kit/ee/A7#IN0BB.SPL~ ~override~
        ~A7#ImprovedArcher/kit/ee/A7#IN06.SPL~  ~override~
 END ELSE BEGIN
   COPY ~A7#ImprovedArcher/kit/A7#IARO1.BAM~ ~override~
        ~A7#ImprovedArcher/kit/A7#IBLT1.BAM~ ~override~
+       ~A7#ImprovedArcher/kit/A7#IBUL1.BAM~ ~override~
        ~A7#ImprovedArcher/kit/A7#IN01B.BAM~ ~override~
        ~A7#ImprovedArcher/kit/A7#IN02B.BAM~ ~override~
        ~A7#ImprovedArcher/kit/A7#IN03B.BAM~ ~override~
        ~A7#ImprovedArcher/kit/A7#IN04B.BAM~ ~override~
        ~A7#ImprovedArcher/kit/A7#IN4AB.BAM~ ~override~
        ~A7#ImprovedArcher/kit/A7#IN4BB.BAM~ ~override~
+       ~A7#ImprovedArcher/kit/A7#IN4CB.BAM~ ~override~
        ~A7#ImprovedArcher/kit/A7#IN0AB.BAM~ ~override~
        ~A7#ImprovedArcher/kit/A7#IN0BB.SPL~ ~override~
        ~A7#ImprovedArcher/kit/A7#IN06.SPL~  ~override~
@@ -178,22 +190,13 @@ END ELSE BEGIN
        ~A7#ImprovedArcher/kit/A7#IN06C.EFF~ ~override~
 END
 
-ACTION_IF (GAME_IS ~iwdee~) BEGIN
-  COPY ~A7#ImprovedArcher/kit/CLABA7R1_iwd.2DA~ ~override/CLABA7R1.2DA~
-END ELSE BEGIN
-  COPY ~A7#ImprovedArcher/kit/CLABA7R1_bg.2DA~ ~override/CLABA7R1.2DA~
-    PATCH_IF (NOT GAME_IS ~bgee bg2ee eet~) BEGIN
-      SET p = INDEX_BUFFER(~AP_A7#IN06~)
-      WHILE (p > 0) BEGIN
-        SET p = INDEX_BUFFER(~AP_A7#IN06~ p + 1)
-        PATCH_IF (p > 0) BEGIN
-          WRITE_ASCII p ~****      ~ #10
-        END
-      END
-    END
-END
+COPY ~A7#ImprovedArcher/kit/%CLAB_DIR%/CLABA7R1.2DA~ ~override~
+  PATCH_IF (GAME_IS ~tob bgt~) BEGIN
+    LPF CLAB_FIX_ENTRY END
+  END
 
 COPY ~A7#ImprovedArcher/kit/A7#IN04.2DA~  ~override~
+     ~A7#ImprovedArcher/kit/A7#IN07.2DA~  ~override~
      ~A7#ImprovedArcher/kit/LUA7RA1.2DA~  ~override~
      ~A7#ImprovedArcher/kit/A7#IN11A.EFF~ ~override~
      ~A7#ImprovedArcher/kit/A7#IN11B.EFF~ ~override~
@@ -381,6 +384,12 @@ COPY ~A7#ImprovedArcher/kit/A7#IN04.SPL~ ~override~
     SAY UNIDENTIFIED_DESC @2004   // Create Spiritual Ammunition...
   END
 
+COPY ~A7#ImprovedArcher/kit/A7#IN07.SPL~ ~override~
+  SAY NAME1 @1003   // Create Blessed Ammunition
+  PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
+    SAY UNIDENTIFIED_DESC @2008   // Create Spiritual Ammunition...
+  END
+
 COPY ~%spl_arrow%~ ~override~
   SAY NAME1 @1004   // Create Blessed Arrows
   PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
@@ -409,7 +418,21 @@ COPY ~%spl_bolt%~ ~override~
     effects_ofs += 0x30
   END
 
-// Blessed Arrows and Bolts
+COPY ~%spl_bullet%~ ~override~
+  SAY NAME1 @1023   // Create Blessed Bullets
+  PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
+    SAY UNIDENTIFIED_DESC @2007   // Create Spiritual Bullets...
+  END
+  READ_LONG 0x6a "effects_ofs"
+  WHILE (effects_ofs < SOURCE_SIZE) BEGIN
+    READ_SHORT effects_ofs "fx_type"
+    PATCH_IF (fx_type == 139) BEGIN   // Display string (139)
+      SAY (effects_ofs + 4) @1028   // Blessed Bullets created
+    END
+    effects_ofs += 0x30
+  END
+
+// Blessed Arrows, Bolts and Bullets
 COPY ~A7#ImprovedArcher/kit/A7#INARA.ITM~ ~override~
   SAY NAME2 @1006   // Blessed Arrow +1
   SAY IDENTIFIED_DESC @1101   // This is an arrow that has been blessed by the Archer's worshipped god or goddess...
@@ -510,6 +533,56 @@ COPY ~A7#ImprovedArcher/kit/A7#INBTE.ITM~ ~override~
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
   END
 
+COPY ~A7#ImprovedArcher/kit/A7#INBUA.ITM~ ~override~
+  SAY NAME2 @1024   // Blessed Bullet +1
+  SAY IDENTIFIED_DESC @1120   // This is an bolt that has been blessed by the Archer's worshipped god or goddess...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (GAME_IS ~tob bgt~) BEGIN // apply compatible bolt projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 17 END
+  END
+
+COPY ~A7#ImprovedArcher/kit/A7#INBUB.ITM~ ~override~
+  SAY NAME2 @1024   // Blessed Bullet +1
+  SAY IDENTIFIED_DESC @1121   // This is an bolt that has been blessed by the Archer's worshipped god or goddess...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (GAME_IS ~tob bgt~) BEGIN // apply compatible bolt projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 17 END
+  END
+
+COPY ~A7#ImprovedArcher/kit/A7#INBUC.ITM~ ~override~
+  SAY NAME2 @1025   // Blessed Bullet +2
+  SAY IDENTIFIED_DESC @1122   // This is an bolt that has been blessed by the Archer's worshipped god or goddess...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (GAME_IS ~tob bgt~) BEGIN // apply compatible bolt projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 17 END
+  END
+
+COPY ~A7#ImprovedArcher/kit/A7#INBUD.ITM~ ~override~
+  SAY NAME2 @1026   // Blessed Bullet +3
+  SAY IDENTIFIED_DESC @1123   // This is an bolt that has been blessed by the Archer's worshipped god or goddess...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (GAME_IS ~tob bgt~) BEGIN // apply compatible bolt projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 17 END
+  END
+
+COPY ~A7#ImprovedArcher/kit/A7#INBUE.ITM~ ~override~
+  SAY NAME2 @1027   // Blessed Bullet +4
+  SAY IDENTIFIED_DESC @1124   // This is an bolt that has been blessed by the Archer's worshipped god or goddess...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (GAME_IS ~tob bgt~) BEGIN // apply compatible bolt projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 17 END
+  END
+
 
 // Ability: Sure Shot
 COPY ~A7#ImprovedArcher/kit/A7#IN0A.SPL~ ~override~
@@ -531,4 +604,3 @@ COPY ~A7#ImprovedArcher/kit/A7#IN0A.SPL~ ~override~
 COPY ~A7#ImprovedArcher/kit/A7#IN0B.SPL~ ~override~
   SAY NAME1 @1018   // Missile Trap
   SAY UNIDENTIFIED_DESC @1112   // Set Missile Trap...
-

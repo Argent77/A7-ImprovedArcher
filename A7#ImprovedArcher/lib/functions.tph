@@ -1,0 +1,23 @@
+// Removes excess entries from current CLAB table.
+DEFINE_PATCH_FUNCTION CLAB_FIX_ENTRY
+INT_VAR
+  numEntries = 1        // max. number of entries
+STR_VAR
+  entry = ~AP_A7#IN06~  // entry to fix
+BEGIN
+  COUNT_2DA_COLS num_cols
+  COUNT_2DA_ROWS num_cols num_rows
+  SET count = 0
+  FOR (col = 1; col < num_cols; ++col) BEGIN
+    FOR (row = 0; row < num_rows; ++row) BEGIN
+      READ_2DA_ENTRY row col num_cols value
+      PATCH_IF (~%value%~ STR_EQ ~%entry%~) BEGIN
+        PATCH_IF (count >= numEntries) BEGIN
+          SET_2DA_ENTRY row col num_cols ~****      ~
+        END ELSE BEGIN
+          SET count += 1
+        END
+      END
+    END
+  END
+END

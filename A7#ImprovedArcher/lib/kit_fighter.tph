@@ -1,0 +1,39 @@
+// Installing Fighter -> Marksman kit (de: Kampfschütze)
+INCLUDE ~A7#ImprovedArcher/lib/fl#add_kit_ee.tpa~
+
+ADD_KIT ~A7_MARKSMAN~
+        ~A7_MARKSMAN 1 1 1 1 1 1 1 1~   // clasweap.2da
+        ~A7_MARKSMAN 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 5 5 5 5 5 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~  // weapprof.2da
+        ~A7_MARKSMAN 9 0 0 0 0 0~       // abclasrq.2da
+        ~A7_MARKSMAN 0 0 0 0 0 0~       // abclsmod.2da
+        ~A7_MARKSMAN 17 0 0 0 0 0~      // abdcdsrq.2da
+        ~A7_MARKSMAN 15 0 0 0 0 0~      // abdcscrq.2da
+        ~A7_MARKSMAN 1 1 1 1 1 1 1 1 1~ // alignmnt.2da
+        ~A7_MARKSMAN 0 1 1 1 1 0~       // dualclas.2da
+        ~A7#ImprovedArcher/kit/%CLAB_DIR%/CLABA7F1.2DA~  // path to kit clabxxx.2da
+        ~K_F_H K_F_D K_F_G K_F_E K_F_HE K_F_HL K_F_HO~  // class/race combinations for kittable.2da
+        ~0x00008000 2~ // unusability and parent class info for kitlist.2da
+        ~A7fi1~     // luabbr.2da
+        ~LEAT14 * HELM07 BAG20 RING06 RING31 CLCK02 BOOT01 AMUL19 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 BOW18 XBOW09 STAF08~  // 25stweap.2da
+        SAY @1201   // lower name
+        SAY @1202   // mixed name
+        SAY @1200   // kit description
+
+LAF fl#add_kit_ee
+STR_VAR
+    kit_name = "A7_MARKSMAN"
+    clsrcreq = "1 1 1 1 1 1 1"
+    clswpbon = "1 0 2"
+    hpclass = "HPWAR"
+    numwslot = "4"
+    clascolr = "30 91 93 23 93" // using default fighter colors
+    bdstweap = "LEAT05 * HELM01 * RING06 * * * * BRAC09 BELT02 AROW02,40 BULL02,40 BOLT02,40 POTN08,5 POTN17,3 * BOW06 XBOW05 STAF02"
+END
+
+COPY ~A7#ImprovedArcher/kit/LUA7FI1.2DA~ ~override~
+
+COPY_EXISTING ~CLABA7F1.2DA~ ~override~
+  PATCH_IF (GAME_IS ~tob bgt~) BEGIN
+    LPF CLAB_FIX_ENTRY END
+  END
+  BUT_ONLY

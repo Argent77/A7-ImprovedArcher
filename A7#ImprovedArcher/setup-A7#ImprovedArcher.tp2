@@ -2,21 +2,31 @@ BACKUP ~A7#ImprovedArcher/backup~
 AUTHOR ~Argent77 at Spellhold Studios~
 VERSION ~v2.4~
 
+ASK_EVERY_COMPONENT
+
 ALWAYS
-  ACTION_IF GAME_IS ~bgee bg2ee iwdee eet~ BEGIN
-    LOAD_TRA ~A7#ImprovedArcher/languages/english/kit-ee.tra~
-    LOAD_TRA ~A7#ImprovedArcher/languages/%LANGUAGE%/kit-ee.tra~
+  INCLUDE ~A7#ImprovedArcher/lib/functions.tph~
+
+  ACTION_IF (GAME_IS ~iwdee~) BEGIN
+    OUTER_TEXT_SPRINT CLAB_DIR ~iwd~
+  END ELSE BEGIN
+    OUTER_TEXT_SPRINT CLAB_DIR ~bg~
   END
 
-  ACTION_DEFINE_ARRAY a7#noconvert BEGIN setup END
-  ACTION_DEFINE_ARRAY a7#reload BEGIN kit kit-ee END
+  ACTION_DEFINE_ARRAY a7#noconvert BEGIN ~setup~ ~kit-ee~ END
+  ACTION_DEFINE_ARRAY a7#reload BEGIN ~kit~ END
   LAF HANDLE_CHARSETS
     INT_VAR
       infer_charset = 1
     STR_VAR
       tra_path        = ~A7#ImprovedArcher/languages~
-      noconvert_array = a7#noconvert
-      reload_array    = a7#reload
+      noconvert_array = ~a7#noconvert~
+      reload_array    = ~a7#reload~
+  END
+
+  ACTION_IF GAME_IS ~bgee bg2ee iwdee eet~ BEGIN
+    LOAD_TRA ~A7#ImprovedArcher/languages/english/kit-ee.tra~
+    LOAD_TRA ~A7#ImprovedArcher/languages/%LANGUAGE%/kit-ee.tra~
   END
 END
 
@@ -60,14 +70,35 @@ LANGUAGE ~Russian (Translation by Saigon1983)~
 
 
 BEGIN @1    // Improved Archer Kit
-  REQUIRE_PREDICATE GAME_IS ~tob bgt bgee bg2ee iwdee eet~ @3   // This mod requires BG2:ToB, BG:EE, BG2:EE or IWD:EE to be installed.
+  REQUIRE_PREDICATE GAME_IS ~tob bgt bgee bg2ee iwdee eet~ @100   // This mod requires BG2:ToB, BG:EE, BG2:EE or IWD:EE to be installed.
   DESIGNATED 0
 
   INCLUDE ~A7#ImprovedArcher/lib/kit.tph~
 
 
+BEGIN @3    // Add fighter kit: Marksman
+  REQUIRE_COMPONENT ~setup-A7#ImprovedArcher.tp2~ 0 @102  // This component requires the main component "Improved Archer Kit" to be installed.
+  DESIGNATED 10
+
+  INCLUDE ~A7#ImprovedArcher/lib/kit_fighter.tph~
+
+
+BEGIN @4    // Add paladin kit: Bow Knight
+  REQUIRE_COMPONENT ~setup-A7#ImprovedArcher.tp2~ 0 @102  // This component requires the main component "Improved Archer Kit" to be installed.
+  DESIGNATED 20
+
+  INCLUDE ~A7#ImprovedArcher/lib/kit_paladin.tph~
+
+
+BEGIN @5    // Add thief kit: Sharpshooter
+  REQUIRE_COMPONENT ~setup-A7#ImprovedArcher.tp2~ 0 @102  // This component requires the main component "Improved Archer Kit" to be installed.
+  DESIGNATED 30
+
+  INCLUDE ~A7#ImprovedArcher/lib/kit_thief.tph~
+
+
 BEGIN @2    // Add +4 arrows, bolts and two powerful bows to the game
-  REQUIRE_PREDICATE GAME_IS ~tob bgt bg2ee iwdee eet~ @4    // This mod requires BG2:ToB, BG2:EE or IWD:EE to be installed.
+  REQUIRE_PREDICATE GAME_IS ~tob bgt bg2ee iwdee eet~ @101    // This mod requires BG2:ToB, BG2:EE or IWD:EE to be installed.
   DESIGNATED 100
 
   INCLUDE ~A7#ImprovedArcher/lib/missiles.tph~

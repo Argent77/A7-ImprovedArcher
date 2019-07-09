@@ -2,5 +2,10 @@
 
 @1 = ~Improved Archer Kit~
 @2 = ~Add +4 arrows, bolts and two powerful bows to the game~
-@3 = ~This mod requires BG2:ToB, BG:EE, BG2:EE or IWD:EE to be installed.~
-@4 = ~This mod requires BG2:ToB, BG2:EE or IWD:EE to be installed.~
+@3 = ~Add fighter kit: Marksman~
+@4 = ~Add paladin kit: Bow Knight~
+@5 = ~Add thief kit: Sharpshooter~
+
+@100 = ~This mod requires BG2:ToB, BG:EE, BG2:EE or IWD:EE to be installed.~
+@101 = ~This mod requires BG2:ToB, BG2:EE or IWD:EE to be installed.~
+@102 = ~This component requires the main component "Improved Archer Kit" to be installed.~

@@ -1,88 +1,88 @@
-// -*- coding: cp1252 -*-
+// -*- coding: utf-8 -*-
 
 // Descriptions
-@1117 = ~Les Elfes d'Evereska sont aussi connus pour leur propension à l'isolationnisme forcené que pour leur bravoure au combat. L'un de leurs plus célèbres guerriers était un archer nommé Bariah Crindor, dont la précision était légendaire, même chez les Humains. Bien que les Elfes refusent de confirmer ou d'infirmer cette histoire, les Humains racontent que l'oeil aiguisé de Bariah n'aurait jamais manqué sa cible. Fabriqué par sa mère, son arc ne reçut jamais de nom particulier, même si les Humains finirent par le baptiser le Grand Perce-Soleil, persuadés que les flèches de Bariah auraient la force de transpercer l'astre du jour si l'archer le souhaitait.
-Au cours d'une bataille dont le souvenir ravive encore une vive amertume parmi bien des Elfes, le griffon que montait Bariah fut tué par des mages invisibles qui lui avaient tendu une embuscade. Bien qu'un seul mage ait survécu au combat qui s'ensuivit, il parvint à s'emparer du Perce-Soleil et à s'échapper avec lui.
+@1117 = ~Les Elfes d'Evereska sont aussi connus pour leur propension Ã  l'isolationnisme forcenÃ© que pour leur bravoure au combat. L'un de leurs plus cÃ©lÃ¨bres guerriers Ã©tait un archer nommÃ© Bariah Crindor, dont la prÃ©cision Ã©tait lÃ©gendaire, mÃªme chez les Humains. Bien que les Elfes refusent de confirmer ou d'infirmer cette histoire, les Humains racontent que l'oeil aiguisÃ© de Bariah n'aurait jamais manquÃ© sa cible. FabriquÃ© par sa mÃ¨re, son arc ne reÃ§ut jamais de nom particulier, mÃªme si les Humains finirent par le baptiser le Grand Perce-Soleil, persuadÃ©s que les flÃ¨ches de Bariah auraient la force de transpercer l'astre du jour si l'archer le souhaitait.
+Au cours d'une bataille dont le souvenir ravive encore une vive amertume parmi bien des Elfes, le griffon que montait Bariah fut tuÃ© par des mages invisibles qui lui avaient tendu une embuscade. Bien qu'un seul mage ait survÃ©cu au combat qui s'ensuivit, il parvint Ã  s'emparer du Perce-Soleil et Ã  s'Ã©chapper avec lui.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Capacités spéciales :
-– Protection contre les projectiles normaux deux fois par jour
+CapacitÃ©s spÃ©ciales :
+â€“ Protection contre les projectiles normaux deux fois par jour
 
-Capacités de combat :
-– Cet arc n'a pas besoin de flèches et tire des flèches +3 bénéficiant d'un TAC0 +4 et infligeant 1d6 points de dégâts perforants.
+CapacitÃ©s de combat :
+â€“ Cet arc n'a pas besoin de flÃ¨ches et tire des flÃ¨ches +3 bÃ©nÃ©ficiant d'un TAC0 +4 et infligeant 1d6 points de dÃ©gÃ¢ts perforants.
 
 TAC0 : +4
 Facteur de vitesse : 2
-Type de compétence : arc long
-Type : arme à deux mains
-Nécessite : 6 en Force
+Type de compÃ©tence : arc long
+Type : arme Ã  deux mains
+NÃ©cessite : 6 en Force
 
 Poids : 3~
 
-@1118 = ~Les arcs composites sont des arcs longs dont les branches sont faites de plusieurs matériaux. Cela rend l'arc plus souple, ce qui accroît sa portée et les dégâts que ses traits infligent.
-Non seulement celui-ci bénéficie d'enchantements puissants, mais les matériaux utilisés pour le fabriquer sont d'une qualité hors du commun. Son cadre exceptionnellement résistant peut dévier jusqu'aux coups les plus puissants alors que sa conception ergonomique permet de tirer des flèches en rafales.
+@1118 = ~Les arcs composites sont des arcs longs dont les branches sont faites de plusieurs matÃ©riaux. Cela rend l'arc plus souple, ce qui accroÃ®t sa portÃ©e et les dÃ©gÃ¢ts que ses traits infligent.
+Non seulement celui-ci bÃ©nÃ©ficie d'enchantements puissants, mais les matÃ©riaux utilisÃ©s pour le fabriquer sont d'une qualitÃ© hors du commun. Son cadre exceptionnellement rÃ©sistant peut dÃ©vier jusqu'aux coups les plus puissants alors que sa conception ergonomique permet de tirer des flÃ¨ches en rafales.
 
-PARAMÈTRES :
+PARAMÃˆTRES :
 
-Capacités d'équipement :
-– classe d'armure : +4 contre les armes de mêlée
-– 3 flèches par round
+CapacitÃ©s d'Ã©quipement :
+â€“ classe d'armure : +4 contre les armes de mÃªlÃ©e
+â€“ 3 flÃ¨ches par round
 
 TAC0 : +6
-Dégâts : +2 (projectile)
+DÃ©gÃ¢ts : +2 (projectile)
 Facteur de vitesse : 2
-Type de compétence : arc long
-Type : arme à deux mains
-Nécessite : 18 en Force
+Type de compÃ©tence : arc long
+Type : arme Ã  deux mains
+NÃ©cessite : 18 en Force
 
 Poids : 5~
 
 
 // Innate ability descriptions
 @2001 = ~Tir renversant
-Tout tir réussi dans les 12 secondes qui suivent peut renverser la cible, selon le niveau de l'Archer :
+Tout tir rÃ©ussi dans les 12 secondes qui suivent peut renverser la cible, selon le niveau de l'Archer :
  niveau 8  : Renverse la cible si elle rate son JS contre les souffles.
  niveau 12 : Renverse la cible si elle rate son JS contre les souffles avec un malus de 1.
  niveau 16 : Renverse la cible si elle rate son JS contre les souffles avec un malus de 2.
  niveau 20 : Renverse la cible si elle rate son JS contre les souffles avec un malus de 3.~
 
 @2002 = ~Tir immobilisant
-Tout tir réussi dans les 12 secondes qui suivent peut enchevêtrer la cible, selon la progression suivante :
- niveau 4  : Enchevêtre la cible pendant trois rounds si elle rate son JS contre les sorts.
- niveau 8  : Enchevêtre la cible pendant trois rounds si elle rate son JS contre les sorts avec un malus de 1.
- niveau 12 : Enchevêtre la cible pendant quatre rounds si elle rate son JS contre les sorts avec un malus de 1.
- niveau 16 : Enchevêtre la cible pendant quatre rounds si elle rate son JS contre les sorts avec un malus de 2.
- niveau 20 : Enchevêtre la cible pendant cinq rounds si elle rate son JS contre les sorts avec un malus de 2.~
+Tout tir rÃ©ussi dans les 12 secondes qui suivent peut enchevÃªtrer la cible, selon la progression suivante :
+ niveau 4  : EnchevÃªtre la cible pendant trois rounds si elle rate son JS contre les sorts.
+ niveau 8  : EnchevÃªtre la cible pendant trois rounds si elle rate son JS contre les sorts avec un malus de 1.
+ niveau 12 : EnchevÃªtre la cible pendant quatre rounds si elle rate son JS contre les sorts avec un malus de 1.
+ niveau 16 : EnchevÃªtre la cible pendant quatre rounds si elle rate son JS contre les sorts avec un malus de 2.
+ niveau 20 : EnchevÃªtre la cible pendant cinq rounds si elle rate son JS contre les sorts avec un malus de 2.~
 
 @2003 = ~Tir explosif
-Tout tir réussi dans les 12 secondes qui suivent explose à l'impact et inflige à toutes les créatures situées dans un rayon de 5 mètres des dégâts dépendant du niveau de l'Archer :
- niveau 8  : 1d4 points de dégâts
- niveau 12 : 1d4+2 points de dégâts
- niveau 16 : 1d4+4 points de dégâts
- niveau 20 : 1d4+6 points de dégâts
-Attention : cette capacité inflige des dégâts aussi bien aux ennemis qu'aux alliés et aux passants innocents.~
+Tout tir rÃ©ussi dans les 12 secondes qui suivent explose Ã  l'impact et inflige Ã  toutes les crÃ©atures situÃ©es dans un rayon de 5 mÃ¨tres des dÃ©gÃ¢ts dÃ©pendant du niveau de l'Archer :
+ niveau 8  : 1d4 points de dÃ©gÃ¢ts
+ niveau 12 : 1d4+2 points de dÃ©gÃ¢ts
+ niveau 16 : 1d4+4 points de dÃ©gÃ¢ts
+ niveau 20 : 1d4+6 points de dÃ©gÃ¢ts
+Attention : cette capacitÃ© inflige des dÃ©gÃ¢ts aussi bien aux ennemis qu'aux alliÃ©s et aux passants innocents.~
 
-@2004 = ~Créer des Munitions bénies
-L'Archer crée une munition spirituelle (flèche ou carreau) bénie par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et dotée de plusieurs charges.
- niveau 4  : munition +1, +1 au toucher et aux dégâts, 1d6 points supplémentaires contre les morts-vivants qui sont ralentis pendant deux rounds s'ils ratent leur JS contre la mort.
- niveau 8  : munition +1, +2 au toucher et aux dégâts, 1d6+2 points supplémentaires contre les morts-vivants qui sont paralysés pendant deux rounds s'ils ratent leur JS contre la mort.
- niveau 12 : munition +2, +2 au toucher et aux dégâts, 1d6+4 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort.
- niveau 16 : munition +3, +3 au toucher et aux dégâts, 1d6+6 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 2.
- niveau 20 : munition +4, +4 au toucher et aux dégâts, 1d6+8 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 4.~
+@2004 = ~CrÃ©er des Munitions bÃ©nies
+L'Archer crÃ©e une munition spirituelle (flÃ¨che ou carreau) bÃ©nie par sa divinitÃ© tutÃ©laire, qu'il peut utiliser pendant 8 heures et dotÃ©e de plusieurs charges.
+ niveau 4  : munition +1, +1 au toucher et aux dÃ©gÃ¢ts, 1d6 points supplÃ©mentaires contre les morts-vivants qui sont ralentis pendant deux rounds s'ils ratent leur JS contre la mort.
+ niveau 8  : munition +1, +2 au toucher et aux dÃ©gÃ¢ts, 1d6+2 points supplÃ©mentaires contre les morts-vivants qui sont paralysÃ©s pendant deux rounds s'ils ratent leur JS contre la mort.
+ niveau 12 : munition +2, +2 au toucher et aux dÃ©gÃ¢ts, 1d6+4 points supplÃ©mentaires contre les morts-vivants qui sont instantanÃ©ment dÃ©truits s'ils ratent leur JS contre la mort.
+ niveau 16 : munition +3, +3 au toucher et aux dÃ©gÃ¢ts, 1d6+6 points supplÃ©mentaires contre les morts-vivants qui sont instantanÃ©ment dÃ©truits s'ils ratent leur JS contre la mort avec un malus de 2.
+ niveau 20 : munition +4, +4 au toucher et aux dÃ©gÃ¢ts, 1d6+8 points supplÃ©mentaires contre les morts-vivants qui sont instantanÃ©ment dÃ©truits s'ils ratent leur JS contre la mort avec un malus de 4.~
 
-@2005 = ~Créer des Flèches bénies
-L'Archer crée une flèche spirituelle bénie par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et dotée de plusieurs charges.
- niveau 4  : munition +1, +1 au toucher et aux dégâts, 1d6 points supplémentaires contre les morts-vivants qui sont ralentis pendant deux rounds s'ils ratent leur JS contre la mort.
- niveau 8  : munition +1, +2 au toucher et aux dégâts, 1d6+2 points supplémentaires contre les morts-vivants qui sont paralysés pendant deux rounds s'ils ratent leur JS contre la mort.
- niveau 12 : munition +2, +2 au toucher et aux dégâts, 1d6+4 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort.
- niveau 16 : munition +3, +3 au toucher et aux dégâts, 1d6+6 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 2.
- niveau 20 : munition +4, +4 au toucher et aux dégâts, 1d6+8 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 4.~
+@2005 = ~CrÃ©er des FlÃ¨ches bÃ©nies
+L'Archer crÃ©e une flÃ¨che spirituelle bÃ©nie par sa divinitÃ© tutÃ©laire, qu'il peut utiliser pendant 8 heures et dotÃ©e de plusieurs charges.
+ niveau 4  : munition +1, +1 au toucher et aux dÃ©gÃ¢ts, 1d6 points supplÃ©mentaires contre les morts-vivants qui sont ralentis pendant deux rounds s'ils ratent leur JS contre la mort.
+ niveau 8  : munition +1, +2 au toucher et aux dÃ©gÃ¢ts, 1d6+2 points supplÃ©mentaires contre les morts-vivants qui sont paralysÃ©s pendant deux rounds s'ils ratent leur JS contre la mort.
+ niveau 12 : munition +2, +2 au toucher et aux dÃ©gÃ¢ts, 1d6+4 points supplÃ©mentaires contre les morts-vivants qui sont instantanÃ©ment dÃ©truits s'ils ratent leur JS contre la mort.
+ niveau 16 : munition +3, +3 au toucher et aux dÃ©gÃ¢ts, 1d6+6 points supplÃ©mentaires contre les morts-vivants qui sont instantanÃ©ment dÃ©truits s'ils ratent leur JS contre la mort avec un malus de 2.
+ niveau 20 : munition +4, +4 au toucher et aux dÃ©gÃ¢ts, 1d6+8 points supplÃ©mentaires contre les morts-vivants qui sont instantanÃ©ment dÃ©truits s'ils ratent leur JS contre la mort avec un malus de 4.~
 
-@2006 = ~Créer des Carreaux bénis
-L'Archer crée un carreau spirituel béni par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et doté de plusieurs charges.
- niveau 4  : munition +1, +1 au toucher et aux dégâts, 1d6 points supplémentaires contre les morts-vivants qui sont ralentis pendant deux rounds s'ils ratent leur JS contre la mort.
- niveau 8  : munition +1, +2 au toucher et aux dégâts, 1d6+2 points supplémentaires contre les morts-vivants qui sont paralysés pendant deux rounds s'ils ratent leur JS contre la mort.
- niveau 12 : munition +2, +2 au toucher et aux dégâts, 1d6+4 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort.
- niveau 16 : munition +3, +3 au toucher et aux dégâts, 1d6+6 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 2.
- niveau 20 : munition +4, +4 au toucher et aux dégâts, 1d6+8 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 4.~
+@2006 = ~CrÃ©er des Carreaux bÃ©nis
+L'Archer crÃ©e un carreau spirituel bÃ©ni par sa divinitÃ© tutÃ©laire, qu'il peut utiliser pendant 8 heures et dotÃ© de plusieurs charges.
+ niveau 4  : munition +1, +1 au toucher et aux dÃ©gÃ¢ts, 1d6 points supplÃ©mentaires contre les morts-vivants qui sont ralentis pendant deux rounds s'ils ratent leur JS contre la mort.
+ niveau 8  : munition +1, +2 au toucher et aux dÃ©gÃ¢ts, 1d6+2 points supplÃ©mentaires contre les morts-vivants qui sont paralysÃ©s pendant deux rounds s'ils ratent leur JS contre la mort.
+ niveau 12 : munition +2, +2 au toucher et aux dÃ©gÃ¢ts, 1d6+4 points supplÃ©mentaires contre les morts-vivants qui sont instantanÃ©ment dÃ©truits s'ils ratent leur JS contre la mort.
+ niveau 16 : munition +3, +3 au toucher et aux dÃ©gÃ¢ts, 1d6+6 points supplÃ©mentaires contre les morts-vivants qui sont instantanÃ©ment dÃ©truits s'ils ratent leur JS contre la mort avec un malus de 2.
+ niveau 20 : munition +4, +4 au toucher et aux dÃ©gÃ¢ts, 1d6+8 points supplÃ©mentaires contre les morts-vivants qui sont instantanÃ©ment dÃ©truits s'ils ratent leur JS contre la mort avec un malus de 4.~

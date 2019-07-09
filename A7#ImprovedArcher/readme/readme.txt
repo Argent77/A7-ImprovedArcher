@@ -13,41 +13,55 @@ Discussion: http://www.shsforums.net/topic/58012-improved-archer-kit/
 Overview
 ~~~~~~~~
 
-The original Archer kit does not scale very well with progressing levels. While the kit is very strong in the early 
-parts of the game, it becomes less useful compared to the other ranger kits later on.
-This mod attempts to improve the kit by giving the Archer a couple more features to make the kit interesting even 
-against very powerful enemies.
+The original Archer kit does not scale very well with progressing levels. While the kit is very strong in the earlier
+parts of the game, it becomes less useful compared to other ranger kits later on.
+
+This mod attempts to rebalance the kit, so that low level archers don't outshine other classes, while high-level
+archers may still keep up with other ranger kits. The mod adjusts overall power of the Archer and adds a couple of
+useful skills and abilities to the kit.
+
+Additional components provide you with Archer-like kits for figher, paladin and thief classes, or install a set of
+powerful bows and ammunition to the game.
 
 
 Installation
 ~~~~~~~~~~~~
 
-This is a WeiDU mod, that means it is very easy to install. Simply unpack "A7#ImprovedArcher-v1.7z" into your game 
-directory and run either "setup-A7#ImprovedArcher.exe" (on Windows) or "setup-A7#ImprovedArcher" (on Mac OS X). 
-Follow the instructions and you are ready to start. It is strongly recommended to start a new game to enjoy all the 
+This is a WeiDU mod, that means it is very easy to install. Simply unpack the zip archive into your game directory and
+run either "setup-A7#ImprovedArcher.exe" (on Windows) or "setup-A7#ImprovedArcher" (on Mac OS X).
+Follow the instructions and you are ready to start. It is strongly recommended to start a new game to enjoy all the
 benefits of the improved Archer kit.
 
 
 Components
 ~~~~~~~~~~
 
-The mod includes two components:
-1. Improved Archer Kit (supports BG2:ToB, BGT, BG:EE, BG:SoD, BG2:EE and IWD:EE)
-- Installs the Archer kit
+1. Improved Archer Kit (requires BG2:ToB, BGT, BG:EE, BG:SoD, BG2:EE, EET or IWD:EE)
+Improves the Archer kit by balancing stat progression and adding a couple of unique skills and abilities. This is the
+main component of the mod.
 
-2. Add +4 arrows, bolts and two powerful bows to the game (supports BG2:ToB, BGT, BG2:EE and IWD:EE)
-- Adds +4 arrows and bolts to a number of stores and creatures in the ToB part of the game as well as to Watcher's Keep.
-BG2, BGT and BG2EE:
+2. Add fighter kit: Marksman (requires main component "Improved Archer Kit")
+Installs the fighter kit "Marksman" to the game.
+
+3. Add paladin kit: Bow Knight (requires main component "Improved Archer Kit")
+Installs the paladin kit "Bow Knight" to the game.
+
+4. Add thief kit: Sharpshooter (requires main component "Improved Archer Kit")
+Installs the thief kit "Sharpshooter" to the game.
+
+5. Add +4 arrows, bolts and two powerful bows to the game (requires BG2:ToB, BGT, BG2:EE or IWD:EE)
+Adds +4 arrows and bolts to a number of stores and creatures in the ToB part of the game as well as to Watcher's Keep.
+BG2, BGT, BG2:EE and EET:
   - Adds a powerful longbow somewhere to the third level of Watcher's Keep
   - Adds an even more powerful composite longbow to the outdoor area of Sendai's Enclave
-IWDEE only:
+IWD:EE:
   - Adds two powerful bows and a few +4 arrows and bolts to Conlan's shop in Kuldahar after reaching Chapter 4
 
-Each component can be installed independently.
+This component can be installed independently from the main component.
 
 
-Kit Description
-~~~~~~~~~~~~~~~
+Kit Descriptions
+~~~~~~~~~~~~~~~~
 
 ARCHER: The Archer is the epitome of skill with the bow-the ultimate marksman, able to make almost any shot, no matter 
 how difficult. To become so skilled with the bow, the Archer has had to sacrifice some of his proficiency with melee 
@@ -116,6 +130,30 @@ Disadvantages:
 - -1 CON penalty.
 - May not wear any metal armor.
 - May only become Proficient (one slot) with melee weapons.
+
+
+Fighter kit: Marksman
+This kit provides the same characteristics as the Archer kit with the following restrictions:
+- Create Blessed Ammunition ability not available.
+- Set Missile Trap HLA not available.
+- May become Specialized (two slots) with melee weapons.
+- May only allocate one slot in any fighting style.
+
+Paladin kit: Bow Knight
+This kit provides the same characteristics as the Archer kit with the following restrictions:
+- Explosive Shot ability not available.
+- Set Missile Trap HLA not available.
+- No bonus proficiencies for Darts.
+- May only become Proficient (one slot) with melee weapons.
+- May only allocate one slot in any fighting style.
+
+Thief kit: Sharpshooter
+This kit provides the same characteristics as the Archer kit with the following restrictions:
+- +1 bonus to hit and damage with missile weapons as well as AC vs. missile weapons only every 8 levels.
+- Create Blessed Ammunition ability not available.
+- Sure Shot HLA not available.
+- May only distribute 15 skill points per level among thieving skills.
+- May not use Backstab ability.
 
 
 Longbow Descriptions
@@ -187,6 +225,8 @@ Credits
 
 Writing, coding and testing: Argent77
 
+Incorporated ideas from "Universal Archer Kit" by semiticgod
+
 French translation: Gwendolyne
 Italian translation: Aedan
 Polish translation: Cahir
@@ -203,8 +243,13 @@ The mod "Improved Archer Kit" is licensed under the "Creative Commons Attributio
 History
 ~~~~~~~
 
-2.5 (20??-??-??)
-  - Rebalanced combat bonuses of the kit
+3.0 (20??-??-??)
+  - Rebalanced combat bonuses of the Archer kit
+  - Rebalanced "Create Blessed Ammo" ability
+  - Added Archer-like kits for fighters, paladins and thieves
+  - Added bullets to "Create Blessed Ammo" ability for paladin kit
+  - Fixed incorrect blessed ammo projectile for classic BG2/BGT
+  - Added German readme
 
 2.4 (2017-10-25)
   - Fixed a bug that may cause installation error in BG2:EE
