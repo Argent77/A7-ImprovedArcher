@@ -103,4 +103,3 @@ BEGIN @2    // Add +4 arrows, bolts and two powerful bows to the game
 
   INCLUDE ~A7#ImprovedArcher/lib/missiles.tph~
   INCLUDE ~A7#ImprovedArcher/lib/bows.tph~
-
