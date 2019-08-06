@@ -1,23 +1,62 @@
-// Installing Thief -> Sharpshooter kit (de: Scharfschütze)
+// Installing Thief -> Sharpshooter kit
 INCLUDE ~A7#ImprovedArcher/lib/fl#add_kit_ee.tpa~
 
-ADD_KIT ~A7_SHARPSHOOTER~
-        ~A7_SHARPSHOOTER 1 1 1 1 1 0 0 0~   // clasweap.2da
-        ~A7_SHARPSHOOTER 0 1 0 0 1 0 0 1 0 1 1 0 0 1 1 1 0 1 0 0 0 0 1 5 0 5 5 5 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~  // weapprof.2da
-        ~A7_SHARPSHOOTER 0 9 0 0 0 0~       // abclasrq.2da
-        ~A7_SHARPSHOOTER 0 0 0 0 0 0~       // abclsmod.2da
-        ~A7_SHARPSHOOTER 0 17 0 0 0 0~      // abdcdsrq.2da
-        ~A7_SHARPSHOOTER 0 15 0 0 0 0~      // abdcscrq.2da
-        ~A7_SHARPSHOOTER 0 1 1 1 1 1 1 1 1~ // alignmnt.2da
-        ~A7_SHARPSHOOTER 1 1 1 0 0 0~       // dualclas.2da
-        ~A7#ImprovedArcher/kit/%CLAB_DIR%/CLABA7T1.2DA~   // path to kit clabxxx.2da
-        ~K_T_H K_T_D K_T_G K_T_E K_T_HE K_T_HL K_T_HO~    // class/race combinations for kittable.2da
-        ~0x00040000 4~  // unusability and parent class info for kitlist.2da
-        ~A7th1~     // luabbr.2da
-        ~LEAT14 * * BAG28 RING06 RING05 * BOOT02 AMUL19 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 DAGG12 SW1H28 STAF08~  // 25stweap.2da
-        SAY @1401   // lower name
-        SAY @1402   // mixed name
-        SAY @1400   // kit description
+// Stupid ADD_KIT doesn't support EVALUATE_BUFFER
+ACTION_IF (GAME_IS ~bg2 bg2ee eet~) BEGIN
+  ADD_KIT ~A7_SHARPSHOOTER~
+          ~A7_SHARPSHOOTER 1 1 1 1 1 0 0 0~   // clasweap.2da
+          ~A7_SHARPSHOOTER 0 1 0 0 1 0 0 1 0 1 1 0 0 1 1 1 0 1 0 0 0 0 1 5 0 5 5 5 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~  // weapprof.2da
+          ~A7_SHARPSHOOTER 0 9 0 0 0 0~       // abclasrq.2da
+          ~A7_SHARPSHOOTER 0 0 0 0 0 0~       // abclsmod.2da
+          ~A7_SHARPSHOOTER 0 17 0 0 0 0~      // abdcdsrq.2da
+          ~A7_SHARPSHOOTER 0 15 0 0 0 0~      // abdcscrq.2da
+          ~A7_SHARPSHOOTER 0 1 1 1 1 1 1 1 1~ // alignmnt.2da
+          ~A7_SHARPSHOOTER 1 1 1 0 0 0~       // dualclas.2da
+          ~A7#ImprovedArcher/kit/%CLAB_DIR%/CLABA7T1.2DA~   // path to kit clabxxx.2da
+          ~K_T_H K_T_D K_T_G K_T_E K_T_HE K_T_HL K_T_HO~    // class/race combinations for kittable.2da
+          ~0x00040000 4~  // unusability and parent class info for kitlist.2da
+          ~A7th1~     // luabbr.2da
+          ~LEAT14 * * BAG28 RING06 RING05 * BOOT02 AMUL19 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 DAGG12 SW1H28 STAF08~  // 25stweap.2da
+          SAY @1401   // lower name
+          SAY @1402   // mixed name
+          SAY @1400   // kit description
+END ELSE ACTION_IF (GAME_IS ~iwdee~) BEGIN
+  ADD_KIT ~A7_SHARPSHOOTER~
+          ~A7_SHARPSHOOTER 1 1 1 1 1 0 0 0~   // clasweap.2da
+          ~A7_SHARPSHOOTER 0 1 0 0 1 0 0 1 0 1 1 0 0 1 1 1 0 1 0 0 0 0 1 5 0 5 5 5 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~  // weapprof.2da
+          ~A7_SHARPSHOOTER 0 9 0 0 0 0~       // abclasrq.2da
+          ~A7_SHARPSHOOTER 0 0 0 0 0 0~       // abclsmod.2da
+          ~A7_SHARPSHOOTER 0 17 0 0 0 0~      // abdcdsrq.2da
+          ~A7_SHARPSHOOTER 0 15 0 0 0 0~      // abdcscrq.2da
+          ~A7_SHARPSHOOTER 0 1 1 1 1 1 1 1 1~ // alignmnt.2da
+          ~A7_SHARPSHOOTER 1 1 1 0 0 0~       // dualclas.2da
+          ~A7#ImprovedArcher/kit/%CLAB_DIR%/CLABA7T1.2DA~   // path to kit clabxxx.2da
+          ~K_T_H K_T_D K_T_G K_T_E K_T_HE K_T_HL K_T_HO~    // class/race combinations for kittable.2da
+          ~0x00040000 4~  // unusability and parent class info for kitlist.2da
+          ~A7th1~     // luabbr.2da
+          ~USLTR3A * * * SHADOWS URING5B * SHBOOTS BWTALIS KAYGLOV * AROW11,40 BULL03,40 BOLT06,40 FIREKIS POTN36,2 POTN08,5 BOW06 DART04,40 USSWD4A~ // 25stweap.2da
+          SAY @1401   // lower name
+          SAY @1402   // mixed name
+          SAY @1400   // kit description
+END ELSE BEGIN
+  ADD_KIT ~A7_SHARPSHOOTER~
+          ~A7_SHARPSHOOTER 1 1 1 1 1 0 0 0~   // clasweap.2da
+          ~A7_SHARPSHOOTER 0 1 0 0 1 0 0 1 0 1 1 0 0 1 1 1 0 1 0 0 0 0 1 5 0 5 5 5 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~  // weapprof.2da
+          ~A7_SHARPSHOOTER 0 9 0 0 0 0~       // abclasrq.2da
+          ~A7_SHARPSHOOTER 0 0 0 0 0 0~       // abclsmod.2da
+          ~A7_SHARPSHOOTER 0 17 0 0 0 0~      // abdcdsrq.2da
+          ~A7_SHARPSHOOTER 0 15 0 0 0 0~      // abdcscrq.2da
+          ~A7_SHARPSHOOTER 0 1 1 1 1 1 1 1 1~ // alignmnt.2da
+          ~A7_SHARPSHOOTER 1 1 1 0 0 0~       // dualclas.2da
+          ~A7#ImprovedArcher/kit/%CLAB_DIR%/CLABA7T1.2DA~   // path to kit clabxxx.2da
+          ~K_T_H K_T_D K_T_G K_T_E K_T_HE K_T_HL K_T_HO~    // class/race combinations for kittable.2da
+          ~0x00040000 4~  // unusability and parent class info for kitlist.2da
+          ~A7th1~     // luabbr.2da
+          ~* * * * * * * * * * * * * * * * * * * *~ // 25stweap.2da
+          SAY @1401   // lower name
+          SAY @1402   // mixed name
+          SAY @1400   // kit description
+END
 
 LAF fl#add_kit_ee
 STR_VAR
