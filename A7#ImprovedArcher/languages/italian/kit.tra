@@ -24,23 +24,33 @@
 @1020 = ~Quadrello +4~
 @1021 = ~L'Arco Che Raggiunge Il Sole~
 @1022 = ~Il Difensore~
+@1023 = ~Creare Proiettili Benedetti~
+@1024 = ~Proiettile Benedetto +1~
+@1025 = ~Proiettile Benedetto +2~
+@1026 = ~Proiettile Benedetto +3~
+@1027 = ~Proiettile Benedetto +4~
+@1028 = ~Proiettili Benedetti creati~
+@1303 = ~arciere a cavallo decaduto~
+@1304 = ~Arciere a Cavallo Decaduto~
+@1305 = ~Classe Persa: Arciere a Cavallo~
 
 // Descriptions
 @1100 = ~ARCIERE: L'arciere è l'emblema dell'abilità nel tiro con l'arco. È il tiratore scelto per eccellenza, capace di portare a segno quasi ogni tiro, non importa quanto sia difficile. Per diventare così abile con l'arco, l'arciere ha dovuto sacrificare parte della sua competenza con le armi da mischia e con le armature.
 
 Vantaggi:
-- Bonus pari a +1 ai tiri per colpire e al danno con qualsiasi arma da lancio ogni 3 livelli.
+- Bonus pari a +1 ai tiri per colpire e al danno con qualsiasi arma da lancio ogni 6 livelli.
 - Bonus pari a +1 alla Classe Armatura contro armi da lancio ogni 6 livelli.
+- Ottiene il 5% di possibilità di infliggere un colpo critico al 9°, 13° e 18° livello.
 - Può diventare Gran Maestro (cinque punti) con l'arco lungo, l'arco corto e la balestra.
 - Può utilizzare l'abilità Colpo della Radice una volta al giorno ogni 4 livelli. Colpo della Radice non può essere attivato insieme ad altre abilità della tipologia "Colpo".
 
 COLPO DELLA RADICE: Tutti gli attacchi a distanza messi a segno nei successivi 12 secondi renderanno intralciato il bersaglio a seconda del livello dell'arciere:
 
-4° livello: Il bersaglio viene intralciato per tre round se non effettua con successo un tiro-salvezza contro Morte.
-8° livello: Il bersaglio viene intralciato per tre round se non effettua con successo un tiro-salvezza contro Morte con una penalità pari a -1.
-12° livello: Il bersaglio viene intralciato per quattro round se non effettua con successo un tiro-salvezza contro Morte con una penalità pari a -1.
-16° livello: Il bersaglio viene intralciato per quattro round se non effettua con successo un tiro-salvezza contro Morte con una penalità pari a -2.
-20° livello: Il bersaglio viene intralciato per cinque round se non effettua con successo un tiro-salvezza contro Morte con una penalità pari a -2.
+4° livello: Il bersaglio viene intralciato per tre round se non effettua con successo un tiro-salvezza contro Incantesimi.
+8° livello: Il bersaglio viene intralciato per tre round se non effettua con successo un tiro-salvezza contro Incantesimi con una penalità pari a -1.
+12° livello: Il bersaglio viene intralciato per quattro round se non effettua con successo un tiro-salvezza contro Incantesimi con una penalità pari a -1.
+16° livello: Il bersaglio viene intralciato per quattro round se non effettua con successo un tiro-salvezza contro Incantesimi con una penalità pari a -2.
+20° livello: Il bersaglio viene intralciato per cinque round se non effettua con successo un tiro-salvezza contro Incantesimi con una penalità pari a -2.
 
 - Può utilizzare l'abilità Colpo Potente una volta al giorno ogni 4 livelli (inizia all'8° livello con un uso). Colpo Potente non può essere attivato insieme ad altre abilità della tipologia "Colpo".
 
@@ -60,13 +70,13 @@ COLPO ESPLOSIVO: Tutti gli attacchi a distanza messi a segno nei successivi 12 s
 16° livello: 1d4+4 punti di danno ai bersagli nelle vicinanze
 20° livello: 1d4+6 punti di danno ai bersagli nelle vicinanze
 
-Attenzione: Questa abilità danneggia allo stesso modo nemici, alleati e innocenti nelle vicinanze.
+Attenzione: questa abilità danneggia allo stesso modo nemici, alleati e innocenti nelle vicinanze.
 
-- Può utilizzare l'abilità Creare Munizioni Benedette una volta al giorno ogni 4 livelli.
+- Può utilizzare l'abilità Creare Munizioni Benedette una volta al giorno ogni 8 livelli (inizia al 4° livello con un uso).
 
 CREARE MUNIZIONI BENEDETTE: Crea una freccia o un quadrello spirituale benedetto dal dio o dalla dea venerata dall'arciere che dura per 8 ore.
 
-4° livello: incantamento pari a +1, bonus pari a +1 ai tiri per colpire e al danno, 1d6 punti di danno addizionale e rallentamento per due round contro non morti che non effettuano con successo un tiro-salvezza contro Morte.
+4° livello: incantamento pari a +1, bonus pari a +1 ai tiri per colpire e al danno, 1d6 punti di danno addizionale e lentezza per due round contro non morti che non effettuano con successo un tiro-salvezza contro Morte.
 8° livello: incantamento pari a +1, bonus pari a +2 ai tiri per colpire e al danno, 1d6+2 punti di danno addizionale e blocco per due round contro non morti che non effettuano con successo un tiro-salvezza contro Morte.
 12° livello: incantamento pari a +2, bonus pari a +2 ai tiri per colpire e al danno, 1d6+4 punti di danno addizionale e morte immediata contro non morti che non effettuano con successo un tiro-salvezza contro Morte.
 16° livello: incantamento pari a +3, bonus pari a +3 ai tiri per colpire e al danno, 1d6+6 punti di danno addizionale e morte immediata contro non morti che non effettuano con successo un tiro-salvezza contro Morte con una penalità pari a -2.
@@ -77,8 +87,8 @@ Svantaggi:
 - Non può indossare armature di metallo.
 - Può diventare soltanto Competente (un punto) nelle armi da mischia.~
 
-@1101 = ~Questa è una freccia che è stata benedetta dal dio o dalla dea venerata dall'arciere. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
-L'incantamento divino della freccia dura per otto ore, dopo le quali la freccia perderà la sua forma fisica.
+@1101 = ~Questa è una freccia che è stata benedetta dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino della freccia dura otto ore, dopo le quali la freccia perderà la sua forma fisica. Il numero di frecce create diventa maggiore con l'avanzare di livello.
 
 STATISTICHE:
 
@@ -87,14 +97,14 @@ Abilità in combattimento:
 
 Incantamento: +1
 THAC0: +1
-Danno: 1d6+1, 1d6 punti di danno addizionale contro i non morti
+Danno: 1d6+1, 1d6 punti di danno addizionale contro non morti
 Tipo di Danno: Proiettile
 Dispositivo: Arco
 
 Peso: 0~
 
-@1102 = ~Questa è una freccia che è stata benedetta dal dio o dalla dea venerata dall'arciere. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
-L'incantamento divino della freccia dura per otto ore, dopo le quali la freccia perderà la sua forma fisica.
+@1102 = ~Questa è una freccia che è stata benedetta dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino della freccia dura otto ore, dopo le quali la freccia perderà la sua forma fisica. Il numero di frecce create diventa maggiore con l'avanzare di livello.
 
 STATISTICHE:
 
@@ -103,14 +113,14 @@ Abilità in combattimento:
 
 Incantamento: +1
 THAC0: +2
-Danno: 1d6+2, 1d6+2 punti di danno addizionale contro i non morti
+Danno: 1d6+2, 1d6+2 punti di danno addizionale contro non morti
 Tipo di Danno: Proiettile
 Dispositivo: Arco
 
 Peso: 0~
 
-@1103 = ~Questa è una freccia che è stata benedetta dal dio o dalla dea venerata dall'arciere. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
-L'incantamento divino della freccia dura per otto ore, dopo le quali la freccia perderà la sua forma fisica.
+@1103 = ~Questa è una freccia che è stata benedetta dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino della freccia dura otto ore, dopo le quali la freccia perderà la sua forma fisica. Il numero di frecce create diventa maggiore con l'avanzare di livello.
 
 STATISTICHE:
 
@@ -119,14 +129,14 @@ Abilità in combattimento:
 
 Incantamento: +2
 THAC0: +2
-Danno: 1d6+2, 1d6+4 punti di danno addizionale contro i non morti
+Danno: 1d6+2, 1d6+4 punti di danno addizionale contro non morti
 Tipo di Danno: Proiettile
 Dispositivo: Arco
 
 Peso: 0~
 
-@1104 = ~Questa è una freccia che è stata benedetta dal dio o dalla dea venerata dall'arciere. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
-L'incantamento divino della freccia dura per otto ore, dopo le quali la freccia perderà la sua forma fisica.
+@1104 = ~Questa è una freccia che è stata benedetta dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino della freccia dura otto ore, dopo le quali la freccia perderà la sua forma fisica. Il numero di frecce create diventa maggiore con l'avanzare di livello.
 
 STATISTICHE:
 
@@ -135,14 +145,14 @@ Abilità in combattimento:
 
 Incantamento: +3
 THAC0: +3
-Danno: 1d6+3, 1d6+6 punti di danno addizionale contro i non morti
+Danno: 1d6+3, 1d6+6 punti di danno addizionale contro non morti
 Tipo di Danno: Proiettile
 Dispositivo: Arco
 
 Peso: 0~
 
-@1105 = ~Questa è una freccia che è stata benedetta dal dio o dalla dea venerata dall'arciere. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
-L'incantamento divino della freccia dura per otto ore, dopo le quali la freccia perderà la sua forma fisica.
+@1105 = ~Questa è una freccia che è stata benedetta dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino della freccia dura otto ore, dopo le quali la freccia perderà la sua forma fisica. Il numero di frecce create diventa maggiore con l'avanzare di livello.
 
 STATISTICHE:
 
@@ -151,14 +161,14 @@ Abilità in combattimento:
 
 Incantamento: +4
 THAC0: +4
-Danno: 1d6+4, 1d6+8 punti di danno addizionale contro i non morti
+Danno: 1d6+4, 1d6+8 punti di danno addizionale contro non morti
 Tipo di Danno: Proiettile
 Dispositivo: Arco
 
 Peso: 0~
 
-@1106 = ~Questo è un quadrello che è stato benedetto dal dio o dalla dea venerata dall'arciere. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
-L'incantamento divino del quadrello dura per otto ore, dopo le quali il quadrello perderà la sua forma fisica.
+@1106 = ~Questo è un quadrello che è stato benedetto dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino del quadrello dura per otto ore, dopo le quali il quadrello perderà la sua forma fisica. Il numero di quadrelli creati diventa maggiore con l'avanzare di livello.
 
 STATISTICHE:
 
@@ -167,14 +177,14 @@ Abilità in combattimento:
 
 Incantamento: +1
 THAC0: +1
-Danno: 1d8+1, 1d6 punti di danno addizionale contro i non morti
+Danno: 1d8+1, 1d6 punti di danno addizionale contro non morti
 Tipo di Danno: Proiettile
 Dispositivo: Balestra
 
 Peso: 0~
 
-@1107 = ~Questo è un quadrello che è stato benedetto dal dio o dalla dea venerata dall'arciere. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
-L'incantamento divino del quadrello dura per otto ore, dopo le quali il quadrello perderà la sua forma fisica.
+@1107 = ~Questo è un quadrello che è stato benedetto dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino del quadrello dura per otto ore, dopo le quali il quadrello perderà la sua forma fisica. Il numero di quadrelli creati diventa maggiore con l'avanzare di livello.
 
 STATISTICHE:
 
@@ -183,14 +193,14 @@ Abilità in combattimento:
 
 Incantamento: +1
 THAC0: +2
-Danno: 1d8+2, 1d6+2 punti di danno addizionale contro i non morti
+Danno: 1d8+2, 1d6+2 punti di danno addizionale contro non morti
 Tipo di Danno: Proiettile
 Dispositivo: Balestra
 
 Peso: 0~
 
-@1108 = ~Questo è un quadrello che è stato benedetto dal dio o dalla dea venerata dall'arciere. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
-L'incantamento divino del quadrello dura per otto ore, dopo le quali il quadrello perderà la sua forma fisica.
+@1108 = ~Questo è un quadrello che è stato benedetto dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino del quadrello dura per otto ore, dopo le quali il quadrello perderà la sua forma fisica. Il numero di quadrelli creati diventa maggiore con l'avanzare di livello.
 
 STATISTICHE:
 
@@ -199,14 +209,14 @@ Abilità in combattimento:
 
 Incantamento: +2
 THAC0: +2
-Danno: 1d8+2, 1d6+4 punti di danno addizionale contro i non morti
+Danno: 1d8+2, 1d6+4 punti di danno addizionale contro non morti
 Tipo di Danno: Proiettile
 Dispositivo: Balestra
 
 Peso: 0~
 
-@1109 = ~Questo è un quadrello che è stato benedetto dal dio o dalla dea venerata dall'arciere. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
-L'incantamento divino del quadrello dura per otto ore, dopo le quali il quadrello perderà la sua forma fisica.
+@1109 = ~Questo è un quadrello che è stato benedetto dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino del quadrello dura per otto ore, dopo le quali il quadrello perderà la sua forma fisica. Il numero di quadrelli creati diventa maggiore con l'avanzare di livello.
 
 STATISTICHE:
 
@@ -221,8 +231,8 @@ Dispositivo: Balestra
 
 Peso: 0~
 
-@1110 = ~Questo è un quadrello che è stato benedetto dal dio o dalla dea venerata dall'arciere. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
-L'incantamento divino del quadrello dura per otto ore, dopo le quali il quadrello perderà la sua forma fisica.
+@1110 = ~Questo è un quadrello che è stato benedetto dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino del quadrello dura per otto ore, dopo le quali il quadrello perderà la sua forma fisica. Il numero di quadrelli creati diventa maggiore con l'avanzare di livello.
 
 STATISTICHE:
 
@@ -238,13 +248,13 @@ Dispositivo: Balestra
 Peso: 0~
 
 @1111 = ~Colpo Sicuro
-Gli arcieri di alto livello hanno ottenuto un perfetto controllo sull'arma da lancio prescelta, il che permette loro di mirare e di colpire aree vitali del bersaglio con spaventosa precisione e velocità. Attivando questa abilità, l'arciere prende posizione e scocca proiettili in rapida successione. Per i successivi 12 secondi, questa abilità imposta il numero degli attacchi per round a 10 e ogni scocco è considerato un colpo critico.
-Dal momento che questa tecnica richiede estrema abilità e concentrazione, l'arciere resta inamovibile per i successivi due round. Colpo Sicuro non può essere attivato insieme ad altre abilità della tipologia "Colpo".
+I tiratori di alto livello hanno ottenuto un perfetto controllo sull'arma da lancio prescelta, cosa che permette loro di mirare e di colpire aree vitali del bersaglio con spaventosa precisione e velocità. Attivando questa abilità, il personaggio prende posizione e scocca proiettili in rapida successione. Per i successivi 12 secondi, questa abilità imposta il numero degli attacchi per round a 10 e ogni scocco è considerato un colpo critico.
+Dal momento che questa tecnica richiede estrema abilità e concentrazione, il personaggio non può muoversi dal posto in cui si trova per i successivi due round. Colpo Sicuro non può essere attivato insieme ad altre abilità della tipologia "Colpo".
 
 Richiede: Colpo Critico~
 
 @1112 = ~Piazzare Trappola a Proiettile
-Quando non vi sono nemici in vista, questa abilità permette all'arciere di posizionare nel punto scelto una potente trappola a proiettile con balzo a molla. Infligge 3d10 punti di danno da proiettile e 1d10 punti di danno per ciascuno dei vari tipi di danno elementale all'ignara creatura che l'attiva.~
+Quando non vi sono nemici in vista, questa abilità permette al tiratore di posizionare nel punto scelto una potente trappola a proiettile con balzo a molla. Infligge 3d10 punti di danno da proiettile e 1d10 punti di danno per ciascuno dei vari tipi di danno elementale all'ignara creatura che l'attiva.~
 
 @1113 = ~Questi proiettili incantati superano la fattura di molte frecce, magiche o meno, da te viste. 
 
@@ -338,3 +348,218 @@ Monaco
 Bardo~
 
 @1119 = ~~
+
+@1120 = ~Questo è un proiettile che è stato benedetto dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino del proiettile dura per otto ore, dopo le quali il proiettile perderà la sua forma fisica. Il numero di proiettili creati diventa maggiore con l'avanzare di livello.
+
+STATISTICHE:
+
+Abilità in combattimento:
+- I non morti devono effettuare con successo un tiro-salvezza contro Morte per non essere rallentati per due round
+
+Incantamento: +1
+THAC0: +1
+Danno: 1d4+2, 1d6 punti di danno addizionale contro non morti
+Tipo di Danno: Proiettile
+Dispositivo: Fionda
+
+Peso: 0~
+
+@1121 = ~Questo è un proiettile che è stato benedetto dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino del proiettile dura per otto ore, dopo le quali il proiettile perderà la sua forma fisica. Il numero di proiettili creati diventa maggiore con l'avanzare di livello.
+
+STATISTICHE:
+
+Abilità in combattimento:
+- I non morti devono effettuare con successo un tiro-salvezza contro Morte per non essere bloccati per due round
+
+Incantamento: +1
+THAC0: +2
+Danno: 1d4+3, 1d6+2 punti di danno addizionale contro non morti
+Tipo di Danno: Proiettile
+Dispositivo: Fionda
+
+Peso: 0~
+
+@1122 = ~Questo è un proiettile che è stato benedetto dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino del proiettile dura per otto ore, dopo le quali il proiettile perderà la sua forma fisica. Il numero di proiettili creati diventa maggiore con l'avanzare di livello.
+
+STATISTICHE:
+
+Abilità in combattimento:
+- I non morti devono effettuare con successo un tiro-salvezza contro Morte per non essere immediatamente distrutti
+
+Incantamento: +2
+THAC0: +2
+Danno: 1d4+3, 1d6+4 punti di danno addizionale contro non morti
+Tipo di Danno: Proiettile
+Dispositivo: Fionda
+
+Peso: 0~
+
+@1123 = ~Questo è un proiettile che è stato benedetto dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino del proiettile dura per otto ore, dopo le quali il proiettile perderà la sua forma fisica. Il numero di proiettili creati diventa maggiore con l'avanzare di livello.
+
+STATISTICHE:
+
+Abilità in combattimento:
+- I non morti devono effettuare con successo un tiro-salvezza contro Morte con una penalità pari a -2 per non essere immediatamente distrutti
+
+Incantamento: +3
+THAC0: +3
+Danno: 1d4+4, 1d6+6 punti di danno addizionale contro i non morti
+Tipo di Danno: Proiettile
+Dispositivo: Fionda
+
+Peso: 0~
+
+@1124 = ~Questo è un proiettile che è stato benedetto dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino del proiettile dura per otto ore, dopo le quali il proiettile perderà la sua forma fisica. Il numero di proiettili creati diventa maggiore con l'avanzare di livello.
+
+STATISTICHE:
+
+Abilità in combattimento:
+- I non morti devono effettuare con successo un tiro-salvezza contro Morte con una penalità pari a -4 per non essere immediatamente distrutti
+
+Incantamento: +4
+THAC0: +4
+Danno: 1d4+5, 1d6+8 punti di danno addizionale contro i non morti
+Tipo di Danno: Proiettile
+Dispositivo: Fionda
+
+Peso: 0~
+
+@1200 = ~TIRATORE SCELTO: Il tiratore scelto è l'emblema dell'abilità nel tiro con l'arco. È il tiratore per eccellenza, capace di portare a segno quasi ogni tiro, non importa quanto sia difficile. Per diventare così abile con l'arco, il tiratore scelto ha dovuto sacrificare parte della sua competenza con le armi da mischia e con le armature.
+
+Vantaggi:
+- Bonus pari a +1 ai tiri per colpire e al danno con qualsiasi arma da lancio ogni 6 livelli.
+- Bonus pari a +1 alla Classe Armatura contro armi da lancio ogni 6 livelli.
+- Ottiene il 5% di possibilità di infliggere un colpo critico al 9°, 13° e 18° livello.
+- Può diventare Gran Maestro (cinque punti) con l'arco lungo, l'arco corto, la balestra, i dardi e la fionda.
+- Può utilizzare l'abilità Colpo della Radice una volta al giorno ogni 4 livelli. Colpo della Radice non può essere attivato insieme ad altre abilità della tipologia "Colpo".
+
+COLPO DELLA RADICE: Tutti gli attacchi a distanza messi a segno nei successivi 12 secondi renderanno intralciato il bersaglio a seconda del livello del tiratore scelto:
+
+4° livello: Il bersaglio viene intralciato per tre round se non effettua con successo un tiro-salvezza contro Incantesimi.
+8° livello: Il bersaglio viene intralciato per tre round se non effettua con successo un tiro-salvezza contro Incantesimi con una penalità pari a -1.
+12° livello: Il bersaglio viene intralciato per quattro round se non effettua con successo un tiro-salvezza contro Incantesimi con una penalità pari a -1.
+16° livello: Il bersaglio viene intralciato per quattro round se non effettua con successo un tiro-salvezza contro Incantesimi con una penalità pari a -2.
+20° livello: Il bersaglio viene intralciato per cinque round se non effettua con successo un tiro-salvezza contro Incantesimi con una penalità pari a -2.
+
+- Può utilizzare l'abilità Colpo Potente una volta al giorno ogni 4 livelli (inizia all'8° livello con un uso). Colpo Potente non può essere attivato insieme ad altre abilità della tipologia "Colpo".
+
+COLPO POTENTE: Tutti gli attacchi a distanza messi a segno nei successivi 12 secondi hanno la possibilità di rendere privo di sensi il bersaglio a seconda del livello del tiratore scelto:
+
+8° livello: Rende privo di sensi il bersaglio se questi non effettua con successo un tiro-salvezza contro Soffio.
+12° livello: Rende privo di sensi il bersaglio se questi non effettua con successo un tiro-salvezza contro Soffio con una penalità pari a -1.
+16° livello: Rende privo di sensi il bersaglio se questi non effettua con successo un tiro-salvezza contro Soffio con una penalità pari a -2.
+20° livello: Rende privo di sensi il bersaglio se questi non effettua con successo un tiro-salvezza contro Soffio con una penalità pari a -3.
+
+- Può utilizzare l'abilità Colpo Esplosivo una volta al giorno ogni 4 livelli (inizia all'8° livello con un uso). Colpo Esplosivo non può essere attivato insieme ad altre abilità della tipologia "Colpo".
+
+COLPO ESPLOSIVO: Tutti gli attacchi a distanza messi a segno nei successivi 12 secondi esploderanno all'impatto e causeranno danno fisico ai bersagli in un raggio di 4,5 metri a seconda del livello del tiratore scelto:
+
+8° livello: 1d4 punti di danno ai bersagli nelle vicinanze
+12° livello: 1d4+2 punti di danno ai bersagli nelle vicinanze
+16° livello: 1d4+4 punti di danno ai bersagli nelle vicinanze
+20° livello: 1d4+6 punti di danno ai bersagli nelle vicinanze
+
+Attenzione: questa abilità danneggia allo stesso modo nemici, alleati e innocenti nelle vicinanze.
+
+Svantaggi:
+- Non può indossare armature di metallo.
+- Può diventare soltanto Specializzato (due punti) nelle armi da mischia.
+- Può diventare soltanto Competente (un punto) in qualsiasi stile di combattimento.~
+
+@1201 = ~tiratore scelto~
+@1202 = ~Tiratore Scelto~
+
+
+@1300 = ~ARCIERE A CAVALLO: L'arciere a cavallo è l'emblema dell'abilità nel tiro con l'arco. È il tiratore scelto per eccellenza, capace di portare a segno quasi ogni tiro, non importa quanto sia difficile. Per diventare così abile con l'arco, l'arciere a cavallo ha dovuto sacrificare parte della sua competenza con le armi da mischia e con le armature.
+
+Vantaggi:
+- Bonus pari a +1 ai tiri per colpire e al danno con qualsiasi arma da lancio ogni 6 livelli.
+- Bonus pari a +1 alla Classe Armatura contro armi da lancio ogni 6 livelli.
+- Ottiene il 5% di possibilità di infliggere un colpo critico al 9°, 13° e 18° livello.
+- Può diventare Gran Maestro (cinque punti) con l'arco lungo, l'arco corto, la balestra e le fionde.
+- Può utilizzare l'abilità Colpo della Radice una volta al giorno ogni 4 livelli. Colpo della Radice non può essere attivato insieme ad altre abilità della tipologia "Colpo".
+
+COLPO DELLA RADICE: Tutti gli attacchi a distanza messi a segno nei successivi 12 secondi renderanno intralciato il bersaglio a seconda del livello dell'arciere a cavallo:
+
+4° livello: Il bersaglio viene intralciato per tre round se non effettua con successo un tiro-salvezza contro Incantesimi.
+8° livello: Il bersaglio viene intralciato per tre round se non effettua con successo un tiro-salvezza contro Incantesimi con una penalità pari a -1.
+12° livello: Il bersaglio viene intralciato per quattro round se non effettua con successo un tiro-salvezza contro Incantesimi con una penalità pari a -1.
+16° livello: Il bersaglio viene intralciato per quattro round se non effettua con successo un tiro-salvezza contro Incantesimi con una penalità pari a -2.
+20° livello: Il bersaglio viene intralciato per cinque round se non effettua con successo un tiro-salvezza contro Incantesimi con una penalità pari a -2.
+
+- Può utilizzare l'abilità Colpo Potente una volta al giorno ogni 4 livelli (inizia all'8° livello con un uso). Colpo Potente non può essere attivato insieme ad altre abilità della tipologia "Colpo".
+
+COLPO POTENTE: Tutti gli attacchi a distanza messi a segno nei successivi 12 secondi hanno la possibilità di rendere privo di sensi il bersaglio a seconda del livello dell'arciere a cavallo:
+
+8° livello: Rende privo di sensi il bersaglio se questi non effettua con successo un tiro-salvezza contro Soffio.
+12° livello: Rende privo di sensi il bersaglio se questi non effettua con successo un tiro-salvezza contro Soffio con una penalità pari a -1.
+16° livello: Rende privo di sensi il bersaglio se questi non effettua con successo un tiro-salvezza contro Soffio con una penalità pari a -2.
+20° livello: Rende privo di sensi il bersaglio se questi non effettua con successo un tiro-salvezza contro Soffio con una penalità pari a -3.
+
+- Può utilizzare l'abilità Creare Munizioni Benedette una volta al giorno ogni 8 livelli (inizia al 4° livello con un uso).
+
+CREARE MUNIZIONI BENEDETTE: Crea una freccia o un quadrello spirituale benedetto dal dio o dalla dea venerata dall'arciere a cavallo che dura per 8 ore.
+
+4° livello: incantamento pari a +1, bonus pari a +1 ai tiri per colpire e al danno, 1d6 punti di danno addizionale e lentezza per due round contro non morti che non effettuano con successo un tiro-salvezza contro Morte.
+8° livello: incantamento pari a +1, bonus pari a +2 ai tiri per colpire e al danno, 1d6+2 punti di danno addizionale e blocco per due round contro non morti che non effettuano con successo un tiro-salvezza contro Morte.
+12° livello: incantamento pari a +2, bonus pari a +2 ai tiri per colpire e al danno, 1d6+4 punti di danno addizionale e morte immediata contro non morti che non effettuano con successo un tiro-salvezza contro Morte.
+16° livello: incantamento pari a +3, bonus pari a +3 ai tiri per colpire e al danno, 1d6+6 punti di danno addizionale e morte immediata contro non morti che non effettuano con successo un tiro-salvezza contro Morte con una penalità pari a -2.
+20° livello: incantamento pari a +4, bonus pari a +4 ai tiri per colpire e al danno, 1d6+8 punti di danno addizionale e morte immediata contro non morti che non effettuano con successo un tiro-salvezza contro Morte con una penalità pari a -4.
+
+Svantaggi:
+- Non può indossare armature di metallo.
+- Può diventare soltanto Competente (un punto) nelle armi da mischia.
+- Può diventare soltanto Competente (un punto) in qualsiasi stile di combattimento.~
+
+@1301 = ~arciere a cavallo~
+@1302 = ~Arciere a Cavallo~
+
+
+@1400 = ~CECCHINO: Il cecchino è l'emblema dell'abilità con qualsiasi arma da lancio. È il tiratore scelto per eccellenza, capace di portare a segno quasi ogni tiro, non importa quanto sia difficile. Per diventare così abile con le armi da lancio, il cecchino ha dovuto sacrificare parte della sua competenza nelle abilità da ladro.
+
+Vantaggi:
+- Bonus pari a +1 ai tiri per colpire e al danno con qualsiasi arma da lancio ogni 8 livelli.
+- Bonus pari a +1 alla Classe Armatura contro armi da lancio ogni 8 livelli.
+- Ottiene il 5% di possibilità di infliggere un colpo critico al 13° e 18° livello.
+- Può diventare Gran Maestro (cinque punti) con l'arco corto, la balestra, i dardi e la fionda.
+- Può utilizzare l'abilità Colpo della Radice una volta al giorno ogni 4 livelli. Colpo della Radice non può essere attivato insieme ad altre abilità della tipologia "Colpo".
+
+COLPO DELLA RADICE: Tutti gli attacchi a distanza messi a segno nei successivi 12 secondi renderanno intralciato il bersaglio a seconda del livello del cecchino:
+
+4° livello: Il bersaglio viene intralciato per tre round se non effettua con successo un tiro-salvezza contro Incantesimi.
+8° livello: Il bersaglio viene intralciato per tre round se non effettua con successo un tiro-salvezza contro Incantesimi con una penalità pari a -1.
+12° livello: Il bersaglio viene intralciato per quattro round se non effettua con successo un tiro-salvezza contro Incantesimi con una penalità pari a -1.
+16° livello: Il bersaglio viene intralciato per quattro round se non effettua con successo un tiro-salvezza contro Incantesimi con una penalità pari a -2.
+20° livello: Il bersaglio viene intralciato per cinque round se non effettua con successo un tiro-salvezza contro Incantesimi con una penalità pari a -2.
+
+- Può utilizzare l'abilità Colpo Potente una volta al giorno ogni 4 livelli (inizia all'8° livello con un uso). Colpo Potente non può essere attivato insieme ad altre abilità della tipologia "Colpo".
+
+COLPO POTENTE: Tutti gli attacchi a distanza messi a segno nei successivi 12 secondi hanno la possibilità di rendere privo di sensi il bersaglio a seconda del livello del cecchino:
+
+8° livello: Rende privo di sensi il bersaglio se questi non effettua con successo un tiro-salvezza contro Soffio.
+12° livello: Rende privo di sensi il bersaglio se questi non effettua con successo un tiro-salvezza contro Soffio con una penalità pari a -1.
+16° livello: Rende privo di sensi il bersaglio se questi non effettua con successo un tiro-salvezza contro Soffio con una penalità pari a -2.
+20° livello: Rende privo di sensi il bersaglio se questi non effettua con successo un tiro-salvezza contro Soffio con una penalità pari a -3.
+
+- Può utilizzare l'abilità Colpo Esplosivo una volta al giorno ogni 4 livelli (inizia all'8° livello con un uso). Colpo Esplosivo non può essere attivato insieme ad altre abilità della tipologia "Colpo".
+
+COLPO ESPLOSIVO: Tutti gli attacchi a distanza messi a segno nei successivi 12 secondi esploderanno all'impatto e causeranno danno fisico ai bersagli in un raggio di 4,5 metri a seconda del livello del cecchino:
+
+8° livello: 1d4 punti di danno ai bersagli nelle vicinanze
+12° livello: 1d4+2 punti di danno ai bersagli nelle vicinanze
+16° livello: 1d4+4 punti di danno ai bersagli nelle vicinanze
+20° livello: 1d4+6 punti di danno ai bersagli nelle vicinanze
+
+Attenzione: questa abilità danneggia allo stesso modo nemici, alleati e innocenti nelle vicinanze.
+
+Svantaggi:
+- Può distribuire soltanto 15 punti per livello tra le abilità da ladro.
+- Non può utilizzare l'abilità Pugnalata alle Spalle.~
+
+@1401 = ~cecchino~
+@1402 = ~Cecchino~

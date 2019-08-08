@@ -2,5 +2,10 @@
 
 @1 = ~Sottoclasse dell'Arciere Migliorata~
 @2 = ~Aggiungi nel gioco frecce e quadrelli +4 e due potenti archi~
-@3 = ~Questo mod richiede BG2:ToB, BG:EE, BG2:EE o IWD:EE per essere installato.~
-@4 = ~Questo mod richiede BG2:ToB, BG2:EE o IWD:EE per essere installato.~
+@3 = ~Aggiungi sottoclasse del guerriero: Tiratore Scelto~
+@4 = ~Aggiungi sottoclasse del paladino: Arciere a Cavallo~
+@5 = ~Aggiungi sottoclasse del ladro: Cecchino~
+
+@100 = ~Questo mod richiede BG2:ToB, BG:EE, BG2:EE o IWD:EE per essere installato.~
+@101 = ~Questo mod richiede BG2:ToB, BG2:EE o IWD:EE per essere installato.~
+@102 = ~Questa componente richiede che la componente principale "Sottoclasse dell'Arciere Migliorata" sia stata installata.~
