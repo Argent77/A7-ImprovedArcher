@@ -1,6 +1,166 @@
 // -*- coding: utf-8 -*-
 
 // Descriptions
+@1101 = ~Questa è una freccia che è stata benedetta dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino della freccia dura otto ore, dopo le quali la freccia perderà la sua forma fisica. Il numero di frecce create diventa maggiore con l'avanzare di livello.
+
+STATISTICHE:
+
+Abilità in combattimento:
+- I non morti devono effettuare con successo un tiro-salvezza contro Morte per non essere rallentati per due round
+
+Incantamento: +1
+THAC0: +1
+Danno: 1d6+1, 1d6 punti di danno addizionale contro non morti
+Tipo di Danno: Proiettile
+Dispositivo: Arco
+
+Peso: 0~
+
+@1102 = ~Questa è una freccia che è stata benedetta dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino della freccia dura otto ore, dopo le quali la freccia perderà la sua forma fisica. Il numero di frecce create diventa maggiore con l'avanzare di livello.
+
+STATISTICHE:
+
+Abilità in combattimento:
+- I non morti devono effettuare con successo un tiro-salvezza contro Morte per non essere bloccati per due round
+
+Incantamento: +1
+THAC0: +2
+Danno: 1d6+2, 1d6+2 punti di danno addizionale contro non morti
+Tipo di Danno: Proiettile
+Dispositivo: Arco
+
+Peso: 0~
+
+@1103 = ~Questa è una freccia che è stata benedetta dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino della freccia dura otto ore, dopo le quali la freccia perderà la sua forma fisica. Il numero di frecce create diventa maggiore con l'avanzare di livello.
+
+STATISTICHE:
+
+Abilità in combattimento:
+- I non morti devono effettuare con successo un tiro-salvezza contro Morte per non essere immediatamente distrutti
+
+Incantamento: +2
+THAC0: +2
+Danno: 1d6+2, 1d6+4 punti di danno addizionale contro non morti
+Tipo di Danno: Proiettile
+Dispositivo: Arco
+
+Peso: 0~
+
+@1104 = ~Questa è una freccia che è stata benedetta dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino della freccia dura otto ore, dopo le quali la freccia perderà la sua forma fisica. Il numero di frecce create diventa maggiore con l'avanzare di livello.
+
+STATISTICHE:
+
+Abilità in combattimento:
+- I non morti devono effettuare con successo un tiro-salvezza contro Morte con una penalità pari a -2 per non essere immediatamente distrutti
+
+Incantamento: +3
+THAC0: +3
+Danno: 1d6+3, 1d6+6 punti di danno addizionale contro non morti
+Tipo di Danno: Proiettile
+Dispositivo: Arco
+
+Peso: 0~
+
+@1105 = ~Questa è una freccia che è stata benedetta dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino della freccia dura otto ore, dopo le quali la freccia perderà la sua forma fisica. Il numero di frecce create diventa maggiore con l'avanzare di livello.
+
+STATISTICHE:
+
+Abilità in combattimento:
+- I non morti devono effettuare con successo un tiro-salvezza contro Morte con una penalità pari a -4 per non essere immediatamente distrutti
+
+Incantamento: +4
+THAC0: +4
+Danno: 1d6+4, 1d6+8 punti di danno addizionale contro non morti
+Tipo di Danno: Proiettile
+Dispositivo: Arco
+
+Peso: 0~
+
+@1106 = ~Questo è un quadrello che è stato benedetto dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino del quadrello dura per otto ore, dopo le quali il quadrello perderà la sua forma fisica. Il numero di quadrelli creati diventa maggiore con l'avanzare di livello.
+
+STATISTICHE:
+
+Abilità in combattimento:
+- I non morti devono effettuare con successo un tiro-salvezza contro Morte per non essere rallentati per due round
+
+Incantamento: +1
+THAC0: +1
+Danno: 1d8+1, 1d6 punti di danno addizionale contro non morti
+Tipo di Danno: Proiettile
+Dispositivo: Balestra
+
+Peso: 0~
+
+@1107 = ~Questo è un quadrello che è stato benedetto dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino del quadrello dura per otto ore, dopo le quali il quadrello perderà la sua forma fisica. Il numero di quadrelli creati diventa maggiore con l'avanzare di livello.
+
+STATISTICHE:
+
+Abilità in combattimento:
+- I non morti devono effettuare con successo un tiro-salvezza contro Morte per non essere bloccati per due round
+
+Incantamento: +1
+THAC0: +2
+Danno: 1d8+2, 1d6+2 punti di danno addizionale contro non morti
+Tipo di Danno: Proiettile
+Dispositivo: Balestra
+
+Peso: 0~
+
+@1108 = ~Questo è un quadrello che è stato benedetto dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino del quadrello dura per otto ore, dopo le quali il quadrello perderà la sua forma fisica. Il numero di quadrelli creati diventa maggiore con l'avanzare di livello.
+
+STATISTICHE:
+
+Abilità in combattimento:
+- I non morti devono effettuare con successo un tiro-salvezza contro Morte per non essere immediatamente distrutti
+
+Incantamento: +2
+THAC0: +2
+Danno: 1d8+2, 1d6+4 punti di danno addizionale contro non morti
+Tipo di Danno: Proiettile
+Dispositivo: Balestra
+
+Peso: 0~
+
+@1109 = ~Questo è un quadrello che è stato benedetto dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino del quadrello dura per otto ore, dopo le quali il quadrello perderà la sua forma fisica. Il numero di quadrelli creati diventa maggiore con l'avanzare di livello.
+
+STATISTICHE:
+
+Abilità in combattimento:
+- I non morti devono effettuare con successo un tiro-salvezza contro Morte con una penalità pari a -2 per non essere immediatamente distrutti
+
+Incantamento: +3
+THAC0: +3
+Danno: 1d8+3, 1d6+6 punti di danno addizionale contro i non morti
+Tipo di Danno: Proiettile
+Dispositivo: Balestra
+
+Peso: 0~
+
+@1110 = ~Questo è un quadrello che è stato benedetto dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino del quadrello dura per otto ore, dopo le quali il quadrello perderà la sua forma fisica. Il numero di quadrelli creati diventa maggiore con l'avanzare di livello.
+
+STATISTICHE:
+
+Abilità in combattimento:
+- I non morti devono effettuare con successo un tiro-salvezza contro Morte con una penalità pari a -4 per non essere immediatamente distrutti
+
+Incantamento: +4
+THAC0: +4
+Danno: 1d8+4, 1d6+8 punti di danno addizionale contro i non morti
+Tipo di Danno: Proiettile
+Dispositivo: Balestra
+
+Peso: 0~
+
 @1113 = ~Questi proiettili incantati superano la fattura di molte frecce, magiche o meno, da te viste. 
 
 STATISTICHE:
@@ -80,6 +240,86 @@ Forza 18
 Peso: 5~
 
 @1119 = ~Druido~
+
+@1120 = ~Questo è un proiettile che è stato benedetto dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino del proiettile dura per otto ore, dopo le quali il proiettile perderà la sua forma fisica. Il numero di proiettili creati diventa maggiore con l'avanzare di livello.
+
+STATISTICHE:
+
+Abilità in combattimento:
+- I non morti devono effettuare con successo un tiro-salvezza contro Morte per non essere rallentati per due round
+
+Incantamento: +1
+THAC0: +1
+Danno: 1d4+2, 1d6 punti di danno addizionale contro non morti
+Tipo di Danno: Proiettile
+Dispositivo: Fionda
+
+Peso: 0~
+
+@1121 = ~Questo è un proiettile che è stato benedetto dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino del proiettile dura per otto ore, dopo le quali il proiettile perderà la sua forma fisica. Il numero di proiettili creati diventa maggiore con l'avanzare di livello.
+
+STATISTICHE:
+
+Abilità in combattimento:
+- I non morti devono effettuare con successo un tiro-salvezza contro Morte per non essere bloccati per due round
+
+Incantamento: +1
+THAC0: +2
+Danno: 1d4+3, 1d6+2 punti di danno addizionale contro non morti
+Tipo di Danno: Proiettile
+Dispositivo: Fionda
+
+Peso: 0~
+
+@1122 = ~Questo è un proiettile che è stato benedetto dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino del proiettile dura per otto ore, dopo le quali il proiettile perderà la sua forma fisica. Il numero di proiettili creati diventa maggiore con l'avanzare di livello.
+
+STATISTICHE:
+
+Abilità in combattimento:
+- I non morti devono effettuare con successo un tiro-salvezza contro Morte per non essere immediatamente distrutti
+
+Incantamento: +2
+THAC0: +2
+Danno: 1d4+3, 1d6+4 punti di danno addizionale contro non morti
+Tipo di Danno: Proiettile
+Dispositivo: Fionda
+
+Peso: 0~
+
+@1123 = ~Questo è un proiettile che è stato benedetto dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino del proiettile dura per otto ore, dopo le quali il proiettile perderà la sua forma fisica. Il numero di proiettili creati diventa maggiore con l'avanzare di livello.
+
+STATISTICHE:
+
+Abilità in combattimento:
+- I non morti devono effettuare con successo un tiro-salvezza contro Morte con una penalità pari a -2 per non essere immediatamente distrutti
+
+Incantamento: +3
+THAC0: +3
+Danno: 1d4+4, 1d6+6 punti di danno addizionale contro i non morti
+Tipo di Danno: Proiettile
+Dispositivo: Fionda
+
+Peso: 0~
+
+@1124 = ~Questo è un proiettile che è stato benedetto dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
+L'incantamento divino del proiettile dura per otto ore, dopo le quali il proiettile perderà la sua forma fisica. Il numero di proiettili creati diventa maggiore con l'avanzare di livello.
+
+STATISTICHE:
+
+Abilità in combattimento:
+- I non morti devono effettuare con successo un tiro-salvezza contro Morte con una penalità pari a -4 per non essere immediatamente distrutti
+
+Incantamento: +4
+THAC0: +4
+Danno: 1d4+5, 1d6+8 punti di danno addizionale contro i non morti
+Tipo di Danno: Proiettile
+Dispositivo: Fionda
+
+Peso: 0~
 
 
 // Innate ability descriptions

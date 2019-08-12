@@ -88,8 +88,11 @@ THAC0: +1
 Damage: 1d6+1, additional 1d6 damage vs. undead
 Damage type: Missile
 Launcher: Bow
-
-Weight: 0~
+Weight: 0
+Only usable by:
+ Good-aligned characters
+ Paladin
+ Ranger~
 
 @1102 = ~This is an arrow that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and causes additional damage to undead of any kind. 
 The divine enchantment of the arrow lasts for eight hours and allows the user to release a given number of charges. After that the arrow will lose its physical form.
@@ -104,8 +107,11 @@ THAC0: +2
 Damage: 1d6+2, additional 1d6+2 damage vs. undead
 Damage type: Missile
 Launcher: Bow
-
-Weight: 0~
+Weight: 0
+Only usable by:
+ Good-aligned characters
+ Paladin
+ Ranger~
 
 
 @1103 = ~This is an arrow that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the arrow causes additional damage to undead creatures and may even destroy them. 
@@ -121,8 +127,11 @@ THAC0: +2
 Damage: 1d6+2, additional 1d6+4 damage vs. undead
 Damage type: Missile
 Launcher: Bow
-
-Weight: 0~
+Weight: 0
+Only usable by:
+ Good-aligned characters
+ Paladin
+ Ranger~
 
 @1104 = ~This is an arrow that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the arrow causes additional damage to undead creatures and may even destroy them. 
 The divine enchantment of the arrow lasts for eight hours and allows the user to release a given number of charges. After that the arrow will lose its physical form.
@@ -137,8 +146,11 @@ THAC0: +3
 Damage: 1d6+3, additional 1d6+6 damage vs. undead
 Damage type: Missile
 Launcher: Bow
-
-Weight: 0~
+Weight: 0
+Only usable by:
+ Good-aligned characters
+ Paladin
+ Ranger~
 
 @1105 = ~This is an arrow that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the arrow causes additional damage to undead creatures and may even destroy them. 
 The divine enchantment of the arrow lasts for eight hours and allows the user to release a given number of charges. After that the arrow will lose its physical form.
@@ -153,8 +165,11 @@ THAC0: +4
 Damage: 1d6+4, additional 1d6+8 damage vs. undead
 Damage type: Missile
 Launcher: Bow
-
-Weight: 0~
+Weight: 0
+Only usable by:
+ Good-aligned characters
+ Paladin
+ Ranger~
 
 @1106 = ~This is a bolt that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and causes additional damage to undead of any kind. 
 The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
@@ -169,8 +184,11 @@ THAC0: +1
 Damage: 1d8+1, additional 1d6 damage vs. undead
 Damage type: Missile
 Launcher: Crossbow
-
-Weight: 0~
+Weight: 0
+Only usable by:
+ Good-aligned characters
+ Paladin
+ Ranger~
 
 @1107 = ~This is a bolt that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and causes additional damage to undead of any kind. 
 The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
@@ -185,8 +203,11 @@ THAC0: +2
 Damage: 1d8+2, additional 1d6+2 damage vs. undead
 Damage type: Missile
 Launcher: Crossbow
-
-Weight: 0~
+Weight: 0
+Only usable by:
+ Good-aligned characters
+ Paladin
+ Ranger~
 
 @1108 = ~This is a bolt that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the bolt causes additional damage to undead creatures and may even destroy them. 
 The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
@@ -201,8 +222,11 @@ THAC0: +2
 Damage: 1d8+2, additional 1d6+4 damage vs. undead
 Damage type: Missile
 Launcher: Crossbow
-
-Weight: 0~
+Weight: 0
+Only usable by:
+ Good-aligned characters
+ Paladin
+ Ranger~
 
 @1109 = ~This is a bolt that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the bolt causes additional damage to undead creatures and may even destroy them. 
 The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
@@ -217,8 +241,11 @@ THAC0: +3
 Damage: 1d8+3, additional 1d6+6 damage vs. undead
 Damage type: Missile
 Launcher: Crossbow
-
-Weight: 0~
+Weight: 0
+Only usable by:
+ Good-aligned characters
+ Paladin
+ Ranger~
 
 @1110 = ~This is a bolt that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the bolt causes additional damage to undead creatures and may even destroy them. 
 The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
@@ -233,8 +260,11 @@ THAC0: +4
 Damage: 1d8+4, additional 1d6+8 damage vs. undead
 Damage type: Missile
 Launcher: Crossbow
-
-Weight: 0~
+Weight: 0
+Only usable by:
+ Good-aligned characters
+ Paladin
+ Ranger~
 
 @1111 = ~Sure Shot
 High-level shooters have gained perfect control over their ranged weapon of choice which allows them to point out and target vital areas of the opponent with frightening precision and speed. By enabling this ability, the shooter takes up <PRO_HISHER> stance and shoots missiles in rapid succession. For the next 12 seconds this ability sets one's number of attacks per round to 10 and every shot is considered a critical hit.
@@ -252,8 +282,11 @@ STATISTICS:
 THAC0: +3
 Damage: 1d6 (missile)
 Launcher: Bow
-
-Weight: 0~
+Weight: 0
+Not usable by:
+ Cleric
+ Druid
+ Mage~
 
 @1114 = ~These enchanted missiles surpass the craftsmanship of many bolt, magical or otherwise, you have seen. 
 
@@ -262,8 +295,11 @@ STATISTICS:
 THAC0: +3
 Damage: 1d8 (missile)
 Launcher: Crossbow
-
-Weight: 0~
+Weight: 0
+Not usable by:
+ Cleric
+ Druid
+ Mage~
 
 @1115 = ~These enchanted missiles far surpass the craftsmanship of any arrow, magical or otherwise, you have ever seen. 
 
@@ -272,8 +308,11 @@ STATISTICS:
 THAC0: +4
 Damage: 1d6 (missile)
 Launcher: Bow
-
-Weight: 0~
+Weight: 0
+Not usable by:
+ Cleric
+ Druid
+ Mage~
 
 @1116 = ~These enchanted missiles far surpass the craftsmanship of any bolt, magical or otherwise, you have ever seen. 
 
@@ -282,8 +321,11 @@ STATISTICS:
 THAC0: +4
 Damage: 1d8 (missile)
 Launcher: Crossbow
-
-Weight: 0~
+Weight: 0
+Not usable by:
+ Cleric
+ Druid
+ Mage~
 
 @1117 = ~The elves of Evereska are known for their isolationism as much as their skill and bravery in battle.  One of their most well known warriors in human lands was the incredibly accurate archer Bariah Goldendown.  Though the elves will neither confirm nor deny the legend, some human tales state that keen-eyed Bariah never missed a target in battle.  His bow, crafted by his mother, was never given a name that was known outside of the family.  The humans that suffered under its power called it "Great Sun-Reacher," believing that Bariah's arrows could reach into the heavens themselves.  In a battle that many Evereskans are bitter about to this day, Bariah's griffon mount was killed in the sky by the spells of invisible wizards that ambushed an elven patrol.  Though only one mage escaped with his life, he did manage to take Great Sun-Reacher with him.
 
@@ -347,8 +389,12 @@ THAC0: +1
 Damage: 1d4+2, additional 1d6 damage vs. undead
 Damage type: Missile
 Launcher: Sling
-
-Weight: 0~
+Weight: 0
+Only usable by:
+ Good-aligned characters
+ Paladin
+ Ranger
+ Cleric~
 
 @1121 = ~This is a bullet that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and causes additional damage to undead of any kind. 
 The divine enchantment of the bullet lasts for eight hours and allows the user to release a given number of charges. After that the bullet will lose its physical form.
@@ -363,8 +409,12 @@ THAC0: +2
 Damage: 1d4+3, additional 1d6+2 damage vs. undead
 Damage type: Missile
 Launcher: Sling
-
-Weight: 0~
+Weight: 0
+Only usable by:
+ Good-aligned characters
+ Paladin
+ Ranger
+ Cleric~
 
 @1122 = ~This is a bullet that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the bullet causes additional damage to undead creatures and may even destroy them. 
 The divine enchantment of the bullet lasts for eight hours and allows the user to release a given number of charges. After that the bullet will lose its physical form.
@@ -380,7 +430,12 @@ Damage: 1d4+3, additional 1d6+4 damage vs. undead
 Damage type: Missile
 Launcher: Sling
 
-Weight: 0~
+Weight: 0
+Only usable by:
+ Good-aligned characters
+ Paladin
+ Ranger
+ Cleric~
 
 @1123 = ~This is a bullet that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the bullet causes additional damage to undead creatures and may even destroy them. 
 The divine enchantment of the bullet lasts for eight hours and allows the user to release a given number of charges. After that the bullet will lose its physical form.
@@ -395,8 +450,12 @@ THAC0: +3
 Damage: 1d4+4, additional 1d6+6 damage vs. undead
 Damage type: Missile
 Launcher: Sling
-
-Weight: 0~
+Weight: 0
+Only usable by:
+ Good-aligned characters
+ Paladin
+ Ranger
+ Cleric~
 
 @1124 = ~This is a bullet that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the bullet causes additional damage to undead creatures and may even destroy them. 
 The divine enchantment of the bullet lasts for eight hours and allows the user to release a given number of charges. After that the bullet will lose its physical form.
@@ -411,8 +470,12 @@ THAC0: +4
 Damage: 1d4+5, additional 1d6+8 damage vs. undead
 Damage type: Missile
 Launcher: Sling
-
-Weight: 0~
+Weight: 0
+Only usable by:
+ Good-aligned characters
+ Paladin
+ Ranger
+ Cleric~
 
 
 @1200 = ~MARKSMAN: The Marksman is the epitome of skill with any ranged weapon - the ultimate marksman, able to make almost any shot, no matter how difficult. To become so skilled with their ranged weapon of choice, the Marksman has had to sacrifice some of his proficiency with melee weapons and armor.

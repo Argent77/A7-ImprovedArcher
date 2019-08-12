@@ -1,6 +1,195 @@
 // -*- coding: utf-8 -*-
 
 // Beschreibungen
+@1101 = ~Dieser Pfeil wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art.
+Die heilige Verzauberung des Pfeils dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Pfeil seine physische Form.
+
+EIGENSCHAFTEN:
+
+Untote müssen Rettungswurf gg. Tod bestehen oder werden für zwei Runden verlangsamt.
+
+Verzauberung: +1
+ETW0-Bonus: -1
+Schaden: 1w6+1, zusätzlich 1w6 Schaden gg. Untote
+Schadenstyp: Geschoss
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1102 = ~Dieser Pfeil wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art.
+Die heilige Verzauberung des Pfeils dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Pfeil seine physische Form.
+
+EIGENSCHAFTEN:
+
+Untote müssen Rettungswurf gg. Tod bestehen oder werden für zwei Runden festgehalten.
+
+Verzauberung: +1
+ETW0-Bonus: -2
+Schaden: 1w6+2, zusätzlich 1w6+2 Schaden gg. Untote
+Schadenstyp: Geschoss
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1103 = ~Dieser Pfeil wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
+Die heilige Verzauberung des Pfeils dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Pfeil seine physische Form.
+
+EIGENSCHAFTEN:
+
+Untote müssen Rettungswurf gg. Tod bestehen oder werden zerstört.
+
+Verzauberung: +2
+ETW0-Bonus: -2
+Schaden: 1w6+2, zusätzlich 1w6+4 Schaden gg. Untote
+Schadenstyp: Geschoss
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1104 = ~Dieser Pfeil wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
+Die heilige Verzauberung des Pfeils dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Pfeil seine physische Form.
+
+EIGENSCHAFTEN:
+
+Untote müssen Rettungswurf gg. Tod (+2 Malus) bestehen oder werden zerstört.
+
+Verzauberung: +3
+ETW0-Bonus: -3
+Schaden: 1w6+3, zusätzlich 1w6+6 Schaden gg. Untote
+Schadenstyp: Geschoss
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1105 = ~Dieser Pfeil wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
+Die heilige Verzauberung des Pfeils dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Pfeil seine physische Form.
+
+EIGENSCHAFTEN:
+
+Untote müssen Rettungswurf gg. Tod (+4 Malus) bestehen oder werden zerstört.
+
+Verzauberung: +4
+ETW0-Bonus: -4
+Schaden: 1w6+4, zusätzlich 1w6+8 Schaden gg. Untote
+Schadenstyp: Geschoss
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1106 = ~Dieser Bolzen wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art.
+Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
+
+EIGENSCHAFTEN:
+
+Untote müssen Rettungswurf gg. Tod bestehen oder werden für zwei Runden verlangsamt.
+
+Verzauberung: +1
+ETW0-Bonus: -1
+Schaden: 1w8+1, zusätzlich 1w6 Schaden gg. Untote
+Schadenstyp: Geschoss
+Schusswaffe: Armbrust
+
+Gewicht: 0~
+
+@1107 = ~Dieser Bolzen wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art.
+Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
+
+EIGENSCHAFTEN:
+
+Untote müssen Rettungswurf gg. Tod bestehen oder werden für zwei Runden festgehalten.
+
+Verzauberung: +1
+ETW0-Bonus: -2
+Schaden: 1w8+2, zusätzlich 1w6+2 Schaden gg. Untote
+Schadenstyp: Geschoss
+Schusswaffe: Armbrust
+
+Gewicht: 0~
+
+@1108 = ~Dieser Bolzen wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
+Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
+
+EIGENSCHAFTEN:
+
+Untote müssen Rettungswurf gg. Tod bestehen oder werden zerstört.
+
+Verzauberung: +2
+ETW0-Bonus: -2
+Schaden: 1w8+2, zusätzlich 1w6+4 Schaden gg. Untote
+Schadenstyp: Geschoss
+Schusswaffe: Armbrust
+
+Gewicht: 0~
+
+@1109 = ~Dieser Bolzen wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
+Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
+
+EIGENSCHAFTEN:
+
+Untote müssen Rettungswurf gg. Tod (+2 Malus) bestehen oder werden zerstört.
+
+Verzauberung: +3
+ETW0-Bonus: -3
+Schaden: 1w8+3, zusätzlich 1w6+6 Schaden gg. Untote
+Schadenstyp: Geschoss
+Schusswaffe: Armbrust
+
+Gewicht: 0~
+
+@1110 = ~Dieser Bolzen wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
+Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
+
+EIGENSCHAFTEN:
+
+Untote müssen Rettungswurf gg. Tod (+4 Malus) bestehen oder werden zerstört.
+
+Verzauberung: +4
+ETW0-Bonus: -4
+Schaden: 1w8+4, zusätzlich 1w6+8 Schaden gg. Untote
+Schadenstyp: Geschoss
+Schusswaffe: Armbrust
+
+Gewicht: 0~
+
+@1113 = ~Die Qualität dieser verzauberten Geschosse übertreffen die Handwerkskunst der meisten Pfeile die Du jemals gesehen hast.
+
+EIGENSCHAFTEN:
+
+ETW0-Bonus: -3
+Schaden: 1w6 (Geschoss)
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1114 = ~Die Qualität dieser verzauberten Geschosse übertreffen die Handwerkskunst der meisten Bolzen die Du jemals gesehen hast.
+
+EIGENSCHAFTEN:
+
+ETW0-Bonus: -3
+Schaden: 1w8 (Geschoss)
+Schusswaffe: Armbrust
+
+Gewicht: 0~
+
+@1115 = ~Die Qualität dieser verzauberten Geschosse übertreffen die Handwerkskunst der meisten Pfeile die Du jemals gesehen hast.
+
+EIGENSCHAFTEN:
+
+ETW0-Bonus: -4
+Schaden: 1w6 (Geschoss)
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1116 = ~Die Qualität dieser verzauberten Geschosse übertreffen die Handwerkskunst der meisten Bolzen die Du jemals gesehen hast.
+
+EIGENSCHAFTEN:
+
+ETW0-Bonus: -4
+Schaden: 1w8 (Geschoss)
+Schusswaffe: Armbrust
+
+Gewicht: 0~
 
 @1117 = ~Die Elfen von Evareska sind bekannt für ihren Isolationismus als auch für ihr Geschick und ihren Mut im Kampf. Einer ihrer bekanntesten Krieger in den Landen der Menschen war der unglaublich treffsichere Bariah Niedergold. Obwohl die Elfen die Legende weder bestätigen noch abstreiten, halten sich Geschichten bei den Menschen, dass Bariah nie ein Ziel im Kampf verfehlt hat. Sein Bogen, angefertigt von seiner Mutter, hat nie einen Namen erhalten der außerhalb der Elfengemeinschaft bekannt war. Die Menschen, die unter seiner Macht litten, nannten ihn den "großen Sonnengreifer", da sie glaubten, dass Bariahs Pfeile bis zur Sonne flogen. Bariahs Greif wurde bei einem Überfall, der bei den Elfen von Evareska bis zum heutigen Tag in schlechter Erinnerung geblieben ist, von unsichtbaren Magiern getötet. Obwohl nur ein Magier mit seinem Leben davon kam, konnte er den Bogen an sich reißen und mit in das Territorium der Menschen bringen.
 
@@ -36,6 +225,81 @@ Mindeststärke: 18
 Gewicht: 5~
 
 @1119 = ~Druide~
+
+@1120 = ~Diese Kugel wurde von der verehrten Gottheit des Schützen gesegnet. Sie dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art.
+Die heilige Verzauberung der Kugel dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert die Kugel ihre physische Form.
+
+EIGENSCHAFTEN:
+
+Untote müssen Rettungswurf gg. Tod bestehen oder werden für zwei Runden verlangsamt.
+
+Verzauberung: +1
+ETW0-Bonus: -1
+Schaden: 1w4+2, zusätzlich 1w6 Schaden gg. Untote
+Schadenstyp: Geschoss
+Schusswaffe: Schleuder
+
+Gewicht: 0~
+
+@1121 = ~Diese Kugel wurde von der verehrten Gottheit des Schützen gesegnet. Sie dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art.
+Die heilige Verzauberung der Kugel dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert die Kugel ihre physische Form.
+
+EIGENSCHAFTEN:
+
+Untote müssen Rettungswurf gg. Tod bestehen oder werden für zwei Runden festgehalten.
+
+Verzauberung: +1
+ETW0-Bonus: -2
+Schaden: 1w4+3, zusätzlich 1w6+2 Schaden gg. Untote
+Schadenstyp: Geschoss
+Schusswaffe: Schleuder
+
+Gewicht: 0~
+
+@1122 = ~Diese Kugel wurde von der verehrten Gottheit des Schützen gesegnet. Sie dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
+Die heilige Verzauberung der Kugel dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert die Kugel ihre physische Form.
+
+EIGENSCHAFTEN:
+
+Untote müssen Rettungswurf gg. Tod bestehen oder werden zerstört.
+
+Verzauberung: +2
+ETW0-Bonus: -2
+Schaden: 1w4+3, zusätzlich 1w6+4 Schaden gg. Untote
+Schadenstyp: Geschoss
+Schusswaffe: Schleuder
+
+Gewicht: 0~
+
+@1123 = ~Diese Kugel wurde von der verehrten Gottheit des Schützen gesegnet. Sie dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
+Die heilige Verzauberung der Kugel dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert die Kugel ihre physische Form.
+
+EIGENSCHAFTEN:
+
+Untote müssen Rettungswurf gg. Tod (+2 Malus) bestehen oder werden zerstört.
+
+Verzauberung: +3
+ETW0-Bonus: -3
+Schaden: 1w4+4, zusätzlich 1w6+6 Schaden gg. Untote
+Schadenstyp: Geschoss
+Schusswaffe: Schleuder
+
+Gewicht: 0~
+
+@1124 = ~Diese Kugel wurde von der verehrten Gottheit des Schützen gesegnet. Sie dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
+Die heilige Verzauberung der Kugel dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert die Kugel ihre physische Form.
+
+EIGENSCHAFTEN:
+
+Untote müssen Rettungswurf gg. Tod (+4 Malus) bestehen oder werden zerstört.
+
+Verzauberung: +4
+ETW0-Bonus: -4
+Schaden: 1w4+5, zusätzlich 1w6+8 Schaden gg. Untote
+Schadenstyp: Geschoss
+Schusswaffe: Schleuder
+
+Gewicht: 0~
 
 
 // Natürliche Fähigkeiten

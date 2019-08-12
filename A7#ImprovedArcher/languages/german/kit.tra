@@ -87,8 +87,11 @@ ETW0-Bonus: -1
 Schaden: 1w6+1, zusätzlich 1w6 Schaden gg. Untote
 Schadenstyp: Geschoss
 Schusswaffe: Bogen
-
-Gewicht: 0~
+Gewicht: 0
+Kann nur verwendet werden von:
+ Guten Wesen
+ Paladinen
+ Waldläufern~
 
 @1102 = ~Dieser Pfeil wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art.
 Die heilige Verzauberung des Pfeils dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Pfeil seine physische Form.
@@ -102,8 +105,11 @@ ETW0-Bonus: -2
 Schaden: 1w6+2, zusätzlich 1w6+2 Schaden gg. Untote
 Schadenstyp: Geschoss
 Schusswaffe: Bogen
-
-Gewicht: 0~
+Gewicht: 0
+Kann nur verwendet werden von:
+ Guten Wesen
+ Paladinen
+ Waldläufern~
 
 @1103 = ~Dieser Pfeil wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
 Die heilige Verzauberung des Pfeils dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Pfeil seine physische Form.
@@ -117,8 +123,11 @@ ETW0-Bonus: -2
 Schaden: 1w6+2, zusätzlich 1w6+4 Schaden gg. Untote
 Schadenstyp: Geschoss
 Schusswaffe: Bogen
-
-Gewicht: 0~
+Gewicht: 0
+Kann nur verwendet werden von:
+ Guten Wesen
+ Paladinen
+ Waldläufern~
 
 @1104 = ~Dieser Pfeil wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
 Die heilige Verzauberung des Pfeils dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Pfeil seine physische Form.
@@ -132,8 +141,11 @@ ETW0-Bonus: -3
 Schaden: 1w6+3, zusätzlich 1w6+6 Schaden gg. Untote
 Schadenstyp: Geschoss
 Schusswaffe: Bogen
-
-Gewicht: 0~
+Gewicht: 0
+Kann nur verwendet werden von:
+ Guten Wesen
+ Paladinen
+ Waldläufern~
 
 @1105 = ~Dieser Pfeil wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
 Die heilige Verzauberung des Pfeils dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Pfeil seine physische Form.
@@ -147,8 +159,11 @@ ETW0-Bonus: -4
 Schaden: 1w6+4, zusätzlich 1w6+8 Schaden gg. Untote
 Schadenstyp: Geschoss
 Schusswaffe: Bogen
-
-Gewicht: 0~
+Gewicht: 0
+Kann nur verwendet werden von:
+ Guten Wesen
+ Paladinen
+ Waldläufern~
 
 @1106 = ~Dieser Bolzen wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art.
 Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
@@ -162,8 +177,11 @@ ETW0-Bonus: -1
 Schaden: 1w8+1, zusätzlich 1w6 Schaden gg. Untote
 Schadenstyp: Geschoss
 Schusswaffe: Armbrust
-
-Gewicht: 0~
+Gewicht: 0
+Kann nur verwendet werden von:
+ Guten Wesen
+ Paladinen
+ Waldläufern~
 
 @1107 = ~Dieser Bolzen wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art.
 Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
@@ -177,8 +195,11 @@ ETW0-Bonus: -2
 Schaden: 1w8+2, zusätzlich 1w6+2 Schaden gg. Untote
 Schadenstyp: Geschoss
 Schusswaffe: Armbrust
-
-Gewicht: 0~
+Gewicht: 0
+Kann nur verwendet werden von:
+ Guten Wesen
+ Paladinen
+ Waldläufern~
 
 @1108 = ~Dieser Bolzen wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
 Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
@@ -192,8 +213,11 @@ ETW0-Bonus: -2
 Schaden: 1w8+2, zusätzlich 1w6+4 Schaden gg. Untote
 Schadenstyp: Geschoss
 Schusswaffe: Armbrust
-
-Gewicht: 0~
+Gewicht: 0
+Kann nur verwendet werden von:
+ Guten Wesen
+ Paladinen
+ Waldläufern~
 
 @1109 = ~Dieser Bolzen wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
 Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
@@ -207,8 +231,11 @@ ETW0-Bonus: -3
 Schaden: 1w8+3, zusätzlich 1w6+6 Schaden gg. Untote
 Schadenstyp: Geschoss
 Schusswaffe: Armbrust
-
-Gewicht: 0~
+Gewicht: 0
+Kann nur verwendet werden von:
+ Guten Wesen
+ Paladinen
+ Waldläufern~
 
 @1110 = ~Dieser Bolzen wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
 Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
@@ -222,8 +249,11 @@ ETW0-Bonus: -4
 Schaden: 1w8+4, zusätzlich 1w6+8 Schaden gg. Untote
 Schadenstyp: Geschoss
 Schusswaffe: Armbrust
-
-Gewicht: 0~
+Gewicht: 0
+Kann nur verwendet werden von:
+ Guten Wesen
+ Paladinen
+ Waldläufern~
 
 @1111 = ~Sicherer Schuss
 Hochstufige Schützen haben gelernt, sich perfekt auf ihre Fernkampfwaffe einzustellen. Dadurch sind sie in der Lage, mit erschreckender Genauigkeit und Geschwindigkeit Schwachpunkte ihrer Gegner zu ermitteln und ins Ziel zu nehmen. Mit dieser Fertigkeit geht der Schütze in Stellung und feuert Geschosse in schneller Folge ab. Für die nächsten 12 Sekunden nach Einsetzen dieser Fertigkeit wird die Anzahl der Angriffe pro Runde auf 10 gesetzt und jeder Schuss richtet kritischen Schaden an.
@@ -241,8 +271,12 @@ EIGENSCHAFTEN:
 ETW0-Bonus: -3
 Schaden: 1w6 (Geschoss)
 Schusswaffe: Bogen
-
-Gewicht: 0~
+Gewicht: 0
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Mönchen~
 
 @1114 = ~Die Qualität dieser verzauberten Geschosse übertreffen die Handwerkskunst der meisten Bolzen die Du jemals gesehen hast.
 
@@ -251,8 +285,12 @@ EIGENSCHAFTEN:
 ETW0-Bonus: -3
 Schaden: 1w8 (Geschoss)
 Schusswaffe: Armbrust
-
-Gewicht: 0~
+Gewicht: 0
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Mönchen~
 
 @1115 = ~Die Qualität dieser verzauberten Geschosse übertreffen die Handwerkskunst der meisten Pfeile die Du jemals gesehen hast.
 
@@ -261,8 +299,12 @@ EIGENSCHAFTEN:
 ETW0-Bonus: -4
 Schaden: 1w6 (Geschoss)
 Schusswaffe: Bogen
-
-Gewicht: 0~
+Gewicht: 0
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Mönchen~
 
 @1116 = ~Die Qualität dieser verzauberten Geschosse übertreffen die Handwerkskunst der meisten Bolzen die Du jemals gesehen hast.
 
@@ -271,8 +313,12 @@ EIGENSCHAFTEN:
 ETW0-Bonus: -4
 Schaden: 1w8 (Geschoss)
 Schusswaffe: Armbrust
-
-Gewicht: 0~
+Gewicht: 0
+Kann nicht verwendet werden von:
+ Druiden
+ Klerikern
+ Magiern
+ Mönchen~
 
 @1117 = ~Die Elfen von Evareska sind bekannt für ihren Isolationismus als auch für ihr Geschick und ihren Mut im Kampf. Einer ihrer bekanntesten Krieger in den Landen der Menschen war der unglaublich treffsichere Bariah Niedergold. Obwohl die Elfen die Legende weder bestätigen noch abstreiten, halten sich Geschichten bei den Menschen, dass Bariah nie ein Ziel im Kampf verfehlt hat. Sein Bogen, angefertigt von seiner Mutter, hat nie einen Namen erhalten der außerhalb der Elfengemeinschaft bekannt war. Die Menschen, die unter seiner Macht litten, nannten ihn den "großen Sonnengreifer", da sie glaubten, dass Bariahs Pfeile bis zur Sonne flogen. Bariahs Greif wurde bei einem Überfall, der bei den Elfen von Evareska bis zum heutigen Tag in schlechter Erinnerung geblieben ist, von unsichtbaren Magiern getötet. Obwohl nur ein Magier mit seinem Leben davon kam, konnte er den Bogen an sich reißen und mit in das Territorium der Menschen bringen.
 
@@ -332,8 +378,12 @@ ETW0-Bonus: -1
 Schaden: 1w4+2, zusätzlich 1w6 Schaden gg. Untote
 Schadenstyp: Geschoss
 Schusswaffe: Schleuder
-
-Gewicht: 0~
+Gewicht: 0
+Kann nur verwendet werden von:
+ Guten Wesen
+ Paladinen
+ Waldläufern
+ Klerikern~
 
 @1121 = ~Diese Kugel wurde von der verehrten Gottheit des Schützen gesegnet. Sie dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art.
 Die heilige Verzauberung der Kugel dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert die Kugel ihre physische Form.
@@ -347,8 +397,12 @@ ETW0-Bonus: -2
 Schaden: 1w4+3, zusätzlich 1w6+2 Schaden gg. Untote
 Schadenstyp: Geschoss
 Schusswaffe: Schleuder
-
-Gewicht: 0~
+Gewicht: 0
+Kann nur verwendet werden von:
+ Guten Wesen
+ Paladinen
+ Waldläufern
+ Klerikern~
 
 @1122 = ~Diese Kugel wurde von der verehrten Gottheit des Schützen gesegnet. Sie dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
 Die heilige Verzauberung der Kugel dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert die Kugel ihre physische Form.
@@ -362,8 +416,12 @@ ETW0-Bonus: -2
 Schaden: 1w4+3, zusätzlich 1w6+4 Schaden gg. Untote
 Schadenstyp: Geschoss
 Schusswaffe: Schleuder
-
-Gewicht: 0~
+Gewicht: 0
+Kann nur verwendet werden von:
+ Guten Wesen
+ Paladinen
+ Waldläufern
+ Klerikern~
 
 @1123 = ~Diese Kugel wurde von der verehrten Gottheit des Schützen gesegnet. Sie dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
 Die heilige Verzauberung der Kugel dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert die Kugel ihre physische Form.
@@ -377,8 +435,12 @@ ETW0-Bonus: -3
 Schaden: 1w4+4, zusätzlich 1w6+6 Schaden gg. Untote
 Schadenstyp: Geschoss
 Schusswaffe: Schleuder
-
-Gewicht: 0~
+Gewicht: 0
+Kann nur verwendet werden von:
+ Guten Wesen
+ Paladinen
+ Waldläufern
+ Klerikern~
 
 @1124 = ~Diese Kugel wurde von der verehrten Gottheit des Schützen gesegnet. Sie dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
 Die heilige Verzauberung der Kugel dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert die Kugel ihre physische Form.
@@ -392,8 +454,12 @@ ETW0-Bonus: -4
 Schaden: 1w4+5, zusätzlich 1w6+8 Schaden gg. Untote
 Schadenstyp: Geschoss
 Schusswaffe: Schleuder
-
-Gewicht: 0~
+Gewicht: 0
+Kann nur verwendet werden von:
+ Guten Wesen
+ Paladinen
+ Waldläufern
+ Klerikern~
 
 
 @1200 = ~KAMPFSCHÜTZE: Der Kampfschütze ist ein Meister im Umgang mit Fernkampfwaffen. Diesem ultimativen Schützen gelingt praktisch jeder Schuss, egal wie schwierig er ist. Da er sich so stark auf den Umgang mit Fernkampfwaffen spezialisiert hat, musste er sein Training mit Nahkampfwaffen und Rüstungen vernachlässigen.

@@ -100,8 +100,11 @@ THAC0: +1
 Danno: 1d6+1, 1d6 punti di danno addizionale contro non morti
 Tipo di Danno: Proiettile
 Dispositivo: Arco
-
-Peso: 0~
+Peso: 0
+Utilizzabile solo da:
+ Personaggi di allineamento buono
+ Paladino
+ Ranger~
 
 @1102 = ~Questa è una freccia che è stata benedetta dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
 L'incantamento divino della freccia dura otto ore, dopo le quali la freccia perderà la sua forma fisica. Il numero di frecce create diventa maggiore con l'avanzare di livello.
@@ -116,8 +119,11 @@ THAC0: +2
 Danno: 1d6+2, 1d6+2 punti di danno addizionale contro non morti
 Tipo di Danno: Proiettile
 Dispositivo: Arco
-
-Peso: 0~
+Peso: 0
+Utilizzabile solo da:
+ Personaggi di allineamento buono
+ Paladino
+ Ranger~
 
 @1103 = ~Questa è una freccia che è stata benedetta dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
 L'incantamento divino della freccia dura otto ore, dopo le quali la freccia perderà la sua forma fisica. Il numero di frecce create diventa maggiore con l'avanzare di livello.
@@ -133,7 +139,11 @@ Danno: 1d6+2, 1d6+4 punti di danno addizionale contro non morti
 Tipo di Danno: Proiettile
 Dispositivo: Arco
 
-Peso: 0~
+Peso: 0
+Utilizzabile solo da:
+ Personaggi di allineamento buono
+ Paladino
+ Ranger~
 
 @1104 = ~Questa è una freccia che è stata benedetta dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
 L'incantamento divino della freccia dura otto ore, dopo le quali la freccia perderà la sua forma fisica. Il numero di frecce create diventa maggiore con l'avanzare di livello.
@@ -148,8 +158,11 @@ THAC0: +3
 Danno: 1d6+3, 1d6+6 punti di danno addizionale contro non morti
 Tipo di Danno: Proiettile
 Dispositivo: Arco
-
-Peso: 0~
+Peso: 0
+Utilizzabile solo da:
+ Personaggi di allineamento buono
+ Paladino
+ Ranger~
 
 @1105 = ~Questa è una freccia che è stata benedetta dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
 L'incantamento divino della freccia dura otto ore, dopo le quali la freccia perderà la sua forma fisica. Il numero di frecce create diventa maggiore con l'avanzare di livello.
@@ -164,8 +177,11 @@ THAC0: +4
 Danno: 1d6+4, 1d6+8 punti di danno addizionale contro non morti
 Tipo di Danno: Proiettile
 Dispositivo: Arco
-
-Peso: 0~
+Peso: 0
+Utilizzabile solo da:
+ Personaggi di allineamento buono
+ Paladino
+ Ranger~
 
 @1106 = ~Questo è un quadrello che è stato benedetto dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
 L'incantamento divino del quadrello dura per otto ore, dopo le quali il quadrello perderà la sua forma fisica. Il numero di quadrelli creati diventa maggiore con l'avanzare di livello.
@@ -180,8 +196,11 @@ THAC0: +1
 Danno: 1d8+1, 1d6 punti di danno addizionale contro non morti
 Tipo di Danno: Proiettile
 Dispositivo: Balestra
-
-Peso: 0~
+Peso: 0
+Utilizzabile solo da:
+ Personaggi di allineamento buono
+ Paladino
+ Ranger~
 
 @1107 = ~Questo è un quadrello che è stato benedetto dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
 L'incantamento divino del quadrello dura per otto ore, dopo le quali il quadrello perderà la sua forma fisica. Il numero di quadrelli creati diventa maggiore con l'avanzare di livello.
@@ -196,8 +215,11 @@ THAC0: +2
 Danno: 1d8+2, 1d6+2 punti di danno addizionale contro non morti
 Tipo di Danno: Proiettile
 Dispositivo: Balestra
-
-Peso: 0~
+Peso: 0
+Utilizzabile solo da:
+ Personaggi di allineamento buono
+ Paladino
+ Ranger~
 
 @1108 = ~Questo è un quadrello che è stato benedetto dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
 L'incantamento divino del quadrello dura per otto ore, dopo le quali il quadrello perderà la sua forma fisica. Il numero di quadrelli creati diventa maggiore con l'avanzare di livello.
@@ -212,8 +234,11 @@ THAC0: +2
 Danno: 1d8+2, 1d6+4 punti di danno addizionale contro non morti
 Tipo di Danno: Proiettile
 Dispositivo: Balestra
-
-Peso: 0~
+Peso: 0
+Utilizzabile solo da:
+ Personaggi di allineamento buono
+ Paladino
+ Ranger~
 
 @1109 = ~Questo è un quadrello che è stato benedetto dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
 L'incantamento divino del quadrello dura per otto ore, dopo le quali il quadrello perderà la sua forma fisica. Il numero di quadrelli creati diventa maggiore con l'avanzare di livello.
@@ -228,8 +253,11 @@ THAC0: +3
 Danno: 1d8+3, 1d6+6 punti di danno addizionale contro i non morti
 Tipo di Danno: Proiettile
 Dispositivo: Balestra
-
-Peso: 0~
+Peso: 0
+Utilizzabile solo da:
+ Personaggi di allineamento buono
+ Paladino
+ Ranger~
 
 @1110 = ~Questo è un quadrello che è stato benedetto dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
 L'incantamento divino del quadrello dura per otto ore, dopo le quali il quadrello perderà la sua forma fisica. Il numero di quadrelli creati diventa maggiore con l'avanzare di livello.
@@ -244,8 +272,11 @@ THAC0: +4
 Danno: 1d8+4, 1d6+8 punti di danno addizionale contro i non morti
 Tipo di Danno: Proiettile
 Dispositivo: Balestra
-
-Peso: 0~
+Peso: 0
+Utilizzabile solo da:
+ Personaggi di allineamento buono
+ Paladino
+ Ranger~
 
 @1111 = ~Colpo Sicuro
 I tiratori di alto livello hanno ottenuto un perfetto controllo sull'arma da lancio prescelta, cosa che permette loro di mirare e di colpire aree vitali del bersaglio con spaventosa precisione e velocità. Attivando questa abilità, il personaggio prende posizione e scocca proiettili in rapida successione. Per i successivi 12 secondi, questa abilità imposta il numero degli attacchi per round a 10 e ogni scocco è considerato un colpo critico.
@@ -263,8 +294,11 @@ STATISTICHE:
 THAC0: +3
 Danno: 1d6 (proiettile)
 Dispositivo: Arco
-
-Peso: 0~
+Peso: 0
+Non utilizzabile da:
+ Chierico
+ Druido
+ Mago~
 
 @1114 = ~Questi proiettili incantati superano la fattura di molti quadrelli, magici o meno, da te visti. 
 
@@ -273,8 +307,11 @@ STATISTICHE:
 THAC0: +3
 Danno: 1d8 (proiettile)
 Dispositivo: Balestra
-
-Peso: 0~
+Peso: 0
+Non utilizzabile da:
+ Chierico
+ Druido
+ Mago~
 
 @1115 = ~Questi proiettili incantati superano la fattura di molte frecce, magiche o meno, da te viste. 
 
@@ -283,8 +320,11 @@ STATISTICHE:
 THAC0: +4
 Danno: 1d6 (proiettile)
 Dispositivo: Arco
-
-Peso: 0~
+Peso: 0
+Non utilizzabile da:
+ Chierico
+ Druido
+ Mago~
 
 @1116 = ~Questi proiettili incantati superano la fattura di molti quadrelli, magici o meno, da te visti. 
 
@@ -293,8 +333,11 @@ STATISTICHE:
 THAC0: +4
 Danno: 1d8 (proiettile)
 Dispositivo: Balestra
-
-Peso: 0~
+Peso: 0
+Non utilizzabile da:
+ Chierico
+ Druido
+ Mago~
 
 @1117 = ~Gli elfi di Evereska sono noti per il loro isolazionismo così come per la loro abilità e coraggio in battaglia. Uno dei loro guerrieri più conosciuti in territorio umano fu Bariah Goldendown, arciere incredibilmente preciso. Sebbene gli elfi non confermeranno o smentiranno mai la leggenda, alcuni racconti umani sostengono che Bariah, grazie alla sua vista acuta, non mancò mai un bersaglio in battaglia. Il suo arco, forgiato da sua madre, non ricevette mai un nome che fosse noto al di fuori della famiglia. Gli umani che furono colpiti dal suo potere lo chiamarono "L'Arco Che Raggiunge il Sole", credendo che le frecce di Bariah potessero raggiungere il cielo. In uno scontro che molti abitanti di Evereska ricordano ancora oggi con amarezza, il grifone di Bariah fu ucciso in cielo dagli incantesimi di un mago invisibile che tese un'imboscata ad una pattuglia elfica. Anche se solo un mago riuscì a scappare vivo, ebbe modo di portare l'arco con sé.
 
@@ -315,11 +358,11 @@ Forza 6
 
 Peso: 3
 Non utilizzabile da:
-Druido
-Chierico
-Mago
-Ladro
-Monaco~
+ Druido
+ Chierico
+ Mago
+ Ladro
+ Monaco~
 
 @1118 = ~Gli archi compositi sono archi lunghi o corti i cui listelli sono stati realizzati con più tipi di materiale. Questo conferisce loro più elasticità e fa sì che le frecce scoccate dall'arco infliggano un danno maggiore.
 In aggiunta a potenti incantamenti, i materiali utilizzati per questo speciale arco sono di qualità particolarmente ricercata. La struttura eccezionalmente durevole dell'arco può essere utilizzata per deflettere persino i colpi più forti e la foggia ergonomica permette a chi lo utilizza di scoccare frecce in rapida successione.
@@ -340,12 +383,12 @@ Forza 18
 
 Peso: 5
 Non utilizzabile da:
-Druido
-Chierico
-Mago
-Ladro
-Monaco
-Bardo~
+ Druido
+ Chierico
+ Mago
+ Ladro
+ Monaco
+ Bardo~
 
 @1119 = ~~
 
@@ -362,8 +405,12 @@ THAC0: +1
 Danno: 1d4+2, 1d6 punti di danno addizionale contro non morti
 Tipo di Danno: Proiettile
 Dispositivo: Fionda
-
-Peso: 0~
+Peso: 0
+Utilizzabile solo da:
+ Personaggi di allineamento buono
+ Paladino
+ Ranger
+ Chierico~
 
 @1121 = ~Questo è un proiettile che è stato benedetto dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
 L'incantamento divino del proiettile dura per otto ore, dopo le quali il proiettile perderà la sua forma fisica. Il numero di proiettili creati diventa maggiore con l'avanzare di livello.
@@ -378,8 +425,12 @@ THAC0: +2
 Danno: 1d4+3, 1d6+2 punti di danno addizionale contro non morti
 Tipo di Danno: Proiettile
 Dispositivo: Fionda
-
-Peso: 0~
+Peso: 0
+Utilizzabile solo da:
+ Personaggi di allineamento buono
+ Paladino
+ Ranger
+ Chierico~
 
 @1122 = ~Questo è un proiettile che è stato benedetto dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
 L'incantamento divino del proiettile dura per otto ore, dopo le quali il proiettile perderà la sua forma fisica. Il numero di proiettili creati diventa maggiore con l'avanzare di livello.
@@ -394,8 +445,12 @@ THAC0: +2
 Danno: 1d4+3, 1d6+4 punti di danno addizionale contro non morti
 Tipo di Danno: Proiettile
 Dispositivo: Fionda
-
-Peso: 0~
+Peso: 0
+Utilizzabile solo da:
+ Personaggi di allineamento buono
+ Paladino
+ Ranger
+ Chierico~
 
 @1123 = ~Questo è un proiettile che è stato benedetto dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
 L'incantamento divino del proiettile dura per otto ore, dopo le quali il proiettile perderà la sua forma fisica. Il numero di proiettili creati diventa maggiore con l'avanzare di livello.
@@ -410,8 +465,12 @@ THAC0: +3
 Danno: 1d4+4, 1d6+6 punti di danno addizionale contro i non morti
 Tipo di Danno: Proiettile
 Dispositivo: Fionda
-
-Peso: 0~
+Peso: 0
+Utilizzabile solo da:
+ Personaggi di allineamento buono
+ Paladino
+ Ranger
+ Chierico~
 
 @1124 = ~Questo è un proiettile che è stato benedetto dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
 L'incantamento divino del proiettile dura per otto ore, dopo le quali il proiettile perderà la sua forma fisica. Il numero di proiettili creati diventa maggiore con l'avanzare di livello.
@@ -426,8 +485,12 @@ THAC0: +4
 Danno: 1d4+5, 1d6+8 punti di danno addizionale contro i non morti
 Tipo di Danno: Proiettile
 Dispositivo: Fionda
-
-Peso: 0~
+Peso: 0
+Utilizzabile solo da:
+ Personaggi di allineamento buono
+ Paladino
+ Ranger
+ Chierico~
 
 @1200 = ~TIRATORE SCELTO: Il tiratore scelto è l'emblema dell'abilità nel tiro con l'arco. È il tiratore per eccellenza, capace di portare a segno quasi ogni tiro, non importa quanto sia difficile. Per diventare così abile con l'arco, il tiratore scelto ha dovuto sacrificare parte della sua competenza con le armi da mischia e con le armature.
 

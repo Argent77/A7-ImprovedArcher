@@ -1,6 +1,207 @@
 // -*- coding: utf-8 -*-
 
 // Descriptions
+@1101 = ~This is an arrow that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and causes additional damage to undead of any kind. 
+The divine enchantment of the arrow lasts for eight hours and allows the user to release a given number of charges. After that the arrow will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Undead must save vs. Death or be slowed for two rounds
+
+Enchantment: +1
+THAC0: +1
+Damage: 1d6+1, additional 1d6 damage vs. undead
+Damage type: Missile
+Launcher: Bow
+
+Weight: 0~
+
+@1102 = ~This is an arrow that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and causes additional damage to undead of any kind. 
+The divine enchantment of the arrow lasts for eight hours and allows the user to release a given number of charges. After that the arrow will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Undead must save vs. Death or be held for two rounds
+
+Enchantment: +1
+THAC0: +2
+Damage: 1d6+2, additional 1d6+2 damage vs. undead
+Damage type: Missile
+Launcher: Bow
+
+Weight: 0~
+
+
+@1103 = ~This is an arrow that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the arrow causes additional damage to undead creatures and may even destroy them. 
+The divine enchantment of the arrow lasts for eight hours and allows the user to release a given number of charges. After that the arrow will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Undead must save vs. Death or be utterly destroyed
+
+Enchantment: +2
+THAC0: +2
+Damage: 1d6+2, additional 1d6+4 damage vs. undead
+Damage type: Missile
+Launcher: Bow
+
+Weight: 0~
+
+@1104 = ~This is an arrow that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the arrow causes additional damage to undead creatures and may even destroy them. 
+The divine enchantment of the arrow lasts for eight hours and allows the user to release a given number of charges. After that the arrow will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Undead must save vs. Death at -2 penalty or be utterly destroyed
+
+Enchantment: +3
+THAC0: +3
+Damage: 1d6+3, additional 1d6+6 damage vs. undead
+Damage type: Missile
+Launcher: Bow
+
+Weight: 0~
+
+@1105 = ~This is an arrow that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the arrow causes additional damage to undead creatures and may even destroy them. 
+The divine enchantment of the arrow lasts for eight hours and allows the user to release a given number of charges. After that the arrow will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Undead must save vs. Death at -4 penalty or be utterly destroyed
+
+Enchantment: +4
+THAC0: +4
+Damage: 1d6+4, additional 1d6+8 damage vs. undead
+Damage type: Missile
+Launcher: Bow
+
+Weight: 0~
+
+@1106 = ~This is a bolt that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and causes additional damage to undead of any kind. 
+The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Undead must save vs. Death or be slowed for two rounds
+
+Enchantment: +1
+THAC0: +1
+Damage: 1d8+1, additional 1d6 damage vs. undead
+Damage type: Missile
+Launcher: Crossbow
+
+Weight: 0~
+
+@1107 = ~This is a bolt that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and causes additional damage to undead of any kind. 
+The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Undead must save vs. Death or be held for two rounds
+
+Enchantment: +1
+THAC0: +2
+Damage: 1d8+2, additional 1d6+2 damage vs. undead
+Damage type: Missile
+Launcher: Crossbow
+
+Weight: 0~
+
+@1108 = ~This is a bolt that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the bolt causes additional damage to undead creatures and may even destroy them. 
+The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Undead must save vs. Death or be utterly destroyed
+
+Enchantment: +2
+THAC0: +2
+Damage: 1d8+2, additional 1d6+4 damage vs. undead
+Damage type: Missile
+Launcher: Crossbow
+
+Weight: 0~
+
+@1109 = ~This is a bolt that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the bolt causes additional damage to undead creatures and may even destroy them. 
+The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Undead must save vs. Death at -2 penalty or be utterly destroyed
+
+Enchantment: +3
+THAC0: +3
+Damage: 1d8+3, additional 1d6+6 damage vs. undead
+Damage type: Missile
+Launcher: Crossbow
+
+Weight: 0~
+
+@1110 = ~This is a bolt that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the bolt causes additional damage to undead creatures and may even destroy them. 
+The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Undead must save vs. Death at -4 penalty or be utterly destroyed
+
+Enchantment: +4
+THAC0: +4
+Damage: 1d8+4, additional 1d6+8 damage vs. undead
+Damage type: Missile
+Launcher: Crossbow
+
+Weight: 0~
+
+@1113 = ~These enchanted missiles surpass the craftsmanship of many arrow, magical or otherwise, you have seen. 
+
+STATISTICS:
+
+THAC0: +3
+Damage: 1d6 (missile)
+Launcher: Bow
+
+Weight: 0~
+
+@1114 = ~These enchanted missiles surpass the craftsmanship of many bolt, magical or otherwise, you have seen. 
+
+STATISTICS:
+
+THAC0: +3
+Damage: 1d8 (missile)
+Launcher: Crossbow
+
+Weight: 0~
+
+@1115 = ~These enchanted missiles far surpass the craftsmanship of any arrow, magical or otherwise, you have ever seen. 
+
+STATISTICS:
+
+THAC0: +4
+Damage: 1d6 (missile)
+Launcher: Bow
+
+Weight: 0~
+
+@1116 = ~These enchanted missiles far surpass the craftsmanship of any bolt, magical or otherwise, you have ever seen. 
+
+STATISTICS:
+
+THAC0: +4
+Damage: 1d8 (missile)
+Launcher: Crossbow
+
+Weight: 0~
+
 @1117 = ~The elves of Evereska are known for their isolationism as much as their skill and bravery in battle.  One of their most well known warriors in human lands was the incredibly accurate archer Bariah Goldendown.  Though the elves will neither confirm nor deny the legend, some human tales state that keen-eyed Bariah never missed a target in battle.  His bow, crafted by his mother, was never given a name that was known outside of the family.  The humans that suffered under its power called it "Great Sun-Reacher," believing that Bariah's arrows could reach into the heavens themselves.  In a battle that many Evereskans are bitter about to this day, Bariah's griffon mount was killed in the sky by the spells of invisible wizards that ambushed an elven patrol.  Though only one mage escaped with his life, he did manage to take Great Sun-Reacher with him.
 
 STATISTICS:
@@ -40,6 +241,86 @@ Requires:
 Weight: 5~
 
 @1119 = ~Druid~
+
+@1120 = ~This is a bullet that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and causes additional damage to undead of any kind. 
+The divine enchantment of the bullet lasts for eight hours and allows the user to release a given number of charges. After that the bullet will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Undead must save vs. Death or be slowed for two rounds
+
+Enchantment: +1
+THAC0: +1
+Damage: 1d4+2, additional 1d6 damage vs. undead
+Damage type: Missile
+Launcher: Sling
+
+Weight: 0~
+
+@1121 = ~This is a bullet that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and causes additional damage to undead of any kind. 
+The divine enchantment of the bullet lasts for eight hours and allows the user to release a given number of charges. After that the bullet will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Undead must save vs. Death or be held for two rounds
+
+Enchantment: +1
+THAC0: +2
+Damage: 1d4+3, additional 1d6+2 damage vs. undead
+Damage type: Missile
+Launcher: Sling
+
+Weight: 0~
+
+@1122 = ~This is a bullet that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the bullet causes additional damage to undead creatures and may even destroy them. 
+The divine enchantment of the bullet lasts for eight hours and allows the user to release a given number of charges. After that the bullet will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Undead must save vs. Death or be utterly destroyed
+
+Enchantment: +2
+THAC0: +2
+Damage: 1d4+3, additional 1d6+4 damage vs. undead
+Damage type: Missile
+Launcher: Sling
+
+Weight: 0~
+
+@1123 = ~This is a bullet that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the bullet causes additional damage to undead creatures and may even destroy them. 
+The divine enchantment of the bullet lasts for eight hours and allows the user to release a given number of charges. After that the bullet will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Undead must save vs. Death at -2 penalty or be utterly destroyed
+
+Enchantment: +3
+THAC0: +3
+Damage: 1d4+4, additional 1d6+6 damage vs. undead
+Damage type: Missile
+Launcher: Sling
+
+Weight: 0~
+
+@1124 = ~This is a bullet that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the bullet causes additional damage to undead creatures and may even destroy them. 
+The divine enchantment of the bullet lasts for eight hours and allows the user to release a given number of charges. After that the bullet will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Undead must save vs. Death at -4 penalty or be utterly destroyed
+
+Enchantment: +4
+THAC0: +4
+Damage: 1d4+5, additional 1d6+8 damage vs. undead
+Damage type: Missile
+Launcher: Sling
+
+Weight: 0~
 
 
 // Innate ability descriptions
