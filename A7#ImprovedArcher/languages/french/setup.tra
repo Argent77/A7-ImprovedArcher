@@ -1,9 +1,14 @@
 // -*- coding: cp1252 -*-
 
-@1 = ~Kit d'Archer ameliore~
+@1 = ~Profil d'Archer ameliore~
 @2 = ~Ajouter deux arcs puissants et des fleches et des carreaux +4 dans le jeu~
-@3 = ~Ce mod necessite l'installation de BG2:ToB, BG:EE, BG2:EE ou IWD:EE.~
-@4 = ~Ce mod necessite l'installation de BG2:ToB, BG2:EE ou IWD:EE.~
+@3 = ~Ajouter le profil de guerrier : Tireur d'elite~
+@4 = ~Ajouter le profil de paladin : Chevalier archer~
+@5 = ~Ajouter le profil de voleur : Tireur de precision~
+
+@100 = ~Ce mod necessite l'installation de BG2:ToB, BG:EE, BG2:EE ou IWD:EE.~
+@101 = ~Ce mod necessite l'installation de BG2:ToB, BG2:EE ou IWD:EE.~
+@102 = ~Ce composant necessite l'installation du composant principal "Profil d'Archer ameliore".~
 
 
 // WeiDU prompts

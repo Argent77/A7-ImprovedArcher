@@ -15,8 +15,8 @@
 @1011 = ~Carreau béni +2~
 @1012 = ~Carreau béni +3~
 @1013 = ~Carreau béni +4~
-@1014 = ~Flèches bénies créées~
-@1015 = ~Carreaux bénis créés~
+@1014 = ~A créé des Flèches bénies~
+@1015 = ~A créé des Carreaux bénis~
 @1016 = ~Vous ne pouvez pas bénéficier d'une nouvelle capacité de tir tant qu'une autre est toujours active.~
 @1017 = ~Tir de précision~
 @1018 = ~Piège à projectiles~
@@ -24,54 +24,61 @@
 @1020 = ~Carreau +4~
 @1021 = ~Grand Perce-Soleil +3~
 @1022 = ~Le Défenseur +5~
+@1023 = ~Créer des Billes bénies~
+@1024 = ~Bille bénie +1~
+@1025 = ~Bille bénie +2~
+@1026 = ~Bille bénie +3~
+@1027 = ~Bille bénie +4~
+@1014 = ~A créé des Billes bénies~
+
 
 // Descriptions
-@1100 = ~ARCHER
-Archer d'élite, il est capable de réussir les tirs les plus précis et les plus difficiles. Mais pour devenir aussi efficace avec un arc, il doit négliger certaines des capacités classiques des guerriers.
+@1100 = ~ARCHER : Archer d'élite, il est capable de réussir les tirs les plus précis et les plus difficiles. Mais pour devenir aussi efficace avec un arc, il doit négliger certaines des capacités classiques des guerriers.
 
 Avantages :
-– +1 au toucher et aux dégâts avec les armes de jet par 3 niveaux d'expérience.
-– +1 à la classe d'armure contre les projectiles par 6 niveaux d'expérience.
+– Bonus de 1 au toucher et aux dégâts avec les armes de jet, ainsi qu'à la classe d'armure contre les projectiles tous les 6 niveaux d'expérience.
+- Gagne 5 % de chance supplémentaire de réaliser un coup critique aux niveaux 9, 13 et 18.
 – Peut atteindre la grande maîtrise (cinq étoiles) des arcs longs, des arcs courts et des arbalètes.
-– Gagne tous les 4 niveaux la possibilité de tirer un trait immobilisant une fois par jour, à partir du niveau 4. Cette capacité n'est pas cumulable avec toute autre capacité de tir.
+– Gagne tous les 4 niveaux la possibilité de tirer un trait immobilisant une fois par jour. Cette capacité n'est pas cumulable avec toute autre capacité de tir.
 – Gagne tous les 4 niveaux la possibilité de tirer un trait renversant une fois par jour, à partir du niveau 8. Cette capacité n'est pas cumulable avec toute autre capacité de tir.
 – Gagne tous les 4 niveaux la possibilité de tirer un trait explosif une fois par jour, à partir du niveau 8. Cette capacité n'est pas cumulable avec toute autre capacité de tir.
-– Gagne tous les 4 niveaux la possibilité de créer des munitions bénies une fois par jour, à partir du niveau 4.
+– Gagne tous les 8 niveaux la possibilité de créer des munitions bénies une fois par jour, à partir du niveau 4.
 
-TIR IMMOBILISANT : Quand il utilise cette capacité, tout tir réussi dans les 12 secondes qui suivent a les effets suivants :
+TIR IMMOBILISANT : Tout tir réussi dans les 12 secondes qui suivent enchevêtre la cible, selon le niveau de l'Archer :
  niveau 4  : Enchevêtre la cible pendant trois rounds si elle rate son JS contre les sorts.
  niveau 8  : Enchevêtre la cible pendant trois rounds si elle rate son JS contre les sorts avec un malus de 1.
  niveau 12 : Enchevêtre la cible pendant quatre rounds si elle rate son JS contre les sorts avec un malus de 1.
  niveau 16 : Enchevêtre la cible pendant quatre rounds si elle rate son JS contre les sorts avec un malus de 2.
  niveau 20 : Enchevêtre la cible pendant cinq rounds si elle rate son JS contre les sorts avec un malus de 2.
 
-TIR RENVERSANT : Quand il utilise cette capacité, tout tir réussi dans les 12 secondes qui suivent peut renverser la cible, selon le niveau de l'Archer :
+TIR RENVERSANT : Tout tir réussi dans les 12 secondes qui suivent peut renverser la cible, selon le niveau de l'Archer :
  niveau 8  : Renverse la cible si elle rate son JS contre les souffles.
  niveau 12 : Renverse la cible si elle rate son JS contre les souffles avec un malus de 1.
  niveau 16 : Renverse la cible si elle rate son JS contre les souffles avec un malus de 2.
  niveau 20 : Renverse la cible si elle rate son JS contre les souffles avec un malus de 3.
 
-TIR EXPLOSIF : Quand il utilise cette capacité, tout tir réussi dans les 12 secondes qui suivent explose à l'impact et inflige à toutes les créatures situées dans un rayon de 5 mètres des dégâts dépendant du niveau de l'Archer :
+TIR EXPLOSIF : Tout tir réussi dans les 12 secondes qui suivent explose à l'impact et inflige à toutes les créatures situées dans un rayon de 5 mètres des dégâts dépendant du niveau de l'Archer :
  niveau 8  : 1d4 points de dégâts
  niveau 12 : 1d4+2 points de dégâts
  niveau 16 : 1d4+4 points de dégâts
  niveau 20 : 1d4+6 points de dégâts
 Attention : cette capacité inflige des dégâts aussi bien aux ennemis qu'aux alliés et aux passants innocents.
 
-CREÉER DES MUNITIONS BÉNIES : L'Archer crée une munition spirituelle (flèche ou carreau) bénie par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et dotée de plusieurs charges.
+CREÉER DES MUNITIONS BÉNIES : L'Archer crée une munition spirituelle (flèche ou carreau) bénie par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et dotée d'un certain nombre de charges, doublé aux niveaux 8 et 16.
  niveau 4  : munition +1, +1 au toucher et aux dégâts, 1d6 points supplémentaires contre les morts-vivants qui sont ralentis pendant deux rounds s'ils ratent leur JS contre la mort.
  niveau 8  : munition +1, +2 au toucher et aux dégâts, 1d6+2 points supplémentaires contre les morts-vivants qui sont paralysés pendant deux rounds s'ils ratent leur JS contre la mort.
  niveau 12 : munition +2, +2 au toucher et aux dégâts, 1d6+4 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort.
  niveau 16 : munition +3, +3 au toucher et aux dégâts, 1d6+6 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 2.
  niveau 20 : munition +4, +4 au toucher et aux dégâts, 1d6+8 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 4.
 
+
 Désavantages :
 – -1 à la Constitution à la création.
-– L'Archer ne peut pas porter d'armure métallique.
-– Il ne peut pas se spécialiser dans les armes de mêlée.~
+– Ne peut pas porter d'armure métallique.
+– Ne peut pas se spécialiser dans les armes de mêlée.~
 
-@1101 = ~Cette flèche a été bénie par la divinité tutélaire de l'Archer. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
-Son enchantement divin dure huit heures et permet à l'Archer de décocher une vingtaine de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
+@1101 = ~Cette flèche a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
 
 PARAMÈTRES :
 
@@ -82,12 +89,15 @@ Enchantement : +1
 TAC0 : +1
 Dégâts : 1d6+1, 1d6 points supplémentaires contre les morts-vivants
 Type de dégâts : projectile (perforant)
+Poids : 0
 Lanceur : arc
+Utilisable uniquement par :
+ Paladin
+ Rôdeur
+ Personnage d'alignement bon~
 
-Poids : 0~
-
-@1102 = ~Cette flèche a été bénie par la divinité tutélaire de l'Archer. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
-Son enchantement divin dure huit heures et permet à l'Archer de décocher une vingtaine de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
+@1102 = ~Cette flèche a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher une vingtaine de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
 
 PARAMÈTRES :
 
@@ -98,13 +108,16 @@ Enchantement : +1
 TAC0 : +2
 Dégâts : 1d6+2, 1d6+2 points supplémentaires contre les morts-vivants
 Type de dégâts : projectile (perforant)
+Poids : 0
 Lanceur : arc
+Utilisable uniquement par :
+ Paladin
+ Rôdeur
+ Personnage d'alignement bon~
 
-Poids : 0~
 
-
-@1103 = ~Cette flèche a été bénie par la divinité tutélaire de l'Archer. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales. Grâce à la bénédiction dont elle bénéficie, elle inflige des dégâts supplémentaires aux morts-vivants et peut même les détruire.
-Son enchantement divin dure huit heures et permet à l'Archer de décocher une vingtaine de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
+@1103 = ~Cette flèche a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales. Grâce à la bénédiction dont elle bénéficie, elle inflige des dégâts supplémentaires aux morts-vivants et peut même les détruire.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher une vingtaine de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
 
 PARAMÈTRES :
 
@@ -115,12 +128,15 @@ Enchantement : +2
 TAC0 : +2
 Dégâts : 1d6+2, 1d6+4 points supplémentaires contre les morts-vivants
 Type de dégâts : projectile (perforant)
+Poids : 0
 Lanceur : arc
+Utilisable uniquement par :
+ Paladin
+ Rôdeur
+ Personnage d'alignement bon~
 
-Poids : 0~
-
-@1104 = ~Cette flèche a été bénie par la divinité tutélaire de l'Archer. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales. Grâce à la bénédiction dont elle bénéficie, elle inflige des dégâts supplémentaires aux morts-vivants et peut même les détruire.
-Son enchantement divin dure huit heures et permet à l'Archer de décocher une vingtaine de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
+@1104 = ~Cette flèche a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales. Grâce à la bénédiction dont elle bénéficie, elle inflige des dégâts supplémentaires aux morts-vivants et peut même les détruire.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher une vingtaine de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
 
 PARAMÈTRES :
 
@@ -131,12 +147,15 @@ Enchantement : +3
 TAC0 : +3
 Dégâts : 1d6+3, 1d6+6 points supplémentaires contre les morts-vivants
 Type de dégâts : projectile (perforant)
+Poids : 0
 Lanceur : arc
+Utilisable uniquement par :
+ Paladin
+ Rôdeur
+ Personnage d'alignement bon~
 
-Poids : 0~
-
-@1105 = ~Cette flèche a été bénie par la divinité tutélaire de l'Archer. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales. Grâce à la bénédiction dont elle bénéficie, elle inflige des dégâts supplémentaires aux morts-vivants et peut même les détruire.
-Son enchantement divin dure huit heures et permet à l'Archer de décocher une vingtaine de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
+@1105 = ~Cette flèche a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales. Grâce à la bénédiction dont elle bénéficie, elle inflige des dégâts supplémentaires aux morts-vivants et peut même les détruire.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher une vingtaine de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
 
 PARAMÈTRES :
 
@@ -147,12 +166,15 @@ Enchantement : +4
 TAC0 : +4
 Dégâts : 1d6+4, 1d6+8 points supplémentaires contre les morts-vivants
 Type de dégâts : projectile (perforant)
+Poids : 0
 Lanceur : arc
+Utilisable uniquement par :
+ Paladin
+ Rôdeur
+ Personnage d'alignement bon~
 
-Poids : 0~
-
-@1106 = ~Ce carreau a été béni par la divinité tutélaire de l'Archer. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
-Son enchantement divin dure huit heures et permet à l'Archer de décocher une vingtaine de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
+@1106 = ~Ce carreau a été béni par la divinité tutélaire du personnage. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher une vingtaine de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
 
 PARAMÈTRES :
 
@@ -163,12 +185,15 @@ Enchantement : +1
 TAC0 : +1
 Dégâts : 1d8+1, 1d6 points supplémentaires contre les morts-vivants
 Type de dégâts : projectile (perforant)
+Poids : 0
 Lanceur : arbalète
+Utilisable uniquement par :
+ Paladin
+ Rôdeur
+ Personnage d'alignement bon~
 
-Poids : 0~
-
-@1107 = ~Ce carreau a été béni par la divinité tutélaire de l'Archer. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
-Son enchantement divin dure huit heures et permet à l'Archer de décocher une vingtaine de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
+@1107 = ~Ce carreau a été béni par la divinité tutélaire du personnage. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher une vingtaine de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
 
 PARAMÈTRES :
 
@@ -179,12 +204,15 @@ Enchantement : +1
 TAC0 : +2
 Dégâts : 1d8+2, 1d6+2 points supplémentaires contre les morts-vivants
 Type de dégâts : projectile (perforant)
+Poids : 0
 Lanceur : arbalète
+Utilisable uniquement par :
+ Paladin
+ Rôdeur
+ Personnage d'alignement bon~
 
-Poids : 0~
-
-@1108 = ~Ce carreau a été béni par la divinité tutélaire de l'Archer. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales. Grâce à la bénédiction dont il bénéficie, il inflige des dégâts supplémentaires aux morts-vivants et peut même les détruire.
-Son enchantement divin dure huit heures et permet à l'Archer de décocher une vingtaine de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
+@1108 = ~Ce carreau a été béni par la divinité tutélaire du personnage. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales. Grâce à la bénédiction dont il bénéficie, il inflige des dégâts supplémentaires aux morts-vivants et peut même les détruire.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher une vingtaine de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
 
 PARAMÈTRES :
 
@@ -195,12 +223,15 @@ Enchantement : +2
 TAC0 : +2
 Dégâts : 1d8+2, 1d6+4 points supplémentaires contre les morts-vivants
 Type de dégâts : projectile (perforant)
+Poids : 0
 Lanceur : arbalète
+Utilisable uniquement par :
+ Paladin
+ Rôdeur
+ Personnage d'alignement bon~
 
-Poids : 0~
-
-@1109 = ~Ce carreau a été béni par la divinité tutélaire de l'Archer. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales. Grâce à la bénédiction dont il bénéficie, il inflige des dégâts supplémentaires aux morts-vivants et peut même les détruire.
-Son enchantement divin dure huit heures et permet à l'Archer de décocher une vingtaine de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
+@1109 = ~Ce carreau a été béni par la divinité tutélaire du personnage. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales. Grâce à la bénédiction dont il bénéficie, il inflige des dégâts supplémentaires aux morts-vivants et peut même les détruire.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher une vingtaine de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
 
 PARAMÈTRES :
 
@@ -211,12 +242,15 @@ Enchantement : +3
 Poids : +3
 Dégâts : 1d8+3, 1d6+6 points supplémentaires contre les morts-vivants
 Type de dégâts : projectile (perforant)
+Poids : 0
 Lanceur : arbalète
+Utilisable uniquement par :
+ Paladin
+ Rôdeur
+ Personnage d'alignement bon~
 
-Poids : 0~
-
-@1110 = ~Ce carreau a été béni par la divinité tutélaire de l'Archer. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales. Grâce à la bénédiction dont il bénéficie, il inflige des dégâts supplémentaires aux morts-vivants et peut même les détruire.
-Son enchantement divin dure huit heures et permet à l'Archer de décocher une vingtaine de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
+@1110 = ~Ce carreau a été béni par la divinité tutélaire du personnage. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales. Grâce à la bénédiction dont il bénéficie, il inflige des dégâts supplémentaires aux morts-vivants et peut même les détruire.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher une vingtaine de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
 
 PARAMÈTRES :
 
@@ -227,20 +261,23 @@ Enchantement : +4
 Poids : +4
 Dégâts : 1d8+4, 1d6+8 points supplémentaires contre les morts-vivants
 Type de dégâts : projectile (perforant)
+Poids : 0
 Lanceur : arbalète
-
-Poids : 0~
+Utilisable uniquement par :
+ Paladin
+ Rôdeur
+ Personnage d'alignement bon~
 
 @1111 = ~Tir de précision
 
-A haut niveau, les Archers ont acquis une parfaite maîtrise de leur arme de trait, ce qui leur permet de viser les points vitaux de leur cible avec une précision et une vitesse sidérantes. Cette capacité leur permet de prendre la meilleure position de tir possible et de décocher leurs traits en rafales. Dans les deux rounds qui suivent son activation, leur nombre d'attaques par round passe à 10 et chaque tir est considéré comme un coup critique.
-Puisque cette technique nécessite une compétence et une concentration extrêmes, l'Archer ne peut plus se déplacer, comme s'il était enraciné au sol, pendant deux rounds. Il est impossible de cumuler cette capacité avec toute autre technique de tir.
+À haut niveau, les tireurs ont acquis une parfaite maîtrise de leur arme de trait, ce qui leur permet de viser les points vitaux de leur cible avec une précision et une vitesse sidérantes. Cette capacité leur permet de prendre la meilleure position de tir possible et de décocher leurs traits en rafales. Dans les deux rounds qui suivent son activation, leur nombre d'attaques par round passe à 10 et chaque tir est considéré comme un coup critique.
+Puisque cette technique nécessite une compétence et une concentration extrêmes, le tireur ne peut plus se déplacer, comme s'il était enraciné au sol, pendant deux rounds. Il est impossible de cumuler cette capacité avec toute autre technique de tir.
 
 Pré-requis : le personnage doit connaître la faculté Coup critique.~
 
 @1112 = ~Piège à projectiles
 
-Cette capacité permet à l'Archer de poser un puissant piège à ressorts à condition qu'aucune créature hostile ne soit en vue. Ce piège libère des projectiles qui infligent 3d10 points de dégâts perforant ainsi que 1d10 points de dégâts de chaque élément (feu, froid, acide, électricité et poison) à l'infortunée victime qui a la malchance de le déclencher.~
+Cette capacité permet au tireur de poser un puissant piège à ressorts à condition qu'aucune créature hostile ne soit en vue. Ce piège libère des projectiles qui infligent 3d10 points de dégâts perforant ainsi que 1d10 points de dégâts de chaque élément (feu, froid, acide, électricité et poison) à l'infortunée victime qui a la malchance de le déclencher.~
 
 @1113 = ~Ces flèches enchantées surpassent de beaucoup la qualité de fabrication de toutes les flèches, magiques ou autres, que vous ayez jamais croisées.
 
@@ -248,9 +285,12 @@ PARAMÈTRES :
 
 TAC0 : +3
 Dégâts : 1d6 (projectile)
+Poids : 0
 Lanceur : arc
-
-Poids : 0~
+Non utilisable par :
+ Clerc
+ Druide
+ Mage~
 
 @1114 = ~Ces carreaux magiques surpassent de beaucoup la qualité de fabrication de tous les carreaux, magiques ou autres, que vous ayez jamais croisés.
 
@@ -258,9 +298,12 @@ PARAMÈTRES :
 
 TAC0 : +3
 Dégâts : 1d8 (projectile)
+Poids : 0
 Lanceur : arbalète
-
-Poids : 0~
+Non utilisable par :
+ Clerc
+ Druide
+ Mage~
 
 @1115 = ~Ces flèches enchantées surpassent de beaucoup la qualité de fabrication de toutes les flèches, magiques ou autres, que vous ayez jamais croisées.
 
@@ -268,9 +311,12 @@ PARAMÈTRES :
 
 TAC0 : +4
 Dégâts : 1d6 (projectile)
+Poids : 0
 Lanceur : arc
-
-Poids : 0~
+Non utilisable par :
+ Clerc
+ Druide
+ Mage~
 
 @1116 = ~Ces carreaux magiques surpassent de beaucoup la qualité de fabrication de tous les carreaux, magiques ou autres, que vous ayez jamais croisés.
 
@@ -278,19 +324,22 @@ PARAMÈTRES :
 
 TAC0 : +4
 Dégâts : 1d8 (projectile)
+Poids : 0
 Lanceur : arbalète
+Non utilisable par :
+ Clerc
+ Druide
+ Mage~
 
-Poids : 0~
-7303
 @1117 = ~Les Elfes d'Evereska sont aussi connus pour leur propension à l'isolationnisme forcené que pour leur bravoure au combat. L'un de leurs plus célèbres guerriers était un archer nommé Bariah Crindor, dont la précision était légendaire, même chez les Humains. Bien que les Elfes refusent de confirmer ou d'infirmer cette histoire, les Humains racontent que l'oeil aiguisé de Bariah n'aurait jamais manqué sa cible. Fabriqué par sa mère, son arc ne reçut jamais de nom particulier, même si les Humains finirent par le baptiser le Grand Perce-Soleil, persuadés que les flèches de Bariah auraient la force de transpercer l'astre du jour si l'archer le souhaitait.
 Au cours d'une bataille dont le souvenir ravive encore une vive amertume parmi bien des Elfes, le griffon que montait Bariah fut tué par des mages invisibles qui lui avaient tendu une embuscade. Bien qu'un seul mage ait survécu au combat qui s'ensuivit, il parvint à s'emparer du Perce-Soleil et à s'échapper avec lui.
 
 PARAMÈTRES :
 
-Capacités spéciales :
+Capacité de charge :
 – Protection contre les projectiles normaux deux fois par jour
 
-Capacités de combat :
+Capacité de combat :
 – Cet arc n'a pas besoin de flèches et tire des flèches +3 bénéficiant d'un TAC0 +4 et infligeant 1d6 points de dégâts perforants.
 
 TAC0 : +4
@@ -330,4 +379,224 @@ Inutilisable par :
  Barde
  Moine~
 
-@1119 = ~~
+@1120 = ~Cette bille a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la bille s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort pour ne pas être ralenti pendant 2 rounds.
+
+Enchantement : +1
+TAC0 : +1
+Dégâts : 1d4+2, 1d6 points supplémentaires contre les morts-vivants
+Type de dégâts : projectile (perforant)
+Poids : 0
+Lanceur : fronde
+Utilisable uniquement par :
+ Paladin
+ Rôdeur
+ Clerc
+ Personnage d'alignement bon~
+
+@1121 = ~Cette bille a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la bille s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort pour ne pas être paralysé pendant 2 rounds.
+
+Enchantement : +1
+TAC0 : +2
+Damage: 1d4+3, 1d6+2 points supplémentaires contre les morts-vivants
+Type de dégâts : projectile (perforant)
+Poids : 0
+Lanceur : fronde
+Utilisable uniquement par :
+ Paladin
+ Rôdeur
+ Clerc
+ Personnage d'alignement bon~
+
+@1122 = ~Cette bille a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la bille s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort pour ne pas être complètement détruit.
+
+Enchantement : +2
+TAC0 : +2
+Damage: 1d4+3, 1d6+4 points supplémentaires contre les morts-vivants
+Type de dégâts : projectile (perforant)
+Poids : 0
+Lanceur : fronde
+Utilisable uniquement par :
+ Paladin
+ Rôdeur
+ Clerc
+ Personnage d'alignement bon~
+
+@1123 = ~Cette bille a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la bille s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort avec un malus de 2 pour ne pas être complètement détruit.
+
+Enchantement : +3
+TAC0 : +3
+Damage: 1d4+4, 1d6+6 points supplémentaires contre les morts-vivants
+Type de dégâts : projectile (perforant)
+Poids : 0
+Lanceur : fronde
+Utilisable uniquement par :
+ Paladin
+ Rôdeur
+ Clerc
+ Personnage d'alignement bon~
+
+@1124 = ~Cette bille a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la bille s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort avec un malus de 4 pour ne pas être complètement détruit.
+
+Enchantement : +4
+TAC0 : +4
+Damage: 1d4+5, 1d6+8 points supplémentaires contre les morts-vivants
+Type de dégâts : projectile (perforant)
+Poids : 0
+Lanceur : fronde
+Utilisable uniquement par :
+ Paladin
+ Rôdeur
+ Clerc
+ Personnage d'alignement bon~
+
+
+@1200 = ~TIREUR d'ÉLITE : Le Tireur d'élite est capable de réussir les tirs les plus précis et les plus difficiles avec des armes de jet. Mais pour devenir aussi efficace avec ces armes, il doit négliger certaines des capacités classiques des guerriers (port d'armures et compétentes martiales).
+
+Avantages :
+– Bonus de 1 au toucher et aux dégâts avec les armes de jet, ainsi qu'à la classe d'armure contre les projectiles tous les 6 niveaux d'expérience.
+- Gagne 5 % de chance supplémentaire de réaliser un coup critique aux niveaux 9, 13 et 18.
+– Peut atteindre la grande maîtrise (cinq étoiles) des arcs longs, des arcs courts, des arbalètes, des fléchettes et des frondes.
+– Gagne tous les 4 niveaux la possibilité de tirer un trait immobilisant une fois par jour. Cette capacité n'est pas cumulable avec toute autre capacité de tir.
+– Gagne tous les 4 niveaux la possibilité de tirer un trait renversant une fois par jour, à partir du niveau 8. Cette capacité n'est pas cumulable avec toute autre capacité de tir.
+– Gagne tous les 4 niveaux la possibilité de tirer un trait explosif une fois par jour, à partir du niveau 8. Cette capacité n'est pas cumulable avec toute autre capacité de tir.
+
+TIR IMMOBILISANT : Tout tir réussi dans les 12 secondes qui suivent enchevêtre la cible, selon le niveau du Tireur d'élite :
+ niveau 4  : Enchevêtre la cible pendant trois rounds si elle rate son JS contre les sorts.
+ niveau 8  : Enchevêtre la cible pendant trois rounds si elle rate son JS contre les sorts avec un malus de 1.
+ niveau 12 : Enchevêtre la cible pendant quatre rounds si elle rate son JS contre les sorts avec un malus de 1.
+ niveau 16 : Enchevêtre la cible pendant quatre rounds si elle rate son JS contre les sorts avec un malus de 2.
+ niveau 20 : Enchevêtre la cible pendant cinq rounds si elle rate son JS contre les sorts avec un malus de 2.
+
+TIR RENVERSANT : Tout tir réussi dans les 12 secondes qui suivent peut renverser la cible, selon le niveau du Tireur d'élite :
+ niveau 8  : Renverse la cible si elle rate son JS contre les souffles.
+ niveau 12 : Renverse la cible si elle rate son JS contre les souffles avec un malus de 1.
+ niveau 16 : Renverse la cible si elle rate son JS contre les souffles avec un malus de 2.
+ niveau 20 : Renverse la cible si elle rate son JS contre les souffles avec un malus de 3.
+
+TIR EXPLOSIF : Tout tir réussi dans les 12 secondes qui suivent explose à l'impact et inflige à toutes les créatures situées dans un rayon de 5 mètres des dégâts dépendant du niveau du Tireur d'élite :
+ niveau 8  : 1d4 points de dégâts
+ niveau 12 : 1d4+2 points de dégâts
+ niveau 16 : 1d4+4 points de dégâts
+ niveau 20 : 1d4+6 points de dégâts
+Attention : cette capacité inflige des dégâts aussi bien aux ennemis qu'aux alliés et aux passants innocents.
+
+
+Désavantages :
+– Ne peut pas porter d'armure métallique.
+- Ne peut pas que se spécialiser (deux étoiles) dans les armes de mêlée.
+- Ne peut allouer qu'une étoile dans les styles de combat.~
+
+@1201 = ~tireur d'élite~
+@1202 = ~Tireur d'élite~
+
+
+@1300 = ~CHEVALIER ARCHER : Archer d'élite, il est capable de réussir les tirs les plus précis et les plus difficiles avec n(importe quelle arme de jet. Mais pour devenir aussi efficace avec ces armes, il doit sacrifier certaines des capacités classiques des guerriers (compétences martiales et port d'armures).
+
+Avantages :
+– Bonus de 1 au toucher et aux dégâts avec les armes de jet, ainsi qu'à la classe d'armure contre les projectiles tous les 6 niveaux d'expérience.
+- Gagne 5 % de chance supplémentaire de réaliser un coup critique aux niveaux 9, 13 et 18.
+– Peut atteindre la grande maîtrise (cinq étoiles) des arcs longs, des arcs courts, des arbalètes et des frondes.
+– Gagne tous les 4 niveaux la possibilité de tirer un trait immobilisant une fois par jour. Cette capacité n'est pas cumulable avec toute autre capacité de tir.
+– Gagne tous les 4 niveaux la possibilité de tirer un trait renversant une fois par jour, à partir du niveau 8. Cette capacité n'est pas cumulable avec toute autre capacité de tir.
+– Gagne tous les 4 niveaux la possibilité de tirer un trait explosif une fois par jour, à partir du niveau 8. Cette capacité n'est pas cumulable avec toute autre capacité de tir.
+– Gagne tous les 8 niveaux la possibilité de créer des munitions bénies une fois par jour, à partir du niveau 4.
+
+TIR IMMOBILISANT : Tout tir réussi dans les 12 secondes qui suivent enchevêtre la cible, selon le niveau du Chevalier archer :
+ niveau 4  : Enchevêtre la cible pendant trois rounds si elle rate son JS contre les sorts.
+ niveau 8  : Enchevêtre la cible pendant trois rounds si elle rate son JS contre les sorts avec un malus de 1.
+ niveau 12 : Enchevêtre la cible pendant quatre rounds si elle rate son JS contre les sorts avec un malus de 1.
+ niveau 16 : Enchevêtre la cible pendant quatre rounds si elle rate son JS contre les sorts avec un malus de 2.
+ niveau 20 : Enchevêtre la cible pendant cinq rounds si elle rate son JS contre les sorts avec un malus de 2.
+
+TIR RENVERSANT : Tout tir réussi dans les 12 secondes qui suivent peut renverser la cible, selon le niveau du Chevalier archer :
+ niveau 8  : Renverse la cible si elle rate son JS contre les souffles.
+ niveau 12 : Renverse la cible si elle rate son JS contre les souffles avec un malus de 1.
+ niveau 16 : Renverse la cible si elle rate son JS contre les souffles avec un malus de 2.
+ niveau 20 : Renverse la cible si elle rate son JS contre les souffles avec un malus de 3.
+
+CREÉER DES MUNITIONS BÉNIES : Le Chevalier Archer crée une munition spirituelle (flèche ou carreau) bénie par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et dotée d'un certain nombre de charges, doublé aux niveaux 8 et 16.
+ niveau 4  : munition +1, +1 au toucher et aux dégâts, 1d6 points supplémentaires contre les morts-vivants qui sont ralentis pendant deux rounds s'ils ratent leur JS contre la mort.
+ niveau 8  : munition +1, +2 au toucher et aux dégâts, 1d6+2 points supplémentaires contre les morts-vivants qui sont paralysés pendant deux rounds s'ils ratent leur JS contre la mort.
+ niveau 12 : munition +2, +2 au toucher et aux dégâts, 1d6+4 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort.
+ niveau 16 : munition +3, +3 au toucher et aux dégâts, 1d6+6 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 2.
+ niveau 20 : munition +4, +4 au toucher et aux dégâts, 1d6+8 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 4.
+
+Désavantages :
+– Ne peut pas porter d'armure métallique.
+- Ne peut pas se spécialiser dans les armes de mêlée.
+- Ne peut allouer qu'une étoile dans les styles de combat.~
+
+@1301 = ~chevalier archer~
+@1302 = ~Chevalier Archer~
+@1303 = ~chevalier archer déchu~
+@1304 = ~Chevalier Archer déchu~
+@1305 = ~Classe perdue : Chevalier Archer~
+
+
+@1400 = ~TIREUR de PRÉCISION : Tireur d'élite, il est capable de réussir les tirs les plus précis et les plus difficiles avec n'importe quelle arme de jet. Mais pour devenir aussi efficace avec ces armes de trait, il doit négliger certaines des capacités classiques des voleurs.
+
+Avantages :
+– Bonus de 1 au toucher et aux dégâts avec les armes de jet, ainsi qu'à la classe d'armure contre les projectiles tous les 8 niveaux d'expérience.
+- Gagne 5 % de chance supplémentaire de réaliser un coup critique aux niveaux 13 et 18.
+– Peut atteindre la grande maîtrise (cinq étoiles) des arcs courts, des arbalètes, des fléchettes et des frondes.
+– Gagne tous les 4 niveaux la possibilité de tirer un trait immobilisant une fois par jour. Cette capacité n'est pas cumulable avec toute autre capacité de tir.
+– Gagne tous les 4 niveaux la possibilité de tirer un trait renversant une fois par jour, à partir du niveau 8. Cette capacité n'est pas cumulable avec toute autre capacité de tir.
+– Gagne tous les 4 niveaux la possibilité de tirer un trait explosif une fois par jour, à partir du niveau 8. Cette capacité n'est pas cumulable avec toute autre capacité de tir.
+
+TIR IMMOBILISANT : Tout tir réussi dans les 12 secondes qui suivent enchevêtre la cible, selon le niveau du Tireur de précision :
+ niveau 4  : Enchevêtre la cible pendant trois rounds si elle rate son JS contre les sorts.
+ niveau 8  : Enchevêtre la cible pendant trois rounds si elle rate son JS contre les sorts avec un malus de 1.
+ niveau 12 : Enchevêtre la cible pendant quatre rounds si elle rate son JS contre les sorts avec un malus de 1.
+ niveau 16 : Enchevêtre la cible pendant quatre rounds si elle rate son JS contre les sorts avec un malus de 2.
+ niveau 20 : Enchevêtre la cible pendant cinq rounds si elle rate son JS contre les sorts avec un malus de 2.
+
+TIR RENVERSANT : Tout tir réussi dans les 12 secondes qui suivent peut renverser la cible, selon le niveau du Tireur de précision :
+ niveau 8  : Renverse la cible si elle rate son JS contre les souffles.
+ niveau 12 : Renverse la cible si elle rate son JS contre les souffles avec un malus de 1.
+ niveau 16 : Renverse la cible si elle rate son JS contre les souffles avec un malus de 2.
+ niveau 20 : Renverse la cible si elle rate son JS contre les souffles avec un malus de 3.
+
+TIR EXPLOSIF : Tout tir réussi dans les 12 secondes qui suivent explose à l'impact et inflige à toutes les créatures situées dans un rayon de 5 mètres des dégâts dépendant du niveau du Tireur de précision :
+ niveau 8  : 1d4 points de dégâts
+ niveau 12 : 1d4+2 points de dégâts
+ niveau 16 : 1d4+4 points de dégâts
+ niveau 20 : 1d4+6 points de dégâts
+Attention : cette capacité inflige des dégâts aussi bien aux ennemis qu'aux alliés et aux passants innocents.
+
+
+Désavantages :
+- N'a que 15 points de compétence à répartir dans ses talents de voleur à chaque niveau.
+- Ne peut effectuer d'attaque sournoise.~
+
+@1401 = ~tireur de précision~
+@1402 = ~Tireur de précision~

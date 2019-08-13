@@ -1,12 +1,213 @@
 // -*- coding: utf-8 -*-
 
 // Descriptions
+@1101 = ~Cette flèche a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort pour ne pas être ralenti pendant 2 rounds.
+
+Enchantement : +1
+TAC0 : +1
+Dégâts : 1d6+1, 1d6 points supplémentaires contre les morts-vivants
+Type de dégâts : projectile (perforant)
+Lanceur : arc
+
+Poids : 0~
+
+@1102 = ~Cette flèche a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher une vingtaine de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort pour ne pas être paralysé pendant 2 rounds.
+
+Enchantement : +1
+TAC0 : +2
+Dégâts : 1d6+2, 1d6+2 points supplémentaires contre les morts-vivants
+Type de dégâts : projectile (perforant)
+Lanceur : arc
+
+Poids : 0~
+
+
+@1103 = ~Cette flèche a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales. Grâce à la bénédiction dont elle bénéficie, elle inflige des dégâts supplémentaires aux morts-vivants et peut même les détruire.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher une vingtaine de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort pour ne pas être complètement détruit.
+
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d6+2, 1d6+4 points supplémentaires contre les morts-vivants
+Type de dégâts : projectile (perforant)
+Lanceur : arc
+
+Poids : 0~
+
+@1104 = ~Cette flèche a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales. Grâce à la bénédiction dont elle bénéficie, elle inflige des dégâts supplémentaires aux morts-vivants et peut même les détruire.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher une vingtaine de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort avec un malus de 2 pour ne pas être complètement détruit.
+
+Enchantement : +3
+TAC0 : +3
+Dégâts : 1d6+3, 1d6+6 points supplémentaires contre les morts-vivants
+Type de dégâts : projectile (perforant)
+Lanceur : arc
+
+Poids : 0~
+
+@1105 = ~Cette flèche a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales. Grâce à la bénédiction dont elle bénéficie, elle inflige des dégâts supplémentaires aux morts-vivants et peut même les détruire.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher une vingtaine de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort avec un malus de 4 pour ne pas être complètement détruit.
+
+Enchantement : +4
+TAC0 : +4
+Dégâts : 1d6+4, 1d6+8 points supplémentaires contre les morts-vivants
+Type de dégâts : projectile (perforant)
+Lanceur : arc
+
+Poids : 0~
+
+@1106 = ~Ce carreau a été béni par la divinité tutélaire du personnage. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher une vingtaine de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort pour ne pas être ralenti pendant 2 rounds.
+
+Enchantement : +1
+TAC0 : +1
+Dégâts : 1d8+1, 1d6 points supplémentaires contre les morts-vivants
+Type de dégâts : projectile (perforant)
+Lanceur : arbalète
+
+Poids : 0~
+
+@1107 = ~Ce carreau a été béni par la divinité tutélaire du personnage. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher une vingtaine de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort pour ne pas être paralysé pendant 2 rounds.
+
+Enchantement : +1
+TAC0 : +2
+Dégâts : 1d8+2, 1d6+2 points supplémentaires contre les morts-vivants
+Type de dégâts : projectile (perforant)
+Lanceur : arbalète
+
+Poids : 0~
+
+@1108 = ~Ce carreau a été béni par la divinité tutélaire du personnage. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales. Grâce à la bénédiction dont il bénéficie, il inflige des dégâts supplémentaires aux morts-vivants et peut même les détruire.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher une vingtaine de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort pour ne pas être complètement détruit.
+
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d8+2, 1d6+4 points supplémentaires contre les morts-vivants
+Type de dégâts : projectile (perforant)
+Lanceur : arbalète
+
+Poids : 0~
+
+@1109 = ~Ce carreau a été béni par la divinité tutélaire du personnage. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales. Grâce à la bénédiction dont il bénéficie, il inflige des dégâts supplémentaires aux morts-vivants et peut même les détruire.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher une vingtaine de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort avec un malus de 2 pour ne pas être complètement détruit.
+
+Enchantement : +3
+Poids : +3
+Dégâts : 1d8+3, 1d6+6 points supplémentaires contre les morts-vivants
+Type de dégâts : projectile (perforant)
+Lanceur : arbalète
+
+Poids : 0~
+
+@1110 = ~Ce carreau a été béni par la divinité tutélaire du personnage. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales. Grâce à la bénédiction dont il bénéficie, il inflige des dégâts supplémentaires aux morts-vivants et peut même les détruire.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher une vingtaine de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort avec un malus de 4 pour ne pas être complètement détruit.
+
+Enchantement : +4
+Poids : +4
+Dégâts : 1d8+4, 1d6+8 points supplémentaires contre les morts-vivants
+Type de dégâts : projectile (perforant)
+Lanceur : arbalète
+
+Poids : 0~
+
+@1113 = ~Ces flèches enchantées surpassent de beaucoup la qualité de fabrication de toutes les flèches, magiques ou autres, que vous ayez jamais croisées.
+
+PARAMÈTRES :
+
+TAC0 : +3
+Dégâts : 1d6 (projectile)
+Lanceur : arc
+
+Poids : 0~
+
+@1114 = ~Ces carreaux magiques surpassent de beaucoup la qualité de fabrication de tous les carreaux, magiques ou autres, que vous ayez jamais croisés.
+
+PARAMÈTRES :
+
+TAC0 : +3
+Dégâts : 1d8 (projectile)
+Lanceur : arbalète
+
+Poids : 0~
+
+@1115 = ~Ces flèches enchantées surpassent de beaucoup la qualité de fabrication de toutes les flèches, magiques ou autres, que vous ayez jamais croisées.
+
+PARAMÈTRES :
+
+TAC0 : +4
+Dégâts : 1d6 (projectile)
+Lanceur : arc
+
+Poids : 0~
+
+@1116 = ~Ces carreaux magiques surpassent de beaucoup la qualité de fabrication de tous les carreaux, magiques ou autres, que vous ayez jamais croisés.
+
+PARAMÈTRES :
+
+TAC0 : +4
+Dégâts : 1d8 (projectile)
+Lanceur : arbalète
+
+Poids : 0~
+
 @1117 = ~Les Elfes d'Evereska sont aussi connus pour leur propension à l'isolationnisme forcené que pour leur bravoure au combat. L'un de leurs plus célèbres guerriers était un archer nommé Bariah Crindor, dont la précision était légendaire, même chez les Humains. Bien que les Elfes refusent de confirmer ou d'infirmer cette histoire, les Humains racontent que l'oeil aiguisé de Bariah n'aurait jamais manqué sa cible. Fabriqué par sa mère, son arc ne reçut jamais de nom particulier, même si les Humains finirent par le baptiser le Grand Perce-Soleil, persuadés que les flèches de Bariah auraient la force de transpercer l'astre du jour si l'archer le souhaitait.
 Au cours d'une bataille dont le souvenir ravive encore une vive amertume parmi bien des Elfes, le griffon que montait Bariah fut tué par des mages invisibles qui lui avaient tendu une embuscade. Bien qu'un seul mage ait survécu au combat qui s'ensuivit, il parvint à s'emparer du Perce-Soleil et à s'échapper avec lui.
 
 PARAMÈTRES :
 
-Capacités spéciales :
+Capacité de charge :
 – Protection contre les projectiles normaux deux fois par jour
 
 Capacités de combat :
@@ -38,10 +239,90 @@ Nécessite : 18 en Force
 
 Poids : 5~
 
+@1120 = ~Cette bille a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la bille s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort pour ne pas être ralenti pendant 2 rounds.
+
+Enchantement : +1
+TAC0 : +1
+Dégâts : 1d4+2, 1d6 points supplémentaires contre les morts-vivants
+Type de dégâts : projectile (perforant)
+Lanceur : fronde
+
+Poids : 0~
+
+@1121 = ~Cette bille a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la bille s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort pour ne pas être paralysé pendant 2 rounds.
+
+Enchantement : +1
+TAC0 : +2
+Damage: 1d4+3, 1d6+2 points supplémentaires contre les morts-vivants
+Type de dégâts : projectile (perforant)
+Lanceur : fronde
+
+Poids : 0~
+
+@1122 = ~Cette bille a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la bille s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort pour ne pas être complètement détruit.
+
+Enchantement : +2
+TAC0 : +2
+Damage: 1d4+3, 1d6+4 points supplémentaires contre les morts-vivants
+Type de dégâts : projectile (perforant)
+Lanceur : fronde
+
+Poids : 0~
+
+@1123 = ~Cette bille a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la bille s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort avec un malus de 2 pour ne pas être complètement détruit.
+
+Enchantement : +3
+TAC0 : +3
+Damage: 1d4+4, 1d6+6 points supplémentaires contre les morts-vivants
+Type de dégâts : projectile (perforant)
+Lanceur : fronde
+
+Poids : 0~
+
+@1124 = ~Cette bille a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
+Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la bille s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort avec un malus de 4 pour ne pas être complètement détruit.
+
+Enchantement : +4
+TAC0 : +4
+Damage: 1d4+5, 1d6+8 points supplémentaires contre les morts-vivants
+Type de dégâts : projectile (perforant)
+Lanceur : fronde
+
+Poids : 0~
+
 
 // Innate ability descriptions
 @2001 = ~Tir renversant
-Tout tir réussi dans les 12 secondes qui suivent peut renverser la cible, selon le niveau de l'Archer :
+Tout tir réussi dans les 12 secondes qui suivent peut renverser la cible, selon le niveau du tireur :
  niveau 8  : Renverse la cible si elle rate son JS contre les souffles.
  niveau 12 : Renverse la cible si elle rate son JS contre les souffles avec un malus de 1.
  niveau 16 : Renverse la cible si elle rate son JS contre les souffles avec un malus de 2.
@@ -56,7 +337,7 @@ Tout tir réussi dans les 12 secondes qui suivent peut enchevêtrer la cible, se
  niveau 20 : Enchevêtre la cible pendant cinq rounds si elle rate son JS contre les sorts avec un malus de 2.~
 
 @2003 = ~Tir explosif
-Tout tir réussi dans les 12 secondes qui suivent explose à l'impact et inflige à toutes les créatures situées dans un rayon de 5 mètres des dégâts dépendant du niveau de l'Archer :
+Tout tir réussi dans les 12 secondes qui suivent explose à l'impact et inflige à toutes les créatures situées dans un rayon de 5 mètres des dégâts dépendant du niveau du tireur :
  niveau 8  : 1d4 points de dégâts
  niveau 12 : 1d4+2 points de dégâts
  niveau 16 : 1d4+4 points de dégâts
@@ -64,7 +345,7 @@ Tout tir réussi dans les 12 secondes qui suivent explose à l'impact et inflige
 Attention : cette capacité inflige des dégâts aussi bien aux ennemis qu'aux alliés et aux passants innocents.~
 
 @2004 = ~Créer des Munitions bénies
-L'Archer crée une munition spirituelle (flèche ou carreau) bénie par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et dotée de plusieurs charges.
+Le personnage crée une munition spirituelle (flèche ou carreau) bénie par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et dotée de plusieurs charges.
  niveau 4  : munition +1, +1 au toucher et aux dégâts, 1d6 points supplémentaires contre les morts-vivants qui sont ralentis pendant deux rounds s'ils ratent leur JS contre la mort.
  niveau 8  : munition +1, +2 au toucher et aux dégâts, 1d6+2 points supplémentaires contre les morts-vivants qui sont paralysés pendant deux rounds s'ils ratent leur JS contre la mort.
  niveau 12 : munition +2, +2 au toucher et aux dégâts, 1d6+4 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort.
@@ -72,7 +353,7 @@ L'Archer crée une munition spirituelle (flèche ou carreau) bénie par sa divin
  niveau 20 : munition +4, +4 au toucher et aux dégâts, 1d6+8 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 4.~
 
 @2005 = ~Créer des Flèches bénies
-L'Archer crée une flèche spirituelle bénie par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et dotée de plusieurs charges.
+Le personnage crée une flèche spirituelle bénie par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et dotée de plusieurs charges.
  niveau 4  : munition +1, +1 au toucher et aux dégâts, 1d6 points supplémentaires contre les morts-vivants qui sont ralentis pendant deux rounds s'ils ratent leur JS contre la mort.
  niveau 8  : munition +1, +2 au toucher et aux dégâts, 1d6+2 points supplémentaires contre les morts-vivants qui sont paralysés pendant deux rounds s'ils ratent leur JS contre la mort.
  niveau 12 : munition +2, +2 au toucher et aux dégâts, 1d6+4 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort.
@@ -80,7 +361,23 @@ L'Archer crée une flèche spirituelle bénie par sa divinité tutélaire, qu'il
  niveau 20 : munition +4, +4 au toucher et aux dégâts, 1d6+8 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 4.~
 
 @2006 = ~Créer des Carreaux bénis
-L'Archer crée un carreau spirituel béni par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et doté de plusieurs charges.
+Le personnage crée un carreau spirituel béni par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et doté de plusieurs charges.
+ niveau 4  : munition +1, +1 au toucher et aux dégâts, 1d6 points supplémentaires contre les morts-vivants qui sont ralentis pendant deux rounds s'ils ratent leur JS contre la mort.
+ niveau 8  : munition +1, +2 au toucher et aux dégâts, 1d6+2 points supplémentaires contre les morts-vivants qui sont paralysés pendant deux rounds s'ils ratent leur JS contre la mort.
+ niveau 12 : munition +2, +2 au toucher et aux dégâts, 1d6+4 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort.
+ niveau 16 : munition +3, +3 au toucher et aux dégâts, 1d6+6 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 2.
+ niveau 20 : munition +4, +4 au toucher et aux dégâts, 1d6+8 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 4.~
+
+@2007 = ~Créer des Billes bénies
+Le personnage crée une bille spirituelle bénie par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et dotée de plusieurs charges.
+ niveau 4  : munition +1, +1 au toucher et aux dégâts, 1d6 points supplémentaires contre les morts-vivants qui sont ralentis pendant deux rounds s'ils ratent leur JS contre la mort.
+ niveau 8  : munition +1, +2 au toucher et aux dégâts, 1d6+2 points supplémentaires contre les morts-vivants qui sont paralysés pendant deux rounds s'ils ratent leur JS contre la mort.
+ niveau 12 : munition +2, +2 au toucher et aux dégâts, 1d6+4 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort.
+ niveau 16 : munition +3, +3 au toucher et aux dégâts, 1d6+6 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 2.
+ niveau 20 : munition +4, +4 au toucher et aux dégâts, 1d6+8 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 4.~
+
+@2008 = ~Créer des Munitions bénies
+Le personnage crée une munition spirituelle (flèche, carreau ou bille) bénie par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et dotée de plusieurs charges.
  niveau 4  : munition +1, +1 au toucher et aux dégâts, 1d6 points supplémentaires contre les morts-vivants qui sont ralentis pendant deux rounds s'ils ratent leur JS contre la mort.
  niveau 8  : munition +1, +2 au toucher et aux dégâts, 1d6+2 points supplémentaires contre les morts-vivants qui sont paralysés pendant deux rounds s'ils ratent leur JS contre la mort.
  niveau 12 : munition +2, +2 au toucher et aux dégâts, 1d6+4 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort.
