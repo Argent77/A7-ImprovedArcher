@@ -328,16 +328,14 @@ Waga: 5~
 
 // Innate ability descriptions
 @2001 = ~Potężny strzał
-
-Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, ma szansę na odrzucenie celu, w zależności od poziomu łucznika:
+Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, ma szansę na odrzucenie celu, w zależności od poziomu strzelca:
 8. poziom: Odrzuca cel, jeśli ten nie wykona rzutu obronnego przeciw zionięciom.
 12. poziom: Odrzuca cel, jeśli ten nie wykona rzutu obronnego przeciw zionięciom z modyfikatorem -1.
 16. poziom: Odrzuca cel, jeśli ten nie wykona rzutu obronnego przeciw zionięciom z modyfikatorem -2.
 20. poziom: Odrzuca cel, jeśli ten nie wykona rzutu obronnego przeciw zionięciom z modyfikatorem -3.~
 
 @2002 = ~Oplątujący strzał
-
-Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, spowoduje oplątanie celu, zgodnie z poziomem łucznika:
+Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, spowoduje oplątanie celu, zgodnie z poziomem strzelca:
 4. poziom: Cel jest oplątany przez trzy rundy, jeśli nie wykona rzutu obronnego przeciw czarom.
 8. poziom: Cel jest oplątany przez trzy rundy, jeśli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -1.
 12. poziom: Cel jest oplątany przez cztery rundy, jeśli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -1.
@@ -345,8 +343,7 @@ Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund,
 20. poziom: Cel jest oplątany przez pięć rund, jeśli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -2.~
 
 @2003 = ~Wybuchowy strzał
-
-Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, powoduje eksplozję wystrzelonego pocisku po trafieniu, zadając fizyczne obrażenia znajdującym się w promieniu pięciu metrów celom, w zależności od poziomu łucznika:
+Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, powoduje eksplozję wystrzelonego pocisku po trafieniu, zadając fizyczne obrażenia znajdującym się w promieniu pięciu metrów celom, w zależności od poziomu strzelca:
 8. poziom: 1k4 obrażeń pobliskim celom
 12. poziom: 1k4 +2 obrażeń pobliskim celom
 16. poziom: 1k4 +4 obrażeń pobliskim celom
@@ -354,26 +351,39 @@ Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund,
 Uwaga: Rani wrogów, sojuszników i niewinne stworzenia.~
 
 @2004 = ~Stworzenie błogosławionej amunicji
-
-Tworzy przepełnioną energią duchową strzałę lub bełt, pobłogosławione przez bóstwo, które wyznaje łucznik. Pocisk istnieje osiem godzin i zawiera dużo ładunków.
+Tworzy przepełnioną energią duchową strzałę lub bełt, pobłogosławione przez bóstwo, które wyznaje strzelec. Amunicja istnieje przez osiem godzin i zawiera wiele ładunków.
 4. poziom: umagicznienie +1, +1 do trafienia i obrażeń, dodatkowe 1k6 obrażeń i spowolnienie przez dwie rundy, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
 8. poziom: umagicznienie +1, +2 do trafienia i obrażeń, dodatkowe 1k6 +2 obrażeń i unieruchomienie przez dwie rundy, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
 12. poziom: umagicznienie +2, +2 do trafienia i obrażeń, dodatkowe 1k6 +4 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
 16. poziom: umagicznienie +3, +3 do trafienia i obrażeń, dodatkowe 1k6 +6 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci z modyfikatorem -2.
 20. poziom: umagicznienie +3, +4 do trafienia i obrażeń, dodatkowe 1k6 +8 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci z modyfikatorem -4.~
 
-@2005 = ~Stworzenie pobłogosławionych strzał
-
-Tworzy przepełnioną energią duchową strzałę, pobłogosławioną przez bóstwo, które wyznaje łucznik. Pocisk istnieje osiem godzin i zawiera dużo ładunków.
+@2005 = ~Stworzenie błogosławionych strzał
+Tworzy przepełnioną energią duchową strzałę, pobłogosławioną przez bóstwo, które wyznaje strzelec. Strzała istnieje przez osiem godzin i zawiera wiele ładunków.
 4. poziom: umagicznienie +1, +1 do trafienia i obrażeń, dodatkowe 1k6 obrażeń i spowolnienie przez dwie rundy, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
 8. poziom: umagicznienie +1, +2 do trafienia i obrażeń, dodatkowe 1k6 +2 obrażeń i unieruchomienie przez dwie rundy, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
 12. poziom: umagicznienie +2, +2 do trafienia i obrażeń, dodatkowe 1k6 +4 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
 16. poziom: umagicznienie +3, +3 do trafienia i obrażeń, dodatkowe 1k6 +6 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci z modyfikatorem -2.
 20. poziom: umagicznienie +3, +4 do trafienia i obrażeń, dodatkowe 1k6 +8 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci z modyfikatorem -4.~
 
-@2006 = ~Stworzenie pobłogosławionych bełtów
+@2006 = ~Stworzenie błogosławionych bełtów
+Tworzy przepełniony energią duchową bełt, pobłogosławiony przez bóstwo, które wyznaje strzelec. Bełt istnieje przez osiem godzin i zawiera wiele ładunków.
+4. poziom: umagicznienie +1, +1 do trafienia i obrażeń, dodatkowe 1k6 obrażeń i spowolnienie przez dwie rundy, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
+8. poziom: umagicznienie +1, +2 do trafienia i obrażeń, dodatkowe 1k6 +2 obrażeń i unieruchomienie przez dwie rundy, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
+12. poziom: umagicznienie +2, +2 do trafienia i obrażeń, dodatkowe 1k6 +4 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
+16. poziom: umagicznienie +3, +3 do trafienia i obrażeń, dodatkowe 1k6 +6 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci z modyfikatorem -2.
+20. poziom: umagicznienie +3, +4 do trafienia i obrażeń, dodatkowe 1k6 +8 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci z modyfikatorem -4.~
 
-Tworzy przepełniony energią duchową bełt, pobłogosławiony przez bóstwo, które wyznaje łucznik. Pocisk istnieje osiem godzin i zawiera dużo ładunków.
+@2007 = ~Stworzenie błogosławionych pocisków
+Tworzy przepełniony energią duchową pocisk, pobłogosławiony przez bóstwo, które wyznaje strzelec. Pocisk istnieje przez osiem godzin i zawiera wiele ładunków.
+4. poziom: umagicznienie +1, +1 do trafienia i obrażeń, dodatkowe 1k6 obrażeń i spowolnienie przez dwie rundy, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
+8. poziom: umagicznienie +1, +2 do trafienia i obrażeń, dodatkowe 1k6 +2 obrażeń i unieruchomienie przez dwie rundy, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
+12. poziom: umagicznienie +2, +2 do trafienia i obrażeń, dodatkowe 1k6 +4 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
+16. poziom: umagicznienie +3, +3 do trafienia i obrażeń, dodatkowe 1k6 +6 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci z modyfikatorem -2.
+20. poziom: umagicznienie +3, +4 do trafienia i obrażeń, dodatkowe 1k6 +8 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci z modyfikatorem -4.~
+
+@2008 = ~Stworzenie błogosławionej amunicji
+Tworzy przepełnioną energią duchową strzałę, bełt lub pocisk, pobłogosławione przez bóstwo, które wyznaje strzelec. Amunicja istnieje przez osiem godzin i zawiera wiele ładunków.
 4. poziom: umagicznienie +1, +1 do trafienia i obrażeń, dodatkowe 1k6 obrażeń i spowolnienie przez dwie rundy, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
 8. poziom: umagicznienie +1, +2 do trafienia i obrażeń, dodatkowe 1k6 +2 obrażeń i unieruchomienie przez dwie rundy, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
 12. poziom: umagicznienie +2, +2 do trafienia i obrażeń, dodatkowe 1k6 +4 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.

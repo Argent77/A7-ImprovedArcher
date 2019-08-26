@@ -1,4 +1,11 @@
+// -*- coding: us-ascii -*-
+
 @1 = ~Ulepszona podklasa Lucznika~
 @2 = ~Dodaj do gry strzaly i belty +4, a takze dwa potezne luki~
-@3 = ~Ta modyfikacja wymaga uprzedniego zainstalowania BG2:ToB, BG:EE, BG2:EE lub IWD:EE.~
-@4 = ~Ta modyfikacja wymaga uprzedniego zainstalowania BG2:ToB, BG2:EE lub IWD:EE.~
+@3 = ~Dodaj do gry nowa podklase Wojownika: Snajper~
+@4 = ~Dodaj do gry nowa podklase Paladyna: Rycerz lucznik~
+@5 = ~Dodaj do gry nowa podklase Zlodzieja: Strzelec wyborowy~
+
+@100 = ~Ta modyfikacja wymaga uprzedniego zainstalowania BG2:ToB, BG:EE, BG2:EE lub IWD:EE.~
+@101 = ~Ta modyfikacja wymaga uprzedniego zainstalowania BG2:ToB, BG2:EE lub IWD:EE.~
+@102 = ~Komponent ten wymaga uprzedniego zainstalowania komponentu "Ulepszona podklasa Lucznika".~

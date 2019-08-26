@@ -1,3 +1,5 @@
+// -*- coding: cp1250 -*-
+
 // Spell related lines
 @1000 = ~Potê¿ny strza³~
 @1001 = ~Opl¹tuj¹cy strza³~
@@ -22,209 +24,247 @@
 @1020 = ~Be³t +4~
 @1021 = ~Siêgaj¹cy s³oñca +3~
 @1022 = ~Obroñca +5~
+@1023 = ~Stworzenie pob³ogos³awionych pocisków~
+@1024 = ~B³ogos³awiony pocisk +1~
+@1025 = ~B³ogos³awiony pocisk +2~
+@1026 = ~B³ogos³awiony pocisk +3~
+@1027 = ~B³ogos³awiony pocisk +4~
+@1028 = ~Stworzono b³ogos³awione pociski~
 
 // Descriptions
-@1100 = ~£UCZNIK: Jest uosobieniem mistrzowskiego pos³ugiwania siê ³ukiem. To znakomity strzelec, umiej¹cy oddaæ strza³ niemal z ka¿dej pozycji, niezale¿nie od stopnia trudnoœci. Aby zyskaæ takie umiejêtnoœci, musia³ poœwiêciæ czêœæ swoich punktów bieg³oœci w pos³ugiwaniu siê broni¹ rêczn¹ i zbroj¹.
+@1100 = ~£UCZNIK: Jest uosobieniem mistrzowskiego pos³ugiwania siê ³ukiem. To znakomity strzelec, umiej¹cy oddaæ strza³ niemal z ka¿dej pozycji, niezale¿nie od stopnia trudnoœci. Aby zyskaæ takie umiejêtnoœci, ³ucznik musia³ poœwiêciæ czêœæ swoich punktów bieg³oœci za pos³ugiwanie siê broni¹ rêczn¹ i zbroj¹.
 
 Zalety:
-- +1 do trafienia i obra¿eñ ka¿d¹ broni¹ strzeleck¹, za ka¿de 3 poziomy doœwiadczenia.
-- +1 do KP przeciw broniom strzeleckim, za ka¿de 6 poziomów doœwiadczenia.
-- Mo¿e osi¹gn¹æ Wielkie mistrzostwo (5 punktów bieg³oœci) w d³ugich ³ukach, krótkich ³ukach oraz kuszach.
-- Co 4 poziomy doœwiadczenia zyskuje zdolnoœæ Opl¹tuj¹cego strza³u, raz dziennie.
-- Co 4 poziomy doœwiadczenia, pocz¹wszy od 8. poziomu, zyskuje zdolnoœæ Potê¿nego strza³u, raz dziennie. Nie mo¿e ona zostaæ u¿yta w po³¹czeniu z innymi umiejêtnoœciami strzeleckimi.
-- Co 4 poziomy doœwiadczenia, pocz¹wszy od 8. poziomu, zyskuje zdolnoœæ Wybuchowego strza³u, raz dziennie. Nie mo¿e ona zostaæ u¿yta w po³¹czeniu z innymi umiejêtnoœciami strzeleckimi.
-- Co 4 poziomy doœwiadczenia zyskuje zdolnoœæ Stworzenia b³ogos³awionej amunicji, raz dziennie.
+- +1 do trafienia i obra¿eñ ka¿d¹ broni¹ strzeleck¹, a tak¿e premia +1 do KP przeciw pociskom, za ka¿de szeœæ poziomów doœwiadczenia.
+- +5% szans na trafienie krytyczne na poziomach 9, 13 i 18.
+- Mo¿e osi¹gn¹æ Wielkie mistrzostwo (piêæ punktów bieg³oœci) w d³ugich ³ukach, krótkich ³ukach oraz kuszach.
+- Co cztery poziomy doœwiadczenia zyskuje zdolnoœæ Opl¹tuj¹cego strza³u, do wykorzystania raz dziennie. Zdolnoœæ ta nie mo¿e zostaæ u¿yta w po³¹czeniu z innymi umiejêtnoœciami strzeleckimi.
+- Co cztery poziomy doœwiadczenia, pocz¹wszy od 8. poziomu, zyskuje zdolnoœæ Potê¿nego strza³u, do wykorzystania raz dziennie. Zdolnoœæ ta nie mo¿e zostaæ u¿yta w po³¹czeniu z innymi umiejêtnoœciami strzeleckimi.
+- Co cztery poziomy doœwiadczenia, pocz¹wszy od 8. poziomu, zyskuje zdolnoœæ Wybuchowego strza³u, do wykorzystania raz dziennie. Zdolnoœæ ta nie mo¿e zostaæ u¿yta w po³¹czeniu z innymi umiejêtnoœciami strzeleckimi.
+- Co osiem poziomów doœwiadczenia, pocz¹wszy od 4. poziomu, zyskuje zdolnoœæ Stworzenia b³ogos³awionej amunicji, do wykorzystania raz dziennie.
 
-OPL¥TUJ¥CY STRZA£: Ka¿dy udany atak dystansowy, wykonany w przeci¹gu nastêpnych 12 sekund, spowoduje opl¹tanie celu, zgodnie z poziomem ³ucznika:
-4. poz. – Cel jest opl¹tany przez 3 rundy, jeœli nie wykona rzutu obronnego przeciw czarom.
-8. poz. – Cel jest opl¹tany przez 3 rundy, jeœli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -1.
-12. poz. – Cel jest opl¹tany przez 4 rundy, jeœli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -1.
-16. poz. – Cel jest opl¹tany przez 4 rundy, jeœli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -2.
-20. poz. – Cel jest opl¹tany przez 5 rund, jeœli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -2.
+OPL¥TUJ¥CY STRZA£: Ka¿dy udany atak dystansowy, wykonany w przeci¹gu nastêpnych dwunastu sekund, spowoduje opl¹tanie celu, zgodnie z poziomem ³ucznika:
+4. poziom: Cel jest opl¹tany przez trzy rundy, jeœli nie wykona rzutu obronnego przeciw czarom.
+8. poziom: Cel jest opl¹tany przez trzy rundy, jeœli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -1.
+12. poziom: Cel jest opl¹tany przez cztery rundy, jeœli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -1.
+16. poziom: Cel jest opl¹tany przez cztery rundy, jeœli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -2.
+20. poziom: Cel jest opl¹tany przez piêæ rund, jeœli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -2.
 
-POTÊ¯NY STRZA£: Ka¿dy udany atak dystansowy, wykonany w przeci¹gu nastêpnych 12 sekund, ma szansê na odrzucenie celu, w zale¿noœci od poziomu ³ucznika:
-8. poz. – Odrzuca cel, jeœli ten nie wykona rzutu obronnego przeciw zioniêciom.
-12. poz. – Odrzuca cel, jeœli ten nie wykona rzutu obronnego przeciw zioniêciom z modyfikatorem -1.
-16. poz. – Odrzuca cel, jeœli ten nie wykona rzutu obronnego przeciw zioniêciom z modyfikatorem -2.
-20. poz. – Odrzuca cel, jeœli ten nie wykona rzutu obronnego przeciw zioniêciom z modyfikatorem -3.
+POTÊ¯NY STRZA£: Ka¿dy udany atak dystansowy, wykonany w przeci¹gu nastêpnych dwunastu sekund, ma szansê na odrzucenie celu, w zale¿noœci od poziomu ³ucznika:
+8. poziom: Odrzuca cel, jeœli ten nie wykona rzutu obronnego przeciw zioniêciom.
+12. poziom: Odrzuca cel, jeœli ten nie wykona rzutu obronnego przeciw zioniêciom z modyfikatorem -1.
+16. poziom: Odrzuca cel, jeœli ten nie wykona rzutu obronnego przeciw zioniêciom z modyfikatorem -2.
+20. poziom: Odrzuca cel, jeœli ten nie wykona rzutu obronnego przeciw zioniêciom z modyfikatorem -3.
 
-WYBUCHOWY STRZA£: Ka¿dy udany atak dystansowy, wykonany w przeci¹gu nastêpnych 12 sekund, powoduje eksplozjê wystrzelonego pocisku po trafieniu, zadaj¹c fizyczne obra¿enia znajduj¹cym siê w promieniu 5 metrów celom, w zale¿noœci od poziomu ³ucznika:
-8. poz. – 1k4 obra¿eñ pobliskim celom
-12. poz. – 1k4 +2 obra¿eñ pobliskim celom
-16. poz. – 1k4 +4 obra¿eñ pobliskim celom
-20. poz. – 1k4 +6 obra¿eñ pobliskim celom
+WYBUCHOWY STRZA£: Ka¿dy udany atak dystansowy, wykonany w przeci¹gu nastêpnych dwunastu sekund, powoduje eksplozjê wystrzelonego pocisku po trafieniu, zadaj¹c fizyczne obra¿enia znajduj¹cym siê w promieniu piêciu metrów celom, w zale¿noœci od poziomu ³ucznika:
+8. poziom: 1k4 obra¿eñ pobliskim celom
+12. poziom: 1k4 +2 obra¿eñ pobliskim celom
+16. poziom: 1k4 +4 obra¿eñ pobliskim celom
+20. poziom: 1k4 +6 obra¿eñ pobliskim celom
 Uwaga: Rani wrogów, sojuszników i niewinne stworzenia.
 
-STWORZENIE B£OGOS£AWIONEJ AMUNICJI: Tworzy przepe³nion¹ energi¹ duchow¹ strza³ê lub be³t, pob³ogos³awione przez bóstwo, które wyznaje ³ucznik. Pocisk przez 8 godzin i zawiera du¿o ³adunków.
-4. poz. – umagicznienie +1, +1 do trafienia i obra¿eñ, dodatkowe 1k6 obra¿eñ i spowolnienie przez 2 rundy, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci.
-8 poz. – umagicznienie +1, +2 do trafienia i obra¿eñ, dodatkowe 1k6 +2 obra¿eñ i unieruchomienie przez 2 rundy, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci.
-12. poz. – umagicznienie +2, +2 do trafienia i obra¿eñ, dodatkowe 1k6 +4 obra¿eñ i natychmiastowa œmieræ, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci.
-16. poz. – umagicznienie +3, +3 do trafienia i obra¿eñ, dodatkowe 1k6 +6 obra¿eñ i natychmiastowa œmieræ, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci z modyfikatorem -2.
-20. poz. – umagicznienie +3, +4 do trafienia i obra¿eñ, dodatkowe 1k6 +8 obra¿eñ i natychmiastowa œmieræ, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci z modyfikatorem -4.
+STWORZENIE B£OGOS£AWIONEJ AMUNICJI: Tworzy przepe³nion¹ energi¹ duchow¹ strza³ê lub be³t, pob³ogos³awione przez bóstwo, które wyznaje ³ucznik. Pocisk istnieje przez osiem godzin i zawiera wiele ³adunków. Iloœæ ³adunków wzrasta dwukrotnie na poziomach 8 i 16.
+4. poziom: umagicznienie +1, +1 do testów trafienia i obra¿eñ, dodatkowe 1k6 obra¿eñ i spowolnienie przez dwie rundy, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci.
+8. poziom: umagicznienie +1, +2 do testów trafienia i obra¿eñ, dodatkowe 1k6 +2 obra¿eñ i unieruchomienie przez dwie rundy, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci.
+12. poziom: umagicznienie +2, +2 do testów trafienia i obra¿eñ, dodatkowe 1k6 +4 obra¿eñ i natychmiastowa œmieræ, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci.
+16. poziom: umagicznienie +3, +3 do testów trafienia i obra¿eñ, dodatkowe 1k6 +6 obra¿eñ i natychmiastowa œmieræ, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci z modyfikatorem -2.
+20. poziom: umagicznienie +4, +4 do testów trafienia i obra¿eñ, dodatkowe 1k6 +8 obra¿eñ i natychmiastowa œmieræ, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci z modyfikatorem -4.
 
 Wady:
 - -1 do Kondycji.
-- Nie mo¿e nosiæ metalowej zbroi.
-- £ucznik mo¿e osi¹gn¹æ stopieñ Wyszkolony (1 punkt bieg³oœci) w broniach bia³ych.~
+- Nie mo¿e nosiæ ¿adnej metalowej zbroi.
+- £ucznik mo¿e osi¹gn¹æ stopieñ Wyszkolony (jeden punkt bieg³oœci) w broniach do walki wrêcz.~
 
-@1101 = ~Strza³a ta zosta³a pob³ogos³awiona przez bóstwo bêd¹ce patronem ³ucznika. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki, jak równie¿ spowodowaæ dodatkowe obra¿enia wszelkiego rodzaju nieumar³ym. Pochodz¹ce od bóstwa umagicznienie strza³y utrzymuje siê przez 8 godzin i pozwala ³ucznikowi na wypuszczenie dwudziestu strza³. Po tym strza³a traci swoj¹ fizyczn¹ postaæ.
+@1101 = ~Strza³a ta zosta³a pob³ogos³awiona przez bóstwo bêd¹ce patronem strzelaj¹cej osoby. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki, jak równie¿ spowodowaæ dodatkowe obra¿enia wszelkiego rodzaju nieumar³ym. Pochodz¹ce od bóstwa umagicznienie strza³y utrzymuje siê przez osiem godzin i pozwala strzelcowi na wykorzystanie okreœlonej iloœci ³adunków. Po tym strza³a traci swoj¹ fizyczn¹ postaæ.
 
 PARAMETRY:
 
 Specjalne:
- Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci lub zostan¹ spowolnieni na 2 rundy
+– Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci lub zostan¹ spowolnieni na dwie rundy
 
 Umagicznienie: +1
 TraK0: +1
 Obra¿enia: 1k6 +1, dodatkowe 1k6 obra¿eñ przeciw nieumar³ym
 Typ obra¿eñ: pocisk
 Wyrzutnia: ³uk
+Waga: 0
+Mo¿e u¿ywaæ tylko:
+ Paladyn
+ £owcy
+ Postaæ dobra~
 
-Waga: 0~
-
-@1102 = ~Strza³a ta zosta³a pob³ogos³awiona przez bóstwo bêd¹ce patronem ³ucznika. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki, jak równie¿ spowodowaæ dodatkowe obra¿enia wszelkiego rodzaju nieumar³ym. Pochodz¹ce od bóstwa umagicznienie strza³y utrzymuje siê przez 8 godzin i pozwala ³ucznikowi na wypuszczenie dwudziestu strza³. Po tym strza³a traci swoj¹ fizyczn¹ postaæ.
+@1102 = ~Strza³a ta zosta³a pob³ogos³awiona przez bóstwo bêd¹ce patronem strzelaj¹cej osoby. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki, jak równie¿ spowodowaæ dodatkowe obra¿enia wszelkiego rodzaju nieumar³ym. Pochodz¹ce od bóstwa umagicznienie strza³y utrzymuje siê przez osiem godzin i pozwala strzelcowi na wykorzystanie okreœlonej iloœci ³adunków. Po tym strza³a traci swoj¹ fizyczn¹ postaæ.
 
 PARAMETRY:
 
 Specjalne:
- Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci lub zostan¹ unieruchomieni na 2 rundy
+– Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci lub zostan¹ spowolnieni na dwie rundy
 
 Umagicznienie: +1
 TraK0: +2
 Obra¿enia: 1k6 +2, dodatkowe 1k6 +2 obra¿eñ przeciw nieumar³ym
 Typ obra¿eñ: pocisk
 Wyrzutnia: ³uk
+Waga: 0
+Mo¿e u¿ywaæ tylko:
+ Paladyn
+ £owcy
+ Postaæ dobra~
 
-Waga: 0~
 
-
-@1103 = ~Strza³a ta zosta³a pob³ogos³awiona przez bóstwo bêd¹ce patronem ³ucznika. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki. B³ogos³awieñstwo, jakim zosta³a obdarzona strza³a, sprawia, ¿e zadaje ona dodatkowe obra¿enia nieumar³ym, a nawet mo¿e spowodowaæ ich natychmiastowe zniszczenie. Pochodz¹ce od bóstwa umagicznienie strza³y utrzymuje siê przez 8 godzin i pozwala ³ucznikowi na wypuszczenie dwudziestu strza³. Po tym strza³a traci swoj¹ fizyczn¹ postaæ.
+@1103 = ~Strza³a ta zosta³a pob³ogos³awiona przez bóstwo bêd¹ce patronem strzelaj¹cej osoby. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki. B³ogos³awieñstwo, jakim zosta³a obdarzona strza³a, sprawia, ¿e zadaje ona dodatkowe obra¿enia nieumar³ym, a nawet mo¿e spowodowaæ ich natychmiastowe zniszczenie. Pochodz¹ce od bóstwa umagicznienie strza³y utrzymuje siê przez osiem godzin i pozwala strzelcowi na wykorzystanie okreœlonej iloœci ³adunków. Po tym strza³a traci swoj¹ fizyczn¹ postaæ.
 
 PARAMETRY:
 
 Specjalne:
- Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci lub zostan¹ zniszczeni
+– Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci lub zostan¹ zniszczeni
 
 Umagicznienie: +2
 TraK0: +2
 Obra¿enia: 1k6 +2, dodatkowe 1k6 +4 obra¿eñ przeciw nieumar³ym
 Typ obra¿eñ: pocisk
 Wyrzutnia: ³uk
+Waga: 0
+Mo¿e u¿ywaæ tylko:
+ Paladyn
+ £owcy
+ Postaæ dobra~
 
-Waga: 0~
-
-@1104 = ~Strza³a ta zosta³a pob³ogos³awiona przez bóstwo bêd¹ce patronem ³ucznika. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki. B³ogos³awieñstwo, jakim zosta³a obdarzona strza³a, sprawia, ¿e zadaje ona dodatkowe obra¿enia nieumar³ym, a nawet mo¿e spowodowaæ ich natychmiastowe zniszczenie. Pochodz¹ce od bóstwa umagicznienie strza³y utrzymuje siê przez 8 godzin i pozwala ³ucznikowi na wypuszczenie dwudziestu strza³. Po tym strza³a traci swoj¹ fizyczn¹ postaæ.
+@1104 = ~Strza³a ta zosta³a pob³ogos³awiona przez bóstwo bêd¹ce patronem strzelaj¹cej osoby. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki. B³ogos³awieñstwo, jakim zosta³a obdarzona strza³a, sprawia, ¿e zadaje ona dodatkowe obra¿enia nieumar³ym, a nawet mo¿e spowodowaæ ich natychmiastowe zniszczenie. Pochodz¹ce od bóstwa umagicznienie strza³y utrzymuje siê przez osiem godzin i pozwala strzelcowi na wykorzystanie okreœlonej iloœci ³adunków. Po tym strza³a traci swoj¹ fizyczn¹ postaæ.
 
 PARAMETRY:
 
 Specjalne:
- Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci z modyfikatorem -2 lub zostan¹ zniszczeni
+– Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci z modyfikatorem -2 lub zostan¹ zniszczeni
 
 Umagicznienie: +3
 TraK0: +3
 Obra¿enia: 1k6 +3, dodatkowe 1k6 +6 obra¿eñ przeciw nieumar³ym
 Typ obra¿eñ: pocisk
 Wyrzutnia: ³uk
+Waga: 0
+Mo¿e u¿ywaæ tylko:
+ Paladyn
+ £owcy
+ Postaæ dobra~
 
-Waga: 0~
-
-@1105 = ~Strza³a ta zosta³a pob³ogos³awiona przez bóstwo bêd¹ce patronem ³ucznika. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki. B³ogos³awieñstwo, jakim zosta³a obdarzona strza³a, sprawia, ¿e zadaje ona dodatkowe obra¿enia nieumar³ym, a nawet mo¿e spowodowaæ ich natychmiastowe zniszczenie. Pochodz¹ce od bóstwa umagicznienie strza³y utrzymuje siê przez 8 godzin i pozwala ³ucznikowi na wypuszczenie dwudziestu strza³. Po tym strza³a traci swoj¹ fizyczn¹ postaæ.
+@1105 = ~Strza³a ta zosta³a pob³ogos³awiona przez bóstwo bêd¹ce patronem strzelaj¹cej osoby. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki. B³ogos³awieñstwo, jakim zosta³a obdarzona strza³a, sprawia, ¿e zadaje ona dodatkowe obra¿enia nieumar³ym, a nawet mo¿e spowodowaæ ich natychmiastowe zniszczenie. Pochodz¹ce od bóstwa umagicznienie strza³y utrzymuje siê przez osiem godzin i pozwala strzelcowi na wykorzystanie okreœlonej iloœci ³adunków. Po tym strza³a traci swoj¹ fizyczn¹ postaæ.
 
 PARAMETRY:
 
 Specjalne:
- Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci z modyfikatorem -4 lub zostan¹ zniszczeni
+– Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci z modyfikatorem -4 lub zostan¹ zniszczeni
 
 Umagicznienie: +4
 TraK0: +4
 Obra¿enia: 1k6 +4, dodatkowe 1k6 +8 obra¿eñ przeciw nieumar³ym
 Typ obra¿eñ: pocisk
 Wyrzutnia: ³uk
+Waga: 0
+Mo¿e u¿ywaæ tylko:
+ Paladyn
+ £owcy
+ Postaæ dobra~
 
-Waga: 0~
-
-@1106 = ~Be³t ten zosta³ pob³ogos³awiony przez bóstwo bêd¹ce patronem ³ucznika. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki, jak równie¿ spowodowaæ dodatkowe obra¿enia wszelkiego rodzaju nieumar³ym. Pochodz¹ce od bóstwa umagicznienie be³tu utrzymuje siê przez 8 godzin i pozwala ³ucznikowi na wypuszczenie dwudziestu be³tów. Po tym be³t traci swoj¹ fizyczn¹ postaæ.
+@1106 = ~Be³t ten zosta³ pob³ogos³awiony przez bóstwo bêd¹ce patronem strzelaj¹cej osoby. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki, jak równie¿ spowodowaæ dodatkowe obra¿enia wszelkiego rodzaju nieumar³ym. Pochodz¹ce od bóstwa umagicznienie be³tu utrzymuje siê przez osiem godzin i pozwala strzelcowi na wykorzystanie okreœlonej iloœci ³adunków. Po tym be³t traci swoj¹ fizyczn¹ postaæ.
 
 PARAMETRY:
 
 Specjalne:
- Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci lub zostan¹ spowolnieni na 2 rundy
+– Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci lub zostan¹ spowolnieni na dwie rundy
 
 Umagicznienie: +1
 TraK0: +1
 Obra¿enia: 1k8 +1, dodatkowe 1k6 obra¿eñ przeciw nieumar³ym
 Typ obra¿eñ: pocisk
 Wyrzutnia: kusza
+Waga: 0
+Mo¿e u¿ywaæ tylko:
+ Paladyn
+ £owcy
+ Postaæ dobra~
 
-Waga: 0~
-
-@1107 = ~Be³t ten zosta³ pob³ogos³awiony przez bóstwo bêd¹ce patronem ³ucznika. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki, jak równie¿ spowodowaæ dodatkowe obra¿enia wszelkiego rodzaju nieumar³ym. Pochodz¹ce od bóstwa umagicznienie be³tu utrzymuje siê przez 8 godzin i pozwala ³ucznikowi na wypuszczenie dwudziestu be³tów. Po tym be³t traci swoj¹ fizyczn¹ postaæ.
+@1107 = ~Be³t ten zosta³ pob³ogos³awiony przez bóstwo bêd¹ce patronem strzelaj¹cej osoby. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki, jak równie¿ spowodowaæ dodatkowe obra¿enia wszelkiego rodzaju nieumar³ym. Pochodz¹ce od bóstwa umagicznienie be³tu utrzymuje siê przez osiem godzin i pozwala strzelcowi na wykorzystanie okreœlonej iloœci ³adunków. Po tym be³t traci swoj¹ fizyczn¹ postaæ.
 
 PARAMETRY:
 
 Specjalne:
- Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci lub zostan¹ unieruchomieni na 2 rundy
+– Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci lub zostan¹ unieruchomieni na dwie rundy
 
 Umagicznienie: +1
 TraK0: +2
 Obra¿enia: 1k8 +2, dodatkowe 1k6 +2 obra¿eñ przeciw nieumar³ym
 Typ obra¿eñ: pocisk
 Wyrzutnia: kusza
+Waga: 0
+Mo¿e u¿ywaæ tylko:
+ Paladyn
+ £owcy
+ Postaæ dobra~
 
-Waga: 0~
-
-@1108 = ~Be³t ten zosta³ pob³ogos³awiony przez bóstwo bêd¹ce patronem ³ucznika. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki. B³ogos³awieñstwo, jakim zosta³ obdarzony be³t, sprawia, ¿e zadaje on dodatkowe obra¿enia nieumar³ym, a nawet mo¿e spowodowaæ ich natychmiastowe zniszczenie. Pochodz¹ce od bóstwa umagicznienie be³tu utrzymuje siê przez 8 godzin i pozwala ³ucznikowi na wypuszczenie dwudziestu be³tów. Po tym be³t traci swoj¹ fizyczn¹ postaæ.
+@1108 = ~Be³t ten zosta³ pob³ogos³awiony przez bóstwo bêd¹ce patronem strzelaj¹cej osoby. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki. B³ogos³awieñstwo, jakim zosta³ obdarzony be³t, sprawia, ¿e zadaje on dodatkowe obra¿enia nieumar³ym, a nawet mo¿e spowodowaæ ich natychmiastowe zniszczenie. Pochodz¹ce od bóstwa umagicznienie be³tu utrzymuje siê przez osiem godzin i pozwala strzelcowi na wykorzystanie okreœlonej iloœci ³adunków. Po tym be³t traci swoj¹ fizyczn¹ postaæ.
 
 PARAMETRY:
 
 Specjalne:
- Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci lub zostan¹ zniszczeni
+– Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci lub zostan¹ zniszczeni
 
 Umagicznienie: +2
 TraK0: +2
 Obra¿enia: 1k8 +2, dodatkowe 1k6 +4 obra¿eñ przeciw nieumar³ym
 Typ obra¿eñ: pocisk
 Wyrzutnia: kusza
+Waga: 0
+Mo¿e u¿ywaæ tylko:
+ Paladyn
+ £owcy
+ Postaæ dobra~
 
-Waga: 0~
-
-@1109 = ~Be³t ten zosta³ pob³ogos³awiony przez bóstwo bêd¹ce patronem ³ucznika. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki. B³ogos³awieñstwo, jakim zosta³ obdarzony be³t, sprawia, ¿e zadaje on dodatkowe obra¿enia nieumar³ym, a nawet mo¿e spowodowaæ ich natychmiastowe zniszczenie. Pochodz¹ce od bóstwa umagicznienie be³tu utrzymuje siê przez 8 godzin i pozwala ³ucznikowi na wypuszczenie dwudziestu be³tów. Po tym be³t traci swoj¹ fizyczn¹ postaæ.
+@1109 = ~Be³t ten zosta³ pob³ogos³awiony przez bóstwo bêd¹ce patronem strzelaj¹cej osoby. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki. B³ogos³awieñstwo, jakim zosta³ obdarzony be³t, sprawia, ¿e zadaje on dodatkowe obra¿enia nieumar³ym, a nawet mo¿e spowodowaæ ich natychmiastowe zniszczenie. Pochodz¹ce od bóstwa umagicznienie be³tu utrzymuje siê przez osiem godzin i pozwala strzelcowi na wykorzystanie okreœlonej iloœci ³adunków. Po tym be³t traci swoj¹ fizyczn¹ postaæ.
 
 PARAMETRY:
 
 Specjalne:
- Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci z modyfikatorem -2 lub zostan¹ zniszczeni
+– Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci z modyfikatorem -2 lub zostan¹ zniszczeni
 
 Umagicznienie: +3
 TraK0: +3
 Obra¿enia: 1k8 +3, dodatkowe 1k6 +6 obra¿eñ przeciw nieumar³ym
 Typ obra¿eñ: pocisk
 Wyrzutnia: kusza
+Waga: 0
+Mo¿e u¿ywaæ tylko:
+ Paladyn
+ £owcy
+ Postaæ dobra~
 
-Waga: 0~
-
-@1110 = ~Be³t ten zosta³ pob³ogos³awiony przez bóstwo bêd¹ce patronem ³ucznika. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki. B³ogos³awieñstwo, jakim zosta³ obdarzony be³t, sprawia, ¿e zadaje on dodatkowe obra¿enia nieumar³ym, a nawet mo¿e spowodowaæ ich natychmiastowe zniszczenie. Pochodz¹ce od bóstwa umagicznienie be³tu utrzymuje siê przez 8 godzin i pozwala ³ucznikowi na wypuszczenie dwudziestu be³tów. Po tym be³t traci swoj¹ fizyczn¹ postaæ.
+@1110 = ~Be³t ten zosta³ pob³ogos³awiony przez bóstwo bêd¹ce patronem strzelaj¹cej osoby. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki. B³ogos³awieñstwo, jakim zosta³ obdarzony be³t, sprawia, ¿e zadaje on dodatkowe obra¿enia nieumar³ym, a nawet mo¿e spowodowaæ ich natychmiastowe zniszczenie. Pochodz¹ce od bóstwa umagicznienie be³tu utrzymuje siê przez osiem godzin i pozwala strzelcowi na wykorzystanie okreœlonej iloœci ³adunków. Po tym be³t traci swoj¹ fizyczn¹ postaæ.
 
 PARAMETRY:
 
 Specjalne:
- Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci z modyfikatorem -4 lub zostan¹ zniszczeni
+– Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci z modyfikatorem -4 lub zostan¹ zniszczeni
 
 Umagicznienie: +4
 TraK0: +4
 Obra¿enia: 1k8 +4, dodatkowe 1k6 +8 obra¿eñ przeciw nieumar³ym
 Typ obra¿eñ: pocisk
 Wyrzutnia: kusza
-
-Waga: 0~
+Waga: 0
+Mo¿e u¿ywaæ tylko:
+ Paladyn
+ £owcy
+ Postaæ dobra~
 
 @1111 = ~Nieomylny strza³
-Wysokopoziomowi ³ucznicy posiadaj¹ pe³n¹ kontrolê nad wybranymi przez siebie broniami dystansowymi, co pozwala im celowaæ w istotne organy przeciwnika z przera¿aj¹c¹ precyzj¹ i szybkoœci¹. Po aktywowaniu tej zdolnoœci ³ucznik przyjmuje odpowiedni¹ postawê i zaczyna wystrzeliwaæ strza³y jedna po drugiej. Przez nastêpne 12 rund zdolnoœæ ta ustala iloœæ ataków ³ucznika na 10 i sprawia, ¿e ka¿dy jego strza³ jest trafieniem krytycznym. Z racji tego, ¿e technika ta wymaga najwy¿szych umiejêtnoœci i koncentracji, ³ucznik jest przykuty do miejsca przez nastêpne 2 rundy. Zdolnoœci tej nie mo¿na u¿yæ razem z innymi zdolnoœciami strzeleckimi.
+
+Wysokopoziomowi snajperzy posiadaj¹ pe³n¹ kontrolê nad wybranymi przez siebie broniami dystansowymi, co pozwala im celowaæ w istotne organy przeciwnika z przera¿aj¹c¹ precyzj¹ i szybkoœci¹. Po aktywowaniu tej zdolnoœci snajper przyjmuje odpowiedni¹ postawê i zaczyna wystrzeliwaæ strza³y jedna po drugiej. Przez nastêpne dwanaœcie rund zdolnoœæ ta ustala iloœæ ataków strzelca na dziesiêæ i sprawia, ¿e ka¿dy jego strza³ jest trafieniem krytycznym. Z racji tego, ¿e technika ta wymaga najwy¿szych umiejêtnoœci i koncentracji, snajper jest przykuty do miejsca przez nastêpne dwie rundy. Zdolnoœci tej nie mo¿na u¿yæ razem z innymi zdolnoœciami strzeleckimi.
 
 Wymagania: Uderzenie krytyczne~
 
 @1112 = ~Zastawianie pu³apek z pociskami
-Zdolnoœæ ta pozwala ³ucznikowi na zastawienie potê¿nej sprê¿ynowej pu³apki z pociskami w wybranym przez siebie miejscu, pod warunkiem, ¿e w zasiêgu wzroku nie ma wrogich istot. Pu³apka zadaje istocie, która j¹ uruchomi, 3k10 obra¿eñ od pocisków oraz 1k10 obra¿eñ od ró¿nego rodzaju ¿ywio³ów.~
+
+Zdolnoœæ ta pozwala snajperowi na zastawienie potê¿nej sprê¿ynowej pu³apki z pociskami w wybranym przez siebie miejscu, pod warunkiem, ¿e w zasiêgu wzroku nie ma wrogich istot. Pu³apka zadaje istocie, która j¹ uruchomi, 3k10 obra¿eñ od pocisków oraz 1k10 obra¿eñ od ró¿nego rodzaju ¿ywio³ów.~
 
 @1113 = ~Te zaklête strza³y przewy¿szaj¹ swym wykonaniem wiele innych strza³, które w ¿yciu widzia³eœ. 
 
@@ -234,8 +274,11 @@ TraK0: +3
 Obra¿enia: 1k6 
 Typ obra¿eñ: pocisk (k³ute)
 Wyrzutnia: ³uk
-
-Waga: 0~~Te zaklête strza³y przewy¿szaj¹ swym wykonaniem wiele innych strza³, które w ¿yciu widzia³aœ. 
+Waga: 0
+Nie mo¿e u¿ywaæ:
+ Kap³an
+ Druid
+ Mag~~Te zaklête strza³y przewy¿szaj¹ swym wykonaniem wiele innych strza³, które w ¿yciu widzia³aœ. 
 
 PARAMETRY:
 
@@ -243,8 +286,11 @@ TraK0: +3
 Obra¿enia: 1k6
 Typ obra¿eñ: pocisk (k³ute)
 Wyrzutnia: ³uk
-
-Waga: 0~
+Waga: 0
+Nie mo¿e u¿ywaæ:
+ Kap³an
+ Druid
+ Mag~
 
 @1114 = ~Te zaklête be³ty przewy¿szaj¹ swym wykonaniem wiele innych be³tów, które w ¿yciu widzia³eœ.
 
@@ -254,8 +300,11 @@ TraK0: +3
 Obra¿enia: 1k8
 Typ obra¿eñ: pocisk (k³ute)
 Wyrzutnia: kusza
-
-Waga: 0~~Te zaklête be³ty przewy¿szaj¹ swym wykonaniem wiele innych be³tów, które w ¿yciu widzia³aœ.
+Waga: 0
+Nie mo¿e u¿ywaæ:
+ Kap³an
+ Druid
+ Mag~~Te zaklête be³ty przewy¿szaj¹ swym wykonaniem wiele innych be³tów, które w ¿yciu widzia³aœ.
 
 PARAMETRY:
 
@@ -263,8 +312,11 @@ TraK0: +3
 Obra¿enia: 1k8
 Typ obra¿eñ: pocisk (k³ute)
 Wyrzutnia: kusza
-
-Waga: 0~
+Waga: 0
+Nie mo¿e u¿ywaæ:
+ Kap³an
+ Druid
+ Mag~
 
 @1115 = ~Te zaklête strza³y przewy¿szaj¹ swym wykonaniem wiele innych strza³, które w ¿yciu widzia³eœ.  
 
@@ -274,8 +326,11 @@ TraK0: +4
 Obra¿enia: 1k6
 Typ obra¿eñ: pocisk (k³ute)
 Wyrzutnia: ³uk
-
-Waga: 0~~Te zaklête strza³y przewy¿szaj¹ swym wykonaniem wiele innych strza³, które w ¿yciu widzia³aœ.  
+Waga: 0
+Nie mo¿e u¿ywaæ:
+ Kap³an
+ Druid
+ Mag~~Te zaklête strza³y przewy¿szaj¹ swym wykonaniem wiele innych strza³, które w ¿yciu widzia³aœ.  
 
 PARAMETRY:
 
@@ -283,8 +338,11 @@ TraK0: +4
 Obra¿enia: 1k6
 Typ obra¿eñ: pocisk (k³ute)
 Wyrzutnia: ³uk
-
-Waga: 0~
+Waga: 0
+Nie mo¿e u¿ywaæ:
+ Kap³an
+ Druid
+ Mag~
 
 @1116 = ~Te zaklête be³ty przewy¿szaj¹ swym wykonaniem wiele innych be³tów, które w ¿yciu widzia³eœ.  
 
@@ -294,8 +352,11 @@ TraK0: +4
 Obra¿enia: 1k8
 Typ obra¿eñ: pocisk (k³ute)
 Wyrzutnia: kusza
-
-Waga: 0~~Te zaklête be³ty przewy¿szaj¹ swym wykonaniem wiele innych be³tów, które w ¿yciu widzia³aœ.  
+Waga: 0
+Nie mo¿e u¿ywaæ:
+ Kap³an
+ Druid
+ Mag~~Te zaklête be³ty przewy¿szaj¹ swym wykonaniem wiele innych be³tów, które w ¿yciu widzia³aœ.  
 
 PARAMETRY:
 
@@ -303,8 +364,11 @@ TraK0: +4
 Obra¿enia: 1k8
 Typ obra¿eñ: pocisk (k³ute)
 Wyrzutnia: kusza
-
-Waga: 0~
+Waga: 0
+Nie mo¿e u¿ywaæ:
+ Kap³an
+ Druid
+ Mag~
 
 @1117 = ~Elfowie z Evereski znani s¹ ze swego izolacjonizmu w równym stopniu, co z umiejêtnoœci i odwagi w walce. Jednym z najbardziej znanych ludziom elfich wojowników by³ niebywale uzdolniony ³ucznik o imieniu Bariah Goldendown. Chocia¿ elfy nie potwierdzaj¹ ani nie zaprzeczaj¹ legendom, niektóre z opowiadanych przez ludzi historii g³osz¹, ¿e maj¹cy iœcie sokoli wzrok Bariah nigdy nie spud³owa³ w czasie bitwy. £uk, którego u¿ywa³, zosta³ wykonany przez jego matkê i otrzyma³ nazwê, która nie by³a znana nikomu, poza jego rodzin¹. Ludzie, którzy poczuli na w³asnej skórze potêgê tej broni, nazwali j¹ Siêgaj¹cym s³oñca, wierz¹c, ¿e wypuszczane przez elfa strza³y mog³y siêgn¹æ niebios. Podczas bitwy, któr¹ elfowie z Evereski do dziœ wspominaj¹ z gorycz¹, gryf, na którym lata³ Bariah, zosta³ zabity podczas lotu przez zaklêcia niewidzialnych czarodziejów, którzy przygotowali zasadzkê na patrol elfów. Mimo i¿ prze¿y³ tylko jeden mag, uda³o mu siê zabraæ ze sob¹ Siêgaj¹cego s³oñca.
 
@@ -351,3 +415,217 @@ Nie mo¿e u¿ywaæ:
  Bard~
 
 @1119 = ~~
+
+@1120 = ~Pocisk ten zosta³ pob³ogos³awiony przez bóstwo bêd¹ce patronem strzelaj¹cej osoby. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki, jak równie¿ spowodowaæ dodatkowe obra¿enia wszelkiego rodzaju nieumar³ym. Pochodz¹ce od bóstwa umagicznienie pocisku utrzymuje siê przez osiem godzin i pozwala strzelcowi na wykorzystanie okreœlonej iloœci ³adunków. Po tym pocisk traci swoj¹ fizyczn¹ postaæ.
+
+PARAMETRY:
+
+Specjalne:
+– Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci lub zostan¹ spowolnieni na dwie rundy
+
+Umagicznienie: +1
+TraK0: +1
+Obra¿enia: 1k4 +2, dodatkowe 1k6 obra¿eñ przeciw nieumar³ym
+Typ obra¿eñ: pocisk
+Wyrzutnia: proca
+Waga: 0
+Mo¿e u¿ywaæ tylko:
+ Paladyn
+ £owcy
+ Kap³an
+ Postaæ dobra~
+
+@1121 = ~Pocisk ten zosta³ pob³ogos³awiony przez bóstwo bêd¹ce patronem strzelaj¹cej osoby. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki, jak równie¿ spowodowaæ dodatkowe obra¿enia wszelkiego rodzaju nieumar³ym. Pochodz¹ce od bóstwa umagicznienie pocisku utrzymuje siê przez osiem godzin i pozwala strzelcowi na wykorzystanie okreœlonej iloœci ³adunków. Po tym pocisk traci swoj¹ fizyczn¹ postaæ.
+
+PARAMETRY:
+
+Specjalne:
+– Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci lub zostan¹ spowolnieni na dwie rundy
+
+Umagicznienie: +1
+TraK0: +2
+Obra¿enia: 1k4 +3, dodatkowe 1k6 +2 obra¿eñ przeciw nieumar³ym
+Typ obra¿eñ: pocisk
+Wyrzutnia: proca
+Waga: 0
+Mo¿e u¿ywaæ tylko:
+ Paladyn
+ £owcy
+ Kap³an
+ Postaæ dobra~
+
+@1122 = ~Pocisk ten zosta³ pob³ogos³awiony przez bóstwo bêd¹ce patronem strzelaj¹cej osoby. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki. B³ogos³awieñstwo, jakim zosta³ obdarzony pocisk, sprawia, ¿e zadaje on dodatkowe obra¿enia nieumar³ym, a nawet mo¿e spowodowaæ ich natychmiastowe zniszczenie. Pochodz¹ce od bóstwa umagicznienie pocisku utrzymuje siê przez osiem godzin i pozwala strzelcowi na wykorzystanie okreœlonej iloœci ³adunków. Po tym pocisk traci swoj¹ fizyczn¹ postaæ.
+
+PARAMETRY:
+
+Specjalne:
+– Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci lub zostan¹ zniszczeni
+
+Umagicznienie: +2
+TraK0: +2
+Obra¿enia: 1k4 +3, dodatkowe 1k6 +4 obra¿eñ przeciw nieumar³ym
+Typ obra¿eñ: pocisk
+Wyrzutnia: proca
+Waga: 0
+Mo¿e u¿ywaæ tylko:
+ Paladyn
+ £owcy
+ Kap³an
+ Postaæ dobra~
+
+@1123 = ~Pocisk ten zosta³ pob³ogos³awiony przez bóstwo bêd¹ce patronem strzelaj¹cej osoby. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki. B³ogos³awieñstwo, jakim zosta³ obdarzony pocisk, sprawia, ¿e zadaje on dodatkowe obra¿enia nieumar³ym, a nawet mo¿e spowodowaæ ich natychmiastowe zniszczenie. Pochodz¹ce od bóstwa umagicznienie pocisku utrzymuje siê przez osiem godzin i pozwala strzelcowi na wykorzystanie okreœlonej iloœci ³adunków. Po tym pocisk traci swoj¹ fizyczn¹ postaæ.
+
+PARAMETRY:
+
+Specjalne:
+– Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci z modyfikatorem -2 lub zostan¹ zniszczeni
+
+Umagicznienie: +3
+TraK0: +3
+Obra¿enia: 1k4 +4, dodatkowe 1k6 +6 obra¿eñ przeciw nieumar³ym
+Typ obra¿eñ: pocisk
+Wyrzutnia: proca
+Waga: 0
+Mo¿e u¿ywaæ tylko:
+ Paladyn
+ £owcy
+ Kap³an
+ Postaæ dobra~
+
+@1124 = ~Pocisk ten zosta³ pob³ogos³awiony przez bóstwo bêd¹ce patronem strzelaj¹cej osoby. Potrafi przeszyæ nawet istoty, które s¹ normalnie niewra¿liwe na fizyczne ataki. B³ogos³awieñstwo, jakim zosta³ obdarzony pocisk, sprawia, ¿e zadaje on dodatkowe obra¿enia nieumar³ym, a nawet mo¿e spowodowaæ ich natychmiastowe zniszczenie. Pochodz¹ce od bóstwa umagicznienie pocisku utrzymuje siê przez osiem godzin i pozwala strzelcowi na wykorzystanie okreœlonej iloœci ³adunków. Po tym pocisk traci swoj¹ fizyczn¹ postaæ.
+
+PARAMETRY:
+
+Specjalne:
+– Nieumarli musz¹ wykonaæ udany rzut obronny przeciw œmierci z modyfikatorem -4 lub zostan¹ zniszczeni
+
+Umagicznienie: +4
+TraK0: +4
+Obra¿enia: 1k4 +5, dodatkowe 1k6 +8 obra¿eñ przeciw nieumar³ym
+Typ obra¿eñ: pocisk
+Wyrzutnia: proca
+Waga: 0
+Mo¿e u¿ywaæ tylko:
+ Paladyn
+ £owcy
+ Kap³an
+ Postaæ dobra~
+
+
+@1200 = ~SNAJPER: Jest uosobieniem mistrzowskiego pos³ugiwania siê ³ukiem. To znakomity strzelec, umiej¹cy oddaæ strza³ niemal z ka¿dej pozycji, niezale¿nie od stopnia trudnoœci. Aby zyskaæ takie umiejêtnoœci, snajper musia³ poœwiêciæ czêœæ swoich punktów bieg³oœci za pos³ugiwanie siê broni¹ rêczn¹ i zbroj¹.
+
+Zalety:
+- +1 do trafienia i obra¿eñ ka¿d¹ broni¹ strzeleck¹, a tak¿e premia +1 do KP przeciw pociskom, za ka¿de szeœæ poziomów doœwiadczenia.
+- +5% szans na trafienie krytyczne na poziomach 9, 13 i 18.
+- Mo¿e osi¹gn¹æ Wielkie mistrzostwo (piêæ punktów bieg³oœci) w d³ugich ³ukach, krótkich ³ukach, kuszach, strza³kach i procach.
+- Co cztery poziomy doœwiadczenia zyskuje zdolnoœæ Opl¹tuj¹cego strza³u, do wykorzystania raz dziennie. Zdolnoœæ ta nie mo¿e zostaæ u¿yta w po³¹czeniu z innymi umiejêtnoœciami strzeleckimi.
+- Co cztery poziomy doœwiadczenia, pocz¹wszy od 8. poziomu, zyskuje zdolnoœæ Potê¿nego strza³u, do wykorzystania raz dziennie. Zdolnoœæ ta nie mo¿e zostaæ u¿yta w po³¹czeniu z innymi umiejêtnoœciami strzeleckimi.
+- Co cztery poziomy doœwiadczenia, pocz¹wszy od 8. poziomu, zyskuje zdolnoœæ Wybuchowego strza³u, do wykorzystania raz dziennie. Zdolnoœæ ta nie mo¿e zostaæ u¿yta w po³¹czeniu z innymi umiejêtnoœciami strzeleckimi.
+
+OPL¥TUJ¥CY STRZA£: Ka¿dy udany atak dystansowy, wykonany w przeci¹gu nastêpnych dwunastu sekund, spowoduje opl¹tanie celu, zgodnie z poziomem snajpera:
+4. poziom: Cel jest opl¹tany przez trzy rundy, jeœli nie wykona rzutu obronnego przeciw czarom.
+8. poziom: Cel jest opl¹tany przez trzy rundy, jeœli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -1.
+12. poziom: Cel jest opl¹tany przez cztery rundy, jeœli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -1.
+16. poziom: Cel jest opl¹tany przez cztery rundy, jeœli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -2.
+20. poziom: Cel jest opl¹tany przez piêæ rund, jeœli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -2.
+
+POTÊ¯NY STRZA£: Ka¿dy udany atak dystansowy, wykonany w przeci¹gu nastêpnych dwunastu sekund, ma szansê na odrzucenie celu, w zale¿noœci od poziomu snajpera:
+8. poziom: Odrzuca cel, jeœli ten nie wykona rzutu obronnego przeciw zioniêciom.
+12. poziom: Odrzuca cel, jeœli ten nie wykona rzutu obronnego przeciw zioniêciom z modyfikatorem -1.
+16. poziom: Odrzuca cel, jeœli ten nie wykona rzutu obronnego przeciw zioniêciom z modyfikatorem -2.
+20. poziom: Odrzuca cel, jeœli ten nie wykona rzutu obronnego przeciw zioniêciom z modyfikatorem -3.
+
+WYBUCHOWY STRZA£: Ka¿dy udany atak dystansowy, wykonany w przeci¹gu nastêpnych dwunastu sekund, powoduje eksplozjê wystrzelonego pocisku po trafieniu, zadaj¹c fizyczne obra¿enia znajduj¹cym siê w promieniu piêciu metrów celom, w zale¿noœci od poziomu snajpera:
+8. poziom: 1k4 obra¿eñ pobliskim celom
+12. poziom: 1k4 +2 obra¿eñ pobliskim celom
+16. poziom: 1k4 +4 obra¿eñ pobliskim celom
+20. poziom: 1k4 +6 obra¿eñ pobliskim celom
+Uwaga: Rani wrogów, sojuszników i niewinne stworzenia.
+
+Wady:
+- Nie mo¿e nosiæ ¿adnej metalowej zbroi.
+- Snajper mo¿e osi¹gn¹æ stopieñ Specjalista (dwa punkty bieg³oœci) w broniach do walki wrêcz.
+- Snajper mo¿e przeznaczyæ tylko jeden punkt bieg³oœci na dowolny styl walki.~
+
+@1201 = ~snajper~
+@1202 = ~Snajper~
+
+
+@1300 = ~RYCERZ £UCZNIK: Jest uosobieniem mistrzowskiego pos³ugiwania siê ³ukiem. To znakomity strzelec, umiej¹cy oddaæ strza³ niemal z ka¿dej pozycji, niezale¿nie od stopnia trudnoœci. Aby zyskaæ takie umiejêtnoœci, rycerz ³ucznik musia³ poœwiêciæ czêœæ swoich punktów bieg³oœci za pos³ugiwanie siê broni¹ rêczn¹ i zbroj¹.
+
+Zalety:
+- +1 do trafienia i obra¿eñ ka¿d¹ broni¹ strzeleck¹, a tak¿e premia +1 do KP przeciw pociskom, za ka¿de szeœæ poziomów doœwiadczenia.
+- +5% szans na trafienie krytyczne na poziomach 9, 13 i 18.
+- Mo¿e osi¹gn¹æ Wielkie mistrzostwo (piêæ punktów bieg³oœci) w d³ugich ³ukach, krótkich ³ukach, kuszach i procach.
+- Co cztery poziomy doœwiadczenia zyskuje zdolnoœæ Opl¹tuj¹cego strza³u, do wykorzystania raz dziennie. Zdolnoœæ ta nie mo¿e zostaæ u¿yta w po³¹czeniu z innymi umiejêtnoœciami strzeleckimi.
+- Co cztery poziomy doœwiadczenia, pocz¹wszy od 8. poziomu, zyskuje zdolnoœæ Potê¿nego strza³u, do wykorzystania raz dziennie. Zdolnoœæ ta nie mo¿e zostaæ u¿yta w po³¹czeniu z innymi umiejêtnoœciami strzeleckimi.
+- Co osiem poziomów doœwiadczenia, pocz¹wszy od 4. poziomu, zyskuje zdolnoœæ Stworzenia b³ogos³awionej amunicji, do wykorzystania raz dziennie.
+
+OPL¥TUJ¥CY STRZA£: Ka¿dy udany atak dystansowy, wykonany w przeci¹gu nastêpnych dwunastu sekund, spowoduje opl¹tanie celu, zgodnie z poziomem rycerza ³ucznika:
+4. poziom: Cel jest opl¹tany przez trzy rundy, jeœli nie wykona rzutu obronnego przeciw czarom.
+8. poziom: Cel jest opl¹tany przez trzy rundy, jeœli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -1.
+12. poziom: Cel jest opl¹tany przez cztery rundy, jeœli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -1.
+16. poziom: Cel jest opl¹tany przez cztery rundy, jeœli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -2.
+20. poziom: Cel jest opl¹tany przez piêæ rund, jeœli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -2.
+
+POTÊ¯NY STRZA£: Ka¿dy udany atak dystansowy, wykonany w przeci¹gu nastêpnych dwunastu sekund, ma szansê na odrzucenie celu, w zale¿noœci od poziomu rycerza ³ucznika:
+8. poziom: Odrzuca cel, jeœli ten nie wykona rzutu obronnego przeciw zioniêciom.
+12. poziom: Odrzuca cel, jeœli ten nie wykona rzutu obronnego przeciw zioniêciom z modyfikatorem -1.
+16. poziom: Odrzuca cel, jeœli ten nie wykona rzutu obronnego przeciw zioniêciom z modyfikatorem -2.
+20. poziom: Odrzuca cel, jeœli ten nie wykona rzutu obronnego przeciw zioniêciom z modyfikatorem -3.
+
+STWORZENIE B£OGOS£AWIONEJ AMUNICJI: Tworzy przepe³nion¹ energi¹ duchow¹ strza³ê lub be³t, pob³ogos³awione przez bóstwo, które wyznaje rycerz ³ucznik. Pocisk istnieje przez osiem godzin i zawiera wiele ³adunków. Iloœæ ³adunków wzrasta dwukrotnie na poziomach 8 i 16.
+4. poziom: umagicznienie +1, +1 do testów trafienia i obra¿eñ, dodatkowe 1k6 obra¿eñ i spowolnienie przez dwie rundy, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci.
+8. poziom: umagicznienie +1, +2 do testów trafienia i obra¿eñ, dodatkowe 1k6 +2 obra¿eñ i unieruchomienie przez dwie rundy, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci.
+12. poziom: umagicznienie +2, +2 do testów trafienia i obra¿eñ, dodatkowe 1k6 +4 obra¿eñ i natychmiastowa œmieræ, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci.
+16. poziom: umagicznienie +3, +3 do testów trafienia i obra¿eñ, dodatkowe 1k6 +6 obra¿eñ i natychmiastowa œmieræ, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci z modyfikatorem -2.
+20. poziom: umagicznienie +4, +4 do testów trafienia i obra¿eñ, dodatkowe 1k6 +8 obra¿eñ i natychmiastowa œmieræ, w przypadku nieumar³ego, jeœli ten nie wykona rzutu obronnego przeciw œmierci z modyfikatorem -4.
+
+Wady:
+- Nie mo¿e nosiæ ¿adnej metalowej zbroi.
+- Rycerz ³ucznik mo¿e osi¹gn¹æ stopieñ Wyszkolony (jeden punkt bieg³oœci) w broniach do walki wrêcz.
+- Rycerz ³ucznik mo¿e przeznaczyæ tylko jeden punkt bieg³oœci na dowolny styl walki.~
+
+@1301 = ~rycerz ³ucznik~
+@1302 = ~Rycerz ³ucznik~
+@1303 = ~upad³y rycerz ³ucznik~
+@1304 = ~Upad³y rycerz ³ucznik~
+@1305 = ~Stracona klasa: Rycerz ³ucznik~
+
+
+@1400 = ~STRZELEC WYBOROWY: Jest uosobieniem mistrzowskiego pos³ugiwania siê ³ukiem. To znakomity strzelec, umiej¹cy oddaæ strza³ niemal z ka¿dej pozycji, niezale¿nie od stopnia trudnoœci. Aby zyskaæ takie umiejêtnoœci, strzelec wyborowy musia³ poœwiêciæ czêœæ swoich punktów bieg³oœci za pos³ugiwanie siê broni¹ rêczn¹ i zbroj¹.
+
+Zalety:
+- +1 do trafienia i obra¿eñ ka¿d¹ broni¹ strzeleck¹, a tak¿e premia +1 do KP przeciw pociskom, za ka¿de osiem poziomów doœwiadczenia.
+- +5% szans na trafienie krytyczne na poziomach 13 i 18.
+- Mo¿e osi¹gn¹æ Wielkie mistrzostwo (piêæ punktów bieg³oœci) w krótkich ³ukach, kuszach, strza³kach i procach.
+- Co cztery poziomy doœwiadczenia zyskuje zdolnoœæ Opl¹tuj¹cego strza³u, do wykorzystania raz dziennie. Zdolnoœæ ta nie mo¿e zostaæ u¿yta w po³¹czeniu z innymi umiejêtnoœciami strzeleckimi.
+- Co cztery poziomy doœwiadczenia, pocz¹wszy od 8. poziomu, zyskuje zdolnoœæ Potê¿nego strza³u, do wykorzystania raz dziennie. Zdolnoœæ ta nie mo¿e zostaæ u¿yta w po³¹czeniu z innymi umiejêtnoœciami strzeleckimi.
+- Co cztery poziomy doœwiadczenia, pocz¹wszy od 8. poziomu, zyskuje zdolnoœæ Wybuchowego strza³u, do wykorzystania raz dziennie. Zdolnoœæ ta nie mo¿e zostaæ u¿yta w po³¹czeniu z innymi umiejêtnoœciami strzeleckimi.
+
+OPL¥TUJ¥CY STRZA£: Ka¿dy udany atak dystansowy, wykonany w przeci¹gu nastêpnych dwunastu sekund, spowoduje opl¹tanie celu, zgodnie z poziomem rycerza ³ucznika:
+4. poziom: Cel jest opl¹tany przez trzy rundy, jeœli nie wykona rzutu obronnego przeciw czarom.
+8. poziom: Cel jest opl¹tany przez trzy rundy, jeœli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -1.
+12. poziom: Cel jest opl¹tany przez cztery rundy, jeœli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -1.
+16. poziom: Cel jest opl¹tany przez cztery rundy, jeœli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -2.
+20. poziom: Cel jest opl¹tany przez piêæ rund, jeœli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -2.
+
+POTÊ¯NY STRZA£: Ka¿dy udany atak dystansowy, wykonany w przeci¹gu nastêpnych dwunastu sekund, ma szansê na odrzucenie celu, w zale¿noœci od poziomu rycerza ³ucznika:
+8. poziom: Odrzuca cel, jeœli ten nie wykona rzutu obronnego przeciw zioniêciom.
+12. poziom: Odrzuca cel, jeœli ten nie wykona rzutu obronnego przeciw zioniêciom z modyfikatorem -1.
+16. poziom: Odrzuca cel, jeœli ten nie wykona rzutu obronnego przeciw zioniêciom z modyfikatorem -2.
+20. poziom: Odrzuca cel, jeœli ten nie wykona rzutu obronnego przeciw zioniêciom z modyfikatorem -3.
+
+WYBUCHOWY STRZA£: Ka¿dy udany atak dystansowy, wykonany w przeci¹gu nastêpnych dwunastu sekund, powoduje eksplozjê wystrzelonego pocisku po trafieniu, zadaj¹c fizyczne obra¿enia znajduj¹cym siê w promieniu piêciu metrów celom, w zale¿noœci od poziomu snajpera:
+8. poziom: 1k4 obra¿eñ pobliskim celom
+12. poziom: 1k4 +2 obra¿eñ pobliskim celom
+16. poziom: 1k4 +4 obra¿eñ pobliskim celom
+20. poziom: 1k4 +6 obra¿eñ pobliskim celom
+Uwaga: Rani wrogów, sojuszników i niewinne stworzenia.
+
+Wady:
+– Co poziom dostaje tylko 15 punktów do wykorzystania na umiejêtnoœci z³odziejskie.
+– Nie mo¿e korzystaæ ze zdolnoœci Cios w plecy.~
+
+@1401 = ~strzelec wyborowy~
+@1402 = ~Strzelec wyborowy~
