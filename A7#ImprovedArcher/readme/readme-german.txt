@@ -240,12 +240,20 @@ Russian translation: Saigon1983
 Copyright Notice
 ~~~~~~~~~~~~~~~~
 
-The mod "Improved Archer Kit" is licensed under the "Creative Commons Attribution-ShareAlike 4.0 International License" 
+"Improved Archer Kit" is licensed under the "Creative Commons Attribution-ShareAlike 4.0 International License"
 (http://creativecommons.org/licenses/by-sa/4.0/).
 
 
 History
 ~~~~~~~
+
+3.0 (20??-??-??)
+  - Rebalanced combat bonuses of the Archer kit
+  - Rebalanced "Create Blessed Ammo" ability
+  - Added Archer-like kits for fighters, paladins and thieves
+  - Added bullets to "Create Blessed Ammo" ability for paladin kit
+  - Fixed incorrect blessed ammo projectile for classic BG2/BGT
+  - Added German readme
 
 2.4 (2017-10-25)
   - Fixed a bug that may cause installation error in BG2:EE
