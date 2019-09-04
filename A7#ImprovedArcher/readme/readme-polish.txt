@@ -1,7 +1,7 @@
 Improved Archer Kit
 ~~~~~~~~~~~~~~~~~~~
 
-Version:    2.4
+Version:    3.0
 Author:     Argent77
 
 Download:   https://github.com/Argent77/A7-ImprovedArcher/releases/latest
@@ -200,7 +200,7 @@ Copyright Notice
 History
 ~~~~~~~
 
-3.0 (20??-??-??)
+3.0 (2019-09-04)
   - Rebalanced combat bonuses of the Archer kit
   - Rebalanced "Create Blessed Ammo" ability
   - Added Archer-like kits for fighters, paladins and thieves

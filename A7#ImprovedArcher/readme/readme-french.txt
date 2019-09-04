@@ -1,7 +1,7 @@
 Kit Archer Amélioré
 ~~~~~~~~~~~~~~~~~~~
 
-Version :         2.4
+Version :         3.0
 Auteur  :         Argent77
 
 Téléchargement :  https://github.com/Argent77/A7-ImprovedArcher/releases/latest
@@ -254,7 +254,7 @@ Le mod « Improved Archer Kit » est déposé sous la licence "Creative Commons 
 History
 ~~~~~~~
 
-3.0 (20??-??-??)
+3.0 (2019-09-04)
   - Rééquilibrage des bonus de combat du profil d'Archer.
   - Rééquilibrage de la capacité « Créer des Munitions bénies ».
   - Ajout de profils inspirés de l'Archer pour les guerriers, les paladins et les voleurs.
