@@ -30,9 +30,6 @@
 @1026 = ~Proiettile Benedetto +3~
 @1027 = ~Proiettile Benedetto +4~
 @1028 = ~Proiettili Benedetti creati~
-@1303 = ~arciere a cavallo decaduto~
-@1304 = ~Arciere a Cavallo Decaduto~
-@1305 = ~Classe Persa: Arciere a Cavallo~
 
 // Descriptions
 @1100 = ~ARCIERE: L'arciere è l'emblema dell'abilità nel tiro con l'arco. È il tiratore scelto per eccellenza, capace di portare a segno quasi ogni tiro, non importa quanto sia difficile. Per diventare così abile con l'arco, l'arciere ha dovuto sacrificare parte della sua competenza con le armi da mischia e con le armature.
@@ -581,6 +578,9 @@ Svantaggi:
 
 @1301 = ~arciere a cavallo~
 @1302 = ~Arciere a Cavallo~
+@1303 = ~arciere a cavallo decaduto~
+@1304 = ~Arciere a Cavallo Decaduto~
+@1305 = ~Classe Persa: Arciere a Cavallo~
 
 
 @1400 = ~CECCHINO: Il cecchino è l'emblema dell'abilità con qualsiasi arma da lancio. È il tiratore scelto per eccellenza, capace di portare a segno quasi ogni tiro, non importa quanto sia difficile. Per diventare così abile con le armi da lancio, il cecchino ha dovuto sacrificare parte della sua competenza nelle abilità da ladro.
