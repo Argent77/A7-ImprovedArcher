@@ -569,20 +569,20 @@ Advantages:
 - May use Power Shot ability once per day every 4 levels, starting at level 8. Can not be used together with other shot abilities.
 - May use Explosive Shot ability once per day every 4 levels, starting at level 8. Can not be used together with other shot abilities.
 
-ROOTING SHOT: All successful ranged attacks within the next 12 seconds will entangle the target, according to the level of the Bow Knight:
+ROOTING SHOT: All successful ranged attacks within the next 12 seconds will entangle the target, according to the level of the Sharpshooter:
  4th level: Target is entangled for three rounds if failed save vs. Spell.
  8th level: Target is entangled for three rounds if failed save vs. Spell at -1 penalty.
  12th level: Target is entangled for four rounds if failed save vs. Spell at -1 penalty.
  16th level: Target is entangled for four rounds if failed save vs. Spell at -2 penalty.
  20th level: Target is entangled for five rounds if failed save vs. Spell at -2 penalty.
 
-POWER SHOT: All successful ranged attacks within the next 12 seconds have a chance to knock back the target, according to the level of the Bow Knight:
+POWER SHOT: All successful ranged attacks within the next 12 seconds have a chance to knock back the target, according to the level of the Sharpshooter:
  8th level: Knock back target if failed save vs. Breath.
  12th level: Knock back target if failed save vs. Breath at -1 penalty.
  16th level: Knock back target if failed save vs. Breath at -2 penalty.
  20th level: Knock back target if failed save vs. Breath at -3 penalty.
 
-EXPLOSIVE SHOT: All successful ranged attacks within the next 12 seconds will explode on impact and cause physical damage to nearby targets in 15' range, according to the level of the Marksman:
+EXPLOSIVE SHOT: All successful ranged attacks within the next 12 seconds will explode on impact and cause physical damage to nearby targets in 15' range, according to the level of the Sharpshooter:
  8th level: 1d4 damage to nearby targets
  12th level: 1d4+2 damage to nearby targets
  16th level: 1d4+4 damage to nearby targets
