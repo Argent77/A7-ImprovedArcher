@@ -230,7 +230,7 @@ Incorporated ideas from "Universal Archer Kit" by semiticgod
 French translation: Gwendolyne
 Italian translation: Aedan
 Polish translation: Cahir
-Russian translation: Saigon1983
+Russian translation: Saigon1983, JamesMaxwell
 
 
 Copyright Notice
@@ -242,6 +242,10 @@ Copyright Notice
 
 History
 ~~~~~~~
+
+3.1 (2020-01-19)
+  - Updated Russian translation (thanks JamesMaxwell)
+  - Fixed typos in ability descriptions
 
 3.0 (2019-09-04)
   - Rebalanced combat bonuses of the Archer kit

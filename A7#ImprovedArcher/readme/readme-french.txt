@@ -241,7 +241,7 @@ Incorporation d'idées du mod « Universal Archer Kit » de semiticgod
 Traduction française : Gwendolyne
 Traduction italienne : Aedan
 Traduction polonaise : Cahir
-Traduction russe : Saigon1983
+Traduction russe : Saigon1983, JamesMaxwell
 
 
 Informations sur les droits d'auteur
@@ -253,6 +253,10 @@ Le mod « Improved Archer Kit » est déposé sous la licence "Creative Commons 
 
 History
 ~~~~~~~
+
+3.1 (2020-01-19)
+  - Mise à jour de la traduction russe (merci à JamesMaxwell)
+  - Correction de fautes d'orthographe dans les descriptions des capacités
 
 3.0 (2019-09-04)
   - Rééquilibrage des bonus de combat du profil d'Archer.
