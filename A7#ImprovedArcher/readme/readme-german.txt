@@ -1,7 +1,7 @@
 Verbessertes Bogenschützen-Kit
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Version:    3.0
+Version:    3.1
 Autor:      Argent77
 
 Download:   https://github.com/Argent77/A7-ImprovedArcher/releases/latest

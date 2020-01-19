@@ -1,7 +1,7 @@
 Kit Archer Amélioré
 ~~~~~~~~~~~~~~~~~~~
 
-Version :         3.0
+Version :         3.1
 Auteur  :         Argent77
 
 Téléchargement :  https://github.com/Argent77/A7-ImprovedArcher/releases/latest
