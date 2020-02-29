@@ -1,73 +1,50 @@
 // Installing Thief -> Sharpshooter kit
-INCLUDE ~A7#ImprovedArcher/lib/fl#add_kit_ee.tpa~
+INCLUDE ~A7#ImprovedArcher/lib/a7#add_kit_ex.tpa~
+INCLUDE ~A7#ImprovedArcher/lib/kit.tph~
 
-// Stupid ADD_KIT doesn't support EVALUATE_BUFFER
-ACTION_IF (GAME_IS ~bg2 bg2ee eet~) BEGIN
-  ADD_KIT ~A7_SHARPSHOOTER~
-          ~A7_SHARPSHOOTER 1 1 1 1 1 0 0 0~   // clasweap.2da
-          ~A7_SHARPSHOOTER 0 1 0 0 1 0 0 1 0 1 1 0 0 1 1 1 0 1 0 0 0 0 1 5 0 5 5 5 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~  // weapprof.2da
-          ~A7_SHARPSHOOTER 0 9 0 0 0 0~       // abclasrq.2da
-          ~A7_SHARPSHOOTER 0 0 0 0 0 0~       // abclsmod.2da
-          ~A7_SHARPSHOOTER 0 17 0 0 0 0~      // abdcdsrq.2da
-          ~A7_SHARPSHOOTER 0 15 0 0 0 0~      // abdcscrq.2da
-          ~A7_SHARPSHOOTER 0 1 1 1 1 1 1 1 1~ // alignmnt.2da
-          ~A7_SHARPSHOOTER 1 1 1 0 0 0~       // dualclas.2da
-          ~A7#ImprovedArcher/kit/%CLAB_DIR%/CLABA7T1.2DA~   // path to kit clabxxx.2da
-          ~K_T_H K_T_D K_T_G K_T_E K_T_HE K_T_HL K_T_HO~    // class/race combinations for kittable.2da
-          ~0x00040000 4~  // unusability and parent class info for kitlist.2da
-          ~A7th1~     // luabbr.2da
-          ~LEAT14 * * BAG28 RING06 RING05 * BOOT02 AMUL19 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 DAGG12 SW1H28 STAF08~  // 25stweap.2da
-          SAY @1401   // lower name
-          SAY @1402   // mixed name
-          SAY @1400   // kit description
+ACTION_IF (GAME_IS ~tob bgt bg2ee eet~) BEGIN
+  OUTER_TEXT_SPRINT stweap ~LEAT14 * * BAG28 RING06 RING05 * BOOT02 AMUL19 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 DAGG12 SW1H28 STAF08~
 END ELSE ACTION_IF (GAME_IS ~iwdee~) BEGIN
-  ADD_KIT ~A7_SHARPSHOOTER~
-          ~A7_SHARPSHOOTER 1 1 1 1 1 0 0 0~   // clasweap.2da
-          ~A7_SHARPSHOOTER 0 1 0 0 1 0 0 1 0 1 1 0 0 1 1 1 0 1 0 0 0 0 1 5 0 5 5 5 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~  // weapprof.2da
-          ~A7_SHARPSHOOTER 0 9 0 0 0 0~       // abclasrq.2da
-          ~A7_SHARPSHOOTER 0 0 0 0 0 0~       // abclsmod.2da
-          ~A7_SHARPSHOOTER 0 17 0 0 0 0~      // abdcdsrq.2da
-          ~A7_SHARPSHOOTER 0 15 0 0 0 0~      // abdcscrq.2da
-          ~A7_SHARPSHOOTER 0 1 1 1 1 1 1 1 1~ // alignmnt.2da
-          ~A7_SHARPSHOOTER 1 1 1 0 0 0~       // dualclas.2da
-          ~A7#ImprovedArcher/kit/%CLAB_DIR%/CLABA7T1.2DA~   // path to kit clabxxx.2da
-          ~K_T_H K_T_D K_T_G K_T_E K_T_HE K_T_HL K_T_HO~    // class/race combinations for kittable.2da
-          ~0x00040000 4~  // unusability and parent class info for kitlist.2da
-          ~A7th1~     // luabbr.2da
-          ~USLTR3A * * * SHADOWS URING5B * SHBOOTS BWTALIS KAYGLOV * AROW11,40 BULL03,40 BOLT06,40 FIREKIS POTN36,2 POTN08,5 BOW06 DART04,40 USSWD4A~ // 25stweap.2da
-          SAY @1401   // lower name
-          SAY @1402   // mixed name
-          SAY @1400   // kit description
+  OUTER_TEXT_SPRINT stweap ~USLTR3A * * * SHADOWS URING5B * SHBOOTS BWTALIS KAYGLOV * AROW11,40 BULL03,40 BOLT06,40 FIREKIS POTN36,2 POTN08,5 BOW06 DART04,40 USSWD4A~
 END ELSE BEGIN
-  ADD_KIT ~A7_SHARPSHOOTER~
-          ~A7_SHARPSHOOTER 1 1 1 1 1 0 0 0~   // clasweap.2da
-          ~A7_SHARPSHOOTER 0 1 0 0 1 0 0 1 0 1 1 0 0 1 1 1 0 1 0 0 0 0 1 5 0 5 5 5 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~  // weapprof.2da
-          ~A7_SHARPSHOOTER 0 9 0 0 0 0~       // abclasrq.2da
-          ~A7_SHARPSHOOTER 0 0 0 0 0 0~       // abclsmod.2da
-          ~A7_SHARPSHOOTER 0 17 0 0 0 0~      // abdcdsrq.2da
-          ~A7_SHARPSHOOTER 0 15 0 0 0 0~      // abdcscrq.2da
-          ~A7_SHARPSHOOTER 0 1 1 1 1 1 1 1 1~ // alignmnt.2da
-          ~A7_SHARPSHOOTER 1 1 1 0 0 0~       // dualclas.2da
-          ~A7#ImprovedArcher/kit/%CLAB_DIR%/CLABA7T1.2DA~   // path to kit clabxxx.2da
-          ~K_T_H K_T_D K_T_G K_T_E K_T_HE K_T_HL K_T_HO~    // class/race combinations for kittable.2da
-          ~0x00040000 4~  // unusability and parent class info for kitlist.2da
-          ~A7th1~     // luabbr.2da
-          ~* * * * * * * * * * * * * * * * * * * *~ // 25stweap.2da
-          SAY @1401   // lower name
-          SAY @1402   // mixed name
-          SAY @1400   // kit description
+  OUTER_TEXT_SPRINT stweap ~* * * * * * * * * * * * * * * * * * * *~
 END
 
-LAF fl#add_kit_ee
+// TODO: Change English kit name (Sharpshooter) to something else: Conflicts with kit in "Song & Silence".
+//       Options: Sniper (used by other mods), Ninja (likely used by other mods as well), Silencer, Ambusher, ???
+LAF ADD_KIT_EX
+INT_VAR
+  kit_class = 4
+  mixed     = RESOLVE_STR_REF(@1402)
+  lower     = RESOLVE_STR_REF(@1401)
+  help      = RESOLVE_STR_REF(@1400)
 STR_VAR
-    kit_name = "A7_SHARPSHOOTER"
-    clsrcreq = "1 1 1 1 1 1 1"
-    clswpbon = "0 0 3"
-    hpclass = "HPROG"
-    numwslot = "2"
-    clascolr = "24 99 169 2 93" // using default thief colors
-    bdstweap = "LEAT05 * * * * * * * * BRAC09 BELT02 AROW02,40 BULL02,40 BOLT02,40 POTN08,5 POTN17,3 POTN36,1 * BOW06 DAGG02"
-    thiefskl = ~40 15~
+  kit_name  = ~A7_SHARPSHOOTER~
+  unusable  = ~0x00040000~
+  clasweap  = ~1 1 1 1 1 0 0 0~
+  weapprof  = ~0 1 0 0 1 0 0 1 0 1 1 0 0 1 1 1 0 1 0 0 0 0 1 5 0 5 5 5 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+  abclasrq  = ~0 9 0 0 0 0~
+  abclsmod  = ~0 0 0 0 0 0~
+  abdcdsrq  = ~0 17 0 0 0 0~
+  abdcscrq  = ~0 15 0 0 0 0~
+  alignmnt  = ~0 1 1 1 1 1 1 1 1~
+  dualclas  = ~1 1 1 0 0 0~
+  clab_path = EVAL ~A7#ImprovedArcher/kit/%CLAB_DIR%/CLABA7T1.2DA~
+  kittable  = ~K_T_H K_T_D K_T_G K_T_E K_T_HE K_T_HL K_T_HO~
+  luabbr    = ~A7th1~
+  stweap
+  bdstweap  = ~LEAT05 * * * * * * * * BRAC09 BELT02 AROW02,40 BULL02,40 BOLT02,40 POTN08,5 POTN17,3 POTN36,1 * BOW06 DAGG02~
+  clsrcreq  = ~1 1 1 1 1 1 1~
+  clswpbon  = ~0 0 3~
+  hpclass   = ~HPROG~
+  numwslot  = ~2~
+  clascolr  = ~24 99 169 2 93~
+  backstab  = ~1~
+  sneakatt  = ~1~
+  crippstr  = ~0~
+  thiefskl  = ~40 15~
+RET
+  kit_id
 END
 
 COPY ~A7#ImprovedArcher/kit/LUA7TH1.2DA~ ~override~
@@ -77,33 +54,3 @@ COPY_EXISTING ~CLABA7T1.2DA~ ~override~
     LPF CLAB_FIX_ENTRY END
   END
   BUT_ONLY
-
-// Updating backstab ability
-COPY_EXISTING ~BACKSTAB.2DA~ ~override~
-              ~SNEAKATT.2DA~ ~override~
-  COUNT_2DA_COLS numCols
-  COUNT_2DA_ROWS numCols numRows
-  FOR (row = 0; row < numRows; ++row) BEGIN
-    READ_2DA_ENTRY row 0 numCols name
-    PATCH_IF (~%name%~ STR_EQ ~A7_SHARPSHOOTER~) BEGIN
-      FOR (col = 1; col < numCols; ++col) BEGIN
-        SET_2DA_ENTRY row col numCols ~1~
-      END
-      SET row = numRows
-    END
-  END
-  BUT_ONLY IF_EXISTS
-
-COPY_EXISTING ~CRIPPSTR.2DA~ ~override~
-  COUNT_2DA_COLS numCols
-  COUNT_2DA_ROWS numCols numRows
-  FOR (row = 0; row < numRows; ++row) BEGIN
-    READ_2DA_ENTRY row 0 numCols name
-    PATCH_IF (~%name%~ STR_EQ ~A7_SHARPSHOOTER~) BEGIN
-      FOR (col = 1; col < numCols; ++col) BEGIN
-        SET_2DA_ENTRY row col numCols ~0~
-      END
-      SET row = numRows
-    END
-  END
-  BUT_ONLY IF_EXISTS

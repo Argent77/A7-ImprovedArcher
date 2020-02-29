@@ -73,25 +73,28 @@ BEGIN @1    // Improved Archer Kit
   REQUIRE_PREDICATE GAME_IS ~tob bgt bgee bg2ee iwdee eet~ @100   // This mod requires BG2:ToB, BG:EE, BG2:EE or IWD:EE to be installed.
   DESIGNATED 0
 
-  INCLUDE ~A7#ImprovedArcher/lib/kit.tph~
+  INCLUDE ~A7#ImprovedArcher/lib/kit_archer.tph~
 
 
 BEGIN @3    // Add fighter kit: Marksman
-  REQUIRE_COMPONENT ~setup-A7#ImprovedArcher.tp2~ 0 @102  // This component requires the main component "Improved Archer Kit" to be installed.
+  REQUIRE_PREDICATE GAME_IS ~tob bgt bgee bg2ee iwdee eet~ @100   // This mod requires BG2:ToB, BG:EE, BG2:EE or IWD:EE to be installed.
+  // REQUIRE_COMPONENT ~setup-A7#ImprovedArcher.tp2~ 0 @102  // This component requires the main component "Improved Archer Kit" to be installed.
   DESIGNATED 10
 
   INCLUDE ~A7#ImprovedArcher/lib/kit_fighter.tph~
 
 
 BEGIN @4    // Add paladin kit: Bow Knight
-  REQUIRE_COMPONENT ~setup-A7#ImprovedArcher.tp2~ 0 @102  // This component requires the main component "Improved Archer Kit" to be installed.
+  REQUIRE_PREDICATE GAME_IS ~tob bgt bgee bg2ee iwdee eet~ @100   // This mod requires BG2:ToB, BG:EE, BG2:EE or IWD:EE to be installed.
+  // REQUIRE_COMPONENT ~setup-A7#ImprovedArcher.tp2~ 0 @102  // This component requires the main component "Improved Archer Kit" to be installed.
   DESIGNATED 20
 
   INCLUDE ~A7#ImprovedArcher/lib/kit_paladin.tph~
 
 
 BEGIN @5    // Add thief kit: Sharpshooter
-  REQUIRE_COMPONENT ~setup-A7#ImprovedArcher.tp2~ 0 @102  // This component requires the main component "Improved Archer Kit" to be installed.
+  REQUIRE_PREDICATE GAME_IS ~tob bgt bgee bg2ee iwdee eet~ @100   // This mod requires BG2:ToB, BG:EE, BG2:EE or IWD:EE to be installed.
+  // REQUIRE_COMPONENT ~setup-A7#ImprovedArcher.tp2~ 0 @102  // This component requires the main component "Improved Archer Kit" to be installed.
   DESIGNATED 30
 
   INCLUDE ~A7#ImprovedArcher/lib/kit_thief.tph~

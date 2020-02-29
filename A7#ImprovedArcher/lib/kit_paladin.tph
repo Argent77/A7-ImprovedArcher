@@ -1,74 +1,45 @@
 // Installing Paladin -> Bow Knight kit
-INCLUDE ~A7#ImprovedArcher/lib/fl#add_kit_ee.tpa~
+INCLUDE ~A7#ImprovedArcher/lib/a7#add_kit_ex.tpa~
+INCLUDE ~A7#ImprovedArcher/lib/kit.tph~
 
-// Stupid ADD_KIT doesn't support EVALUATE_BUFFER
-ACTION_IF (GAME_IS ~bg2 bg2ee eet~) BEGIN
-  ADD_KIT ~A7_BOWKNIGHT~
-          ~A7_BOWKNIGHT 1 1 1 1 1 1 1 1~   // clasweap.2da
-          ~A7_BOWKNIGHT 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 5 5 2 5 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~  // weapprof.2da
-          ~A7_BOWKNIGHT 12 0 9 0 13 17~    // abclasrq.2da
-          ~A7_BOWKNIGHT 0 0 0 0 0 0~       // abclsmod.2da
-          ~A7_BOWKNIGHT 17 0 0 0 0 17~     // abdcdsrq.2da
-          ~A7_BOWKNIGHT 15 0 0 0 0 15~     // abdcscrq.2da
-          ~A7_BOWKNIGHT 1 0 0 0 0 0 0 0 0~ // alignmnt.2da
-          ~A7_BOWKNIGHT 0 0 0 0 0 0~       // dualclas.2da
-          ~A7#ImprovedArcher/kit/%CLAB_DIR%/CLABA7P1.2DA~   // path to kit clabxxx.2da
-          ~K_P_H~         // class/race combinations for kittable.2da
-          ~0x00008000 6~  // unusability and parent class info for kitlist.2da
-          ~A7pa1~         // luabbr.2da
-          ~LEAT14 * HELM07 BAG26 RING06 RING31 CLCK02 BOOT01 AMUL20 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 BOW18 XBOW09 STAF08~ // 25stweap.2da
-          SAY @1301       // lower name
-          SAY @1302       // mixed name
-          SAY @1300       // kit description
+ACTION_IF (GAME_IS ~tob bgt bg2ee eet~) BEGIN
+  OUTER_TEXT_SPRINT stweap ~LEAT14 * HELM07 BAG26 RING06 RING31 CLCK02 BOOT01 AMUL20 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 BOW18 XBOW09 STAF08~
 END ELSE ACTION_IF (GAME_IS ~iwdee~) BEGIN
-  ADD_KIT ~A7_BOWKNIGHT~
-          ~A7_BOWKNIGHT 1 1 1 1 1 1 1 1~   // clasweap.2da
-          ~A7_BOWKNIGHT 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 5 5 2 5 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~  // weapprof.2da
-          ~A7_BOWKNIGHT 12 0 9 0 13 17~    // abclasrq.2da
-          ~A7_BOWKNIGHT 0 0 0 0 0 0~       // abclsmod.2da
-          ~A7_BOWKNIGHT 17 0 0 0 0 17~     // abdcdsrq.2da
-          ~A7_BOWKNIGHT 15 0 0 0 0 15~     // abdcscrq.2da
-          ~A7_BOWKNIGHT 1 0 0 0 0 0 0 0 0~ // alignmnt.2da
-          ~A7_BOWKNIGHT 0 0 0 0 0 0~       // dualclas.2da
-          ~A7#ImprovedArcher/kit/%CLAB_DIR%/CLABA7P1.2DA~   // path to kit clabxxx.2da
-          ~K_P_H~         // class/race combinations for kittable.2da
-          ~0x00008000 6~  // unusability and parent class info for kitlist.2da
-          ~A7pa1~         // luabbr.2da
-          ~USLTR4A * HELMPAT * URING3A * * * * * BELT03 AROW11,40 BULL03,40 BOLT06,40 POTN05,2 POTN20,5 POTN08,5 BLCKBOW ULXBW3B UBSWD4A~ // 25stweap.2da
-          SAY @1301       // lower name
-          SAY @1302       // mixed name
-          SAY @1300       // kit description
+  OUTER_TEXT_SPRINT stweap ~USLTR4A * HELMPAT * URING3A * * * * * BELT03 AROW11,40 BULL03,40 BOLT06,40 POTN05,2 POTN20,5 POTN08,5 BLCKBOW ULXBW3B UBSWD4A~
 END ELSE BEGIN
-  ADD_KIT ~A7_BOWKNIGHT~
-          ~A7_BOWKNIGHT 1 1 1 1 1 1 1 1~   // clasweap.2da
-          ~A7_BOWKNIGHT 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 5 5 2 5 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~  // weapprof.2da
-          ~A7_BOWKNIGHT 12 0 9 0 13 17~    // abclasrq.2da
-          ~A7_BOWKNIGHT 0 0 0 0 0 0~       // abclsmod.2da
-          ~A7_BOWKNIGHT 17 0 0 0 0 17~     // abdcdsrq.2da
-          ~A7_BOWKNIGHT 15 0 0 0 0 15~     // abdcscrq.2da
-          ~A7_BOWKNIGHT 1 0 0 0 0 0 0 0 0~ // alignmnt.2da
-          ~A7_BOWKNIGHT 0 0 0 0 0 0~       // dualclas.2da
-          ~A7#ImprovedArcher/kit/%CLAB_DIR%/CLABA7P1.2DA~   // path to kit clabxxx.2da
-          ~K_P_H~         // class/race combinations for kittable.2da
-          ~0x00008000 6~  // unusability and parent class info for kitlist.2da
-          ~A7pa1~         // luabbr.2da
-          ~* * * * * * * * * * * * * * * * * * * *~ // 25stweap.2da
-          SAY @1301       // lower name
-          SAY @1302       // mixed name
-          SAY @1300       // kit description
+  OUTER_TEXT_SPRINT stweap ~* * * * * * * * * * * * * * * * * * * *~
 END
 
-LAF fl#add_kit_ee
+LAF ADD_KIT_EX
 INT_VAR
+  kit_class = 6
+  mixed         = RESOLVE_STR_REF(@1302)
+  lower         = RESOLVE_STR_REF(@1301)
+  help          = RESOLVE_STR_REF(@1300)
   fallen_notice = RESOLVE_STR_REF(@1305)  // Lost Class: Bow Knight
 STR_VAR
-  kit_name  = "A7_BOWKNIGHT"
-  clsrcreq  = "1 0 0 0 0 0 0"
-  clswpbon  = "1 0 2"
-  hpclass   = "HPWAR"
-  numwslot  = "3"
-  clascolr  = "25 28 57 2 24" // using default paladin colors
-  bdstweap  = "LEAT05 * HELM01 * RING06 * * * * * BELT02 AROW02,40 BULL02,40 BOLT02,40 POTN08,5 POTN17,3 POTN03,1 BOW06 XBOW05 SW2H02"
+  kit_name  = ~A7_BOWKNIGHT~
+  unusable  = ~0x00008000~
+  clasweap  = ~1 1 1 1 1 1 1 1~
+  weapprof  = ~1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 5 5 2 5 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+  abclasrq  = ~12 0 9 0 13 17~
+  abclsmod  = ~0 0 0 0 0 0~
+  abdcdsrq  = ~17 0 0 0 0 17~
+  abdcscrq  = ~15 0 0 0 0 15~
+  alignmnt  = ~1 0 0 0 0 0 0 0 0~
+  dualclas  = ~0 0 0 0 0 0~
+  clab_path = EVAL ~A7#ImprovedArcher/kit/%CLAB_DIR%/CLABA7P1.2DA~
+  kittable  = ~K_P_H~
+  luabbr    = ~A7pa1~
+  stweap
+  bdstweap  = ~LEAT05 * HELM01 * RING06 * * * * * BELT02 AROW02,40 BULL02,40 BOLT02,40 POTN08,5 POTN17,3 POTN03,1 BOW06 XBOW05 SW2H02~
+  clsrcreq  = ~1 0 0 0 0 0 0~
+  clswpbon  = ~1 0 2~
+  hpclass   = ~HPWAR~
+  numwslot  = ~3~
+  clascolr  = ~25 28 57 2 24~
+RET
+  kit_id
 END
 
 // Creating "Fallen" kit variant

@@ -30,20 +30,19 @@ The mod includes two components:
 
 #### 1. Improved Archer Kit (requires BG2:ToB, BGT, BG:EE, BG:SoD, BG2:EE, EET or IWD:EE)
 
-Improves the Archer kit by balancing stat progression and adding a couple of unique skills and abilities. This is the
-main component of the mod.
+Improves the Archer kit by balancing stat progression and adding a couple of unique skills and abilities.
 
 #### 2. Add fighter kit: Marksman (requires main component "Improved Archer Kit")
 
-Installs the fighter kit "Marksman" to the game.
+Adds the fighter kit "Marksman" to the game, based on the improvements of the Archer kit.
 
 #### 3. Add paladin kit: Bow Knight (requires main component "Improved Archer Kit")
 
-Installs the paladin kit "Bow Knight" to the game.
+Adds the paladin kit "Bow Knight" to the game, based on the improvements of the Archer kit.
 
 #### 4. Add thief kit: Sharpshooter (requires main component "Improved Archer Kit")
 
-Installs the thief kit "Sharpshooter" to the game.
+Adds the thief kit "Sharpshooter" to the game, based on the improvements of the Archer kit.
 
 #### 5. Add +4 arrows, bolts and two powerful bows to the game (requires BG2:ToB, BGT, BG2:EE or IWD:EE)
 
@@ -54,7 +53,7 @@ to the outdoor area of Sendai's Enclave.
 
 *IWD:EE:* Adds two powerful bows and a few +4 arrows and bolts to Conlan's shop in Kuldahar after reaching Chapter 4.
 
-This component can be installed independently from the main component.
+All components can be installed independently.
 
 
 ## Kit Description

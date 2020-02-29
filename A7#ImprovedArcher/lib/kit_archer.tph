@@ -1,0 +1,156 @@
+// Installing Ranger -> Archer kit
+INCLUDE ~A7#ImprovedArcher/lib/kit.tph~
+
+OUTER_SET help_strref = RESOLVE_STR_REF(@1100)    // Archer kit description
+
+// Updating Archer description and ability table
+OUTER_SET kit_id = "-1"
+OUTER_TEXT_SPRINT kit_symbol ~~
+COPY_EXISTING ~KITLIST.2DA~ ~override~
+  COUNT_2DA_COLS numCols
+  COUNT_2DA_ROWS numCols numRows
+  FOR (row = 0; row < numRows; row += 1) BEGIN
+    READ_2DA_ENTRY row 1 numCols value
+    PATCH_IF (~%value%~ STRING_EQUAL_CASE ~FERALAN~ || ~%value%~ STRING_EQUAL_CASE ~ARCHER~) BEGIN
+      READ_2DA_ENTRY row 0 numCols kit_id
+      READ_2DA_ENTRY row 1 numCols kit_symbol
+      SET_2DA_ENTRY row 4 numCols ~%help_strref%~
+      SET_2DA_ENTRY row 5 numCols ~CLABA7R1~
+      SET row = numRows
+    END
+  END
+BUT_ONLY
+
+// Adjusting weapon proficiencies and styles
+COPY_EXISTING ~WEAPPROF.2DA~ ~override~
+  COUNT_2DA_COLS numCols
+  COUNT_2DA_ROWS numCols numRows
+  // finding archer column
+  SET kit_col = 36
+  FOR (col = 3; col < numCols - 1; ++col) BEGIN
+    READ_2DA_ENTRY 2 col 1 name
+    PATCH_IF (~%name%~ STR_EQ ~%kit_symbol%~) BEGIN
+      SET kit_col = col + 1
+      SET col = numCols
+    END
+  END
+  // adjusting proficiencies
+  FOR (row = 0; row < numRows; row += 1) BEGIN
+    READ_2DA_ENTRY row 0 numCols value
+    PATCH_MATCH ~%value%~ WITH
+      // ~CROSSBOW~ ~LONGBOW~ ~SHORTBOW~ ~DART~ ~SLING~ BEGIN
+        // SET_2DA_ENTRY row kit_col numCols ~5~
+      // END
+      ~2HANDED~ ~SWORDANDSHIELD~ ~SINGLEWEAPON~ BEGIN
+        SET_2DA_ENTRY row kit_col numCols ~1~
+      END
+      ~2WEAPON~ BEGIN
+        SET_2DA_ENTRY row kit_col numCols ~2~
+      END
+      DEFAULT
+    END
+  END
+BUT_ONLY
+
+// Modifying DEX and CON requirements
+COPY_EXISTING ~ABCLASRQ.2DA~ ~override~
+  COUNT_2DA_COLS numCols
+  COUNT_2DA_ROWS numCols numRows
+  FOR (row = 0; row < numRows; row += 1) BEGIN
+    READ_2DA_ENTRY row 0 numCols value
+    PATCH_IF (~%value%~ STRING_EQUAL_CASE ~FERALAN~) BEGIN
+      SET_2DA_ENTRY row 2 numCols ~14~
+      SET_2DA_ENTRY row 3 numCols ~13~
+      SET row = numRows
+    END
+  END
+BUT_ONLY
+
+// Setting CON penalty
+COPY_EXISTING ~ABCLSMOD.2DA~ ~override~
+  COUNT_2DA_COLS numCols
+  COUNT_2DA_ROWS numCols numRows
+  FOR (row = 0; row < numRows; row += 1) BEGIN
+    READ_2DA_ENTRY row 0 numCols value
+    PATCH_IF (~%value%~ STRING_EQUAL_CASE ~FERALAN~) BEGIN
+      SET_2DA_ENTRY row 3 numCols ~-1~
+      SET row = numRows
+    END
+  END
+BUT_ONLY
+
+// Setting new HLA table
+COPY_EXISTING ~LUABBR.2DA~ ~override~
+  COUNT_2DA_COLS numCols
+  COUNT_2DA_ROWS numCols numRows
+  FOR (row = 0; row < numRows; row += 1) BEGIN
+    READ_2DA_ENTRY row 0 numCols value
+    PATCH_IF (~%value%~ STRING_EQUAL_CASE ~FERALAN~) BEGIN
+      SET_2DA_ENTRY row 1 numCols ~A7ra1~
+      SET row = numRows
+    END
+  END
+BUT_ONLY
+
+ACTION_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
+  // using hardcoded class table by default
+  OUTER_TEXT_SPRINT campaign_0 ~CLASTEXT.2DA~
+
+  ACTION_IF (FILE_EXISTS_IN_GAME ~campaign.2da~) BEGIN
+    // retrieving externalized class table(s)
+    COPY_EXISTING - ~campaign.2da~ ~override~
+      COUNT_2DA_COLS numCols
+      COUNT_2DA_ROWS numCols numRows
+      COUNT_2DA_ROWS (numCols - 1) numRowsHdr
+      PATCH_IF (numRowsHdr > numRows) BEGIN
+        SET idx = 0
+        FOR (row = 0; row < numRows; row += 1) BEGIN
+          READ_2DA_ENTRY row 30 numCols file
+          PATCH_IF (FILE_EXISTS_IN_GAME ~%file%.2da~) BEGIN
+            TEXT_SPRINT EVAL ~campaign_%idx%~ ~%file%.2DA~
+            SET idx += 1
+          END
+        END
+      END
+    BUT_ONLY IF_EXISTS
+  END
+
+  // updating class text
+  OUTER_SET idx = 0
+  OUTER_WHILE (VARIABLE_IS_SET EVAL "campaign_%idx%") BEGIN
+    OUTER_TEXT_SPRINT file $EVAL ~campaign~(~%idx%~)
+    COPY_EXISTING ~%file%~ ~override~
+      COUNT_2DA_COLS numCols
+      COUNT_2DA_ROWS numCols numRows
+      SET found = 0
+      FOR (row = 0; row < numRows && found < 2; row += 1) BEGIN
+        READ_2DA_ENTRY row 2 numCols id
+        PATCH_IF (kit_id >= 0 && id = kit_id) BEGIN
+          SET_2DA_ENTRY row 4 numCols ~%help_strref%~
+          found += 1
+        END
+      END
+    BUT_ONLY IF_EXISTS
+    OUTER_SET idx += 1
+  END
+
+  // In-game help
+  ACTION_IF (FILE_EXISTS_IN_GAME ~ENGINEST.2DA~) BEGIN
+    COPY_EXISTING ~ENGINEST.2DA~ ~override~
+      COUNT_2DA_COLS numCols
+      COUNT_2DA_ROWS numCols numRows
+      SET found = 0
+      FOR (row = 0; row < numRows && found < 2; row += 1) BEGIN
+        READ_2DA_ENTRY row 0 numCols value
+        PATCH_IF (~%value%~ STRING_EQUAL_CASE ~STRREF_GUI_HELP_KIT_FERALAN~) BEGIN
+          SET_2DA_ENTRY row 1 numCols ~%help_strref%~
+        END
+      END
+    BUT_ONLY
+  END
+END
+
+COPY ~A7#ImprovedArcher/kit/%CLAB_DIR%/CLABA7R1.2DA~ ~override~
+  PATCH_IF (GAME_IS ~tob bgt~) BEGIN
+    LPF CLAB_FIX_ENTRY END
+  END

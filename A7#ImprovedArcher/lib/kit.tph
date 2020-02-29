@@ -1,6 +1,6 @@
-// Installing Ranger -> Archer kit
+// Common base for all installed kits
 
-// Defines a work-around for a buggy implementation of opcode 122 (Create inventory item) in the Enhanced Editions patch v1.x
+// Work-around for a buggy implementation of opcode 122 (Create inventory item) in the Enhanced Editions patch 1.x
 ACTION_IF (GAME_IS ~iwdee~ && NOT FILE_EXISTS_IN_GAME ~achievem.2da~) BEGIN
   OUTER_TEXT_SPRINT spl_arrow "A7#ImprovedArcher/kit/ee/A7#IN04A.SPL"
   OUTER_TEXT_SPRINT spl_bolt  "A7#ImprovedArcher/kit/ee/A7#IN04B.SPL"
@@ -10,154 +10,8 @@ END ELSE BEGIN
   OUTER_TEXT_SPRINT spl_bolt  "A7#ImprovedArcher/kit/A7#IN04B.SPL"
   OUTER_TEXT_SPRINT spl_bullet  "A7#ImprovedArcher/kit/A7#IN04C.SPL"
 END
-OUTER_SET help_strref = RESOLVE_STR_REF(@1100)    // Archer kit description
-
-// Updating Archer description and ability table
-OUTER_SET kit_id = "-1"
-OUTER_TEXT_SPRINT kit_symbol ~~
-COPY_EXISTING ~KITLIST.2DA~ ~override~
-  COUNT_2DA_COLS numCols
-  COUNT_2DA_ROWS numCols numRows
-  FOR (row = 0; row < numRows; row += 1) BEGIN
-    READ_2DA_ENTRY row 1 numCols value
-    PATCH_IF (~%value%~ STRING_EQUAL_CASE ~FERALAN~ || ~%value%~ STRING_EQUAL_CASE ~ARCHER~) BEGIN
-      READ_2DA_ENTRY row 0 numCols kit_id
-      READ_2DA_ENTRY row 1 numCols kit_symbol
-      SET_2DA_ENTRY row 4 numCols ~%help_strref%~
-      SET_2DA_ENTRY row 5 numCols ~CLABA7R1~
-      SET row = numRows
-    END
-  END
-BUT_ONLY
-
-// Adjusting weapon proficiencies and styles
-COPY_EXISTING ~WEAPPROF.2DA~ ~override~
-  COUNT_2DA_COLS numCols
-  COUNT_2DA_ROWS numCols numRows
-  // finding archer column
-  SET kit_col = 36
-  FOR (col = 3; col < numCols - 1; ++col) BEGIN
-    READ_2DA_ENTRY 2 col 1 name
-    PATCH_IF (~%name%~ STR_EQ ~%kit_symbol%~) BEGIN
-      SET kit_col = col + 1
-      SET col = numCols
-    END
-  END
-  // adjusting proficiencies
-  FOR (row = 0; row < numRows; row += 1) BEGIN
-    READ_2DA_ENTRY row 0 numCols value
-    PATCH_MATCH ~%value%~ WITH
-      // ~CROSSBOW~ ~LONGBOW~ ~SHORTBOW~ ~DART~ ~SLING~ BEGIN
-        // SET_2DA_ENTRY row kit_col numCols ~5~
-      // END
-      ~2HANDED~ ~SWORDANDSHIELD~ ~SINGLEWEAPON~ BEGIN
-        SET_2DA_ENTRY row kit_col numCols ~1~
-      END
-      ~2WEAPON~ BEGIN
-        SET_2DA_ENTRY row kit_col numCols ~2~
-      END
-      DEFAULT
-    END
-  END
-BUT_ONLY
-
-// Modifying DEX and CON requirements
-COPY_EXISTING ~ABCLASRQ.2DA~ ~override~
-  COUNT_2DA_COLS numCols
-  COUNT_2DA_ROWS numCols numRows
-  FOR (row = 0; row < numRows; row += 1) BEGIN
-    READ_2DA_ENTRY row 0 numCols value
-    PATCH_IF (~%value%~ STRING_EQUAL_CASE ~FERALAN~) BEGIN
-      SET_2DA_ENTRY row 2 numCols ~14~
-      SET_2DA_ENTRY row 3 numCols ~13~
-      SET row = numRows
-    END
-  END
-BUT_ONLY
-
-// Setting CON penalty
-COPY_EXISTING ~ABCLSMOD.2DA~ ~override~
-  COUNT_2DA_COLS numCols
-  COUNT_2DA_ROWS numCols numRows
-  FOR (row = 0; row < numRows; row += 1) BEGIN
-    READ_2DA_ENTRY row 0 numCols value
-    PATCH_IF (~%value%~ STRING_EQUAL_CASE ~FERALAN~) BEGIN
-      SET_2DA_ENTRY row 3 numCols ~-1~
-      SET row = numRows
-    END
-  END
-BUT_ONLY
-
-// Setting new HLA table
-COPY_EXISTING ~LUABBR.2DA~ ~override~
-  COUNT_2DA_COLS numCols
-  COUNT_2DA_ROWS numCols numRows
-  FOR (row = 0; row < numRows; row += 1) BEGIN
-    READ_2DA_ENTRY row 0 numCols value
-    PATCH_IF (~%value%~ STRING_EQUAL_CASE ~FERALAN~) BEGIN
-      SET_2DA_ENTRY row 1 numCols ~A7ra1~
-      SET row = numRows
-    END
-  END
-BUT_ONLY
 
 ACTION_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
-  // using hardcoded class table by default
-  OUTER_TEXT_SPRINT campaign_0 ~CLASTEXT.2DA~
-
-  ACTION_IF (FILE_EXISTS_IN_GAME ~campaign.2da~) BEGIN
-    // retrieving externalized class table(s)
-    COPY_EXISTING - ~campaign.2da~ ~override~
-      COUNT_2DA_COLS numCols
-      COUNT_2DA_ROWS numCols numRows
-      COUNT_2DA_ROWS (numCols - 1) numRowsHdr
-      PATCH_IF (numRowsHdr > numRows) BEGIN
-        SET idx = 0
-        FOR (row = 0; row < numRows; row += 1) BEGIN
-          READ_2DA_ENTRY row 30 numCols file
-          PATCH_IF (FILE_EXISTS_IN_GAME ~%file%.2da~) BEGIN
-            TEXT_SPRINT EVAL ~campaign_%idx%~ ~%file%.2DA~
-            SET idx += 1
-          END
-        END
-      END
-    BUT_ONLY IF_EXISTS
-  END
-
-  // updating class text
-  OUTER_SET idx = 0
-  OUTER_WHILE (VARIABLE_IS_SET EVAL "campaign_%idx%") BEGIN
-    OUTER_TEXT_SPRINT file $EVAL ~campaign~(~%idx%~)
-    COPY_EXISTING ~%file%~ ~override~
-      COUNT_2DA_COLS numCols
-      COUNT_2DA_ROWS numCols numRows
-      SET found = 0
-      FOR (row = 0; row < numRows && found < 2; row += 1) BEGIN
-        READ_2DA_ENTRY row 2 numCols id
-        PATCH_IF (kit_id >= 0 && id = kit_id) BEGIN
-          SET_2DA_ENTRY row 4 numCols ~%help_strref%~
-          found += 1
-        END
-      END
-    BUT_ONLY IF_EXISTS
-    OUTER_SET idx += 1
-  END
-
-  // In-game help
-  ACTION_IF (FILE_EXISTS_IN_GAME ~ENGINEST.2DA~) BEGIN
-    COPY_EXISTING ~ENGINEST.2DA~ ~override~
-      COUNT_2DA_COLS numCols
-      COUNT_2DA_ROWS numCols numRows
-      SET found = 0
-      FOR (row = 0; row < numRows && found < 2; row += 1) BEGIN
-        READ_2DA_ENTRY row 0 numCols value
-        PATCH_IF (~%value%~ STRING_EQUAL_CASE ~STRREF_GUI_HELP_KIT_FERALAN~) BEGIN
-          SET_2DA_ENTRY row 1 numCols ~%help_strref%~
-        END
-      END
-    BUT_ONLY
-  END
-
   COPY ~A7#ImprovedArcher/kit/ee/A7#IARO1.BAM~ ~override~
        ~A7#ImprovedArcher/kit/ee/A7#IBLT1.BAM~ ~override~
        ~A7#ImprovedArcher/kit/ee/A7#IBUL1.BAM~ ~override~
@@ -189,11 +43,6 @@ END ELSE BEGIN
        ~A7#ImprovedArcher/kit/A7#IN06B.EFF~ ~override~
        ~A7#ImprovedArcher/kit/A7#IN06C.EFF~ ~override~
 END
-
-COPY ~A7#ImprovedArcher/kit/%CLAB_DIR%/CLABA7R1.2DA~ ~override~
-  PATCH_IF (GAME_IS ~tob bgt~) BEGIN
-    LPF CLAB_FIX_ENTRY END
-  END
 
 COPY ~A7#ImprovedArcher/kit/A7#IN04.2DA~  ~override~
      ~A7#ImprovedArcher/kit/A7#IN07.2DA~  ~override~
@@ -260,58 +109,77 @@ COPY ~A7#ImprovedArcher/kit/A7#IN04.2DA~  ~override~
      ~A7#ImprovedArcher/kit/A7#ENTG1.VVC~ ~override~
 
 // Initializing user-defined status icons for shot abilities (EE-only)
-ACTION_IF (GAME_IS ~bgee bg2ee eet~) BEGIN
+ACTION_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
   COPY_EXISTING ~STATDESC.2DA~ ~override~
     SET icon_index = 82
+    SET icon_indices = 0
     COUNT_2DA_COLS numCols
     PATCH_IF (numCols > 2) BEGIN
+      DEFINE_ASSOCIATIVE_ARRAY icon_defs BEGIN 
+        1000 => ~A7#IN01D~
+        1001 => ~A7#IN02D~
+        1002 => ~A7#IN03D~
+        1017 => ~A7#IN0AD~
+      END
       READ_2DA_ENTRIES_NOW ~tbl_items~ numCols
       FOR (row = 0; row < tbl_items; ++row) BEGIN
         READ_2DA_ENTRY_FORMER ~tbl_items~ row 0 cur_idx
-        PATCH_IF (cur_idx > icon_index) BEGIN
-          SET icon_index = cur_idx
-        END
-      END
-      PATCH_IF (icon_index > 82) BEGIN
-        // Note: Adding rows in reverse order since 2DA functions don't update max. rows internally
-        DEFINE_ASSOCIATIVE_ARRAY icon_defs BEGIN 
-          1017 => ~A7#IN0AD~
-          1002 => ~A7#IN03D~
-          1001 => ~A7#IN02D~
-          1000 => ~A7#IN01D~
-        END
-        SET cur_index = icon_index + 4
-        PHP_EACH icon_defs AS ref => icn_name BEGIN
-          SET cur_strref = RESOLVE_STR_REF((AT ref))
-          TEXT_SPRINT icon_row ~%cur_index%        %cur_strref%          %icn_name%~
-          INSERT_2DA_ROW tbl_items numCols ~%icon_row%~
-          SET cur_index -= 1
-        END
-        INNER_ACTION BEGIN
-          COPY ~A7#ImprovedArcher/kit/ee/A7#IN01D.BAM~ ~override~
-          COPY ~A7#ImprovedArcher/kit/ee/A7#IN02D.BAM~ ~override~
-          COPY ~A7#ImprovedArcher/kit/ee/A7#IN03D.BAM~ ~override~
-          COPY ~A7#ImprovedArcher/kit/ee/A7#IN0AD.BAM~ ~override~
+        PATCH_IF (IS_AN_INT ~cur_idx~) BEGIN
+          READ_2DA_ENTRY_FORMER ~tbl_items~ row 2 cur_resref
+          SET match = 0
+          PHP_EACH icon_defs AS ref => icn_name BEGIN
+            PATCH_IF (NOT match && ~%cur_resref%~ STR_EQ ~%icn_name%~) BEGIN
+              SET $icon_indices(~%icn_name%~) = cur_idx
+              SET icon_indices += 1
+              SET match = 1
+            END
+          END
+          PATCH_IF (cur_idx > icon_index) BEGIN
+            SET icon_index = cur_idx
+          END
         END
       END
     END
+
+  ACTION_IF (icon_index > 82 && icon_indices < 4) BEGIN
+    ACTION_PHP_EACH icon_defs AS ref => icn_name BEGIN
+      ACTION_IF (NOT VARIABLE_IS_SET $icon_indices(~%icn_name%~)) BEGIN
+        OUTER_SET icon_index += 1
+        OUTER_SET cur_strref = RESOLVE_STR_REF((AT ref))
+        OUTER_TEXT_SPRINT icon_row ~%icon_index% %cur_strref% %icn_name%~
+        APPEND ~STATDESC.2DA~ ~%icon_row%~
+        OUTER_SET $icon_indices(~%icn_name%~) = icon_index
+        OUTER_SET icon_indices += 1
+      END
+    END
+    COPY_EXISTING ~STATDESC.2DA~ ~override~
+      PRETTY_PRINT_2DA
+    BUT_ONLY
+  END
+
+  COPY ~A7#ImprovedArcher/kit/ee/A7#IN01D.BAM~ ~override~
+  COPY ~A7#ImprovedArcher/kit/ee/A7#IN02D.BAM~ ~override~
+  COPY ~A7#ImprovedArcher/kit/ee/A7#IN03D.BAM~ ~override~
+  COPY ~A7#ImprovedArcher/kit/ee/A7#IN0AD.BAM~ ~override~
 END ELSE BEGIN
   OUTER_SET icon_index = 82
 END
+
 
 // Ability: Power Shot
 COPY ~A7#ImprovedArcher/kit/A7#IN01.SPL~ ~override~
   SAY NAME1 @1000   // Power Shot
   PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
     SAY UNIDENTIFIED_DESC @2001   // Power Shot...
-    PATCH_IF (icon_index != 82) BEGIN
+    PATCH_IF (VARIABLE_IS_SET $icon_indices(~A7#IN01D~)) BEGIN
+      SET idx = $icon_indices(~A7#IN01D~)
       LPF ALTER_EFFECT
       INT_VAR
         check_globals     = 0
         check_headers     = 1
         match_opcode      = 142   // Display portrait icon
         match_parameter2  = 82    // Called Shot icon
-        parameter2        = (icon_index + 1)
+        parameter2        = idx
       END
     END
   END
@@ -322,33 +190,38 @@ COPY ~A7#ImprovedArcher/kit/A7#IN02.SPL~ ~override~
   SAY NAME1 @1001   // Rooting Shot
   PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
     SAY UNIDENTIFIED_DESC @2002   // Rooting Shot...
-    PATCH_IF (icon_index != 82) BEGIN
+    PATCH_IF (VARIABLE_IS_SET $icon_indices(~A7#IN02D~)) BEGIN
+      SET idx = $icon_indices(~A7#IN02D~)
       LPF ALTER_EFFECT
       INT_VAR
         check_globals     = 0
         check_headers     = 1
         match_opcode      = 142   // Display portrait icon
         match_parameter2  = 82    // Called Shot icon
-        parameter2        = (icon_index + 2)
+        parameter2        = idx
       END
     END
   END
 
 
 // Ability: Explosive Shot
-ADD_PROJECTILE ~A7#ImprovedArcher/kit/A7#IN03.PRO~
+OUTER_SET ~A7#IN03~ = IDS_OF_SYMBOL(~projectl~ ~A7#IN03~) + 1
+ACTION_IF (~A7#IN03~ = 0) BEGIN
+  ADD_PROJECTILE ~A7#ImprovedArcher/kit/A7#IN03.PRO~
+END
 COPY ~A7#ImprovedArcher/kit/A7#IN03.SPL~ ~override~
   SAY NAME1 @1002   // Explosive Shot
   PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
     SAY UNIDENTIFIED_DESC @2003   // Explosive Shot...
-    PATCH_IF (icon_index != 82) BEGIN
+    PATCH_IF (VARIABLE_IS_SET $icon_indices(~A7#IN03D~)) BEGIN
+      SET idx = $icon_indices(~A7#IN03D~)
       LPF ALTER_EFFECT
       INT_VAR
         check_globals     = 0
         check_headers     = 1
         match_opcode      = 142   // Display portrait icon
         match_parameter2  = 82    // Called Shot icon
-        parameter2        = (icon_index + 3)
+        parameter2        = idx
       END
     END
   END
@@ -376,6 +249,7 @@ COPY_EXISTING ~A7#IN01.SPL~ ~override~
     END
     effects_ofs += 0x30
   END
+  BUT_ONLY
 
 // Ability: Create Blessed Ammunition
 COPY ~A7#ImprovedArcher/kit/A7#IN04.SPL~ ~override~
@@ -588,14 +462,15 @@ COPY ~A7#ImprovedArcher/kit/A7#INBUE.ITM~ ~override~
 COPY ~A7#ImprovedArcher/kit/A7#IN0A.SPL~ ~override~
   SAY NAME1 @1017   // Sure Shot
   SAY UNIDENTIFIED_DESC @1111   // Sure Shot...
-  PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~ AND icon_index != 82) BEGIN
+  PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~ && VARIABLE_IS_SET $icon_indices(~A7#IN0AD~)) BEGIN
+    SET idx = $icon_indices(~A7#IN0AD~)
     LPF ALTER_EFFECT
     INT_VAR
       check_globals     = 0
       check_headers     = 1
       match_opcode      = 142   // Display portrait icon
       match_parameter2  = 82    // Called Shot icon
-      parameter2        = (icon_index + 4)
+      parameter2        = idx
     END
   END
 
