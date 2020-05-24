@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOD: Kit Archer amélioré</title>
+    <meta name="description" content="A mod for BG2, BGT, BG:EE, BG2:EE, EET and IWD:EE that improves the Archer kit and adds related kits for fighters, paladins and thieves." />
+    <meta name="keywords" content="bg2, tob, bgt, bgee, sod, bg2ee, eet, iwdee, mod, archer" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div><a name="top" id="top"></a></div>
+    <div id="language">
+      <ul>
+        <li><a href="readme.html">English</a></li>
+        <li title="French">Français</li>
+        <li title="German"><a href="readme-german.html">Deutsch</a></li>
+        <!-- <li title="Polish"><a href="readme-polish.html">Polski</a></li> -->
+      </ul>
+    </div>
+
+    <header>
+      <h1 class="title">Profil d'Archer amélioré</h1>
+      <div class="subtitle">Un mod pour BG2, BGT, BG:EE, BG2:EE, EET et IWD:EE qui améliore le profil d'Archer et ajoute des profils équivalents aux guerriers, paladins et voleurs.</div>
+      <hr />
+      <p class="about"><strong>Auteur : Argent77</strong></p>
+      <ul id="globalnav" class="about">
+        <li><strong>Téléchargement</strong> (<a href="http://www.shsforums.net/files/file/1116-improved-archer-kit/">SHS</a>)</li>
+        <li><strong>Téléchargement</strong> (<a href="https://github.com/Argent77/A7-ImprovedArcher/releases/latest">GitHub</a>)</li>
+        <li><strong>Discussion</strong> (<a href="http://www.shsforums.net/topic/58012-improved-archer-kit/">SHS</a>)</li>
+        <li><strong>Discussion</strong> (<a href="https://forums.beamdog.com/discussion/34696/mod-improved-archer-kit-for-bgee-bg2ee-iwd-ee-and-original-bg2-bgt">Beamdog</a>)</li>
+        <li><a href="https://github.com/Argent77/A7-ImprovedArcher">Projet</a></li>
+        <li>Version : 3.1</li>
+      </ul>
+      <hr />
+      <nav>
+        <ul>
+          <li><a href="#overview">Présentation</a></li>
+          <li><a href="#installation">Installation</a></li>
+          <li><a href="#components">Composants</a></li>
+          <li><a href="#details">Description détaillée des profils</a></li>
+          <li><a href="#credits">Crédits</a></li>
+          <li><a href="#changelog">Historique des versions</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ================== O V E R V I E W ================== -->
+      <section id="overview">
+        <h2>Présentation</h2>
+        <p>Le profil Archer d'origine ne s'accorde pas très bien à la progression de niveaux. S'il apparaît très puissant au tout début du jeu, il devient beaucoup moins utile plus tard, comparativement aux autres profils de rôdeur.</p>
+        <p>Ce mod s'efforce de le rééquilibrer afin que les archers de bas niveau ne surpassent pas les autres classes, tout en permettant aux archers de haut niveau de soutenir la comparaison avec les autres profils de rôdeur. Il ajuste la puissance globale de l'archer et le dote de quelques compétences et aptitudes utiles.</p>
+        <p>Des composants supplémentaires déclinent le profil d'archer pour les classes de guerrier, de paladin et de voleur, ou ajoutent un ensemble d'arcs puissants et de munitions dans le jeu.</p>
+        <p>Ce mod est conçu pour fonctionner sur les jeux BG2, BGT, BG:EE, BG2:EE, EET (Enhanced Edition Trilogy) et IWD:EE.</p>
+        <hr class="spacer" />
+        <p>Si vous avez des questions, consultez le <a href="http://www.shsforums.net/topic/58012-improved-archer-kit/">forum de SHS</a> ou le <a href="https://forums.beamdog.com/discussion/34696/mod-improved-archer-kit-for-bgee-bg2ee-iwd-ee-and-original-bg2-bgt">forum de Beamdog</a>. Vous pouvez télécharger la dernière version de ce mod sur le site de <a href="http://www.shsforums.net/files/file/1116-improved-archer-kit/">SHS</a> ou sur <a href="https://github.com/Argent77/A7-ImprovedArcher/releases/latest">GitHub</a>.</p>
+        <div class="back">
+          <a class="novisit" href="#top">HAUT DE PAGE</a>
+        </div>
+      </section>
+
+      <!-- ================== I N S T A L L A T I O N ================== -->
+      <section id="installation">
+        <h2>Installation</h2>
+        <p>Il s'agit d'un mod WeiDU, donc très facile à installer. Il suffit de décompresser l'archive téléchargée dans votre répertoire de jeu (<em>le dossier qui contient le fichier CHITIN.KEY</em>), d'exécuter « <em>setup-A7#ImprovedArcher.exe</em> » (Windows) ou « <em>setup-A7#ImprovedArcher.command</em> » (macOS), et de suivre les instructions affichées à l'écran. Il est fortement recommandé de commencer une nouvelle partie après avoir installé ce mod.</p>
+        <p>Pour le désinstaller, relancez « <em>setup-A7#ImprovedArcher.exe</em> » ou « <em>setup-A7#ImprovedArcher.command</em> » et suivez les instructions affichées à l'écran.</p>
+        <hr class="doublespacer" />
+        <h3>Compatibilité</h3>
+        <p>Jusqu'à présent, aucun problème de compatibilité n'a été constaté. Cependant, le le nom du profil de voleur « Tireur de précision » (« <em>Sharpshooter</em> » en anglais) étant aussi utilisé par un profil similaire du mod « Song &amp; Silence », vous trouverez deux profils au nom identique dans l'écran de création de personnage si vous installez ces deux mods.</p>
+        <p><strong>Attention :</strong> Il est fortement déconseiller d'installer conjointement deux mods qui modifient le profil original d'Archer.</p>
+        <div class="back">
+          <a class="novisit" href="#top">HAUT DE PAGE</a>
+        </div>
+      </section>
+
+      <!-- ================== C O M P O N E N T S ================== -->
+      <section id="components">
+        <h2>Composants</h2>
+        <ol class="gappedlist">
+          <li>
+            <p><strong>Profil d'Archer amélioré</strong></p>
+            <p>Ce composant améliore les caractéristiques du profil d'Archer en rééquilibrant sa progression et en le dotant de quelques compétences et capacités uniques.</p>
+            <p>Vous trouverez une description détaillé du profil <a href="#details">plus bas</a>.</p>
+          </li>
+          <li>
+            <p><strong>Ajouter le profil de guerrier : Tireur d'élite</strong></p>
+            <p>Installe le profil de guerrier « Tireur d'élite » dans le jeu.</p>
+          </li>
+          <li>
+            <p><strong>Ajouter le profil de paladin : Chevalier archer</strong></p>
+            <p>Installe le profil de paladin « Chevalier archer » dans le jeu.</p>
+          </li>
+          <li>
+            <p><strong>Ajouter le profil de voleur : Tireur de précision</strong></p>
+            <p>Installe le profil de voleur « Tireur de précision » dans le jeu.</p>
+          </li>
+          <li>
+            <p><strong>Ajouter deux arcs puissants et des flèches et des carreaux +4 dans le jeu</strong> <em>(pour BG2:ToB, BGT, BG2:EE, EET et IWD:EE)</em></p>
+            <p>Ajoute des flèches et des carreaux +4 dans de nombreux magasins ainsi que dans l'inventaire de certaines créatures dans la partie ToB et dans la Tour de Garde.</p>
+            <p>BG2, BGT, BG2:EE et EET:</p>
+            <ul>
+              <li>Ajoute un puissant arc long dans le troisième niveau de la Tour de Garde.</li>
+              <li>Ajoute un arc composite encore plus puissant dans la clairière à l'extérieur de l'Enclave de Sendai.</li>
+            </ul>
+            <p>IWD:EE:</p>
+            <ul>
+              <li>Ajoute deux arc puissants et quelques flèches et carreaux +4 dans la Forge de Coulon à Kuldahar après le chapitre 4.</li>
+            </ul>
+          </li>
+        </ol>
+        <p>Tous ces composants peuvent être installés indépendamment les uns des autres.</p>
+        <div class="back">
+          <a class="novisit" href="#top">HAUT DE PAGE</a>
+        </div>
+      </section>
+
+      <!-- ================== D E S C R I P T I O N S ================== -->
+      <section id="details">
+        <h2>Description détaillée des profils</h2>
+       <hr class="spacer" />
+          <h3>Profil d'Archer amélioré</h3>
+          <p>Archer d'élite, il est capable de réussir les tirs les plus précis et les plus difficiles. Mais pour devenir aussi efficace avec un arc, il doit négliger certaines des capacités classiques des guerriers.</p>
+          <hr class="spacer" />
+          <p><strong>Avantages :</strong></p>
+          <ul>
+            <li>Bonus de 1 au toucher et aux dégâts avec les armes de jet, ainsi qu'à la classe d'armure contre les projectiles tous les 6 niveaux d'expérience.</li>
+            <li>Gagne 5 % de chance supplémentaire de réaliser un coup critique aux niveaux 9, 13 et 18.</li>
+            <li>Peut atteindre la grande maîtrise (cinq étoiles) des arcs longs, des arcs courts et des arbalètes.</li>
+            <li>Gagne tous les 4 niveaux la possibilité de tirer un trait immobilisant une fois par jour. Cette capacité n'est pas cumulable avec toute autre capacité de tir.</li>
+            <li>Gagne tous les 4 niveaux la possibilité de tirer un trait renversant une fois par jour, à partir du niveau 8. Cette capacité n'est pas cumulable avec toute autre capacité de tir.</li>
+            <li>Gagne tous les 4 niveaux la possibilité de tirer un trait explosif une fois par jour, à partir du niveau 8. Cette capacité n'est pas cumulable avec toute autre capacité de tir.</li>
+            <li>Gagne tous les 8 niveaux la possibilité de créer des munitions bénies une fois par jour, à partir du niveau 4.</li>
+          </ul>
+          <hr class="spacer" />
+          <p><strong>TIR IMMOBILISANT :</strong> Tout tir réussi dans les 12 secondes qui suivent peut enchevêtrer la cible :</p>
+          <ul>
+            <li>niveau 4  : Enchevêtre la cible pendant trois rounds si elle rate son JS contre les sorts.</li>
+            <li>niveau 8  : Enchevêtre la cible pendant trois rounds si elle rate son JS contre les sorts avec un malus de 1.</li>
+            <li>niveau 12 : Enchevêtre la cible pendant quatre rounds si elle rate son JS contre les sorts avec un malus de 1.</li>
+            <li>niveau 16 : Enchevêtre la cible pendant quatre rounds si elle rate son JS contre les sorts avec un malus de 2.</li>
+            <li>niveau 20 : Enchevêtre la cible pendant cinq rounds si elle rate son JS contre les sorts avec un malus de 2.</li>
+          </ul>
+          <hr class="spacer" />
+          <p><strong>TIR RENVERSANT :</strong> Tout tir réussi dans les 12 secondes qui suivent peut renverser la cible, selon le niveau de l'Archer :</p>
+          <ul>
+            <li>niveau 8  : Renverse la cible si elle rate son JS contre les souffles.</li>
+            <li>niveau 12 : Renverse la cible si elle rate son JS contre les souffles avec un malus de 1.</li>
+            <li>niveau 16 : Renverse la cible si elle rate son JS contre les souffles avec un malus de 2.</li>
+            <li>niveau 20 : Renverse la cible si elle rate son JS contre les souffles avec un malus de 3.</li>
+          </ul>
+          <hr class="spacer" />
+          <p><strong>TIR EXPLOSIF :</strong> Tout tir réussi dans les 12 secondes qui suivent explose à l'impact et inflige à toutes les créatures situées dans un rayon de 5 mètres des dégâts dépendant du niveau de l'Archer :</p>
+          <ul>
+            <li>niveau 8  : 1d4 points de dégâts</li>
+            <li>niveau 12 : 1d4+2 points de dégâts</li>
+            <li>niveau 16 : 1d4+4 points de dégâts</li>
+            <li>niveau 20 : 1d4+6 points de dégâts</li>
+          </ul>
+          <p><em>Attention : cette capacité inflige des dégâts aussi bien aux ennemis qu'aux alliés et aux passants innocents.</em></p>
+          <hr class="spacer" />
+          <p><strong>CREÉER DES MUNITIONS BÉNIES :</strong> L'archer crée une munition spirituelle (flèche ou carreau) bénie par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et dotée d'un certain nombre de charges, doublé aux niveaux 8 et 16.</p>
+          <ul>
+            <li>niveau 4  : munition +1, +1 au toucher et aux dégâts, 1d6 points supplémentaires contre les morts-vivants qui sont ralentis pendant deux rounds s'ils ratent leur JS contre la mort.</li>
+            <li>niveau 8  : munition +1, +2 au toucher et aux dégâts, 1d6+2 points supplémentaires contre les morts-vivants qui sont paralysés pendant deux rounds s'ils ratent leur JS contre la mort.</li>
+            <li>niveau 12 : munition +2, +2 au toucher et aux dégâts, 1d6+4 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort.</li>
+            <li>niveau 16 : munition +3, +3 au toucher et aux dégâts, 1d6+6 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 2.</li>
+            <li>niveau 20 : munition +4, +4 au toucher et aux dégâts, 1d6+8 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 4.</li>
+          </ul>
+          <hr class="spacer" />
+          <p><strong>TIR de PRÉCISION (HLA) :</strong> À haut niveau, les Archers ont acquis une parfaite maîtrise de leur arme de trait, ce qui leur permet de viser les points vitaux de leur cible avec une précision et une vitesse sidérantes. Cette capacité leur permet de prendre la meilleure position de tir possible et de décocher leurs traits en rafales. Dans les deux rounds qui suivent son activation, leur nombre d'attaques par round passe à 10 et chaque tir est considéré comme un coup critique. Puisque cette technique nécessite une compétence et une concentration extrêmes, l'archer ne peut plus se déplacer, comme s'il était enraciné au sol, pendant deux rounds. Il est impossible de cumuler cette capacité avec toute autre technique de tir.</p>
+          <hr class="spacer" />
+          <p><strong>PIÈGE À PROJECTILES (HLA) :</strong> Cette capacité permet à l'archer de poser un puissant piège à ressorts à condition qu'aucune créature hostile ne soit en vue. Ce piège libère des projectiles qui infligent 3d10 points de dégâts perforant ainsi que 1d10 points de dégâts de chaque élément (froid, feu, acide, électricité, poison) à l'infortunée victime qui a la malchance de le déclencher.</p>
+          <hr class="spacer" />
+          <p><strong>Désavantages :</strong></p>
+          <ul>
+            <li>-1 à la Constitution à la création.</li>
+            <li>Ne peut pas porter d'armure métallique.</li>
+            <li>Ne peut pas se spécialiser dans les armes de mêlée.</li>
+          </ul>
+        </div>
+
+        <hr class="doublespacer" />
+        <h3>Profil de guerrier : Tireur d'élite</h3>
+        <p>Ce profil possède les mêmes caractéristiques que le profil d'Archer, à ceci près :</p>
+        <ul>
+          <li>Ne dispose pas de la capacité « Créer des munitions bénies ».</li>
+          <li>Ne dispose pas de la capacité de haut niveau « Piège à projectiles ».</li>
+          <li>Ne peut pas que se spécialiser (deux étoiles) dans les armes de mêlée.</li>
+          <li>Ne peut allouer qu'une étoile dans les styles de combat.</li>
+        </ul>
+
+        <hr class="doublespacer" />
+        <h3>Profil de paladin : Chevalier archer</h3>
+        <p>Ce profil possède les mêmes caractéristiques que le profil d'Archer, à ceci près :</p>
+        <ul>
+          <li>Ne dispose pas de la capacité « Tir explosif ».</li>
+          <li>Ne dispose pas de la capacité de haut niveau « Piège à projectiles ».</li>
+          <li>Ne bénéficie d'aucun bonus de compétence pour les fléchettes.</li>
+          <li>Ne peut pas se spécialiser dans les armes de mêlée.</li>
+          <li>Ne peut allouer qu'une étoile dans les styles de combat.</li>
+        </ul>
+
+        <hr class="doublespacer" />
+        <h3>Profil de voleur : Tireur de précision</h3>
+        <p>Ce profil possède les mêmes caractéristiques que le profil d'Archer, à ceci près :</p>
+        <ul>
+          <li>Bonus de 1 au toucher et aux dégâts avec les armes de jet, ainsi qu'à la classe d'armure contre les projectiles tous les 8 niveaux d'expérience.</li>
+          <li>Ne dispose pas de la capacité « Créer des munitions bénies ».</li>
+          <li>Ne dispose pas de la capacité de haut niveau « Tir de précision ».</li>
+          <li>N'a que 15 points de compétence à répartir dans ses talents de voleur à chaque niveau.</li>
+          <li>Ne peut effectuer d'attaque sournoise.</li>
+        </ul>
+
+        <hr class="doublespacer" />
+        <h3>Descriptions des arcs longs</h3>
+        <p><strong>Grand Perce-Soleil +3 :</strong></p>
+        <p>Les Elfes d'Evéreska sont aussi connus pour leur propension à l'isolationnisme forcené que pour leur bravoure au combat. L'un de leurs plus célèbres guerriers était un archer nommé Bariah Crindor, dont la précision était légendaire, même chez les Humains. Bien que les Elfes refusent de confirmer ou d'infirmer cette histoire, les Humains racontent que l'œil aiguisé de Bariah n'aurait jamais manqué sa cible. Fabriqué par sa mère, son arc ne reçut jamais de nom particulier, même si les Humains finirent par le baptiser le Grand Perce-Soleil, persuadés que les flèches de Bariah auraient la force de transpercer l'astre du jour si l'archer le souhaitait.</p>
+        <p>Au cours d'une bataille dont le souvenir ravive encore une vive amertume parmi bien des Elfes, le griffon que montait Bariah fut tué par des mages invisibles qui lui avaient tendu une embuscade. Bien qu'un seul mage ait survécu au combat qui s'ensuivit, il parvint à s'emparer du Perce-Soleil et à s'échapper avec lui.</p>
+        <p>PARAMÈTRES :</p>
+        <p>Capacité de charge :</p>
+        <ul>
+        <li>Protection contre les projectiles normaux deux fois par jour</li>
+        </ul>
+        <p>Capacités de combat :</p>
+        <ul>
+        <li>Cet arc n'a pas besoin de flèches et tire des flèches +3 bénéficiant d'un TAC0 +4 et infligeant 1d6 points de dégâts perforants.</li>
+        </ul>
+        <p>TAC0 : +4<br />
+        Poids : 3<br />
+        Facteur de vitesse : 2<br />
+        Type de compétence : arc long<br />
+        Type : arme à deux mains<br />
+        Nécessite : 6 en Force<br />
+        Inutilisable par : Druide, Clerc, Mage, Voleur, Moine</p>
+
+        <hr class="doublespacer" />
+        <p><strong>Le Défenseur +5 :</strong></p>
+        <p>Les arcs composites sont des arcs longs dont les branches sont faites de plusieurs matériaux. Cela rend l'arc plus souple, ce qui accroît sa portée et les dégâts que ses traits infligent.</p>
+        <p>Non seulement celui-ci bénéficie d'enchantements puissants, mais les matériaux utilisés pour le fabriquer sont d'une qualité hors du commun. Son cadre exceptionnellement résistant peut dévier jusqu'aux coups les plus puissants alors que sa conception ergonomique permet de tirer des flèches en rafales.</p>
+        <p>PARAMÈTRES :</p>
+        <p>Capacités d'équipement :</p>
+        <ul>
+        <li>classe d'armure : +4 contre les armes de mêlée</li>
+        <li>3 flèches par round</li>
+        </ul>
+        <p>TAC0 : +6<br />
+        Dégâts : +2 (projectile)<br />
+        Poids : 5<br />
+        Facteur de vitesse : 2<br />
+        Type de compétence : arc long<br />
+        Type : arme à deux mains<br />
+        Nécessite : 18 en Force<br />
+        Inutilisable par : Druide, Clerc, Mage, Voleur, Barde, Moine</p>
+
+        <div class="back">
+          <a class="novisit" href="#top">HAUT DE PAGE</a>
+        </div>
+      </section>
+
+      <!-- ================== C R E D I T S ================== -->
+      <section id="credits">
+        <h2>Crédits</h2>
+        <p><strong>Écriture, codage et test :</strong> <a href="http://www.shsforums.net/user/14985-argent77/">Argent77</a></p>
+        <p><strong>Incorporation d'idées du mod « Universal Archer Kit » de semiticgod</strong></p>
+        <p><strong>Traduction française :</strong> Gwendolyne</p>
+        <p><strong>Traduction italienne :</strong> Aedan</p>
+        <p><strong>Traduction polonaise :</strong> Cahir</p>
+        <p><strong>Traduction russe :</strong> Saigon1983, JamesMaxwell</p>
+        <hr class="spacer" />
+        <h5>Informations sur les droits d'auteur :</h5>
+        <div class="important">
+          <div>
+            <a rel="license" id="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
+              <img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+            </a>
+          </div>
+          <p>Le mod « Improved Archer Kit » est déposé sous la licence <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+        </div>
+        <div class="back">
+          <a class="novisit" href="#top">HAUT DE PAGE</a>
+        </div>
+      </section>
+
+      <!-- ================== V E R S I O N   H I S T O R Y ================== -->
+      <section id="changelog">
+        <h2>Historique des versions</h2>
+        <h6>Version 3.2</h6>
+        <ul>
+          <li>Désormais, tous les composants installant des profils peuvent être installés indépendamment les uns des autres.</li>
+          <li>Le composant « Profil d'Archer amélioré » n'écrase plus le fichier 2da de la table originale des capacités de classe.</li>
+          <li>Ré-écriture du fichier readme au format html.</li>
+        </ul>
+        <hr class="spacer" />
+        <h6>Version 3.1</h6>
+        <ul>
+          <li>Mise à jour de la traduction russe (merci à JamesMaxwell).</li>
+          <li>Correction de fautes d'orthographe dans les descriptions des capacités.</li>
+        </ul>
+        <hr class="spacer" />
+        <h6>Version 3.0</h6>
+        <ul>
+          <li>Rééquilibrage des bonus de combat du profil d'Archer.</li>
+          <li>Rééquilibrage de la capacité « Créer des Munitions bénies ».</li>
+          <li>Ajout de profils inspirés de l'Archer pour les guerriers, les paladins et les voleurs.</li>
+          <li>Ajout des billes dans la capacité « Créer des Munitions bénies » du profil de paladin.</li>
+          <li>Correction du projectile des munitions bénies pour BG2/BGT.</li>
+          <li>Ajout du readme allemand.</li>
+        </ul>
+        <hr class="spacer" />
+        <h6>Version 2.4</h6>
+        <ul>
+          <li>Correction d'un bug causant des erreurs d'installation dans BG2:EE.</li>
+        </ul>
+        <hr class="spacer" />
+        <h6>Version 2.3</h6>
+        <ul>
+          <li>Ajout de la traduction française (merci à Gwendolyne)</li>
+          <li>Correction du bonus de TAC0 de l'arc « Le Défenseur +5 ».</li>
+          <li>Exclusion des Chamans de la liste des personnages ne pouvant pas utiliser les flèches.</li>
+          <li>Ajout du Moine dans la liste des classes ne pouvant pas utiliser les arcs.</li>
+          <li>Correction de la description incorrecte dans l'écran du personnage avec EET.</li>
+        </ul>
+        <hr class="spacer" />
+        <h6>Version 2.2</h6>
+        <ul>
+          <li>Ajout de la prise en charge de Siege of Dragonspear.</li>
+          <li>Amélioration de la compatibilité avec les jeux EE dotés d'un patch v2.x.</li>
+          <li>Ajout d'icônes de portrait pour les capacités de tir dans les jeux EE.</li>
+          <li>Ajout de la traduction italienne (merci à Aedan)</li>
+          <li>Ajout de la traduction polonaise (merci à Cahir)</li>
+        </ul>
+        <hr class="spacer" />
+        <h6>Version 2.1</h6>
+        <ul>
+          <li>Déplacement de l'emplacement d'un arc long du premier étage au troisième étage de la Tour de Garde.</li>
+          <li>Ajout des traductions allemande et russe.</li>
+          <li>Ajout d'informations dans le readme.</li>
+        </ul>
+        <hr class="spacer" />
+        <h6>Version 2.0</h6>
+        <ul>
+          <li>Ajout de la prise en charge de IWD:EE.</li>
+          <li>Fusion des composants.</li>
+          <li>Suppression des restrictions de lancement de sorts pour des raisons techniques.</li>
+        </ul>
+        <hr class="spacer" />
+        <h6>Version 1.0</h6>
+        <ul>
+          <li>Sortie initiale.</li>
+        </ul>
+        <div class="back">
+          <a class="novisit" href="#top">HAUT DE PAGE</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

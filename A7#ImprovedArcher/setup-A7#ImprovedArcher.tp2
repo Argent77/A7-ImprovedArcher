@@ -30,7 +30,9 @@ ALWAYS
   END
 END
 
-README ~A7#ImprovedArcher/readme/readme-%LANGUAGE%.txt~
+README ~A7#ImprovedArcher/readme/readme-%LANGUAGE%.html~
+       ~A7#ImprovedArcher/readme/readme-%LANGUAGE%.txt~
+       ~A7#ImprovedArcher/readme/readme.html~
        ~A7#ImprovedArcher/readme/readme.txt~
 
 LANGUAGE ~English~
