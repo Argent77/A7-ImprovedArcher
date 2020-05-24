@@ -15,7 +15,7 @@ COPY_EXISTING ~KITLIST.2DA~ ~override~
       READ_2DA_ENTRY row 0 numCols kit_id
       READ_2DA_ENTRY row 1 numCols kit_symbol
       SET_2DA_ENTRY row 4 numCols ~%help_strref%~
-      SET_2DA_ENTRY row 5 numCols ~CLABA7R1~
+      READ_2DA_ENTRY row 5 numCols src_clab_resref    // used later
       SET row = numRows
     END
   END
@@ -150,7 +150,117 @@ ACTION_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
   END
 END
 
-COPY ~A7#ImprovedArcher/kit/%CLAB_DIR%/CLABA7R1.2DA~ ~override~
-  PATCH_IF (GAME_IS ~tob bgt~) BEGIN
-    LPF CLAB_FIX_ENTRY END
+
+// Update Archer CLAB entries non-destructively
+COPY ~A7#ImprovedArcher/kit/%CLAB_DIR%/CLABA7R1.2DA~ ~A7#ImprovedArcher/kit/%CLAB_DIR%/CLABA7R1.2DA~
+  COUNT_2DA_COLS src_num_cols
+  COUNT_2DA_ROWS 1 src_num_rows
+  READ_2DA_ENTRIES_NOW src_clab 1
+  TEXT_SPRINT src_def_value $src_clab(~1~ ~0~)
+  // collecting CLAB entries for removal in target CLAB
+  FOR (row = 3; row < src_num_rows; ++row) BEGIN
+    FOR (col = 1; col < src_num_cols; ++col) BEGIN
+      PATCH_IF (VARIABLE_IS_SET $src_clab(~%row%~ ~%col%~)) BEGIN
+        TEXT_SPRINT value $src_clab(~%row%~ ~%col%~)
+        PATCH_IF (NOT ~%value%~ STR_EQ ~%src_def_value%~) BEGIN
+          TO_UPPER ~value~
+          SET $src_entries(~%value%~) = 1
+        END
+      END
+    END
   END
+  // Should be removed as well
+  SET $src_entries(~GA_SPCL121~) = 1
+BUT_ONLY
+
+ACTION_IF (FILE_EXISTS_IN_GAME ~%src_clab_resref%.2DA~) BEGIN
+  COPY_EXISTING ~%src_clab_resref%.2DA~ ~override~
+    COUNT_2DA_COLS dst_num_cols
+    COUNT_2DA_ROWS 1 dst_num_rows
+    READ_2DA_ENTRIES_NOW dst_clab 1
+    TEXT_SPRINT dst_def_value $dst_clab(~1~ ~0~)
+
+    // removing original entries referenced by source CLAB
+    FOR (col = 1; col < dst_num_cols; ++col) BEGIN
+      FOR (row = 3; row < dst_num_rows; ++row) BEGIN
+        PATCH_IF (VARIABLE_IS_SET $dst_clab(~%row%~ ~%col%~)) BEGIN
+          TEXT_SPRINT value $dst_clab(~%row%~ ~%col%~)
+          PATCH_IF (NOT ~%value%~ STR_EQ ~%dst_def_value%~) BEGIN
+            TO_UPPER ~value~
+            PATCH_IF (VARIABLE_IS_SET $src_entries(~%value%~)) BEGIN
+              SET_2DA_ENTRY_LATER dst_clab_clear row col ~%dst_def_value%~
+              TEXT_SPRINT $dst_clab(~%row%~ ~%col%~) ~%dst_def_value%~
+            END
+          END
+        END
+      END
+    END
+    SET_2DA_ENTRIES_NOW dst_clab_clear 1
+
+    // adding source entries
+    SET num_cols = (src_num_cols < dst_num_cols) ? src_num_cols : dst_num_cols
+    FOR (col = 1; col < num_cols; ++col) BEGIN
+      FOR (row = 3; row < dst_num_rows; ++row) BEGIN
+        PATCH_IF (VARIABLE_IS_SET $dst_clab(~%row%~ ~%col%~)) BEGIN
+          TEXT_SPRINT value $dst_clab(~%row%~ ~%col%~)
+          PATCH_IF (~%value%~ STR_EQ ~%dst_def_value%~) BEGIN
+            FOR (row2 = 3; row2 < src_num_rows; ++row2) BEGIN
+              PATCH_IF (VARIABLE_IS_SET $src_clab(~%row2%~ ~%col%~)) BEGIN
+                TEXT_SPRINT value $src_clab(~%row2%~ ~%col%~)
+                PATCH_IF (NOT ~%value%~ STR_EQ ~%src_def_value%~) BEGIN
+                  SET_2DA_ENTRY_LATER dst_clab_out row col ~%value%~
+                  TEXT_SPRINT $src_clab(~%row2%~ ~%col%~) ~%src_def_value%~
+                  SET row2 = src_num_rows
+                END
+              END
+            END
+          END
+        END
+      END
+    END
+    SET_2DA_ENTRIES_NOW dst_clab_out 1
+  BUT_ONLY
+
+  // adding remaining source entries (if available)
+  OUTER_SET line_add = 1
+  OUTER_WHILE (line_add != 0) BEGIN
+    OUTER_TEXT_SPRINT line ~~
+    OUTER_SET line_add = 0
+    OUTER_FOR (col = 1; col < num_cols; ++col) BEGIN
+      OUTER_SET entry_add = 0
+      OUTER_FOR (row = 3; row < src_num_rows; ++row) BEGIN
+        ACTION_IF (VARIABLE_IS_SET $src_clab(~%row%~ ~%col%~)) BEGIN
+          OUTER_TEXT_SPRINT value $src_clab(~%row%~ ~%col%~)
+          ACTION_IF (NOT ~%value%~ STR_EQ ~%src_def_value%~) BEGIN
+            OUTER_TEXT_SPRINT $src_clab(~%row%~ ~%col%~) ~%src_def_value%~
+            OUTER_TEXT_SPRINT line ~%line% %value%~
+            OUTER_SET entry_add = 1
+            OUTER_SET line_add = 1
+            OUTER_SET row = src_num_rows
+          END
+        END
+      END
+      ACTION_IF (entry_add = 0) BEGIN
+        OUTER_TEXT_SPRINT line ~%line% %dst_def_value%~
+      END
+    END
+    ACTION_IF (line_add != 0) BEGIN
+      OUTER_SET idx = dst_num_rows - 2
+      OUTER_SET dst_num_rows += 1
+      APPEND ~%src_clab_resref%.2DA~ ~ABILITY%idx% %line%~
+    END
+  END
+
+  // finalizing CLAB
+  COPY_EXISTING ~%src_clab_resref%.2DA~ ~override~
+    PATCH_IF (GAME_IS ~tob bgt~) BEGIN
+      LPF CLAB_FIX_ENTRY END
+    END
+    PRETTY_PRINT_2DA
+  BUT_ONLY
+END ELSE BEGIN
+  COPY ~A7#ImprovedArcher/kit/%CLAB_DIR%/CLABA7R1.2DA~ ~override/%src_clab_resref%.2DA~
+    PATCH_IF (GAME_IS ~tob bgt~) BEGIN
+      LPF CLAB_FIX_ENTRY END
+    END
+END

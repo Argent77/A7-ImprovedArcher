@@ -7,13 +7,18 @@ STR_VAR
 BEGIN
   COUNT_2DA_COLS num_cols
   COUNT_2DA_ROWS num_cols num_rows
+  READ_2DA_ENTRY 1 0 1 def_value
+  INNER_PATCH_SAVE blank ~          ~ BEGIN
+    SET len = STRING_LENGTH ~%def_value%~
+    WRITE_ASCIIE 0 ~%def_value%~ (len)
+  END
   SET count = 0
   FOR (col = 1; col < num_cols; ++col) BEGIN
     FOR (row = 0; row < num_rows; ++row) BEGIN
       READ_2DA_ENTRY row col num_cols value
       PATCH_IF (~%value%~ STR_EQ ~%entry%~) BEGIN
         PATCH_IF (count >= numEntries) BEGIN
-          SET_2DA_ENTRY row col num_cols ~****      ~
+          SET_2DA_ENTRY row col num_cols ~%blank%~
         END ELSE BEGIN
           SET count += 1
         END
