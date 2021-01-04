@@ -1,7 +1,7 @@
 Improved Archer Kit
 ~~~~~~~~~~~~~~~~~~~
 
-Version:    3.1
+Version:    3.2
 Author:     Argent77
 
 Download:   https://github.com/Argent77/A7-ImprovedArcher/releases/latest
@@ -199,6 +199,12 @@ Copyright Notice
 
 History
 ~~~~~~~
+
+3.2 (2021-01-04)
+  - Made all kit-related subcomponents independent of each other
+  - "Improved Archer kit" component doesn't overwrite original class ability table anymore
+  - Added Project Infinity metadata
+  - Changed readme into html format
 
 3.1 (2020-01-19)
   - Updated Russian translation (thanks JamesMaxwell)

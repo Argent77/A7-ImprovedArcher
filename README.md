@@ -32,15 +32,15 @@ The mod includes two components:
 
 Improves the Archer kit by balancing stat progression and adding a couple of unique skills and abilities.
 
-#### 2. Add fighter kit: Marksman (requires main component "Improved Archer Kit")
+#### 2. Add fighter kit: Marksman (requires BG2:ToB, BGT, BG:EE, BG:SoD, BG2:EE, EET or IWD:EE)
 
 Adds the fighter kit "Marksman" to the game, based on the improvements of the Archer kit.
 
-#### 3. Add paladin kit: Bow Knight (requires main component "Improved Archer Kit")
+#### 3. Add paladin kit: Bow Knight (requires BG2:ToB, BGT, BG:EE, BG:SoD, BG2:EE, EET or IWD:EE)
 
 Adds the paladin kit "Bow Knight" to the game, based on the improvements of the Archer kit.
 
-#### 4. Add thief kit: Sharpshooter (requires main component "Improved Archer Kit")
+#### 4. Add thief kit: Sharpshooter (requires BG2:ToB, BGT, BG:EE, BG:SoD, BG2:EE, EET or IWD:EE)
 
 Adds the thief kit "Sharpshooter" to the game, based on the improvements of the Archer kit.
 
