@@ -1,11 +1,16 @@
-BACKUP ~A7#ImprovedArcher/backup~
+BACKUP ~weidu_external/backup/A7#ImprovedArcher~
 SUPPORT ~https://forums.beamdog.com/discussion/34696~
 VERSION ~v3.2~
 
 ASK_EVERY_COMPONENT
 
 ALWAYS
-  INCLUDE ~A7#ImprovedArcher/lib/functions.tph~
+  // required because of non-standard BACKUP path
+  OUTER_TEXT_SPRINT MOD_FOLDER ~A7#ImprovedArcher~
+  // root folder for mutable data
+  OUTER_TEXT_SPRINT WORK_FOLDER ~weidu_external~
+
+  INCLUDE ~%MOD_FOLDER%/lib/functions.tph~
 
   ACTION_IF (GAME_IS ~iwdee~) BEGIN
     OUTER_TEXT_SPRINT CLAB_DIR ~iwd~
@@ -17,16 +22,19 @@ ALWAYS
   ACTION_DEFINE_ARRAY a7#reload BEGIN ~kit~ END
   LAF HANDLE_CHARSETS
     INT_VAR
-      infer_charset = 1
+      from_utf8         = 1
+      infer_charset     = 1
     STR_VAR
-      tra_path        = ~A7#ImprovedArcher/languages~
-      noconvert_array = ~a7#noconvert~
-      reload_array    = ~a7#reload~
+      default_language  = ~english~
+      tra_path          = EVAL ~%MOD_FOLDER%/languages~
+      out_path          = EVAL ~%WORK_FOLDER%/lang/%MOD_FOLDER%~
+      noconvert_array   = ~a7#noconvert~
+      reload_array      = ~a7#reload~
   END
 
   ACTION_IF GAME_IS ~bgee bg2ee iwdee eet~ BEGIN
-    LOAD_TRA ~A7#ImprovedArcher/languages/english/kit-ee.tra~
-    LOAD_TRA ~A7#ImprovedArcher/languages/%LANGUAGE%/kit-ee.tra~
+    LOAD_TRA ~%MOD_FOLDER%/languages/english/kit-ee.tra~
+    LOAD_TRA ~%MOD_FOLDER%/languages/%LANGUAGE%/kit-ee.tra~
   END
 END
 
@@ -75,7 +83,7 @@ BEGIN @1    // Improved Archer Kit
   REQUIRE_PREDICATE GAME_IS ~tob bgt bgee bg2ee iwdee eet~ @100   // This mod requires BG2:ToB, BG:EE, BG2:EE or IWD:EE to be installed.
   DESIGNATED 0
 
-  INCLUDE ~A7#ImprovedArcher/lib/kit_archer.tph~
+  INCLUDE ~%MOD_FOLDER%/lib/kit_archer.tph~
 
 
 BEGIN @3    // Add fighter kit: Marksman
@@ -83,7 +91,7 @@ BEGIN @3    // Add fighter kit: Marksman
   // REQUIRE_COMPONENT ~setup-A7#ImprovedArcher.tp2~ 0 @102  // This component requires the main component "Improved Archer Kit" to be installed.
   DESIGNATED 10
 
-  INCLUDE ~A7#ImprovedArcher/lib/kit_fighter.tph~
+  INCLUDE ~%MOD_FOLDER%/lib/kit_fighter.tph~
 
 
 BEGIN @4    // Add paladin kit: Bow Knight
@@ -91,7 +99,7 @@ BEGIN @4    // Add paladin kit: Bow Knight
   // REQUIRE_COMPONENT ~setup-A7#ImprovedArcher.tp2~ 0 @102  // This component requires the main component "Improved Archer Kit" to be installed.
   DESIGNATED 20
 
-  INCLUDE ~A7#ImprovedArcher/lib/kit_paladin.tph~
+  INCLUDE ~%MOD_FOLDER%/lib/kit_paladin.tph~
 
 
 BEGIN @5    // Add thief kit: Sharpshooter
@@ -99,12 +107,12 @@ BEGIN @5    // Add thief kit: Sharpshooter
   // REQUIRE_COMPONENT ~setup-A7#ImprovedArcher.tp2~ 0 @102  // This component requires the main component "Improved Archer Kit" to be installed.
   DESIGNATED 30
 
-  INCLUDE ~A7#ImprovedArcher/lib/kit_thief.tph~
+  INCLUDE ~%MOD_FOLDER%/lib/kit_thief.tph~
 
 
 BEGIN @2    // Add +4 arrows, bolts and two powerful bows to the game
   REQUIRE_PREDICATE GAME_IS ~tob bgt bg2ee iwdee eet~ @101    // This mod requires BG2:ToB, BG2:EE or IWD:EE to be installed.
   DESIGNATED 100
 
-  INCLUDE ~A7#ImprovedArcher/lib/missiles.tph~
-  INCLUDE ~A7#ImprovedArcher/lib/bows.tph~
+  INCLUDE ~%MOD_FOLDER%/lib/missiles.tph~
+  INCLUDE ~%MOD_FOLDER%/lib/bows.tph~

@@ -1,5 +1,5 @@
 // Installing Ranger -> Archer kit
-INCLUDE ~A7#ImprovedArcher/lib/kit.tph~
+INCLUDE ~%MOD_FOLDER%/lib/kit.tph~
 
 OUTER_SET help_strref = RESOLVE_STR_REF(@1100)    // Archer kit description
 
@@ -152,7 +152,7 @@ END
 
 
 // Update Archer CLAB entries non-destructively
-COPY ~A7#ImprovedArcher/kit/%CLAB_DIR%/CLABA7R1.2DA~ ~A7#ImprovedArcher/kit/%CLAB_DIR%/CLABA7R1.2DA~
+COPY ~%MOD_FOLDER%/kit/%CLAB_DIR%/CLABA7R1.2DA~ ~%MOD_FOLDER%/kit/%CLAB_DIR%/CLABA7R1.2DA~
   COUNT_2DA_COLS src_num_cols
   COUNT_2DA_ROWS 1 src_num_rows
   READ_2DA_ENTRIES_NOW src_clab 1
@@ -259,7 +259,7 @@ ACTION_IF (FILE_EXISTS_IN_GAME ~%src_clab_resref%.2DA~) BEGIN
     PRETTY_PRINT_2DA
   BUT_ONLY
 END ELSE BEGIN
-  COPY ~A7#ImprovedArcher/kit/%CLAB_DIR%/CLABA7R1.2DA~ ~override/%src_clab_resref%.2DA~
+  COPY ~%MOD_FOLDER%/kit/%CLAB_DIR%/CLABA7R1.2DA~ ~override/%src_clab_resref%.2DA~
     PATCH_IF (GAME_IS ~tob bgt~) BEGIN
       LPF CLAB_FIX_ENTRY END
     END

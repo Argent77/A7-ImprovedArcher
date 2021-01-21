@@ -1,6 +1,6 @@
 // Installing Fighter -> Marksman kit
-INCLUDE ~A7#ImprovedArcher/lib/a7#add_kit_ex.tpa~
-INCLUDE ~A7#ImprovedArcher/lib/kit.tph~
+INCLUDE ~%MOD_FOLDER%/lib/a7#add_kit_ex.tpa~
+INCLUDE ~%MOD_FOLDER%/lib/kit.tph~
 
 ACTION_IF (GAME_IS ~tob bgt bg2ee eet~) BEGIN
   OUTER_TEXT_SPRINT stweap ~LEAT14 * HELM07 BAG20 RING06 RING31 CLCK02 BOOT01 AMUL19 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 BOW18 XBOW09 STAF08~
@@ -27,7 +27,7 @@ STR_VAR
   abdcscrq  = ~15 0 0 0 0 0~
   alignmnt  = ~1 1 1 1 1 1 1 1 1~
   dualclas  = ~0 1 1 1 1 0~
-  clab_path = EVAL ~A7#ImprovedArcher/kit/%CLAB_DIR%/CLABA7F1.2DA~
+  clab_path = EVAL ~%MOD_FOLDER%/kit/%CLAB_DIR%/CLABA7F1.2DA~
   kittable  = ~K_F_H K_F_D K_F_G K_F_E K_F_HE K_F_HL K_F_HO~
   luabbr    = ~A7fi1~
   stweap
@@ -41,7 +41,7 @@ RET
   kit_id
 END
 
-COPY ~A7#ImprovedArcher/kit/LUA7FI1.2DA~ ~override~
+COPY ~%MOD_FOLDER%/kit/LUA7FI1.2DA~ ~override~
 
 COPY_EXISTING ~CLABA7F1.2DA~ ~override~
   PATCH_IF (GAME_IS ~tob bgt~) BEGIN

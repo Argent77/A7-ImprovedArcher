@@ -2,111 +2,111 @@
 
 // Work-around for a buggy implementation of opcode 122 (Create inventory item) in the Enhanced Editions patch 1.x
 ACTION_IF (GAME_IS ~iwdee~ && NOT FILE_EXISTS_IN_GAME ~achievem.2da~) BEGIN
-  OUTER_TEXT_SPRINT spl_arrow "A7#ImprovedArcher/kit/ee/A7#IN04A.SPL"
-  OUTER_TEXT_SPRINT spl_bolt  "A7#ImprovedArcher/kit/ee/A7#IN04B.SPL"
-  OUTER_TEXT_SPRINT spl_bullet  "A7#ImprovedArcher/kit/ee/A7#IN04C.SPL"
+  OUTER_TEXT_SPRINT spl_arrow "%MOD_FOLDER%/kit/ee/A7#IN04A.SPL"
+  OUTER_TEXT_SPRINT spl_bolt  "%MOD_FOLDER%/kit/ee/A7#IN04B.SPL"
+  OUTER_TEXT_SPRINT spl_bullet  "%MOD_FOLDER%/kit/ee/A7#IN04C.SPL"
 END ELSE BEGIN
-  OUTER_TEXT_SPRINT spl_arrow "A7#ImprovedArcher/kit/A7#IN04A.SPL"
-  OUTER_TEXT_SPRINT spl_bolt  "A7#ImprovedArcher/kit/A7#IN04B.SPL"
-  OUTER_TEXT_SPRINT spl_bullet  "A7#ImprovedArcher/kit/A7#IN04C.SPL"
+  OUTER_TEXT_SPRINT spl_arrow "%MOD_FOLDER%/kit/A7#IN04A.SPL"
+  OUTER_TEXT_SPRINT spl_bolt  "%MOD_FOLDER%/kit/A7#IN04B.SPL"
+  OUTER_TEXT_SPRINT spl_bullet  "%MOD_FOLDER%/kit/A7#IN04C.SPL"
 END
 
 ACTION_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
-  COPY ~A7#ImprovedArcher/kit/ee/A7#IARO1.BAM~ ~override~
-       ~A7#ImprovedArcher/kit/ee/A7#IBLT1.BAM~ ~override~
-       ~A7#ImprovedArcher/kit/ee/A7#IBUL1.BAM~ ~override~
-       ~A7#ImprovedArcher/kit/ee/A7#IN01B.BAM~ ~override~
-       ~A7#ImprovedArcher/kit/ee/A7#IN02B.BAM~ ~override~
-       ~A7#ImprovedArcher/kit/ee/A7#IN03B.BAM~ ~override~
-       ~A7#ImprovedArcher/kit/ee/A7#IN04B.BAM~ ~override~
-       ~A7#ImprovedArcher/kit/ee/A7#IN4AB.BAM~ ~override~
-       ~A7#ImprovedArcher/kit/ee/A7#IN4BB.BAM~ ~override~
-       ~A7#ImprovedArcher/kit/ee/A7#IN4CB.BAM~ ~override~
-       ~A7#ImprovedArcher/kit/ee/A7#IN0AB.BAM~ ~override~
-       ~A7#ImprovedArcher/kit/ee/A7#IN0BB.SPL~ ~override~
-       ~A7#ImprovedArcher/kit/ee/A7#IN06.SPL~  ~override~
+  COPY ~%MOD_FOLDER%/kit/ee/A7#IARO1.BAM~ ~override~
+       ~%MOD_FOLDER%/kit/ee/A7#IBLT1.BAM~ ~override~
+       ~%MOD_FOLDER%/kit/ee/A7#IBUL1.BAM~ ~override~
+       ~%MOD_FOLDER%/kit/ee/A7#IN01B.BAM~ ~override~
+       ~%MOD_FOLDER%/kit/ee/A7#IN02B.BAM~ ~override~
+       ~%MOD_FOLDER%/kit/ee/A7#IN03B.BAM~ ~override~
+       ~%MOD_FOLDER%/kit/ee/A7#IN04B.BAM~ ~override~
+       ~%MOD_FOLDER%/kit/ee/A7#IN4AB.BAM~ ~override~
+       ~%MOD_FOLDER%/kit/ee/A7#IN4BB.BAM~ ~override~
+       ~%MOD_FOLDER%/kit/ee/A7#IN4CB.BAM~ ~override~
+       ~%MOD_FOLDER%/kit/ee/A7#IN0AB.BAM~ ~override~
+       ~%MOD_FOLDER%/kit/ee/A7#IN0BB.SPL~ ~override~
+       ~%MOD_FOLDER%/kit/ee/A7#IN06.SPL~  ~override~
 END ELSE BEGIN
-  COPY ~A7#ImprovedArcher/kit/A7#IARO1.BAM~ ~override~
-       ~A7#ImprovedArcher/kit/A7#IBLT1.BAM~ ~override~
-       ~A7#ImprovedArcher/kit/A7#IBUL1.BAM~ ~override~
-       ~A7#ImprovedArcher/kit/A7#IN01B.BAM~ ~override~
-       ~A7#ImprovedArcher/kit/A7#IN02B.BAM~ ~override~
-       ~A7#ImprovedArcher/kit/A7#IN03B.BAM~ ~override~
-       ~A7#ImprovedArcher/kit/A7#IN04B.BAM~ ~override~
-       ~A7#ImprovedArcher/kit/A7#IN4AB.BAM~ ~override~
-       ~A7#ImprovedArcher/kit/A7#IN4BB.BAM~ ~override~
-       ~A7#ImprovedArcher/kit/A7#IN4CB.BAM~ ~override~
-       ~A7#ImprovedArcher/kit/A7#IN0AB.BAM~ ~override~
-       ~A7#ImprovedArcher/kit/A7#IN0BB.SPL~ ~override~
-       ~A7#ImprovedArcher/kit/A7#IN06.SPL~  ~override~
-       ~A7#ImprovedArcher/kit/A7#IN06A.EFF~ ~override~
-       ~A7#ImprovedArcher/kit/A7#IN06B.EFF~ ~override~
-       ~A7#ImprovedArcher/kit/A7#IN06C.EFF~ ~override~
+  COPY ~%MOD_FOLDER%/kit/A7#IARO1.BAM~ ~override~
+       ~%MOD_FOLDER%/kit/A7#IBLT1.BAM~ ~override~
+       ~%MOD_FOLDER%/kit/A7#IBUL1.BAM~ ~override~
+       ~%MOD_FOLDER%/kit/A7#IN01B.BAM~ ~override~
+       ~%MOD_FOLDER%/kit/A7#IN02B.BAM~ ~override~
+       ~%MOD_FOLDER%/kit/A7#IN03B.BAM~ ~override~
+       ~%MOD_FOLDER%/kit/A7#IN04B.BAM~ ~override~
+       ~%MOD_FOLDER%/kit/A7#IN4AB.BAM~ ~override~
+       ~%MOD_FOLDER%/kit/A7#IN4BB.BAM~ ~override~
+       ~%MOD_FOLDER%/kit/A7#IN4CB.BAM~ ~override~
+       ~%MOD_FOLDER%/kit/A7#IN0AB.BAM~ ~override~
+       ~%MOD_FOLDER%/kit/A7#IN0BB.SPL~ ~override~
+       ~%MOD_FOLDER%/kit/A7#IN06.SPL~  ~override~
+       ~%MOD_FOLDER%/kit/A7#IN06A.EFF~ ~override~
+       ~%MOD_FOLDER%/kit/A7#IN06B.EFF~ ~override~
+       ~%MOD_FOLDER%/kit/A7#IN06C.EFF~ ~override~
 END
 
-COPY ~A7#ImprovedArcher/kit/A7#IN04.2DA~  ~override~
-     ~A7#ImprovedArcher/kit/A7#IN07.2DA~  ~override~
-     ~A7#ImprovedArcher/kit/LUA7RA1.2DA~  ~override~
-     ~A7#ImprovedArcher/kit/A7#IN11A.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN11B.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN11C.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN12A.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN12B.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN12C.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN13A.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN13B.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN13C.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN14A.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN14B.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN14C.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN21A.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN21B.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN21C.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN21D.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN21E.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN21F.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN22A.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN22B.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN22C.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN22D.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN22E.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN22F.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN23A.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN23B.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN23C.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN23D.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN23E.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN23F.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN24A.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN24B.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN24C.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN24D.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN24E.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN24F.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN25A.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN25B.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN25C.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN25D.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN25E.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN25F.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN31A.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN32A.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN33A.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN34A.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN41A.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN41B.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN42A.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN42B.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN43A.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN43B.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN44A.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN44B.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN45A.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN45B.EFF~ ~override~
-     ~A7#ImprovedArcher/kit/A7#IN03.PRO~  ~override~
-     ~A7#ImprovedArcher/kit/A7#IN05.SPL~  ~override~
-     ~A7#ImprovedArcher/kit/A7#ENTG.BAM~  ~override~
-     ~A7#ImprovedArcher/kit/A7#ENTG1.VVC~ ~override~
+COPY ~%MOD_FOLDER%/kit/A7#IN04.2DA~  ~override~
+     ~%MOD_FOLDER%/kit/A7#IN07.2DA~  ~override~
+     ~%MOD_FOLDER%/kit/LUA7RA1.2DA~  ~override~
+     ~%MOD_FOLDER%/kit/A7#IN11A.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN11B.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN11C.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN12A.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN12B.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN12C.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN13A.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN13B.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN13C.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN14A.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN14B.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN14C.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN21A.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN21B.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN21C.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN21D.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN21E.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN21F.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN22A.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN22B.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN22C.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN22D.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN22E.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN22F.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN23A.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN23B.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN23C.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN23D.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN23E.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN23F.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN24A.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN24B.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN24C.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN24D.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN24E.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN24F.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN25A.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN25B.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN25C.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN25D.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN25E.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN25F.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN31A.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN32A.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN33A.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN34A.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN41A.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN41B.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN42A.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN42B.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN43A.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN43B.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN44A.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN44B.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN45A.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN45B.EFF~ ~override~
+     ~%MOD_FOLDER%/kit/A7#IN03.PRO~  ~override~
+     ~%MOD_FOLDER%/kit/A7#IN05.SPL~  ~override~
+     ~%MOD_FOLDER%/kit/A7#ENTG.BAM~  ~override~
+     ~%MOD_FOLDER%/kit/A7#ENTG1.VVC~ ~override~
 
 // Initializing user-defined status icons for shot abilities (EE-only)
 ACTION_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
@@ -157,17 +157,17 @@ ACTION_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
     BUT_ONLY
   END
 
-  COPY ~A7#ImprovedArcher/kit/ee/A7#IN01D.BAM~ ~override~
-  COPY ~A7#ImprovedArcher/kit/ee/A7#IN02D.BAM~ ~override~
-  COPY ~A7#ImprovedArcher/kit/ee/A7#IN03D.BAM~ ~override~
-  COPY ~A7#ImprovedArcher/kit/ee/A7#IN0AD.BAM~ ~override~
+  COPY ~%MOD_FOLDER%/kit/ee/A7#IN01D.BAM~ ~override~
+  COPY ~%MOD_FOLDER%/kit/ee/A7#IN02D.BAM~ ~override~
+  COPY ~%MOD_FOLDER%/kit/ee/A7#IN03D.BAM~ ~override~
+  COPY ~%MOD_FOLDER%/kit/ee/A7#IN0AD.BAM~ ~override~
 END ELSE BEGIN
   OUTER_SET icon_index = 82
 END
 
 
 // Ability: Power Shot
-COPY ~A7#ImprovedArcher/kit/A7#IN01.SPL~ ~override~
+COPY ~%MOD_FOLDER%/kit/A7#IN01.SPL~ ~override~
   SAY NAME1 @1000   // Power Shot
   PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
     SAY UNIDENTIFIED_DESC @2001   // Power Shot...
@@ -186,7 +186,7 @@ COPY ~A7#ImprovedArcher/kit/A7#IN01.SPL~ ~override~
 
 
 // Ability: Rooting Shot
-COPY ~A7#ImprovedArcher/kit/A7#IN02.SPL~ ~override~
+COPY ~%MOD_FOLDER%/kit/A7#IN02.SPL~ ~override~
   SAY NAME1 @1001   // Rooting Shot
   PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
     SAY UNIDENTIFIED_DESC @2002   // Rooting Shot...
@@ -207,9 +207,9 @@ COPY ~A7#ImprovedArcher/kit/A7#IN02.SPL~ ~override~
 // Ability: Explosive Shot
 OUTER_SET ~A7#IN03~ = IDS_OF_SYMBOL(~projectl~ ~A7#IN03~) + 1
 ACTION_IF (~A7#IN03~ = 0) BEGIN
-  ADD_PROJECTILE ~A7#ImprovedArcher/kit/A7#IN03.PRO~
+  ADD_PROJECTILE ~%MOD_FOLDER%/kit/A7#IN03.PRO~
 END
-COPY ~A7#ImprovedArcher/kit/A7#IN03.SPL~ ~override~
+COPY ~%MOD_FOLDER%/kit/A7#IN03.SPL~ ~override~
   SAY NAME1 @1002   // Explosive Shot
   PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
     SAY UNIDENTIFIED_DESC @2003   // Explosive Shot...
@@ -225,10 +225,10 @@ COPY ~A7#ImprovedArcher/kit/A7#IN03.SPL~ ~override~
       END
     END
   END
-COPY ~A7#ImprovedArcher/kit/A7#IN31A.SPL~  ~override~
-     ~A7#ImprovedArcher/kit/A7#IN32A.SPL~  ~override~
-     ~A7#ImprovedArcher/kit/A7#IN33A.SPL~  ~override~
-     ~A7#ImprovedArcher/kit/A7#IN34A.SPL~  ~override~
+COPY ~%MOD_FOLDER%/kit/A7#IN31A.SPL~  ~override~
+     ~%MOD_FOLDER%/kit/A7#IN32A.SPL~  ~override~
+     ~%MOD_FOLDER%/kit/A7#IN33A.SPL~  ~override~
+     ~%MOD_FOLDER%/kit/A7#IN34A.SPL~  ~override~
   SAY NAME1 @1002   // Explosive Shot
   READ_LONG 0x64 "ability_ofs"
   READ_SHORT 0x68 "ability_num"
@@ -252,13 +252,13 @@ COPY_EXISTING ~A7#IN01.SPL~ ~override~
   BUT_ONLY
 
 // Ability: Create Blessed Ammunition
-COPY ~A7#ImprovedArcher/kit/A7#IN04.SPL~ ~override~
+COPY ~%MOD_FOLDER%/kit/A7#IN04.SPL~ ~override~
   SAY NAME1 @1003   // Create Blessed Ammunition
   PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
     SAY UNIDENTIFIED_DESC @2004   // Create Spiritual Ammunition...
   END
 
-COPY ~A7#ImprovedArcher/kit/A7#IN07.SPL~ ~override~
+COPY ~%MOD_FOLDER%/kit/A7#IN07.SPL~ ~override~
   SAY NAME1 @1003   // Create Blessed Ammunition
   PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
     SAY UNIDENTIFIED_DESC @2008   // Create Spiritual Ammunition...
@@ -307,7 +307,7 @@ COPY ~%spl_bullet%~ ~override~
   END
 
 // Blessed Arrows, Bolts and Bullets
-COPY ~A7#ImprovedArcher/kit/A7#INARA.ITM~ ~override~
+COPY ~%MOD_FOLDER%/kit/A7#INARA.ITM~ ~override~
   SAY NAME2 @1006   // Blessed Arrow +1
   SAY IDENTIFIED_DESC @1101   // This is an arrow that has been blessed by the Archer's worshipped god or goddess...
   PATCH_IF (GAME_IS ~iwdee~) BEGIN
@@ -317,7 +317,7 @@ COPY ~A7#ImprovedArcher/kit/A7#INARA.ITM~ ~override~
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
   END
 
-COPY ~A7#ImprovedArcher/kit/A7#INARB.ITM~ ~override~
+COPY ~%MOD_FOLDER%/kit/A7#INARB.ITM~ ~override~
   SAY NAME2 @1006   // Blessed Arrow +1
   SAY IDENTIFIED_DESC @1102   // This is an arrow that has been blessed by the Archer's worshipped god or goddess...
   PATCH_IF (GAME_IS ~iwdee~) BEGIN
@@ -327,7 +327,7 @@ COPY ~A7#ImprovedArcher/kit/A7#INARB.ITM~ ~override~
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
   END
 
-COPY ~A7#ImprovedArcher/kit/A7#INARC.ITM~ ~override~
+COPY ~%MOD_FOLDER%/kit/A7#INARC.ITM~ ~override~
   SAY NAME2 @1007   // Blessed Arrow +2
   SAY IDENTIFIED_DESC @1103   // This is an arrow that has been blessed by the Archer's worshipped god or goddess...
   PATCH_IF (GAME_IS ~iwdee~) BEGIN
@@ -337,7 +337,7 @@ COPY ~A7#ImprovedArcher/kit/A7#INARC.ITM~ ~override~
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
   END
 
-COPY ~A7#ImprovedArcher/kit/A7#INARD.ITM~ ~override~
+COPY ~%MOD_FOLDER%/kit/A7#INARD.ITM~ ~override~
   SAY NAME2 @1008   // Blessed Arrow +3
   SAY IDENTIFIED_DESC @1104   // This is an arrow that has been blessed by the Archer's worshipped god or goddess...
   PATCH_IF (GAME_IS ~iwdee~) BEGIN
@@ -347,7 +347,7 @@ COPY ~A7#ImprovedArcher/kit/A7#INARD.ITM~ ~override~
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
   END
 
-COPY ~A7#ImprovedArcher/kit/A7#INARE.ITM~ ~override~
+COPY ~%MOD_FOLDER%/kit/A7#INARE.ITM~ ~override~
   SAY NAME2 @1009   // Blessed Arrow +4
   SAY IDENTIFIED_DESC @1105   // This is an arrow that has been blessed by the Archer's worshipped god or goddess...
   PATCH_IF (GAME_IS ~iwdee~) BEGIN
@@ -357,7 +357,7 @@ COPY ~A7#ImprovedArcher/kit/A7#INARE.ITM~ ~override~
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
   END
 
-COPY ~A7#ImprovedArcher/kit/A7#INBTA.ITM~ ~override~
+COPY ~%MOD_FOLDER%/kit/A7#INBTA.ITM~ ~override~
   SAY NAME2 @1010   // Blessed Bolt +1
   SAY IDENTIFIED_DESC @1106   // This is an bolt that has been blessed by the Archer's worshipped god or goddess...
   PATCH_IF (GAME_IS ~iwdee~) BEGIN
@@ -367,7 +367,7 @@ COPY ~A7#ImprovedArcher/kit/A7#INBTA.ITM~ ~override~
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
   END
 
-COPY ~A7#ImprovedArcher/kit/A7#INBTB.ITM~ ~override~
+COPY ~%MOD_FOLDER%/kit/A7#INBTB.ITM~ ~override~
   SAY NAME2 @1010   // Blessed Bolt +1
   SAY IDENTIFIED_DESC @1107   // This is an bolt that has been blessed by the Archer's worshipped god or goddess...
   PATCH_IF (GAME_IS ~iwdee~) BEGIN
@@ -377,7 +377,7 @@ COPY ~A7#ImprovedArcher/kit/A7#INBTB.ITM~ ~override~
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
   END
 
-COPY ~A7#ImprovedArcher/kit/A7#INBTC.ITM~ ~override~
+COPY ~%MOD_FOLDER%/kit/A7#INBTC.ITM~ ~override~
   SAY NAME2 @1011   // Blessed Bolt +2
   SAY IDENTIFIED_DESC @1108   // This is an bolt that has been blessed by the Archer's worshipped god or goddess...
   PATCH_IF (GAME_IS ~iwdee~) BEGIN
@@ -387,7 +387,7 @@ COPY ~A7#ImprovedArcher/kit/A7#INBTC.ITM~ ~override~
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
   END
 
-COPY ~A7#ImprovedArcher/kit/A7#INBTD.ITM~ ~override~
+COPY ~%MOD_FOLDER%/kit/A7#INBTD.ITM~ ~override~
   SAY NAME2 @1012   // Blessed Bolt +3
   SAY IDENTIFIED_DESC @1109   // This is an bolt that has been blessed by the Archer's worshipped god or goddess...
   PATCH_IF (GAME_IS ~iwdee~) BEGIN
@@ -397,7 +397,7 @@ COPY ~A7#ImprovedArcher/kit/A7#INBTD.ITM~ ~override~
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
   END
 
-COPY ~A7#ImprovedArcher/kit/A7#INBTE.ITM~ ~override~
+COPY ~%MOD_FOLDER%/kit/A7#INBTE.ITM~ ~override~
   SAY NAME2 @1013   // Blessed Bolt +4
   SAY IDENTIFIED_DESC @1110   // This is an bolt that has been blessed by the Archer's worshipped god or goddess...
   PATCH_IF (GAME_IS ~iwdee~) BEGIN
@@ -407,7 +407,7 @@ COPY ~A7#ImprovedArcher/kit/A7#INBTE.ITM~ ~override~
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
   END
 
-COPY ~A7#ImprovedArcher/kit/A7#INBUA.ITM~ ~override~
+COPY ~%MOD_FOLDER%/kit/A7#INBUA.ITM~ ~override~
   SAY NAME2 @1024   // Blessed Bullet +1
   SAY IDENTIFIED_DESC @1120   // This is an bolt that has been blessed by the Archer's worshipped god or goddess...
   PATCH_IF (GAME_IS ~iwdee~) BEGIN
@@ -417,7 +417,7 @@ COPY ~A7#ImprovedArcher/kit/A7#INBUA.ITM~ ~override~
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 17 END
   END
 
-COPY ~A7#ImprovedArcher/kit/A7#INBUB.ITM~ ~override~
+COPY ~%MOD_FOLDER%/kit/A7#INBUB.ITM~ ~override~
   SAY NAME2 @1024   // Blessed Bullet +1
   SAY IDENTIFIED_DESC @1121   // This is an bolt that has been blessed by the Archer's worshipped god or goddess...
   PATCH_IF (GAME_IS ~iwdee~) BEGIN
@@ -427,7 +427,7 @@ COPY ~A7#ImprovedArcher/kit/A7#INBUB.ITM~ ~override~
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 17 END
   END
 
-COPY ~A7#ImprovedArcher/kit/A7#INBUC.ITM~ ~override~
+COPY ~%MOD_FOLDER%/kit/A7#INBUC.ITM~ ~override~
   SAY NAME2 @1025   // Blessed Bullet +2
   SAY IDENTIFIED_DESC @1122   // This is an bolt that has been blessed by the Archer's worshipped god or goddess...
   PATCH_IF (GAME_IS ~iwdee~) BEGIN
@@ -437,7 +437,7 @@ COPY ~A7#ImprovedArcher/kit/A7#INBUC.ITM~ ~override~
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 17 END
   END
 
-COPY ~A7#ImprovedArcher/kit/A7#INBUD.ITM~ ~override~
+COPY ~%MOD_FOLDER%/kit/A7#INBUD.ITM~ ~override~
   SAY NAME2 @1026   // Blessed Bullet +3
   SAY IDENTIFIED_DESC @1123   // This is an bolt that has been blessed by the Archer's worshipped god or goddess...
   PATCH_IF (GAME_IS ~iwdee~) BEGIN
@@ -447,7 +447,7 @@ COPY ~A7#ImprovedArcher/kit/A7#INBUD.ITM~ ~override~
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 17 END
   END
 
-COPY ~A7#ImprovedArcher/kit/A7#INBUE.ITM~ ~override~
+COPY ~%MOD_FOLDER%/kit/A7#INBUE.ITM~ ~override~
   SAY NAME2 @1027   // Blessed Bullet +4
   SAY IDENTIFIED_DESC @1124   // This is an bolt that has been blessed by the Archer's worshipped god or goddess...
   PATCH_IF (GAME_IS ~iwdee~) BEGIN
@@ -459,7 +459,7 @@ COPY ~A7#ImprovedArcher/kit/A7#INBUE.ITM~ ~override~
 
 
 // Ability: Sure Shot
-COPY ~A7#ImprovedArcher/kit/A7#IN0A.SPL~ ~override~
+COPY ~%MOD_FOLDER%/kit/A7#IN0A.SPL~ ~override~
   SAY NAME1 @1017   // Sure Shot
   SAY UNIDENTIFIED_DESC @1111   // Sure Shot...
   PATCH_IF (GAME_IS ~bgee bg2ee eet iwdee~ && VARIABLE_IS_SET $icon_indices(~A7#IN0AD~)) BEGIN
@@ -476,6 +476,6 @@ COPY ~A7#ImprovedArcher/kit/A7#IN0A.SPL~ ~override~
 
 
 // Ability: Missile Trap
-COPY ~A7#ImprovedArcher/kit/A7#IN0B.SPL~ ~override~
+COPY ~%MOD_FOLDER%/kit/A7#IN0B.SPL~ ~override~
   SAY NAME1 @1018   // Missile Trap
   SAY UNIDENTIFIED_DESC @1112   // Set Missile Trap...

@@ -20,11 +20,11 @@ END
 
 
 ACTION_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
-  COPY ~A7#ImprovedArcher/kit/ee/A7#AROW1.BAM~ ~override~
-       ~A7#ImprovedArcher/kit/ee/A7#BOLT1.BAM~ ~override~
+  COPY ~%MOD_FOLDER%/kit/ee/A7#AROW1.BAM~ ~override~
+       ~%MOD_FOLDER%/kit/ee/A7#BOLT1.BAM~ ~override~
 END ELSE BEGIN
-  COPY ~A7#ImprovedArcher/kit/A7#AROW1.BAM~ ~override~
-       ~A7#ImprovedArcher/kit/A7#BOLT1.BAM~ ~override~
+  COPY ~%MOD_FOLDER%/kit/A7#AROW1.BAM~ ~override~
+       ~%MOD_FOLDER%/kit/A7#BOLT1.BAM~ ~override~
 END
 
 ACTION_IF (GAME_IS ~tob bgt bg2ee eet~) BEGIN
@@ -35,7 +35,7 @@ ACTION_IF (GAME_IS ~tob bgt bg2ee eet~) BEGIN
     SAY IDENTIFIED_DESC @1114   // These enchanted missiles surpass the craftsmanship of...
 END
 
-COPY ~A7#ImprovedArcher/kit/A7#AROW1.ITM~ ~override~
+COPY ~%MOD_FOLDER%/kit/A7#AROW1.ITM~ ~override~
   SAY NAME2 @1019   // Arrow +4
   SAY IDENTIFIED_DESC @1115   // ...
   LPF REMOVE_SHAMAN_RESTRICTION END
@@ -43,7 +43,7 @@ COPY ~A7#ImprovedArcher/kit/A7#AROW1.ITM~ ~override~
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
 
-COPY ~A7#ImprovedArcher/kit/A7#BOLT1.ITM~ ~override~
+COPY ~%MOD_FOLDER%/kit/A7#BOLT1.ITM~ ~override~
   SAY NAME2 @1020   // Bolt +4
   SAY IDENTIFIED_DESC @1116   // ...
   LPF REMOVE_SHAMAN_RESTRICTION END

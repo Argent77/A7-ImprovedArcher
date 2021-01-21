@@ -1,6 +1,6 @@
 // Installing Thief -> Sharpshooter kit
-INCLUDE ~A7#ImprovedArcher/lib/a7#add_kit_ex.tpa~
-INCLUDE ~A7#ImprovedArcher/lib/kit.tph~
+INCLUDE ~%MOD_FOLDER%/lib/a7#add_kit_ex.tpa~
+INCLUDE ~%MOD_FOLDER%/lib/kit.tph~
 
 ACTION_IF (GAME_IS ~tob bgt bg2ee eet~) BEGIN
   OUTER_TEXT_SPRINT stweap ~LEAT14 * * BAG28 RING06 RING05 * BOOT02 AMUL19 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 DAGG12 SW1H28 STAF08~
@@ -29,7 +29,7 @@ STR_VAR
   abdcscrq  = ~0 15 0 0 0 0~
   alignmnt  = ~0 1 1 1 1 1 1 1 1~
   dualclas  = ~1 1 1 0 0 0~
-  clab_path = EVAL ~A7#ImprovedArcher/kit/%CLAB_DIR%/CLABA7T1.2DA~
+  clab_path = EVAL ~%MOD_FOLDER%/kit/%CLAB_DIR%/CLABA7T1.2DA~
   kittable  = ~K_T_H K_T_D K_T_G K_T_E K_T_HE K_T_HL K_T_HO~
   luabbr    = ~A7th1~
   stweap
@@ -47,7 +47,7 @@ RET
   kit_id
 END
 
-COPY ~A7#ImprovedArcher/kit/LUA7TH1.2DA~ ~override~
+COPY ~%MOD_FOLDER%/kit/LUA7TH1.2DA~ ~override~
 
 COPY_EXISTING ~CLABA7T1.2DA~ ~override~
   PATCH_IF (GAME_IS ~tob bgt~) BEGIN
