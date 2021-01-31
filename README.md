@@ -1,7 +1,16 @@
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/Argent77/A7-ImprovedArcher?color=darkred&include_prereleases&label=latest%20release)](https://GitHub.com/Argent77/A7-ImprovedArcher/releases/latest)
+[![GitHub release date (latest by date)](https://img.shields.io/github/release-date/Argent77/A7-ImprovedArcher?color=gold)](https://GitHub.com/Argent77/A7-ImprovedArcher/releases/latest)
+[![Github downloads (all releases)](https://img.shields.io/github/downloads/Argent77/A7-ImprovedArcher/total.svg?color=blueviolet)](https://GitHub.com/Argent77/A7-ImprovedArcher/releases)
+[![Platform](https://img.shields.io/static/v1?label=platform&message=Windows%20%7C%20macOS%20%7C%20Linux%20%7C%20Project%20Infinity&color=informational)](https://GitHub.com/Argent77/A7-ImprovedArcher/releases/latest)
+[![Language](https://img.shields.io/static/v1?label=language&message=English%20%7C%20French%20%7C%20German%20%7C%20Italian%20%7C%20Polish%20%7C%20Russian&color=limegreen)]()
+
 # Improved Archer Kit
 *A mod for BG2, BG:EE, BG2:EE and IWD:EE.*
 
-**Author:**  Argent77
+[![Website](https://img.shields.io/static/v1?label=Website&message=Improved%20Archer%20Kit&color=ccc7ba&labelColor=eee&style=flat)](https://argent77.github.io/A7-ImprovedArcher/index.html)
+
+[![Beamdog Forums](https://img.shields.io/static/v1?label=Discussion&message=Beamdog%20Forums&color=444&labelColor=eee&style=flat)](https://forums.beamdog.com/discussion/34696)
+[![SHS Forums](https://img.shields.io/static/v1?label=Discussion&message=SHS%20Forums&color=951514&labelColor=eee&style=flat)](http://www.shsforums.net/topic/58012-improved-archer-kit/)
 
 
 ## Overview
