@@ -4,10 +4,10 @@
  * Author: Argent77 
  * Multiclass kit code: based on "qd_multiclass" by Aquadrizzt and Subtledoctor
  * Licence: public domain
- * Date: 2019-08-19
+ * Date: 2020-09-21
  */
 
-OUTER_SPRINT ADD_KIT_EX_VERSION ~0.4.0~
+OUTER_SPRINT ADD_KIT_EX_VERSION ~0.4.1~
 
 <<<<<<<< .../a7-add_kit_ex/inlined/blank.file
 >>>>>>>>
@@ -122,13 +122,26 @@ END
 
 // Return index of next table row (excluding header row)
 DEFINE_ACTION_FUNCTION a7#add_kit_ex#next_row
+INT_VAR is_multiclass = 0
 STR_VAR resref = ~~
 RET index
 BEGIN
   OUTER_SET index = "-1"
   COPY_EXISTING ~%resref%.2da~ ~override~
     COUNT_2DA_ROWS 1 num_rows
-    SET index = num_rows - 3
+    PATCH_IF (NOT is_multiclass) BEGIN
+      READ_2DA_ENTRIES_NOW table 1
+      FOR (row = 3; row < table; ++row) BEGIN
+        READ_2DA_ENTRY_FORMER table row 1 value
+        PATCH_IF (~%value%~ STR_EQ ~*~) BEGIN
+          SET index = row - 3
+          SET row = table
+        END
+      END
+    END
+    PATCH_IF (index < 0) BEGIN
+      SET index = num_rows - 3
+    END
   BUT_ONLY IF_EXISTS
 END
 
@@ -1175,6 +1188,50 @@ BEGIN
 END
 
 
+// Ensure kitlist table contains all expected data
+DEFINE_ACTION_FUNCTION a7#add_kit_ex#prepare_kitlist
+INT_VAR is_multiclass = 0
+RET result
+BEGIN
+  OUTER_SET result = 0
+
+  OUTER_TEXT_SPRINT def ~*~
+  OUTER_SET num_cols = 0
+  OUTER_SET num_rows = 0
+  COPY_EXISTING ~kitlist.2da~ ~override~
+    COUNT_2DA_COLS num_cols
+    COUNT_2DA_ROWS 1 num_rows
+    READ_2DA_ENTRY 1 0 1 def
+  BUT_ONLY IF_EXISTS
+
+  ACTION_IF (num_rows < 3) BEGIN
+    LAF a7#add_kit_ex#print_message INT_VAR severity = 3 STR_VAR msg = ~kitlist.2da does not contain valid data.~ END
+  END
+
+  ACTION_IF (num_rows = 3) BEGIN
+    // precaution: placeholder entry for kit at slot 0 required
+    OUTER_TEXT_SPRINT line ~0 RESERVE %def% %def% %def% %def% %def% %def% %def%~
+    ACTION_IF (num_cols > 8) BEGIN OUTER_TEXT_SPRINT line ~%line% %def%~ END
+    APPEND ~kitlist.2da~ ~%line%~
+    OUTER_SET num_cols += 1
+    OUTER_SET num_rows += 1
+    OUTER_SET result = 1
+  END
+
+  ACTION_IF (is_multiclass) BEGIN
+    // reserving slots 1..255 exclusively for single class kits
+    ACTION_IF (num_rows < (256 + 3)) BEGIN
+      OUTER_TEXT_SPRINT row_data ~* * * * * * * * *~
+      OUTER_SET slot = num_rows - 3
+      OUTER_FOR (idx = slot; idx < 256; ++idx) BEGIN
+        APPEND ~kitlist.2da~ ~%idx% %row_data%~
+        OUTER_SET result = 1
+      END
+    END
+  END
+END
+
+
 // Add new ability header to current spell resource
 DEFINE_PATCH_FUNCTION a7#add_kit_ex#add_empty_spell_header
 INT_VAR
@@ -1587,6 +1644,8 @@ INT_VAR
   briefdesc     = "-2"
   fallen        = "-1"
   fallen_notice = "-2"
+  prettify      = 1
+  reserve_space = 1
   // For testing purposes only
   __kits_limit_override = 0
   __kits_base_value     = 0x4000
@@ -1737,12 +1796,20 @@ BEGIN
       END
     END
 
-    // Multiclass kits are treated differently in EE 2.0+
+    // Multiclass kits are treated differently in EE games
     LAF a7#add_kit_ex#is_multiclass INT_VAR kit_class RET is_multiclass = result END
-    OUTER_SET is_multiclass &= is_ee20
+    ACTION_IF (is_multiclass && NOT is_ee) BEGIN
+      LAF a7#add_kit_ex#print_message INT_VAR severity = 2 STR_VAR msg = EVAL ~True multiclass kits are not supported by the current game engine.~ END
+    END
+    OUTER_SET is_multiclass = is_multiclass && is_ee
+    OUTER_SET reserve_space = reserve_space && is_ee
+
+    // making sure kitlist.2da is properly prepared
+    LAF a7#add_kit_ex#prepare_kitlist INT_VAR is_multiclass = is_multiclass && reserve_space RET result END
+    ACTION_IF (result) BEGIN ACTION_DEFINE_ASSOCIATIVE_ARRAY tables_modified BEGIN ~KITLIST~ => 1 END END
 
     // getting next available kit number
-    LAF a7#add_kit_ex#next_row STR_VAR resref = ~kitlist~ RET kit_number = index END
+    LAF a7#add_kit_ex#next_row INT_VAR is_multiclass = is_multiclass && reserve_space STR_VAR resref = ~kitlist~ RET kit_number = index END
     ACTION_IF (kit_number = 0) BEGIN OUTER_SET kit_number += 1 END
     ACTION_IF (NOT is_multiclass && kit_number > kits_limit) BEGIN
       LAF a7#add_kit_ex#print_message INT_VAR severity = 3 STR_VAR msg = EVAL ~Unable to add kit [%kit_name%]. The game does not currently support more than %kits_limit% kits.~ END
@@ -1820,13 +1887,47 @@ BEGIN
 
     // adding kitlist entry
     LAF a7#add_kit_ex#next_column STR_VAR resref = ~weapprof~ RET prof_id = index END
-    COPY_EXISTING ~kitlist.2da~ ~override~ COUNT_2DA_COLS kitlist_num_cols BUT_ONLY
-    OUTER_TEXT_SPRINT line ~%kit_number% %kit_name% %lower% %mixed% %help% %clab_res% %prof_id% %unusable% %kit_class%~
-    ACTION_IF (kitlist_num_cols > 9) BEGIN
-      LAF a7#add_kit_ex#to_hex STR_VAR number = EVAL ~%kit_number_full%~ RET kit_number_full_hex = hex END
-      OUTER_TEXT_SPRINT line ~%line% %kit_number_full_hex%~
+    COPY_EXISTING ~kitlist.2da~ ~override~
+      COUNT_2DA_COLS kitlist_num_cols
+      COUNT_2DA_ROWS 1 kitlist_num_rows
+      PATCH_IF (kit_number < (kitlist_num_rows - 3)) BEGIN
+        // replacing placeholder entry with actual kit definition
+        TEXT_SPRINT placeholder_prefix ~a7#add_kit_ex#kitids_%kit_number%~
+        CLEAR_ARRAY ~table_out~
+        SET row = 3 + kit_number
+        SET_2DA_ENTRY_LATER table_out row 0 ~%kit_number%~
+        SET_2DA_ENTRY_LATER table_out row 1 ~%kit_name%~
+        SET_2DA_ENTRY_LATER table_out row 2 ~%lower%~
+        SET_2DA_ENTRY_LATER table_out row 3 ~%mixed%~
+        SET_2DA_ENTRY_LATER table_out row 4 ~%help%~
+        SET_2DA_ENTRY_LATER table_out row 5 ~%clab_res%~
+        SET_2DA_ENTRY_LATER table_out row 6 ~%prof_id%~
+        // workaround to preserve hexadecimal output of column value
+        SET_2DA_ENTRY_LATER table_out row 7 ~%placeholder_prefix%_7~
+        SET_2DA_ENTRY_LATER table_out row 8 ~%kit_class%~
+        PATCH_IF (kitlist_num_cols > 9) BEGIN
+          LPF a7#add_kit_ex#to_hex STR_VAR number = EVAL ~%kit_number_full%~ RET kit_number_full_hex = hex END
+          // workaround to preserve hexadecimal output of column value
+          SET_2DA_ENTRY_LATER table_out row 9 ~%placeholder_prefix%_9~
+        END
+        SET_2DA_ENTRIES_NOW table_out 1
+
+        // workaround to preserve hexadecimal output of column values (continued)
+        REPLACE_TEXTUALLY EXACT_MATCH ~%placeholder_prefix%_7~ ~%unusable%~
+        PATCH_IF (kitlist_num_cols > 9) BEGIN
+          REPLACE_TEXTUALLY EXACT_MATCH ~%placeholder_prefix%_9~ ~%kit_number_full_hex%~
+        END
+      END
+    BUT_ONLY
+    ACTION_IF (kit_number >= (kitlist_num_rows - 3)) BEGIN
+      // appending kit definition to kitlist table
+      OUTER_TEXT_SPRINT line ~%kit_number% %kit_name% %lower% %mixed% %help% %clab_res% %prof_id% %unusable% %kit_class%~
+      ACTION_IF (kitlist_num_cols > 9) BEGIN
+        LAF a7#add_kit_ex#to_hex STR_VAR number = EVAL ~%kit_number_full%~ RET kit_number_full_hex = hex END
+        OUTER_TEXT_SPRINT line ~%line% %kit_number_full_hex%~
+      END
+      APPEND ~kitlist.2da~ ~%line%~
     END
-    APPEND ~kitlist.2da~ ~%line%~
     ACTION_DEFINE_ASSOCIATIVE_ARRAY tables_modified BEGIN ~KITLIST~ => 1 END
 
     // adding kit.ids entry
@@ -1919,7 +2020,7 @@ BEGIN
         END
         // adding kittable entry
         ACTION_IF (success) BEGIN
-          LAF a7#add_kit_ex#next_row STR_VAR resref RET index END
+          LAF a7#add_kit_ex#next_row INT_VAR is_multiclass = is_multiclass && reserve_space STR_VAR resref RET index END
           OUTER_SET index += 1
           OUTER_TEXT_SPRINT line ~%index% %kit_number%~
           APPEND ~%resref%.2DA~ ~%line%~ UNLESS ~^[ %TAB%]*[0-9]+[ %TAB%]+%kit_number%[ %TAB%%MNL%]*$~
@@ -2173,10 +2274,12 @@ BEGIN
     END
 
     // prettifying modified tables
-    ACTION_PHP_EACH tables_modified AS resref => _ BEGIN
-      COPY_EXISTING ~%resref%.2DA~ ~override~
-        PRETTY_PRINT_2DA
-      BUT_ONLY IF_EXISTS
+    ACTION_IF (prettify) BEGIN
+      ACTION_PHP_EACH tables_modified AS resref => _ BEGIN
+        COPY_EXISTING ~%resref%.2DA~ ~override~
+          PRETTY_PRINT_2DA
+        BUT_ONLY IF_EXISTS
+      END
     END
 
     OUTER_SET kit_id = kit_number

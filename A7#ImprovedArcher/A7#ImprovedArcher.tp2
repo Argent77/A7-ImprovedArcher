@@ -18,6 +18,8 @@ ALWAYS
     OUTER_TEXT_SPRINT CLAB_DIR ~bg~
   END
 
+  OUTER_SET IS_EE = GAME_IS ~bgee bg2ee eet iwdee pstee~
+
   ACTION_DEFINE_ARRAY a7#noconvert BEGIN ~setup~ ~kit-ee~ END
   ACTION_DEFINE_ARRAY a7#reload BEGIN ~kit~ END
   LAF HANDLE_CHARSETS
@@ -32,7 +34,7 @@ ALWAYS
       reload_array      = ~a7#reload~
   END
 
-  ACTION_IF GAME_IS ~bgee bg2ee iwdee eet~ BEGIN
+  ACTION_IF (IS_EE) BEGIN
     LOAD_TRA ~%MOD_FOLDER%/languages/english/kit-ee.tra~
     LOAD_TRA ~%MOD_FOLDER%/languages/%LANGUAGE%/kit-ee.tra~
   END

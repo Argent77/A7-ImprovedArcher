@@ -1,163 +1,137 @@
 // -*- coding: utf-8 -*-
 
 // Descriptions
-@1101 = ~This is an arrow that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and causes additional damage to undead of any kind. 
-The divine enchantment of the arrow lasts for eight hours and allows the user to release a given number of charges. After that the arrow will lose its physical form.
+@1101 = ~This is an arrow that has been blessed by the character's worshipped god. It pierces even creatures that are otherwise immune to physical attacks and unleashes righteous wrath of the god against undead, demons, and devils of any kind. The divine enchantment of the arrow lasts for eight hours and allows the user to release a given number of charges. After that the arrow will lose its physical form.
 
 STATISTICS:
-
-Combat abilities:
-- Undead must save vs. Death or be slowed for two rounds
 
 Enchantment: +1
 THAC0: +1
-Damage: 1d6+1, additional 1d6 damage vs. undead
-Damage type: Missile
+Damage: 1d6 (missile), additional 1d6 magic damage vs. undead, demons, and devils
 Launcher: Bow
 
 Weight: 0~
 
-@1102 = ~This is an arrow that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and causes additional damage to undead of any kind. 
-The divine enchantment of the arrow lasts for eight hours and allows the user to release a given number of charges. After that the arrow will lose its physical form.
+@1102 = ~This is an arrow that has been blessed by the character's worshipped god. It pierces even creatures that are otherwise immune to physical attacks and unleashes righteous wrath of the god against undead, demons, and devils of any kind. The divine enchantment of the arrow lasts for eight hours and allows the user to release a given number of charges. After that the arrow will lose its physical form.
 
 STATISTICS:
 
 Combat abilities:
-- Undead must save vs. Death or be held for two rounds
-
-Enchantment: +1
-THAC0: +2
-Damage: 1d6+2, additional 1d6+2 damage vs. undead
-Damage type: Missile
-Launcher: Bow
-
-Weight: 0~
-
-
-@1103 = ~This is an arrow that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the arrow causes additional damage to undead creatures and may even destroy them. 
-The divine enchantment of the arrow lasts for eight hours and allows the user to release a given number of charges. After that the arrow will lose its physical form.
-
-STATISTICS:
-
-Combat abilities:
-- Undead must save vs. Death or be utterly destroyed
+- Undead, demons, and devils must save vs. Spell or be blinded for two rounds
 
 Enchantment: +2
 THAC0: +2
-Damage: 1d6+2, additional 1d6+4 damage vs. undead
-Damage type: Missile
+Damage: 1d6 (missile), additional 1d6+2 magic damage vs. undead, demons, and devils
 Launcher: Bow
 
 Weight: 0~
 
-@1104 = ~This is an arrow that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the arrow causes additional damage to undead creatures and may even destroy them. 
-The divine enchantment of the arrow lasts for eight hours and allows the user to release a given number of charges. After that the arrow will lose its physical form.
+
+@1103 = ~This is an arrow that has been blessed by the character's worshipped god. It pierces even creatures that are otherwise immune to physical attacks and unleashes righteous wrath of the god against undead, demons, and devils of any kind. The divine enchantment of the arrow lasts for eight hours and allows the user to release a given number of charges. After that the arrow will lose its physical form.
 
 STATISTICS:
 
 Combat abilities:
-- Undead must save vs. Death at -2 penalty or be utterly destroyed
+- Undead, demons, and devils must save vs. Spell or be slowed for two rounds
+
+Enchantment: +2
+THAC0: +2
+Damage: 1d6 (missile), additional 1d6+4 magic damage vs. undead, demons, and devils
+Launcher: Bow
+
+Weight: 0~
+
+@1104 = ~This is an arrow that has been blessed by the character's worshipped god. It pierces even creatures that are otherwise immune to physical attacks and unleashes righteous wrath of the god against undead, demons, and devils of any kind. The divine enchantment of the arrow lasts for eight hours and allows the user to release a given number of charges. After that the arrow will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Undead, demons, and devils must save vs. Death at -2 penalty or be slowed and blinded for two rounds
 
 Enchantment: +3
 THAC0: +3
-Damage: 1d6+3, additional 1d6+6 damage vs. undead
-Damage type: Missile
+Damage: 1d6 (missile), additional 1d6+6 magic damage vs. undead, demons, and devils
 Launcher: Bow
 
 Weight: 0~
 
-@1105 = ~This is an arrow that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the arrow causes additional damage to undead creatures and may even destroy them. 
-The divine enchantment of the arrow lasts for eight hours and allows the user to release a given number of charges. After that the arrow will lose its physical form.
+@1105 = ~This is an arrow that has been blessed by the character's worshipped god. It pierces even creatures that are otherwise immune to physical attacks and unleashes righteous wrath of the god against undead, demons, and devils of any kind. The divine enchantment of the arrow lasts for eight hours and allows the user to release a given number of charges. After that the arrow will lose its physical form.
 
 STATISTICS:
 
 Combat abilities:
-- Undead must save vs. Death at -4 penalty or be utterly destroyed
+- Undead, demons, and devils must save vs. Death at -2 penalty or be held for two rounds
 
 Enchantment: +4
 THAC0: +4
-Damage: 1d6+4, additional 1d6+8 damage vs. undead
-Damage type: Missile
+Damage: 1d6 (missile), additional 1d6+8 magic damage vs. undead, demons, and devils
 Launcher: Bow
 
 Weight: 0~
 
-@1106 = ~This is a bolt that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and causes additional damage to undead of any kind. 
-The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
+@1106 = ~This is a bolt that has been blessed by the character's worshipped god. It pierces even creatures that are otherwise immune to physical attacks and unleashes righteous wrath of the god against undead, demons, and devils of any kind. The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
 
 STATISTICS:
-
-Combat abilities:
-- Undead must save vs. Death or be slowed for two rounds
 
 Enchantment: +1
 THAC0: +1
-Damage: 1d8+1, additional 1d6 damage vs. undead
-Damage type: Missile
+Damage: 1d8 (missile), additional 1d6 magic damage vs. undead, demons, and devils
 Launcher: Crossbow
 
 Weight: 0~
 
-@1107 = ~This is a bolt that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and causes additional damage to undead of any kind. 
-The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
+@1107 = ~This is a bolt that has been blessed by the character's worshipped god. It pierces even creatures that are otherwise immune to physical attacks and unleashes righteous wrath of the god against undead, demons, and devils of any kind. The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
 
 STATISTICS:
 
 Combat abilities:
-- Undead must save vs. Death or be held for two rounds
-
-Enchantment: +1
-THAC0: +2
-Damage: 1d8+2, additional 1d6+2 damage vs. undead
-Damage type: Missile
-Launcher: Crossbow
-
-Weight: 0~
-
-@1108 = ~This is a bolt that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the bolt causes additional damage to undead creatures and may even destroy them. 
-The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
-
-STATISTICS:
-
-Combat abilities:
-- Undead must save vs. Death or be utterly destroyed
+- Undead, demons, and devils must save vs. Spell or be blinded for two rounds
 
 Enchantment: +2
 THAC0: +2
-Damage: 1d8+2, additional 1d6+4 damage vs. undead
-Damage type: Missile
+Damage: 1d8 (missile), additional 1d6+2 magic damage vs. undead, demons, and devils
 Launcher: Crossbow
 
 Weight: 0~
 
-@1109 = ~This is a bolt that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the bolt causes additional damage to undead creatures and may even destroy them. 
-The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
+@1108 = ~This is a bolt that has been blessed by the character's worshipped god. It pierces even creatures that are otherwise immune to physical attacks and unleashes righteous wrath of the god against undead, demons, and devils of any kind. The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
 
 STATISTICS:
 
 Combat abilities:
-- Undead must save vs. Death at -2 penalty or be utterly destroyed
+- Undead, demons, and devils must save vs. Spell or be slowed for two rounds
+
+Enchantment: +2
+THAC0: +2
+Damage: 1d8 (missile), additional 1d6+4 magic damage vs. undead, demons, and devils
+Launcher: Crossbow
+
+Weight: 0~
+
+@1109 = ~This is a bolt that has been blessed by the character's worshipped god. It pierces even creatures that are otherwise immune to physical attacks and unleashes righteous wrath of the god against undead, demons, and devils of any kind. The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Undead, demons, and devils must save vs. Death at -2 penalty or be slowed and blinded for two rounds
 
 Enchantment: +3
 THAC0: +3
-Damage: 1d8+3, additional 1d6+6 damage vs. undead
-Damage type: Missile
+Damage: 1d8 (missile), additional 1d6+6 magic damage vs. undead, demons, and devils
 Launcher: Crossbow
 
 Weight: 0~
 
-@1110 = ~This is a bolt that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the bolt causes additional damage to undead creatures and may even destroy them. 
-The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
+@1110 = ~This is a bolt that has been blessed by the character's worshipped god. It pierces even creatures that are otherwise immune to physical attacks and unleashes righteous wrath of the god against undead, demons, and devils of any kind. The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
 
 STATISTICS:
 
 Combat abilities:
-- Undead must save vs. Death at -4 penalty or be utterly destroyed
+- Undead, demons, and devils must save vs. Death at -2 penalty or be held for two rounds
 
 Enchantment: +4
 THAC0: +4
-Damage: 1d8+4, additional 1d6+8 damage vs. undead
-Damage type: Missile
+Damage: 1d8 (missile), additional 1d6+8 magic damage vs. undead, demons, and devils
 Launcher: Crossbow
 
 Weight: 0~
@@ -242,83 +216,575 @@ Weight: 5~
 
 @1119 = ~Druid~
 
-@1120 = ~This is a bullet that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and causes additional damage to undead of any kind. 
-The divine enchantment of the bullet lasts for eight hours and allows the user to release a given number of charges. After that the bullet will lose its physical form.
+@1120 = ~This is a bullet that has been blessed by the character's worshipped god. It pierces even creatures that are otherwise immune to physical attacks and unleashes righteous wrath of the god against undead, demons, and devils of any kind. The divine enchantment of the bullet lasts for eight hours and allows the user to release a given number of charges. After that the bullet will lose its physical form.
 
 STATISTICS:
-
-Combat abilities:
-- Undead must save vs. Death or be slowed for two rounds
 
 Enchantment: +1
 THAC0: +1
-Damage: 1d4+2, additional 1d6 damage vs. undead
-Damage type: Missile
+Damage: 1d4+2 (missile), additional 1d6 magic damage vs. undead, demons, and devils
 Launcher: Sling
 
 Weight: 0~
 
-@1121 = ~This is a bullet that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and causes additional damage to undead of any kind. 
-The divine enchantment of the bullet lasts for eight hours and allows the user to release a given number of charges. After that the bullet will lose its physical form.
+@1121 = ~This is a bullet that has been blessed by the character's worshipped god. It pierces even creatures that are otherwise immune to physical attacks and unleashes righteous wrath of the god against undead, demons, and devils of any kind. The divine enchantment of the bullet lasts for eight hours and allows the user to release a given number of charges. After that the bullet will lose its physical form.
 
 STATISTICS:
 
 Combat abilities:
-- Undead must save vs. Death or be held for two rounds
-
-Enchantment: +1
-THAC0: +2
-Damage: 1d4+3, additional 1d6+2 damage vs. undead
-Damage type: Missile
-Launcher: Sling
-
-Weight: 0~
-
-@1122 = ~This is a bullet that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the bullet causes additional damage to undead creatures and may even destroy them. 
-The divine enchantment of the bullet lasts for eight hours and allows the user to release a given number of charges. After that the bullet will lose its physical form.
-
-STATISTICS:
-
-Combat abilities:
-- Undead must save vs. Death or be utterly destroyed
+- Undead, demons, and devils must save vs. Spell or be blinded for two rounds
 
 Enchantment: +2
 THAC0: +2
-Damage: 1d4+3, additional 1d6+4 damage vs. undead
-Damage type: Missile
+Damage: 1d4+3 (missile), additional 1d6+2 magic damage vs. undead, demons, and devils
 Launcher: Sling
 
 Weight: 0~
 
-@1123 = ~This is a bullet that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the bullet causes additional damage to undead creatures and may even destroy them. 
-The divine enchantment of the bullet lasts for eight hours and allows the user to release a given number of charges. After that the bullet will lose its physical form.
+@1122 = ~This is a bullet that has been blessed by the character's worshipped god. It pierces even creatures that are otherwise immune to physical attacks and unleashes righteous wrath of the god against undead, demons, and devils of any kind. The divine enchantment of the bullet lasts for eight hours and allows the user to release a given number of charges. After that the bullet will lose its physical form.
 
 STATISTICS:
 
 Combat abilities:
-- Undead must save vs. Death at -2 penalty or be utterly destroyed
+- Undead, demons, and devils must save vs. Spell or be slowed for two rounds
+
+Enchantment: +2
+THAC0: +2
+Damage: 1d4+3 (missile), additional 1d6+4 magic damage vs. undead, demons, and devils
+Launcher: Sling
+
+Weight: 0~
+
+@1123 = ~This is a bullet that has been blessed by the character's worshipped god. It pierces even creatures that are otherwise immune to physical attacks and unleashes righteous wrath of the god against undead, demons, and devils of any kind. The divine enchantment of the bullet lasts for eight hours and allows the user to release a given number of charges. After that the bullet will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Undead, demons, and devils must save vs. Death at -2 penalty or be slowed and blinded for two rounds
 
 Enchantment: +3
 THAC0: +3
-Damage: 1d4+4, additional 1d6+6 damage vs. undead
-Damage type: Missile
+Damage: 1d4+4 (missile), additional 1d6+6 magic damage vs. undead, demons, and devils
 Launcher: Sling
 
 Weight: 0~
 
-@1124 = ~This is a bullet that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks. The blessing of the bullet causes additional damage to undead creatures and may even destroy them. 
-The divine enchantment of the bullet lasts for eight hours and allows the user to release a given number of charges. After that the bullet will lose its physical form.
+@1124 = ~This is a bullet that has been blessed by the character's worshipped god. It pierces even creatures that are otherwise immune to physical attacks and unleashes righteous wrath of the god against undead, demons, and devils of any kind. The divine enchantment of the bullet lasts for eight hours and allows the user to release a given number of charges. After that the bullet will lose its physical form.
 
 STATISTICS:
 
 Combat abilities:
-- Undead must save vs. Death at -4 penalty or be utterly destroyed
+- Undead, demons, and devils must save vs. Death at -2 penalty or be held for two rounds
 
 Enchantment: +4
 THAC0: +4
-Damage: 1d4+5, additional 1d6+8 damage vs. undead
-Damage type: Missile
+Damage: 1d4+5 (missile), additional 1d6+8 magic damage vs. undead, demons, and devils
 Launcher: Sling
+
+Weight: 0~
+
+@1125 = ~This is an arrow that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and hits them with the raw elemental energies of the world. The divine enchantment of the arrow lasts for eight hours and allows the user to release a given number of charges. After that the arrow will lose its physical form.
+
+STATISTICS:
+
+Enchantment: +1
+THAC0: +1
+Damage: 1d6 (missile), additional 1d3 fire damage
+Launcher: Bow
+
+Weight: 0~
+
+@1126 = ~This is an arrow that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and hits them with the raw elemental energies of the world. Unnatural beings, such as undead or constructed creatures, may suffer additional detrimental effects. The divine enchantment of the arrow lasts for eight hours and allows the user to release a given number of charges. After that the arrow will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Unnatural creatures must save vs. Spell or be entangled for two rounds
+
+Enchantment: +2
+THAC0: +2
+Damage: 1d6 (missile), additional 1d3 fire and cold damage
+Launcher: Bow
+
+Weight: 0~
+
+@1127 = ~This is an arrow that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and hits them with the raw elemental energies of the world. Unnatural beings, such as undead or constructed creatures, may suffer additional detrimental effects. The divine enchantment of the arrow lasts for eight hours and allows the user to release a given number of charges. After that the arrow will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Unnatural creatures must save vs. Spell or be blinded for two rounds
+
+Enchantment: +2
+THAC0: +2
+Damage: 1d6 (missile), additional 1d3 fire, cold and acid damage
+Launcher: Bow
+
+Weight: 0~
+
+@1128 = ~This is an arrow that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and hits them with the raw elemental energies of the world. Unnatural beings, such as undead or constructed creatures, may suffer additional detrimental effects. The divine enchantment of the arrow lasts for eight hours and allows the user to release a given number of charges. After that the arrow will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Unnatural creatures must save vs. Spell at -2 penalty or be slowed for two rounds
+
+Enchantment: +3
+THAC0: +3
+Damage: 1d6 (missile), additional 1d3 fire, cold, acid and electrical damage
+Launcher: Bow
+
+Weight: 0~
+
+@1129 = ~This is an arrow that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and hits them with the raw elemental energies of the world. Unnatural beings, such as undead or constructed creatures, may suffer additional detrimental effects. The divine enchantment of the arrow lasts for eight hours and allows the user to release a given number of charges. After that the arrow will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Unnatural creatures must save vs. Spell at -4 penalty or be slowed for two rounds
+
+Enchantment: +4
+THAC0: +4
+Damage: 1d6 (missile), additional 1d3+2 fire, cold, acid and electrical damage
+Launcher: Bow
+
+Weight: 0~
+
+@1130 = ~This is a bolt that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and hits them with the raw elemental energies of the world. The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
+
+STATISTICS:
+
+Enchantment: +1
+THAC0: +1
+Damage: 1d8 (missile), additional 1d3 fire damage
+Launcher: Crossbow
+
+Weight: 0~
+
+@1131 = ~This is a bolt that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and hits them with the raw elemental energies of the world. Unnatural beings, such as undead or constructed creatures, may suffer additional detrimental effects. The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Unnatural creatures must save vs. Spell or be entangled for two rounds
+
+Enchantment: +2
+THAC0: +2
+Damage: 1d8 (missile), additional 1d3 fire and cold damage
+Launcher: Crossbow
+
+Weight: 0~
+
+@1132 = ~This is a bolt that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and hits them with the raw elemental energies of the world. Unnatural beings, such as undead or constructed creatures, may suffer additional detrimental effects. The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Unnatural creatures must save vs. Spell or be blinded for two rounds
+
+Enchantment: +2
+THAC0: +2
+Damage: 1d8 (missile), additional 1d3 fire, cold and acid damage
+Launcher: Crossbow
+
+Weight: 0~
+
+@1133 = ~This is a bolt that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and hits them with the raw elemental energies of the world. Unnatural beings, such as undead or constructed creatures, may suffer additional detrimental effects. The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Unnatural creatures must save vs. Spell at -2 penalty or be slowed for two rounds
+
+Enchantment: +3
+THAC0: +3
+Damage: 1d8 (missile), additional 1d3 fire, cold, acid and electrical damage
+Launcher: Crossbow
+
+Weight: 0~
+
+@1134 = ~This is a bolt that has been blessed by the character's worshipped god or goddess. It pierces even creatures that are otherwise immune to physical attacks and hits them with the raw elemental energies of the world. Unnatural beings, such as undead or constructed creatures, may suffer additional detrimental effects. The divine enchantment of the bolt lasts for eight hours and allows the user to release a given number of charges. After that the bolt will lose its physical form.
+
+STATISTICS:
+
+Combat abilities:
+- Unnatural creatures must save vs. Spell at -4 penalty or be slowed for two rounds
+
+Enchantment: +4
+THAC0: +4
+Damage: 1d8 (missile), additional 1d3+2 fire, cold, acid and electrical damage
+Launcher: Crossbow
+
+Weight: 0~
+
+@1135 = ~These arrows have been specifically reinforced to tap into the full potential of the character's marksmanship. In addition to extra precision the impact may cripple the target. Only characters who dedicated themselves to the art of physical combat can handle these arrows properly.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target suffers a cumulative -1 armor class penalty for two rounds (Save vs. Death negates)
+
+Enchantment: +1
+THAC0: +1
+Damage: 1d6 (missile)
+Launcher: Bow
+
+Weight: 0~
+
+@1136 = ~These arrows have been specifically reinforced to tap into the full potential of the character's marksmanship. In addition to extra precision the impact may cripple the target. Only characters who dedicated themselves to the art of physical combat can handle these arrows properly.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target suffers a cumulative -1 armor class and to hit penalty for two rounds (Save vs. Death negates)
+
+Enchantment: +2
+THAC0: +2
+Damage: 1d6 (missile)
+Launcher: Bow
+
+Weight: 0~
+
+@1137 = ~These arrows have been specifically reinforced to tap into the full potential of the character's marksmanship. In addition to extra precision the impact may cripple the target. Only characters who dedicated themselves to the art of physical combat can handle these arrows properly.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target suffers a cumulative -2 armor class and to hit penalty for two rounds (Save vs. Death negates)
+- Hit target is knocked back (Save vs. Breath negates)
+
+Enchantment: +2
+THAC0: +2
+Damage: 1d6 (missile)
+Launcher: Bow
+
+Weight: 0~
+
+@1138 = ~These arrows have been specifically reinforced to tap into the full potential of the character's marksmanship. In addition to extra precision the impact may cripple the target or even disable it altogether. Only characters who dedicated themselves to the art of physical combat can handle these arrows properly.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target suffers a cumulative -3 armor class and to hit penalty for two rounds (Save vs. Death at -2 penalty negates)
+- Hit target is knocked back and stunned for one round (Save vs. Breath negates)
+
+Enchantment: +3
+THAC0: +3
+Damage: 1d6 (missile)
+Launcher: Bow
+
+Weight: 0~
+
+@1139 = ~These arrows have been specifically reinforced to tap into the full potential of the character's marksmanship. In addition to extra precision the impact may cripple the target or even disable it altogether. Only characters who dedicated themselves to the art of physical combat can handle these arrows properly.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target suffers a cumulative -4 armor class and to hit penalty for two rounds (Save vs. Death at -4 penalty negates)
+- Hit target is knocked back and stunned for one round (Save vs. Breath at -2 penalty negates)
+
+Enchantment: +4
+THAC0: +4
+Damage: 1d6 (missile)
+Launcher: Bow
+
+Weight: 0~
+
+@1140 = ~These bolts have been specifically reinforced to tap into the full potential of the character's marksmanship. In addition to extra precision the impact may cripple the target. Only characters who dedicated themselves to the art of physical combat can handle these bolts properly.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target suffers a cumulative -1 armor class penalty for two rounds (Save vs. Death negates)
+
+Enchantment: +1
+THAC0: +1
+Damage: 1d8 (missile)
+Launcher: Crossbow
+
+Weight: 0~
+
+@1141 = ~These bolts have been specifically reinforced to tap into the full potential of the character's marksmanship. In addition to extra precision the impact may cripple the target. Only characters who dedicated themselves to the art of physical combat can handle these bolts properly.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target suffers a cumulative -1 armor class and to hit penalty for two rounds (Save vs. Death negates)
+
+Enchantment: +2
+THAC0: +2
+Damage: 1d8 (missile)
+Launcher: Crossbow
+
+Weight: 0~
+
+@1142 = ~These bolts have been specifically reinforced to tap into the full potential of the character's marksmanship. In addition to extra precision the impact may cripple the target. Only characters who dedicated themselves to the art of physical combat can handle these bolts properly.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target suffers a cumulative -2 armor class and to hit penalty for two rounds (Save vs. Death negates)
+- Hit target is knocked back (Save vs. Breath negates)
+
+Enchantment: +2
+THAC0: +2
+Damage: 1d8 (missile)
+Launcher: Crossbow
+
+Weight: 0~
+
+@1143 = ~These bolts have been specifically reinforced to tap into the full potential of the character's marksmanship. In addition to extra precision the impact may cripple the target or even disable it altogether. Only characters who dedicated themselves to the art of physical combat can handle these bolts properly.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target suffers a cumulative -3 armor class and to hit penalty for two rounds (Save vs. Death at -2 penalty negates)
+- Hit target is knocked back and stunned for one round (Save vs. Breath negates)
+
+Enchantment: +3
+THAC0: +3
+Damage: 1d8 (missile)
+Launcher: Crossbow
+
+Weight: 0~
+
+@1144 = ~These bolts have been specifically reinforced to tap into the full potential of the character's marksmanship. In addition to extra precision the impact may cripple the target or even disable it altogether. Only characters who dedicated themselves to the art of physical combat can handle these bolts properly.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target suffers a cumulative -4 armor class and to hit penalty for two rounds (Save vs. Death at -4 penalty negates)
+- Hit target is knocked back and stunned for one round (Save vs. Breath at -2 penalty negates)
+
+Enchantment: +4
+THAC0: +4
+Damage: 1d8 (missile)
+Launcher: Crossbow
+
+Weight: 0~
+
+@1145 = ~These bullets have been specifically reinforced to tap into the full potential of the character's marksmanship. In addition to extra damage and precision the impact may cripple the target. Only characters who dedicated themselves to the art of physical combat can handle these bullets properly.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target suffers a cumulative -1 armor class penalty for two rounds (Save vs. Death negates)
+
+Enchantment: +1
+THAC0: +1
+Damage: 1d4+2 (missile)
+Launcher: Sling
+
+Weight: 0~
+
+@1146 = ~These bullets have been specifically reinforced to tap into the full potential of the character's marksmanship. In addition to extra damage and precision the impact may cripple the target. Only characters who dedicated themselves to the art of physical combat can handle these bullets properly.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target suffers a cumulative -1 armor class and to hit penalty for two rounds (Save vs. Death negates)
+
+Enchantment: +2
+THAC0: +2
+Damage: 1d4+3 (missile)
+Launcher: Sling
+
+Weight: 0~
+
+@1147 = ~These bullets have been specifically reinforced to tap into the full potential of the character's marksmanship. In addition to extra damage and precision the impact may cripple the target. Only characters who dedicated themselves to the art of physical combat can handle these bullets properly.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target suffers a cumulative -2 armor class and to hit penalty for two rounds (Save vs. Death negates)
+- Hit target is knocked back (Save vs. Breath negates)
+
+Enchantment: +2
+THAC0: +2
+Damage: 1d4+3 (missile)
+Launcher: Sling
+
+Weight: 0~
+
+@1148 = ~These bullets have been specifically reinforced to tap into the full potential of the character's marksmanship. In addition to extra damage and precision the impact may cripple the target or even disable it altogether. Only characters who dedicated themselves to the art of physical combat can handle these bullets properly.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target suffers a cumulative -3 armor class and to hit penalty for two rounds (Save vs. Death at -2 penalty negates)
+- Hit target is knocked back and stunned for one round (Save vs. Breath negates)
+
+Enchantment: +3
+THAC0: +3
+Damage: 1d4+4 (missile)
+Launcher: Sling
+
+Weight: 0~
+
+@1149 = ~These bullets have been specifically reinforced to tap into the full potential of the character's marksmanship. In addition to extra damage and precision the impact may cripple the target or even disable it altogether. Only characters who dedicated themselves to the art of physical combat can handle these bullets properly.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target suffers a cumulative -4 armor class and to hit penalty for two rounds (Save vs. Death at -4 penalty negates)
+- Hit target is knocked back and stunned for one round (Save vs. Breath at -2 penalty negates)
+
+Enchantment: +4
+THAC0: +4
+Damage: 1d4+5 (missile)
+Launcher: Sling
+
+Weight: 0~
+
+@1150 = ~These arrows have been carefully crafted with the aim to weaken the target's combat abilities. In addition to extra precision the special design of the projectile may cripple the target's defense abilities. Only characters who are well versed in the human anatomy may use these arrows to their full potential.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target suffers a cumulative -1 armor class penalty for two rounds (Save vs. Death negates)
+
+Enchantment: +1
+THAC0: +1
+Damage: 1d6 (missile)
+Launcher: Bow
+
+Weight: 0~
+
+@1151 = ~These arrows have been carefully crafted with the aim to weaken the target's combat abilities. In addition to extra damage and precision the special design of the projectile may cripple the target's defense abilities. Only characters who are well versed in the human anatomy may use these arrows to their full potential.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target suffers a cumulative -2 armor class penalty for two rounds (Save vs. Death negates)
+- Animals, humanoids and giant humanoids suffer 1 point of additional bleeding damage per second for one round (Save vs. Death negates)
+
+Enchantment: +2
+THAC0: +2
+Damage: 1d6 (missile)
+Launcher: Bow
+
+Weight: 0~
+
+@1152 = ~These arrows have been carefully crafted with the aim to weaken the target's combat abilities. In addition to extra damage and precision the special design of the projectile may cripple the target's defense and offense abilities. Only characters who are well versed in the human anatomy may use these arrows to their full potential.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target suffers a cumulative -2 armor class and to hit penalty for two rounds (Save vs. Death negates)
+- Animals, humanoids and giant humanoids suffer 1 point of additional bleeding damage per second for one round (Save vs. Death negates)
+
+Enchantment: +2
+THAC0: +2
+Damage: 1d6 (missile)
+Launcher: Bow
+
+Weight: 0~
+
+@1153 = ~These arrows have been carefully crafted with the aim to weaken the target's combat abilities. In addition to extra damage and precision the special design of the projectile may cripple the target's defense and offense abilities. Only characters who are well versed in the human anatomy may use these arrows to their full potential.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target suffers a cumulative -2 armor class and to hit penalty for two rounds (Save vs. Death at -2 penalty negates)
+- Animals, humanoids and giant humanoids suffer 2 points of additional bleeding damage per second for one round (Save vs. Death negates)
+- Animals, humanoids and giant humanoids must save vs. Death or be blinded for two rounds
+
+Enchantment: +3
+THAC0: +3
+Damage: 1d6 (missile)
+Launcher: Bow
+
+Weight: 0~
+
+@1154 = ~These arrows have been carefully crafted with the aim to weaken the target's combat abilities. In addition to extra damage and precision the special design of the projectile may cripple the target's defense and offense abilities. Only characters who are well versed in the human anatomy may use these arrows to their full potential.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target suffers a cumulative -2 armor class and to hit penalty for two rounds (Save vs. Death at -4 penalty negates)
+- Animals, humanoids and giant humanoids suffer 2 points of additional bleeding damage per second for one round (Save vs. Death at -2 penalty negates)
+- Animals, humanoids and giant humanoids must save vs. Death at -2 penalty or be blinded for two rounds
+
+Enchantment: +4
+THAC0: +4
+Damage: 1d6 (missile)
+Launcher: Bow
+
+Weight: 0~
+
+@1155 = ~These bolts have been carefully crafted with the aim to weaken the target's combat abilities. In addition to extra precision the special design of the projectile may cripple the target's defense abilities. Only characters who are well versed in the human anatomy may use these bolts to their full potential.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target suffers a cumulative -1 armor class penalty for two rounds (Save vs. Death negates)
+
+Enchantment: +1
+THAC0: +1
+Damage: 1d8 (missile)
+Launcher: Crossbow
+
+Weight: 0~
+
+@1156 = ~These bolts have been carefully crafted with the aim to weaken the target's combat abilities. In addition to extra damage and precision the special design of the projectile may cripple the target's defense abilities. Only characters who are well versed in the human anatomy may use these bolts to their full potential.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target suffers a cumulative -2 armor class penalty for two rounds (Save vs. Death negates)
+- Animals, humanoids and giant humanoids suffer 1 point of additional bleeding damage per second for one round (Save vs. Death negates)
+
+Enchantment: +2
+THAC0: +2
+Damage: 1d8 (missile)
+Launcher: Crossbow
+
+Weight: 0~
+
+@1157 = ~These bolts have been carefully crafted with the aim to weaken the target's combat abilities. In addition to extra damage and precision the special design of the projectile may cripple the target's defense and offense abilities. Only characters who are well versed in the human anatomy may use these bolts to their full potential.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target suffers a cumulative -2 armor class and to hit penalty for two rounds (Save vs. Death negates)
+- Animals, humanoids and giant humanoids suffer 1 point of additional bleeding damage per second for one round (Save vs. Death negates)
+
+Enchantment: +2
+THAC0: +2
+Damage: 1d8 (missile)
+Launcher: Crossbow
+
+Weight: 0~
+
+@1158 = ~These bolts have been carefully crafted with the aim to weaken the target's combat abilities. In addition to extra damage and precision the special design of the projectile may cripple the target's defense and offense abilities. Only characters who are well versed in the human anatomy may use these bolts to their full potential.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target suffers a cumulative -2 armor class and to hit penalty for two rounds (Save vs. Death at -2 penalty negates)
+- Animals, humanoids and giant humanoids suffer 2 points of additional bleeding damage per second for one round (Save vs. Death negates)
+- Animals, humanoids and giant humanoids must save vs. Death or be blinded for two rounds
+
+Enchantment: +3
+THAC0: +3
+Damage: 1d8 (missile)
+Launcher: Crossbow
+
+Weight: 0~
+
+@1159 = ~These bolts have been carefully crafted with the aim to weaken the target's combat abilities. In addition to extra damage and precision the special design of the projectile may cripple the target's defense and offense abilities. Only characters who are well versed in the human anatomy may use these bolts to their full potential.
+
+STATISTICS:
+
+Combat abilities:
+- Hit target suffers a cumulative -2 armor class and to hit penalty for two rounds (Save vs. Death at -4 penalty negates)
+- Animals, humanoids and giant humanoids suffer 2 points of additional bleeding damage per second for one round (Save vs. Death at -2 penalty negates)
+- Animals, humanoids and giant humanoids must save vs. Death at -2 penalty or be blinded for two rounds
+
+Enchantment: +4
+THAC0: +4
+Damage: 1d8 (missile)
+Launcher: Crossbow
 
 Weight: 0~
 
@@ -347,42 +813,114 @@ All successful ranged attacks within the next 12 seconds will explode on impact 
   20th level: 1d4+6 damage to nearby targets
 Caution: Damages enemies, allies and innocent bystanders alike.~
 
-@2004 = ~Create Blessed Ammunition
-Create a spiritual arrow or bolt blessed by the character's worshipped god or goddess for 8 hours containing a score charges.
-  4th level: +1 enchantment, +1 to hit and damage rolls, additional 1d6 damage and slow for two rounds to undead if failed save vs. Death.
-  8th level: +1 enchantment, +2 to hit and damage rolls, additional 1d6+2 damage and hold for two rounds to undead if failed save vs. Death.
-  12th level: +2 enchantment, +2 to hit and damage rolls, additional 1d6+4 damage and instant death to undead if failed save vs. Death.
-  16th level: +3 enchantment, +3 to hit and damage rolls, additional 1d6+6 damage and instant death to undead if failed save vs. Death at -2 penalty.
-  20th level: +4 enchantment, +4 to hit and damage rolls, additional 1d6+8 damage and instant death to undead if failed save vs. Death at -4 penalty.~
+@2010 = ~Conjure Elemental Ammunition
+Conjure a specially prepared arrow or bolt blessed by the Archer's worshipped god or goddess for 8 hours containing one score of charges.
+  4th level: +1 enchantment, +1 to hit rolls, additional 1d3 fire damage.
+  8th level: +2 enchantment, +2 to hit rolls, additional 1d3 fire damage and 1d3 cold damage, entangle for two rounds vs. unnatural creatures if failed save vs. Spell.
+  12th level: +2 enchantment, +2 to hit rolls, additional 1d3 fire damage, 1d3 cold damage and 1d3 acid damage, blindness for two rounds vs. unnatural creatures if failed save vs. Spell.
+  16th level: +3 enchantment, +3 to hit rolls, additional 1d3 fire damage, 1d3 cold damage, 1d3 acid damage and 1d3 electrical damage, slow for two rounds vs. unnatural creatures if failed save vs. Spell at -2 penalty.
+  20th level: +4 enchantment, +4 to hit rolls, additional 1d3+2 fire damage, 1d3+2 cold damage, 1d3+2 acid damage and 1d3+2 electrical damage, slow and blindness for two rounds vs. unnatural creatures if failed save vs. Spell at -4 penalty.~
 
-@2005 = ~Create Blessed Arrows
-Create a spiritual arrow blessed by the character's worshipped god or goddess for 8 hours containing a score of charges.
-  4th level: +1 enchantment, +1 to hit and damage rolls, additional 1d6 damage and slow for two rounds to undead if failed save vs. Death.
-  8th level: +1 enchantment, +2 to hit and damage rolls, additional 1d6+2 damage and hold for two rounds to undead if failed save vs. Death.
-  12th level: +2 enchantment, +2 to hit and damage rolls, additional 1d6+4 damage and instant death to undead if failed save vs. Death.
-  16th level: +3 enchantment, +3 to hit and damage rolls, additional 1d6+6 damage and instant death to undead if failed save vs. Death at -2 penalty.
-  20th level: +4 enchantment, +4 to hit and damage rolls, additional 1d6+8 damage and instant death to undead if failed save vs. Death at -4 penalty.~
+@2011 = ~Conjure Elemental Arrows
+Conjure a specially prepared arrow blessed by the Archer's worshipped god or goddess for 8 hours containing one score of charges.
+  4th level: +1 enchantment, +1 to hit rolls, additional 1d3 fire damage.
+  8th level: +2 enchantment, +2 to hit rolls, additional 1d3 fire damage and 1d3 cold damage, entangle for two rounds vs. unnatural creatures if failed save vs. Spell.
+  12th level: +2 enchantment, +2 to hit rolls, additional 1d3 fire damage, 1d3 cold damage and 1d3 acid damage, blindness for two rounds vs. unnatural creatures if failed save vs. Spell.
+  16th level: +3 enchantment, +3 to hit rolls, additional 1d3 fire damage, 1d3 cold damage, 1d3 acid damage and 1d3 electrical damage, slow for two rounds vs. unnatural creatures if failed save vs. Spell at -2 penalty.
+  20th level: +4 enchantment, +4 to hit rolls, additional 1d3+2 fire damage, 1d3+2 cold damage, 1d3+2 acid damage and 1d3+2 electrical damage, slow and blindness for two rounds vs. unnatural creatures if failed save vs. Spell at -4 penalty.~
 
-@2006 = ~Create Blessed Bolts
-Create a spiritual bolt blessed by the character's worshipped god or goddess for 8 hours containing a score of charges.
-  4th level: +1 enchantment, +1 to hit and damage rolls, additional 1d6 damage and slow for two rounds to undead if failed save vs. Death.
-  8th level: +1 enchantment, +2 to hit and damage rolls, additional 1d6+2 damage and hold for two rounds to undead if failed save vs. Death.
-  12th level: +2 enchantment, +2 to hit and damage rolls, additional 1d6+4 damage and instant death to undead if failed save vs. Death.
-  16th level: +3 enchantment, +3 to hit and damage rolls, additional 1d6+6 damage and instant death to undead if failed save vs. Death at -2 penalty.
-  20th level: +4 enchantment, +4 to hit and damage rolls, additional 1d6+8 damage and instant death to undead if failed save vs. Death at -4 penalty.~
+@2012 = ~Conjure Elemental Bolts
+Conjure a specially prepared bolt blessed by the Archer's worshipped god or goddess for 8 hours containing one score of charges.
+  4th level: +1 enchantment, +1 to hit rolls, additional 1d3 fire damage.
+  8th level: +2 enchantment, +2 to hit rolls, additional 1d3 fire damage and 1d3 cold damage, entangle for two rounds vs. unnatural creatures if failed save vs. Spell.
+  12th level: +2 enchantment, +2 to hit rolls, additional 1d3 fire damage, 1d3 cold damage and 1d3 acid damage, blindness for two rounds vs. unnatural creatures if failed save vs. Spell.
+  16th level: +3 enchantment, +3 to hit rolls, additional 1d3 fire damage, 1d3 cold damage, 1d3 acid damage and 1d3 electrical damage, slow for two rounds vs. unnatural creatures if failed save vs. Spell at -2 penalty.
+  20th level: +4 enchantment, +4 to hit rolls, additional 1d3+2 fire damage, 1d3+2 cold damage, 1d3+2 acid damage and 1d3+2 electrical damage, slow and blindness for two rounds vs. unnatural creatures if failed save vs. Spell at -4 penalty.~
 
-@2007 = ~Create Blessed Bullets
-Create a spiritual bullet blessed by the character's worshipped god or goddess for 8 hours containing a score of charges.
-  4th level: +1 enchantment, +1 to hit and damage rolls, additional 1d6 damage and slow for two rounds to undead if failed save vs. Death.
-  8th level: +1 enchantment, +2 to hit and damage rolls, additional 1d6+2 damage and hold for two rounds to undead if failed save vs. Death.
-  12th level: +2 enchantment, +2 to hit and damage rolls, additional 1d6+4 damage and instant death to undead if failed save vs. Death.
-  16th level: +3 enchantment, +3 to hit and damage rolls, additional 1d6+6 damage and instant death to undead if failed save vs. Death at -2 penalty.
-  20th level: +4 enchantment, +4 to hit and damage rolls, additional 1d6+8 damage and instant death to undead if failed save vs. Death at -4 penalty.~
+@2020 = ~Evoke Blessed Ammunition
+Conjure a specially prepared arrow, bolt or bullet blessed by the Bow Knight's worshipped god for 8 hours containing one score of charges.
+  4th level: +1 enchantment, +1 to hit rolls, additional 1d6 magic damage vs. undead, demons, and devils.
+  8th level: +1 enchantment, +2 to hit rolls, additional 1d6+2 magic damage vs. undead, demons, and devils, blindness for two rounds vs. undead and demonic if failed save vs. Spell.
+  12th level: +2 enchantment, +2 to hit rolls, additional 1d6+4 magic damage vs. undead, demons, and devils, slow for two rounds vs. undead, demons, and devils if failed save vs. Spell.
+  16th level: +3 enchantment, +3 to hit rolls, additional 1d6+6 magic damage vs. undead, demons, and devils, slow and blindness for two rounds vs. undead, demons, and devils if failed save vs. Spell at -2 penalty.
+  20th level: +4 enchantment, +4 to hit rolls, additional 1d6+8 magic damage vs. undead, demons, and devils, hold for two rounds vs. undead, demons, and devils if failed save vs. Spell at -2 penalty.~
 
-@2008 = ~Create Blessed Ammunition
-Create a spiritual arrow, bolt or bullet blessed by the character's worshipped god or goddess for 8 hours containing a score charges.
-  4th level: +1 enchantment, +1 to hit and damage rolls, additional 1d6 damage and slow for two rounds to undead if failed save vs. Death.
-  8th level: +1 enchantment, +2 to hit and damage rolls, additional 1d6+2 damage and hold for two rounds to undead if failed save vs. Death.
-  12th level: +2 enchantment, +2 to hit and damage rolls, additional 1d6+4 damage and instant death to undead if failed save vs. Death.
-  16th level: +3 enchantment, +3 to hit and damage rolls, additional 1d6+6 damage and instant death to undead if failed save vs. Death at -2 penalty.
-  20th level: +4 enchantment, +4 to hit and damage rolls, additional 1d6+8 damage and instant death to undead if failed save vs. Death at -4 penalty.~
+@2021 = ~Evoke Blessed Arrows
+Conjure a specially prepared arrow blessed by the Bow Knight's worshipped god for 8 hours containing one score of charges.
+  4th level: +1 enchantment, +1 to hit rolls, additional 1d6 magic damage vs. undead, demons, and devils.
+  8th level: +1 enchantment, +2 to hit rolls, additional 1d6+2 magic damage vs. undead, demons, and devils, blindness for two rounds vs. undead and demonic if failed save vs. Spell.
+  12th level: +2 enchantment, +2 to hit rolls, additional 1d6+4 magic damage vs. undead, demons, and devils, slow for two rounds vs. undead, demons, and devils if failed save vs. Spell.
+  16th level: +3 enchantment, +3 to hit rolls, additional 1d6+6 magic damage vs. undead, demons, and devils, slow and blindness for two rounds vs. undead, demons, and devils if failed save vs. Spell at -2 penalty.
+  20th level: +4 enchantment, +4 to hit rolls, additional 1d6+8 magic damage vs. undead, demons, and devils, hold for two rounds vs. undead, demons, and devils if failed save vs. Spell at -2 penalty.~
+
+@2022 = ~Evoke Blessed Bolts
+Conjure a specially prepared bolt blessed by the Bow Knight's worshipped god for 8 hours containing one score of charges.
+  4th level: +1 enchantment, +1 to hit rolls, additional 1d6 magic damage vs. undead, demons, and devils.
+  8th level: +1 enchantment, +2 to hit rolls, additional 1d6+2 magic damage vs. undead, demons, and devils, blindness for two rounds vs. undead and demonic if failed save vs. Spell.
+  12th level: +2 enchantment, +2 to hit rolls, additional 1d6+4 magic damage vs. undead, demons, and devils, slow for two rounds vs. undead, demons, and devils if failed save vs. Spell.
+  16th level: +3 enchantment, +3 to hit rolls, additional 1d6+6 magic damage vs. undead, demons, and devils, slow and blindness for two rounds vs. undead, demons, and devils if failed save vs. Spell at -2 penalty.
+  20th level: +4 enchantment, +4 to hit rolls, additional 1d6+8 magic damage vs. undead, demons, and devils, hold for two rounds vs. undead, demons, and devils if failed save vs. Spell at -2 penalty.~
+
+@2023 = ~Evoke Blessed Bullets
+Conjure a specially prepared bullet blessed by the Bow Knight's worshipped god for 8 hours containing one score of charges.
+  4th level: +1 enchantment, +1 to hit rolls, additional 1d6 magic damage vs. undead, demons, and devils.
+  8th level: +1 enchantment, +2 to hit rolls, additional 1d6+2 magic damage vs. undead, demons, and devils, blindness for two rounds vs. undead and demonic if failed save vs. Spell.
+  12th level: +2 enchantment, +2 to hit rolls, additional 1d6+4 magic damage vs. undead, demons, and devils, slow for two rounds vs. undead, demons, and devils if failed save vs. Spell.
+  16th level: +3 enchantment, +3 to hit rolls, additional 1d6+6 magic damage vs. undead, demons, and devils, slow and blindness for two rounds vs. undead, demons, and devils if failed save vs. Spell at -2 penalty.
+  20th level: +4 enchantment, +4 to hit rolls, additional 1d6+8 magic damage vs. undead, demons, and devils, hold for two rounds vs. undead, demons, and devils if failed save vs. Spell at -2 penalty.~
+
+@2030 = ~Produce Reinforced Ammunition
+Create one score of specially prepared arrows, bolts or bullets.
+  4th level: +1 enchantment, +1 to hit rolls, cumulative -1 AC penalty for two rounds if failed save vs. Death.
+  8th level: +2 enchantment, +2 to hit rolls, cumulative -1 AC and -1 THAC0 penalties for two rounds if failed save vs. Death.
+  12th level: +2 enchantment, +2 to hit rolls, cumulative -2 AC and -2 THAC0 penalties for two rounds if failed save vs. Death, knockback if failed save vs. Breath.
+  16th level: +3 enchantment, +3 to hit rolls, cumulative -3 AC and -3 THAC0 penalties for two rounds if failed save vs. Death at -2 penalty, knockback and stun for one round if failed save vs. Breath.
+  20th level: +4 enchantment, +4 to hit rolls, cumulative -4 AC, -4 THAC0 and 1/2 attack per round penalties for two rounds if failed save vs. Death at -4 penalty, knockback and stun for one round if failed save vs. Breath at -2 penalty.~
+
+@2031 = ~Produce Reinforced Arrows
+Create one score of specially prepared arrows.
+  4th level: +1 enchantment, +1 to hit rolls, cumulative -1 AC penalty for two rounds if failed save vs. Death.
+  8th level: +2 enchantment, +2 to hit rolls, cumulative -1 AC and -1 THAC0 penalties for two rounds if failed save vs. Death.
+  12th level: +2 enchantment, +2 to hit rolls, cumulative -2 AC and -2 THAC0 penalties for two rounds if failed save vs. Death, knockback if failed save vs. Breath.
+  16th level: +3 enchantment, +3 to hit rolls, cumulative -3 AC and -3 THAC0 penalties for two rounds if failed save vs. Death at -2 penalty, knockback and stun for one round if failed save vs. Breath.
+  20th level: +4 enchantment, +4 to hit rolls, cumulative -4 AC, -4 THAC0 and 1/2 attack per round penalties for two rounds if failed save vs. Death at -4 penalty, knockback and stun for one round if failed save vs. Breath at -2 penalty.~
+
+@2032 = ~Produce Reinforced Bolts
+Create one score of specially prepared bolts.
+  4th level: +1 enchantment, +1 to hit rolls, cumulative -1 AC penalty for two rounds if failed save vs. Death.
+  8th level: +2 enchantment, +2 to hit rolls, cumulative -1 AC and -1 THAC0 penalties for two rounds if failed save vs. Death.
+  12th level: +2 enchantment, +2 to hit rolls, cumulative -2 AC and -2 THAC0 penalties for two rounds if failed save vs. Death, knockback if failed save vs. Breath.
+  16th level: +3 enchantment, +3 to hit rolls, cumulative -3 AC and -3 THAC0 penalties for two rounds if failed save vs. Death at -2 penalty, knockback and stun for one round if failed save vs. Breath.
+  20th level: +4 enchantment, +4 to hit rolls, cumulative -4 AC, -4 THAC0 and 1/2 attack per round penalties for two rounds if failed save vs. Death at -4 penalty, knockback and stun for one round if failed save vs. Breath at -2 penalty.~
+
+@2033 = ~Produce Reinforced Bullets
+Create one score of specially prepared bullets.
+  4th level: +1 enchantment, +1 to hit rolls, cumulative -1 AC penalty for two rounds if failed save vs. Death.
+  8th level: +2 enchantment, +2 to hit rolls, cumulative -1 AC and -1 THAC0 penalties for two rounds if failed save vs. Death.
+  12th level: +2 enchantment, +2 to hit rolls, cumulative -2 AC and -2 THAC0 penalties for two rounds if failed save vs. Death, knockback if failed save vs. Breath.
+  16th level: +3 enchantment, +3 to hit rolls, cumulative -3 AC and -3 THAC0 penalties for two rounds if failed save vs. Death at -2 penalty, knockback and stun for one round if failed save vs. Breath.
+  20th level: +4 enchantment, +4 to hit rolls, cumulative -4 AC, -4 THAC0 and 1/2 attack per round penalties for two rounds if failed save vs. Death at -4 penalty, knockback and stun for one round if failed save vs. Breath at -2 penalty.~
+
+@2040 = ~Craft Endowed Ammunition
+Create one score of specially prepared arrows or bolts.
+  4th level: +1 enchantment, +1 to hit rolls, cumulative -1 AC penalty for two rounds if failed save vs. Death.
+  8th level: +2 enchantment, +2 to hit rolls, cumulative -2 AC penalty for two rounds if failed save vs. Death, additional 1 HP per second bleeding damage for one round vs. animals, humanoids and giant humanoids if failed save vs. Death.
+  12th level: +2 enchantment, +2 to hit rolls, cumulative -2 AC and -2 THAC0 penalty for two rounds if failed save vs. Death, additional 1 HP per second bleeding damage for one round vs. animals, humanoids and giant humanoids if failed save vs. Death.
+  16th level: +3 enchantment, +3 to hit rolls, cumulative -2 AC and -2 THAC0 penalty for two rounds if failed save vs. Death, additional 2 HP per second bleeding damage for one round as well as blindness for two rounds vs. animals, humanoids and giant humanoids if failed save vs. Death.
+  20th level: +4 enchantment, +4 to hit rolls, cumulative -2 AC and -2 THAC0 penalty for two rounds if failed save vs. Death at -2 penalty, additional 4 HP per second bleeding damage for one round as well as blindness for two rounds vs. animals, humanoids and giant humanoids if failed save vs. Death at -2 penalty.~
+
+@2041 = ~Craft Endowed Arrows
+Create one score of specially prepared arrows.
+  4th level: +1 enchantment, +1 to hit rolls, cumulative -1 AC penalty for two rounds if failed save vs. Death.
+  8th level: +2 enchantment, +2 to hit rolls, cumulative -2 AC penalty for two rounds if failed save vs. Death, additional 1 HP per second bleeding damage for one round vs. animals, humanoids and giant humanoids if failed save vs. Death.
+  12th level: +2 enchantment, +2 to hit rolls, cumulative -2 AC and -2 THAC0 penalty for two rounds if failed save vs. Death, additional 1 HP per second bleeding damage for one round vs. animals, humanoids and giant humanoids if failed save vs. Death.
+  16th level: +3 enchantment, +3 to hit rolls, cumulative -2 AC and -2 THAC0 penalty for two rounds if failed save vs. Death, additional 2 HP per second bleeding damage for one round as well as blindness for two rounds vs. animals, humanoids and giant humanoids if failed save vs. Death.
+  20th level: +4 enchantment, +4 to hit rolls, cumulative -2 AC and -2 THAC0 penalty for two rounds if failed save vs. Death at -2 penalty, additional 4 HP per second bleeding damage for one round as well as blindness for two rounds vs. animals, humanoids and giant humanoids if failed save vs. Death at -2 penalty.~
+
+@2042 = ~Craft Endowed Bolts
+Create one score of specially prepared bolts.
+  4th level: +1 enchantment, +1 to hit rolls, cumulative -1 AC penalty for two rounds if failed save vs. Death.
+  8th level: +2 enchantment, +2 to hit rolls, cumulative -2 AC penalty for two rounds if failed save vs. Death, additional 1 HP per second bleeding damage for one round vs. animals, humanoids and giant humanoids if failed save vs. Death.
+  12th level: +2 enchantment, +2 to hit rolls, cumulative -2 AC and -2 THAC0 penalty for two rounds if failed save vs. Death, additional 1 HP per second bleeding damage for one round vs. animals, humanoids and giant humanoids if failed save vs. Death.
+  16th level: +3 enchantment, +3 to hit rolls, cumulative -2 AC and -2 THAC0 penalty for two rounds if failed save vs. Death, additional 2 HP per second bleeding damage for one round as well as blindness for two rounds vs. animals, humanoids and giant humanoids if failed save vs. Death.
+  20th level: +4 enchantment, +4 to hit rolls, cumulative -2 AC and -2 THAC0 penalty for two rounds if failed save vs. Death at -2 penalty, additional 4 HP per second bleeding damage for one round as well as blindness for two rounds vs. animals, humanoids and giant humanoids if failed save vs. Death at -2 penalty.~

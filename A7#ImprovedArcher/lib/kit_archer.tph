@@ -6,7 +6,7 @@ OUTER_SET help_strref = RESOLVE_STR_REF(@1100)    // Archer kit description
 // Updating Archer description and ability table
 OUTER_SET kit_id = "-1"
 OUTER_TEXT_SPRINT kit_symbol ~~
-COPY_EXISTING ~KITLIST.2DA~ ~override~
+COPY_EXISTING ~kitlist.2da~ ~override~
   COUNT_2DA_COLS numCols
   COUNT_2DA_ROWS numCols numRows
   FOR (row = 0; row < numRows; row += 1) BEGIN
@@ -22,7 +22,7 @@ COPY_EXISTING ~KITLIST.2DA~ ~override~
 BUT_ONLY
 
 // Adjusting weapon proficiencies and styles
-COPY_EXISTING ~WEAPPROF.2DA~ ~override~
+COPY_EXISTING ~weapprof.2da~ ~override~
   COUNT_2DA_COLS numCols
   COUNT_2DA_ROWS numCols numRows
   // finding archer column
@@ -53,7 +53,7 @@ COPY_EXISTING ~WEAPPROF.2DA~ ~override~
 BUT_ONLY
 
 // Modifying DEX and CON requirements
-COPY_EXISTING ~ABCLASRQ.2DA~ ~override~
+COPY_EXISTING ~abclasrq.2da~ ~override~
   COUNT_2DA_COLS numCols
   COUNT_2DA_ROWS numCols numRows
   FOR (row = 0; row < numRows; row += 1) BEGIN
@@ -67,7 +67,7 @@ COPY_EXISTING ~ABCLASRQ.2DA~ ~override~
 BUT_ONLY
 
 // Setting CON penalty
-COPY_EXISTING ~ABCLSMOD.2DA~ ~override~
+COPY_EXISTING ~abclsmod.2da~ ~override~
   COUNT_2DA_COLS numCols
   COUNT_2DA_ROWS numCols numRows
   FOR (row = 0; row < numRows; row += 1) BEGIN
@@ -80,7 +80,7 @@ COPY_EXISTING ~ABCLSMOD.2DA~ ~override~
 BUT_ONLY
 
 // Setting new HLA table
-COPY_EXISTING ~LUABBR.2DA~ ~override~
+COPY_EXISTING ~luabbr.2da~ ~override~
   COUNT_2DA_COLS numCols
   COUNT_2DA_ROWS numCols numRows
   FOR (row = 0; row < numRows; row += 1) BEGIN
@@ -92,13 +92,13 @@ COPY_EXISTING ~LUABBR.2DA~ ~override~
   END
 BUT_ONLY
 
-ACTION_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
+ACTION_IF (IS_EE) BEGIN
   // using hardcoded class table by default
-  OUTER_TEXT_SPRINT campaign_0 ~CLASTEXT.2DA~
+  OUTER_TEXT_SPRINT campaign_0 ~clastext.2da~
 
   ACTION_IF (FILE_EXISTS_IN_GAME ~campaign.2da~) BEGIN
     // retrieving externalized class table(s)
-    COPY_EXISTING - ~campaign.2da~ ~override~
+    COPY_EXISTING ~campaign.2da~ ~override~
       COUNT_2DA_COLS numCols
       COUNT_2DA_ROWS numCols numRows
       COUNT_2DA_ROWS (numCols - 1) numRowsHdr
@@ -107,7 +107,7 @@ ACTION_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
         FOR (row = 0; row < numRows; row += 1) BEGIN
           READ_2DA_ENTRY row 30 numCols file
           PATCH_IF (FILE_EXISTS_IN_GAME ~%file%.2da~) BEGIN
-            TEXT_SPRINT EVAL ~campaign_%idx%~ ~%file%.2DA~
+            TEXT_SPRINT EVAL ~campaign_%idx%~ ~%file%.2da~
             SET idx += 1
           END
         END
@@ -135,8 +135,8 @@ ACTION_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
   END
 
   // In-game help
-  ACTION_IF (FILE_EXISTS_IN_GAME ~ENGINEST.2DA~) BEGIN
-    COPY_EXISTING ~ENGINEST.2DA~ ~override~
+  ACTION_IF (FILE_EXISTS_IN_GAME ~enginest.2da~) BEGIN
+    COPY_EXISTING ~enginest.2da~ ~override~
       COUNT_2DA_COLS numCols
       COUNT_2DA_ROWS numCols numRows
       SET found = 0
@@ -152,7 +152,7 @@ END
 
 
 // Update Archer CLAB entries non-destructively
-COPY ~%MOD_FOLDER%/kit/%CLAB_DIR%/CLABA7R1.2DA~ ~%MOD_FOLDER%/kit/%CLAB_DIR%/CLABA7R1.2DA~
+COPY ~%MOD_FOLDER%/kit/%CLAB_DIR%/claba7r1.2da~ ~%MOD_FOLDER%/kit/%CLAB_DIR%/claba7r1.2da~
   COUNT_2DA_COLS src_num_cols
   COUNT_2DA_ROWS 1 src_num_rows
   READ_2DA_ENTRIES_NOW src_clab 1
@@ -173,8 +173,8 @@ COPY ~%MOD_FOLDER%/kit/%CLAB_DIR%/CLABA7R1.2DA~ ~%MOD_FOLDER%/kit/%CLAB_DIR%/CLA
   SET $src_entries(~GA_SPCL121~) = 1
 BUT_ONLY
 
-ACTION_IF (FILE_EXISTS_IN_GAME ~%src_clab_resref%.2DA~) BEGIN
-  COPY_EXISTING ~%src_clab_resref%.2DA~ ~override~
+ACTION_IF (FILE_EXISTS_IN_GAME ~%src_clab_resref%.2da~) BEGIN
+  COPY_EXISTING ~%src_clab_resref%.2da~ ~override~
     COUNT_2DA_COLS dst_num_cols
     COUNT_2DA_ROWS 1 dst_num_rows
     READ_2DA_ENTRIES_NOW dst_clab 1
@@ -247,20 +247,190 @@ ACTION_IF (FILE_EXISTS_IN_GAME ~%src_clab_resref%.2DA~) BEGIN
     ACTION_IF (line_add != 0) BEGIN
       OUTER_SET idx = dst_num_rows - 2
       OUTER_SET dst_num_rows += 1
-      APPEND ~%src_clab_resref%.2DA~ ~ABILITY%idx% %line%~
+      APPEND ~%src_clab_resref%.2da~ ~ABILITY%idx% %line%~
     END
   END
 
   // finalizing CLAB
-  COPY_EXISTING ~%src_clab_resref%.2DA~ ~override~
-    PATCH_IF (GAME_IS ~tob bgt~) BEGIN
+  COPY_EXISTING ~%src_clab_resref%.2da~ ~override~
+    PATCH_IF (NOT IS_EE) BEGIN
       LPF CLAB_FIX_ENTRY END
     END
     PRETTY_PRINT_2DA
   BUT_ONLY
 END ELSE BEGIN
-  COPY ~%MOD_FOLDER%/kit/%CLAB_DIR%/CLABA7R1.2DA~ ~override/%src_clab_resref%.2DA~
-    PATCH_IF (GAME_IS ~tob bgt~) BEGIN
+  COPY ~%MOD_FOLDER%/kit/%CLAB_DIR%/claba7r1.2da~ ~override/%src_clab_resref%.2DA~
+    PATCH_IF (NOT IS_EE) BEGIN
       LPF CLAB_FIX_ENTRY END
     END
+END
+
+
+// Installing kit-specific ability resources
+// Ability: Conjure Elemental Ammunition
+COPY ~%MOD_FOLDER%/kit/a7#inr4.spl~ ~override~
+  SAY NAME1 @1029   // Conjure Elemental Ammo
+  PATCH_IF (IS_EE) BEGIN
+    SAY UNIDENTIFIED_DESC @2010   // Conjure Elemental Ammunition...
+  END
+
+COPY ~%KIT_FOLDER2%/a7#inr4a.spl~ ~override~
+  SAY NAME1 @1030   // Conjure Elemental Arrows
+  PATCH_IF (IS_EE) BEGIN
+    SAY UNIDENTIFIED_DESC @2011   // Conjure Elemental Arrows...
+  END
+  READ_LONG 0x6a "effects_ofs"
+  WHILE (effects_ofs < SOURCE_SIZE) BEGIN
+    READ_SHORT effects_ofs "fx_type"
+    PATCH_IF (fx_type == 139) BEGIN   // Display string (139)
+      SAY (effects_ofs + 4) @1040   // Elemental Arrows conjured
+    END
+    effects_ofs += 0x30
+  END
+
+COPY ~%KIT_FOLDER2%/a7#inr4b.spl~ ~override~
+  SAY NAME1 @1031   // Conjure Elemental Bolts
+  PATCH_IF (IS_EE) BEGIN
+    SAY UNIDENTIFIED_DESC @2012   // Conjure Elemental Bolts...
+  END
+  READ_LONG 0x6a "effects_ofs"
+  WHILE (effects_ofs < SOURCE_SIZE) BEGIN
+    READ_SHORT effects_ofs "fx_type"
+    PATCH_IF (fx_type == 139) BEGIN   // Display string (139)
+      SAY (effects_ofs + 4) @1041   // Elemental Bolts conjured
+    END
+    effects_ofs += 0x30
+  END
+
+// Elemental Arrows and Bolts
+COPY ~%KIT_FOLDER%/a7#inra1.itm~ ~override~
+  SAY NAME2 @1032   // Elemental Arrow +1
+  SAY IDENTIFIED_DESC @1125   // This is an arrow that has been blessed by the character's worshipped god or goddess...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+  END
+
+COPY ~%KIT_FOLDER%/a7#inra2.itm~ ~override~
+  SAY NAME2 @1033   // Elemental Arrow +2
+  SAY IDENTIFIED_DESC @1126   // This is an arrow that has been blessed by the character's worshipped god or goddess...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+  END
+
+COPY ~%KIT_FOLDER%/a7#inra3.itm~ ~override~
+  SAY NAME2 @1033   // Elemental Arrow +2
+  SAY IDENTIFIED_DESC @1127   // This is an arrow that has been blessed by the character's worshipped god or goddess...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+  END
+
+COPY ~%KIT_FOLDER%/a7#inra4.itm~ ~override~
+  SAY NAME2 @1034   // Elemental Arrow +3
+  SAY IDENTIFIED_DESC @1128   // This is an arrow that has been blessed by the character's worshipped god or goddess...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+  END
+
+COPY ~%KIT_FOLDER%/a7#inra5.itm~ ~override~
+  SAY NAME2 @1035   // Elemental Arrow +4
+  SAY IDENTIFIED_DESC @1129   // This is an arrow that has been blessed by the character's worshipped god or goddess...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+  END
+
+COPY ~%KIT_FOLDER%/a7#inro1.itm~ ~override~
+  SAY NAME2 @1036   // Elemental Bolt +1
+  SAY IDENTIFIED_DESC @1130   // This is a bolt that has been blessed by the character's worshipped god or goddess...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+  END
+
+COPY ~%KIT_FOLDER%/a7#inro2.itm~ ~override~
+  SAY NAME2 @1037   // Elemental Bolt +2
+  SAY IDENTIFIED_DESC @1131   // This is a bolt that has been blessed by the character's worshipped god or goddess...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+  END
+
+COPY ~%KIT_FOLDER%/a7#inro3.itm~ ~override~
+  SAY NAME2 @1037   // Elemental Bolt +2
+  SAY IDENTIFIED_DESC @1132   // This is a bolt that has been blessed by the character's worshipped god or goddess...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+  END
+
+COPY ~%KIT_FOLDER%/a7#inro4.itm~ ~override~
+  SAY NAME2 @1038   // Elemental Bolt +3
+  SAY IDENTIFIED_DESC @1133   // This is a bolt that has been blessed by the character's worshipped god or goddess...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+  END
+
+COPY ~%KIT_FOLDER%/a7#inro5.itm~ ~override~
+  SAY NAME2 @1039   // Elemental Bolt +4
+  SAY IDENTIFIED_DESC @1134   // This is a bolt that has been blessed by the character's worshipped god or goddess...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+  END
+
+COPY ~%KIT_FOLDER%/a7#inra1.bam~ ~override~
+     ~%KIT_FOLDER%/a7#inro1.bam~ ~override~
+     ~%MOD_FOLDER%/kit/a7#inr4.2da~ ~override~
+     ~%MOD_FOLDER%/kit/a7#inr2b.eff~ ~override~
+     ~%MOD_FOLDER%/kit/a7#inr2c.eff~ ~override~
+     ~%MOD_FOLDER%/kit/a7#inr2d.eff~ ~override~
+     ~%MOD_FOLDER%/kit/a7#inr2e.eff~ ~override~
+     ~%MOD_FOLDER%/kit/a7#inr2g.eff~ ~override~
+     ~%MOD_FOLDER%/kit/a7#inr2h.eff~ ~override~
+     ~%MOD_FOLDER%/kit/a7#inr2i.eff~ ~override~
+     ~%MOD_FOLDER%/kit/a7#inr3b.eff~ ~override~
+     ~%MOD_FOLDER%/kit/a7#inr3c.eff~ ~override~
+     ~%MOD_FOLDER%/kit/a7#inr3d.eff~ ~override~
+     ~%MOD_FOLDER%/kit/a7#inr3e.eff~ ~override~
+     ~%MOD_FOLDER%/kit/a7#inr3g.eff~ ~override~
+     ~%MOD_FOLDER%/kit/a7#inr3h.eff~ ~override~
+     ~%MOD_FOLDER%/kit/a7#inr4b.eff~ ~override~
+     ~%MOD_FOLDER%/kit/a7#inr4c.eff~ ~override~
+     ~%MOD_FOLDER%/kit/a7#inr4d.eff~ ~override~
+     ~%MOD_FOLDER%/kit/a7#inr4e.eff~ ~override~
+     ~%MOD_FOLDER%/kit/a7#inr4g.eff~ ~override~
+     ~%MOD_FOLDER%/kit/a7#inr4h.eff~ ~override~
+     ~%MOD_FOLDER%/kit/a7#inr4i.eff~ ~override~
+     ~%MOD_FOLDER%/kit/a7#inr4j.eff~ ~override~
+     ~%MOD_FOLDER%/kit/a7#inr4k.eff~ ~override~
+
+ACTION_IF (IS_EE) BEGIN
+  COPY ~%MOD_FOLDER%/kit/a7#inr2f.eff~ ~override~
+       ~%MOD_FOLDER%/kit/a7#inr3f.eff~ ~override~
+       ~%MOD_FOLDER%/kit/a7#inr4f.eff~ ~override~
 END

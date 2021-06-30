@@ -27,7 +27,7 @@ STR_VAR
   abdcscrq  = ~15 0 0 0 0 0~
   alignmnt  = ~1 1 1 1 1 1 1 1 1~
   dualclas  = ~0 1 1 1 1 0~
-  clab_path = EVAL ~%MOD_FOLDER%/kit/%CLAB_DIR%/CLABA7F1.2DA~
+  clab_path = EVAL ~%MOD_FOLDER%/kit/%CLAB_DIR%/claba7f1.2da~
   kittable  = ~K_F_H K_F_D K_F_G K_F_E K_F_HE K_F_HL K_F_HO~
   luabbr    = ~A7fi1~
   stweap
@@ -41,10 +41,217 @@ RET
   kit_id
 END
 
-COPY ~%MOD_FOLDER%/kit/LUA7FI1.2DA~ ~override~
+COPY ~%MOD_FOLDER%/kit/lua7fi1.2da~ ~override~
 
-COPY_EXISTING ~CLABA7F1.2DA~ ~override~
-  PATCH_IF (GAME_IS ~tob bgt~) BEGIN
+COPY_EXISTING ~claba7f1.2da~ ~override~
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLAB_FIX_ENTRY END
   END
   BUT_ONLY
+
+
+// Installing kit-specific ability resources
+// Ability: Produce Reinforced Ammunition
+COPY ~%MOD_FOLDER%/kit/a7#inf4.spl~ ~override~
+  SAY NAME1 @1042   // Produce Reinforced Ammo
+  PATCH_IF (IS_EE) BEGIN
+    SAY UNIDENTIFIED_DESC @2030   // Produce Reinforced Ammunition...
+  END
+
+COPY ~%KIT_FOLDER2%/a7#inf4a.spl~ ~override~
+  SAY NAME1 @1043   // Produce Reinforced Arrows
+  PATCH_IF (IS_EE) BEGIN
+    SAY UNIDENTIFIED_DESC @2031   // Produce Reinforced Arrows...
+  END
+  READ_LONG 0x6a "effects_ofs"
+  WHILE (effects_ofs < SOURCE_SIZE) BEGIN
+    READ_SHORT effects_ofs "fx_type"
+    PATCH_IF (fx_type == 139) BEGIN   // Display string (139)
+      SAY (effects_ofs + 4) @1058   // Reinforced arrows created
+    END
+    effects_ofs += 0x30
+  END
+
+COPY ~%KIT_FOLDER2%/a7#inf4b.spl~ ~override~
+  SAY NAME1 @1044   // Produce Reinforced Bolts
+  PATCH_IF (IS_EE) BEGIN
+    SAY UNIDENTIFIED_DESC @2032   // Produce Reinforced Bolts...
+  END
+  READ_LONG 0x6a "effects_ofs"
+  WHILE (effects_ofs < SOURCE_SIZE) BEGIN
+    READ_SHORT effects_ofs "fx_type"
+    PATCH_IF (fx_type == 139) BEGIN   // Display string (139)
+      SAY (effects_ofs + 4) @1059   // Reinforced bolts created
+    END
+    effects_ofs += 0x30
+  END
+
+COPY ~%KIT_FOLDER2%/a7#inf4c.spl~ ~override~
+  SAY NAME1 @1045   // Produce Reinforced Bullets
+  PATCH_IF (IS_EE) BEGIN
+    SAY UNIDENTIFIED_DESC @2033   // Produce Reinforced Bullets...
+  END
+  READ_LONG 0x6a "effects_ofs"
+  WHILE (effects_ofs < SOURCE_SIZE) BEGIN
+    READ_SHORT effects_ofs "fx_type"
+    PATCH_IF (fx_type == 139) BEGIN   // Display string (139)
+      SAY (effects_ofs + 4) @1060   // Reinforced bullets created
+    END
+    effects_ofs += 0x30
+  END
+
+// Elemental Arrows and Bolts
+COPY ~%MOD_FOLDER%/kit/a7#infa1.itm~ ~override~
+  SAY NAME2 @1046   // Reinforced Arrow +1
+  SAY IDENTIFIED_DESC @1135   // These arrows have been specifically reinforced to tap into the full potential of the character's marksmanship...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+  END
+
+COPY ~%MOD_FOLDER%/kit/a7#infa2.itm~ ~override~
+  SAY NAME2 @1047   // Reinforced Arrow +2
+  SAY IDENTIFIED_DESC @1136   // These arrows have been specifically reinforced to tap into the full potential of the character's marksmanship...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+  END
+
+COPY ~%MOD_FOLDER%/kit/a7#infa3.itm~ ~override~
+  SAY NAME2 @1047   // Reinforced Arrow +2
+  SAY IDENTIFIED_DESC @1137   // These arrows have been specifically reinforced to tap into the full potential of the character's marksmanship...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+  END
+
+COPY ~%MOD_FOLDER%/kit/a7#infa4.itm~ ~override~
+  SAY NAME2 @1048   // Reinforced Arrow +3
+  SAY IDENTIFIED_DESC @1138   // These arrows have been specifically reinforced to tap into the full potential of the character's marksmanship...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+  END
+
+COPY ~%MOD_FOLDER%/kit/a7#infa5.itm~ ~override~
+  SAY NAME2 @1049   // Reinforced Arrow +4
+  SAY IDENTIFIED_DESC @1139   // These arrows have been specifically reinforced to tap into the full potential of the character's marksmanship...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+  END
+
+COPY ~%MOD_FOLDER%/kit/a7#info1.itm~ ~override~
+  SAY NAME2 @1050   // Reinforced Bolt +1
+  SAY IDENTIFIED_DESC @1140   // These bolts have been specifically reinforced to tap into the full potential of the character's marksmanship...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+  END
+
+COPY ~%MOD_FOLDER%/kit/a7#info2.itm~ ~override~
+  SAY NAME2 @1051   // Reinforced Bolt +2
+  SAY IDENTIFIED_DESC @1141   // These bolts have been specifically reinforced to tap into the full potential of the character's marksmanship...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+  END
+
+COPY ~%MOD_FOLDER%/kit/a7#info3.itm~ ~override~
+  SAY NAME2 @1051   // Reinforced Bolt +2
+  SAY IDENTIFIED_DESC @1142   // These bolts have been specifically reinforced to tap into the full potential of the character's marksmanship...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+  END
+
+COPY ~%MOD_FOLDER%/kit/a7#info4.itm~ ~override~
+  SAY NAME2 @1052   // Reinforced Bolt +3
+  SAY IDENTIFIED_DESC @1143   // These bolts have been specifically reinforced to tap into the full potential of the character's marksmanship...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+  END
+
+COPY ~%MOD_FOLDER%/kit/a7#info5.itm~ ~override~
+  SAY NAME2 @1053   // Reinforced Bolt +4
+  SAY IDENTIFIED_DESC @1144   // These bolts have been specifically reinforced to tap into the full potential of the character's marksmanship...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+  END
+
+COPY ~%MOD_FOLDER%/kit/a7#infu1.itm~ ~override~
+  SAY NAME2 @1054   // Reinforced Bullet +1
+  SAY IDENTIFIED_DESC @1145   // These bullets have been specifically reinforced to tap into the full potential of the character's marksmanship...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bullet projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 17 END
+  END
+
+COPY ~%MOD_FOLDER%/kit/a7#infu2.itm~ ~override~
+  SAY NAME2 @1055   // Reinforced Bullet +2
+  SAY IDENTIFIED_DESC @1146   // These bullets have been specifically reinforced to tap into the full potential of the character's marksmanship...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bullet projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 17 END
+  END
+
+COPY ~%MOD_FOLDER%/kit/a7#infu3.itm~ ~override~
+  SAY NAME2 @1055   // Reinforced Bullet +2
+  SAY IDENTIFIED_DESC @1147   // These bullets have been specifically reinforced to tap into the full potential of the character's marksmanship...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bullet projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 17 END
+  END
+
+COPY ~%MOD_FOLDER%/kit/a7#infu4.itm~ ~override~
+  SAY NAME2 @1056   // Reinforced Bullet +3
+  SAY IDENTIFIED_DESC @1148   // These bullets have been specifically reinforced to tap into the full potential of the character's marksmanship...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bullet projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 17 END
+  END
+
+COPY ~%MOD_FOLDER%/kit/a7#infu5.itm~ ~override~
+  SAY NAME2 @1057   // Reinforced Bullet +4
+  SAY IDENTIFIED_DESC @1149   // These bullets have been specifically reinforced to tap into the full potential of the character's marksmanship...
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bullet projectile
+    LPF ALTER_ITEM_HEADER INT_VAR projectile = 17 END
+  END
+
+COPY ~%KIT_FOLDER%/a7#infa1.bam~ ~override~
+     ~%KIT_FOLDER%/a7#info1.bam~ ~override~
+     ~%KIT_FOLDER%/a7#infu1.bam~ ~override~
+     ~%MOD_FOLDER%/kit/a7#inf4.2da~ ~override~

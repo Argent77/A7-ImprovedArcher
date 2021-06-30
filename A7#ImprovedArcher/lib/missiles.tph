@@ -3,7 +3,7 @@
 // Shamans *can* use bows
 DEFINE_PATCH_FUNCTION REMOVE_SHAMAN_RESTRICTION
 BEGIN
-  PATCH_IF (GAME_IS ~bgee bg2ee iwdee eet~ &&
+  PATCH_IF (IS_EE &&
             IDS_OF_SYMBOL(~class~ ~shaman~) > 0) BEGIN
     WRITE_LONG 0x1e (THIS BAND BNOT (1 << 30))  // Druids are handled by opcode
     LPF ADD_ITEM_EQEFFECT
@@ -19,23 +19,23 @@ BEGIN
 END
 
 
-ACTION_IF (GAME_IS ~bgee bg2ee eet iwdee~) BEGIN
-  COPY ~%MOD_FOLDER%/kit/ee/A7#AROW1.BAM~ ~override~
-       ~%MOD_FOLDER%/kit/ee/A7#BOLT1.BAM~ ~override~
+ACTION_IF (IS_EE) BEGIN
+  COPY ~%MOD_FOLDER%/kit/ee/a7#arow1.bam~ ~override~
+       ~%MOD_FOLDER%/kit/ee/a7#bolt1.bam~ ~override~
 END ELSE BEGIN
-  COPY ~%MOD_FOLDER%/kit/A7#AROW1.BAM~ ~override~
-       ~%MOD_FOLDER%/kit/A7#BOLT1.BAM~ ~override~
+  COPY ~%MOD_FOLDER%/kit/a7#arow1.bam~ ~override~
+       ~%MOD_FOLDER%/kit/a7#bolt1.bam~ ~override~
 END
 
 ACTION_IF (GAME_IS ~tob bgt bg2ee eet~) BEGIN
-  COPY_EXISTING ~AROW15.ITM~ ~override~
+  COPY_EXISTING ~arow15.itm~ ~override~
     SAY IDENTIFIED_DESC @1113   // These enchanted missiles surpass the craftsmanship of...
 
-  COPY_EXISTING ~BOLT09.ITM~ ~override~
+  COPY_EXISTING ~bolt09.itm~ ~override~
     SAY IDENTIFIED_DESC @1114   // These enchanted missiles surpass the craftsmanship of...
 END
 
-COPY ~%MOD_FOLDER%/kit/A7#AROW1.ITM~ ~override~
+COPY ~%MOD_FOLDER%/kit/a7#arow1.itm~ ~override~
   SAY NAME2 @1019   // Arrow +4
   SAY IDENTIFIED_DESC @1115   // ...
   LPF REMOVE_SHAMAN_RESTRICTION END
@@ -43,7 +43,7 @@ COPY ~%MOD_FOLDER%/kit/A7#AROW1.ITM~ ~override~
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
 
-COPY ~%MOD_FOLDER%/kit/A7#BOLT1.ITM~ ~override~
+COPY ~%MOD_FOLDER%/kit/a7#bolt1.itm~ ~override~
   SAY NAME2 @1020   // Bolt +4
   SAY IDENTIFIED_DESC @1116   // ...
   LPF REMOVE_SHAMAN_RESTRICTION END
@@ -54,33 +54,33 @@ COPY ~%MOD_FOLDER%/kit/A7#BOLT1.ITM~ ~override~
 
 // Adding bows, arrows and bolts to stores and creatures
 ACTION_IF (GAME_IS ~tob bgt bg2ee eet~) BEGIN
-  COPY_EXISTING ~AMSMUG01.STO~ ~override~
-                ~AMSMUG02.STO~ ~override~
+  COPY_EXISTING ~amsmug01.sto~ ~override~
+                ~amsmug02.sto~ ~override~
     ADD_STORE_ITEM ~A7#AROW1~ AFTER ~AROW15~ #40 #0 #0 ~IDENTIFIED~ #3
     ADD_STORE_ITEM ~A7#BOLT1~ AFTER ~BOLT09~ #40 #0 #0 ~IDENTIFIED~ #3
 
-  COPY_EXISTING ~HGKAR01.STO~ ~override~
-                ~SARBAR01.STO~ ~override~
+  COPY_EXISTING ~hgkar01.sto~ ~override~
+                ~sarbar01.sto~ ~override~
     ADD_STORE_ITEM ~A7#AROW1~ AFTER ~AROW15~ #40 #0 #0 ~IDENTIFIED~ #20
     ADD_STORE_ITEM ~A7#BOLT1~ AFTER ~BOLT09~ #40 #0 #0 ~IDENTIFIED~ #20
 
-  COPY_EXISTING ~AMMERC08.CRE~ ~override~
-                ~GORBAT2.CRE~ ~override~
-                ~GORCAMB5.CRE~ ~override~
+  COPY_EXISTING ~ammerc08.cre~ ~override~
+                ~gorbat2.cre~ ~override~
+                ~gorcamb5.cre~ ~override~
     ADD_CRE_ITEM ~A7#AROW1~ #20 #0 #0 ~none~ ~quiver1 quiver2 quiver3 quiver4 inv1 inv2 inv3 inv4 inv5 inv6 inv7 inv8 inv9 inv10 inv11 inv12 inv13 inv14 inv15 inv16~
 
-  COPY_EXISTING ~SENDAI3.CRE~ ~override~
+  COPY_EXISTING ~sendai3.cre~ ~override~
     ADD_CRE_ITEM ~A7#AROW1~ #40 #0 #0 ~none~ ~quiver1 quiver2 quiver3 quiver4 inv1 inv2 inv3 inv4 inv5 inv6 inv7 inv8 inv9 inv10 inv11 inv12 inv13 inv14 inv15 inv16~
 
-  COPY_EXISTING ~DROFOD03.CRE~ ~override~
+  COPY_EXISTING ~drofod03.cre~ ~override~
     ADD_CRE_ITEM ~A7#BOLT1~ #10 #0 #0 ~none~ ~quiver1 quiver2 quiver3 quiver4 inv1 inv2 inv3 inv4 inv5 inv6 inv7 inv8 inv9 inv10 inv11 inv12 inv13 inv14 inv15 inv16~
 
   ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
-    COPY_EXISTING ~OHBSDWM.STO~ ~override~
+    COPY_EXISTING ~ohbsdwm.sto~ ~override~
       ADD_STORE_ITEM ~A7#AROW1~ AFTER ~AROW15~ #40 #0 #0 ~IDENTIFIED~ #1
       ADD_STORE_ITEM ~A7#BOLT1~ AFTER ~BOLT09~ #40 #0 #0 ~IDENTIFIED~ #1
 
-    COPY_EXISTING ~OHNSDWM.STO~ ~override~
+    COPY_EXISTING ~ohnsdwm.sto~ ~override~
       ADD_STORE_ITEM ~A7#AROW1~ AFTER ~AROW15~ #40 #0 #0 ~IDENTIFIED~ #2
       ADD_STORE_ITEM ~A7#BOLT1~ AFTER ~BOLT09~ #40 #0 #0 ~IDENTIFIED~ #2
   END
