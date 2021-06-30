@@ -80,13 +80,14 @@
 @1100 = ~ARCHER: The Archer is the epitome of skill with the bow - the ultimate marksman, able to make almost any shot, no matter how difficult. To become so skilled with the bow, the Archer has had to sacrifice some of his proficiency with melee weapons and armor.
 
 Advantages:
-- +1 bonus to hit and damage rolls with any missile weapon as well as to AC vs. missile weapons every 6 levels.
+- +1 bonus to hit and damage rolls with any missile weapon every 4 levels.
+- +1 bonus to armor class vs. missile weapons every 6 levels.
 - +5% chance to score a critical hit at levels 9, 13 and 18.
-- May achieve Grandmastery (5 slots) in longbows, shortbows and crossbows.
-- May use Rooting Shot ability once per day every 4 levels. Can not be used together with other shot abilities.
-- May use Power Shot ability once per day every 4 levels, starting at level 8. Can not be used together with other shot abilities.
-- May use Explosive Shot ability once per day every 4 levels, starting at level 8. Can not be used together with other shot abilities.
-- May use Conjure Elemental Ammunition ability once per day every 8 levels, starting at level 4.
+- May achieve Grandmastery (5 slots) in longbows, shortbows, and crossbows.
+- May use the Rooting Shot ability once per day every 4 levels, starting at level 4. Can not be used together with other shot abilities.
+- May use the Power Shot ability once per day every 4 levels, starting at level 8. Can not be used together with other shot abilities.
+- May use the Explosive Shot ability once per day every 4 levels, starting at level 8. Can not be used together with other shot abilities.
+- May use the Conjure Elemental Ammunition ability once per day every 8 levels, starting at level 4.
 
 ROOTING SHOT: All successful ranged attacks within the next 12 seconds will entangle the target, according to the level of the Archer:
  4th level: Target is entangled for three rounds if failed save vs. Spell.
@@ -1132,7 +1133,8 @@ Usable by:
 @1200 = ~MARKSMAN: The Marksman is the epitome of skill with any ranged weapon - the ultimate marksman, able to make almost any shot, no matter how difficult. To become so skilled with their ranged weapon of choice, the Marksman has had to sacrifice some of his proficiency with melee weapons and armor.
 
 Advantages:
-- +1 bonus to hit and damage rolls with any missile weapon as well as to AC vs. missile weapons every 6 levels.
+- +1 bonus to hit and damage rolls with any missile weapon every 4 levels.
+- +1 bonus to armor class vs. missile weapons every 6 levels.
 - +5% chance to score a critical hit at levels 9, 13 and 18.
 - May achieve Grandmastery (5 slots) in longbows, shortbows, crossbows, darts and slings.
 - May use Rooting Shot ability once per day every 4 levels. Can not be used together with other shot abilities.
@@ -1179,7 +1181,8 @@ Disadvantages:
 @1300 = ~BOW KNIGHT: The Bow Knight is the epitome of skill with any ranged weapon - the ultimate marksman, able to make almost any shot, no matter how difficult. To become so skilled with their ranged weapon of choice, the Bow Knight has had to sacrifice some of his proficiency with melee weapons and armor.
 
 Advantages:
-- +1 bonus to hit and damage rolls with any missile weapon as well as to AC vs. missile weapons every 6 levels.
+- +1 bonus to hit and damage rolls with any missile weapon every 4 levels.
+- +1 bonus to armor class vs. missile weapons every 6 levels.
 - +5% chance to score a critical hit at levels 9, 13 and 18.
 - May achieve Grandmastery (5 slots) in longbows, shortbows, crossbows and slings.
 - May use Rooting Shot ability once per day every 4 levels. Can not be used together with other shot abilities.
@@ -1221,7 +1224,8 @@ Disadvantages:
 @1400 = ~SHARPSHOOTER: The Sharpshooter is the epitome of skill with any ranged weapon - the ultimate sniper, able to make almost any shot, no matter how difficult. To become so skilled with their ranged weapon of choice, the Sharpshooter has had to sacrifice some of his thieving skills.
 
 Advantages:
-- +1 bonus to hit and damage rolls with any missile weapon as well as to AC vs. missile weapons every 8 levels.
+- +1 bonus to hit and damage rolls with any missile weapon every 5 levels.
+- +1 bonus to armor class vs. missile weapons every 8 levels.
 - +5% chance to score a critical hit at levels 13 and 18.
 - May achieve Grandmastery (5 slots) in shortbows, crossbows, darts and slings.
 - May use Rooting Shot ability once per day every 4 levels. Can not be used together with other shot abilities.
