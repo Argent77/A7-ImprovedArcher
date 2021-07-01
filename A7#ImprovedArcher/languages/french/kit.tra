@@ -31,6 +31,12 @@
 @1027 = ~Bille bénie +4~
 @1028 = ~A créé des Billes bénies~
 
+@1074 = ~Arc court +2~
+@1075 = ~Arc court +3~
+@1076 = ~Eye of the Hunter~
+@1077 = ~Shortbow +2: Defender~
+@1078 = ~Shortbow of Action +2~
+
 
 // Descriptions
 @1100 = ~ARCHER : Archer d'élite, il est capable de réussir les tirs les plus précis et les plus difficiles. Mais pour devenir aussi efficace avec un arc, il doit négliger certaines des capacités classiques des guerriers.
@@ -478,6 +484,12 @@ Utilisable uniquement par :
  Rôdeur
  Clerc
  Personnage d'alignement bon~
+
+@1160 = ~~
+@1161 = ~~
+@1162 = ~~
+@1163 = ~~
+@1164 = ~~
 
 
 @1200 = ~TIREUR d'ÉLITE : Le Tireur d'élite est capable de réussir les tirs les plus précis et les plus difficiles avec des armes de jet. Mais pour devenir aussi efficace avec ces armes, il doit négliger certaines des capacités classiques des guerriers (port d'armures et compétentes martiales).

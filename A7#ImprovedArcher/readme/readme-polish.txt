@@ -200,6 +200,14 @@ Copyright Notice
 History
 ~~~~~~~
 
+4.0 (2021-XX-YY)
+  - Rebalanced passive bonuses for all kits
+  - Removed "Power Shot" ability from Sharpshooter kit
+  - Completely revised the "Create ammunition" ability for all kits
+  - Adds several powerful shortbows to IWD:EE
+  - Fixed incorrect abilities granted to Bow Knights
+  - Fixed missing bonuses for Bow Knight and Marksman kit
+
 3.2 (2021-01-04)
   - Made all kit-related subcomponents independent of each other
   - "Improved Archer kit" component doesn't overwrite original class ability table anymore

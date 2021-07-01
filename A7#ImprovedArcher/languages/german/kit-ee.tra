@@ -301,6 +301,71 @@ Schusswaffe: Schleuder
 
 Gewicht: 0~
 
+@1160 = ~Kurzbogen waren die ersten Bogen überhaupt, obwohl sie ursprünglich nicht so hießen. Der Begriff wird kurzerhand für alles verwendet, das kein Langbogen ist. Der Stab eines Kurzbogens ist im Schnitt zirka 1 Meter lang. Im Laufe der Jahre wurden auch Versuche unternommen, die Reichweite zu vergrößern. Dazu rüstete man die Bogen entweder mit längeren Stäben aus oder steigerte die Biegsamkeit bei gleicher Länge. Erstere Veränderung führte zur Entstehung des heutigen Langbogens.
+
+EIGENSCHAFTEN:
+
+Schaden: +2
+ETW0-Bonus: -2
+Gewicht: 2
+Initiativefaktor: 4
+Mindeststärke: 6
+Fertigkeit: Kurzbogen
+Typ:  2-händig~
+
+@1161 = ~Kurzbogen waren die ersten Bogen überhaupt, obwohl sie ursprünglich nicht so hießen. Der Begriff wird kurzerhand für alles verwendet, das kein Langbogen ist. Der Stab eines Kurzbogens ist im Schnitt zirka 1 Meter lang. Im Laufe der Jahre wurden auch Versuche unternommen, die Reichweite zu vergrößern. Dazu rüstete man die Bogen entweder mit längeren Stäben aus oder steigerte die Biegsamkeit bei gleicher Länge. Erstere Veränderung führte zur Entstehung des heutigen Langbogens.
+
+EIGENSCHAFTEN:
+
+Schaden: +3
+ETW0-Bonus: -3
+Gewicht: 2
+Initiativefaktor: 3
+Mindeststärke: 6
+Fertigkeit: Kurzbogen
+Typ:  2-händig~
+
+@1162 = ~Dieser Kurzbogen barbarischen Ursprungs wurde im entfernten Vaasa von Kriegerpriestern hergestellt. Seine Vorgeschichte ist nicht sehr lang. Er wurde jahrzehntelang vom Häuptling eines kleinen Stammes zum Jagen benutzt. Nachdem der Stamm ausgelöscht wurde, fiel der Bogen einige Zeit später Eindringlingen in die Hände. Sein offensichtliches "Barbaren"-Aussehen könnte auf zivilisiertere Abenteurer unattraktiv wirken. Aus Eibenholz gefertigt und mit dünnen Fellen umwickelt, wirkt der Bogen robust und praktisch. Der Griff des Bogens hat auf jeder Seite eine abgeplatzte und ausgeblichene Darstellung eines großen Auges.
+
+EIGENSCHAFTEN:
+
+Schaden: +3
+ETW0-Bonus: -3
+Gewicht: 2
+Initiativefaktor: 2
+Mindeststärke: 6
+Fertigkeit: Kurzbogen
+Typ:  2-händig~
+
+@1163 = ~Kurzbogen waren die ersten Bogen überhaupt, obwohl sie ursprünglich nicht so hießen. Der Begriff wird kurzerhand für alles verwendet, das kein Langbogen ist. Der Stab eines Kurzbogens ist im Schnitt zirka 1 Meter lang. Im Laufe der Jahre wurden auch Versuche unternommen, die Reichweite zu vergrößern. Dazu rüstete man die Bogen entweder mit längeren Stäben aus oder steigerte die Biegsamkeit bei gleicher Länge. Erstere Veränderung führte zur Entstehung des heutigen Langbogens.
+
+EIGENSCHAFTEN:
+
+Schaden: +2
+ETW0-Bonus: -2
+RK-Bonus: -2
+Widerstandsbonus:
+  +15 % Widerstandskraft gegen Geschosse
+Gewicht: 2
+Initiativefaktor: 4
+Mindeststärke: 6
+Fertigkeit: Kurzbogen
+Typ:  2-händig~
+
+@1164 = ~Kurzbogen waren die ersten Bogen überhaupt, obwohl sie ursprünglich nicht so hießen. Der Begriff wird kurzerhand für alles verwendet, das kein Langbogen ist. Der Stab eines Kurzbogens ist im Schnitt zirka 1 Meter lang. Im Laufe der Jahre wurden auch Versuche unternommen, die Reichweite zu vergrößern. Dazu rüstete man die Bogen entweder mit längeren Stäben aus oder steigerte die Biegsamkeit bei gleicher Länge. Erstere Veränderung führte zur Entstehung des heutigen Langbogens.
+
+EIGENSCHAFTEN:
+
+Geschicklichkeit: +1
+
+Schaden: +2
+ETW0-Bonus: -2
+Gewicht: 2
+Initiativefaktor: 4
+Mindeststärke: 6
+Fertigkeit: Kurzbogen
+Typ:  2-händig~
+
 
 // Natürliche Fähigkeiten
 

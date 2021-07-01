@@ -31,6 +31,12 @@
 @1027 = ~Błogosławiony pocisk +4~
 @1028 = ~Stworzono błogosławione pociski~
 
+@1074 = ~Krótki łuk +2~
+@1075 = ~Krótki łuk +3~
+@1076 = ~Eye of the Hunter~
+@1077 = ~Shortbow +2: Defender~
+@1078 = ~Shortbow of Action +2~
+
 // Descriptions
 @1100 = ~ŁUCZNIK: Jest uosobieniem mistrzowskiego posługiwania się łukiem. To znakomity strzelec, umiejący oddać strzał niemal z każdej pozycji, niezależnie od stopnia trudności. Aby zyskać takie umiejętności, łucznik musiał poświęcić część swoich punktów biegłości za posługiwanie się bronią ręczną i zbroją.
 
@@ -510,6 +516,12 @@ Może używać tylko:
  Łowcy
  Kapłan
  Postać dobra~
+
+@1160 = ~~
+@1161 = ~~
+@1162 = ~~
+@1163 = ~~
+@1164 = ~~
 
 
 @1200 = ~SNAJPER: Jest uosobieniem mistrzowskiego posługiwania się łukiem. To znakomity strzelec, umiejący oddać strzał niemal z każdej pozycji, niezależnie od stopnia trudności. Aby zyskać takie umiejętności, snajper musiał poświęcić część swoich punktów biegłości za posługiwanie się bronią ręczną i zbroją.

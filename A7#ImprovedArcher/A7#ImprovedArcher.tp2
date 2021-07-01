@@ -19,6 +19,7 @@ ALWAYS
   END
 
   OUTER_SET IS_EE = GAME_IS ~bgee bg2ee eet iwdee pstee~
+  OUTER_SET IS_EE_V2 = IS_EE && FILE_EXISTS_IN_GAME ~achievem.2da~
 
   ACTION_DEFINE_ARRAY a7#noconvert BEGIN ~setup~ ~kit-ee~ END
   ACTION_DEFINE_ARRAY a7#reload BEGIN ~kit~ END

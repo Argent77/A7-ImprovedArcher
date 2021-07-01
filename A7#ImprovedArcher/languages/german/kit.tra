@@ -31,6 +31,12 @@
 @1027 = ~Gesegnete Kugel +4~
 @1028 = ~Gesegnete Kugeln erschaffen~
 
+@1074 = ~Kurzbogen +2~
+@1075 = ~Kurzbogen +3~
+@1076 = ~Auge des Jägers~
+@1077 = ~Kurzbogen +2: Verteidiger~
+@1078 = ~Kurzbogen der Handlung +2~
+
 // Beschreibungen
 @1100 = ~BOGENSCHÜTZE: Der Bogenschütze ist ein Meister im Umgang mit dem Bogen. Diesem ultimativen Schützen gelingt praktisch jeder Schuss, egal wie schwierig er ist. Da er sich so stark auf den Umgang mit dem Bogen spezialisiert hat, musste er sein Training mit Nahkampfwaffen und Rüstungen vernachlässigen.
 
@@ -460,6 +466,12 @@ Kann nur verwendet werden von:
  Paladinen
  Waldläufern
  Klerikern~
+
+@1160 = ~~
+@1161 = ~~
+@1162 = ~~
+@1163 = ~~
+@1164 = ~~
 
 
 @1200 = ~KAMPFSCHÜTZE: Der Kampfschütze ist ein Meister im Umgang mit Fernkampfwaffen. Diesem ultimativen Schützen gelingt praktisch jeder Schuss, egal wie schwierig er ist. Da er sich so stark auf den Umgang mit Fernkampfwaffen spezialisiert hat, musste er sein Training mit Nahkampfwaffen und Rüstungen vernachlässigen.

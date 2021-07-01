@@ -75,6 +75,11 @@
 @1071 = ~Endowed Bolt +4~
 @1072 = ~Endowed arrows created~
 @1073 = ~Endowed bolts created~
+@1074 = ~Shortbow +2~
+@1075 = ~Shortbow +3~
+@1076 = ~Eye of the Hunter~
+@1077 = ~Shortbow +2: Defender~
+@1078 = ~Shortbow of Action +2~
 
 // Descriptions
 @1100 = ~ARCHER: The Archer is the epitome of skill with the bow - the ultimate marksman, able to make almost any shot, no matter how difficult. To become so skilled with the bow, the Archer has had to sacrifice some of his proficiency with melee weapons and armor.
@@ -1128,6 +1133,12 @@ Launcher: Crossbow
 Weight: 0
 Usable by:
  Thieves (single, dual, & multi-class)~
+
+@1160 = ~~
+@1161 = ~~
+@1162 = ~~
+@1163 = ~~
+@1164 = ~~
 
 
 @1200 = ~MARKSMAN: The Marksman is the epitome of skill with any ranged weapon - the ultimate marksman, able to make almost any shot, no matter how difficult. To become so skilled with their ranged weapon of choice, the Marksman has had to sacrifice some of his proficiency with melee weapons and armor.

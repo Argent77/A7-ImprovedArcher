@@ -788,6 +788,83 @@ Launcher: Crossbow
 
 Weight: 0~
 
+@1160 = ~Shortbows were the first bows to be developed, although they were not called such. This is more of a default term that refers to anything which is not a longbow. Shortbow staves are about five feet long on the average. As the years passed, attempts were made to increase bow ranges. Bows were either given longer staves or flexibility was increased with no change to the length. The former resulted in what is now called the longbow.
+
+STATISTICS:
+
+THAC0: +2
+Damage: +2
+Speed Factor: 4
+Proficiency Type: Shortbow
+Type: Two-handed
+Requires:
+ 6 Strength
+
+Weight: 2~
+
+@1161 = ~Shortbows were the first bows to be developed, although they were not called such. This is more of a default term that refers to anything which is not a longbow. Shortbow staves are about five feet long on the average. As the years passed, attempts were made to increase bow ranges. Bows were either given longer staves or flexibility was increased with no change to the length. The former resulted in what is now called the longbow.
+
+STATISTICS:
+
+THAC0: +3
+Damage: +3
+Speed Factor: 3
+Proficiency Type: Shortbow
+Type: Two-handed
+Requires:
+ 6 Strength
+
+Weight: 2~
+
+@1162 = ~This small barbarian bow is foreign to the lands of Icewind Dale, having been made by the distant warrior-priests of Vaasa.  Its history is not rich, having been used by the chief hunter of a small tribe for decades. The bow later fell into the hands of invaders after the tribe was wiped out. Its obvious "barbarian" look could be unappealing to stylish urban adventurers. Made of yew and wrapped with thin furs, the bow looks rugged and practical. The grip of the bow has a chipped and faded painting of a large eye on each side.
+
+STATISTICS:
+
+THAC0: +3
+Damage: +3
+Speed Factor: 2
+Proficiency Type: Shortbow
+Type: Two-handed
+Requires:
+ 6 Strength
+
+Weight: 2~
+
+@1163 = ~Shortbows were the first bows to be developed, although they were not called such. This is more of a default term that refers to anything which is not a longbow. Shortbow staves are about five feet long on the average. As the years passed, attempts were made to increase bow ranges. Bows were either given longer staves or flexibility was increased with no change to the length. The former resulted in what is now called the longbow.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: +2
+– Missile Resistance: +15%
+
+THAC0: +2
+Damage: +2
+Speed Factor: 4
+Proficiency Type: Shortbow
+Type: Two-handed
+Requires:
+ 6 Strength
+
+Weight: 2~
+
+@1164 = ~Shortbows were the first bows to be developed, although they were not called such. This is more of a default term that refers to anything which is not a longbow. Shortbow staves are about five feet long on the average. As the years passed, attempts were made to increase bow ranges. Bows were either given longer staves or flexibility was increased with no change to the length. The former resulted in what is now called the longbow.
+
+STATISTICS:
+
+Equipped abilities:
+– Dexterity: +1
+
+THAC0: +2
+Damage: +2
+Speed Factor: 4
+Proficiency Type: Shortbow
+Type: Two-handed
+Requires:
+ 6 Strength
+
+Weight: 2~
+
 
 // Innate ability descriptions
 @2001 = ~Power Shot

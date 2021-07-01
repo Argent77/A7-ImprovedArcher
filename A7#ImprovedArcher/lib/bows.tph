@@ -11,21 +11,58 @@ END
 COPY ~%MOD_FOLDER%/kit/a7#bow01.itm~ ~override~
   SAY NAME2 @1021   // Great Sun-Reacher +4
   SAY IDENTIFIED_DESC @1117   // The elves of Evereska are known for their...
-    PATCH_IF (GAME_IS ~iwdee~) BEGIN
-      WRITE_LONG 0x34 16000     // Higher price in IWD
-      WRITE_ASCII 0x58 ~~ #8    // Description image
-    END
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_LONG 0x34 16000     // Higher price in IWD
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
 
 COPY ~%MOD_FOLDER%/kit/a7#bow02.itm~ ~override~
   SAY NAME2 @1022   // The Defender +5
   SAY IDENTIFIED_DESC @1118   // Composite longbows are bows whose staves are made from...
-    PATCH_IF (GAME_IS ~iwdee~) BEGIN
-      WRITE_LONG 0x34 9000      // Higher price in IWD
-      WRITE_ASCII 0x58 ~~ #8    // Description image
+  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+    WRITE_LONG 0x34 9000      // Higher price in IWD
+    WRITE_ASCII 0x58 ~~ #8    // Description image
+  END
+
+ACTION_IF (GAME_IS ~iwdee~) BEGIN
+  COPY ~%MOD_FOLDER%/kit/a7#bow03.itm~ ~override~
+    SAY NAME2 @1074   // Shortbow +2
+    SAY IDENTIFIED_DESC @1160   // Shortbows were the first bows to be developed,...
+    PATCH_IF (NOT IS_EE_V2) BEGIN
+      LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 319 END
     END
 
+  COPY ~%MOD_FOLDER%/kit/a7#bow04.itm~ ~override~
+    SAY NAME2 @1075   // Shortbow +3
+    SAY IDENTIFIED_DESC @1161   // Shortbows were the first bows to be developed,...
+    PATCH_IF (NOT IS_EE_V2) BEGIN
+      LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 319 END
+    END
 
-// Adding longbow
+  COPY ~%MOD_FOLDER%/kit/a7#bow05.itm~ ~override~
+    SAY NAME2 @1076   // Eye of the Hunter
+    SAY IDENTIFIED_DESC @1162   // This small barbarian bow is foreign to the lands of Icewind Dale,...
+    PATCH_IF (NOT IS_EE_V2) BEGIN
+      LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 319 END
+    END
+
+  COPY ~%MOD_FOLDER%/kit/a7#bow06.itm~ ~override~
+    SAY NAME2 @1077   // Shortbow of the Defender +2
+    SAY IDENTIFIED_DESC @1163   // Shortbows were the first bows to be developed,...
+    PATCH_IF (NOT IS_EE_V2) BEGIN
+      LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 319 END
+    END
+
+  COPY ~%MOD_FOLDER%/kit/a7#bow07.itm~ ~override~
+    SAY NAME2 @1078   // Shortbow of Action +2
+    SAY IDENTIFIED_DESC @1164   // Shortbows were the first bows to be developed,...
+    PATCH_IF (NOT IS_EE_V2) BEGIN
+      LPF DELETE_ITEM_EQEFFECT INT_VAR opcode_to_delete = 319 END
+    END
+END
+
+
+// Adding longbow and shortbows
 ACTION_IF (GAME_IS ~tob bgt bg2ee eet~) BEGIN
   COPY_EXISTING ~teltief2.cre~ ~override~
     ADD_CRE_ITEM ~A7#BOW01~ #0 #0 #0 ~none~ ~inv1 inv2 inv3 inv4 inv5 inv6 inv7 inv8 inv9 inv10 inv11 inv12 inv13 inv14 inv15 inv16~
@@ -33,14 +70,28 @@ ACTION_IF (GAME_IS ~tob bgt bg2ee eet~) BEGIN
 END ELSE ACTION_IF (GAME_IS ~iwdee~) BEGIN
   <<<<<<<< .../inlined/A7#ImprovedArcher/ar2100.baf
   IF
-    Global("A7#BowAdded", "MYAREA", 0)
-    GlobalGT("Chapter", "GLOBAL", 3)
+    Global("A7#BowAdded","AR2100",0)
+    GlobalGT("Chapter","GLOBAL",1)
   THEN RESPONSE #100
-    SetGlobal("A7#BowAdded", "MYAREA", 1)
-    AddStoreItem("KUSMITH", "A7#BOW01", 1, 1)
-    AddStoreItem("KUSMITH", "A7#BOW02", 1, 1)
-    AddStoreItem("KUSMITH", "A7#AROW1", 240, 1)
-    AddStoreItem("KUSMITH", "A7#BOLT1", 120, 1)
+    SetInterrupt(FALSE)
+    SetGlobal("A7#BowAdded","AR2100",1)
+    AddStoreItem("KUSMITH","A7#BOW03",1,1)
+    SetInterrupt(TRUE)
+    Continue()
+  END
+
+  IF
+    Global("A7#BowAdded","AR2100",1)
+    GlobalGT("Chapter","GLOBAL",3)
+  THEN RESPONSE #100
+    SetInterrupt(FALSE)
+    SetGlobal("A7#BowAdded","AR2100",2)
+    AddStoreItem("KUSMITH","A7#BOW01",1,1)
+    AddStoreItem("KUSMITH","A7#BOW02",1,1)
+    AddStoreItem("KUSMITH","A7#BOW04",1,1)
+    AddStoreItem("KUSMITH","A7#AROW1",240,1)
+    AddStoreItem("KUSMITH","A7#BOLT1",120,1)
+    SetInterrupt(TRUE)
     Continue()
   END
   >>>>>>>>
@@ -158,4 +209,56 @@ ACTION_IF (GAME_IS ~tob bgt bg2ee eet~) BEGIN
       fj_structure_type = ~itm~
       fj_name           = ~MISC07~    // Gold
     END
+END
+
+
+// Adding IWD bows
+ACTION_IF (GAME_IS ~iwdee~) BEGIN
+  // Shortbow +2
+  COPY_EXISTING ~ar9400.are~ ~override~
+    LPF fj_are_structure
+      INT_VAR
+        fj_con_itm_idx = 1
+      STR_VAR
+        fj_structure_type = ~itm~
+        fj_name = ~A7#BOW03~
+    END
+  BUT_ONLY
+
+  // Shortbow +3
+  COPY_EXISTING ~ar9714.are~ ~override~
+    LPF fj_are_structure
+      INT_VAR
+        fj_con_itm_idx = 19
+      STR_VAR
+        fj_structure_type = ~itm~
+        fj_name = ~A7#BOW04~
+    END
+  BUT_ONLY
+
+  // Eye of the Hunter
+  COPY_EXISTING ~emmeric.sto~ ~override~
+    LPF ADD_STORE_ITEM_EX
+      STR_VAR
+        item_name = ~A7#BOW05~
+        position = ~LAST~
+        flags = ~identified~
+    END
+  BUT_ONLY
+
+  // Shortbow of the Defender +2
+  COPY_EXISTING ~ar5003.are~ ~override~
+    LPF fj_are_structure
+      INT_VAR
+        fj_con_itm_idx = 0
+      STR_VAR
+        fj_structure_type = ~itm~
+        fj_name = ~A7#BOW06~
+    END
+  BUT_ONLY
+
+  // Shortbow of Action +2
+  COPY_EXISTING ~kelly.cre~ ~override~
+    ADD_CRE_ITEM ~A7#BOW07~ #0 #0 #0 ~none~ ~weapon3 weapon4 inv1 inv2 inv3 inv4 inv5 inv6 inv7 inv8 inv9 inv10 inv11 inv12 inv13 inv14 inv15 inv16~
+  BUT_ONLY
 END

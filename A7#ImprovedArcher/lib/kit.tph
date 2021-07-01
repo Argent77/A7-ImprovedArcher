@@ -8,7 +8,7 @@ END ELSE BEGIN
 END
 
 // Work-around for a buggy implementation of opcode 122 (Create inventory item) in the Enhanced Editions patch 1.x
-ACTION_IF (GAME_IS ~iwdee~ && NOT FILE_EXISTS_IN_GAME ~achievem.2da~) BEGIN
+ACTION_IF (GAME_IS ~iwdee~ && NOT IS_EE_V2) BEGIN
   OUTER_TEXT_SPRINT KIT_FOLDER2 ~%MOD_FOLDER%/kit/ee~
 END ELSE BEGIN
   OUTER_TEXT_SPRINT KIT_FOLDER2 ~%MOD_FOLDER%/kit~
