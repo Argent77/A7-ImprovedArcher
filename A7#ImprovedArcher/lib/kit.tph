@@ -17,7 +17,6 @@ END
 ACTION_IF (NOT IS_EE) BEGIN
   COPY ~%MOD_FOLDER%/kit/a7#in06a.eff~ ~override~
        ~%MOD_FOLDER%/kit/a7#in06b.eff~ ~override~
-       ~%MOD_FOLDER%/kit/a7#in06c.eff~ ~override~
 END
 
 COPY ~%KIT_FOLDER%/a7#in01b.bam~ ~override~
@@ -30,6 +29,7 @@ COPY ~%KIT_FOLDER%/a7#in01b.bam~ ~override~
      ~%KIT_FOLDER%/a7#in0ab.bam~ ~override~
      ~%KIT_FOLDER%/a7#in0bb.spl~ ~override~
      ~%KIT_FOLDER%/a7#in06.spl~  ~override~
+     ~%KIT_FOLDER%/a7#in07.spl~  ~override~
      ~%MOD_FOLDER%/kit/lua7ra1.2da~  ~override~
      ~%MOD_FOLDER%/kit/a7#in11a.eff~ ~override~
      ~%MOD_FOLDER%/kit/a7#in11b.eff~ ~override~
