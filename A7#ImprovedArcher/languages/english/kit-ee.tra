@@ -465,7 +465,7 @@ Weight: 0~
 STATISTICS:
 
 Combat abilities:
-- Hit target suffers a cumulative -3 armor class and to hit penalty for two rounds (Save vs. Death at -2 penalty negates)
+- Hit target suffers a cumulative -2 armor class and to hit penalty for two rounds (Save vs. Death at -2 penalty negates)
 - Hit target is knocked back and stunned for one round (Save vs. Breath negates)
 
 Enchantment: +3
@@ -480,7 +480,7 @@ Weight: 0~
 STATISTICS:
 
 Combat abilities:
-- Hit target suffers a cumulative -4 armor class, -4 to hit and -1 strength penalty for two rounds (Save vs. Death at -4 penalty negates)
+- Hit target suffers a cumulative -3 armor class, -3 to hit and -1 strength penalty for two rounds (Save vs. Death at -2 penalty negates)
 - Hit target is knocked back and stunned for one round (Save vs. Breath at -2 penalty negates)
 
 Enchantment: +4
@@ -538,7 +538,7 @@ Weight: 0~
 STATISTICS:
 
 Combat abilities:
-- Hit target suffers a cumulative -3 armor class and to hit penalty for two rounds (Save vs. Death at -2 penalty negates)
+- Hit target suffers a cumulative -2 armor class and to hit penalty for two rounds (Save vs. Death at -2 penalty negates)
 - Hit target is knocked back and stunned for one round (Save vs. Breath negates)
 
 Enchantment: +3
@@ -553,7 +553,7 @@ Weight: 0~
 STATISTICS:
 
 Combat abilities:
-- Hit target suffers a cumulative -4 armor class, -4 to hit and -1 strength penalty for two rounds (Save vs. Death at -4 penalty negates)
+- Hit target suffers a cumulative -3 armor class, -3 to hit and -1 strength penalty for two rounds (Save vs. Death at -2 penalty negates)
 - Hit target is knocked back and stunned for one round (Save vs. Breath at -2 penalty negates)
 
 Enchantment: +4
@@ -611,7 +611,7 @@ Weight: 0~
 STATISTICS:
 
 Combat abilities:
-- Hit target suffers a cumulative -3 armor class and to hit penalty for two rounds (Save vs. Death at -2 penalty negates)
+- Hit target suffers a cumulative -2 armor class and to hit penalty for two rounds (Save vs. Death at -2 penalty negates)
 - Hit target is knocked back and stunned for one round (Save vs. Breath negates)
 
 Enchantment: +3
@@ -626,7 +626,7 @@ Weight: 0~
 STATISTICS:
 
 Combat abilities:
-- Hit target suffers a cumulative -4 armor class, -4 to hit and -1 strength penalty for two rounds (Save vs. Death at -4 penalty negates)
+- Hit target suffers a cumulative -3 armor class, -3 to hit and -1 strength penalty for two rounds (Save vs. Death at -2 penalty negates)
 - Hit target is knocked back and stunned for one round (Save vs. Breath at -2 penalty negates)
 
 Enchantment: +4
@@ -951,32 +951,32 @@ Create one score of specially prepared arrows, bolts or bullets.
   4th level: +1 enchantment, +1 to hit rolls, cumulative -1 AC penalty for two rounds if failed save vs. Death.
   8th level: +2 enchantment, +2 to hit rolls, cumulative -1 AC and -1 THAC0 penalties for two rounds if failed save vs. Death.
   12th level: +2 enchantment, +2 to hit rolls, cumulative -2 AC and -2 THAC0 penalties for two rounds if failed save vs. Death, knockback if failed save vs. Breath.
-  16th level: +3 enchantment, +3 to hit rolls, cumulative -3 AC and -3 THAC0 penalties for two rounds if failed save vs. Death at -2 penalty, knockback and stun for one round if failed save vs. Breath.
-  20th level: +4 enchantment, +4 to hit rolls, cumulative -4 AC, -4 THAC0 and -1 strength penalties for two rounds if failed save vs. Death at -4 penalty, knockback and stun for one round if failed save vs. Breath at -2 penalty.~
+  16th level: +3 enchantment, +3 to hit rolls, cumulative -2 AC and -2 THAC0 penalties for two rounds if failed save vs. Death at -2 penalty, knockback and stun for one round if failed save vs. Breath.
+  20th level: +4 enchantment, +4 to hit rolls, cumulative -3 AC, -3 THAC0 and -1 strength penalties for two rounds if failed save vs. Death at -2 penalty, knockback and stun for one round if failed save vs. Breath at -2 penalty.~
 
 @2031 = ~Produce Reinforced Arrows
 Create one score of specially prepared arrows.
   4th level: +1 enchantment, +1 to hit rolls, cumulative -1 AC penalty for two rounds if failed save vs. Death.
   8th level: +2 enchantment, +2 to hit rolls, cumulative -1 AC and -1 THAC0 penalties for two rounds if failed save vs. Death.
   12th level: +2 enchantment, +2 to hit rolls, cumulative -2 AC and -2 THAC0 penalties for two rounds if failed save vs. Death, knockback if failed save vs. Breath.
-  16th level: +3 enchantment, +3 to hit rolls, cumulative -3 AC and -3 THAC0 penalties for two rounds if failed save vs. Death at -2 penalty, knockback and stun for one round if failed save vs. Breath.
-  20th level: +4 enchantment, +4 to hit rolls, cumulative -4 AC, -4 THAC0 and -1 strength penalties for two rounds if failed save vs. Death at -4 penalty, knockback and stun for one round if failed save vs. Breath at -2 penalty.~
+  16th level: +3 enchantment, +3 to hit rolls, cumulative -2 AC and -2 THAC0 penalties for two rounds if failed save vs. Death at -2 penalty, knockback and stun for one round if failed save vs. Breath.
+  20th level: +4 enchantment, +4 to hit rolls, cumulative -3 AC, -3 THAC0 and -1 strength penalties for two rounds if failed save vs. Death at -2 penalty, knockback and stun for one round if failed save vs. Breath at -2 penalty.~
 
 @2032 = ~Produce Reinforced Bolts
 Create one score of specially prepared bolts.
   4th level: +1 enchantment, +1 to hit rolls, cumulative -1 AC penalty for two rounds if failed save vs. Death.
   8th level: +2 enchantment, +2 to hit rolls, cumulative -1 AC and -1 THAC0 penalties for two rounds if failed save vs. Death.
   12th level: +2 enchantment, +2 to hit rolls, cumulative -2 AC and -2 THAC0 penalties for two rounds if failed save vs. Death, knockback if failed save vs. Breath.
-  16th level: +3 enchantment, +3 to hit rolls, cumulative -3 AC and -3 THAC0 penalties for two rounds if failed save vs. Death at -2 penalty, knockback and stun for one round if failed save vs. Breath.
-  20th level: +4 enchantment, +4 to hit rolls, cumulative -4 AC, -4 THAC0 and -1 strength penalties for two rounds if failed save vs. Death at -4 penalty, knockback and stun for one round if failed save vs. Breath at -2 penalty.~
+  16th level: +3 enchantment, +3 to hit rolls, cumulative -2 AC and -2 THAC0 penalties for two rounds if failed save vs. Death at -2 penalty, knockback and stun for one round if failed save vs. Breath.
+  20th level: +4 enchantment, +4 to hit rolls, cumulative -3 AC, -3 THAC0 and -1 strength penalties for two rounds if failed save vs. Death at -2 penalty, knockback and stun for one round if failed save vs. Breath at -2 penalty.~
 
 @2033 = ~Produce Reinforced Bullets
 Create one score of specially prepared bullets.
   4th level: +1 enchantment, +1 to hit rolls, cumulative -1 AC penalty for two rounds if failed save vs. Death.
   8th level: +2 enchantment, +2 to hit rolls, cumulative -1 AC and -1 THAC0 penalties for two rounds if failed save vs. Death.
   12th level: +2 enchantment, +2 to hit rolls, cumulative -2 AC and -2 THAC0 penalties for two rounds if failed save vs. Death, knockback if failed save vs. Breath.
-  16th level: +3 enchantment, +3 to hit rolls, cumulative -3 AC and -3 THAC0 penalties for two rounds if failed save vs. Death at -2 penalty, knockback and stun for one round if failed save vs. Breath.
-  20th level: +4 enchantment, +4 to hit rolls, cumulative -4 AC, -4 THAC0 and -1 strength penalties for two rounds if failed save vs. Death at -4 penalty, knockback and stun for one round if failed save vs. Breath at -2 penalty.~
+  16th level: +3 enchantment, +3 to hit rolls, cumulative -2 AC and -2 THAC0 penalties for two rounds if failed save vs. Death at -2 penalty, knockback and stun for one round if failed save vs. Breath.
+  20th level: +4 enchantment, +4 to hit rolls, cumulative -3 AC, -3 THAC0 and -1 strength penalties for two rounds if failed save vs. Death at -2 penalty, knockback and stun for one round if failed save vs. Breath at -2 penalty.~
 
 @2040 = ~Craft Endowed Ammunition
 Create one score of specially prepared arrows or bolts.
