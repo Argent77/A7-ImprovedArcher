@@ -1,151 +1,137 @@
 // -*- coding: utf-8 -*-
 
 // Beschreibungen
-@1101 = ~Dieser Pfeil wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art.
-Die heilige Verzauberung des Pfeils dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Pfeil seine physische Form.
+@1101 = ~Dieser Pfeil wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und entfesselt den heiligen Zorn der Götter gegen Untote, Dämonen und Teufel jeglicher Art. Die heilige Verzauberung des Pfeils dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Pfeil seine physische Form.
 
 EIGENSCHAFTEN:
-
-Untote müssen Rettungswurf gg. Tod bestehen oder werden für zwei Runden verlangsamt.
 
 Verzauberung: +1
 ETW0-Bonus: -1
-Schaden: 1w6+1, zusätzlich 1w6 Schaden gg. Untote
+Schaden: 1w6, zusätzlich 1w6 magischen Schaden gg. Untote, Dämonen und Teufel
 Schadenstyp: Geschoss
 Schusswaffe: Bogen
 
 Gewicht: 0~
 
-@1102 = ~Dieser Pfeil wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art.
-Die heilige Verzauberung des Pfeils dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Pfeil seine physische Form.
+@1102 = ~Dieser Pfeil wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und entfesselt den heiligen Zorn der Götter gegen Untote, Dämonen und Teufel jeglicher Art. Die heilige Verzauberung des Pfeils dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Pfeil seine physische Form.
 
 EIGENSCHAFTEN:
 
-Untote müssen Rettungswurf gg. Tod bestehen oder werden für zwei Runden festgehalten.
-
-Verzauberung: +1
-ETW0-Bonus: -2
-Schaden: 1w6+2, zusätzlich 1w6+2 Schaden gg. Untote
-Schadenstyp: Geschoss
-Schusswaffe: Bogen
-
-Gewicht: 0~
-
-@1103 = ~Dieser Pfeil wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
-Die heilige Verzauberung des Pfeils dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Pfeil seine physische Form.
-
-EIGENSCHAFTEN:
-
-Untote müssen Rettungswurf gg. Tod bestehen oder werden zerstört.
+Untote, Dämonen und Teufel müssen Rettungswurf gg. Tod bestehen werden für für zwei Runden geblendet.
 
 Verzauberung: +2
 ETW0-Bonus: -2
-Schaden: 1w6+2, zusätzlich 1w6+4 Schaden gg. Untote
+Schaden: 1w6, zusätzlich 1w6+2 magischen Schaden gg. Untote, Dämonen und Teufel
 Schadenstyp: Geschoss
 Schusswaffe: Bogen
 
 Gewicht: 0~
 
-@1104 = ~Dieser Pfeil wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
-Die heilige Verzauberung des Pfeils dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Pfeil seine physische Form.
+@1103 = ~Dieser Pfeil wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und entfesselt den heiligen Zorn der Götter gegen Untote, Dämonen und Teufel jeglicher Art. Die heilige Verzauberung des Pfeils dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Pfeil seine physische Form.
 
 EIGENSCHAFTEN:
 
-Untote müssen Rettungswurf gg. Tod (+2 Malus) bestehen oder werden zerstört.
+Untote, Dämonen und Teufel müssen Rettungswurf gg. Tod bestehen oder werden für zwei Runden verlangsamt.
+
+Verzauberung: +2
+ETW0-Bonus: -2
+Schaden: 1w6, zusätzlich 1w6+4 Schaden gg. Untote, Dämonen und Teufel
+Schadenstyp: Geschoss
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1104 = ~Dieser Pfeil wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und entfesselt den heiligen Zorn der Götter gegen Untote, Dämonen und Teufel jeglicher Art. Die heilige Verzauberung des Pfeils dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Pfeil seine physische Form.
+
+EIGENSCHAFTEN:
+
+Untote, Dämonen und Teufel müssen Rettungswurf gg. Tod (+2 Malus) bestehen oder werden für zwei Runden verlangsamt und geblendet.
 
 Verzauberung: +3
 ETW0-Bonus: -3
-Schaden: 1w6+3, zusätzlich 1w6+6 Schaden gg. Untote
+Schaden: 1w6, zusätzlich 1w6+6 magischen Schaden gg. Untote, Dämonen und Teufel
 Schadenstyp: Geschoss
 Schusswaffe: Bogen
 
 Gewicht: 0~
 
-@1105 = ~Dieser Pfeil wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
-Die heilige Verzauberung des Pfeils dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Pfeil seine physische Form.
+@1105 = ~Dieser Pfeil wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und entfesselt den heiligen Zorn der Götter gegen Untote, Dämonen und Teufel jeglicher Art. Die heilige Verzauberung des Pfeils dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Pfeil seine physische Form.
 
 EIGENSCHAFTEN:
 
-Untote müssen Rettungswurf gg. Tod (+4 Malus) bestehen oder werden zerstört.
+Untote, Dämonen und Teufel müssen Rettungswurf gg. Tod (+2 Malus) bestehen oder werden für zwei Runden festgehalten.
 
 Verzauberung: +4
 ETW0-Bonus: -4
-Schaden: 1w6+4, zusätzlich 1w6+8 Schaden gg. Untote
+Schaden: 1w6, zusätzlich 1w6+8 magischen Schaden gg. Untote, Dämonen und Teufel
 Schadenstyp: Geschoss
 Schusswaffe: Bogen
 
 Gewicht: 0~
 
-@1106 = ~Dieser Bolzen wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art.
-Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
+@1106 = ~Dieser Bolzen wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und entfesselt den heiligen Zorn der Götter gegen Untote, Dämonen und Teufel jeglicher Art. Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
 
 EIGENSCHAFTEN:
-
-Untote müssen Rettungswurf gg. Tod bestehen oder werden für zwei Runden verlangsamt.
 
 Verzauberung: +1
 ETW0-Bonus: -1
-Schaden: 1w8+1, zusätzlich 1w6 Schaden gg. Untote
+Schaden: 1w8, zusätzlich 1w6 magischen Schaden gg. Untote, Dämonen und Teufel
 Schadenstyp: Geschoss
 Schusswaffe: Armbrust
 
 Gewicht: 0~
 
-@1107 = ~Dieser Bolzen wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art.
-Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
+@1107 = ~Dieser Bolzen wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und entfesselt den heiligen Zorn der Götter gegen Untote, Dämonen und Teufel jeglicher Art. Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
 
 EIGENSCHAFTEN:
 
-Untote müssen Rettungswurf gg. Tod bestehen oder werden für zwei Runden festgehalten.
-
-Verzauberung: +1
-ETW0-Bonus: -2
-Schaden: 1w8+2, zusätzlich 1w6+2 Schaden gg. Untote
-Schadenstyp: Geschoss
-Schusswaffe: Armbrust
-
-Gewicht: 0~
-
-@1108 = ~Dieser Bolzen wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
-Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
-
-EIGENSCHAFTEN:
-
-Untote müssen Rettungswurf gg. Tod bestehen oder werden zerstört.
+Untote, Dämonen und Teufel müssen Rettungswurf gg. Tod bestehen werden für für zwei Runden geblendet.
 
 Verzauberung: +2
 ETW0-Bonus: -2
-Schaden: 1w8+2, zusätzlich 1w6+4 Schaden gg. Untote
+Schaden: 1w8, zusätzlich 1w6+2 magischen Schaden gg. Untote, Dämonen und Teufel
 Schadenstyp: Geschoss
 Schusswaffe: Armbrust
 
 Gewicht: 0~
 
-@1109 = ~Dieser Bolzen wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
-Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
+@1108 = ~Dieser Bolzen wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und entfesselt den heiligen Zorn der Götter gegen Untote, Dämonen und Teufel jeglicher Art. Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
 
 EIGENSCHAFTEN:
 
-Untote müssen Rettungswurf gg. Tod (+2 Malus) bestehen oder werden zerstört.
+Untote, Dämonen und Teufel müssen Rettungswurf gg. Tod bestehen oder werden für zwei Runden verlangsamt.
+
+Verzauberung: +2
+ETW0-Bonus: -2
+Schaden: 1w8, zusätzlich 1w6+4 Schaden gg. Untote, Dämonen und Teufel
+Schadenstyp: Geschoss
+Schusswaffe: Armbrust
+
+Gewicht: 0~
+
+@1109 = ~Dieser Bolzen wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und entfesselt den heiligen Zorn der Götter gegen Untote, Dämonen und Teufel jeglicher Art. Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
+
+EIGENSCHAFTEN:
+
+Untote, Dämonen und Teufel müssen Rettungswurf gg. Tod (+2 Malus) bestehen oder werden für zwei Runden verlangsamt und geblendet.
 
 Verzauberung: +3
 ETW0-Bonus: -3
-Schaden: 1w8+3, zusätzlich 1w6+6 Schaden gg. Untote
+Schaden: 1w8, zusätzlich 1w6+6 magischen Schaden gg. Untote, Dämonen und Teufel
 Schadenstyp: Geschoss
 Schusswaffe: Armbrust
 
 Gewicht: 0~
 
-@1110 = ~Dieser Bolzen wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
-Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
+@1110 = ~Dieser Bolzen wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und entfesselt den heiligen Zorn der Götter gegen Untote, Dämonen und Teufel jeglicher Art. Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
 
 EIGENSCHAFTEN:
 
-Untote müssen Rettungswurf gg. Tod (+4 Malus) bestehen oder werden zerstört.
+Untote, Dämonen und Teufel müssen Rettungswurf gg. Tod (+2 Malus) bestehen oder werden für zwei Runden festgehalten.
 
 Verzauberung: +4
 ETW0-Bonus: -4
-Schaden: 1w8+4, zusätzlich 1w6+8 Schaden gg. Untote
+Schaden: 1w8, zusätzlich 1w6+8 magischen Schaden gg. Untote, Dämonen und Teufel
 Schadenstyp: Geschoss
 Schusswaffe: Armbrust
 
@@ -226,78 +212,599 @@ Gewicht: 5~
 
 @1119 = ~Druide~
 
-@1120 = ~Diese Kugel wurde von der verehrten Gottheit des Schützen gesegnet. Sie dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art.
-Die heilige Verzauberung der Kugel dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert die Kugel ihre physische Form.
+@1120 = ~Diese Kugel wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und entfesselt den heiligen Zorn der Götter gegen Untote, Dämonen und Teufel jeglicher Art. Die heilige Verzauberung der Kugel dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert die Kugel seine physische Form.
 
 EIGENSCHAFTEN:
-
-Untote müssen Rettungswurf gg. Tod bestehen oder werden für zwei Runden verlangsamt.
 
 Verzauberung: +1
 ETW0-Bonus: -1
-Schaden: 1w4+2, zusätzlich 1w6 Schaden gg. Untote
+Schaden: 1w4+2, zusätzlich 1w6 magischen Schaden gg. Untote, Dämonen und Teufel
 Schadenstyp: Geschoss
 Schusswaffe: Schleuder
 
 Gewicht: 0~
 
-@1121 = ~Diese Kugel wurde von der verehrten Gottheit des Schützen gesegnet. Sie dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art.
-Die heilige Verzauberung der Kugel dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert die Kugel ihre physische Form.
+@1121 = ~Diese Kugel wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und entfesselt den heiligen Zorn der Götter gegen Untote, Dämonen und Teufel jeglicher Art. Die heilige Verzauberung der Kugel dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert die Kugel seine physische Form.
 
 EIGENSCHAFTEN:
 
-Untote müssen Rettungswurf gg. Tod bestehen oder werden für zwei Runden festgehalten.
-
-Verzauberung: +1
-ETW0-Bonus: -2
-Schaden: 1w4+3, zusätzlich 1w6+2 Schaden gg. Untote
-Schadenstyp: Geschoss
-Schusswaffe: Schleuder
-
-Gewicht: 0~
-
-@1122 = ~Diese Kugel wurde von der verehrten Gottheit des Schützen gesegnet. Sie dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
-Die heilige Verzauberung der Kugel dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert die Kugel ihre physische Form.
-
-EIGENSCHAFTEN:
-
-Untote müssen Rettungswurf gg. Tod bestehen oder werden zerstört.
+Untote, Dämonen und Teufel müssen Rettungswurf gg. Tod bestehen werden für für zwei Runden geblendet.
 
 Verzauberung: +2
 ETW0-Bonus: -2
-Schaden: 1w4+3, zusätzlich 1w6+4 Schaden gg. Untote
+Schaden: 1w4+3, zusätzlich 1w6+2 magischen Schaden gg. Untote, Dämonen und Teufel
 Schadenstyp: Geschoss
 Schusswaffe: Schleuder
 
 Gewicht: 0~
 
-@1123 = ~Diese Kugel wurde von der verehrten Gottheit des Schützen gesegnet. Sie dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
-Die heilige Verzauberung der Kugel dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert die Kugel ihre physische Form.
+@1122 = ~Diese Kugel wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und entfesselt den heiligen Zorn der Götter gegen Untote, Dämonen und Teufel jeglicher Art. Die heilige Verzauberung der Kugel dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert die Kugel seine physische Form.
 
 EIGENSCHAFTEN:
 
-Untote müssen Rettungswurf gg. Tod (+2 Malus) bestehen oder werden zerstört.
+Untote, Dämonen und Teufel müssen Rettungswurf gg. Tod bestehen oder werden für zwei Runden verlangsamt.
+
+Verzauberung: +2
+ETW0-Bonus: -2
+Schaden: 1w4+3, zusätzlich 1w6+4 magischen Schaden gg. Untote, Dämonen und Teufel
+Schadenstyp: Geschoss
+Schusswaffe: Schleuder
+
+Gewicht: 0~
+
+@1123 = ~Diese Kugel wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und entfesselt den heiligen Zorn der Götter gegen Untote, Dämonen und Teufel jeglicher Art. Die heilige Verzauberung der Kugel dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert die Kugel seine physische Form.
+
+EIGENSCHAFTEN:
+
+Untote, Dämonen und Teufel müssen Rettungswurf gg. Tod (+2 Malus) bestehen oder werden für zwei Runden verlangsamt und geblendet.
 
 Verzauberung: +3
 ETW0-Bonus: -3
-Schaden: 1w4+4, zusätzlich 1w6+6 Schaden gg. Untote
+Schaden: 1w4+4, zusätzlich 1w6+6 magischen Schaden gg. Untote, Dämonen und Teufel
 Schadenstyp: Geschoss
 Schusswaffe: Schleuder
 
 Gewicht: 0~
 
-@1124 = ~Diese Kugel wurde von der verehrten Gottheit des Schützen gesegnet. Sie dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und verursacht zusätzlichen Schaden bei Untoten jeder Art und ggf. sogar ihre totale Vernichtung.
-Die heilige Verzauberung der Kugel dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert die Kugel ihre physische Form.
+@1124 = ~Diese Kugel wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und entfesselt den heiligen Zorn der Götter gegen Untote, Dämonen und Teufel jeglicher Art. Die heilige Verzauberung der Kugel dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert die Kugel seine physische Form.
 
 EIGENSCHAFTEN:
 
-Untote müssen Rettungswurf gg. Tod (+4 Malus) bestehen oder werden zerstört.
+Untote, Dämonen und Teufel müssen Rettungswurf gg. Tod (+2 Malus) bestehen oder werden für zwei Runden festgehalten.
 
 Verzauberung: +4
 ETW0-Bonus: -4
-Schaden: 1w4+5, zusätzlich 1w6+8 Schaden gg. Untote
+Schaden: 1w4+5, zusätzlich 1w6+8 magischen Schaden gg. Untote, Dämonen und Teufel
 Schadenstyp: Geschoss
 Schusswaffe: Schleuder
+
+Gewicht: 0~
+
+@1125 = ~Dieser Pfeil wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und trifft sie mit der puren Energie der Elemente. Die heilige Verzauberung des Pfeils dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Pfeil seine physische Form.
+
+EIGENSCHAFTEN:
+
+Verzauberung: +1
+ETW0-Bonus: -1
+Schaden: 1w6, zusätzlich 1w3 Schadenspunkte durch Feuer
+Schadenstyp: Geschoss
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1126 = ~Dieser Pfeil wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und trifft sie mit der puren Energie der Elemente. Die heilige Verzauberung des Pfeils dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Pfeil seine physische Form.
+
+EIGENSCHAFTEN:
+
+Unnatürliche Wesen müssen Rettungswurf gg. Zauber bestehen oder werden für zwei Runden verstrickt.
+
+Verzauberung: +2
+ETW0-Bonus: -2
+Schaden: 1w6, zusätzlich je 1w3 Schadenspunkte durch Feuer und Kälte
+Schadenstyp: Geschoss
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1127 = ~Dieser Pfeil wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und trifft sie mit der puren Energie der Elemente. Die heilige Verzauberung des Pfeils dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Pfeil seine physische Form.
+
+EIGENSCHAFTEN:
+
+Unnatürliche Wesen müssen Rettungswurf gg. Zauber bestehen oder werden für zwei Runden geblendet.
+
+Verzauberung: +2
+ETW0-Bonus: -2
+Schaden: 1w6, zusätzlich je 1w3 Schadenspunkte durch Feuer, Kälte und Säure
+Schadenstyp: Geschoss
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1128 = ~Dieser Pfeil wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und trifft sie mit der puren Energie der Elemente. Die heilige Verzauberung des Pfeils dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Pfeil seine physische Form.
+
+EIGENSCHAFTEN:
+
+Unnatürliche Wesen müssen Rettungswurf gg. Zauber (+2 Malus) bestehen oder werden für zwei Runden verlangsamt.
+
+Verzauberung: +3
+ETW0-Bonus: -3
+Schaden: 1w6, zusätzlich je 1w3 Schadenspunkte durch Feuer, Kälte, Säure und Elektrizität
+Schadenstyp: Geschoss
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1129 = ~Dieser Pfeil wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und trifft sie mit der puren Energie der Elemente. Die heilige Verzauberung des Pfeils dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Pfeil seine physische Form.
+
+EIGENSCHAFTEN:
+
+Unnatürliche Wesen müssen Rettungswurf gg. Zauber (+4 Malus) bestehen oder werden für zwei Runden verlangsamt.
+
+Verzauberung: +4
+ETW0-Bonus: -4
+Schaden: 1w6, zusätzlich je 1w3+2 Schadenspunkte durch Feuer, Kälte, Säure und Elektrizität
+Schadenstyp: Geschoss
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1130 = ~Dieser Bolzen wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und trifft sie mit der puren Energie der Elemente. Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
+
+EIGENSCHAFTEN:
+
+Verzauberung: +1
+ETW0-Bonus: -1
+Schaden: 1w8, zusätzlich 1w3 Schadenspunkte durch Feuer
+Schadenstyp: Geschoss
+Schusswaffe: Armbrust
+
+Gewicht: 0~
+
+@1131 = ~Dieser Bolzen wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und trifft sie mit der puren Energie der Elemente. Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
+
+EIGENSCHAFTEN:
+
+Unnatürliche Wesen müssen Rettungswurf gg. Zauber bestehen oder werden für zwei Runden verstrickt.
+
+Verzauberung: +2
+ETW0-Bonus: -2
+Schaden: 1w8, zusätzlich je 1w3 Schadenspunkte durch Feuer und Kälte
+Schadenstyp: Geschoss
+Schusswaffe: Armbrust
+
+Gewicht: 0~
+
+@1132 = ~Dieser Bolzen wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und trifft sie mit der puren Energie der Elemente. Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
+
+EIGENSCHAFTEN:
+
+Unnatürliche Wesen müssen Rettungswurf gg. Zauber bestehen oder werden für zwei Runden geblendet.
+
+Verzauberung: +2
+ETW0-Bonus: -2
+Schaden: 1w8, zusätzlich je 1w3 Schadenspunkte durch Feuer, Kälte und Säure
+Schadenstyp: Geschoss
+Schusswaffe: Armbrust
+
+Gewicht: 0~
+
+@1133 = ~Dieser Bolzen wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und trifft sie mit der puren Energie der Elemente. Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
+
+EIGENSCHAFTEN:
+
+Unnatürliche Wesen müssen Rettungswurf gg. Zauber (+2 Malus) bestehen oder werden für zwei Runden verlangsamt.
+
+Verzauberung: +3
+ETW0-Bonus: -3
+Schaden: 1w8, zusätzlich je 1w3 Schadenspunkte durch Feuer, Kälte, Säure und Elektrizität
+Schadenstyp: Geschoss
+Schusswaffe: Armbrust
+
+Gewicht: 0~
+
+@1134 = ~Dieser Bolzen wurde von der verehrten Gottheit des Schützen gesegnet. Er dringt selbst zu Kreaturen durch, die normalerweise immun gegenüber physischen Angriffen sind und trifft sie mit der puren Energie der Elemente. Die heilige Verzauberung des Bolzens dauert bis zu 8 Stunden an und ermöglicht dem Schützen eine vorgegebene Anzahl Schüsse abzugeben. Danach verliert der Bolzen seine physische Form.
+
+EIGENSCHAFTEN:
+
+Unnatürliche Wesen müssen Rettungswurf gg. Zauber (+4 Malus) bestehen oder werden für zwei Runden verlangsamt.
+
+Verzauberung: +4
+ETW0-Bonus: -4
+Schaden: 1w8, zusätzlich je 1w3+2 Schadenspunkte durch Feuer, Kälte, Säure und Elektrizität
+Schadenstyp: Geschoss
+Schusswaffe: Armbrust
+
+Gewicht: 0~
+
+@1135 = ~Diese Pfeile wurden speziell verstärkt, um das volle Potenzial der Schießkunst des Schützen auszuschöpfen. Neben der gesteigerten Zielgenauigkeit kann der Einschlag auch die Kampfkraft des Ziels schwächen. Nur Charaktere, die sich der Kriegskunst verschrieben haben, können mit diesen Pfeilen richtig umgehen.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod bestehen oder erleidet für zwei Runden einen kumulativen +1 Malus auf die Rüstungsklasse.
+
+Verzauberung: +1
+ETW0-Bonus: -1
+Schaden: 1w6
+Schadenstyp: Geschoss
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1136 = ~Diese Pfeile wurden speziell verstärkt, um das volle Potenzial der Schießkunst des Schützen auszuschöpfen. Neben der gesteigerten Zielgenauigkeit kann der Einschlag auch die Kampfkraft des Ziels schwächen. Nur Charaktere, die sich der Kriegskunst verschrieben haben, können mit diesen Pfeilen richtig umgehen.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod bestehen oder erleidet für zwei Runden einen kumulativen +1 Malus auf Rüstungsklasse und ETW0.
+
+Verzauberung: +2
+ETW0-Bonus: -2
+Schaden: 1w6
+Schadenstyp: Geschoss
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1137 = ~Diese Pfeile wurden speziell verstärkt, um das volle Potenzial der Schießkunst des Schützen auszuschöpfen. Neben der gesteigerten Zielgenauigkeit kann der Einschlag auch die Kampfkraft des Ziels schwächen. Nur Charaktere, die sich der Kriegskunst verschrieben haben, können mit diesen Pfeilen richtig umgehen.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod bestehen oder erleidet für zwei Runden einen kumulativen +2 Malus auf Rüstungsklasse und ETW0.
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Odemwaffen bestehen oder wird durch den Einschlag zurückgeworfen.
+
+Verzauberung: +2
+ETW0-Bonus: -2
+Schaden: 1w6
+Schadenstyp: Geschoss
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1138 = ~Diese Pfeile wurden speziell verstärkt, um das volle Potenzial der Schießkunst des Schützen auszuschöpfen. Neben der gesteigerten Zielgenauigkeit kann der Einschlag auch die Kampfkraft des Ziels schwächen. Nur Charaktere, die sich der Kriegskunst verschrieben haben, können mit diesen Pfeilen richtig umgehen.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod (+2 Malus) bestehen oder erleidet für zwei Runden einen kumulativen +2 Malus auf Rüstungsklasse und ETW0.
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Odemwaffen bestehen oder wird durch den Einschlag zurückgeworfen und für eine Runde betäubt.
+
+Verzauberung: +3
+ETW0-Bonus: -3
+Schaden: 1w6
+Schadenstyp: Geschoss
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1139 = ~Diese Pfeile wurden speziell verstärkt, um das volle Potenzial der Schießkunst des Schützen auszuschöpfen. Neben der gesteigerten Zielgenauigkeit kann der Einschlag auch die Kampfkraft des Ziels schwächen. Nur Charaktere, die sich der Kriegskunst verschrieben haben, können mit diesen Pfeilen richtig umgehen.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod (+2 Malus) bestehen oder erleidet für zwei Runden einen kumulativen +3 Malus auf Rüstungsklasse und ETW0, als auch einen -1 Malus auf Stärke.
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Odemwaffen (+2 Malus) bestehen oder wird durch den Einschlag zurückgeworfen und für eine Runde betäubt.
+
+Verzauberung: +4
+ETW0-Bonus: -4
+Schaden: 1w6
+Schadenstyp: Geschoss
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1140 = ~Diese Bolzen wurden speziell verstärkt, um das volle Potenzial der Schießkunst des Schützen auszuschöpfen. Neben der gesteigerten Zielgenauigkeit kann der Einschlag auch die Kampfkraft des Ziels schwächen. Nur Charaktere, die sich der Kriegskunst verschrieben haben, können mit diesen Bolzen richtig umgehen.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod bestehen oder erleidet für zwei Runden einen kumulativen +1 Malus auf die Rüstungsklasse.
+
+Verzauberung: +1
+ETW0-Bonus: -1
+Schaden: 1w8
+Schadenstyp: Geschoss
+Schusswaffe: Armbrust
+
+Gewicht: 0~
+
+@1141 = ~Diese Bolzen wurden speziell verstärkt, um das volle Potenzial der Schießkunst des Schützen auszuschöpfen. Neben der gesteigerten Zielgenauigkeit kann der Einschlag auch die Kampfkraft des Ziels schwächen. Nur Charaktere, die sich der Kriegskunst verschrieben haben, können mit diesen Bolzen richtig umgehen.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod bestehen oder erleidet für zwei Runden einen kumulativen +1 Malus auf Rüstungsklasse und ETW0.
+
+Verzauberung: +2
+ETW0-Bonus: -2
+Schaden: 1w8
+Schadenstyp: Geschoss
+Schusswaffe: Armbrust
+
+Gewicht: 0~
+
+@1142 = ~Diese Bolzen wurden speziell verstärkt, um das volle Potenzial der Schießkunst des Schützen auszuschöpfen. Neben der gesteigerten Zielgenauigkeit kann der Einschlag auch die Kampfkraft des Ziels schwächen. Nur Charaktere, die sich der Kriegskunst verschrieben haben, können mit diesen Bolzen richtig umgehen.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod bestehen oder erleidet für zwei Runden einen kumulativen +2 Malus auf Rüstungsklasse und ETW0.
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Odemwaffen bestehen oder wird durch den Einschlag zurückgeworfen.
+
+Verzauberung: +2
+ETW0-Bonus: -2
+Schaden: 1w8
+Schadenstyp: Geschoss
+Schusswaffe: Armbrust
+
+Gewicht: 0~
+
+@1143 = ~Diese Bolzen wurden speziell verstärkt, um das volle Potenzial der Schießkunst des Schützen auszuschöpfen. Neben der gesteigerten Zielgenauigkeit kann der Einschlag auch die Kampfkraft des Ziels schwächen. Nur Charaktere, die sich der Kriegskunst verschrieben haben, können mit diesen Bolzen richtig umgehen.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod (+2 Malus) bestehen oder erleidet für zwei Runden einen kumulativen +2 Malus auf Rüstungsklasse und ETW0.
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Odemwaffen bestehen oder wird durch den Einschlag zurückgeworfen und für eine Runde betäubt.
+
+Verzauberung: +3
+ETW0-Bonus: -3
+Schaden: 1w8
+Schadenstyp: Geschoss
+Schusswaffe: Armbrust
+
+Gewicht: 0~
+
+@1144 = ~Diese Bolzen wurden speziell verstärkt, um das volle Potenzial der Schießkunst des Schützen auszuschöpfen. Neben der gesteigerten Zielgenauigkeit kann der Einschlag auch die Kampfkraft des Ziels schwächen. Nur Charaktere, die sich der Kriegskunst verschrieben haben, können mit diesen Bolzen richtig umgehen.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod (+2 Malus) bestehen oder erleidet für zwei Runden einen kumulativen +3 Malus auf Rüstungsklasse und ETW0, als auch einen -1 Malus auf Stärke.
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Odemwaffen (+2 Malus) bestehen oder wird durch den Einschlag zurückgeworfen und für eine Runde betäubt.
+
+Verzauberung: +4
+ETW0-Bonus: -4
+Schaden: 1w8
+Schadenstyp: Geschoss
+Schusswaffe: Armbrust
+
+Gewicht: 0~
+
+@1145 = ~Diese Kugeln wurden speziell verstärkt, um das volle Potenzial der Schießkunst des Schützen auszuschöpfen. Neben der gesteigerten Zielgenauigkeit kann der Einschlag auch die Kampfkraft des Ziels schwächen. Nur Charaktere, die sich der Kriegskunst verschrieben haben, können mit diesen Kugeln richtig umgehen.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod bestehen oder erleidet für zwei Runden einen kumulativen +1 Malus auf die Rüstungsklasse.
+
+Verzauberung: +1
+ETW0-Bonus: -1
+Schaden: 1w4+2
+Schadenstyp: Geschoss
+Schusswaffe: Schleuder
+
+Gewicht: 0~
+
+@1146 = ~Diese Kugeln wurden speziell verstärkt, um das volle Potenzial der Schießkunst des Schützen auszuschöpfen. Neben der gesteigerten Zielgenauigkeit kann der Einschlag auch die Kampfkraft des Ziels schwächen. Nur Charaktere, die sich der Kriegskunst verschrieben haben, können mit diesen Kugeln richtig umgehen.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod bestehen oder erleidet für zwei Runden einen kumulativen +1 Malus auf Rüstungsklasse und ETW0.
+
+Verzauberung: +2
+ETW0-Bonus: -2
+Schaden: 1w4+3
+Schadenstyp: Geschoss
+Schusswaffe: Schleuder
+
+Gewicht: 0~
+
+@1147 = ~Diese Kugeln wurden speziell verstärkt, um das volle Potenzial der Schießkunst des Schützen auszuschöpfen. Neben der gesteigerten Zielgenauigkeit kann der Einschlag auch die Kampfkraft des Ziels schwächen. Nur Charaktere, die sich der Kriegskunst verschrieben haben, können mit diesen Kugeln richtig umgehen.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod bestehen oder erleidet für zwei Runden einen kumulativen +2 Malus auf Rüstungsklasse und ETW0.
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Odemwaffen bestehen oder wird durch den Einschlag zurückgeworfen.
+
+Verzauberung: +2
+ETW0-Bonus: -2
+Schaden: 1w4+3
+Schadenstyp: Geschoss
+Schusswaffe: Schleuder
+
+Gewicht: 0~
+
+@1148 = ~Diese Kugeln wurden speziell verstärkt, um das volle Potenzial der Schießkunst des Schützen auszuschöpfen. Neben der gesteigerten Zielgenauigkeit kann der Einschlag auch die Kampfkraft des Ziels schwächen. Nur Charaktere, die sich der Kriegskunst verschrieben haben, können mit diesen Kugeln richtig umgehen.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod (+2 Malus) bestehen oder erleidet für zwei Runden einen kumulativen +2 Malus auf Rüstungsklasse und ETW0.
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Odemwaffen bestehen oder wird durch den Einschlag zurückgeworfen und für eine Runde betäubt.
+
+Verzauberung: +3
+ETW0-Bonus: -3
+Schaden: 1w4+4
+Schadenstyp: Geschoss
+Schusswaffe: Schleuder
+
+Gewicht: 0~
+
+@1149 = ~Diese Kugeln wurden speziell verstärkt, um das volle Potenzial der Schießkunst des Schützen auszuschöpfen. Neben der gesteigerten Zielgenauigkeit kann der Einschlag auch die Kampfkraft des Ziels schwächen. Nur Charaktere, die sich der Kriegskunst verschrieben haben, können mit diesen Kugeln richtig umgehen.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod (+2 Malus) bestehen oder erleidet für zwei Runden einen kumulativen +3 Malus auf Rüstungsklasse und ETW0, als auch einen -1 Malus auf Stärke.
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Odemwaffen (+2 Malus) bestehen oder wird durch den Einschlag zurückgeworfen und für eine Runde betäubt.
+
+Verzauberung: +4
+ETW0-Bonus: -4
+Schaden: 1w4+5
+Schadenstyp: Geschoss
+Schusswaffe: Schleuder
+
+Gewicht: 0~
+
+@1150 = ~Diese Pfeile wurden sorgfältig mit dem Ziel hergestellt, die Kampffähigkeiten des Ziels zu schwächen. Neben einer gesteigerten Zielgenauigkeit kann die spezielle Konstruktion des Geschosses die Abwehrfähigkeiten des Ziels beeinträchtigen. Nur Charaktere, die sich gut mit der Anatomie humanoider Wesen auskennen, können mit diesen Pfeilen richtig umgehen.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod bestehen oder erleidet für zwei Runden einen kumulativen +1 Malus auf die Rüstungsklasse.
+
+Verzauberung: +1
+ETW0-Bonus: -1
+Schaden: 1w6
+Schadenstyp: Geschoss
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1151 = ~Diese Pfeile wurden sorgfältig mit dem Ziel hergestellt, die Kampffähigkeiten des Ziels zu schwächen. Neben einer gesteigerten Zielgenauigkeit kann die spezielle Konstruktion des Geschosses die Abwehrfähigkeiten des Ziels beeinträchtigen. Nur Charaktere, die sich gut mit der Anatomie humanoider Wesen auskennen, können mit diesen Pfeilen richtig umgehen.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod bestehen oder erleidet für zwei Runden einen kumulativen +2 Malus auf die Rüstungsklasse.
+
+Tiere, Menschen und riesige Humanoide müssen einen Rettungswurf gg. Tod bestehen oder erleiden für eine Runde einen Schadenspunkt pro Sekunde durch Verbluten.
+
+Verzauberung: +2
+ETW0-Bonus: -2
+Schaden: 1w6
+Schadenstyp: Geschoss
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1152 = ~Diese Pfeile wurden sorgfältig mit dem Ziel hergestellt, die Kampffähigkeiten des Ziels zu schwächen. Neben einer gesteigerten Zielgenauigkeit kann die spezielle Konstruktion des Geschosses die Abwehrfähigkeiten des Ziels beeinträchtigen. Nur Charaktere, die sich gut mit der Anatomie humanoider Wesen auskennen, können mit diesen Pfeilen richtig umgehen.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod bestehen oder erleidet für zwei Runden einen kumulativen +2 Malus auf Rüstungsklasse und ETW0.
+
+Tiere, Menschen und riesige Humanoide müssen einen Rettungswurf gg. Tod bestehen oder erleiden für eine Runde einen Schadenspunkt pro Sekunde durch Verbluten.
+
+Verzauberung: +2
+ETW0-Bonus: -2
+Schaden: 1w6
+Schadenstyp: Geschoss
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1153 = ~Diese Pfeile wurden sorgfältig mit dem Ziel hergestellt, die Kampffähigkeiten des Ziels zu schwächen. Neben einer gesteigerten Zielgenauigkeit kann die spezielle Konstruktion des Geschosses die Abwehrfähigkeiten des Ziels beeinträchtigen. Nur Charaktere, die sich gut mit der Anatomie humanoider Wesen auskennen, können mit diesen Pfeilen richtig umgehen.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod (+2 Malus) bestehen oder erleidet für zwei Runden einen kumulativen +2 Malus auf Rüstungsklasse und ETW0.
+
+Tiere, Menschen und riesige Humanoide müssen einen Rettungswurf gg. Tod bestehen oder erleiden für eine Runde zwei Schadenspunkte pro Sekunde durch Verbluten.
+
+Tiere, Menschen und riesige Humanoide müssen einen Rettungswurf gg. Tod bestehen oder werden für zwei Runden geblendet.
+
+Verzauberung: +3
+ETW0-Bonus: -3
+Schaden: 1w6
+Schadenstyp: Geschoss
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1154 = ~Diese Pfeile wurden sorgfältig mit dem Ziel hergestellt, die Kampffähigkeiten des Ziels zu schwächen. Neben einer gesteigerten Zielgenauigkeit kann die spezielle Konstruktion des Geschosses die Abwehrfähigkeiten des Ziels beeinträchtigen. Nur Charaktere, die sich gut mit der Anatomie humanoider Wesen auskennen, können mit diesen Pfeilen richtig umgehen.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod (+4 Malus) bestehen oder erleidet für zwei Runden einen kumulativen +2 Malus auf Rüstungsklasse und ETW0.
+
+Tiere, Menschen und riesige Humanoide müssen einen Rettungswurf gg. Tod (+2 Malus) bestehen oder erleiden für eine Runde vier Schadenspunkte pro Sekunde durch Verbluten.
+
+Tiere, Menschen und riesige Humanoide müssen einen Rettungswurf gg. Tod (+2 Malus) bestehen oder werden für zwei Runden geblendet.
+
+Verzauberung: +4
+ETW0-Bonus: -4
+Schaden: 1w6
+Schadenstyp: Geschoss
+Schusswaffe: Bogen
+
+Gewicht: 0~
+
+@1155 = ~Diese Bolzen wurden sorgfältig mit dem Ziel hergestellt, die Kampffähigkeiten des Ziels zu schwächen. Neben einer gesteigerten Zielgenauigkeit kann die spezielle Konstruktion des Geschosses die Abwehrfähigkeiten des Ziels beeinträchtigen. Nur Charaktere, die sich gut mit der Anatomie humanoider Wesen auskennen, können mit diesen Bolzen richtig umgehen.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod bestehen oder erleidet für zwei Runden einen kumulativen +1 Malus auf die Rüstungsklasse.
+
+Verzauberung: +1
+ETW0-Bonus: -1
+Schaden: 1w8
+Schadenstyp: Geschoss
+Schusswaffe: Armbrust
+
+Gewicht: 0~
+
+@1156 = ~Diese Bolzen wurden sorgfältig mit dem Ziel hergestellt, die Kampffähigkeiten des Ziels zu schwächen. Neben einer gesteigerten Zielgenauigkeit kann die spezielle Konstruktion des Geschosses die Abwehrfähigkeiten des Ziels beeinträchtigen. Nur Charaktere, die sich gut mit der Anatomie humanoider Wesen auskennen, können mit diesen Bolzen richtig umgehen.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod bestehen oder erleidet für zwei Runden einen kumulativen +2 Malus auf die Rüstungsklasse.
+
+Tiere, Menschen und riesige Humanoide müssen einen Rettungswurf gg. Tod bestehen oder erleiden für eine Runde einen Schadenspunkt pro Sekunde durch Verbluten.
+
+Verzauberung: +2
+ETW0-Bonus: -2
+Schaden: 1w8
+Schadenstyp: Geschoss
+Schusswaffe: Armbrust
+
+Gewicht: 0~
+
+@1157 = ~Diese Bolzen wurden sorgfältig mit dem Ziel hergestellt, die Kampffähigkeiten des Ziels zu schwächen. Neben einer gesteigerten Zielgenauigkeit kann die spezielle Konstruktion des Geschosses die Abwehrfähigkeiten des Ziels beeinträchtigen. Nur Charaktere, die sich gut mit der Anatomie humanoider Wesen auskennen, können mit diesen Bolzen richtig umgehen.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod bestehen oder erleidet für zwei Runden einen kumulativen +2 Malus auf Rüstungsklasse und ETW0.
+
+Tiere, Menschen und riesige Humanoide müssen einen Rettungswurf gg. Tod bestehen oder erleiden für eine Runde einen Schadenspunkt pro Sekunde durch Verbluten.
+
+Verzauberung: +2
+ETW0-Bonus: -2
+Schaden: 1w8
+Schadenstyp: Geschoss
+Schusswaffe: Armbrust
+
+Gewicht: 0~
+
+@1158 = ~Diese Bolzen wurden sorgfältig mit dem Ziel hergestellt, die Kampffähigkeiten des Ziels zu schwächen. Neben einer gesteigerten Zielgenauigkeit kann die spezielle Konstruktion des Geschosses die Abwehrfähigkeiten des Ziels beeinträchtigen. Nur Charaktere, die sich gut mit der Anatomie humanoider Wesen auskennen, können mit diesen Bolzen richtig umgehen.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod (+2 Malus) bestehen oder erleidet für zwei Runden einen kumulativen +2 Malus auf Rüstungsklasse und ETW0.
+
+Tiere, Menschen und riesige Humanoide müssen einen Rettungswurf gg. Tod bestehen oder erleiden für eine Runde zwei Schadenspunkte pro Sekunde durch Verbluten.
+
+Tiere, Menschen und riesige Humanoide müssen einen Rettungswurf gg. Tod bestehen oder werden für zwei Runden geblendet.
+
+Verzauberung: +3
+ETW0-Bonus: -3
+Schaden: 1w8
+Schadenstyp: Geschoss
+Schusswaffe: Armbrust
+
+Gewicht: 0~
+
+@1159 = ~Diese Bolzen wurden sorgfältig mit dem Ziel hergestellt, die Kampffähigkeiten des Ziels zu schwächen. Neben einer gesteigerten Zielgenauigkeit kann die spezielle Konstruktion des Geschosses die Abwehrfähigkeiten des Ziels beeinträchtigen. Nur Charaktere, die sich gut mit der Anatomie humanoider Wesen auskennen, können mit diesen Bolzen richtig umgehen.
+
+EIGENSCHAFTEN:
+
+Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod (+4 Malus) bestehen oder erleidet für zwei Runden einen kumulativen +2 Malus auf Rüstungsklasse und ETW0.
+
+Tiere, Menschen und riesige Humanoide müssen einen Rettungswurf gg. Tod (+2 Malus) bestehen oder erleiden für eine Runde vier Schadenspunkte pro Sekunde durch Verbluten.
+
+Tiere, Menschen und riesige Humanoide müssen einen Rettungswurf gg. Tod (+2 Malus) bestehen oder werden für zwei Runden geblendet.
+
+Verzauberung: +4
+ETW0-Bonus: -4
+Schaden: 1w8
+Schadenstyp: Geschoss
+Schusswaffe: Armbrust
 
 Gewicht: 0~
 
@@ -378,11 +885,11 @@ Alle Schüsse, die innerhalb der nächsten 12 Sekunden nach dem Einsetzen dieser
 
 @2002 = ~Wurzelschuss
 Alle Schüsse, die innerhalb der nächsten 12 Sekunden nach dem Einsetzen dieser Fertigkeit erfolgen, erhalten die folgenden Eigenschaften:
- 4. Stufe: Das Ziel wird für drei Runden verwickelt (Rettungswurf gg. Zauber).
- 8. Stufe: Das Ziel wird für drei Runden verwickelt (Rettungswurf gg. Zauber, +1 Malus).
- 12. Stufe: Das Ziel wird für vier Runden verwickelt (Rettungswurf gg. Zauber, +1 Malus).
- 16. Stufe: Das Ziel wird für vier Runden verwickelt (Rettungswurf gg. Zauber, +2 Malus).
- 20. Stufe: Das Ziel wird für fünf Runden verwickelt (Rettungswurf gg. Zauber, +2 Malus).~
+ 4. Stufe: Das Ziel wird für drei Runden verstrickt (Rettungswurf gg. Zauber).
+ 8. Stufe: Das Ziel wird für drei Runden verstrickt (Rettungswurf gg. Zauber, +1 Malus).
+ 12. Stufe: Das Ziel wird für vier Runden verstrickt (Rettungswurf gg. Zauber, +1 Malus).
+ 16. Stufe: Das Ziel wird für vier Runden verstrickt (Rettungswurf gg. Zauber, +2 Malus).
+ 20. Stufe: Das Ziel wird für fünf Runden verstrickt (Rettungswurf gg. Zauber, +2 Malus).~
 
 @2003 = ~Explosivschuss
 Alle Schüsse, die innerhalb der nächsten 12 Sekunden nach dem Einsetzen dieser Fertigkeit erfolgen, explodieren beim Aufprall und verursachen zusätzlich physischen Schaden bei Zielen in der unmittelbaren Umgebung mit den folgenden Eigenschaften:
@@ -392,42 +899,114 @@ Alle Schüsse, die innerhalb der nächsten 12 Sekunden nach dem Einsetzen dieser
  20. Stufe: 1w4+6 Schaden gegen Ziele in 8 m Radius
 Vorsicht: Fügt sowohl Gegnern als auch Verbündeten und Unbeteiligten Schaden hinzu.~
 
-@2004 = ~Gesegnete Geschosse
-Erzeugt einen spirituellen Pfeil oder Bolzen mit der heiligen Macht der verehrten Gottheit des Schützen. Das Geschoss ist 8 Stunden lang verfügbar, beinhaltet 20 Ladungen und die folgenden Eigenschaften:
- 4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6 Schaden sowie Verlangsamen für zwei Runden (Rettungswurf gg. Tod).
- 8. Stufe: +1 Verzauberung, +2 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+2 Schaden sowie Festhalten für zwei Runden (Rettungswurf gg. Tod).
- 12. Stufe: +2 Verzauberung, +2 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+4 Schaden sowie sofortige Vernichtung (Rettungswurf gg. Tod).
- 16. Stufe: +3 Verzauberung, +3 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+6 Schaden sowie sofortige Vernichtung (Rettungswurf gg. Tod, +2 Malus).
- 20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+8 Schaden sowie sofortige Vernichtung (Rettungswurf gg. Tod, +4 Malus).~
+@2010 = ~Elementare Geschosse verzaubern
+Erzeugt einen verzauberten Pfeil oder Bolzen mit der Macht der verehrten Gottheit des Schützen. Das Geschoss ist 8 Stunden lang verfügbar, beinhaltet 20 Ladungen und die folgenden Eigenschaften:
+ 4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht 1w3 Schaden durch Feuer.
+ 8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht 1w3 Schaden durch Feuer und Kälte. Unnatürliche Wesen werden für zwei Runden verstrickt (Rettungswurf gg. Zauber).
+ 12. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht 1w3 Schaden durch Feuer, Kälte und Säure. Unnatürliche Wesen werden für zwei Runden geblendet (Rettungswurf gg. Zauber).
+ 16. Stufe: +3 Verzauberung, +3 auf Trefferwürfe. Verursacht 1w3 Schaden durch Feuer, Kälte, Säure und Elektrizität. Unnatürliche Wesen werden für zwei Runden verlangsamt (Rettungswurf gg. Zauber, +2 Malus).
+ 20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht 1w3+2 Schaden durch Feuer, Kälte, Säure und Elektrizität. Unnatürliche Wesen werden für zwei Runden geblendet und verlangsamt (Rettungswurf gg. Zauber, +4 Malus).~
 
-@2005 = ~Gesegnete Pfeile
-Erzeugt einen spirituellen Pfeil mit der heiligen Macht der verehrten Gottheit des Schützen. Der Pfeil ist 8 Stunden lang verfügbar, beinhaltet 20 Ladungen und die folgenden Eigenschaften:
- 4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6 Schaden sowie Verlangsamen für zwei Runden (Rettungswurf gg. Tod).
- 8. Stufe: +1 Verzauberung, +2 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+2 Schaden sowie Festhalten für zwei Runden (Rettungswurf gg. Tod).
- 12. Stufe: +2 Verzauberung, +2 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+4 Schaden sowie sofortige Vernichtung (Rettungswurf gg. Tod).
- 16. Stufe: +3 Verzauberung, +3 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+6 Schaden sowie sofortige Vernichtung (Rettungswurf gg. Tod, +2 Malus).
- 20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+8 Schaden sowie sofortige Vernichtung (Rettungswurf gg. Tod, +4 Malus).~
+@2011 = ~Elementare Pfeile verzaubern
+Erzeugt einen verzauberten Pfeil mit der Macht der verehrten Gottheit des Schützen. Das Geschoss ist 8 Stunden lang verfügbar, beinhaltet 20 Ladungen und die folgenden Eigenschaften:
+ 4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht 1w3 Schaden durch Feuer.
+ 8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht 1w3 Schaden durch Feuer und Kälte. Unnatürliche Wesen werden für zwei Runden verstrickt (Rettungswurf gg. Zauber).
+ 12. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht 1w3 Schaden durch Feuer, Kälte und Säure. Unnatürliche Wesen werden für zwei Runden geblendet (Rettungswurf gg. Zauber).
+ 16. Stufe: +3 Verzauberung, +3 auf Trefferwürfe. Verursacht 1w3 Schaden durch Feuer, Kälte, Säure und Elektrizität. Unnatürliche Wesen werden für zwei Runden verlangsamt (Rettungswurf gg. Zauber, +2 Malus).
+ 20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht 1w3+2 Schaden durch Feuer, Kälte, Säure und Elektrizität. Unnatürliche Wesen werden für zwei Runden geblendet und verlangsamt (Rettungswurf gg. Zauber, +4 Malus).~
 
-@2006 = ~Gesegnete Bolzen
-Erzeugt einen spirituellen Bolzen mit der heiligen Macht der verehrten Gottheit des Schützen. Der Bolzen ist 8 Stunden lang verfügbar, beinhaltet 20 Ladungen und die folgenden Eigenschaften:
- 4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6 Schaden sowie Verlangsamen für zwei Runden (Rettungswurf gg. Tod).
- 8. Stufe: +1 Verzauberung, +2 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+2 Schaden sowie Festhalten für zwei Runden (Rettungswurf gg. Tod).
- 12. Stufe: +2 Verzauberung, +2 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+4 Schaden sowie sofortige Vernichtung (Rettungswurf gg. Tod).
- 16. Stufe: +3 Verzauberung, +3 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+6 Schaden sowie sofortige Vernichtung (Rettungswurf gg. Tod, +2 Malus).
- 20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+8 Schaden sowie sofortige Vernichtung (Rettungswurf gg. Tod, +4 Malus).~
+@2012 = ~Elementare Bolzen verzaubern
+Erzeugt einen verzauberten Bolzen mit der Macht der verehrten Gottheit des Schützen. Das Geschoss ist 8 Stunden lang verfügbar, beinhaltet 20 Ladungen und die folgenden Eigenschaften:
+ 4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht 1w3 Schaden durch Feuer.
+ 8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht 1w3 Schaden durch Feuer und Kälte. Unnatürliche Wesen werden für zwei Runden verstrickt (Rettungswurf gg. Zauber).
+ 12. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht 1w3 Schaden durch Feuer, Kälte und Säure. Unnatürliche Wesen werden für zwei Runden geblendet (Rettungswurf gg. Zauber).
+ 16. Stufe: +3 Verzauberung, +3 auf Trefferwürfe. Verursacht 1w3 Schaden durch Feuer, Kälte, Säure und Elektrizität. Unnatürliche Wesen werden für zwei Runden verlangsamt (Rettungswurf gg. Zauber, +2 Malus).
+ 20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht 1w3+2 Schaden durch Feuer, Kälte, Säure und Elektrizität. Unnatürliche Wesen werden für zwei Runden geblendet und verlangsamt (Rettungswurf gg. Zauber, +4 Malus).~
 
-@2007 = ~Gesegnete Kugeln
-Erzeugt eine spirituellen Kugel mit der heiligen Macht der verehrten Gottheit des Schützen. Die Kugel ist 8 Stunden lang verfügbar, beinhaltet 20 Ladungen und die folgenden Eigenschaften:
- 4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6 Schaden sowie Verlangsamen für zwei Runden (Rettungswurf gg. Tod).
- 8. Stufe: +1 Verzauberung, +2 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+2 Schaden sowie Festhalten für zwei Runden (Rettungswurf gg. Tod).
- 12. Stufe: +2 Verzauberung, +2 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+4 Schaden sowie sofortige Vernichtung (Rettungswurf gg. Tod).
- 16. Stufe: +3 Verzauberung, +3 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+6 Schaden sowie sofortige Vernichtung (Rettungswurf gg. Tod, +2 Malus).
- 20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+8 Schaden sowie sofortige Vernichtung (Rettungswurf gg. Tod, +4 Malus).~
-
-@2008 = ~Gesegnete Geschosse
+@2020 = ~Gesegnete Geschosse beschwören
 Erzeugt einen spirituellen Pfeil, Bolzen oder Kugel mit der heiligen Macht der verehrten Gottheit des Schützen. Das Geschoss ist 8 Stunden lang verfügbar, beinhaltet 20 Ladungen und die folgenden Eigenschaften:
- 4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6 Schaden sowie Verlangsamen für zwei Runden (Rettungswurf gg. Tod).
- 8. Stufe: +1 Verzauberung, +2 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+2 Schaden sowie Festhalten für zwei Runden (Rettungswurf gg. Tod).
- 12. Stufe: +2 Verzauberung, +2 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+4 Schaden sowie sofortige Vernichtung (Rettungswurf gg. Tod).
- 16. Stufe: +3 Verzauberung, +3 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+6 Schaden sowie sofortige Vernichtung (Rettungswurf gg. Tod, +2 Malus).
- 20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe und Schaden. Verursacht bei Untoten zusätzlich 1w6+8 Schaden sowie sofortige Vernichtung (Rettungswurf gg. Tod, +4 Malus).~
+ 4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6 magischen Schaden.
+ 8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6+2 magischen Schaden sowie Blindheit für zwei Runden (Rettungswurf gg. Zauber).
+ 12. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6+4 magischen Schaden sowie Langsamkeit für zwei Runden (Rettungswurf gg. Zauber).
+ 16. Stufe: +3 Verzauberung, +3 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6+6 magischen Schaden sowie Blindheit und Langsamkeit für zwei Runden (Rettungswurf gg. Zauber, +2 Malus).
+ 20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6+8 magischen Schaden sowie Blindheit und Festhalten für zwei Runden (Rettungswurf gg. Zauber, +4 Malus).~
+
+@2021 = ~Gesegnete Pfeile beschwören
+Erzeugt einen spirituellen Pfeil mit der heiligen Macht der verehrten Gottheit des Schützen. Der Pfeil ist 8 Stunden lang verfügbar, beinhaltet 20 Ladungen und die folgenden Eigenschaften:
+ 4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6 magischen Schaden.
+ 8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6+2 magischen Schaden sowie Blindheit für zwei Runden (Rettungswurf gg. Zauber).
+ 12. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6+4 magischen Schaden sowie Langsamkeit für zwei Runden (Rettungswurf gg. Zauber).
+ 16. Stufe: +3 Verzauberung, +3 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6+6 magischen Schaden sowie Blindheit und Langsamkeit für zwei Runden (Rettungswurf gg. Zauber, +2 Malus).
+ 20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6+8 magischen Schaden sowie Blindheit und Festhalten für zwei Runden (Rettungswurf gg. Zauber, +4 Malus).~
+
+@2022 = ~Gesegnete Bolzen beschwören
+Erzeugt einen spirituellen Bolzen mit der heiligen Macht der verehrten Gottheit des Schützen. Der Bolzen ist 8 Stunden lang verfügbar, beinhaltet 20 Ladungen und die folgenden Eigenschaften:
+ 4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6 magischen Schaden.
+ 8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6+2 magischen Schaden sowie Blindheit für zwei Runden (Rettungswurf gg. Zauber).
+ 12. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6+4 magischen Schaden sowie Langsamkeit für zwei Runden (Rettungswurf gg. Zauber).
+ 16. Stufe: +3 Verzauberung, +3 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6+6 magischen Schaden sowie Blindheit und Langsamkeit für zwei Runden (Rettungswurf gg. Zauber, +2 Malus).
+ 20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6+8 magischen Schaden sowie Blindheit und Festhalten für zwei Runden (Rettungswurf gg. Zauber, +4 Malus).~
+
+@2023 = ~Gesegnete Kugeln beschwören
+Erzeugt eine spirituellen Kugel mit der heiligen Macht der verehrten Gottheit des Schützen. Die Kugel ist 8 Stunden lang verfügbar, beinhaltet 20 Ladungen und die folgenden Eigenschaften:
+ 4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6 magischen Schaden.
+ 8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6+2 magischen Schaden sowie Blindheit für zwei Runden (Rettungswurf gg. Zauber).
+ 12. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6+4 magischen Schaden sowie Langsamkeit für zwei Runden (Rettungswurf gg. Zauber).
+ 16. Stufe: +3 Verzauberung, +3 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6+6 magischen Schaden sowie Blindheit und Langsamkeit für zwei Runden (Rettungswurf gg. Zauber, +2 Malus).
+ 20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6+8 magischen Schaden sowie Blindheit und Festhalten für zwei Runden (Rettungswurf gg. Zauber, +4 Malus).~
+
+@2030 = ~Verstärkte Geschosse herstellen
+Erzeugt 20 verstärkte Pfeile, Bolzen oder Kugeln mit den folgenden Eigenschaften:
+ 4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +1 Malus auf die Rüstungsklasse (Rettungswurf gg. Tod).
+ 8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +1 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod).
+ 12. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod). Ziel wird zurückgeworfen (Rettungswurf gg. Odemwaffen).
+ 16. Stufe: +3 Verzauberung, +3 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod, +2 Malus). Ziel wird zurückgeworfen und für eine Runde betäubt (Rettungswurf gg. Odemwaffen).
+ 20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +3 Malus auf Rüstungsklasse und ETW0, sowie einen -1 Malus auf Stärke (Rettungswurf gg. Tod, +2 Malus). Ziel wird zurückgeworfen und für eine Runde betäubt (Rettungswurf gg. Odemwaffen, +2 Malus).~
+
+@2031 = ~Verstärkte Pfeile herstellen
+Erzeugt 20 verstärkte Pfeile mit den folgenden Eigenschaften:
+ 4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +1 Malus auf die Rüstungsklasse (Rettungswurf gg. Tod).
+ 8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +1 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod).
+ 12. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod). Ziel wird zurückgeworfen (Rettungswurf gg. Odemwaffen).
+ 16. Stufe: +3 Verzauberung, +3 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod, +2 Malus). Ziel wird zurückgeworfen und für eine Runde betäubt (Rettungswurf gg. Odemwaffen).
+ 20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +3 Malus auf Rüstungsklasse und ETW0, sowie einen -1 Malus auf Stärke (Rettungswurf gg. Tod, +2 Malus). Ziel wird zurückgeworfen und für eine Runde betäubt (Rettungswurf gg. Odemwaffen, +2 Malus).~
+
+@2032 = ~Verstärkte Bolzen herstellen
+Erzeugt 20 verstärkte Bolzen mit den folgenden Eigenschaften:
+ 4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +1 Malus auf die Rüstungsklasse (Rettungswurf gg. Tod).
+ 8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +1 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod).
+ 12. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod). Ziel wird zurückgeworfen (Rettungswurf gg. Odemwaffen).
+ 16. Stufe: +3 Verzauberung, +3 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod, +2 Malus). Ziel wird zurückgeworfen und für eine Runde betäubt (Rettungswurf gg. Odemwaffen).
+ 20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +3 Malus auf Rüstungsklasse und ETW0, sowie einen -1 Malus auf Stärke (Rettungswurf gg. Tod, +2 Malus). Ziel wird zurückgeworfen und für eine Runde betäubt (Rettungswurf gg. Odemwaffen, +2 Malus).~
+
+@2033 = ~Verstärkte Kugeln herstellen
+Erzeugt 20 verstärkte Kugeln mit den folgenden Eigenschaften:
+ 4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +1 Malus auf die Rüstungsklasse (Rettungswurf gg. Tod).
+ 8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +1 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod).
+ 12. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod). Ziel wird zurückgeworfen (Rettungswurf gg. Odemwaffen).
+ 16. Stufe: +3 Verzauberung, +3 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod, +2 Malus). Ziel wird zurückgeworfen und für eine Runde betäubt (Rettungswurf gg. Odemwaffen).
+ 20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +3 Malus auf Rüstungsklasse und ETW0, sowie einen -1 Malus auf Stärke (Rettungswurf gg. Tod, +2 Malus). Ziel wird zurückgeworfen und für eine Runde betäubt (Rettungswurf gg. Odemwaffen, +2 Malus).~
+
+@2040 = ~Bestückte Geschosse anfertigen
+Erzeugt 20 bestückte Pfeile oder Bolzen mit den folgenden Eigenschaften:
+ 4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +1 Malus auf die Rüstungsklasse (Rettungswurf gg. Tod).
+ 8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf die Rüstungsklasse (Rettungswurf gg. Tod). Tiere, Menschen und riesige Humanoide erleiden für eine Runde einen Schadenspunkt pro Sekunde durch Verbluten (Rettungswurf gg. Tod).
+ 12. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod). Tiere, Menschen und riesige Humanoide erleiden für eine Runde einen Schadenspunkt pro Sekunde durch Verbluten (Rettungswurf gg. Tod).
+ 16. Stufe: +3 Verzauberung, +3 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod). Tiere, Menschen und riesige Humanoide erleiden für eine Runde zwei Schadenspunkte pro Sekunde durch Verbluten (Rettungswurf gg. Tod).
+ 20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod, +2 Malus). Tiere, Menschen und riesige Humanoide erleiden für eine Runde vier Schadenspunkte pro Sekunde durch Verbluten (Rettungswurf gg. Tod, +2 Malus).~
+
+@2041 = ~Bestückte Pfeile anfertigen
+Erzeugt 20 bestückte Pfeile mit den folgenden Eigenschaften:
+ 4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +1 Malus auf die Rüstungsklasse (Rettungswurf gg. Tod).
+ 8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf die Rüstungsklasse (Rettungswurf gg. Tod). Tiere, Menschen und riesige Humanoide erleiden für eine Runde einen Schadenspunkt pro Sekunde durch Verbluten (Rettungswurf gg. Tod).
+ 12. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod). Tiere, Menschen und riesige Humanoide erleiden für eine Runde einen Schadenspunkt pro Sekunde durch Verbluten (Rettungswurf gg. Tod).
+ 16. Stufe: +3 Verzauberung, +3 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod). Tiere, Menschen und riesige Humanoide erleiden für eine Runde zwei Schadenspunkte pro Sekunde durch Verbluten (Rettungswurf gg. Tod).
+ 20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod, +2 Malus). Tiere, Menschen und riesige Humanoide erleiden für eine Runde vier Schadenspunkte pro Sekunde durch Verbluten (Rettungswurf gg. Tod, +2 Malus).~
+
+@2042 = ~Bestückte Bolzen anfertigen
+Erzeugt 20 bestückte Bolzen mit den folgenden Eigenschaften:
+ 4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +1 Malus auf die Rüstungsklasse (Rettungswurf gg. Tod).
+ 8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf die Rüstungsklasse (Rettungswurf gg. Tod). Tiere, Menschen und riesige Humanoide erleiden für eine Runde einen Schadenspunkt pro Sekunde durch Verbluten (Rettungswurf gg. Tod).
+ 12. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod). Tiere, Menschen und riesige Humanoide erleiden für eine Runde einen Schadenspunkt pro Sekunde durch Verbluten (Rettungswurf gg. Tod).
+ 16. Stufe: +3 Verzauberung, +3 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod). Tiere, Menschen und riesige Humanoide erleiden für eine Runde zwei Schadenspunkte pro Sekunde durch Verbluten (Rettungswurf gg. Tod).
+ 20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod, +2 Malus). Tiere, Menschen und riesige Humanoide erleiden für eine Runde vier Schadenspunkte pro Sekunde durch Verbluten (Rettungswurf gg. Tod, +2 Malus).~
