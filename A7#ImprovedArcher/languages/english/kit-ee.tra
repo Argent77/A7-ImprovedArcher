@@ -7,7 +7,7 @@ STATISTICS:
 
 Enchantment: +1
 THAC0: +1
-Damage: 1d6 (missile), additional 1d6 magic damage vs. undead, demons, and devils
+Damage: 1d6+1 (missile), additional 1d6 magic damage vs. undead, demons, and devils
 Launcher: Bow
 
 Weight: 0~
@@ -21,7 +21,7 @@ Combat abilities:
 
 Enchantment: +2
 THAC0: +2
-Damage: 1d6 (missile), additional 1d6+2 magic damage vs. undead, demons, and devils
+Damage: 1d6+2 (missile), additional 1d6+2 magic damage vs. undead, demons, and devils
 Launcher: Bow
 
 Weight: 0~
@@ -36,7 +36,7 @@ Combat abilities:
 
 Enchantment: +2
 THAC0: +2
-Damage: 1d6 (missile), additional 1d6+4 magic damage vs. undead, demons, and devils
+Damage: 1d6+2 (missile), additional 1d6+4 magic damage vs. undead, demons, and devils
 Launcher: Bow
 
 Weight: 0~
@@ -46,11 +46,11 @@ Weight: 0~
 STATISTICS:
 
 Combat abilities:
-- Undead, demons, and devils must save vs. Death at -2 penalty or be slowed and blinded for two rounds
+- Undead, demons, and devils must save vs. Spell at -2 penalty or be slowed and blinded for two rounds
 
 Enchantment: +3
 THAC0: +3
-Damage: 1d6 (missile), additional 1d6+6 magic damage vs. undead, demons, and devils
+Damage: 1d6+3 (missile), additional 1d6+6 magic damage vs. undead, demons, and devils
 Launcher: Bow
 
 Weight: 0~
@@ -60,11 +60,11 @@ Weight: 0~
 STATISTICS:
 
 Combat abilities:
-- Undead, demons, and devils must save vs. Death at -2 penalty or be held for two rounds
+- Undead, demons, and devils must save vs. Spell at -2 penalty or be held for two rounds
 
 Enchantment: +4
 THAC0: +4
-Damage: 1d6 (missile), additional 1d6+8 magic damage vs. undead, demons, and devils
+Damage: 1d6+4 (missile), additional 1d6+8 magic damage vs. undead, demons, and devils
 Launcher: Bow
 
 Weight: 0~
@@ -75,7 +75,7 @@ STATISTICS:
 
 Enchantment: +1
 THAC0: +1
-Damage: 1d8 (missile), additional 1d6 magic damage vs. undead, demons, and devils
+Damage: 1d8+1 (missile), additional 1d6 magic damage vs. undead, demons, and devils
 Launcher: Crossbow
 
 Weight: 0~
@@ -89,7 +89,7 @@ Combat abilities:
 
 Enchantment: +2
 THAC0: +2
-Damage: 1d8 (missile), additional 1d6+2 magic damage vs. undead, demons, and devils
+Damage: 1d8+2 (missile), additional 1d6+2 magic damage vs. undead, demons, and devils
 Launcher: Crossbow
 
 Weight: 0~
@@ -103,7 +103,7 @@ Combat abilities:
 
 Enchantment: +2
 THAC0: +2
-Damage: 1d8 (missile), additional 1d6+4 magic damage vs. undead, demons, and devils
+Damage: 1d8+2 (missile), additional 1d6+4 magic damage vs. undead, demons, and devils
 Launcher: Crossbow
 
 Weight: 0~
@@ -113,11 +113,11 @@ Weight: 0~
 STATISTICS:
 
 Combat abilities:
-- Undead, demons, and devils must save vs. Death at -2 penalty or be slowed and blinded for two rounds
+- Undead, demons, and devils must save vs. Spell at -2 penalty or be slowed and blinded for two rounds
 
 Enchantment: +3
 THAC0: +3
-Damage: 1d8 (missile), additional 1d6+6 magic damage vs. undead, demons, and devils
+Damage: 1d8+3 (missile), additional 1d6+6 magic damage vs. undead, demons, and devils
 Launcher: Crossbow
 
 Weight: 0~
@@ -127,11 +127,11 @@ Weight: 0~
 STATISTICS:
 
 Combat abilities:
-- Undead, demons, and devils must save vs. Death at -2 penalty or be held for two rounds
+- Undead, demons, and devils must save vs. Spell at -2 penalty or be held for two rounds
 
 Enchantment: +4
 THAC0: +4
-Damage: 1d8 (missile), additional 1d6+8 magic damage vs. undead, demons, and devils
+Damage: 1d8+4 (missile), additional 1d6+8 magic damage vs. undead, demons, and devils
 Launcher: Crossbow
 
 Weight: 0~
@@ -141,7 +141,7 @@ Weight: 0~
 STATISTICS:
 
 THAC0: +3
-Damage: 1d6 (missile)
+Damage: 1d6+3 (missile)
 Launcher: Bow
 
 Weight: 0~
@@ -151,7 +151,7 @@ Weight: 0~
 STATISTICS:
 
 THAC0: +3
-Damage: 1d8 (missile)
+Damage: 1d8+3 (missile)
 Launcher: Crossbow
 
 Weight: 0~
@@ -161,7 +161,7 @@ Weight: 0~
 STATISTICS:
 
 THAC0: +4
-Damage: 1d6 (missile)
+Damage: 1d6+4 (missile)
 Launcher: Bow
 
 Weight: 0~
@@ -171,7 +171,7 @@ Weight: 0~
 STATISTICS:
 
 THAC0: +4
-Damage: 1d8 (missile)
+Damage: 1d8+4 (missile)
 Launcher: Crossbow
 
 Weight: 0~
@@ -260,7 +260,7 @@ Weight: 0~
 STATISTICS:
 
 Combat abilities:
-- Undead, demons, and devils must save vs. Death at -2 penalty or be slowed and blinded for two rounds
+- Undead, demons, and devils must save vs. Spell at -2 penalty or be slowed and blinded for two rounds
 
 Enchantment: +3
 THAC0: +3
@@ -274,7 +274,7 @@ Weight: 0~
 STATISTICS:
 
 Combat abilities:
-- Undead, demons, and devils must save vs. Death at -2 penalty or be held for two rounds
+- Undead, demons, and devils must save vs. Spell at -2 penalty or be held for two rounds
 
 Enchantment: +4
 THAC0: +4
@@ -289,7 +289,7 @@ STATISTICS:
 
 Enchantment: +1
 THAC0: +1
-Damage: 1d6 (missile), additional 1d3 fire damage
+Damage: 1d6+1 (missile), additional 1d3 fire damage
 Launcher: Bow
 
 Weight: 0~
@@ -303,7 +303,7 @@ Combat abilities:
 
 Enchantment: +2
 THAC0: +2
-Damage: 1d6 (missile), additional 1d3 fire and cold damage
+Damage: 1d6+2 (missile), additional 1d3 fire and cold damage
 Launcher: Bow
 
 Weight: 0~
@@ -317,7 +317,7 @@ Combat abilities:
 
 Enchantment: +2
 THAC0: +2
-Damage: 1d6 (missile), additional 1d3 fire, cold and acid damage
+Damage: 1d6+2 (missile), additional 1d3 fire, cold and acid damage
 Launcher: Bow
 
 Weight: 0~
@@ -331,7 +331,7 @@ Combat abilities:
 
 Enchantment: +3
 THAC0: +3
-Damage: 1d6 (missile), additional 1d3 fire, cold, acid and electrical damage
+Damage: 1d6+3 (missile), additional 1d3 fire, cold, acid and electrical damage
 Launcher: Bow
 
 Weight: 0~
@@ -345,7 +345,7 @@ Combat abilities:
 
 Enchantment: +4
 THAC0: +4
-Damage: 1d6 (missile), additional 1d3+2 fire, cold, acid and electrical damage
+Damage: 1d6+4 (missile), additional 1d3+2 fire, cold, acid and electrical damage
 Launcher: Bow
 
 Weight: 0~
@@ -356,7 +356,7 @@ STATISTICS:
 
 Enchantment: +1
 THAC0: +1
-Damage: 1d8 (missile), additional 1d3 fire damage
+Damage: 1d8+1 (missile), additional 1d3 fire damage
 Launcher: Crossbow
 
 Weight: 0~
@@ -370,7 +370,7 @@ Combat abilities:
 
 Enchantment: +2
 THAC0: +2
-Damage: 1d8 (missile), additional 1d3 fire and cold damage
+Damage: 1d8+2 (missile), additional 1d3 fire and cold damage
 Launcher: Crossbow
 
 Weight: 0~
@@ -384,7 +384,7 @@ Combat abilities:
 
 Enchantment: +2
 THAC0: +2
-Damage: 1d8 (missile), additional 1d3 fire, cold and acid damage
+Damage: 1d8+2 (missile), additional 1d3 fire, cold and acid damage
 Launcher: Crossbow
 
 Weight: 0~
@@ -398,7 +398,7 @@ Combat abilities:
 
 Enchantment: +3
 THAC0: +3
-Damage: 1d8 (missile), additional 1d3 fire, cold, acid and electrical damage
+Damage: 1d8+3 (missile), additional 1d3 fire, cold, acid and electrical damage
 Launcher: Crossbow
 
 Weight: 0~
@@ -412,7 +412,7 @@ Combat abilities:
 
 Enchantment: +4
 THAC0: +4
-Damage: 1d8 (missile), additional 1d3+2 fire, cold, acid and electrical damage
+Damage: 1d8+4 (missile), additional 1d3+2 fire, cold, acid and electrical damage
 Launcher: Crossbow
 
 Weight: 0~
@@ -426,7 +426,7 @@ Combat abilities:
 
 Enchantment: +1
 THAC0: +1
-Damage: 1d6 (missile)
+Damage: 1d6+1 (missile)
 Launcher: Bow
 
 Weight: 0~
@@ -440,7 +440,7 @@ Combat abilities:
 
 Enchantment: +2
 THAC0: +2
-Damage: 1d6 (missile)
+Damage: 1d6+2 (missile)
 Launcher: Bow
 
 Weight: 0~
@@ -455,7 +455,7 @@ Combat abilities:
 
 Enchantment: +2
 THAC0: +2
-Damage: 1d6 (missile)
+Damage: 1d6+2 (missile)
 Launcher: Bow
 
 Weight: 0~
@@ -470,7 +470,7 @@ Combat abilities:
 
 Enchantment: +3
 THAC0: +3
-Damage: 1d6 (missile)
+Damage: 1d6+3 (missile)
 Launcher: Bow
 
 Weight: 0~
@@ -485,7 +485,7 @@ Combat abilities:
 
 Enchantment: +4
 THAC0: +4
-Damage: 1d6 (missile)
+Damage: 1d6+4 (missile)
 Launcher: Bow
 
 Weight: 0~
@@ -499,7 +499,7 @@ Combat abilities:
 
 Enchantment: +1
 THAC0: +1
-Damage: 1d8 (missile)
+Damage: 1d8+1 (missile)
 Launcher: Crossbow
 
 Weight: 0~
@@ -513,7 +513,7 @@ Combat abilities:
 
 Enchantment: +2
 THAC0: +2
-Damage: 1d8 (missile)
+Damage: 1d8+2 (missile)
 Launcher: Crossbow
 
 Weight: 0~
@@ -528,7 +528,7 @@ Combat abilities:
 
 Enchantment: +2
 THAC0: +2
-Damage: 1d8 (missile)
+Damage: 1d8+2 (missile)
 Launcher: Crossbow
 
 Weight: 0~
@@ -543,7 +543,7 @@ Combat abilities:
 
 Enchantment: +3
 THAC0: +3
-Damage: 1d8 (missile)
+Damage: 1d8+3 (missile)
 Launcher: Crossbow
 
 Weight: 0~
@@ -558,7 +558,7 @@ Combat abilities:
 
 Enchantment: +4
 THAC0: +4
-Damage: 1d8 (missile)
+Damage: 1d8+4 (missile)
 Launcher: Crossbow
 
 Weight: 0~
@@ -645,7 +645,7 @@ Combat abilities:
 
 Enchantment: +1
 THAC0: +1
-Damage: 1d6 (missile)
+Damage: 1d6+1 (missile)
 Launcher: Bow
 
 Weight: 0~
@@ -660,7 +660,7 @@ Combat abilities:
 
 Enchantment: +2
 THAC0: +2
-Damage: 1d6 (missile)
+Damage: 1d6+2 (missile)
 Launcher: Bow
 
 Weight: 0~
@@ -675,7 +675,7 @@ Combat abilities:
 
 Enchantment: +2
 THAC0: +2
-Damage: 1d6 (missile)
+Damage: 1d6+2 (missile)
 Launcher: Bow
 
 Weight: 0~
@@ -691,7 +691,7 @@ Combat abilities:
 
 Enchantment: +3
 THAC0: +3
-Damage: 1d6 (missile)
+Damage: 1d6+3 (missile)
 Launcher: Bow
 
 Weight: 0~
@@ -707,7 +707,7 @@ Combat abilities:
 
 Enchantment: +4
 THAC0: +4
-Damage: 1d6 (missile)
+Damage: 1d6+4 (missile)
 Launcher: Bow
 
 Weight: 0~
@@ -721,7 +721,7 @@ Combat abilities:
 
 Enchantment: +1
 THAC0: +1
-Damage: 1d8 (missile)
+Damage: 1d8+1 (missile)
 Launcher: Crossbow
 
 Weight: 0~
@@ -736,7 +736,7 @@ Combat abilities:
 
 Enchantment: +2
 THAC0: +2
-Damage: 1d8 (missile)
+Damage: 1d8+2 (missile)
 Launcher: Crossbow
 
 Weight: 0~
@@ -751,7 +751,7 @@ Combat abilities:
 
 Enchantment: +2
 THAC0: +2
-Damage: 1d8 (missile)
+Damage: 1d8+2 (missile)
 Launcher: Crossbow
 
 Weight: 0~
@@ -767,7 +767,7 @@ Combat abilities:
 
 Enchantment: +3
 THAC0: +3
-Damage: 1d8 (missile)
+Damage: 1d8+3 (missile)
 Launcher: Crossbow
 
 Weight: 0~
@@ -783,7 +783,7 @@ Combat abilities:
 
 Enchantment: +4
 THAC0: +4
-Damage: 1d8 (missile)
+Damage: 1d8+4 (missile)
 Launcher: Crossbow
 
 Weight: 0~

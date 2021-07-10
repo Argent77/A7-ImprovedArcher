@@ -183,7 +183,7 @@ Only usable by:
 STATISTICS:
 
 Combat abilities:
-- Undead, demons, and devils must save vs. Death at -2 penalty or be slowed and blinded for two rounds
+- Undead, demons, and devils must save vs. Spell at -2 penalty or be slowed and blinded for two rounds
 
 Enchantment: +3
 THAC0: +3
@@ -201,7 +201,7 @@ Only usable by:
 STATISTICS:
 
 Combat abilities:
-- Undead, demons, and devils must save vs. Death at -2 penalty or be held for two rounds
+- Undead, demons, and devils must save vs. Spell at -2 penalty or be held for two rounds
 
 Enchantment: +4
 THAC0: +4
@@ -270,7 +270,7 @@ Only usable by:
 STATISTICS:
 
 Combat abilities:
-- Undead, demons, and devils must save vs. Death at -2 penalty or be slowed and blinded for two rounds
+- Undead, demons, and devils must save vs. Spell at -2 penalty or be slowed and blinded for two rounds
 
 Enchantment: +3
 THAC0: +3
@@ -288,7 +288,7 @@ Only usable by:
 STATISTICS:
 
 Combat abilities:
-- Undead, demons, and devils must save vs. Death at -2 penalty or be held for two rounds
+- Undead, demons, and devils must save vs. Spell at -2 penalty or be held for two rounds
 
 Enchantment: +4
 THAC0: +4
@@ -471,7 +471,7 @@ Only usable by:
 STATISTICS:
 
 Combat abilities:
-- Undead, demons, and devils must save vs. Death at -2 penalty or be slowed and blinded for two rounds
+- Undead, demons, and devils must save vs. Spell at -2 penalty or be slowed and blinded for two rounds
 
 Enchantment: +3
 THAC0: +3
@@ -490,7 +490,7 @@ Only usable by:
 STATISTICS:
 
 Combat abilities:
-- Undead, demons, and devils must save vs. Death at -2 penalty or be held for two rounds
+- Undead, demons, and devils must save vs. Spell at -2 penalty or be held for two rounds
 
 Enchantment: +4
 THAC0: +4

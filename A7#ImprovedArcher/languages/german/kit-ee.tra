@@ -7,7 +7,7 @@ EIGENSCHAFTEN:
 
 Verzauberung: +1
 ETW0-Bonus: -1
-Schaden: 1w6, zusätzlich 1w6 magischen Schaden gg. Untote, Dämonen und Teufel
+Schaden: 1w6+1, zusätzlich 1w6 magischen Schaden gg. Untote, Dämonen und Teufel
 Schadenstyp: Geschoss
 Schusswaffe: Bogen
 
@@ -21,7 +21,7 @@ Untote, Dämonen und Teufel müssen Rettungswurf gg. Tod bestehen werden für f�
 
 Verzauberung: +2
 ETW0-Bonus: -2
-Schaden: 1w6, zusätzlich 1w6+2 magischen Schaden gg. Untote, Dämonen und Teufel
+Schaden: 1w6+2, zusätzlich 1w6+2 magischen Schaden gg. Untote, Dämonen und Teufel
 Schadenstyp: Geschoss
 Schusswaffe: Bogen
 
@@ -35,7 +35,7 @@ Untote, Dämonen und Teufel müssen Rettungswurf gg. Tod bestehen oder werden f�
 
 Verzauberung: +2
 ETW0-Bonus: -2
-Schaden: 1w6, zusätzlich 1w6+4 Schaden gg. Untote, Dämonen und Teufel
+Schaden: 1w6+2, zusätzlich 1w6+4 Schaden gg. Untote, Dämonen und Teufel
 Schadenstyp: Geschoss
 Schusswaffe: Bogen
 
@@ -49,7 +49,7 @@ Untote, Dämonen und Teufel müssen Rettungswurf gg. Tod (+2 Malus) bestehen ode
 
 Verzauberung: +3
 ETW0-Bonus: -3
-Schaden: 1w6, zusätzlich 1w6+6 magischen Schaden gg. Untote, Dämonen und Teufel
+Schaden: 1w6+3, zusätzlich 1w6+6 magischen Schaden gg. Untote, Dämonen und Teufel
 Schadenstyp: Geschoss
 Schusswaffe: Bogen
 
@@ -63,7 +63,7 @@ Untote, Dämonen und Teufel müssen Rettungswurf gg. Tod (+2 Malus) bestehen ode
 
 Verzauberung: +4
 ETW0-Bonus: -4
-Schaden: 1w6, zusätzlich 1w6+8 magischen Schaden gg. Untote, Dämonen und Teufel
+Schaden: 1w6+4, zusätzlich 1w6+8 magischen Schaden gg. Untote, Dämonen und Teufel
 Schadenstyp: Geschoss
 Schusswaffe: Bogen
 
@@ -75,7 +75,7 @@ EIGENSCHAFTEN:
 
 Verzauberung: +1
 ETW0-Bonus: -1
-Schaden: 1w8, zusätzlich 1w6 magischen Schaden gg. Untote, Dämonen und Teufel
+Schaden: 1w8+1, zusätzlich 1w6 magischen Schaden gg. Untote, Dämonen und Teufel
 Schadenstyp: Geschoss
 Schusswaffe: Armbrust
 
@@ -89,7 +89,7 @@ Untote, Dämonen und Teufel müssen Rettungswurf gg. Tod bestehen werden für f�
 
 Verzauberung: +2
 ETW0-Bonus: -2
-Schaden: 1w8, zusätzlich 1w6+2 magischen Schaden gg. Untote, Dämonen und Teufel
+Schaden: 1w8+2, zusätzlich 1w6+2 magischen Schaden gg. Untote, Dämonen und Teufel
 Schadenstyp: Geschoss
 Schusswaffe: Armbrust
 
@@ -103,7 +103,7 @@ Untote, Dämonen und Teufel müssen Rettungswurf gg. Tod bestehen oder werden f�
 
 Verzauberung: +2
 ETW0-Bonus: -2
-Schaden: 1w8, zusätzlich 1w6+4 Schaden gg. Untote, Dämonen und Teufel
+Schaden: 1w8+2, zusätzlich 1w6+4 Schaden gg. Untote, Dämonen und Teufel
 Schadenstyp: Geschoss
 Schusswaffe: Armbrust
 
@@ -117,7 +117,7 @@ Untote, Dämonen und Teufel müssen Rettungswurf gg. Tod (+2 Malus) bestehen ode
 
 Verzauberung: +3
 ETW0-Bonus: -3
-Schaden: 1w8, zusätzlich 1w6+6 magischen Schaden gg. Untote, Dämonen und Teufel
+Schaden: 1w8+3, zusätzlich 1w6+6 magischen Schaden gg. Untote, Dämonen und Teufel
 Schadenstyp: Geschoss
 Schusswaffe: Armbrust
 
@@ -131,7 +131,7 @@ Untote, Dämonen und Teufel müssen Rettungswurf gg. Tod (+2 Malus) bestehen ode
 
 Verzauberung: +4
 ETW0-Bonus: -4
-Schaden: 1w8, zusätzlich 1w6+8 magischen Schaden gg. Untote, Dämonen und Teufel
+Schaden: 1w8+4, zusätzlich 1w6+8 magischen Schaden gg. Untote, Dämonen und Teufel
 Schadenstyp: Geschoss
 Schusswaffe: Armbrust
 
@@ -142,7 +142,7 @@ Gewicht: 0~
 EIGENSCHAFTEN:
 
 ETW0-Bonus: -3
-Schaden: 1w6 (Geschoss)
+Schaden: 1w6+3 (Geschoss)
 Schusswaffe: Bogen
 
 Gewicht: 0~
@@ -152,7 +152,7 @@ Gewicht: 0~
 EIGENSCHAFTEN:
 
 ETW0-Bonus: -3
-Schaden: 1w8 (Geschoss)
+Schaden: 1w8+3 (Geschoss)
 Schusswaffe: Armbrust
 
 Gewicht: 0~
@@ -162,7 +162,7 @@ Gewicht: 0~
 EIGENSCHAFTEN:
 
 ETW0-Bonus: -4
-Schaden: 1w6 (Geschoss)
+Schaden: 1w6+4 (Geschoss)
 Schusswaffe: Bogen
 
 Gewicht: 0~
@@ -172,7 +172,7 @@ Gewicht: 0~
 EIGENSCHAFTEN:
 
 ETW0-Bonus: -4
-Schaden: 1w8 (Geschoss)
+Schaden: 1w8+4 (Geschoss)
 Schusswaffe: Armbrust
 
 Gewicht: 0~
@@ -286,7 +286,7 @@ EIGENSCHAFTEN:
 
 Verzauberung: +1
 ETW0-Bonus: -1
-Schaden: 1w6, zusätzlich 1w3 Schadenspunkte durch Feuer
+Schaden: 1w6+1, zusätzlich 1w3 Schadenspunkte durch Feuer
 Schadenstyp: Geschoss
 Schusswaffe: Bogen
 
@@ -300,7 +300,7 @@ Unnatürliche Wesen müssen Rettungswurf gg. Zauber bestehen oder werden für zw
 
 Verzauberung: +2
 ETW0-Bonus: -2
-Schaden: 1w6, zusätzlich je 1w3 Schadenspunkte durch Feuer und Kälte
+Schaden: 1w6+2, zusätzlich je 1w3 Schadenspunkte durch Feuer und Kälte
 Schadenstyp: Geschoss
 Schusswaffe: Bogen
 
@@ -314,7 +314,7 @@ Unnatürliche Wesen müssen Rettungswurf gg. Zauber bestehen oder werden für zw
 
 Verzauberung: +2
 ETW0-Bonus: -2
-Schaden: 1w6, zusätzlich je 1w3 Schadenspunkte durch Feuer, Kälte und Säure
+Schaden: 1w6+2, zusätzlich je 1w3 Schadenspunkte durch Feuer, Kälte und Säure
 Schadenstyp: Geschoss
 Schusswaffe: Bogen
 
@@ -328,7 +328,7 @@ Unnatürliche Wesen müssen Rettungswurf gg. Zauber (+2 Malus) bestehen oder wer
 
 Verzauberung: +3
 ETW0-Bonus: -3
-Schaden: 1w6, zusätzlich je 1w3 Schadenspunkte durch Feuer, Kälte, Säure und Elektrizität
+Schaden: 1w6+3, zusätzlich je 1w3 Schadenspunkte durch Feuer, Kälte, Säure und Elektrizität
 Schadenstyp: Geschoss
 Schusswaffe: Bogen
 
@@ -342,7 +342,7 @@ Unnatürliche Wesen müssen Rettungswurf gg. Zauber (+4 Malus) bestehen oder wer
 
 Verzauberung: +4
 ETW0-Bonus: -4
-Schaden: 1w6, zusätzlich je 1w3+2 Schadenspunkte durch Feuer, Kälte, Säure und Elektrizität
+Schaden: 1w6+4, zusätzlich je 1w3+2 Schadenspunkte durch Feuer, Kälte, Säure und Elektrizität
 Schadenstyp: Geschoss
 Schusswaffe: Bogen
 
@@ -354,7 +354,7 @@ EIGENSCHAFTEN:
 
 Verzauberung: +1
 ETW0-Bonus: -1
-Schaden: 1w8, zusätzlich 1w3 Schadenspunkte durch Feuer
+Schaden: 1w8+1, zusätzlich 1w3 Schadenspunkte durch Feuer
 Schadenstyp: Geschoss
 Schusswaffe: Armbrust
 
@@ -368,7 +368,7 @@ Unnatürliche Wesen müssen Rettungswurf gg. Zauber bestehen oder werden für zw
 
 Verzauberung: +2
 ETW0-Bonus: -2
-Schaden: 1w8, zusätzlich je 1w3 Schadenspunkte durch Feuer und Kälte
+Schaden: 1w8+2, zusätzlich je 1w3 Schadenspunkte durch Feuer und Kälte
 Schadenstyp: Geschoss
 Schusswaffe: Armbrust
 
@@ -382,7 +382,7 @@ Unnatürliche Wesen müssen Rettungswurf gg. Zauber bestehen oder werden für zw
 
 Verzauberung: +2
 ETW0-Bonus: -2
-Schaden: 1w8, zusätzlich je 1w3 Schadenspunkte durch Feuer, Kälte und Säure
+Schaden: 1w8+2, zusätzlich je 1w3 Schadenspunkte durch Feuer, Kälte und Säure
 Schadenstyp: Geschoss
 Schusswaffe: Armbrust
 
@@ -396,7 +396,7 @@ Unnatürliche Wesen müssen Rettungswurf gg. Zauber (+2 Malus) bestehen oder wer
 
 Verzauberung: +3
 ETW0-Bonus: -3
-Schaden: 1w8, zusätzlich je 1w3 Schadenspunkte durch Feuer, Kälte, Säure und Elektrizität
+Schaden: 1w8+3, zusätzlich je 1w3 Schadenspunkte durch Feuer, Kälte, Säure und Elektrizität
 Schadenstyp: Geschoss
 Schusswaffe: Armbrust
 
@@ -410,7 +410,7 @@ Unnatürliche Wesen müssen Rettungswurf gg. Zauber (+4 Malus) bestehen oder wer
 
 Verzauberung: +4
 ETW0-Bonus: -4
-Schaden: 1w8, zusätzlich je 1w3+2 Schadenspunkte durch Feuer, Kälte, Säure und Elektrizität
+Schaden: 1w8+4, zusätzlich je 1w3+2 Schadenspunkte durch Feuer, Kälte, Säure und Elektrizität
 Schadenstyp: Geschoss
 Schusswaffe: Armbrust
 
@@ -424,7 +424,7 @@ Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod bestehen oder erleide
 
 Verzauberung: +1
 ETW0-Bonus: -1
-Schaden: 1w6
+Schaden: 1w6+1
 Schadenstyp: Geschoss
 Schusswaffe: Bogen
 
@@ -438,7 +438,7 @@ Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod bestehen oder erleide
 
 Verzauberung: +2
 ETW0-Bonus: -2
-Schaden: 1w6
+Schaden: 1w6+2
 Schadenstyp: Geschoss
 Schusswaffe: Bogen
 
@@ -454,7 +454,7 @@ Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Odemwaffen bestehen oder 
 
 Verzauberung: +2
 ETW0-Bonus: -2
-Schaden: 1w6
+Schaden: 1w6+2
 Schadenstyp: Geschoss
 Schusswaffe: Bogen
 
@@ -470,7 +470,7 @@ Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Odemwaffen bestehen oder 
 
 Verzauberung: +3
 ETW0-Bonus: -3
-Schaden: 1w6
+Schaden: 1w6+3
 Schadenstyp: Geschoss
 Schusswaffe: Bogen
 
@@ -486,7 +486,7 @@ Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Odemwaffen (+2 Malus) bes
 
 Verzauberung: +4
 ETW0-Bonus: -4
-Schaden: 1w6
+Schaden: 1w6+4
 Schadenstyp: Geschoss
 Schusswaffe: Bogen
 
@@ -500,7 +500,7 @@ Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod bestehen oder erleide
 
 Verzauberung: +1
 ETW0-Bonus: -1
-Schaden: 1w8
+Schaden: 1w8+1
 Schadenstyp: Geschoss
 Schusswaffe: Armbrust
 
@@ -514,7 +514,7 @@ Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod bestehen oder erleide
 
 Verzauberung: +2
 ETW0-Bonus: -2
-Schaden: 1w8
+Schaden: 1w8+2
 Schadenstyp: Geschoss
 Schusswaffe: Armbrust
 
@@ -530,7 +530,7 @@ Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Odemwaffen bestehen oder 
 
 Verzauberung: +2
 ETW0-Bonus: -2
-Schaden: 1w8
+Schaden: 1w8+2
 Schadenstyp: Geschoss
 Schusswaffe: Armbrust
 
@@ -546,7 +546,7 @@ Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Odemwaffen bestehen oder 
 
 Verzauberung: +3
 ETW0-Bonus: -3
-Schaden: 1w8
+Schaden: 1w8+3
 Schadenstyp: Geschoss
 Schusswaffe: Armbrust
 
@@ -562,7 +562,7 @@ Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Odemwaffen (+2 Malus) bes
 
 Verzauberung: +4
 ETW0-Bonus: -4
-Schaden: 1w8
+Schaden: 1w8+4
 Schadenstyp: Geschoss
 Schusswaffe: Armbrust
 
@@ -652,7 +652,7 @@ Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod bestehen oder erleide
 
 Verzauberung: +1
 ETW0-Bonus: -1
-Schaden: 1w6
+Schaden: 1w6+1
 Schadenstyp: Geschoss
 Schusswaffe: Bogen
 
@@ -668,7 +668,7 @@ Tiere, Menschen und riesige Humanoide müssen einen Rettungswurf gg. Tod bestehe
 
 Verzauberung: +2
 ETW0-Bonus: -2
-Schaden: 1w6
+Schaden: 1w6+2
 Schadenstyp: Geschoss
 Schusswaffe: Bogen
 
@@ -684,7 +684,7 @@ Tiere, Menschen und riesige Humanoide müssen einen Rettungswurf gg. Tod bestehe
 
 Verzauberung: +2
 ETW0-Bonus: -2
-Schaden: 1w6
+Schaden: 1w6+2
 Schadenstyp: Geschoss
 Schusswaffe: Bogen
 
@@ -702,7 +702,7 @@ Tiere, Menschen und riesige Humanoide müssen einen Rettungswurf gg. Tod bestehe
 
 Verzauberung: +3
 ETW0-Bonus: -3
-Schaden: 1w6
+Schaden: 1w6+3
 Schadenstyp: Geschoss
 Schusswaffe: Bogen
 
@@ -720,7 +720,7 @@ Tiere, Menschen und riesige Humanoide müssen einen Rettungswurf gg. Tod (+2 Mal
 
 Verzauberung: +4
 ETW0-Bonus: -4
-Schaden: 1w6
+Schaden: 1w6+4
 Schadenstyp: Geschoss
 Schusswaffe: Bogen
 
@@ -734,7 +734,7 @@ Bei jedem Treffer muss das Ziel einen Rettungswurf gg. Tod bestehen oder erleide
 
 Verzauberung: +1
 ETW0-Bonus: -1
-Schaden: 1w8
+Schaden: 1w8+1
 Schadenstyp: Geschoss
 Schusswaffe: Armbrust
 
@@ -750,7 +750,7 @@ Tiere, Menschen und riesige Humanoide müssen einen Rettungswurf gg. Tod bestehe
 
 Verzauberung: +2
 ETW0-Bonus: -2
-Schaden: 1w8
+Schaden: 1w8+2
 Schadenstyp: Geschoss
 Schusswaffe: Armbrust
 
@@ -766,7 +766,7 @@ Tiere, Menschen und riesige Humanoide müssen einen Rettungswurf gg. Tod bestehe
 
 Verzauberung: +2
 ETW0-Bonus: -2
-Schaden: 1w8
+Schaden: 1w8+2
 Schadenstyp: Geschoss
 Schusswaffe: Armbrust
 
@@ -784,7 +784,7 @@ Tiere, Menschen und riesige Humanoide müssen einen Rettungswurf gg. Tod bestehe
 
 Verzauberung: +3
 ETW0-Bonus: -3
-Schaden: 1w8
+Schaden: 1w8+3
 Schadenstyp: Geschoss
 Schusswaffe: Armbrust
 
@@ -802,7 +802,7 @@ Tiere, Menschen und riesige Humanoide müssen einen Rettungswurf gg. Tod (+2 Mal
 
 Verzauberung: +4
 ETW0-Bonus: -4
-Schaden: 1w8
+Schaden: 1w8+4
 Schadenstyp: Geschoss
 Schusswaffe: Armbrust
 

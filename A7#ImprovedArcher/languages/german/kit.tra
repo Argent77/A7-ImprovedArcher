@@ -1120,7 +1120,7 @@ Kann nur verwendet werden von:
 
 Vorteile:
 - alle 4 Stufen +1 auf Trefferwürfe und Schaden mit Geschosswaffen.
-- alle 6 Stufen +1 auf Rüstungsklasse gegen Geschosswaffen.
+- alle 6 Stufen +1 auf RK gegen Geschosswaffen.
 - Stufe 13 und 18: +5 Prozent Wahrscheinlichkeit, einen kritischen Treffer mit Geschosswaffen zu erzielen.
 - kann sich in den Fertigkeiten Lang- und Kurzbogen, Armbrust, Wurfpfeil und Schleuder bis zur Großmeisterschaft spezialisieren (5 Punkte).
 - Wurzelschuss-Fertigkeit (1x täglich für je 4 Stufen). Kann nicht zusammen mit anderen Schussfertigkeiten verwendet werden.
@@ -1149,11 +1149,11 @@ EXPLOSIVSCHUSS: Alle Schüsse, die innerhalb der nächsten 12 Sekunden nach dem 
 Vorsicht: Fügt sowohl Gegnern als auch Verbündeten und Unbeteiligten Schaden hinzu.
 
 VERSTÄRKTE GESCHOSSE HERSTELLEN: Erzeugt 20 verstärkte Pfeile, Bolzen oder Kugeln mit den folgenden Eigenschaften:
- 4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +1 Malus auf die Rüstungsklasse (Rettungswurf gg. Tod).
- 8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +1 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod).
- 12. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod). Ziel wird zurückgeworfen (Rettungswurf gg. Odemwaffen).
- 16. Stufe: +3 Verzauberung, +3 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod, +2 Malus). Ziel wird zurückgeworfen und für eine Runde betäubt (Rettungswurf gg. Odemwaffen).
- 20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +3 Malus auf Rüstungsklasse und ETW0, sowie einen -1 Malus auf Stärke (Rettungswurf gg. Tod, +2 Malus). Ziel wird zurückgeworfen und für eine Runde betäubt (Rettungswurf gg. Odemwaffen, +2 Malus).
+ 4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht für zwei Runden +1 Malus auf die RK (Rettungswurf gg. Tod).
+ 8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht für zwei Runden +1 Malus auf RK und ETW0 (Rettungswurf gg. Tod).
+ 12. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht für zwei Runden +2 Malus auf RK und ETW0 (Rettungswurf gg. Tod). Ziel wird zurückgeworfen (Rettungswurf gg. Odemwaffen).
+ 16. Stufe: +3 Verzauberung, +3 auf Trefferwürfe. Verursacht für zwei Runden +2 Malus auf RK und ETW0 (Rettungswurf gg. Tod, +2 Malus). Ziel wird zurückgeworfen und für eine Runde betäubt (Rettungswurf gg. Odemwaffen).
+ 20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht für zwei Runden +3 Malus auf RK und ETW0, sowie einen -1 Malus auf Stärke (Rettungswurf gg. Tod, +2 Malus). Ziel wird zurückgeworfen und für eine Runde betäubt (Rettungswurf gg. Odemwaffen, +2 Malus).
 
 Nachteile:
 - kann keine Metallrüstungen tragen.
