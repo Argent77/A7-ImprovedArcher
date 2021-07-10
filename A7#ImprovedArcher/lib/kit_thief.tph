@@ -101,6 +101,7 @@ COPY ~%KIT_FOLDER%/a7#inta1.itm~ ~override~
   END
   PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+    LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%KIT_FOLDER%/a7#inta2.itm~ ~override~
@@ -111,6 +112,7 @@ COPY ~%KIT_FOLDER%/a7#inta2.itm~ ~override~
   END
   PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+    LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%KIT_FOLDER%/a7#inta3.itm~ ~override~
@@ -121,6 +123,7 @@ COPY ~%KIT_FOLDER%/a7#inta3.itm~ ~override~
   END
   PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+    LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%KIT_FOLDER%/a7#inta4.itm~ ~override~
@@ -131,6 +134,7 @@ COPY ~%KIT_FOLDER%/a7#inta4.itm~ ~override~
   END
   PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+    LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%KIT_FOLDER%/a7#inta5.itm~ ~override~
@@ -141,6 +145,7 @@ COPY ~%KIT_FOLDER%/a7#inta5.itm~ ~override~
   END
   PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+    LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%KIT_FOLDER%/a7#into1.itm~ ~override~
@@ -151,6 +156,7 @@ COPY ~%KIT_FOLDER%/a7#into1.itm~ ~override~
   END
   PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+    LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%KIT_FOLDER%/a7#into2.itm~ ~override~
@@ -161,6 +167,7 @@ COPY ~%KIT_FOLDER%/a7#into2.itm~ ~override~
   END
   PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+    LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%KIT_FOLDER%/a7#into3.itm~ ~override~
@@ -171,6 +178,7 @@ COPY ~%KIT_FOLDER%/a7#into3.itm~ ~override~
   END
   PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+    LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%KIT_FOLDER%/a7#into4.itm~ ~override~
@@ -181,6 +189,7 @@ COPY ~%KIT_FOLDER%/a7#into4.itm~ ~override~
   END
   PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+    LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%KIT_FOLDER%/a7#into5.itm~ ~override~
@@ -191,6 +200,7 @@ COPY ~%KIT_FOLDER%/a7#into5.itm~ ~override~
   END
   PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+    LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%KIT_FOLDER%/a7#inta1.bam~ ~override~

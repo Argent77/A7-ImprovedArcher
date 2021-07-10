@@ -109,6 +109,7 @@ COPY ~%MOD_FOLDER%/kit/a7#infa1.itm~ ~override~
   END
   PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+    LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%MOD_FOLDER%/kit/a7#infa2.itm~ ~override~
@@ -119,6 +120,7 @@ COPY ~%MOD_FOLDER%/kit/a7#infa2.itm~ ~override~
   END
   PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+    LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%MOD_FOLDER%/kit/a7#infa3.itm~ ~override~
@@ -129,6 +131,7 @@ COPY ~%MOD_FOLDER%/kit/a7#infa3.itm~ ~override~
   END
   PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+    LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%MOD_FOLDER%/kit/a7#infa4.itm~ ~override~
@@ -139,6 +142,7 @@ COPY ~%MOD_FOLDER%/kit/a7#infa4.itm~ ~override~
   END
   PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+    LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%MOD_FOLDER%/kit/a7#infa5.itm~ ~override~
@@ -149,6 +153,7 @@ COPY ~%MOD_FOLDER%/kit/a7#infa5.itm~ ~override~
   END
   PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+    LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%MOD_FOLDER%/kit/a7#info1.itm~ ~override~
@@ -159,6 +164,7 @@ COPY ~%MOD_FOLDER%/kit/a7#info1.itm~ ~override~
   END
   PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+    LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%MOD_FOLDER%/kit/a7#info2.itm~ ~override~
@@ -169,6 +175,7 @@ COPY ~%MOD_FOLDER%/kit/a7#info2.itm~ ~override~
   END
   PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+    LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%MOD_FOLDER%/kit/a7#info3.itm~ ~override~
@@ -179,6 +186,7 @@ COPY ~%MOD_FOLDER%/kit/a7#info3.itm~ ~override~
   END
   PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+    LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%MOD_FOLDER%/kit/a7#info4.itm~ ~override~
@@ -189,6 +197,7 @@ COPY ~%MOD_FOLDER%/kit/a7#info4.itm~ ~override~
   END
   PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+    LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%MOD_FOLDER%/kit/a7#info5.itm~ ~override~
@@ -199,6 +208,7 @@ COPY ~%MOD_FOLDER%/kit/a7#info5.itm~ ~override~
   END
   PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
     LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+    LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%MOD_FOLDER%/kit/a7#infu1.itm~ ~override~

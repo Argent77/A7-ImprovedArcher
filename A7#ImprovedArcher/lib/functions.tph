@@ -26,3 +26,25 @@ BEGIN
     END
   END
 END
+
+// Removes bonus damage or to hit values from item abilities.
+DEFINE_PATCH_FUNCTION CLEAR_ITEM_BONUS
+INT_VAR
+  clear_hit    = 0
+  clear_damage = 1
+BEGIN
+  READ_ASCII 0 sig (8)
+  PATCH_IF (~%sig%~ STR_EQ ~ITM V1  ~) BEGIN
+    READ_LONG 0x64 ofs_abil
+    READ_SHORT 0x68 num_abil
+    FOR (i = 0; i < num_abil; ++i) BEGIN
+      SET ofs = ofs_abil + i * 0x38
+      PATCH_IF (clear_hit) BEGIN
+        WRITE_SHORT (ofs + 0x14) 0
+      END
+      PATCH_IF (clear_damage) BEGIN
+        WRITE_SHORT (ofs + 0x1a) 0
+      END
+    END
+  END
+END
