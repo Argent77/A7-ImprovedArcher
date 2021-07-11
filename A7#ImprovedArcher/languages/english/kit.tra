@@ -1036,7 +1036,7 @@ STATISTICS:
 
 Combat abilities:
 - Hit target suffers a cumulative -2 armor class and to hit penalty for two rounds (Save vs. Death at -4 penalty negates)
-- Animals, humanoids and giant humanoids suffer 2 points of additional bleeding damage per second for one round (Save vs. Death at -2 penalty negates)
+- Animals, humanoids and giant humanoids suffer 4 points of additional bleeding damage per second for one round (Save vs. Death at -2 penalty negates)
 - Animals, humanoids and giant humanoids must save vs. Death at -2 penalty or be blinded for two rounds
 
 Enchantment: +4
@@ -1122,7 +1122,7 @@ STATISTICS:
 
 Combat abilities:
 - Hit target suffers a cumulative -2 armor class and to hit penalty for two rounds (Save vs. Death at -4 penalty negates)
-- Animals, humanoids and giant humanoids suffer 2 points of additional bleeding damage per second for one round (Save vs. Death at -2 penalty negates)
+- Animals, humanoids and giant humanoids suffer 4 points of additional bleeding damage per second for one round (Save vs. Death at -2 penalty negates)
 - Animals, humanoids and giant humanoids must save vs. Death at -2 penalty or be blinded for two rounds
 
 Enchantment: +4
