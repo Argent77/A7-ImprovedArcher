@@ -341,7 +341,7 @@ Weight: 0~
 STATISTICS:
 
 Combat abilities:
-- Unnatural creatures must save vs. Spell at -4 penalty or be slowed for two rounds
+- Unnatural creatures must save vs. Spell at -4 penalty or be slowed and blinded for two rounds
 
 Enchantment: +4
 THAC0: +4
@@ -408,7 +408,7 @@ Weight: 0~
 STATISTICS:
 
 Combat abilities:
-- Unnatural creatures must save vs. Spell at -4 penalty or be slowed for two rounds
+- Unnatural creatures must save vs. Spell at -4 penalty or be slowed and blinded for two rounds
 
 Enchantment: +4
 THAC0: +4
