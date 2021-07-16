@@ -75,15 +75,17 @@ how difficult. To become so skilled with the bow, the Archer has had to sacrific
 melee weapons and armor.
 
 Advantages:
-- +1 bonus to hit and damage rolls with any missile weapon as well as to AC vs. missile weapons every 6 levels.
-- +5% chance to score a critical hit at level 9, 13 and 18.
+- +1 bonus to hit and damage rolls with any missile weapon every 4 levels.
+- +1 bonus to armor class vs. missile weapons every 6 levels.
+- +5% chance to score a critical hit at levels 13 and 18.
 - May achieve Grandmastery (5 slots) in longbows, shortbows, and crossbows.
-- May use Rooting Shot ability once per day every 4 levels. Can not be used together with other shot abilities.
-- May use Power Shot ability once per day every 4 levels, starting at level 8. Can not be used together with
-  other shot abilities.
-- May use Explosive Shot ability once per day every 4 levels, starting at level 8. Can not be used together
+- May use the Rooting Shot ability once per day every 4 levels, starting at level 4. Can not be used together
   with other shot abilities.
-- May use Create Blessed Ammunition ability once per day every 8 levels, starting at level 4.
+- May use the Power Shot ability once per day every 4 levels, starting at level 8. Can not be used together with
+  other shot abilities.
+- May use the Explosive Shot ability once per day every 4 levels, starting at level 8. Can not be used together
+  with other shot abilities.
+- May use the Conjure Elemental Ammunition ability once per day every 8 levels, starting at level 4.
 
 ROOTING SHOT: All successful ranged attacks within the next 12 seconds will entangle the target, according to
               the level of the Archer:
@@ -108,19 +110,20 @@ EXPLOSIVE SHOT: All successful ranged attacks within the next 12 seconds will ex
  20th level: 1d4+6 damage to nearby targets
 Caution: Damages enemies, allies and innocent bystanders alike.
 
-CREATE BLESSED AMMUNITION: Create a spiritual arrow or bolt blessed by the Archer's worshipped god or goddess
-                           for 8 hours containing one score of charges. Number of charges doubles at levels
-                           8 and 16 respectively.
- 4th level: +1 enchantment, +1 to hit and damage rolls, additional 1d6 damage and slow for two rounds to
-            undead if failed save vs. Death.
- 8th level: +1 enchantment, +2 to hit and damage rolls, additional 1d6+2 damage and hold for two rounds to
-            undead if failed save vs. Death.
- 12th level: +2 enchantment, +2 to hit and damage rolls, additional 1d6+4 damage and instant death to undead
-             if failed save vs. Death.
- 16th level: +3 enchantment, +3 to hit and damage rolls, additional 1d6+6 damage and instant death to undead
-             if failed save vs. Death at -2 penalty.
- 20th level: +4 enchantment, +4 to hit and damage rolls, additional 1d6+8 damage and instant death to undead
-             if failed save vs. Death at -4 penalty.
+CONJURE ELEMENTAL AMMUNITION: Conjure a specially prepared arrow or bolt blessed by the Archer's worshipped god
+                              or goddess for 8 hours containing one score of charges. Number of charges doubles
+                              at levels 8 and 16 respectively.
+ 4th level: +1 enchantment, +1 to hit rolls, additional 1d3 fire damage.
+ 8th level: +2 enchantment, +2 to hit rolls, additional 1d3 fire damage and 1d3 cold damage, entangle for two
+            rounds vs. unnatural creatures if failed save vs. Spell.
+ 12th level: +2 enchantment, +2 to hit rolls, additional 1d3 fire damage, 1d3 cold damage and 1d3 acid damage,
+             blindness for two rounds vs. unnatural creatures if failed save vs. Spell.
+ 16th level: +3 enchantment, +3 to hit rolls, additional 1d3 fire damage, 1d3 cold damage, 1d3 acid damage and
+             1d3 electrical damage, slow for two rounds vs. unnatural creatures if failed save vs. Spell at
+             -2 penalty.
+ 20th level: +4 enchantment, +4 to hit rolls, additional 1d3+2 fire damage, 1d3+2 cold damage, 1d3+2 acid damage
+             and 1d3+2 electrical damage, slow and blindness for two rounds vs. unnatural creatures if failed
+             save vs. Spell at -4 penalty.
 
 SURE SHOT (HLA): High-level Archers have gained perfect control over their ranged weapon of choice which
                  allows them to point out and target vital areas of the opponent with frightening precision and
@@ -142,14 +145,15 @@ Disadvantages:
 ```
 
 #### Fighter kit: Marksman
-This kit provides the same characteristics as the Archer kit with the following restrictions:
-- Create Blessed Ammunition ability not available.
+This kit provides the same characteristics as the Archer kit with the following differences:
+- Conjure Elemental Ammunition ability is replaced by Produce Reinforced Ammunition ability.
 - Set Missile Trap HLA not available.
 - May become Specialized (two slots) with melee weapons.
 - May only allocate one slot in any fighting style.
 
 #### Paladin kit: Bow Knight
-This kit provides the same characteristics as the Archer kit with the following restrictions:
+This kit provides the same characteristics as the Archer kit with the following differences:
+- Conjure Elemental Ammunition ability is replaced by Evoke Blessed Ammunition ability.
 - Explosive Shot ability not available.
 - Set Missile Trap HLA not available.
 - No bonus proficiencies for Darts.
@@ -157,9 +161,12 @@ This kit provides the same characteristics as the Archer kit with the following 
 - May only allocate one slot in any fighting style.
 
 #### Thief kit: Sharpshooter
-This kit provides the same characteristics as the Archer kit with the following restrictions:
-- +1 bonus to hit and damage with missile weapons as well as AC vs. missile weapons only every 8 levels.
-- Create Blessed Ammunition ability not available.
+This kit provides the same characteristics as the Archer kit with the following differences:
+- +1 bonus to hit and damage with missile weapons only every 5 levels.
+- +1 bonus to armor class vs. missile weapons only every 8 levels.
+- +5% chance to score a critical hit at level 18.
+- Conjure Elemental Ammunition ability is replaced by Craft Endowed Ammunition ability.
+- Power Shot ability not available.
 - Sure Shot HLA not available.
 - May only distribute 15 skill points per level among thieving skills.
 - May not use Backstab ability.
