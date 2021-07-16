@@ -4,26 +4,27 @@
 @1100 = ~ŁUCZNIK: Jest uosobieniem mistrzowskiego posługiwania się łukiem. To znakomity strzelec, umiejący oddać strzał niemal z każdej pozycji, niezależnie od stopnia trudności. Aby zyskać takie umiejętności, łucznik musiał poświęcić część swoich punktów biegłości za posługiwanie się bronią ręczną i zbroją.
 
 Zalety:
-- +1 do trafienia i obrażeń każdą bronią strzelecką, za każde trzy poziomy doświadczenia.
-- +1 do Klasy Pancerza przeciw broniom strzeleckim, za każde sześć poziomów doświadczenia.
+- +1 do testów trafienia i obrażeń bronią strzelecką, co cztery poziomy.
+- +1 do Klasy Pancerza przeciw broniom strzeleckim, co sześć poziomów.
+- +5% szans na trafienie krytyczne na poziomach 13 i 18.
 - Może osiągnąć Wielkie mistrzostwo (pięć punktów biegłości) w długich łukach, krótkich łukach oraz kuszach.
-- Co cztery poziomy doświadczenia zyskuje zdolność Oplątującego strzału, do wykorzystania raz dziennie.
-- Co cztery poziomy doświadczenia, począwszy od 8. poziomu, zyskuje zdolność Potężnego strzału, do wykorzystania raz dziennie. Zdolność ta nie może zostać użyta w połączeniu z innymi umiejętnościami strzeleckimi.
-- Co cztery poziomy doświadczenia, począwszy od 8. poziomu, zyskuje zdolność Wybuchowego strzału, do wykorzystania raz dziennie. Zdolność ta nie może zostać użyta w połączeniu z innymi umiejętnościami strzeleckimi.
-- Co cztery poziomy doświadczenia zyskuje zdolność Stworzenia błogosławionej amunicji, do wykorzystania raz dziennie.
+- Może skorzystać ze zdolności Oplątujący strzał, raz dziennie na cztery poziomy (począwszy od jednego użycia na 4. poziomie). Zdolność ta nie może zostać użyta w połączeniu z innymi umiejętnościami strzeleckimi.
+- Może skorzystać ze zdolności Potężny strzał, raz dziennie na cztery poziomy (począwszy od jednego użycia na 8. poziomie). Zdolność ta nie może zostać użyta w połączeniu z innymi umiejętnościami strzeleckimi.
+- Może skorzystać ze zdolności Wybuchowy strzał, raz dziennie na cztery poziomy (począwszy od jednego użycia na 8. poziomie). Zdolność ta nie może zostać użyta w połączeniu z innymi umiejętnościami strzeleckimi.
+- Może skorzystać ze zdolności Wyczarowanie amunicji żywiołów, raz dziennie na osiem poziomów (począwszy od jednego użycia na 4. poziomie).
 
 OPLĄTUJĄCY STRZAŁ: Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, spowoduje oplątanie celu, zgodnie z poziomem łucznika:
-4. poziom: Cel jest oplątany przez trzy rundy, jeśli nie wykona rzutu obronnego przeciw czarom.
-8. poziom: Cel jest oplątany przez trzy rundy, jeśli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -1.
-12. poziom: Cel jest oplątany przez cztery rundy, jeśli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -1.
-16. poziom: Cel jest oplątany przez cztery rundy, jeśli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -2.
-20. poziom: Cel jest oplątany przez pięć rund, jeśli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -2.
+4. poziom: Cel jest oplątany przez trzy rundy (rzut obronny przeciw czarom neguje).
+8. poziom: Cel jest oplątany przez trzy rundy (rzut obronny przeciw czarom z modyfikatorem -1 neguje).
+12. poziom: Cel jest oplątany przez cztery rundy (rzut obronny przeciw czarom z modyfikatorem -1 neguje).
+16. poziom: Cel jest oplątany przez cztery rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).
+20. poziom: Cel jest oplątany przez pięć rund (rzut obronny przeciw czarom z modyfikatorem -2 neguje).
 
 POTĘŻNY STRZAŁ: Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, ma szansę na odrzucenie celu, w zależności od poziomu łucznika:
-8. poziom: Odrzuca cel, jeśli ten nie wykona rzutu obronnego przeciw zionięciom.
-12. poziom: Odrzuca cel, jeśli ten nie wykona rzutu obronnego przeciw zionięciom z modyfikatorem -1.
-16. poziom: Odrzuca cel, jeśli ten nie wykona rzutu obronnego przeciw zionięciom z modyfikatorem -2.
-20. poziom: Odrzuca cel, jeśli ten nie wykona rzutu obronnego przeciw zionięciom z modyfikatorem -3.
+8. poziom: Odrzuca cel (rzut obronny przeciw zionięciom neguje).
+12. poziom: Odrzuca cel (rzut obronny przeciw zionięciom z modyfikatorem -1 neguje).
+16. poziom: Odrzuca cel (rzut obronny przeciw zionięciom z modyfikatorem -2 neguje).
+20. poziom: Odrzuca cel (rzut obronny przeciw zionięciom z modyfikatorem -3 neguje).
 
 WYBUCHOWY STRZAŁ: Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, powoduje eksplozję wystrzelonego pocisku po trafieniu, zadając fizyczne obrażenia znajdującym się w promieniu pięciu metrów celom, w zależności od poziomu łucznika:
 8. poziom: 1k4 obrażeń pobliskim celom
@@ -32,163 +33,157 @@ WYBUCHOWY STRZAŁ: Każdy udany atak dystansowy, wykonany w przeciągu następny
 20. poziom: 1k4 +6 obrażeń pobliskim celom
 Uwaga: Rani wrogów, sojuszników i niewinne stworzenia.
 
-STWORZENIE BŁOGOSŁAWIONEJ AMUNICJI: Tworzy przepełnioną energią duchową strzałę lub bełt, pobłogosławione przez bóstwo, które wyznaje łucznik. Pocisk przez osiem godzin i zawiera dużo ładunków.
-4. poziom: umagicznienie +1, +1 do testów trafienia i obrażeń, dodatkowe 1k6 obrażeń i spowolnienie przez dwie rundy, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
-8. poziom: umagicznienie +1, +2 do testów trafienia i obrażeń, dodatkowe 1k6 +2 obrażeń i unieruchomienie przez dwie rundy, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
-12. poziom: umagicznienie +2, +2 do testów trafienia i obrażeń, dodatkowe 1k6 +4 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
-16. poziom: umagicznienie +3, +3 do testów trafienia i obrażeń, dodatkowe 1k6 +6 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci z modyfikatorem -2.
-20. poziom: umagicznienie +3, +4 do testów trafienia i obrażeń, dodatkowe 1k6 +8 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci z modyfikatorem -4.
+WYCZAROWANIE AMUNICJI ŻYWIOŁÓW: Tworzy specjalnie przygotowaną strzałę lub bełt, pobłogosławione przez bóstwo, które wyznaje łucznik. Pocisk istnieje przez osiem godzin i zawiera wiele ładunków. Ilość ładunków wzrasta dwukrotnie na poziomach 8 i 16.
+4. poziom: umagicznienie +1, +1 do testów trafienia i obrażeń, dodatkowe 1k3 obrażeń od ognia.
+8. poziom: umagicznienie +1, +2 do testów trafienia i obrażeń, dodatkowe 1k3 obrażeń od ognia i 1k3 obrażeń od zimna, oplątanie nienaturalnych istot przez dwie rundy (rzut obronny przeciw czarom neguje).
+12. poziom: umagicznienie +2, +2 do testów trafienia i obrażeń, dodatkowe 1k3 obrażeń od ognia, 1k3 obrażeń od zimna i 1k3 obrażeń od kwasu, oślepienie nienaturalnych istot przez dwie rundy (rzut obronny przeciw czarom neguje).
+16. poziom: umagicznienie +3, +3 do testów trafienia i obrażeń, dodatkowe 1k3 obrażeń od ognia, 1k3 obrażeń od zimna, 1k3 obrażeń od kwasu i 1k3 obrażeń od elektryczności, spowolnienie nienaturalnych istot przez dwie rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).
+20. poziom: umagicznienie +4, +4 do testów trafienia i obrażeń, dodatkowe 1k3 +2 obrażeń od ognia, 1k3 +2 obrażeń od zimna, 1k3 +2 obrażeń od kwasu i 1k3 +2 obrażeń od elektryczności, spowolnienie i oślepienie nienaturalnych istot przez dwie rundy (rzut obronny przeciw czarom z modyfikatorem -4 neguje).
 
 Wady:
 - -1 do Kondycji.
 - Nie może nosić żadnej metalowej zbroi.
 - Łucznik może osiągnąć stopień Wyszkolony (jeden punkt biegłości) w broniach do walki wręcz.~
 
-@1101 = ~Strzała ta została pobłogosławiona przez bóstwo będące patronem łucznika. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, jak również spowodować dodatkowe obrażenia wszelkiego rodzaju nieumarłym. Pochodzące od bóstwa umagicznienie strzały utrzymuje się przez osiem godzin i pozwala łucznikowi na wypuszczenie dwudziestu strzał. Po tym strzała traci swoją fizyczną postać.
+@1101 = ~Strzała ta została pobłogosławiona przez bóstwo będące patronem strzelającej osoby. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, lecz prawdziwą moc uwalnia po trafieniu w nieumarłego, demona lub diabła. Pochodzące od bóstwa umagicznienie strzały utrzymuje się przez osiem godzin i pozwala strzelcowi na wykorzystanie określonej ilości ładunków. Po tym strzała traci swoją fizyczną postać.
 
 PARAMETRY:
-
-Specjalne:
-– Nieumarli muszą wykonać udany rzut obronny przeciw śmierci lub zostaną spowolnieni na dwie rundy
 
 Umagicznienie: +1
 TraK0: +1
-Obrażenia: 1k6 +1, dodatkowe 1k6 obrażeń przeciw nieumarłym
+Obrażenia: 1k6 +1, dodatkowe 1k6 magicznych obrażeń przeciw nieumarłym, demonom i diabłom
 Typ obrażeń: pocisk
 Wyrzutnia: łuk
 
 Waga: 0~
 
-@1102 = ~Strzała ta została pobłogosławiona przez bóstwo będące patronem łucznika. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, jak również spowodować dodatkowe obrażenia wszelkiego rodzaju nieumarłym. Pochodzące od bóstwa umagicznienie strzały utrzymuje się przez osiem godzin i pozwala łucznikowi na wypuszczenie dwudziestu strzał. Po tym strzała traci swoją fizyczną postać.
+@1102 = ~Strzała ta została pobłogosławiona przez bóstwo będące patronem strzelającej osoby. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, lecz prawdziwą moc uwalnia po trafieniu w nieumarłego, demona lub diabła. Pochodzące od bóstwa umagicznienie strzały utrzymuje się przez osiem godzin i pozwala strzelcowi na wykorzystanie określonej ilości ładunków. Po tym strzała traci swoją fizyczną postać.
 
 PARAMETRY:
 
 Specjalne:
-– Nieumarli muszą wykonać udany rzut obronny przeciw śmierci lub zostaną unieruchomieni na dwie rundy
-
-Umagicznienie: +1
-TraK0: +2
-Obrażenia: 1k6 +2, dodatkowe 1k6 +2 obrażeń przeciw nieumarłym
-Typ obrażeń: pocisk
-Wyrzutnia: łuk
-
-Waga: 0~
-
-@1103 = ~Strzała ta została pobłogosławiona przez bóstwo będące patronem łucznika. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki. Błogosławieństwo, jakim została obdarzona strzała, sprawia, że zadaje ona dodatkowe obrażenia nieumarłym, a nawet może spowodować ich natychmiastowe zniszczenie. Pochodzące od bóstwa umagicznienie strzały utrzymuje się przez osiem godzin i pozwala łucznikowi na wypuszczenie dwudziestu strzał. Po tym strzała traci swoją fizyczną postać.
-
-PARAMETRY:
-
-Specjalne:
-– Nieumarli muszą wykonać udany rzut obronny przeciw śmierci lub zostaną zniszczeni
+– Nieumarli, demony i diabły muszą wykonać rzut obronny przeciw czarom lub zostaną oślepieni na dwie rundy
 
 Umagicznienie: +2
 TraK0: +2
-Obrażenia: 1k6 +2, dodatkowe 1k6 +4 obrażeń przeciw nieumarłym
+Obrażenia: 1k6 +2, dodatkowe 1k6 +2 magicznych obrażeń przeciw nieumarłym, demonom i diabłom
 Typ obrażeń: pocisk
 Wyrzutnia: łuk
 
 Waga: 0~
 
-@1104 = ~Strzała ta została pobłogosławiona przez bóstwo będące patronem łucznika. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki. Błogosławieństwo, jakim została obdarzona strzała, sprawia, że zadaje ona dodatkowe obrażenia nieumarłym, a nawet może spowodować ich natychmiastowe zniszczenie. Pochodzące od bóstwa umagicznienie strzały utrzymuje się przez osiem godzin i pozwala łucznikowi na wypuszczenie dwudziestu strzał. Po tym strzała traci swoją fizyczną postać.
+@1103 = ~Strzała ta została pobłogosławiona przez bóstwo będące patronem strzelającej osoby. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, lecz prawdziwą moc uwalnia po trafieniu w nieumarłego, demona lub diabła. Pochodzące od bóstwa umagicznienie strzały utrzymuje się przez osiem godzin i pozwala strzelcowi na wykorzystanie określonej ilości ładunków. Po tym strzała traci swoją fizyczną postać.
 
 PARAMETRY:
 
 Specjalne:
-– Nieumarli muszą wykonać udany rzut obronny przeciw śmierci z modyfikatorem -2 lub zostaną zniszczeni
+– Nieumarli, demony i diabły muszą wykonać rzut obronny przeciw czarom lub zostaną spowolnieni na dwie rundy
+
+Umagicznienie: +2
+TraK0: +2
+Obrażenia: 1k6 +2, dodatkowe 1k6 +4 magicznych obrażeń przeciw nieumarłym, demonom i diabłom
+Typ obrażeń: pocisk
+Wyrzutnia: łuk
+
+Waga: 0~
+
+@1104 = ~Strzała ta została pobłogosławiona przez bóstwo będące patronem strzelającej osoby. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, lecz prawdziwą moc uwalnia po trafieniu w nieumarłego, demona lub diabła. Pochodzące od bóstwa umagicznienie strzały utrzymuje się przez osiem godzin i pozwala strzelcowi na wykorzystanie określonej ilości ładunków. Po tym strzała traci swoją fizyczną postać.
+
+PARAMETRY:
+
+Specjalne:
+– Nieumarli, demony i diabły muszą wykonać rzut obronny przeciw czarom z modyfikatorem -2 lub zostaną spowolnieni i oślepieni na dwie rundy
 
 Umagicznienie: +3
 TraK0: +3
-Obrażenia: 1k6 +3, dodatkowe 1k6 +6 obrażeń przeciw nieumarłym
+Obrażenia: 1k6 +3, dodatkowe 1k6 +6 magicznych obrażeń przeciw nieumarłym, demonom i diabłom
 Typ obrażeń: pocisk
 Wyrzutnia: łuk
 
 Waga: 0~
 
-@1105 = ~Strzała ta została pobłogosławiona przez bóstwo będące patronem łucznika. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki. Błogosławieństwo, jakim została obdarzona strzała, sprawia, że zadaje ona dodatkowe obrażenia nieumarłym, a nawet może spowodować ich natychmiastowe zniszczenie. Pochodzące od bóstwa umagicznienie strzały utrzymuje się przez osiem godzin i pozwala łucznikowi na wypuszczenie dwudziestu strzał. Po tym strzała traci swoją fizyczną postać.
+@1105 = ~Strzała ta została pobłogosławiona przez bóstwo będące patronem strzelającej osoby. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, lecz prawdziwą moc uwalnia po trafieniu w nieumarłego, demona lub diabła. Pochodzące od bóstwa umagicznienie strzały utrzymuje się przez osiem godzin i pozwala strzelcowi na wykorzystanie określonej ilości ładunków. Po tym strzała traci swoją fizyczną postać.
 
 PARAMETRY:
 
 Specjalne:
-– Nieumarli muszą wykonać udany rzut obronny przeciw śmierci z modyfikatorem -4 lub zostaną zniszczeni
+– Nieumarli, demony i diabły muszą wykonać rzut obronny przeciw czarom z modyfikatorem -2 lub zostaną unieruchomieni na dwie rundy
 
 Umagicznienie: +4
 TraK0: +4
-Obrażenia: 1k6 +4, dodatkowe 1k6 +8 obrażeń przeciw nieumarłym
+Obrażenia: 1k6 +4, dodatkowe 1k6 +8 magicznych obrażeń przeciw nieumarłym, demonom i diabłom
 Typ obrażeń: pocisk
 Wyrzutnia: łuk
 
 Waga: 0~
 
-@1106 = ~Bełt ten został pobłogosławiony przez bóstwo będące patronem łucznika. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, jak również spowodować dodatkowe obrażenia wszelkiego rodzaju nieumarłym. Pochodzące od bóstwa umagicznienie bełtu utrzymuje się przez osiem godzin i pozwala łucznikowi na wypuszczenie dwudziestu bełtów. Po tym bełt traci swoją fizyczną postać.
+@1106 = ~Bełt ten został pobłogosławiony przez bóstwo będące patronem strzelającej osoby. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, lecz prawdziwą moc uwalnia po trafieniu w nieumarłego, demona lub diabła. Pochodzące od bóstwa umagicznienie bełtu utrzymuje się przez osiem godzin i pozwala strzelcowi na wykorzystanie określonej ilości ładunków. Po tym bełt traci swoją fizyczną postać.
 
 PARAMETRY:
-
-Specjalne:
-– Nieumarli muszą wykonać udany rzut obronny przeciw śmierci lub zostaną spowolnieni na dwie rundy
 
 Umagicznienie: +1
 TraK0: +1
-Obrażenia: 1k8 +1, dodatkowe 1k6 obrażeń przeciw nieumarłym
+Obrażenia: 1k8 +1, dodatkowe 1k6 magicznych obrażeń przeciw nieumarłym, demonom i diabłom
 Typ obrażeń: pocisk
 Wyrzutnia: kusza
 
 Waga: 0~
 
-@1107 = ~Bełt ten został pobłogosławiony przez bóstwo będące patronem łucznika. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, jak również spowodować dodatkowe obrażenia wszelkiego rodzaju nieumarłym. Pochodzące od bóstwa umagicznienie bełtu utrzymuje się przez osiem godzin i pozwala łucznikowi na wypuszczenie dwudziestu bełtów. Po tym bełt traci swoją fizyczną postać.
+@1107 = ~Bełt ten został pobłogosławiony przez bóstwo będące patronem strzelającej osoby. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, lecz prawdziwą moc uwalnia po trafieniu w nieumarłego, demona lub diabła. Pochodzące od bóstwa umagicznienie bełtu utrzymuje się przez osiem godzin i pozwala strzelcowi na wykorzystanie określonej ilości ładunków. Po tym bełt traci swoją fizyczną postać.
 
 PARAMETRY:
 
 Specjalne:
-– Nieumarli muszą wykonać udany rzut obronny przeciw śmierci lub zostaną unieruchomieni na dwie rundy
-
-Umagicznienie: +1
-TraK0: +2
-Obrażenia: 1k8 +2, dodatkowe 1k6 +2 obrażeń przeciw nieumarłym
-Typ obrażeń: pocisk
-Wyrzutnia: kusza
-
-Waga: 0~
-
-@1108 = ~Bełt ten został pobłogosławiony przez bóstwo będące patronem łucznika. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki. Błogosławieństwo, jakim został obdarzony bełt, sprawia, że zadaje on dodatkowe obrażenia nieumarłym, a nawet może spowodować ich natychmiastowe zniszczenie. Pochodzące od bóstwa umagicznienie bełtu utrzymuje się przez osiem godzin i pozwala łucznikowi na wypuszczenie dwudziestu bełtów. Po tym bełt traci swoją fizyczną postać.
-
-PARAMETRY:
-
-Specjalne:
-– Nieumarli muszą wykonać udany rzut obronny przeciw śmierci lub zostaną zniszczeni
+– Nieumarli, demony i diabły muszą wykonać rzut obronny przeciw czarom lub zostaną oślepieni na dwie rundy
 
 Umagicznienie: +2
 TraK0: +2
-Obrażenia: 1k8 +2, dodatkowe 1k6 +4 obrażeń przeciw nieumarłym
+Obrażenia: 1k8 +2, dodatkowe 1k6 +2 magicznych obrażeń przeciw nieumarłym, demonom i diabłom
 Typ obrażeń: pocisk
 Wyrzutnia: kusza
 
 Waga: 0~
 
-@1109 = ~Bełt ten został pobłogosławiony przez bóstwo będące patronem łucznika. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki. Błogosławieństwo, jakim został obdarzony bełt, sprawia, że zadaje on dodatkowe obrażenia nieumarłym, a nawet może spowodować ich natychmiastowe zniszczenie. Pochodzące od bóstwa umagicznienie bełtu utrzymuje się przez osiem godzin i pozwala łucznikowi na wypuszczenie dwudziestu bełtów. Po tym bełt traci swoją fizyczną postać.
+@1108 = ~Bełt ten został pobłogosławiony przez bóstwo będące patronem strzelającej osoby. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, lecz prawdziwą moc uwalnia po trafieniu w nieumarłego, demona lub diabła. Pochodzące od bóstwa umagicznienie bełtu utrzymuje się przez osiem godzin i pozwala strzelcowi na wykorzystanie określonej ilości ładunków. Po tym bełt traci swoją fizyczną postać.
 
 PARAMETRY:
 
 Specjalne:
-– Nieumarli muszą wykonać udany rzut obronny przeciw śmierci z modyfikatorem -2 lub zostaną zniszczeni
+– Nieumarli, demony i diabły muszą wykonać rzut obronny przeciw czarom lub zostaną spowolnieni na dwie rundy
+
+Umagicznienie: +2
+TraK0: +2
+Obrażenia: 1k8 +2, dodatkowe 1k6 +4 magicznych obrażeń przeciw nieumarłym, demonom i diabłom
+Typ obrażeń: pocisk
+Wyrzutnia: kusza
+
+Waga: 0~
+
+@1109 = ~Bełt ten został pobłogosławiony przez bóstwo będące patronem strzelającej osoby. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, lecz prawdziwą moc uwalnia po trafieniu w nieumarłego, demona lub diabła. Pochodzące od bóstwa umagicznienie bełtu utrzymuje się przez osiem godzin i pozwala strzelcowi na wykorzystanie określonej ilości ładunków. Po tym bełt traci swoją fizyczną postać.
+
+PARAMETRY:
+
+Specjalne:
+– Nieumarli, demony i diabły muszą wykonać rzut obronny przeciw czarom z modyfikatorem -2 lub zostaną spowolnieni i oślepieni na dwie rundy
 
 Umagicznienie: +3
 TraK0: +3
-Obrażenia: 1k8 +3, dodatkowe 1k6 +6 obrażeń przeciw nieumarłym
+Obrażenia: 1k8 +3, dodatkowe 1k6 +6 magicznych obrażeń przeciw nieumarłym, demonom i diabłom
 Typ obrażeń: pocisk
 Wyrzutnia: kusza
 
 Waga: 0~
 
-@1110 = ~Bełt ten został pobłogosławiony przez bóstwo będące patronem łucznika. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki. Błogosławieństwo, jakim został obdarzony bełt, sprawia, że zadaje on dodatkowe obrażenia nieumarłym, a nawet może spowodować ich natychmiastowe zniszczenie. Pochodzące od bóstwa umagicznienie bełtu utrzymuje się przez osiem godzin i pozwala łucznikowi na wypuszczenie dwudziestu bełtów. Po tym bełt traci swoją fizyczną postać.
+@1110 = ~Bełt ten został pobłogosławiony przez bóstwo będące patronem strzelającej osoby. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, lecz prawdziwą moc uwalnia po trafieniu w nieumarłego, demona lub diabła. Pochodzące od bóstwa umagicznienie bełtu utrzymuje się przez osiem godzin i pozwala strzelcowi na wykorzystanie określonej ilości ładunków. Po tym bełt traci swoją fizyczną postać.
 
 PARAMETRY:
 
 Specjalne:
-– Nieumarli muszą wykonać udany rzut obronny przeciw śmierci z modyfikatorem -4 lub zostaną zniszczeni
+– Nieumarli, demony i diabły muszą wykonać rzut obronny przeciw czarom z modyfikatorem -2 lub zostaną unieruchomieni na dwie rundy
 
 Umagicznienie: +4
 TraK0: +4
-Obrażenia: 1k8 +4, dodatkowe 1k6 +8 obrażeń przeciw nieumarłym
+Obrażenia: 1k8 +4, dodatkowe 1k6 +8 magicznych obrażeń przeciw nieumarłym, demonom i diabłom
 Typ obrażeń: pocisk
 Wyrzutnia: kusza
 
@@ -209,7 +204,7 @@ Zdolność ta pozwala łucznikowi na zastawienie potężnej sprężynowej pułap
 PARAMETRY:
 
 TraK0: +3
-Obrażenia: 1k6 
+Obrażenia: 1k6 +3 
 Typ obrażeń: pocisk
 Wyrzutnia: łuk
 
@@ -218,7 +213,7 @@ Waga: 0~~Te zaklęte strzały przewyższają swym wykonaniem wiele innych strza�
 PARAMETRY:
 
 TraK0: +3
-Obrażenia: 1k6
+Obrażenia: 1k6 +3
 Typ obrażeń: pocisk
 Wyrzutnia: łuk
 
@@ -229,7 +224,7 @@ Waga: 0~
 PARAMETRY:
 
 TraK0: +3
-Obrażenia: 1k8
+Obrażenia: 1k8 +3
 Typ obrażeń: pocisk
 Wyrzutnia: kusza
 
@@ -238,7 +233,7 @@ Waga: 0~~Te zaklęte bełty przewyższają swym wykonaniem wiele innych bełtów
 PARAMETRY:
 
 TraK0: +3
-Obrażenia: 1k8
+Obrażenia: 1k8 +3
 Typ obrażeń: pocisk
 Wyrzutnia: kusza
 
@@ -249,7 +244,7 @@ Waga: 0~
 PARAMETRY:
 
 TraK0: +4
-Obrażenia: 1k6
+Obrażenia: 1k6 +4
 Typ obrażeń: pocisk
 Wyrzutnia: łuk
 
@@ -258,7 +253,7 @@ Waga: 0~~Te zaklęte strzały przewyższają swym wykonaniem wiele innych strza�
 PARAMETRY:
 
 TraK0: +4
-Obrażenia: 1k6
+Obrażenia: 1k6 +4
 Typ obrażeń: pocisk
 Wyrzutnia: łuk
 
@@ -269,7 +264,7 @@ Waga: 0~
 PARAMETRY:
 
 TraK0: +4
-Obrażenia: 1k8
+Obrażenia: 1k8 +4
 Typ obrażeń: pocisk
 Wyrzutnia: kusza
 
@@ -278,7 +273,7 @@ Waga: 0~~Te zaklęte bełty przewyższają swym wykonaniem wiele innych bełtów
 PARAMETRY:
 
 TraK0: +4
-Obrażenia: 1k8
+Obrażenia: 1k8 +4
 Typ obrażeń: pocisk
 Wyrzutnia: kusza
 
@@ -292,7 +287,7 @@ Właściwości ładunków:
 – Ochrona przed zwykłymi pociskami, dwa razy dziennie
 
 Specjalne:
-– Jeśli nie zostanie wyposażony w strzały, łuk ten wystrzeliwuje strzały +3, które zadają 1k6 obrażeń od pocisków i zapewniają premię +4 do trafienia
+– Jeśli nie zostanie wyposażony w strzały, łuk ten wystrzeliwuje strzały +3, które zadają 1k6 obrażeń od pocisków i zapewniają premię +4 do testów trafienia
 
 TraK0: +4
 Opóźnienie: 2
@@ -325,22 +320,836 @@ Waga: 5~
 
 @1119 = ~Druid~
 
+@1120 = ~Pocisk ten został pobłogosławiony przez bóstwo będące patronem strzelającej osoby. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, lecz prawdziwą moc uwalnia po trafieniu w nieumarłego, demona lub diabła. Pochodzące od bóstwa umagicznienie pocisku utrzymuje się przez osiem godzin i pozwala strzelcowi na wykorzystanie określonej ilości ładunków. Po tym pocisk traci swoją fizyczną postać.
+
+PARAMETRY:
+
+Umagicznienie: +1
+TraK0: +1
+Obrażenia: 1k4 +2, dodatkowe 1k6 magicznych obrażeń przeciw nieumarłym, demonom i diabłom
+Typ obrażeń: pocisk
+Wyrzutnia: proca
+
+Waga: 0~
+
+@1121 = ~Pocisk ten został pobłogosławiony przez bóstwo będące patronem strzelającej osoby. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, lecz prawdziwą moc uwalnia po trafieniu w nieumarłego, demona lub diabła. Pochodzące od bóstwa umagicznienie pocisku utrzymuje się przez osiem godzin i pozwala strzelcowi na wykorzystanie określonej ilości ładunków. Po tym pocisk traci swoją fizyczną postać.
+
+PARAMETRY:
+
+Specjalne:
+– Nieumarli, demony i diabły zostają oślepieni na dwie rundy, po trafieniu (rzut obronny przeciw czarom neguje)
+
+Umagicznienie: +2
+TraK0: +2
+Obrażenia: 1k4 +3, dodatkowe 1k6 +2 magicznych obrażeń przeciw nieumarłym, demonom i diabłom
+Typ obrażeń: pocisk
+Wyrzutnia: proca
+
+Waga: 0~
+
+@1122 = ~Pocisk ten został pobłogosławiony przez bóstwo będące patronem strzelającej osoby. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, lecz prawdziwą moc uwalnia po trafieniu w nieumarłego, demona lub diabła. Pochodzące od bóstwa umagicznienie pocisku utrzymuje się przez osiem godzin i pozwala strzelcowi na wykorzystanie określonej ilości ładunków. Po tym pocisk traci swoją fizyczną postać.
+
+PARAMETRY:
+
+Specjalne:
+– Nieumarli, demony i diabły zostają spowolnieni na dwie rundy, po trafieniu (rzut obronny przeciw czarom neguje)
+
+Umagicznienie: +2
+TraK0: +2
+Obrażenia: 1k4 +3, dodatkowe 1k6 +4 magicznych obrażeń przeciw nieumarłym, demonom i diabłom
+Typ obrażeń: pocisk
+Wyrzutnia: proca
+
+Waga: 0~
+
+@1123 = ~Pocisk ten został pobłogosławiony przez bóstwo będące patronem strzelającej osoby. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, lecz prawdziwą moc uwalnia po trafieniu w nieumarłego, demona lub diabła. Pochodzące od bóstwa umagicznienie pocisku utrzymuje się przez osiem godzin i pozwala strzelcowi na wykorzystanie określonej ilości ładunków. Po tym pocisk traci swoją fizyczną postać.
+
+PARAMETRY:
+
+Specjalne:
+– Nieumarli, demony i diabły zostają spowolnieni i oślepieni na dwie rundy, po trafieniu (rzut obronny przeciw czarom z modyfikatorem -2 neguje)
+
+Umagicznienie: +3
+TraK0: +3
+Obrażenia: 1k4 +4, dodatkowe 1k6 +6 magicznych obrażeń przeciw nieumarłym, demonom i diabłom
+Typ obrażeń: pocisk
+Wyrzutnia: proca
+
+Waga: 0~
+
+@1124 = ~Pocisk ten został pobłogosławiony przez bóstwo będące patronem strzelającej osoby. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, lecz prawdziwą moc uwalnia po trafieniu w nieumarłego, demona lub diabła. Pochodzące od bóstwa umagicznienie pocisku utrzymuje się przez osiem godzin i pozwala strzelcowi na wykorzystanie określonej ilości ładunków. Po tym pocisk traci swoją fizyczną postać.
+
+PARAMETRY:
+
+Specjalne:
+– Nieumarli, demony i diabły zostają unieruchomieni na dwie rundy, po trafieniu (rzut obronny przeciw czarom z modyfikatorem -2 neguje)
+
+Umagicznienie: +4
+TraK0: +4
+Obrażenia: 1k4 +5, dodatkowe 1k6 +8 magicznych obrażeń przeciw nieumarłym, demonom i diabłom
+Typ obrażeń: pocisk
+Wyrzutnia: proca
+
+Waga: 0~
+
+@1125 = ~Strzała ta została pobłogosławiona przez bóstwo będące patronem strzelającej osoby. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, uderzając w nie pierwotną energią żywiołów. Pochodzące od bóstwa umagicznienie strzały utrzymuje się przez osiem godzin i pozwala strzelcowi na wykorzystanie określonej ilości ładunków. Po tym strzała traci swoją fizyczną postać.
+
+PARAMETRY:
+
+Umagicznienie: +1
+TraK0: +1
+Obrażenia: 1k6 +1, dodatkowe 1k3 obrażeń od ognia
+Typ obrażeń: pocisk
+Wyrzutnia: łuk
+
+Waga: 0~
+
+@1126 = ~Strzała ta została pobłogosławiona przez bóstwo będące patronem strzelającej osoby. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, uderzając w nie pierwotną energią żywiołów. Nienaturalne stworzenia, takie jak nieumarli czy konstrukty, mogą być poddane dodatkowym niekorzystnym efektom. Pochodzące od bóstwa umagicznienie strzały utrzymuje się przez osiem godzin i pozwala strzelcowi na wykorzystanie określonej ilości ładunków. Po tym strzała traci swoją fizyczną postać.
+
+PARAMETRY:
+
+Specjalne:
+– Nienaturalne istoty zostają oplątane na dwie rundy, po trafieniu (rzut obronny przeciw czarom neguje)
+
+Umagicznienie: +2
+TraK0: +2
+Obrażenia: 1k6 +2, dodatkowe 1k3 obrażeń od ognia i 1k3 obrażeń od zimna
+Typ obrażeń: pocisk
+Wyrzutnia: łuk
+
+Waga: 0~
+
+@1127 = ~Strzała ta została pobłogosławiona przez bóstwo będące patronem strzelającej osoby. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, uderzając w nie pierwotną energią żywiołów. Nienaturalne stworzenia, takie jak nieumarli czy konstrukty, mogą być poddane dodatkowym niekorzystnym efektom. Pochodzące od bóstwa umagicznienie strzały utrzymuje się przez osiem godzin i pozwala strzelcowi na wykorzystanie określonej ilości ładunków. Po tym strzała traci swoją fizyczną postać.
+
+Specjalne:
+– Nienaturalne istoty zostają oślepione na dwie rundy, po trafieniu (rzut obronny przeciw czarom neguje)
+
+PARAMETRY:
+
+Umagicznienie: +2
+TraK0: +2
+Obrażenia: 1k6 +2, dodatkowe 1k3 obrażeń od ognia, 1k3 obrażeń od zimna i 1k3 obrażeń od kwasu
+Typ obrażeń: pocisk
+Wyrzutnia: łuk
+
+Waga: 0~
+
+@1128 = ~Strzała ta została pobłogosławiona przez bóstwo będące patronem strzelającej osoby. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, uderzając w nie pierwotną energią żywiołów. Nienaturalne stworzenia, takie jak nieumarli czy konstrukty, mogą być poddane dodatkowym niekorzystnym efektom. Pochodzące od bóstwa umagicznienie strzały utrzymuje się przez osiem godzin i pozwala strzelcowi na wykorzystanie określonej ilości ładunków. Po tym strzała traci swoją fizyczną postać.
+
+Specjalne:
+– Nienaturalne istoty zostają spowolnione na dwie rundy, po trafieniu (rzut obronny przeciw czarom z modyfikatorem -2 neguje)
+
+PARAMETRY:
+
+Umagicznienie: +3
+TraK0: +3
+Obrażenia: 1k6 +3, dodatkowe 1k3 obrażeń od ognia, 1k3 obrażeń od zimna, 1k3 obrażeń od kwasu i 1k3 obrażeń od elektryczności
+Typ obrażeń: pocisk
+Wyrzutnia: łuk
+
+Waga: 0~
+
+@1129 = ~Strzała ta została pobłogosławiona przez bóstwo będące patronem strzelającej osoby. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, uderzając w nie pierwotną energią żywiołów. Nienaturalne stworzenia, takie jak nieumarli czy konstrukty, mogą być poddane dodatkowym niekorzystnym efektom. Pochodzące od bóstwa umagicznienie strzały utrzymuje się przez osiem godzin i pozwala strzelcowi na wykorzystanie określonej ilości ładunków. Po tym strzała traci swoją fizyczną postać.
+
+Specjalne:
+– Nienaturalne istoty zostają spowolnione i oślepione na dwie rundy, po trafieniu (rzut obronny przeciw czarom z modyfikatorem -4 neguje)
+
+PARAMETRY:
+
+Umagicznienie: +4
+TraK0: +4
+Obrażenia: 1k6 +4, dodatkowe 1k3 +2 obrażeń od ognia, 1k3 +2 obrażeń od zimna, 1k3 +2 obrażeń od kwasu i 1k3 +2 obrażeń od elektryczności
+Typ obrażeń: pocisk
+Wyrzutnia: łuk
+
+Waga: 0~
+
+@1130 = ~Bełt ten został pobłogosławiony przez bóstwo będące patronem strzelającej osoby. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, uderzając w nie pierwotną energią żywiołów. Pochodzące od bóstwa umagicznienie bełtu utrzymuje się przez osiem godzin i pozwala strzelcowi na wykorzystanie określonej ilości ładunków. Po tym bełt traci swoją fizyczną postać.
+
+PARAMETRY:
+
+Umagicznienie: +1
+TraK0: +1
+Obrażenia: 1k8 +1, dodatkowe 1k3 obrażeń od ognia
+Typ obrażeń: pocisk
+Wyrzutnia: kusza
+
+Waga: 0~
+
+@1131 = ~Bełt ten został pobłogosławiony przez bóstwo będące patronem strzelającej osoby. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, uderzając w nie pierwotną energią żywiołów. Nienaturalne stworzenia, takie jak nieumarli czy konstrukty, mogą być poddane dodatkowym niekorzystnym efektom. Pochodzące od bóstwa umagicznienie bełtu utrzymuje się przez osiem godzin i pozwala strzelcowi na wykorzystanie określonej ilości ładunków. Po tym bełt traci swoją fizyczną postać.
+
+PARAMETRY:
+
+Specjalne:
+– Nienaturalne istoty zostają oplątane na dwie rundy, po trafieniu (rzut obronny przeciw czarom neguje)
+
+Umagicznienie: +2
+TraK0: +2
+Obrażenia: 1k8 +2, dodatkowe 1k3 obrażeń od ognia i 1k3 obrażeń od zimna
+Typ obrażeń: pocisk
+Wyrzutnia: kusza
+
+Waga: 0~
+
+@1132 = ~Bełt ten został pobłogosławiony przez bóstwo będące patronem strzelającej osoby. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, uderzając w nie pierwotną energią żywiołów. Nienaturalne stworzenia, takie jak nieumarli czy konstrukty, mogą być poddane dodatkowym niekorzystnym efektom. Pochodzące od bóstwa umagicznienie bełtu utrzymuje się przez osiem godzin i pozwala strzelcowi na wykorzystanie określonej ilości ładunków. Po tym bełt traci swoją fizyczną postać.
+
+PARAMETRY:
+
+Specjalne:
+– Nienaturalne istoty zostają oślepione na dwie rundy, po trafieniu (rzut obronny przeciw czarom neguje)
+
+Umagicznienie: +2
+TraK0: +2
+Obrażenia: 1k8 +2, dodatkowe 1k3 obrażeń od ognia, 1k3 obrażeń od zimna i 1k3 obrażeń od kwasu
+Typ obrażeń: pocisk
+Wyrzutnia: kusza
+
+Waga: 0~
+
+@1133 = ~Bełt ten został pobłogosławiony przez bóstwo będące patronem strzelającej osoby. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, uderzając w nie pierwotną energią żywiołów. Nienaturalne stworzenia, takie jak nieumarli czy konstrukty, mogą być poddane dodatkowym niekorzystnym efektom. Pochodzące od bóstwa umagicznienie bełtu utrzymuje się przez osiem godzin i pozwala strzelcowi na wykorzystanie określonej ilości ładunków. Po tym bełt traci swoją fizyczną postać.
+
+PARAMETRY:
+
+Specjalne:
+– Nienaturalne istoty zostają spowolnione na dwie rundy, po trafieniu (rzut obronny przeciw czarom z modyfikatorem -2 neguje)
+
+Umagicznienie: +3
+TraK0: +3
+Obrażenia: 1k8 +3, dodatkowe 1k3 obrażeń od ognia, 1k3 obrażeń od zimna, 1k3 obrażeń od kwasu i 1k3 obrażeń od elektryczności
+Typ obrażeń: pocisk
+Wyrzutnia: kusza
+
+Waga: 0~
+
+@1134 = ~Bełt ten został pobłogosławiony przez bóstwo będące patronem strzelającej osoby. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, uderzając w nie pierwotną energią żywiołów. Nienaturalne stworzenia, takie jak nieumarli czy konstrukty, mogą być poddane dodatkowym niekorzystnym efektom. Pochodzące od bóstwa umagicznienie bełtu utrzymuje się przez osiem godzin i pozwala strzelcowi na wykorzystanie określonej ilości ładunków. Po tym bełt traci swoją fizyczną postać.
+
+PARAMETRY:
+
+Specjalne:
+– Nienaturalne istoty zostają spowolnione i oślepione na dwie rundy, po trafieniu (rzut obronny przeciw czarom z modyfikatorem -4 neguje)
+
+Umagicznienie: +4
+TraK0: +4
+Obrażenia: 1k8 +4, dodatkowe 1k3 +2 obrażeń od ognia, 1k3 +2 obrażeń od zimna, 1k3 +2 obrażeń od kwasu i 1k3 +2 obrażeń od elektryczności
+Typ obrażeń: pocisk
+Wyrzutnia: kusza
+
+Waga: 0~
+
+@1135 = ~Strzały te zostały wzmocnione w taki sposób, by w pełni wykorzystać zdolności strzeleckie postaci. Oprócz zwiększonej precyzji, trafienie tą strzałą może dodatkowo osłabić cel. Tylko istoty wyćwiczone w fizycznej walce są w stanie skutecznie używać tych strzał.
+
+PARAMETRY:
+
+Specjalne:
+– Cel otrzymuje kumulatywną karę -1 do Klasy Pancerza na dwie rundy, po trafieniu (rzut obronny przeciw śmierci neguje)
+
+Umagicznienie: +1
+TraK0: +1
+Obrażenia: 1k6 +1
+Typ obrażeń: pocisk
+Wyrzutnia: łuk
+
+Waga: 0~
+
+@1136 = ~Strzały te zostały wzmocnione w taki sposób, by w pełni wykorzystać zdolności strzeleckie postaci. Oprócz zwiększonej precyzji, trafienie tą strzałą może dodatkowo osłabić cel. Tylko istoty wyćwiczone w fizycznej walce są w stanie skutecznie używać tych strzał.
+
+PARAMETRY:
+
+Specjalne:
+– Cel otrzymuje kumulatywną karę -1 do Klasy Pancerza na dwie rundy, po trafieniu (rzut obronny przeciw śmierci neguje)
+
+Umagicznienie: +2
+TraK0: +2
+Obrażenia: 1k6 +2
+Typ obrażeń: pocisk
+Wyrzutnia: łuk
+
+Waga: 0~
+
+@1137 = ~Strzały te zostały wzmocnione w taki sposób, by w pełni wykorzystać zdolności strzeleckie postaci. Oprócz zwiększonej precyzji, trafienie tą strzałą może dodatkowo osłabić cel. Tylko istoty wyćwiczone w fizycznej walce są w stanie skutecznie używać tych strzał.
+
+PARAMETRY:
+
+Specjalne:
+– Cel otrzymuje kumulatywną karę -2 do Klasy Pancerza na dwie rundy, po trafieniu (rzut obronny przeciw śmierci neguje)
+– Cel zostaje odrzucony w tył, po trafieniu (rzut obronny przeciw zionięciom neguje)
+
+Umagicznienie: +2
+TraK0: +2
+Obrażenia: 1k6 +2
+Typ obrażeń: pocisk
+Wyrzutnia: łuk
+
+Waga: 0~
+
+@1138 = ~Strzały te zostały wzmocnione w taki sposób, by w pełni wykorzystać zdolności strzeleckie postaci. Oprócz zwiększonej precyzji, trafienie tą strzałą może dodatkowo osłabić cel lub nawet całkowicie wyłączyć go z walki. Tylko istoty wyćwiczone w fizycznej walce są w stanie skutecznie używać tych strzał.
+
+PARAMETRY:
+
+Specjalne:
+– Cel otrzymuje kumulatywną karę -2 do Klasy Pancerza na dwie rundy, po trafieniu (rzut obronny przeciw śmierci z modyfikatorem -2 neguje)
+– Cel zostaje odrzucony w tył i ogłuszony na jedną rundę, po trafieniu (rzut obronny przeciw zionięciom neguje)
+
+Umagicznienie: +3
+TraK0: +3
+Obrażenia: 1k6 +3
+Typ obrażeń: pocisk
+Wyrzutnia: łuk
+
+Waga: 0~
+
+@1139 = ~Strzały te zostały wzmocnione w taki sposób, by w pełni wykorzystać zdolności strzeleckie postaci. Oprócz zwiększonej precyzji, trafienie tą strzałą może dodatkowo osłabić cel lub nawet całkowicie wyłączyć go z walki. Tylko istoty wyćwiczone w fizycznej walce są w stanie skutecznie używać tych strzał.
+
+PARAMETRY:
+
+Specjalne:
+– Cel otrzymuje kumulatywną karę -3 do Klasy Pancerza, -3 do testów trafienia i -1 do Siły na dwie rundy, po trafieniu (rzut obronny przeciw śmierci z modyfikatorem -2 neguje)
+– Cel zostaje odrzucony w tył i ogłuszony na jedną rundę, po trafieniu (rzut obronny przeciw zionięciom z modyfikatorem -2 neguje)
+
+Umagicznienie: +4
+TraK0: +4
+Obrażenia: 1k6 +4
+Typ obrażeń: pocisk
+Wyrzutnia: łuk
+
+Waga: 0~
+
+@1140 = ~Bełty te zostały wzmocnione w taki sposób, by w pełni wykorzystać zdolności strzeleckie postaci. Oprócz zwiększonej precyzji, trafienie tym bełtem może dodatkowo osłabić cel. Tylko istoty wyćwiczone w fizycznej walce są w stanie skutecznie używać tych bełtów.
+
+PARAMETRY:
+
+Specjalne:
+– Cel otrzymuje kumulatywną karę -1 do Klasy Pancerza na dwie rundy, po trafieniu (rzut obronny przeciw śmierci neguje)
+
+Umagicznienie: +1
+TraK0: +1
+Obrażenia: 1k8 +1
+Typ obrażeń: pocisk
+Wyrzutnia: kusza
+
+Waga: 0~
+
+@1141 = ~Bełty te zostały wzmocnione w taki sposób, by w pełni wykorzystać zdolności strzeleckie postaci. Oprócz zwiększonej precyzji, trafienie tym bełtem może dodatkowo osłabić cel. Tylko istoty wyćwiczone w fizycznej walce są w stanie skutecznie używać tych bełtów.
+
+PARAMETRY:
+
+Specjalne:
+– Cel otrzymuje kumulatywną karę -1 do Klasy Pancerza na dwie rundy, po trafieniu (rzut obronny przeciw śmierci neguje)
+
+Umagicznienie: +2
+TraK0: +2
+Obrażenia: 1k8 +2
+Typ obrażeń: pocisk
+Wyrzutnia: kusza
+
+Waga: 0~
+
+@1142 = ~Bełty te zostały wzmocnione w taki sposób, by w pełni wykorzystać zdolności strzeleckie postaci. Oprócz zwiększonej precyzji, trafienie tym bełtem może dodatkowo osłabić cel. Tylko istoty wyćwiczone w fizycznej walce są w stanie skutecznie używać tych bełtów.
+
+PARAMETRY:
+
+Specjalne:
+– Cel otrzymuje kumulatywną karę -2 do Klasy Pancerza na dwie rundy, po trafieniu (rzut obronny przeciw śmierci neguje)
+– Cel zostaje odrzucony w tył, po trafieniu (rzut obronny przeciw zionięciom neguje)
+
+Umagicznienie: +2
+TraK0: +2
+Obrażenia: 1k8 +2
+Typ obrażeń: pocisk
+Wyrzutnia: kusza
+
+Waga: 0~
+
+@1143 = ~Bełty te zostały wzmocnione w taki sposób, by w pełni wykorzystać zdolności strzeleckie postaci. Oprócz zwiększonej precyzji, trafienie tym bełtem może dodatkowo osłabić cel lub nawet całkowicie wyłączyć go z walki. Tylko istoty wyćwiczone w fizycznej walce są w stanie skutecznie używać tych bełtów.
+
+PARAMETRY:
+
+Specjalne:
+– Cel otrzymuje kumulatywną karę -2 do Klasy Pancerza na dwie rundy, po trafieniu (rzut obronny przeciw śmierci z modyfikatorem -2 neguje)
+– Cel zostaje odrzucony w tył i ogłuszony na jedną rundę, po trafieniu (rzut obronny przeciw zionięciom neguje)
+
+Umagicznienie: +3
+TraK0: +3
+Obrażenia: 1k8 +3
+Typ obrażeń: pocisk
+Wyrzutnia: kusza
+
+Waga: 0~
+
+@1144 = ~Bełty te zostały wzmocnione w taki sposób, by w pełni wykorzystać zdolności strzeleckie postaci. Oprócz zwiększonej precyzji, trafienie tym bełtem może dodatkowo osłabić cel lub nawet całkowicie wyłączyć go z walki. Tylko istoty wyćwiczone w fizycznej walce są w stanie skutecznie używać tych bełtów.
+
+PARAMETRY:
+
+Specjalne:
+– Cel otrzymuje kumulatywną karę -3 do Klasy Pancerza, -3 do testów trafienia i -1 do Siły na dwie rundy, po trafieniu (rzut obronny przeciw śmierci z modyfikatorem -2 neguje)
+– Cel zostaje odrzucony w tył i ogłuszony na jedną rundę, po trafieniu (rzut obronny przeciw zionięciom z modyfikatorem -2 neguje)
+
+Umagicznienie: +4
+TraK0: +4
+Obrażenia: 1k8 +4
+Typ obrażeń: pocisk
+Wyrzutnia: kusza
+
+Waga: 0~
+
+@1145 = ~Pociski te zostały wzmocnione w taki sposób, by w pełni wykorzystać zdolności strzeleckie postaci. Oprócz zwiększonej precyzji, trafienie tym pociskiem może dodatkowo osłabić cel. Tylko istoty wyćwiczone w fizycznej walce są w stanie skutecznie używać tych pocisków.
+
+PARAMETRY:
+
+Specjalne:
+– Cel otrzymuje kumulatywną karę -1 do Klasy Pancerza na dwie rundy, po trafieniu (rzut obronny przeciw śmierci neguje)
+
+Umagicznienie: +1
+TraK0: +1
+Obrażenia: 1k4 +2
+Typ obrażeń: pocisk
+Wyrzutnia: proca
+
+Waga: 0~
+
+@1146 = ~Pociski te zostały wzmocnione w taki sposób, by w pełni wykorzystać zdolności strzeleckie postaci. Oprócz zwiększonej precyzji, trafienie tym pociskiem może dodatkowo osłabić cel. Tylko istoty wyćwiczone w fizycznej walce są w stanie skutecznie używać tych pocisków.
+
+PARAMETRY:
+
+Specjalne:
+– Cel otrzymuje kumulatywną karę -1 do Klasy Pancerza na dwie rundy, po trafieniu (rzut obronny przeciw śmierci neguje)
+
+Umagicznienie: +2
+TraK0: +2
+Obrażenia: 1k4 +3
+Typ obrażeń: pocisk
+Wyrzutnia: proca
+
+Waga: 0~
+
+@1147 = ~Pociski te zostały wzmocnione w taki sposób, by w pełni wykorzystać zdolności strzeleckie postaci. Oprócz zwiększonej precyzji, trafienie tym pociskiem może dodatkowo osłabić cel. Tylko istoty wyćwiczone w fizycznej walce są w stanie skutecznie używać tych pocisków.
+
+PARAMETRY:
+
+Specjalne:
+– Cel otrzymuje kumulatywną karę -2 do Klasy Pancerza na dwie rundy, po trafieniu (rzut obronny przeciw śmierci neguje)
+– Cel zostaje odrzucony w tył, po trafieniu (rzut obronny przeciw zionięciom neguje)
+
+Umagicznienie: +2
+TraK0: +2
+Obrażenia: 1k4 +3
+Typ obrażeń: pocisk
+Wyrzutnia: proca
+
+Waga: 0~
+
+@1148 = ~Pociski te zostały wzmocnione w taki sposób, by w pełni wykorzystać zdolności strzeleckie postaci. Oprócz zwiększonej precyzji, trafienie tym pociskiem może dodatkowo osłabić cel lub nawet całkowicie wyłączyć go z walki. Tylko istoty wyćwiczone w fizycznej walce są w stanie skutecznie używać tych pocisków.
+
+PARAMETRY:
+
+Specjalne:
+– Cel otrzymuje kumulatywną karę -2 do Klasy Pancerza na dwie rundy, po trafieniu (rzut obronny przeciw śmierci z modyfikatorem -2 neguje)
+– Cel zostaje odrzucony w tył i ogłuszony na jedną rundę, po trafieniu (rzut obronny przeciw zionięciom neguje)
+
+Umagicznienie: +3
+TraK0: +3
+Obrażenia: 1k4 +4
+Typ obrażeń: pocisk
+Wyrzutnia: proca
+
+Waga: 0~
+
+@1149 = ~Pociski te zostały wzmocnione w taki sposób, by w pełni wykorzystać zdolności strzeleckie postaci. Oprócz zwiększonej precyzji, trafienie tym pociskiem może dodatkowo osłabić cel lub nawet całkowicie wyłączyć go z walki. Tylko istoty wyćwiczone w fizycznej walce są w stanie skutecznie używać tych pocisków.
+
+PARAMETRY:
+
+Specjalne:
+– Cel otrzymuje kumulatywną karę -3 do Klasy Pancerza, -3 do testów trafienia i -1 do Siły na dwie rundy, po trafieniu (rzut obronny przeciw śmierci z modyfikatorem -2 neguje)
+– Cel zostaje odrzucony w tył i ogłuszony na jedną rundę, po trafieniu (rzut obronny przeciw zionięciom z modyfikatorem -2 neguje)
+
+Umagicznienie: +4
+TraK0: +4
+Obrażenia: 1k4 +5
+Typ obrażeń: pocisk
+Wyrzutnia: proca
+
+Waga: 0~
+
+@1150 = ~Strzały te zostały wykonane z niezwykłą precyzją w taki sposób, by dodatkowo osłabiały możliwości bojowe celu. Oprócz zwiększonej precyzji, trafienie tą strzałą może dodatkowo osłabić zdolności defensywne celu. Tylko postaci zaznajomione z ludzką anatomią mogą w pełni wykorzystać potencjał tych strzał.
+
+PARAMETRY:
+
+Specjalne:
+– Cel otrzymuje kumulatywną karę -1 do Klasy Pancerza na dwie rundy, po trafieniu (rzut obronny przeciw śmierci neguje)
+
+Umagicznienie: +1
+TraK0: +1
+Obrażenia: 1k6 +1
+Typ obrażeń: pocisk
+Wyrzutnia: łuk
+
+Waga: 0~
+
+@1151 = ~Strzały te zostały wykonane z niezwykłą precyzją w taki sposób, by dodatkowo osłabiały możliwości bojowe celu. Oprócz zwiększonej precyzji i dodatkowych obrażeń, trafienie tą strzałą może dodatkowo osłabić zdolności defensywne celu. Tylko postaci zaznajomione z ludzką anatomią mogą w pełni wykorzystać potencjał tych strzał.
+
+PARAMETRY:
+
+Specjalne:
+– Cel otrzymuje kumulatywną karę -2 do Klasy Pancerza na dwie rundy, po trafieniu (rzut obronny przeciw śmierci neguje)
+– Zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe obrażenie od krwawienia na sekundę przez jedną rundę, po trafieniu (rzut obronny przeciw śmierci neguje)
+
+Umagicznienie: +2
+TraK0: +2
+Obrażenia: 1k6 +2
+Typ obrażeń: pocisk
+Wyrzutnia: łuk
+
+Waga: 0~
+
+@1152 = ~Strzały te zostały wykonane z niezwykłą precyzją w taki sposób, by dodatkowo osłabiały możliwości bojowe celu. Oprócz zwiększonej precyzji i dodatkowych obrażeń, trafienie tą strzałą może dodatkowo osłabić zdolności defensywne celu i ofensywne celu. Tylko postaci zaznajomione z ludzką anatomią mogą w pełni wykorzystać potencjał tych strzał.
+
+PARAMETRY:
+
+Specjalne:
+– Cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i testów trafienia na dwie rundy, po trafieniu (rzut obronny przeciw śmierci neguje)
+– Zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe obrażenie od krwawienia na sekundę przez jedną rundę, po trafieniu (rzut obronny przeciw śmierci neguje)
+
+Umagicznienie: +2
+TraK0: +2
+Obrażenia: 1k6 +2
+Typ obrażeń: pocisk
+Wyrzutnia: łuk
+
+Waga: 0~
+
+@1153 = ~Strzały te zostały wykonane z niezwykłą precyzją w taki sposób, by dodatkowo osłabiały możliwości bojowe celu. Oprócz zwiększonej precyzji i dodatkowych obrażeń, trafienie tą strzałą może dodatkowo osłabić zdolności defensywne i ofensywne celu. Tylko postaci zaznajomione z ludzką anatomią mogą w pełni wykorzystać potencjał tych strzał.
+
+PARAMETRY:
+
+Specjalne:
+– Cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i testów trafienia na dwie rundy, po trafieniu (rzut obronny przeciw śmierci z modyfikatorem -2 neguje)
+– Zwierzęta, humanoidy i olbrzymie humanoidy otrzymują 2 dodatkowe obrażenia od krwawienia na sekundę przez jedną rundę, po trafieniu (rzut obronny przeciw śmierci neguje)
+– Zwierzęta, humanoidy i olbrzymie humanoidy zostają oślepione na dwie rundy, po trafieniu (rzut obronny przeciw śmierci neguje)
+
+Umagicznienie: +3
+TraK0: +3
+Obrażenia: 1k6 +3
+Typ obrażeń: pocisk
+Wyrzutnia: łuk
+
+Waga: 0~
+
+@1154 = ~Strzały te zostały wykonane z niezwykłą precyzją w taki sposób, by dodatkowo osłabiały możliwości bojowe celu. Oprócz zwiększonej precyzji i dodatkowych obrażeń, trafienie tą strzałą może dodatkowo osłabić zdolności defensywne i ofensywne celu. Tylko postaci zaznajomione z ludzką anatomią mogą w pełni wykorzystać potencjał tych strzał.
+
+PARAMETRY:
+
+Specjalne:
+– Cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i testów trafienia na dwie rundy, po trafieniu (rzut obronny przeciw śmierci z modyfikatorem -4 neguje)
+– Zwierzęta, humanoidy i olbrzymie humanoidy otrzymują 4 dodatkowe obrażenia od krwawienia na sekundę przez jedną rundę, po trafieniu (rzut obronny przeciw śmierci z modyfikatorem -2 neguje)
+– Zwierzęta, humanoidy i olbrzymie humanoidy zostają oślepione na dwie rundy, po trafieniu (rzut obronny przeciw śmierci z modyfikatorem -2 neguje)
+
+Umagicznienie: +4
+TraK0: +4
+Obrażenia: 1k6 +4
+Typ obrażeń: pocisk
+Wyrzutnia: łuk
+
+Waga: 0~
+
+@1155 = ~Bełty te zostały wykonane z niezwykłą precyzją w taki sposób, by dodatkowo osłabiały możliwości bojowe celu. Oprócz zwiększonej precyzji, trafienie tym bełtem może dodatkowo osłabić zdolności defensywne celu. Tylko postaci zaznajomione z ludzką anatomią mogą w pełni wykorzystać potencjał tych bełtów.
+
+PARAMETRY:
+
+Specjalne:
+– Cel otrzymuje kumulatywną karę -1 do Klasy Pancerza na dwie rundy, po trafieniu (rzut obronny przeciw śmierci neguje)
+
+Umagicznienie: +1
+TraK0: +1
+Obrażenia: 1k8 +1
+Typ obrażeń: pocisk
+Wyrzutnia: kusza
+
+Waga: 0~
+
+@1156 = ~Bełty te zostały wykonane z niezwykłą precyzją w taki sposób, by dodatkowo osłabiały możliwości bojowe celu. Oprócz zwiększonej precyzji i dodatkowych obrażeń, trafienie tym bełtem może dodatkowo osłabić zdolności defensywne celu. Tylko postaci zaznajomione z ludzką anatomią mogą w pełni wykorzystać potencjał tych bełtów.
+
+PARAMETRY:
+
+Specjalne:
+– Cel otrzymuje kumulatywną karę -2 do Klasy Pancerza na dwie rundy, po trafieniu (rzut obronny przeciw śmierci neguje)
+– Zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe obrażenie od krwawienia na sekundę przez jedną rundę, po trafieniu (rzut obronny przeciw śmierci neguje)
+
+Umagicznienie: +2
+TraK0: +2
+Obrażenia: 1k8 +2
+Typ obrażeń: pocisk
+Wyrzutnia: kusza
+
+Waga: 0~
+
+@1157 = ~Bełty te zostały wykonane z niezwykłą precyzją w taki sposób, by dodatkowo osłabiały możliwości bojowe celu. Oprócz zwiększonej precyzji i dodatkowych obrażeń, trafienie tym bełtem może dodatkowo osłabić zdolności defensywne celu i ofensywne celu. Tylko postaci zaznajomione z ludzką anatomią mogą w pełni wykorzystać potencjał tych bełtów.
+
+PARAMETRY:
+
+Specjalne:
+– Cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i testów trafienia na dwie rundy, po trafieniu (rzut obronny przeciw śmierci neguje)
+– Zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe obrażenie od krwawienia na sekundę przez jedną rundę, po trafieniu (rzut obronny przeciw śmierci neguje)
+
+Umagicznienie: +2
+TraK0: +2
+Obrażenia: 1k8 +2
+Typ obrażeń: pocisk
+Wyrzutnia: kusza
+
+Waga: 0~
+
+@1158 = ~Bełty te zostały wykonane z niezwykłą precyzją w taki sposób, by dodatkowo osłabiały możliwości bojowe celu. Oprócz zwiększonej precyzji i dodatkowych obrażeń, trafienie tym bełtem może dodatkowo osłabić zdolności defensywne celu i ofensywne celu. Tylko postaci zaznajomione z ludzką anatomią mogą w pełni wykorzystać potencjał tych bełtów.
+
+PARAMETRY:
+
+Specjalne:
+– Cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i testów trafienia na dwie rundy, po trafieniu (rzut obronny przeciw śmierci z modyfikatorem -2 neguje)
+– Zwierzęta, humanoidy i olbrzymie humanoidy otrzymują 2 dodatkowe obrażenia od krwawienia na sekundę przez jedną rundę, po trafieniu (rzut obronny przeciw śmierci neguje)
+– Zwierzęta, humanoidy i olbrzymie humanoidy zostają oślepione na dwie rundy, po trafieniu (rzut obronny przeciw śmierci neguje)
+
+Umagicznienie: +3
+TraK0: +3
+Obrażenia: 1k8 +3
+Typ obrażeń: pocisk
+Wyrzutnia: kusza
+
+Waga: 0~
+
+@1159 = ~Bełty te zostały wykonane z niezwykłą precyzją w taki sposób, by dodatkowo osłabiały możliwości bojowe celu. Oprócz zwiększonej precyzji i dodatkowych obrażeń, trafienie tym bełtem może dodatkowo osłabić zdolności defensywne celu i ofensywne celu. Tylko postaci zaznajomione z ludzką anatomią mogą w pełni wykorzystać potencjał tych bełtów.
+
+PARAMETRY:
+
+Specjalne:
+– Cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i testów trafienia na dwie rundy, po trafieniu (rzut obronny przeciw śmierci z modyfikatorem -4 neguje)
+– Zwierzęta, humanoidy i olbrzymie humanoidy otrzymują 4 dodatkowe obrażenia od krwawienia na sekundę przez jedną rundę, po trafieniu (rzut obronny przeciw śmierci z modyfikatorem -2 neguje)
+– Zwierzęta, humanoidy i olbrzymie humanoidy zostają oślepione na dwie rundy, po trafieniu (rzut obronny przeciw śmierci z modyfikatorem -2 neguje)
+
+Umagicznienie: +4
+TraK0: +4
+Obrażenia: 1k8 +4
+Typ obrażeń: pocisk
+Wyrzutnia: kusza
+
+Waga: 0~
+
+@1160 = ~Łuki krótkie zostały wprowadzone jako pierwsze, choć nie były tak nazywane. Jest to raczej umowne określenie, które odnosi się do wszystkich rodzajów tej broni, które nie są łukami długimi. Ich łęczyska mają w przybliżeniu półtora metra długości. Przez lata próbowano zwiększyć ich zasięg. W tym celu wydłużano im łęczyska lub poprawiano sprężystość, ale zmiany te nigdy nie dotyczyły całkowitej długości łuków. Łuki należące do pierwszej kategorii nazwano łukami długimi.
+
+PARAMETRY:
+
+Obrażenia: +2
+TraK0: +2
+Typ obrażeń: pocisk
+Opóźnienie: 4
+Rodzaj biegłości: krótki łuk
+Typ broni: 2-ręczna
+
+Wymagania:
+– Siła: 6
+
+Waga: 2~
+
+@1161 = ~Łuki krótkie zostały wprowadzone jako pierwsze, choć nie były tak nazywane. Jest to raczej umowne określenie, które odnosi się do wszystkich rodzajów tej broni, które nie są łukami długimi. Ich łęczyska mają w przybliżeniu półtora metra długości. Przez lata próbowano zwiększyć ich zasięg. W tym celu wydłużano im łęczyska lub poprawiano sprężystość, ale zmiany te nigdy nie dotyczyły całkowitej długości łuków. Łuki należące do pierwszej kategorii nazwano łukami długimi.
+
+PARAMETRY:
+
+Obrażenia: +3
+TraK0: +3
+Typ obrażeń: pocisk
+Opóźnienie: 3
+Rodzaj biegłości: krótki łuk
+Typ broni: 2-ręczna
+
+Wymagania:
+– Siła: 6
+
+Waga: 2~
+
+@1162 = ~Ten mały barbarzyński łuk nie powstał na terenie Doliny Lodowego Wichru. Wykonali go wojujący kapłani Vaasa, a jego historia nie jest zbyt długa. Przez wiele lat używany był przez głównego myśliwego małego klanu. Później, gdy klan został unicestwiony, łuk wpadł w ręce najeźdźców, lecz jego barbarzyński wygląd mógł nie spodobać się światowym poszukiwaczom przygód. Wykonany został z drewna cisu i owinięty jest cienką warstwą futra, dzięki czemu wyglada może niezbyt elegancko, ale za to jest bardzo praktyczny. Po obu stronach uchwytu znajduje się wyszczerbione i nieco wyblakłe malowidło przedstawiające duże oko.
+
+PARAMETRY:
+
+Obrażenia: +3
+TraK0: +3
+Typ obrażeń: pocisk
+Opóźnienie: 2
+Rodzaj biegłości: krótki łuk
+Typ broni: 2-ręczna
+
+Wymagania:
+– Siła: 6
+
+Waga: 2~
+
+@1163 = ~Łuki krótkie zostały wprowadzone jako pierwsze, choć nie były tak nazywane. Jest to raczej umowne określenie, które odnosi się do wszystkich rodzajów tej broni, które nie są łukami długimi. Ich łęczyska mają w przybliżeniu półtora metra długości. Przez lata próbowano zwiększyć ich zasięg. W tym celu wydłużano im łęczyska lub poprawiano sprężystość, ale zmiany te nigdy nie dotyczyły całkowitej długości łuków. Łuki należące do pierwszej kategorii nazwano łukami długimi.
+
+PARAMETRY:
+
+Specjalne:
+– Klasa Pancerza: +2
+– Odporność na magię: +15%
+
+Obrażenia: +2
+TraK0: +2
+Typ obrażeń: pocisk
+Opóźnienie: 4
+Rodzaj biegłości: krótki łuk
+Typ broni: 2-ręczna
+
+Wymagania:
+– Siła: 6
+
+Waga: 2~
+
+@1164 = ~Łuki krótkie zostały wprowadzone jako pierwsze, choć nie były tak nazywane. Jest to raczej umowne określenie, które odnosi się do wszystkich rodzajów tej broni, które nie są łukami długimi. Ich łęczyska mają w przybliżeniu półtora metra długości. Przez lata próbowano zwiększyć ich zasięg. W tym celu wydłużano im łęczyska lub poprawiano sprężystość, ale zmiany te nigdy nie dotyczyły całkowitej długości łuków. Łuki należące do pierwszej kategorii nazwano łukami długimi.
+
+PARAMETRY:
+
+Specjalne:
+– Zręczność: +1
+
+Obrażenia: +2
+TraK0: +2
+Typ obrażeń: pocisk
+Opóźnienie: 4
+Rodzaj biegłości: krótki łuk
+Typ broni: 2-ręczna
+
+Wymagania:
+– Siła: 6
+
+Waga: 2~
+
+@1200 = ~SNAJPER: Jest uosobieniem mistrzowskiego posługiwania się łukiem. To znakomity strzelec, umiejący oddać strzał niemal z każdej pozycji, niezależnie od stopnia trudności. Aby zyskać takie umiejętności, snajper musiał poświęcić część swoich punktów biegłości za posługiwanie się bronią ręczną i zbroją.
+
+Zalety:
+- +1 do testów trafienia i obrażeń bronią strzelecką, co cztery poziomy.
+- +1 do Klasy Pancerza przeciw broniom strzeleckim, co sześć poziomów.
+- +5% szans na trafienie krytyczne na poziomach 13 i 18.
+- Może osiągnąć Wielkie mistrzostwo (pięć punktów biegłości) w długich łukach, krótkich łukach, kuszach, strzałkach i procach.
+- Może skorzystać ze zdolności Oplątujący strzał, raz dziennie na cztery poziomy (począwszy od jednego użycia na 4. poziomie). Zdolność ta nie może zostać użyta w połączeniu z innymi umiejętnościami strzeleckimi.
+- Może skorzystać ze zdolności Potężny strzał, raz dziennie na cztery poziomy (począwszy od jednego użycia na 8. poziomie). Zdolność ta nie może zostać użyta w połączeniu z innymi umiejętnościami strzeleckimi.
+- Może skorzystać ze zdolności Wybuchowy strzał, raz dziennie na cztery poziomy (począwszy od jednego użycia na 8. poziomie). Zdolność ta nie może zostać użyta w połączeniu z innymi umiejętnościami strzeleckimi.
+- Może skorzystać ze zdolności Wytworzenie wzmocnionej amunicji, raz dziennie na osiem poziomów (począwszy od jednego użycia na 4. poziomie).
+
+OPLĄTUJĄCY STRZAŁ: Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, spowoduje oplątanie celu, zgodnie z poziomem snajpera:
+4. poziom: Cel jest oplątany przez trzy rundy (rzut obronny przeciw czarom neguje).
+8. poziom: Cel jest oplątany przez trzy rundy (rzut obronny przeciw czarom z modyfikatorem -1 neguje).
+12. poziom: Cel jest oplątany przez cztery rundy (rzut obronny przeciw czarom z modyfikatorem -1 neguje).
+16. poziom: Cel jest oplątany przez cztery rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).
+20. poziom: Cel jest oplątany przez pięć rund (rzut obronny przeciw czarom z modyfikatorem -2 neguje).
+
+POTĘŻNY STRZAŁ: Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, ma szansę na odrzucenie celu, w zależności od poziomu snajpera:
+8. poziom: Odrzuca cel (rzut obronny przeciw zionięciom neguje).
+12. poziom: Odrzuca cel (rzut obronny przeciw zionięciom z modyfikatorem -1 neguje).
+16. poziom: Odrzuca cel (rzut obronny przeciw zionięciom z modyfikatorem -2 neguje).
+20. poziom: Odrzuca cel (rzut obronny przeciw zionięciom z modyfikatorem -3 neguje).
+
+WYBUCHOWY STRZAŁ: Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, powoduje eksplozję wystrzelonego pocisku po trafieniu, zadając fizyczne obrażenia znajdującym się w promieniu pięciu metrów celom, w zależności od poziomu snajpera:
+8. poziom: 1k4 obrażeń pobliskim celom
+12. poziom: 1k4 +2 obrażeń pobliskim celom
+16. poziom: 1k4 +4 obrażeń pobliskim celom
+20. poziom: 1k4 +6 obrażeń pobliskim celom
+Uwaga: Rani wrogów, sojuszników i niewinne stworzenia.
+
+WYTWORZENIE WZMOCNIONEJ AMUNICJI: Pozwala wytworzyć zestaw specjalnie przygotowanych strzał, bełtów lub pocisków. Ilość wytworzonych zestawów podwaja się na 16. poziomie.
+4. poziom: umagicznienie +1, premia +1 do testów trafienia, cel otrzymuje kumulatywną karę -1 do Klasy Pancerza na dwie rundy (rzut obronny przeciw śmierci neguje).
+8. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -1 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci neguje).
+12. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci neguje), a także zostaje odrzucony (rzut obronny przeciw zionięciom neguje).
+16. poziom: umagicznienie +3, premia +3 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje), a także zostaje odrzucony i ogłuszony na jedną rundę (rzut obronny przeciw zionięciom neguje).
+20. poziom: umagicznienie +4, premia +4 do testów trafienia, cel otrzymuje kumulatywną karę -3 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje), a także zostaje odrzucony i ogłuszony na jedną rundę (rzut obronny przeciw zionięciom z modyfikatorem -2 neguje).
+
+Wady:
+- Nie może nosić żadnej metalowej zbroi.
+- Snajper może osiągnąć stopień Specjalista (dwa punkty biegłości) w broniach do walki wręcz.
+- Snajper może przeznaczyć tylko jeden punkt biegłości na dowolny styl walki.~
+
+@1300 = ~RYCERZ ŁUCZNIK: Jest uosobieniem mistrzowskiego posługiwania się łukiem. To znakomity strzelec, umiejący oddać strzał niemal z każdej pozycji, niezależnie od stopnia trudności. Aby zyskać takie umiejętności, rycerz łucznik musiał poświęcić część swoich punktów biegłości za posługiwanie się bronią ręczną i zbroją.
+
+Zalety:
+- +1 do testów trafienia i obrażeń bronią strzelecką, co cztery poziomy.
+- +1 do Klasy Pancerza przeciw broniom strzeleckim, co sześć poziomów.
+- +5% szans na trafienie krytyczne na poziomach 13 i 18.
+- Może osiągnąć Wielkie mistrzostwo (pięć punktów biegłości) w długich łukach, krótkich łukach, kuszach i procach.
+- Może skorzystać ze zdolności Oplątujący strzał, raz dziennie na cztery poziomy (począwszy od jednego użycia na 4. poziomie). Zdolność ta nie może zostać użyta w połączeniu z innymi umiejętnościami strzeleckimi.
+- Może skorzystać ze zdolności Potężny strzał, raz dziennie na cztery poziomy (począwszy od jednego użycia na 8. poziomie). Zdolność ta nie może zostać użyta w połączeniu z innymi umiejętnościami strzeleckimi.
+- Może skorzystać ze zdolności Przywołanie błogosławionej amunicji, raz dziennie na osiem poziomów (począwszy od jednego użycia na 4. poziomie).
+
+OPLĄTUJĄCY STRZAŁ: Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, spowoduje oplątanie celu, zgodnie z poziomem rycerza łucznika:
+4. poziom: Cel jest oplątany przez trzy rundy (rzut obronny przeciw czarom neguje).
+8. poziom: Cel jest oplątany przez trzy rundy (rzut obronny przeciw czarom z modyfikatorem -1 neguje).
+12. poziom: Cel jest oplątany przez cztery rundy (rzut obronny przeciw czarom z modyfikatorem -1 neguje).
+16. poziom: Cel jest oplątany przez cztery rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).
+20. poziom: Cel jest oplątany przez pięć rund (rzut obronny przeciw czarom z modyfikatorem -2 neguje).
+
+POTĘŻNY STRZAŁ: Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, ma szansę na odrzucenie celu, w zależności od poziomu rycerza łucznika:
+8. poziom: Odrzuca cel (rzut obronny przeciw zionięciom neguje).
+12. poziom: Odrzuca cel (rzut obronny przeciw zionięciom z modyfikatorem -1 neguje).
+16. poziom: Odrzuca cel (rzut obronny przeciw zionięciom z modyfikatorem -2 neguje).
+20. poziom: Odrzuca cel (rzut obronny przeciw zionięciom z modyfikatorem -3 neguje).
+
+PRZYWOŁANIE BŁOGOSŁAWIONEJ AMUNICJI: Przywołuje specjalnie przygotowaną strzałę, bełt lub pocisk, pobłogosławione przez bóstwo, które wyznaje rycerz łucznik. Amunicja istnieje przez osiem godzin i zawiera wiele ładunków. Ilość ładunków wzrasta dwukrotnie na poziomach 8 i 16.
+4. poziom: umagicznienie +1, +1 do testów trafienia, dodatkowe 1k6 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym.
+8. poziom: umagicznienie +1, +2 do testów trafienia, dodatkowe 1k6 +2 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają oślepieni na dwie rundy (rzut obronny przeciw czarom neguje).
+12. poziom: umagicznienie +2, +2 do testów trafienia, dodatkowe 1k6 +4 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają spowolnieni na dwie rundy (rzut obronny przeciw czarom neguje).
+16. poziom: umagicznienie +3, +3 do testów trafienia, dodatkowe 1k6 +6 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają spowolnieni i oślepieni na dwie rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).
+20. poziom: umagicznienie +4, +4 do testów trafienia, dodatkowe 1k6 +8 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają unieruchomieni na dwie rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).
+
+Wady:
+- Nie może nosić żadnej metalowej zbroi.
+- Rycerz łucznik może osiągnąć stopień Wyszkolony (jeden punkt biegłości) w broniach do walki wręcz.
+- Rycerz łucznik może przeznaczyć tylko jeden punkt biegłości na dowolny styl walki.~
+
+@1400 = ~STRZELEC WYBOROWY: Jest uosobieniem mistrzowskiego posługiwania się łukiem. To znakomity strzelec, umiejący oddać strzał niemal z każdej pozycji, niezależnie od stopnia trudności. Aby zyskać takie umiejętności, strzelec wyborowy musiał poświęcić część swoich punktów biegłości za posługiwanie się bronią ręczną i zbroją.
+
+Zalety:
+- +1 do testów trafienia i obrażeń bronią strzelecką, co pięć poziomów.
+- +1 do Klasy Pancerza przeciw broniom strzeleckim, co osiem poziomów.
+- +5% szans na trafienie krytyczne na 18. poziomie.
+- Może osiągnąć Wielkie mistrzostwo (pięć punktów biegłości) w krótkich łukach, kuszach, strzałkach i procach.
+- Może skorzystać ze zdolności Oplątujący strzał, raz dziennie na cztery poziomy (począwszy od jednego użycia na 4. poziomie). Zdolność ta nie może zostać użyta w połączeniu z innymi umiejętnościami strzeleckimi.
+- Może skorzystać ze zdolności Wybuchowy strzał, raz dziennie na cztery poziomy (począwszy od jednego użycia na 8. poziomie). Zdolność ta nie może zostać użyta w połączeniu z innymi umiejętnościami strzeleckimi.
+- Może skorzystać ze zdolności Stworzenie zaczarowanej amunicji, raz dziennie na osiem poziomów (począwszy od jednego użycia na 4. poziomie).
+
+OPLĄTUJĄCY STRZAŁ: Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, spowoduje oplątanie celu, zgodnie z poziomem strzelca wyborowego:
+4. poziom: Cel jest oplątany przez trzy rundy (rzut obronny przeciw czarom neguje).
+8. poziom: Cel jest oplątany przez trzy rundy (rzut obronny przeciw czarom z modyfikatorem -1 neguje).
+12. poziom: Cel jest oplątany przez cztery rundy (rzut obronny przeciw czarom z modyfikatorem -1 neguje).
+16. poziom: Cel jest oplątany przez cztery rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).
+20. poziom: Cel jest oplątany przez pięć rund (rzut obronny przeciw czarom z modyfikatorem -2 neguje).
+
+WYBUCHOWY STRZAŁ: Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, powoduje eksplozję wystrzelonego pocisku po trafieniu, zadając fizyczne obrażenia znajdującym się w promieniu pięciu metrów celom, w zależności od poziomu strzelca wyborowego:
+8. poziom: 1k4 obrażeń pobliskim celom
+12. poziom: 1k4 +2 obrażeń pobliskim celom
+16. poziom: 1k4 +4 obrażeń pobliskim celom
+20. poziom: 1k4 +6 obrażeń pobliskim celom
+Uwaga: Rani wrogów, sojuszników i niewinne stworzenia.
+
+STWORZENIE ZACZAROWANEJ AMUNICJI: Pozwala wytworzyć zestaw specjalnie przygotowanych strzał lub bełtów. Ilość wytworzonych zestawów podwaja się na 16. poziomie.
+4. poziom: umagicznienie +1, premia +1 do testów trafienia, cel otrzymuje kumulatywną karę -1 do Klasy Pancerza na dwie rundy (rzut obronny przeciw śmierci neguje).
+8. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza na dwie rundy, chyba że wykona rzut obronny przeciw śmierci. Ponadto zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe 1 obrażenie od krwawienia na sekundę przez jedną rundę (rzut obronny przeciw śmierci neguje).
+12. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci neguje). Ponadto zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe 1 obrażenie od krwawienia na sekundę przez jedną rundę (rzut obronny przeciw śmierci neguje).
+16. poziom: umagicznienie +3, premia +3 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci neguje). Ponadto zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe 2 obrażenia od krwawienia na sekundę przez jedną rundę, a także zostają oślepione na dwie rundy (rzut obronny przeciw śmierci neguje).
+20. poziom: umagicznienie +4, premia +4 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje). Ponadto zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe 4 obrażenia od krwawienia na sekundę przez jedną rundę, a także zostają oślepione na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje).
+
+Wady:
+– Co poziom dostaje tylko 15 punktów do wykorzystania na umiejętności złodziejskie.
+– Nie może korzystać ze zdolności Cios w plecy.~
 
 // Innate ability descriptions
 @2001 = ~Potężny strzał
 Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, ma szansę na odrzucenie celu, w zależności od poziomu strzelca:
-8. poziom: Odrzuca cel, jeśli ten nie wykona rzutu obronnego przeciw zionięciom.
-12. poziom: Odrzuca cel, jeśli ten nie wykona rzutu obronnego przeciw zionięciom z modyfikatorem -1.
-16. poziom: Odrzuca cel, jeśli ten nie wykona rzutu obronnego przeciw zionięciom z modyfikatorem -2.
-20. poziom: Odrzuca cel, jeśli ten nie wykona rzutu obronnego przeciw zionięciom z modyfikatorem -3.~
+8. poziom: Odrzuca cel (rzut obronny przeciw zionięciom neguje).
+12. poziom: Odrzuca cel (rzut obronny przeciw zionięciom z modyfikatorem -1 neguje).
+16. poziom: Odrzuca cel (rzut obronny przeciw zionięciom z modyfikatorem -2 neguje).
+20. poziom: Odrzuca cel (rzut obronny przeciw zionięciom z modyfikatorem -3 neguje).~
 
 @2002 = ~Oplątujący strzał
 Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, spowoduje oplątanie celu, zgodnie z poziomem strzelca:
-4. poziom: Cel jest oplątany przez trzy rundy, jeśli nie wykona rzutu obronnego przeciw czarom.
-8. poziom: Cel jest oplątany przez trzy rundy, jeśli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -1.
-12. poziom: Cel jest oplątany przez cztery rundy, jeśli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -1.
-16. poziom: Cel jest oplątany przez cztery rundy, jeśli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -2.
-20. poziom: Cel jest oplątany przez pięć rund, jeśli nie wykona rzutu obronnego przeciw czarom z modyfikatorem -2.~
+4. poziom: Cel jest oplątany przez trzy rundy (rzut obronny przeciw czarom neguje).
+8. poziom: Cel jest oplątany przez trzy rundy (rzut obronny przeciw czarom z modyfikatorem -1 neguje).
+12. poziom: Cel jest oplątany przez cztery rundy (rzut obronny przeciw czarom z modyfikatorem -1 neguje).
+16. poziom: Cel jest oplątany przez cztery rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).
+20. poziom: Cel jest oplątany przez pięć rund (rzut obronny przeciw czarom z modyfikatorem -2 neguje).~
 
 @2003 = ~Wybuchowy strzał
 Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, powoduje eksplozję wystrzelonego pocisku po trafieniu, zadając fizyczne obrażenia znajdującym się w promieniu pięciu metrów celom, w zależności od poziomu strzelca:
@@ -350,42 +1159,114 @@ Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund,
 20. poziom: 1k4 +6 obrażeń pobliskim celom
 Uwaga: Rani wrogów, sojuszników i niewinne stworzenia.~
 
-@2004 = ~Stworzenie błogosławionej amunicji
-Tworzy przepełnioną energią duchową strzałę lub bełt, pobłogosławione przez bóstwo, które wyznaje strzelec. Amunicja istnieje przez osiem godzin i zawiera wiele ładunków.
-4. poziom: umagicznienie +1, +1 do trafienia i obrażeń, dodatkowe 1k6 obrażeń i spowolnienie przez dwie rundy, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
-8. poziom: umagicznienie +1, +2 do trafienia i obrażeń, dodatkowe 1k6 +2 obrażeń i unieruchomienie przez dwie rundy, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
-12. poziom: umagicznienie +2, +2 do trafienia i obrażeń, dodatkowe 1k6 +4 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
-16. poziom: umagicznienie +3, +3 do trafienia i obrażeń, dodatkowe 1k6 +6 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci z modyfikatorem -2.
-20. poziom: umagicznienie +3, +4 do trafienia i obrażeń, dodatkowe 1k6 +8 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci z modyfikatorem -4.~
+@2010 = ~Wyczarowanie amunicji żywiołów
+Tworzy specjalnie przygotowaną strzałę lub bełt, pobłogosławione przez bóstwo, które wyznaje łucznik. Pocisk istnieje przez osiem godzin i zawiera wiele ładunków. Ilość ładunków wzrasta dwukrotnie na poziomach 8 i 16.
+4. poziom: umagicznienie +1, +1 do testów trafienia i obrażeń, dodatkowe 1k3 obrażeń od ognia.
+8. poziom: umagicznienie +1, +2 do testów trafienia i obrażeń, dodatkowe 1k3 obrażeń od ognia i 1k3 obrażeń od zimna, oplątanie nienaturalnych istot przez dwie rundy (rzut obronny przeciw czarom neguje).
+12. poziom: umagicznienie +2, +2 do testów trafienia i obrażeń, dodatkowe 1k3 obrażeń od ognia, 1k3 obrażeń od zimna i 1k3 obrażeń od kwasu, oślepienie nienaturalnych istot przez dwie rundy (rzut obronny przeciw czarom neguje).
+16. poziom: umagicznienie +3, +3 do testów trafienia i obrażeń, dodatkowe 1k3 obrażeń od ognia, 1k3 obrażeń od zimna, 1k3 obrażeń od kwasu i 1k3 obrażeń od elektryczności, spowolnienie nienaturalnych istot przez dwie rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).
+20. poziom: umagicznienie +4, +4 do testów trafienia i obrażeń, dodatkowe 1k3 +2 obrażeń od ognia, 1k3 +2 obrażeń od zimna, 1k3 +2 obrażeń od kwasu i 1k3 +2 obrażeń od elektryczności, spowolnienie i oślepienie nienaturalnych istot przez dwie rundy (rzut obronny przeciw czarom z modyfikatorem -4 neguje).~
 
-@2005 = ~Stworzenie błogosławionych strzał
-Tworzy przepełnioną energią duchową strzałę, pobłogosławioną przez bóstwo, które wyznaje strzelec. Strzała istnieje przez osiem godzin i zawiera wiele ładunków.
-4. poziom: umagicznienie +1, +1 do trafienia i obrażeń, dodatkowe 1k6 obrażeń i spowolnienie przez dwie rundy, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
-8. poziom: umagicznienie +1, +2 do trafienia i obrażeń, dodatkowe 1k6 +2 obrażeń i unieruchomienie przez dwie rundy, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
-12. poziom: umagicznienie +2, +2 do trafienia i obrażeń, dodatkowe 1k6 +4 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
-16. poziom: umagicznienie +3, +3 do trafienia i obrażeń, dodatkowe 1k6 +6 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci z modyfikatorem -2.
-20. poziom: umagicznienie +3, +4 do trafienia i obrażeń, dodatkowe 1k6 +8 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci z modyfikatorem -4.~
+@2011 = ~Wyczarowanie strzał żywiołów
+Tworzy specjalnie przygotowaną strzałę, pobłogosławioną przez bóstwo, które wyznaje łucznik. Pocisk istnieje przez osiem godzin i zawiera wiele ładunków. Ilość ładunków wzrasta dwukrotnie na poziomach 8 i 16.
+4. poziom: umagicznienie +1, +1 do testów trafienia i obrażeń, dodatkowe 1k3 obrażeń od ognia.
+8. poziom: umagicznienie +1, +2 do testów trafienia i obrażeń, dodatkowe 1k3 obrażeń od ognia i 1k3 obrażeń od zimna, oplątanie nienaturalnych istot przez dwie rundy (rzut obronny przeciw czarom neguje).
+12. poziom: umagicznienie +2, +2 do testów trafienia i obrażeń, dodatkowe 1k3 obrażeń od ognia, 1k3 obrażeń od zimna i 1k3 obrażeń od kwasu, oślepienie nienaturalnych istot przez dwie rundy (rzut obronny przeciw czarom neguje).
+16. poziom: umagicznienie +3, +3 do testów trafienia i obrażeń, dodatkowe 1k3 obrażeń od ognia, 1k3 obrażeń od zimna, 1k3 obrażeń od kwasu i 1k3 obrażeń od elektryczności, spowolnienie nienaturalnych istot przez dwie rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).
+20. poziom: umagicznienie +4, +4 do testów trafienia i obrażeń, dodatkowe 1k3 +2 obrażeń od ognia, 1k3 +2 obrażeń od zimna, 1k3 +2 obrażeń od kwasu i 1k3 +2 obrażeń od elektryczności, spowolnienie i oślepienie nienaturalnych istot przez dwie rundy (rzut obronny przeciw czarom z modyfikatorem -4 neguje).~
 
-@2006 = ~Stworzenie błogosławionych bełtów
-Tworzy przepełniony energią duchową bełt, pobłogosławiony przez bóstwo, które wyznaje strzelec. Bełt istnieje przez osiem godzin i zawiera wiele ładunków.
-4. poziom: umagicznienie +1, +1 do trafienia i obrażeń, dodatkowe 1k6 obrażeń i spowolnienie przez dwie rundy, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
-8. poziom: umagicznienie +1, +2 do trafienia i obrażeń, dodatkowe 1k6 +2 obrażeń i unieruchomienie przez dwie rundy, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
-12. poziom: umagicznienie +2, +2 do trafienia i obrażeń, dodatkowe 1k6 +4 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
-16. poziom: umagicznienie +3, +3 do trafienia i obrażeń, dodatkowe 1k6 +6 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci z modyfikatorem -2.
-20. poziom: umagicznienie +3, +4 do trafienia i obrażeń, dodatkowe 1k6 +8 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci z modyfikatorem -4.~
+@2012 = ~Wyczarowanie bełtów żywiołów
+Tworzy specjalnie przygotowany bełt, pobłogosławiony przez bóstwo, które wyznaje łucznik. Pocisk istnieje przez osiem godzin i zawiera wiele ładunków. Ilość ładunków wzrasta dwukrotnie na poziomach 8 i 16.
+4. poziom: umagicznienie +1, +1 do testów trafienia i obrażeń, dodatkowe 1k3 obrażeń od ognia.
+8. poziom: umagicznienie +1, +2 do testów trafienia i obrażeń, dodatkowe 1k3 obrażeń od ognia i 1k3 obrażeń od zimna, oplątanie nienaturalnych istot przez dwie rundy (rzut obronny przeciw czarom neguje).
+12. poziom: umagicznienie +2, +2 do testów trafienia i obrażeń, dodatkowe 1k3 obrażeń od ognia, 1k3 obrażeń od zimna i 1k3 obrażeń od kwasu, oślepienie nienaturalnych istot przez dwie rundy (rzut obronny przeciw czarom neguje).
+16. poziom: umagicznienie +3, +3 do testów trafienia i obrażeń, dodatkowe 1k3 obrażeń od ognia, 1k3 obrażeń od zimna, 1k3 obrażeń od kwasu i 1k3 obrażeń od elektryczności, spowolnienie nienaturalnych istot przez dwie rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).
+20. poziom: umagicznienie +4, +4 do testów trafienia i obrażeń, dodatkowe 1k3 +2 obrażeń od ognia, 1k3 +2 obrażeń od zimna, 1k3 +2 obrażeń od kwasu i 1k3 +2 obrażeń od elektryczności, spowolnienie i oślepienie nienaturalnych istot przez dwie rundy (rzut obronny przeciw czarom z modyfikatorem -4 neguje).~
 
-@2007 = ~Stworzenie błogosławionych pocisków
-Tworzy przepełniony energią duchową pocisk, pobłogosławiony przez bóstwo, które wyznaje strzelec. Pocisk istnieje przez osiem godzin i zawiera wiele ładunków.
-4. poziom: umagicznienie +1, +1 do trafienia i obrażeń, dodatkowe 1k6 obrażeń i spowolnienie przez dwie rundy, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
-8. poziom: umagicznienie +1, +2 do trafienia i obrażeń, dodatkowe 1k6 +2 obrażeń i unieruchomienie przez dwie rundy, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
-12. poziom: umagicznienie +2, +2 do trafienia i obrażeń, dodatkowe 1k6 +4 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
-16. poziom: umagicznienie +3, +3 do trafienia i obrażeń, dodatkowe 1k6 +6 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci z modyfikatorem -2.
-20. poziom: umagicznienie +3, +4 do trafienia i obrażeń, dodatkowe 1k6 +8 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci z modyfikatorem -4.~
+@2020 = ~Przywołanie błogosławionej amunicji
+Przywołuje specjalnie przygotowaną strzałę, bełt lub pocisk, pobłogosławione przez bóstwo, które wyznaje rycerz łucznik. Amunicja istnieje przez osiem godzin i zawiera wiele ładunków. Ilość ładunków wzrasta dwukrotnie na poziomach 8 i 16.
+4. poziom: umagicznienie +1, +1 do testów trafienia, dodatkowe 1k6 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym.
+8. poziom: umagicznienie +1, +2 do testów trafienia, dodatkowe 1k6 +2 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają oślepieni na dwie rundy (rzut obronny przeciw czarom neguje).
+12. poziom: umagicznienie +2, +2 do testów trafienia, dodatkowe 1k6 +4 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają spowolnieni na dwie rundy (rzut obronny przeciw czarom neguje).
+16. poziom: umagicznienie +3, +3 do testów trafienia, dodatkowe 1k6 +6 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają spowolnieni i oślepieni na dwie rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).
+20. poziom: umagicznienie +4, +4 do testów trafienia, dodatkowe 1k6 +8 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają unieruchomieni na dwie rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).~
 
-@2008 = ~Stworzenie błogosławionej amunicji
-Tworzy przepełnioną energią duchową strzałę, bełt lub pocisk, pobłogosławione przez bóstwo, które wyznaje strzelec. Amunicja istnieje przez osiem godzin i zawiera wiele ładunków.
-4. poziom: umagicznienie +1, +1 do trafienia i obrażeń, dodatkowe 1k6 obrażeń i spowolnienie przez dwie rundy, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
-8. poziom: umagicznienie +1, +2 do trafienia i obrażeń, dodatkowe 1k6 +2 obrażeń i unieruchomienie przez dwie rundy, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
-12. poziom: umagicznienie +2, +2 do trafienia i obrażeń, dodatkowe 1k6 +4 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci.
-16. poziom: umagicznienie +3, +3 do trafienia i obrażeń, dodatkowe 1k6 +6 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci z modyfikatorem -2.
-20. poziom: umagicznienie +3, +4 do trafienia i obrażeń, dodatkowe 1k6 +8 obrażeń i natychmiastowa śmierć, w przypadku nieumarłego, jeśli ten nie wykona rzutu obronnego przeciw śmierci z modyfikatorem -4.~
+@2021 = ~Przywołanie błogosławionych strzał
+Przywołuje specjalnie przygotowaną strzałę, pobłogosławioną przez bóstwo, które wyznaje rycerz łucznik. Amunicja istnieje przez osiem godzin i zawiera wiele ładunków. Ilość ładunków wzrasta dwukrotnie na poziomach 8 i 16.
+4. poziom: umagicznienie +1, +1 do testów trafienia, dodatkowe 1k6 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym.
+8. poziom: umagicznienie +1, +2 do testów trafienia, dodatkowe 1k6 +2 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają oślepieni na dwie rundy (rzut obronny przeciw czarom neguje).
+12. poziom: umagicznienie +2, +2 do testów trafienia, dodatkowe 1k6 +4 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają spowolnieni na dwie rundy (rzut obronny przeciw czarom neguje).
+16. poziom: umagicznienie +3, +3 do testów trafienia, dodatkowe 1k6 +6 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają spowolnieni i oślepieni na dwie rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).
+20. poziom: umagicznienie +4, +4 do testów trafienia, dodatkowe 1k6 +8 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają unieruchomieni na dwie rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).~
+
+@2022 = ~Przywołanie błogosławionych bełtów
+Przywołuje specjalnie przygotowany bełt, pobłogosławiony przez bóstwo, które wyznaje rycerz łucznik. Amunicja istnieje przez osiem godzin i zawiera wiele ładunków. Ilość ładunków wzrasta dwukrotnie na poziomach 8 i 16.
+4. poziom: umagicznienie +1, +1 do testów trafienia, dodatkowe 1k6 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym.
+8. poziom: umagicznienie +1, +2 do testów trafienia, dodatkowe 1k6 +2 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają oślepieni na dwie rundy (rzut obronny przeciw czarom neguje).
+12. poziom: umagicznienie +2, +2 do testów trafienia, dodatkowe 1k6 +4 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają spowolnieni na dwie rundy (rzut obronny przeciw czarom neguje).
+16. poziom: umagicznienie +3, +3 do testów trafienia, dodatkowe 1k6 +6 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają spowolnieni i oślepieni na dwie rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).
+20. poziom: umagicznienie +4, +4 do testów trafienia, dodatkowe 1k6 +8 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają unieruchomieni na dwie rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).~
+
+@2022 = ~Przywołanie błogosławionych pocisków
+Przywołuje specjalnie przygotowany pocisk, pobłogosławiony przez bóstwo, które wyznaje rycerz łucznik. Amunicja istnieje przez osiem godzin i zawiera wiele ładunków. Ilość ładunków wzrasta dwukrotnie na poziomach 8 i 16.
+4. poziom: umagicznienie +1, +1 do testów trafienia, dodatkowe 1k6 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym.
+8. poziom: umagicznienie +1, +2 do testów trafienia, dodatkowe 1k6 +2 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają oślepieni na dwie rundy (rzut obronny przeciw czarom neguje).
+12. poziom: umagicznienie +2, +2 do testów trafienia, dodatkowe 1k6 +4 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają spowolnieni na dwie rundy (rzut obronny przeciw czarom neguje).
+16. poziom: umagicznienie +3, +3 do testów trafienia, dodatkowe 1k6 +6 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają spowolnieni i oślepieni na dwie rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).
+20. poziom: umagicznienie +4, +4 do testów trafienia, dodatkowe 1k6 +8 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają unieruchomieni na dwie rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).~
+
+@2030 = ~Wytworzenie wzmocnionej amunicji
+Pozwala wytworzyć zestaw specjalnie przygotowanych strzał, bełtów lub pocisków. Ilość wytworzonych zestawów podwaja się na 16. poziomie.
+4. poziom: umagicznienie +1, premia +1 do testów trafienia, cel otrzymuje kumulatywną karę -1 do Klasy Pancerza na dwie rundy (rzut obronny przeciw śmierci neguje).
+8. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -1 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci neguje).
+12. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci neguje), a także zostaje odrzucony (rzut obronny przeciw zionięciom neguje).
+16. poziom: umagicznienie +3, premia +3 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje), a także zostaje odrzucony i ogłuszony na jedną rundę (rzut obronny przeciw zionięciom neguje).
+20. poziom: umagicznienie +4, premia +4 do testów trafienia, cel otrzymuje kumulatywną karę -3 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje), a także zostaje odrzucony i ogłuszony na jedną rundę (rzut obronny przeciw zionięciom z modyfikatorem -2 neguje).~
+
+@2031 = ~Wytworzenie wzmocnionych strzał
+Pozwala wytworzyć zestaw specjalnie przygotowanych strzał. Ilość wytworzonych zestawów podwaja się na 16. poziomie.
+4. poziom: umagicznienie +1, premia +1 do testów trafienia, cel otrzymuje kumulatywną karę -1 do Klasy Pancerza na dwie rundy (rzut obronny przeciw śmierci neguje).
+8. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -1 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci neguje).
+12. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci neguje), a także zostaje odrzucony (rzut obronny przeciw zionięciom neguje).
+16. poziom: umagicznienie +3, premia +3 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje), a także zostaje odrzucony i ogłuszony na jedną rundę (rzut obronny przeciw zionięciom neguje).
+20. poziom: umagicznienie +4, premia +4 do testów trafienia, cel otrzymuje kumulatywną karę -3 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje), a także zostaje odrzucony i ogłuszony na jedną rundę (rzut obronny przeciw zionięciom z modyfikatorem -2 neguje).~
+
+@2032 = ~Wytworzenie wzmocnionych bełtów
+Pozwala wytworzyć zestaw specjalnie przygotowanych bełtów. Ilość wytworzonych zestawów podwaja się na 16. poziomie.
+4. poziom: umagicznienie +1, premia +1 do testów trafienia, cel otrzymuje kumulatywną karę -1 do Klasy Pancerza na dwie rundy (rzut obronny przeciw śmierci neguje).
+8. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -1 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci neguje).
+12. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci neguje), a także zostaje odrzucony (rzut obronny przeciw zionięciom neguje).
+16. poziom: umagicznienie +3, premia +3 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje), a także zostaje odrzucony i ogłuszony na jedną rundę (rzut obronny przeciw zionięciom neguje).
+20. poziom: umagicznienie +4, premia +4 do testów trafienia, cel otrzymuje kumulatywną karę -3 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje), a także zostaje odrzucony i ogłuszony na jedną rundę (rzut obronny przeciw zionięciom z modyfikatorem -2 neguje).~
+
+@2033 = ~Wytworzenie wzmocnionych pocisków
+Pozwala wytworzyć zestaw specjalnie przygotowanych pocisków. Ilość wytworzonych zestawów podwaja się na 16. poziomie.
+4. poziom: umagicznienie +1, premia +1 do testów trafienia, cel otrzymuje kumulatywną karę -1 do Klasy Pancerza na dwie rundy (rzut obronny przeciw śmierci neguje).
+8. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -1 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci neguje).
+12. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci neguje), a także zostaje odrzucony (rzut obronny przeciw zionięciom neguje).
+16. poziom: umagicznienie +3, premia +3 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje), a także zostaje odrzucony i ogłuszony na jedną rundę (rzut obronny przeciw zionięciom neguje).
+20. poziom: umagicznienie +4, premia +4 do testów trafienia, cel otrzymuje kumulatywną karę -3 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje), a także zostaje odrzucony i ogłuszony na jedną rundę (rzut obronny przeciw zionięciom z modyfikatorem -2 neguje).~
+
+@2040 = ~Stworzenie zaczarowanej amunicji
+Pozwala wytworzyć zestaw specjalnie przygotowanych strzał lub bełtów. Ilość wytworzonych zestawów podwaja się na 16. poziomie.
+4. poziom: umagicznienie +1, premia +1 do testów trafienia, cel otrzymuje kumulatywną karę -1 do Klasy Pancerza na dwie rundy (rzut obronny przeciw śmierci neguje).
+8. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza na dwie rundy, chyba że wykona rzut obronny przeciw śmierci. Ponadto zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe 1 obrażenie od krwawienia na sekundę przez jedną rundę (rzut obronny przeciw śmierci neguje).
+12. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci neguje). Ponadto zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe 1 obrażenie od krwawienia na sekundę przez jedną rundę (rzut obronny przeciw śmierci neguje).
+16. poziom: umagicznienie +3, premia +3 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci neguje). Ponadto zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe 2 obrażenia od krwawienia na sekundę przez jedną rundę, a także zostają oślepione na dwie rundy (rzut obronny przeciw śmierci neguje).
+20. poziom: umagicznienie +4, premia +4 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje). Ponadto zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe 4 obrażenia od krwawienia na sekundę przez jedną rundę, a także zostają oślepione na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje).~
+
+@2041 = ~Stworzenie zaczarowanych strzał
+Pozwala wytworzyć zestaw specjalnie przygotowanych strzał. Ilość wytworzonych zestawów podwaja się na 16. poziomie.
+4. poziom: umagicznienie +1, premia +1 do testów trafienia, cel otrzymuje kumulatywną karę -1 do Klasy Pancerza na dwie rundy (rzut obronny przeciw śmierci neguje).
+8. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza na dwie rundy, chyba że wykona rzut obronny przeciw śmierci. Ponadto zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe 1 obrażenie od krwawienia na sekundę przez jedną rundę (rzut obronny przeciw śmierci neguje).
+12. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci neguje). Ponadto zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe 1 obrażenie od krwawienia na sekundę przez jedną rundę (rzut obronny przeciw śmierci neguje).
+16. poziom: umagicznienie +3, premia +3 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci neguje). Ponadto zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe 2 obrażenia od krwawienia na sekundę przez jedną rundę, a także zostają oślepione na dwie rundy (rzut obronny przeciw śmierci neguje).
+20. poziom: umagicznienie +4, premia +4 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje). Ponadto zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe 4 obrażenia od krwawienia na sekundę przez jedną rundę, a także zostają oślepione na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje).~
+
+@2042 = ~Stworzenie zaczarowanych bełtów
+Pozwala wytworzyć zestaw specjalnie przygotowanych bełtów. Ilość wytworzonych zestawów podwaja się na 16. poziomie.
+4. poziom: umagicznienie +1, premia +1 do testów trafienia, cel otrzymuje kumulatywną karę -1 do Klasy Pancerza na dwie rundy (rzut obronny przeciw śmierci neguje).
+8. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza na dwie rundy, chyba że wykona rzut obronny przeciw śmierci. Ponadto zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe 1 obrażenie od krwawienia na sekundę przez jedną rundę (rzut obronny przeciw śmierci neguje).
+12. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci neguje). Ponadto zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe 1 obrażenie od krwawienia na sekundę przez jedną rundę (rzut obronny przeciw śmierci neguje).
+16. poziom: umagicznienie +3, premia +3 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci neguje). Ponadto zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe 2 obrażenia od krwawienia na sekundę przez jedną rundę, a także zostają oślepione na dwie rundy (rzut obronny przeciw śmierci neguje).
+20. poziom: umagicznienie +4, premia +4 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje). Ponadto zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe 4 obrażenia od krwawienia na sekundę przez jedną rundę, a także zostają oślepione na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje).~

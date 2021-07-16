@@ -302,12 +302,14 @@ Only usable by:
  Ranger~
 
 @1111 = ~Sure Shot
+
 High-level shooters have gained perfect control over their ranged weapon of choice which allows them to point out and target vital areas of the opponent with frightening precision and speed. By enabling this ability, the shooter takes up <PRO_HISHER> stance and shoots missiles in rapid succession. For the next 12 seconds this ability sets one's number of attacks per round to 10 and every shot is considered a critical hit.
 Since this technique requires utmost skill and concentration, the shooter is rooted to the spot for the next two rounds. It can not be used together with other shot abilities.
 
 Requires: Critical Strike~
 
 @1112 = ~Set Missile Trap
+
 This ability allows the shooter to set a powerful spring-loaded missile trap in the chosen location when no hostile creatures are in sight. It does 3d10 missile damage and each 1d10 damage of various elemental types to the unsuspecting creature that sets it off.~
 
 @1113 = ~These enchanted missiles surpass the craftsmanship of many arrow, magical or otherwise, you have seen. 
