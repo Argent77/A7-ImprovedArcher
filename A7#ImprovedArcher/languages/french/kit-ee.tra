@@ -1,89 +1,74 @@
 // -*- coding: utf-8 -*-
 
 // Descriptions
-@1101 = ~Cette flèche a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
-Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
+@1101 = ~Cette flèche a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et déchaîne la colère vertueuse de la divinité contre les morts-vivants, les démons et les diables de toute espèce. Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
 
 PARAMÈTRES :
-
-Capacités de combat :
-– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort pour ne pas être ralenti pendant 2 rounds.
 
 Enchantement : +1
 TAC0 : +1
-Dégâts : 1d6+1, 1d6 points supplémentaires contre les morts-vivants
-Type de dégâts : projectile (perforant)
+Dégâts : 1d6+1 (projectile), 1d6 points magiques supplémentaires contre les morts-vivants, les démons et les diables
 Lanceur : arc
 
 Poids : 0~
 
-@1102 = ~Cette flèche a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
-Son enchantement divin dure huit heures et permet à son utilisateur de décocher une vingtaine de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
+@1102 = ~Cette flèche a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et déchaîne la colère vertueuse de la divinité contre les morts-vivants, les démons et les diables de toute espèce. Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
 
 PARAMÈTRES :
 
 Capacités de combat :
-– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort pour ne pas être paralysé pendant 2 rounds.
-
-Enchantement : +1
-TAC0 : +2
-Dégâts : 1d6+2, 1d6+2 points supplémentaires contre les morts-vivants
-Type de dégâts : projectile (perforant)
-Lanceur : arc
-
-Poids : 0~
-
-
-@1103 = ~Cette flèche a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales. Grâce à la bénédiction dont elle bénéficie, elle inflige des dégâts supplémentaires aux morts-vivants et peut même les détruire.
-Son enchantement divin dure huit heures et permet à son utilisateur de décocher une vingtaine de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
-
-PARAMÈTRES :
-
-Capacités de combat :
-– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort pour ne pas être complètement détruit.
+– Tout mort-vivant, démon ou diable touché doit réussir un jet de sauvegarde contre les sorts pour ne pas être aveuglé pendant 2 rounds.
 
 Enchantement : +2
 TAC0 : +2
-Dégâts : 1d6+2, 1d6+4 points supplémentaires contre les morts-vivants
-Type de dégâts : projectile (perforant)
+Dégâts : 1d6+2 (projectile), 1d6+2 points magiques supplémentaires contre les morts-vivants, les démons et les diables
 Lanceur : arc
 
 Poids : 0~
 
-@1104 = ~Cette flèche a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales. Grâce à la bénédiction dont elle bénéficie, elle inflige des dégâts supplémentaires aux morts-vivants et peut même les détruire.
-Son enchantement divin dure huit heures et permet à son utilisateur de décocher une vingtaine de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
+@1103 = ~Cette flèche a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et déchaîne la colère vertueuse de la divinité contre les morts-vivants, les démons et les diables de toute espèce. Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
 
 PARAMÈTRES :
 
 Capacités de combat :
-– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort avec un malus de 2 pour ne pas être complètement détruit.
+– Tout mort-vivant, démon ou diable touché doit réussir un jet de sauvegarde contre les sorts pour ne pas être ralenti pendant 2 rounds.
+
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d6+2 (projectile), 1d6+4 points magiques supplémentaires contre les morts-vivants, les démons et les diables
+Lanceur : arc
+
+Poids : 0~
+
+@1104 = ~Cette flèche a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et déchaîne la colère vertueuse de la divinité contre les morts-vivants, les démons et les diables de toute espèce. Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Tout mort-vivant, démon ou diable touché doit réussir un jet de sauvegarde contre les sorts avec un malus de 2 pour ne pas être ralenti et aveuglé pendant 2 rounds.
 
 Enchantement : +3
 TAC0 : +3
-Dégâts : 1d6+3, 1d6+6 points supplémentaires contre les morts-vivants
-Type de dégâts : projectile (perforant)
+Dégâts : 1d6+3 (projectile), 1d6+6 points magiques supplémentaires contre les morts-vivants, les démons et les diables
 Lanceur : arc
 
 Poids : 0~
 
-@1105 = ~Cette flèche a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales. Grâce à la bénédiction dont elle bénéficie, elle inflige des dégâts supplémentaires aux morts-vivants et peut même les détruire.
-Son enchantement divin dure huit heures et permet à son utilisateur de décocher une vingtaine de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
+@1105 = ~Cette flèche a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et déchaîne la colère vertueuse de la divinité contre les morts-vivants, les démons et les diables de toute espèce. Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
 
 PARAMÈTRES :
 
 Capacités de combat :
-– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort avec un malus de 4 pour ne pas être complètement détruit.
+– Tout mort-vivant, démon ou diable touché doit réussir un jet de sauvegarde contre les sorts avec un malus de 2 pour ne pas être paralysé pendant 2 rounds.
 
 Enchantement : +4
 TAC0 : +4
-Dégâts : 1d6+4, 1d6+8 points supplémentaires contre les morts-vivants
-Type de dégâts : projectile (perforant)
+Dégâts : 1d6+4 (projectile), 1d6+8 points magiques supplémentaires contre les morts-vivants, les démons et les diables
 Lanceur : arc
 
 Poids : 0~
 
-@1106 = ~Ce carreau a été béni par la divinité tutélaire du personnage. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
-Son enchantement divin dure huit heures et permet à son utilisateur de décocher une vingtaine de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
+@1106 = ~Ce carreau a été béni par la divinité tutélaire du personnage. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales et déchaîne la colère vertueuse de la divinité contre les morts-vivants, les démons et les diables de toute espèce. Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
 
 PARAMÈTRES :
 
@@ -92,72 +77,63 @@ Capacités de combat :
 
 Enchantement : +1
 TAC0 : +1
-Dégâts : 1d8+1, 1d6 points supplémentaires contre les morts-vivants
-Type de dégâts : projectile (perforant)
+Dégâts : 1d8+1 (projectile), 1d6 points magiques supplémentaires contre les morts-vivants, les démons et les diables
 Lanceur : arbalète
 
 Poids : 0~
 
-@1107 = ~Ce carreau a été béni par la divinité tutélaire du personnage. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
-Son enchantement divin dure huit heures et permet à son utilisateur de décocher une vingtaine de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
+@1107 = ~Ce carreau a été béni par la divinité tutélaire du personnage. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales et déchaîne la colère vertueuse de la divinité contre les morts-vivants, les démons et les diables de toute espèce. Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
 
 PARAMÈTRES :
 
 Capacités de combat :
-– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort pour ne pas être paralysé pendant 2 rounds.
-
-Enchantement : +1
-TAC0 : +2
-Dégâts : 1d8+2, 1d6+2 points supplémentaires contre les morts-vivants
-Type de dégâts : projectile (perforant)
-Lanceur : arbalète
-
-Poids : 0~
-
-@1108 = ~Ce carreau a été béni par la divinité tutélaire du personnage. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales. Grâce à la bénédiction dont il bénéficie, il inflige des dégâts supplémentaires aux morts-vivants et peut même les détruire.
-Son enchantement divin dure huit heures et permet à son utilisateur de décocher une vingtaine de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
-
-PARAMÈTRES :
-
-Capacités de combat :
-– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort pour ne pas être complètement détruit.
+– Tout mort-vivant, démon et diable touché doit réussir un jet de sauvegarde contre les sorts pour ne pas être aveuglé pendant 2 rounds.
 
 Enchantement : +2
 TAC0 : +2
-Dégâts : 1d8+2, 1d6+4 points supplémentaires contre les morts-vivants
-Type de dégâts : projectile (perforant)
+Dégâts : 1d8+2 (projectile), 1d6+2 points magiques supplémentaires contre les morts-vivants, les démons et les diables
 Lanceur : arbalète
 
 Poids : 0~
 
-@1109 = ~Ce carreau a été béni par la divinité tutélaire du personnage. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales. Grâce à la bénédiction dont il bénéficie, il inflige des dégâts supplémentaires aux morts-vivants et peut même les détruire.
-Son enchantement divin dure huit heures et permet à son utilisateur de décocher une vingtaine de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
+@1108 = ~Ce carreau a été béni par la divinité tutélaire du personnage. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales et déchaîne la colère vertueuse de la divinité contre les morts-vivants, les démons et les diables de toute espèce. Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
 
 PARAMÈTRES :
 
 Capacités de combat :
-– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort avec un malus de 2 pour ne pas être complètement détruit.
+– Tout mort-vivant, démon et diable touché doit réussir un jet de sauvegarde contre les sorts pour ne pas être ralenti pendant 2 rounds.
+
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d8+2 (projectile), 1d6+4 points magiques supplémentaires contre les morts-vivants, les démons et les diables
+Lanceur : arbalète
+
+Poids : 0~
+
+@1109 = ~Ce carreau a été béni par la divinité tutélaire du personnage. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales et déchaîne la colère vertueuse de la divinité contre les morts-vivants, les démons et les diables de toute espèce. Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Tout mort-vivant, démon ou diable touché doit réussir un jet de sauvegarde contre les sorts avec un malus de 2 pour ne pas être ralenti et aveuglé pendant 2 rounds.
 
 Enchantement : +3
 Poids : +3
-Dégâts : 1d8+3, 1d6+6 points supplémentaires contre les morts-vivants
-Type de dégâts : projectile (perforant)
+Dégâts : 1d8+3 (projectile), 1d6+6 points magiques supplémentaires contre les morts-vivants, les démons et les diables
 Lanceur : arbalète
 
 Poids : 0~
 
-@1110 = ~Ce carreau a été béni par la divinité tutélaire du personnage. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales. Grâce à la bénédiction dont il bénéficie, il inflige des dégâts supplémentaires aux morts-vivants et peut même les détruire.
-Son enchantement divin dure huit heures et permet à son utilisateur de décocher une vingtaine de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
+@1110 = ~Ce carreau a été béni par la divinité tutélaire du personnage. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales et déchaîne la colère vertueuse de la divinité contre les morts-vivants, les démons et les diables de toute espèce. Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
 
 PARAMÈTRES :
 
 Capacités de combat :
-– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort avec un malus de 4 pour ne pas être complètement détruit.
+– Tout mort-vivant, démon ou diable touché doit réussir un jet de sauvegarde contre les sorts avec un malus de 2 pour ne pas être paralysé pendant 2 rounds.
 
 Enchantement : +4
 Poids : +4
-Dégâts : 1d8+4, 1d6+8 points supplémentaires contre les morts-vivants
-Type de dégâts : projectile (perforant)
+Dégâts : 1d8+4 (projectile), 1d6+8 points magiques supplémentaires contre les morts-vivants, les démons et les diables
 Lanceur : arbalète
 
 Poids : 0~
@@ -167,7 +143,7 @@ Poids : 0~
 PARAMÈTRES :
 
 TAC0 : +3
-Dégâts : 1d6 (projectile)
+Dégâts : 1d6+3 (projectile)
 Lanceur : arc
 
 Poids : 0~
@@ -177,7 +153,7 @@ Poids : 0~
 PARAMÈTRES :
 
 TAC0 : +3
-Dégâts : 1d8 (projectile)
+Dégâts : 1d8+3 (projectile)
 Lanceur : arbalète
 
 Poids : 0~
@@ -187,7 +163,7 @@ Poids : 0~
 PARAMÈTRES :
 
 TAC0 : +4
-Dégâts : 1d6 (projectile)
+Dégâts : 1d6+4 (projectile)
 Lanceur : arc
 
 Poids : 0~
@@ -197,7 +173,7 @@ Poids : 0~
 PARAMÈTRES :
 
 TAC0 : +4
-Dégâts : 1d8 (projectile)
+Dégâts : 1d8+4 (projectile)
 Lanceur : arbalète
 
 Poids : 0~
@@ -211,7 +187,7 @@ Capacité de charge :
 – Protection contre les projectiles normaux deux fois par jour
 
 Capacités de combat :
-– Cet arc n'a pas besoin de flèches et tire des flèches +3 bénéficiant d'un TAC0 +4 et infligeant 1d6 points de dégâts perforants.
+– Cet arc n'a pas besoin de flèches et tire des flèches +3 bénéficiant d'un TAC0 de +4 et infligeant 1d6 points de dégâts perforants.
 
 TAC0 : +4
 Facteur de vitesse : 2
@@ -239,94 +215,663 @@ Nécessite : 18 en Force
 
 Poids : 5~
 
-@1120 = ~Cette bille a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
-Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la bille s'évaporera.
+@1119 = ~Druide~
+ 
+@1120 = ~Cette bille a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et déchaîne la colère vertueuse de la divinité contre les morts-vivants, les démons et les diables de toute espèce. Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la bille s'évaporera.
 
 PARAMÈTRES :
-
-Capacités de combat :
-– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort pour ne pas être ralenti pendant 2 rounds.
 
 Enchantement : +1
 TAC0 : +1
-Dégâts : 1d4+2, 1d6 points supplémentaires contre les morts-vivants
-Type de dégâts : projectile (perforant)
+Dégâts : 1d4+2 (projectile), 1d6 points magiques supplémentaires contre les morts-vivants, les démons et les diables
 Lanceur : fronde
 
 Poids : 0~
 
-@1121 = ~Cette bille a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
-Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la bille s'évaporera.
+@1121 = ~Cette bille a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et déchaîne la colère vertueuse de la divinité contre les morts-vivants, les démons et les diables de toute espèce. Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la bille s'évaporera.
 
 PARAMÈTRES :
 
 Capacités de combat :
-– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort pour ne pas être paralysé pendant 2 rounds.
-
-Enchantement : +1
-TAC0 : +2
-Damage: 1d4+3, 1d6+2 points supplémentaires contre les morts-vivants
-Type de dégâts : projectile (perforant)
-Lanceur : fronde
-
-Poids : 0~
-
-@1122 = ~Cette bille a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
-Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la bille s'évaporera.
-
-PARAMÈTRES :
-
-Capacités de combat :
-– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort pour ne pas être complètement détruit.
+– Tout mort-vivant, démon et diable touché doit réussir un jet de sauvegarde contre les sorts pour ne pas être aveuglé pendant 2 rounds.
 
 Enchantement : +2
 TAC0 : +2
-Damage: 1d4+3, 1d6+4 points supplémentaires contre les morts-vivants
-Type de dégâts : projectile (perforant)
+Dégâts : 1d4+3 (projectile), 1d6+2 points magiques supplémentaires contre les morts-vivants, les démons et les diables
 Lanceur : fronde
 
 Poids : 0~
 
-@1123 = ~Cette bille a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
-Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la bille s'évaporera.
+@1122 = ~Cette bille a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et déchaîne la colère vertueuse de la divinité contre les morts-vivants, les démons et les diables de toute espèce. Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la bille s'évaporera.
 
 PARAMÈTRES :
 
 Capacités de combat :
-– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort avec un malus de 2 pour ne pas être complètement détruit.
+– Tout mort-vivant, démon et diable touché doit réussir un jet de sauvegarde contre les sorts pour ne pas être ralenti pendant 2 rounds.
+
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d4+3 (projectile), 1d6+4 points magiques supplémentaires contre les morts-vivants, les démons et les diables
+Lanceur : fronde
+
+Poids : 0~
+
+@1123 = ~Cette bille a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et déchaîne la colère vertueuse de la divinité contre les morts-vivants, les démons et les diables de toute espèce. Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la bille s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+– Tout mort-vivant, démon ou diable touché doit réussir un jet de sauvegarde contre les sorts avec un malus de 2 pour ne pas être ralenti et aveuglé pendant 2 rounds.
 
 Enchantement : +3
 TAC0 : +3
-Damage: 1d4+4, 1d6+6 points supplémentaires contre les morts-vivants
-Type de dégâts : projectile (perforant)
+Dégâts : 1d4+4 (projectile), 1d6+6 points magiques supplémentaires contre les morts-vivants, les démons et les diables
 Lanceur : fronde
 
 Poids : 0~
 
-@1124 = ~Cette bille a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et inflige des dégâts supplémentaires à tous les morts-vivants.
-Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la bille s'évaporera.
+@1124 = ~Cette bille a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et déchaîne la colère vertueuse de la divinité contre les morts-vivants, les démons et les diables de toute espèce. Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la bille s'évaporera.
 
 PARAMÈTRES :
 
 Capacités de combat :
-– Tout mort-vivant touché doit réussir un jet de sauvegarde contre la mort avec un malus de 4 pour ne pas être complètement détruit.
+– Tout mort-vivant, démon et diable touché doit réussir un jet de sauvegarde contre les sorts pour ne pas être paralysé pendant 2 rounds.
 
 Enchantement : +4
 TAC0 : +4
-Damage: 1d4+5, 1d6+8 points supplémentaires contre les morts-vivants
-Type de dégâts : projectile (perforant)
+Dégâts : 1d4+5 (projectile), 1d6+8 points magiques supplémentaires contre les morts-vivants, les démons et les diables
 Lanceur : fronde
 
 Poids : 0~
+
+
+@1125 = ~Cette flèche a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et les frappe avec les énergies brutes de l'univers. Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
+
+PARAMÈTRES :
+
+Enchantement : +1
+TAC0 : +1
+Dégâts : 1d6+1 (projectile), 1d3 points supplémentaires de feu
+Lanceur : arc
+
+Poids : 0~
+
+@1126 = ~Cette flèche a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et les frappe avec les énergies brutes de l'univers. Les êtres non naturels, comme les morts-vivants ou les créatures artificielles, peuvent subir des effets néfastes supplémentaires. Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- Tout être non naturel touché doit réussir un jet de sauvegarde contre les sorts pour ne pas être enchevêtré pendant 2 rounds.
+
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d6+2 (projectile), 1d3 points supplémentaires de feu et de froid
+Lanceur : arc
+
+Poids : 0~
+
+@1127 = ~Cette flèche a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et les frappe avec les énergies brutes de l'univers. Les êtres non naturels, comme les morts-vivants ou les créatures artificielles, peuvent subir des effets néfastes supplémentaires. Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- Tout être non naturel touché doit réussir un jet de sauvegarde contre les sorts pour ne pas être aveuglé pendant 2 rounds.
+
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d6+2 (projectile), 1d3 points supplémentaires de feu, de froid et d'acide
+Lanceur : arc
+
+Poids : 0~
+
+@1128 = ~Cette flèche a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et les frappe avec les énergies brutes de l'univers. Les êtres non naturels, comme les morts-vivants ou les créatures artificielles, peuvent subir des effets néfastes supplémentaires. Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- Tout être non naturel touché doit réussir un jet de sauvegarde contre les sorts avec un malus de 2 pour ne pas être ralenti pendant 2 rounds.
+
+Enchantement : +3
+TAC0 : +3
+Dégâts : 1d6+3 (projectile), 1d3 points supplémentaires de feu, de froid, d'acide et d'électricité
+Lanceur : arc
+
+Poids : 0~
+
+@1129 = ~Cette flèche a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et les frappe avec les énergies brutes de l'univers. Les êtres non naturels, comme les morts-vivants ou les créatures artificielles, peuvent subir des effets néfastes supplémentaires. Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- Tout être non naturel touché doit réussir un jet de sauvegarde contre les sorts avec un malus de 4 pour ne pas être ralenti et aveuglé pendant 2 rounds.
+
+Enchantement : +4
+TAC0 : +4
+Dégâts : 1d6+4 (projectile), 1d3+2 points supplémentaires de feu, de froid, d'acide et d'électricité
+Lanceur : arc
+
+Poids : 0~
+
+@1130 = ~Ce carreau a été béni par la divinité tutélaire du personnage. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales et les frappe avec les énergies brutes de l'univers. Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
+
+PARAMÈTRES :
+
+Enchantement : +1
+TAC0 : +1
+Dégâts : 1d8+1 (projectile), 1d3 points supplémentaires de feu
+Lanceur : arbalète
+
+Poids : 0~
+
+@1131 = ~Ce carreau a été béni par la divinité tutélaire du personnage. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales et les frappe avec les énergies brutes de l'univers. Les êtres non naturels, comme les morts-vivants ou les créatures artificielles, peuvent subir des effets néfastes supplémentaires. Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- Tout être non naturel touché doit réussir un jet de sauvegarde contre les sorts pour ne pas être enchevêtré pendant 2 rounds.
+
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d8+2 (projectile), 1d3 points supplémentaires de feu et de froid
+Lanceur : arbalète
+
+Poids : 0~
+
+@1132 = ~Ce carreau a été béni par la divinité tutélaire du personnage. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales et les frappe avec les énergies brutes de l'univers. Les êtres non naturels, comme les morts-vivants ou les créatures artificielles, peuvent subir des effets néfastes supplémentaires. Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- Tout être non naturel touché doit réussir un jet de sauvegarde contre les sorts pour ne pas être aveuglé pendant 2 rounds.
+
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d8+2 (projectile), 1d3 points supplémentaires de feu, de froid et d'acide
+Lanceur : arbalète
+
+Poids : 0~
+
+@1133 = ~Ce carreau a été béni par la divinité tutélaire du personnage. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales et les frappe avec les énergies brutes de l'univers. Les êtres non naturels, comme les morts-vivants ou les créatures artificielles, peuvent subir des effets néfastes supplémentaires. Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- Tout être non naturel touché doit réussir un jet de sauvegarde contre les sorts avec un malus de 2 pour ne pas être ralenti pendant 2 rounds.
+
+Enchantement : +3
+TAC0 : +3
+Dégâts : 1d8+3 (projectile), 1d3 points supplémentaires de feu, de froid, d'acide et d'électricité
+Lanceur : arbalète
+
+Poids : 0~
+
+@1134 = ~Ce carreau a été béni par la divinité tutélaire du personnage. Il peut percer les défenses des créatures immunisées contre les attaques physiques normales et les frappe avec les énergies brutes de l'univers. Les êtres non naturels, comme les morts-vivants ou les créatures artificielles, peuvent subir des effets néfastes supplémentaires. Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, le carreau s'évaporera.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- Tout être non naturel touché doit réussir un jet de sauvegarde contre les sorts avec un malus de 4 pour ne pas être ralenti et aveuglé pendant 2 rounds.
+
+Enchantement : +4
+TAC0 : +4
+Dégâts : 1d8+4 (projectile), 1d3+2 points supplémentaires de feu, de froid, d'acide et d'électricité
+Lanceur : arbalète
+
+Poids : 0~
+
+@1135 = ~Cette flèche a été spécialement renforcée pour exploiter tout le potentiel de l'adresse au tir du personnage. Bénéficiant d'une précision accrue, elle peut aussi affaiblir la cible à l'impact. Seuls ceux qui se sont consacrés à l'art du combat physique peuvent manipuler ces flèches correctement.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- La cible touchée souffre d'une pénalité cumulative de 1 à la classe d'armure pendant deux rounds (Jet de sauvegarde contre la mort annule)
+
+Enchantement : +1
+TAC0 : +1
+Dégâts : 1d6+1 (projectile)
+Lanceur : arc
+
+Poids : 0~
+
+@1136 = ~Cette flèche a été spécialement renforcée pour exploiter tout le potentiel de l'adresse au tir du personnage. Bénéficiant d'une précision accrue, elle peut aussi affaiblir la cible à l'impact. Seuls ceux qui se sont consacrés à l'art du combat physique peuvent manipuler ces flèches correctement.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- La cible touchée souffre d'une pénalité cumulative de 1 à la classe d'armure et au jet de toucher pendant deux rounds (Jet de sauvegarde contre la mort annule)
+
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d6+2 (projectile)
+Lanceur : arc
+
+Poids : 0~
+
+@1137 = ~Cette flèche a été spécialement renforcée pour exploiter tout le potentiel de l'adresse au tir du personnage. Bénéficiant d'une précision accrue, elle peut aussi affaiblir la cible à l'impact. Seuls ceux qui se sont consacrés à l'art du combat physique peuvent manipuler ces flèches correctement.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- La cible touchée souffre d'une pénalité cumulative de 2 à la classe d'armure et au jet de toucher pendant deux rounds (Jet de sauvegarde contre la mort annule)
+- La cible touchée est renversée (Jet de sauvegarde contre le souffle annule)
+
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d6+2 (projectile)
+Lanceur : arc
+
+Poids : 0~
+
+@1138 = ~Cette flèche a été spécialement renforcée pour exploiter tout le potentiel de l'adresse au tir du personnage. Bénéficiant d'une précision accrue, elle peut aussi affaiblir la cible à l'impact. Seuls ceux qui se sont consacrés à l'art du combat physique peuvent manipuler ces flèches correctement.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- La cible touchée souffre d'une pénalité cumulative de 2 à la classe d'armure et au jet de toucher pendant deux rounds (Jet de sauvegarde contre la mort avec un malus de 2 annule)
+- La cible touchée est renversée et étourdie pendant un round (Jet de sauvegarde contre le souffle annule)
+
+Enchantement : +3
+TAC0 : +3
+Dégâts : 1d6+3 (projectile)
+Lanceur : arc
+
+Poids : 0~
+
+@1139 = ~Cette flèche a été spécialement renforcée pour exploiter tout le potentiel de l'adresse au tir du personnage. Bénéficiant d'une précision accrue, elle peut aussi affaiblir la cible à l'impact. Seuls ceux qui se sont consacrés à l'art du combat physique peuvent manipuler ces flèches correctement.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- La cible touchée souffre d'une pénalité cumulative de 3 à la classe d'armure et au jet de toucher, et de 1 à la Force, pendant deux rounds (Jet de sauvegarde contre la mort avec un malus de 2 annule)
+- La cible touchée est renversée et étourdie pendant un round (Jet de sauvegarde contre le souffle avec un malus de 2 annule)
+
+Enchantement : +4
+TAC0 : +4
+Dégâts : 1d6+4 (projectile)
+Lanceur : arc
+
+Poids : 0~
+
+@1140 = ~Ce carreau a été spécialement renforcé pour exploiter tout le potentiel de l'adresse au tir du personnage. Bénéficiant d'une précision accrue, il peut aussi affaiblir la cible à l'impact. Seuls ceux qui se sont consacrés à l'art du combat physique peuvent manipuler correctement ces carreaux.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- La cible touchée souffre d'une pénalité cumulative de 1 à la classe d'armure pendant deux rounds (Jet de sauvegarde contre la mort annule)
+
+Enchantement : +1
+TAC0 : +1
+Dégâts : 1d8+1 (projectile)
+Lanceur : arbalète
+
+Poids : 0~
+
+@1141 = ~Ce carreau a été spécialement renforcé pour exploiter tout le potentiel de l'adresse au tir du personnage. Bénéficiant d'une précision accrue, il peut aussi affaiblir la cible à l'impact. Seuls ceux qui se sont consacrés à l'art du combat physique peuvent manipuler correctement ces carreaux.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- La cible touchée souffre d'une pénalité cumulative de 1 à la classe d'armure et au jet de toucher pendant deux rounds (Jet de sauvegarde contre la mort annule)
+
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d8+2 (projectile)
+Lanceur : arbalète
+
+Poids : 0~
+
+@1142 = ~Ce carreau a été spécialement renforcé pour exploiter tout le potentiel de l'adresse au tir du personnage. Bénéficiant d'une précision accrue, il peut aussi affaiblir la cible à l'impact. Seuls ceux qui se sont consacrés à l'art du combat physique peuvent manipuler correctement ces carreaux.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- La cible touchée souffre d'une pénalité cumulative de 2 à la classe d'armure et au jet de toucher pendant deux rounds (Jet de sauvegarde contre la mort annule)
+- La cible touchée est renversée (Jet de sauvegarde contre le souffle annule)
+
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d8+2 (projectile)
+Lanceur : arbalète
+
+Poids : 0~
+
+@1143 = ~Ce carreau a été spécialement renforcé pour exploiter tout le potentiel de l'adresse au tir du personnage. Bénéficiant d'une précision accrue, il peut aussi affaiblir la cible à l'impact. Seuls ceux qui se sont consacrés à l'art du combat physique peuvent manipuler correctement ces carreaux.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- La cible touchée souffre d'une pénalité cumulative de 2 à la classe d'armure et au jet de toucher pendant deux rounds (Jet de sauvegarde contre la mort avec un malus de 2 annule)
+- La cible touchée est renversée et étourdie pendant un round (Jet de sauvegarde contre le souffle annule)
+
+Enchantement : +3
+TAC0 : +3
+Dégâts : 1d8+3 (projectile)
+Lanceur : arbalète
+
+Poids : 0~
+
+@1144 = ~Ce carreau a été spécialement renforcé pour exploiter tout le potentiel de l'adresse au tir du personnage. Bénéficiant d'une précision accrue, il peut aussi affaiblir la cible à l'impact. Seuls ceux qui se sont consacrés à l'art du combat physique peuvent manipuler correctement ces carreaux.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- La cible touchée souffre d'une pénalité cumulative de 3 à la classe d'armure et au jet de toucher, et de 1 à la Force, pendant deux rounds (Jet de sauvegarde contre la mort avec un malus de 2 annule)
+- La cible touchée est renversée et étourdie pendant un round (Jet de sauvegarde contre le souffle avec un malus de 2 annule)
+
+Enchantement : +4
+TAC0 : +4
+Dégâts : 1d8+4 (projectile)
+Lanceur : arbalète
+
+Poids : 0~
+
+@1145 = ~Cette bille a été spécialement renforcée pour exploiter tout le potentiel de l'adresse au tir du personnage. Bénéficiant d'une précision accrue, elle peut aussi affaiblir la cible à l'impact. Seuls ceux qui se sont consacrés à l'art du combat physique peuvent manipuler correctement ces billes.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- La cible touchée souffre d'une pénalité cumulative de 1 à la classe d'armure pendant deux rounds (Jet de sauvegarde contre la mort annule)
+
+Enchantement : +1
+TAC0 : +1
+Dégâts : 1d4+2 (projectile)
+Lanceur : fronde
+
+Poids : 0~
+
+@1146 = ~Cette bille a été spécialement renforcée pour exploiter tout le potentiel de l'adresse au tir du personnage. Bénéficiant d'une précision accrue, elle peut aussi affaiblir la cible à l'impact. Seuls ceux qui se sont consacrés à l'art du combat physique peuvent manipuler correctement ces billes.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- La cible touchée souffre d'une pénalité cumulative de 1 à la classe d'armure et au jet de toucher pendant deux rounds (Jet de sauvegarde contre la mort annule)
+
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d4+3 (projectile)
+Lanceur : fronde
+
+Poids : 0~
+
+@1147 = ~Cette bille a été spécialement renforcée pour exploiter tout le potentiel de l'adresse au tir du personnage. Bénéficiant d'une précision accrue, elle peut aussi affaiblir la cible à l'impact. Seuls ceux qui se sont consacrés à l'art du combat physique peuvent manipuler correctement ces billes.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- La cible touchée souffre d'une pénalité cumulative de 2 à la classe d'armure et au jet de toucher pendant deux rounds (Jet de sauvegarde contre la mort annule)
+- La cible touchée est renversée (Jet de sauvegarde contre le souffle annule)
+
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d4+3 (projectile)
+Lanceur : fronde
+
+Poids : 0~
+
+@1148 = ~Cette bille a été spécialement renforcée pour exploiter tout le potentiel de l'adresse au tir du personnage. Bénéficiant d'une précision accrue, elle peut aussi affaiblir la cible à l'impact. Seuls ceux qui se sont consacrés à l'art du combat physique peuvent manipuler correctement ces billes.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- La cible touchée souffre d'une pénalité cumulative de 2 à la classe d'armure et au jet de toucher pendant deux rounds (Jet de sauvegarde contre la mort avec un malus de 2 annule)
+- La cible touchée est renversée et étourdie pendant un round (Jet de sauvegarde contre le souffle annule)
+
+Enchantement : +3
+TAC0 : +3
+Dégâts : 1d4+4 (projectile)
+Lanceur : fronde
+
+Poids : 0~
+
+@1149 = ~Cette bille a été spécialement renforcée pour exploiter tout le potentiel de l'adresse au tir du personnage. Bénéficiant d'une précision accrue, elle peut aussi affaiblir la cible à l'impact. Seuls ceux qui se sont consacrés à l'art du combat physique peuvent manipuler correctement ces billes.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- La cible touchée souffre d'une pénalité cumulative de 3 à la classe d'armure et au jet de toucher, et de 1 à la Force, pendant deux rounds (Jet de sauvegarde contre la mort avec un malus de 2 annule)
+- La cible touchée est renversée et étourdie pendant un round (Jet de sauvegarde contre le souffle avec un malus de 2 annule)
+
+Enchantement : +4
+TAC0 : +4
+Dégâts : 1d4+5 (projectile)
+Lanceur : fronde
+
+Poids : 0~
+
+@1150 = ~Cette flèche a été soigneusement façonnée dans le but d'affaiblir les capacités de combat de sa cible. En plus d'une meilleure précision, elle bénéficie d'un design particulier qui peut altérer les défenses de la cible à l'impact. Seuls ceux qui connaissent bien l'anatomie humaine peuvent tirer le plein potentiel de ces flèches.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- La cible touchée souffre d'une pénalité cumulative de 1 à la classe d'armure pendant deux rounds (Jet de sauvegarde contre la mort annule)
+
+Enchantement : +1
+TAC0 : +1
+Dégâts : 1d6+1 (projectile)
+Lanceur : arc
+
+Poids : 0~
+
+@1151 = ~Cette flèche a été soigneusement façonnée dans le but d'affaiblir les capacités de combat de sa cible. En plus d'une meilleure précision, elle bénéficie d'un design particulier qui peut altérer les défenses de la cible à l'impact. Seuls ceux qui connaissent bien l'anatomie humaine peuvent tirer le plein potentiel de ces flèches.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- La cible touchée souffre d'une pénalité cumulative de 2 à la classe d'armure pendant deux rounds (Jet de sauvegarde contre la mort annule)
+- Les animaux, les humanoïdes et les humanoïdes géants subissent 1 point de dégâts supplémentaire d'hémorragie par seconde pendant un round (Jet de sauvegarde contre la mort annule)
+
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d6+2 (projectile)
+Lanceur : arc
+
+Poids : 0~
+
+@1152 = ~Cette flèche a été soigneusement façonnée dans le but d'affaiblir les capacités de combat de sa cible. En plus d'une meilleure précision, elle bénéficie d'un design particulier qui peut altérer les défenses de la cible à l'impact. Seuls ceux qui connaissent bien l'anatomie humaine peuvent tirer le plein potentiel de ces flèches.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- La cible touchée souffre d'une pénalité cumulative de 2 à la classe d'armure et au jet de toucher pendant deux rounds (Jet de sauvegarde contre la mort annule)
+- Les animaux, les humanoïdes et les humanoïdes géants subissent 1 point de dégâts supplémentaire d'hémorragie par seconde pendant un round (Jet de sauvegarde contre la mort annule)
+
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d6+2 (projectile)
+Lanceur : arc
+
+Poids : 0~
+
+@1153 = ~Cette flèche a été soigneusement façonnée dans le but d'affaiblir les capacités de combat de sa cible. En plus d'une meilleure précision, elle bénéficie d'un design particulier qui peut altérer les défenses de la cible à l'impact. Seuls ceux qui connaissent bien l'anatomie humaine peuvent tirer le plein potentiel de ces flèches.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- La cible touchée souffre d'une pénalité cumulative de 2 à la classe d'armure et au jet de toucher pendant deux rounds (Jet de sauvegarde contre la mort avec un malus de 2 annule)
+- Les animaux, les humanoïdes et les humanoïdes géants subissent 2 points de dégâts supplémentaires d'hémorragie par seconde pendant un round (Jet de sauvegarde contre la mort annule)
+- Les animaux, les humanoïdes et les humanoïdes géants doivent réussir leur jet de sauvegarde contre la mort ou être aveuglés pendant 2 rounds
+
+Enchantement : +3
+TAC0 : +3
+Dégâts : 1d6+3 (projectile)
+Lanceur : arc
+
+Poids : 0~
+
+@1154 = ~Cette flèche a été soigneusement façonnée dans le but d'affaiblir les capacités de combat de sa cible. En plus d'une meilleure précision, elle bénéficie d'un design particulier qui peut altérer les défenses de la cible à l'impact. Seuls ceux qui connaissent bien l'anatomie humaine peuvent tirer le plein potentiel de ces flèches.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- La cible touchée souffre d'une pénalité cumulative de 2 à la classe d'armure et au jet de toucher pendant deux rounds (Jet de sauvegarde contre la mort avec un malus de 4 annule)
+- Les animaux, les humanoïdes et les humanoïdes géants subissent 4 points de dégâts supplémentaires d'hémorragie par seconde pendant un round (Jet de sauvegarde contre la mort avec un malus de 2 annule)
+- Les animaux, les humanoïdes et les humanoïdes géants doivent réussir leur jet de sauvegarde contre la mort avec un malus de 2 ou être aveuglés pendant 2 rounds
+
+Enchantement : +4
+TAC0 : +4
+Dégâts : 1d6+4 (projectile)
+Lanceur : arc
+
+Poids : 0~
+
+@1155 = ~Ce carreau a été soigneusement façonné dans le but d'affaiblir les capacités de combat de sa cible. En plus d'une meilleure précision, il bénéficie d'un design particulier qui peut altérer les défenses de la cible à l'impact. Seuls ceux qui connaissent bien l'anatomie humaine peuvent tirer le plein potentiel de ces carreaux.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- La cible touchée souffre d'une pénalité cumulative de 1 à la classe d'armure pendant deux rounds (Jet de sauvegarde contre la mort annule)
+
+Enchantement : +1
+TAC0 : +1
+Dégâts : 1d8+1 (projectile)
+Lanceur : arbalète
+
+Poids : 0~
+
+@1156 = ~Ce carreau a été soigneusement façonné dans le but d'affaiblir les capacités de combat de sa cible. En plus d'une meilleure précision, il bénéficie d'un design particulier qui peut altérer les défenses de la cible à l'impact. Seuls ceux qui connaissent bien l'anatomie humaine peuvent tirer le plein potentiel de ces carreaux.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- La cible touchée souffre d'une pénalité cumulative de 2 à la classe d'armure pendant deux rounds (Jet de sauvegarde contre la mort annule)
+- Les animaux, les humanoïdes et les humanoïdes géants subissent 1 point de dégâts supplémentaire d'hémorragie par seconde pendant un round (Jet de sauvegarde contre la mort annule)
+
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d8+2 (projectile)
+Lanceur : arbalète
+
+Poids : 0~
+
+@1157 = ~Ce carreau a été soigneusement façonné dans le but d'affaiblir les capacités de combat de sa cible. En plus d'une meilleure précision, il bénéficie d'un design particulier qui peut altérer les défenses de la cible à l'impact. Seuls ceux qui connaissent bien l'anatomie humaine peuvent tirer le plein potentiel de ces carreaux.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- La cible touchée souffre d'une pénalité cumulative de 2 à la classe d'armure et au jet de toucher pendant deux rounds (Jet de sauvegarde contre la mort annule)
+- Les animaux, les humanoïdes et les humanoïdes géants subissent 1 point de dégâts supplémentaire d'hémorragie par seconde pendant un round (Jet de sauvegarde contre la mort annule)
+
+Enchantement : +2
+TAC0 : +2
+Dégâts : 1d8+2 (projectile)
+Lanceur : arbalète
+
+Poids : 0~
+
+@1158 = ~Ce carreau a été soigneusement façonné dans le but d'affaiblir les capacités de combat de sa cible. En plus d'une meilleure précision, il bénéficie d'un design particulier qui peut altérer les défenses de la cible à l'impact. Seuls ceux qui connaissent bien l'anatomie humaine peuvent tirer le plein potentiel de ces carreaux.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- La cible touchée souffre d'une pénalité cumulative de 2 à la classe d'armure et au jet de toucher pendant deux rounds (Jet de sauvegarde contre la mort avec un malus de 2 annule)
+- Les animaux, les humanoïdes et les humanoïdes géants subissent 2 points de dégâts supplémentaires d'hémorragie par seconde pendant un round (Jet de sauvegarde contre la mort annule)
+- Les animaux, les humanoïdes et les humanoïdes géants doivent réussir leur jet de sauvegarde contre la mort ou être aveuglés pendant 2 rounds
+
+Enchantement : +3
+TAC0 : +3
+Dégâts : 1d8+2 (projectile)
+Lanceur : arbalète
+
+Poids : 0~
+
+@1159 = ~Ce carreau a été soigneusement façonné dans le but d'affaiblir les capacités de combat de sa cible. En plus d'une meilleure précision, il bénéficie d'un design particulier qui peut altérer les défenses de la cible à l'impact. Seuls ceux qui connaissent bien l'anatomie humaine peuvent tirer le plein potentiel de ces carreaux.
+
+PARAMÈTRES :
+
+Capacités de combat :
+- La cible touchée souffre d'une pénalité cumulative de 2 à la classe d'armure et au jet de toucher pendant deux rounds (Jet de sauvegarde contre la mort avec un malus de 4 annule)
+- Les animaux, les humanoïdes et les humanoïdes géants subissent 4 points de dégâts supplémentaires d'hémorragie par seconde pendant un round (Jet de sauvegarde contre la mort avec un malus de 2 annule)
+- Les animaux, les humanoïdes et les humanoïdes géants doivent réussir leur jet de sauvegarde contre la mort avec un malus de 2 ou être aveuglés pendant 2 rounds
+
+Enchantement : +4
+TAC0 : +4
+Dégâts : 1d8+4 (projectile)
+Lanceur : arbalète
+
+Poids : 0~
+
+@1160 - @1164 are basically just the standard shortbow descriptions from IWD:EE (BOW05.ITM, BOW06.ITM) with adjusted stats
+
+@1160 = ~Les arcs courts ont été fabriqués avant les autres, même s'ils ne s'appelaient pas encore ainsi. Ce terme est utilisé par défaut pour désigner tout ce qui n'est pas un arc long. Les branches d'arc court mesurent 1,50 m en moyenne. Avec les années, on s'est efforcé d'améliorer la portée de l'arc. Tantôt on augmentait la longueur des branches, tantôt on améliorait leur flexibilité sans modifier leur longueur. La première expérience a engendré ce qui s'appelle aujourd'hui l'arc long.
+
+PARAMÈTRES :
+
+TAC0 : +2
+Dégâts : +2 (projectile)
+Facteur de vitesse : 4
+Type de compétence : arc court
+Type : arme à deux mains
+Nécessite : 6 en force
+
+Poids : 2~
+
+@1161 = ~Les arcs courts ont été fabriqués avant les autres, même s'ils ne s'appelaient pas encore ainsi. Ce terme est utilisé par défaut pour désigner tout ce qui n'est pas un arc long. Les branches d'arc court mesurent 1,50 m en moyenne. Avec les années, on s'est efforcé d'améliorer la portée de l'arc. Tantôt on augmentait la longueur des branches, tantôt on améliorait leur flexibilité sans modifier leur longueur. La première expérience a engendré ce qui s'appelle aujourd'hui l'arc long.
+
+PARAMÈTRES :
+
+TAC0 : +3
+Dégâts : +3 (projectile)
+Facteur de vitesse : 3
+Type de compétence : arc court
+Type : arme à deux mains
+Nécessite : 6 en force
+
+Poids : 2~
+
+@1162 = ~Fabriqué par les lointains prêtres-guerriers de Vaasa, ce petit arc barbare est étranger aux terres du Val de Bise. On sait peu de choses sur cette arme, si ce n'est qu'elle a appartenu pendant des décennies au chef d'une petite tribu de chasseurs. L'arc est ensuite tombé entre les mains d'envahisseurs après l'anéantissement de la tribu. Son aspect "barbare" évident pourrait paraître peu attrayant pour des aventuriers citadins. Fabriqué en bois d'if et enveloppé de fines fourrures, il semble robuste et pratique. Sa poignée est ornée de chaque côté d'une peinture écaillée et décolorée représentant un grand œil.
+
+PARAMÈTRES :
+
+TAC0 : +3
+Dégâts : +3 (projectile)
+Facteur de vitesse : 2
+Type de compétence : arc court
+Type : arme à deux mains
+Nécessite : 6 en force
+
+Poids : 2~
+
+@1163 = ~Les arcs courts ont été fabriqués avant les autres, même s'ils ne s'appelaient pas encore ainsi. Ce terme est utilisé par défaut pour désigner tout ce qui n'est pas un arc long. Les branches d'arc court mesurent 1,50 m en moyenne. Avec les années, on s'est efforcé d'améliorer la portée de l'arc. Tantôt on augmentait la longueur des branches, tantôt on améliorait leur flexibilité sans modifier leur longueur. La première expérience a engendré ce qui s'appelle aujourd'hui l'arc long.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Classe d'armure : +2
+– Résistances aux dégâts de projectiles : +15 %
+
+TAC0 : +2
+Dégâts : +2 (projectile)
+Facteur de vitesse : 4
+Type de compétence : arc court
+Type : arme à deux mains
+Nécessite : 6 en force
+
+Poids : 2~
+
+@1164 = ~Les arcs courts ont été fabriqués avant les autres, même s'ils ne s'appelaient pas encore ainsi. Ce terme est utilisé par défaut pour désigner tout ce qui n'est pas un arc long. Les branches d'arc court mesurent 1,50 m en moyenne. Avec les années, on s'est efforcé d'améliorer la portée de l'arc. Tantôt on augmentait la longueur des branches, tantôt on améliorait leur flexibilité sans modifier leur longueur. La première expérience a engendré ce qui s'appelle aujourd'hui l'arc long.
+
+PARAMÈTRES :
+
+Capacités d'équipement :
+– Dextérité : +1
+
+TAC0 : +2
+Dégâts : +2 (projectile)
+Facteur de vitesse : 4
+Type de compétence : arc court
+Type : arme à deux mains
+Nécessite : 6 en force
+
+Poids : 2~
 
 
 // Innate ability descriptions
 @2001 = ~Tir renversant
 Tout tir réussi dans les 12 secondes qui suivent peut renverser la cible, selon le niveau du tireur :
- niveau 8  : Renverse la cible si elle rate son JS contre les souffles.
- niveau 12 : Renverse la cible si elle rate son JS contre les souffles avec un malus de 1.
- niveau 16 : Renverse la cible si elle rate son JS contre les souffles avec un malus de 2.
- niveau 20 : Renverse la cible si elle rate son JS contre les souffles avec un malus de 3.~
+ niveau 8  : Renverse la cible si elle rate son JS contre le souffle.
+ niveau 12 : Renverse la cible si elle rate son JS contre le souffle avec un malus de 1.
+ niveau 16 : Renverse la cible si elle rate son JS contre le souffle avec un malus de 2.
+ niveau 20 : Renverse la cible si elle rate son JS contre le souffle avec un malus de 3.~
 
 @2002 = ~Tir immobilisant
 Tout tir réussi dans les 12 secondes qui suivent peut enchevêtrer la cible, selon la progression suivante :
@@ -344,42 +889,114 @@ Tout tir réussi dans les 12 secondes qui suivent explose à l'impact et inflige
  niveau 20 : 1d4+6 points de dégâts
 Attention : cette capacité inflige des dégâts aussi bien aux ennemis qu'aux alliés et aux passants innocents.~
 
-@2004 = ~Créer des Munitions bénies
-Le personnage crée une munition spirituelle (flèche ou carreau) bénie par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et dotée de plusieurs charges.
- niveau 4  : munition +1, +1 au toucher et aux dégâts, 1d6 points supplémentaires contre les morts-vivants qui sont ralentis pendant deux rounds s'ils ratent leur JS contre la mort.
- niveau 8  : munition +1, +2 au toucher et aux dégâts, 1d6+2 points supplémentaires contre les morts-vivants qui sont paralysés pendant deux rounds s'ils ratent leur JS contre la mort.
- niveau 12 : munition +2, +2 au toucher et aux dégâts, 1d6+4 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort.
- niveau 16 : munition +3, +3 au toucher et aux dégâts, 1d6+6 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 2.
- niveau 20 : munition +4, +4 au toucher et aux dégâts, 1d6+8 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 4.~
+@2010 = ~Conjurer des munitions élémentaires
+L'archer conjure une munition spéciales (flèche ou carreau) bénie par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et dotée d'un certain nombre de charges.
+ niveau 4  : munition +1, +1 au toucher, 1d3 points de feu supplémentaires.
+ niveau 8  : munition +2, +2 au toucher, 1d3 points de feu et de froid supplémentaires. Enchevêtre les créatures non naturelles si elles ratent leur JS contre les sorts.
+ niveau 12 : munition +2, +2 au toucher, 1d3 points de feu, de froid et d'acide supplémentaires. Aveugle les créatures non naturelles pendant deux rounds si elles ratent leur JS contre les sorts.
+ niveau 16 : munition +3, +3 au toucher, 1d3 points de feu, de froid, d'acide et d'électricité supplémentaires. Ralentit les créatures non naturelles pendant deux rounds si elles ratent leur JS contre les sorts avec un malus de 2.
+ niveau 20 : munition +4, +4 au toucher, 1d3+2 points de feu, de froid, d'acide et d'électricité supplémentaires. Ralentit et aveugle les créatures non naturelles pendant deux rounds si elles ratent leur JS contre les sorts avec un malus de 4.~
 
-@2005 = ~Créer des Flèches bénies
-Le personnage crée une flèche spirituelle bénie par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et dotée de plusieurs charges.
- niveau 4  : munition +1, +1 au toucher et aux dégâts, 1d6 points supplémentaires contre les morts-vivants qui sont ralentis pendant deux rounds s'ils ratent leur JS contre la mort.
- niveau 8  : munition +1, +2 au toucher et aux dégâts, 1d6+2 points supplémentaires contre les morts-vivants qui sont paralysés pendant deux rounds s'ils ratent leur JS contre la mort.
- niveau 12 : munition +2, +2 au toucher et aux dégâts, 1d6+4 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort.
- niveau 16 : munition +3, +3 au toucher et aux dégâts, 1d6+6 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 2.
- niveau 20 : munition +4, +4 au toucher et aux dégâts, 1d6+8 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 4.~
+@2011 = ~Conjurer des flèches élémentaires
+L'archer conjure une flèche spéciale, bénie par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et dotée d'un certain nombre de charges.
+ niveau 4  : munition +1, +1 au toucher, 1d3 points de feu supplémentaires.
+ niveau 8  : munition +2, +2 au toucher, 1d3 points de feu et de froid supplémentaires. Enchevêtre les créatures non naturelles si elles ratent leur JS contre les sorts.
+ niveau 12 : munition +2, +2 au toucher, 1d3 points de feu, de froid et d'acide supplémentaires. Aveugle les créatures non naturelles pendant deux rounds si elles ratent leur JS contre les sorts.
+ niveau 16 : munition +3, +3 au toucher, 1d3 points de feu, de froid, d'acide et d'électricité supplémentaires. Ralentit les créatures non naturelles pendant deux rounds si elles ratent leur JS contre les sorts avec un malus de 2.
+ niveau 20 : munition +4, +4 au toucher, 1d3+2 points de feu, de froid, d'acide et d'électricité supplémentaires. Ralentit et aveugle les créatures non naturelles pendant deux rounds si elles ratent leur JS contre les sorts avec un malus de 4.~
 
-@2006 = ~Créer des Carreaux bénis
-Le personnage crée un carreau spirituel béni par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et doté de plusieurs charges.
- niveau 4  : munition +1, +1 au toucher et aux dégâts, 1d6 points supplémentaires contre les morts-vivants qui sont ralentis pendant deux rounds s'ils ratent leur JS contre la mort.
- niveau 8  : munition +1, +2 au toucher et aux dégâts, 1d6+2 points supplémentaires contre les morts-vivants qui sont paralysés pendant deux rounds s'ils ratent leur JS contre la mort.
- niveau 12 : munition +2, +2 au toucher et aux dégâts, 1d6+4 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort.
- niveau 16 : munition +3, +3 au toucher et aux dégâts, 1d6+6 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 2.
- niveau 20 : munition +4, +4 au toucher et aux dégâts, 1d6+8 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 4.~
+@2012 = ~Conjurer des carreaux élémentaires
+L'archer conjure un carreau spécial, béni par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et doté d'un certain nombre de charges.
+ niveau 4  : munition +1, +1 au toucher, 1d3 points de feu supplémentaires.
+ niveau 8  : munition +2, +2 au toucher, 1d3 points de feu et de froid supplémentaires. Enchevêtre les créatures non naturelles si elles ratent leur JS contre les sorts.
+ niveau 12 : munition +2, +2 au toucher, 1d3 points de feu, de froid et d'acide supplémentaires. Aveugle les créatures non naturelles pendant deux rounds si elles ratent leur JS contre les sorts.
+ niveau 16 : munition +3, +3 au toucher, 1d3 points de feu, de froid, d'acide et d'électricité supplémentaires. Ralentit les créatures non naturelles pendant deux rounds si elles ratent leur JS contre les sorts avec un malus de 2.
+ niveau 20 : munition +4, +4 au toucher, 1d3+2 points de feu, de froid, d'acide et d'électricité supplémentaires. Ralentit et aveugle les créatures non naturelles pendant deux rounds si elles ratent leur JS contre les sorts avec un malus de 4.~
 
-@2007 = ~Créer des Billes bénies
-Le personnage crée une bille spirituelle bénie par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et dotée de plusieurs charges.
- niveau 4  : munition +1, +1 au toucher et aux dégâts, 1d6 points supplémentaires contre les morts-vivants qui sont ralentis pendant deux rounds s'ils ratent leur JS contre la mort.
- niveau 8  : munition +1, +2 au toucher et aux dégâts, 1d6+2 points supplémentaires contre les morts-vivants qui sont paralysés pendant deux rounds s'ils ratent leur JS contre la mort.
- niveau 12 : munition +2, +2 au toucher et aux dégâts, 1d6+4 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort.
- niveau 16 : munition +3, +3 au toucher et aux dégâts, 1d6+6 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 2.
- niveau 20 : munition +4, +4 au toucher et aux dégâts, 1d6+8 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 4.~
+@2020 = ~Invoquer des munitions bénies
+Le Chevalier Archer invoque une munition spirituelle (flèche, carreau ou bille) bénie par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et dotée de plusieurs charges.
+ niveau 4  : munition +1, +1 au toucher, 1d6 points magiques supplémentaires contre les morts-vivants, les diables et les démons.
+ niveau 8  : munition +1, +2 au toucher, 1d6+2 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont aveuglés pendant deux rounds s'ils ratent leur JS contre les sorts.
+ niveau 12 : munition +2, +2 au toucher, 1d6+4 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont ralentis pendant deux rounds s'ils ratent leur JS contre les sorts.
+ niveau 16 : munition +3, +3 au toucher, 1d6+6 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont ralentis et aveuglés pendant deux rounds s'ils ratent leur JS contre les sorts avec un malus de 2.
+ niveau 20 : munition +4, +4 au toucher, 1d6+8 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont paralysés pendant deux rounds s'ils ratent leur JS contre les sorts avec un malus de 4.~
 
-@2008 = ~Créer des Munitions bénies
-Le personnage crée une munition spirituelle (flèche, carreau ou bille) bénie par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et dotée de plusieurs charges.
- niveau 4  : munition +1, +1 au toucher et aux dégâts, 1d6 points supplémentaires contre les morts-vivants qui sont ralentis pendant deux rounds s'ils ratent leur JS contre la mort.
- niveau 8  : munition +1, +2 au toucher et aux dégâts, 1d6+2 points supplémentaires contre les morts-vivants qui sont paralysés pendant deux rounds s'ils ratent leur JS contre la mort.
- niveau 12 : munition +2, +2 au toucher et aux dégâts, 1d6+4 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort.
- niveau 16 : munition +3, +3 au toucher et aux dégâts, 1d6+6 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 2.
- niveau 20 : munition +4, +4 au toucher et aux dégâts, 1d6+8 points supplémentaires contre les morts-vivants qui sont instantanément détruits s'ils ratent leur JS contre la mort avec un malus de 4.~
+@2021 = ~Invoquer des flèches bénies
+Le Chevalier Archer invoque une flèche spirituelle bénie par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et dotée de plusieurs charges.
+ niveau 4  : munition +1, +1 au toucher, 1d6 points magiques supplémentaires contre les morts-vivants, les diables et les démons.
+ niveau 8  : munition +1, +2 au toucher, 1d6+2 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont aveuglés pendant deux rounds s'ils ratent leur JS contre les sorts.
+ niveau 12 : munition +2, +2 au toucher, 1d6+4 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont ralentis pendant deux rounds s'ils ratent leur JS contre les sorts.
+ niveau 16 : munition +3, +3 au toucher, 1d6+6 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont ralentis et aveuglés pendant deux rounds s'ils ratent leur JS contre les sorts avec un malus de 2.
+ niveau 20 : munition +4, +4 au toucher, 1d6+8 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont paralysés pendant deux rounds s'ils ratent leur JS contre les sorts avec un malus de 4.~
+
+@2022 = ~Invoquer des carreaux bénis
+Le Chevalier Archer invoque un carreau spirituel béni par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et doté de plusieurs charges.
+ niveau 4  : munition +1, +1 au toucher, 1d6 points magiques supplémentaires contre les morts-vivants, les diables et les démons.
+ niveau 8  : munition +1, +2 au toucher, 1d6+2 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont aveuglés pendant deux rounds s'ils ratent leur JS contre les sorts.
+ niveau 12 : munition +2, +2 au toucher, 1d6+4 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont ralentis pendant deux rounds s'ils ratent leur JS contre les sorts.
+ niveau 16 : munition +3, +3 au toucher, 1d6+6 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont ralentis et aveuglés pendant deux rounds s'ils ratent leur JS contre les sorts avec un malus de 2.
+ niveau 20 : munition +4, +4 au toucher, 1d6+8 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont paralysés pendant deux rounds s'ils ratent leur JS contre les sorts avec un malus de 4.~
+
+@2023 = ~Invoquer des billes bénies
+Le Chevalier Archer invoque une bille spirituelle bénie par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et dotée de plusieurs charges.
+ niveau 4  : munition +1, +1 au toucher, 1d6 points magiques supplémentaires contre les morts-vivants, les diables et les démons.
+ niveau 8  : munition +1, +2 au toucher, 1d6+2 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont aveuglés pendant deux rounds s'ils ratent leur JS contre les sorts.
+ niveau 12 : munition +2, +2 au toucher, 1d6+4 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont ralentis pendant deux rounds s'ils ratent leur JS contre les sorts.
+ niveau 16 : munition +3, +3 au toucher, 1d6+6 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont ralentis et aveuglés pendant deux rounds s'ils ratent leur JS contre les sorts avec un malus de 2.
+ niveau 20 : munition +4, +4 au toucher, 1d6+8 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont paralysés pendant deux rounds s'ils ratent leur JS contre les sorts avec un malus de 4.~
+
+@2030 = ~Fabriquer des munitions blindées
+Le personnage crée plusieurs munitions spéciales (flèches, carreaux ou billes).
+ niveau 4  : munition +1, +1 au toucher, pénalité cumulative de 1 à la CA pendant 2 rounds si la cible rate son JS contre la mort.
+ niveau 8  : munition +2, +2 au toucher, pénalité cumulative de 1 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort.
+ niveau 12 : munition +2, +2 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort. Renverse la cible si elle rate son JS contre le souffle.
+ niveau 16 : munition +3, +3 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort avec un malus de 2. Renverse la cible et l'étourdit pendant 1 round si elle rate son JS contre le souffle.
+ niveau 20 : munition +4, +4 au toucher, pénalités cumulatives de 3 à la CA et au TAC0, de 1 à la Force pendant 2 rounds si la cible rate son JS contre la mort avec un malus de 2. Renverse la cible et l'étourdit pendant 1 round si elle rate son JS contre le souffle avec un malus de 2.~
+
+@2031 = ~Fabriquer des flèches blindées
+Le personnage crée plusieurs flèches spéciales.
+ niveau 4  : munition +1, +1 au toucher, pénalité cumulative de 1 à la CA pendant 2 rounds si la cible rate son JS contre la mort.
+ niveau 8  : munition +2, +2 au toucher, pénalité cumulative de 1 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort.
+ niveau 12 : munition +2, +2 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort. Renverse la cible si elle rate son JS contre le souffle.
+ niveau 16 : munition +3, +3 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort avec un malus de 2. Renverse la cible et l'étourdit pendant 1 round si elle rate son JS contre le souffle.
+ niveau 20 : munition +4, +4 au toucher, pénalités cumulatives de 3 à la CA et au TAC0, de 1 à la Force pendant 2 rounds si la cible rate son JS contre la mort avec un malus de 2. Renverse la cible et l'étourdit pendant 1 round si elle rate son JS contre le souffle avec un malus de 2.~
+
+@2032 = ~Fabriquer des carreaux blindés
+Le personnage crée plusieurs carreaux spéciaux.
+ niveau 4  : munition +1, +1 au toucher, pénalité cumulative de 1 à la CA pendant 2 rounds si la cible rate son JS contre la mort.
+ niveau 8  : munition +2, +2 au toucher, pénalité cumulative de 1 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort.
+ niveau 12 : munition +2, +2 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort. Renverse la cible si elle rate son JS contre le souffle.
+ niveau 16 : munition +3, +3 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort avec un malus de 2. Renverse la cible et l'étourdit pendant 1 round si elle rate son JS contre le souffle.
+ niveau 20 : munition +4, +4 au toucher, pénalités cumulatives de 3 à la CA et au TAC0, de 1 à la Force pendant 2 rounds si la cible rate son JS contre la mort avec un malus de 2. Renverse la cible et l'étourdit pendant 1 round si elle rate son JS contre le souffle avec un malus de 2.~
+
+@2033 = ~Fabriquer des billes blindées
+Le personnage crée plusieurs billes spéciales.
+ niveau 4  : munition +1, +1 au toucher, pénalité cumulative de 1 à la CA pendant 2 rounds si la cible rate son JS contre la mort.
+ niveau 8  : munition +2, +2 au toucher, pénalité cumulative de 1 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort.
+ niveau 12 : munition +2, +2 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort. Renverse la cible si elle rate son JS contre le souffle.
+ niveau 16 : munition +3, +3 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort avec un malus de 2. Renverse la cible et l'étourdit pendant 1 round si elle rate son JS contre le souffle.
+ niveau 20 : munition +4, +4 au toucher, pénalités cumulatives de 3 à la CA et au TAC0, de 1 à la Force pendant 2 rounds si la cible rate son JS contre la mort avec un malus de 2. Renverse la cible et l'étourdit pendant 1 round si elle rate son JS contre le souffle avec un malus de 2.~
+
+@2040 = ~Créer des munitions incapacitantes
+L'archer façonne plusieurs munitions spéciales (flèches ou carreaux).
+ niveau 4  : munition +1, +1 au toucher, pénalité cumulative de 1 à la CA pendant 2 rounds si la cible rate son JS contre la mort.
+ niveau 8  : munition +2, +2 au toucher, pénalité cumulative de 2 à la CA pendant 2 rounds si la cible rate son JS contre la mort. Les animaux, les humanoïdes et les humanoïdes géants subissent 1 point de dégâts supplémentaire d'hémorragie par seconde pendant un round s'ils ratent leur JS.
+ niveau 12 : munition +2, +2 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort. Les animaux, les humanoïdes et les humanoïdes géants subissent 1 point de dégâts supplémentaire d'hémorragie par seconde pendant un round s'ils ratent leur JS.
+ niveau 16 : munition +3, +3 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort. Les animaux, les humanoïdes et les humanoïdes géants subissent 2 points de dégâts supplémentaires d'hémorragie par seconde pendant un round et sont aveuglés pendant deux rounds s'ils ratent leur JS.
+ niveau 20 : munition +4, +4 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort avec un malus de 2. Les animaux, les humanoïdes et les humanoïdes géants subissent 4 points de dégâts supplémentaires d'hémorragie par seconde pendant un round et sont aveuglés pendant deux rounds s'ils ratent leur JS.~
+
+@2041 = ~Créer des flèches incapacitantes
+L'archer façonne plusieurs flèches spéciales.
+ niveau 4  : munition +1, +1 au toucher, pénalité cumulative de 1 à la CA pendant 2 rounds si la cible rate son JS contre la mort.
+ niveau 8  : munition +2, +2 au toucher, pénalité cumulative de 2 à la CA pendant 2 rounds si la cible rate son JS contre la mort. Les animaux, les humanoïdes et les humanoïdes géants subissent 1 point de dégâts supplémentaire d'hémorragie par seconde pendant un round s'ils ratent leur JS.
+ niveau 12 : munition +2, +2 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort. Les animaux, les humanoïdes et les humanoïdes géants subissent 1 point de dégâts supplémentaire d'hémorragie par seconde pendant un round s'ils ratent leur JS.
+ niveau 16 : munition +3, +3 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort. Les animaux, les humanoïdes et les humanoïdes géants subissent 2 points de dégâts supplémentaires d'hémorragie par seconde pendant un round et sont aveuglés pendant deux rounds s'ils ratent leur JS.
+ niveau 20 : munition +4, +4 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort avec un malus de 2. Les animaux, les humanoïdes et les humanoïdes géants subissent 4 points de dégâts supplémentaires d'hémorragie par seconde pendant un round et sont aveuglés pendant deux rounds s'ils ratent leur JS.~
+
+@2042 = ~Créer des carreaux incapacitants
+L'archer façonne plusieurs carreaux spéciaux.
+ niveau 4  : munition +1, +1 au toucher, pénalité cumulative de 1 à la CA pendant 2 rounds si la cible rate son JS contre la mort.
+ niveau 8  : munition +2, +2 au toucher, pénalité cumulative de 2 à la CA pendant 2 rounds si la cible rate son JS contre la mort. Les animaux, les humanoïdes et les humanoïdes géants subissent 1 point de dégâts supplémentaire d'hémorragie par seconde pendant un round s'ils ratent leur JS.
+ niveau 12 : munition +2, +2 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort. Les animaux, les humanoïdes et les humanoïdes géants subissent 1 point de dégâts supplémentaire d'hémorragie par seconde pendant un round s'ils ratent leur JS.
+ niveau 16 : munition +3, +3 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort. Les animaux, les humanoïdes et les humanoïdes géants subissent 2 points de dégâts supplémentaires d'hémorragie par seconde pendant un round et sont aveuglés pendant deux rounds s'ils ratent leur JS.
+ niveau 20 : munition +4, +4 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort avec un malus de 2. Les animaux, les humanoïdes et les humanoïdes géants subissent 4 points de dégâts supplémentaires d'hémorragie par seconde pendant un round et sont aveuglés pendant deux rounds s'ils ratent leur JS.~

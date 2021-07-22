@@ -1,17 +1,19 @@
 // -*- coding: us-ascii -*-
 
 @1 = ~Profil d'Archer ameliore~
-@2 = ~Ajouter deux arcs puissants et des fleches et des carreaux +4 dans le jeu~
+@2 = ~Ajouter des fleches et des carreaux +4, et des arcs puissants et dans le jeu~
 @3 = ~Ajouter le profil de guerrier : Tireur d'elite~
 @4 = ~Ajouter le profil de paladin : Chevalier archer~
 @5 = ~Ajouter le profil de voleur : Tireur de precision~
 
-@100 = ~Ce mod necessite l'installation de BG2:ToB, BG:EE, BG2:EE ou IWD:EE.~
-@101 = ~Ce mod necessite l'installation de BG2:ToB, BG2:EE ou IWD:EE.~
+@100 = ~Ce mod necessite l'installation de ToB, BG:EE, BG2:EE ou IWD:EE.~
+@101 = ~Ce mod necessite l'installation de ToB, BG2:EE ou IWD:EE.~
 @102 = ~Ce composant necessite l'installation du composant principal "Profil d'Archer ameliore".~
 
 
-// WeiDU prompts
+/* =============== *
+ *  WeiDU prompts  *
+ * =============== */
 @-1000= "Le mod %TP2_FILE_NAME% contient"
 @-1001= "composants optionnels distincts.
 Pour gagner du temps, vous pouvez choisir ce que vous souhaitez faire d'eux
@@ -104,3 +106,7 @@ Veuillez indiquer quelle langue du jeu a ete utilisee quand vous avez installe c
 @-1061= "
 Utilisation de"
 @-1062= " et "
+
+@-1063= "INSTALLATION ABANDONNEE"
+@-1064= "Abandon de l'installation de ["
+@-1065= "], retour a l'etat anterieur"
