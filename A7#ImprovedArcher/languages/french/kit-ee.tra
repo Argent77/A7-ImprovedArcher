@@ -790,8 +790,6 @@ Lanceur : arbalète
 
 Poids : 0~
 
-@1160 - @1164 are basically just the standard shortbow descriptions from IWD:EE (BOW05.ITM, BOW06.ITM) with adjusted stats
-
 @1160 = ~Les arcs courts ont été fabriqués avant les autres, même s'ils ne s'appelaient pas encore ainsi. Ce terme est utilisé par défaut pour désigner tout ce qui n'est pas un arc long. Les branches d'arc court mesurent 1,50 m en moyenne. Avec les années, on s'est efforcé d'améliorer la portée de l'arc. Tantôt on augmentait la longueur des branches, tantôt on améliorait leur flexibilité sans modifier leur longueur. La première expérience a engendré ce qui s'appelle aujourd'hui l'arc long.
 
 PARAMÈTRES :
