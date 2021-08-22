@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOD: Improved Archer Kit</title>
+    <meta name="description" content="A mod for BG2, BGT, BG:EE, BG2:EE, EET and IWD:EE that improves the Archer kit and adds related kits for fighters, paladins and thieves." />
+    <meta name="keywords" content="bg2, tob, bgt, bgee, sod, bg2ee, eet, iwdee, mod, archer" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <div><a name="top" id="top"></a></div>
+    <div id="language">
+      <ul>
+        <li><a href="index.html">English</a></li>
+        <li title="French"><a href="index-fr.html">Français</a></li>
+        <li title="German"><a href="index-de.html">Deutsch</a></li>
+        <li title="Polish">Polski</li>
+      </ul>
+    </div>
+
+    <header>
+      <h1 class="title">Ulepszona podklasa: Łucznik</h1>
+      <div class="subtitle">Modyfikacja do BG2, BGT, BG2:EE, EET i IWD:EE ulepszająca podklasę Łucznika i dodająca do gry analogiczne podklasy wojownika, paladyna i złodzieja.</div>
+      <hr />
+      <p class="about"><strong>Autor: Argent77</strong></p>
+      <ul id="globalnav" class="about">
+        <!-- <li><strong>Pobierz</strong> (<a href="http://www.shsforums.net/files/file/1116-improved-archer-kit/">SHS</a>)</li> -->
+        <li><strong>Pobierz</strong> (<a href="https://github.com/Argent77/A7-ImprovedArcher/releases/latest">GitHub</a>)</li>
+        <li><strong>Dyskusja</strong> (<a href="http://www.shsforums.net/topic/58012-improved-archer-kit/">SHS</a>)</li>
+        <li><strong>Dyskusja</strong> (<a href="https://forums.beamdog.com/discussion/34696/mod-improved-archer-kit-for-bgee-bg2ee-iwd-ee-and-original-bg2-bgt">Beamdog</a>)</li>
+        <li><a href="https://github.com/Argent77/A7-ImprovedArcher">Projekt</a></li>
+        <li>Wersja: 4.0</li>
+      </ul>
+      <hr />
+      <nav>
+        <ul>
+          <li><a href="#overview">Ogólny zarys</a></li>
+          <li><a href="#installation">Instalacja</a></li>
+          <li><a href="#components">Komponenty</a></li>
+          <li><a href="#details">Szczegółowe opisy</a></li>
+          <li><a href="#credits">Autorzy</a></li>
+          <li><a href="#changelog">Historia wersji</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ================== O V E R V I E W ================== -->
+      <section id="overview">
+        <h2>Ogólny zarys</h2>
+        <p>Oryginalna podklasa Łucznika nie skalowała się zbyt dobrze wraz z awansem na kolejne poziomy. Pomimo tego, iż podklasa jest bardzo silna w początkowych fragmentach gry, staje się później dużo mniej użyteczna w porównaniu do innych podklas łowcy.</p>
+        <p>Modyfikacja ta próbuje zbalansować tę podklasę, tak by niskopoziomowi łucznicy nie przyćmiewali zdolnościami pozostałych klas, a wysokopoziomowi dotrzymywali z kolei kroku pozostałym podklasom łowcy. Modyfikacja ta poprawia ogólną siłę podklasy, dodając przy tym kilka przydatnych umiejętności i zdolności.</p>
+        <p>Dodatkowe komponenty pozwalają na zainstalowanie nowych podklas dla wojownika, paladyna i złodzieja, stworzonych na bazie podklasy łucznika, a także kilku potężnych łuków i nowej amunicji.</p>
+        <p>Modyfikacja ta jest dostępna dla BG2, BGT, BG:EE, BG2:EE, EET (Enhanced Edition Trilogy) i IWD:EE.</p>
+        <hr class="spacer" />
+        <p>Jeśli masz jakieś pytania, odwiedź <a href="http://www.shsforums.net/topic/58012-improved-archer-kit/">forum SHS</a> lub <a href="https://forums.beamdog.com/discussion/34696/mod-improved-archer-kit-for-bgee-bg2ee-iwd-ee-and-original-bg2-bgt">forum Beamdog</a>. Najnowsza wersja modyfikacji dostępna jest na stronie <a href="http://www.shsforums.net/files/file/1116-improved-archer-kit/">Spellhold Studios</a> lub platformie <a href="https://github.com/Argent77/A7-ImprovedArcher/releases/latest">GitHub</a>.</p>
+        <div class="back">
+          <a class="novisit" href="#top">POWRÓT NA GÓRĘ</a>
+        </div>
+      </section>
+
+      <!-- ================== I N S T A L L A T I O N ================== -->
+      <section id="installation">
+        <h2>Instalacja</h2>
+        <p>Jest to modyfikacja WeiDU, co oznacza, iż jest bardzo prosta w instalacji. Wystarczy rozpakować pobrane archiwum do katalogu z grą, a następnie uruchomić plik <em>"setup-A7#ImprovedArcher.exe"</em> (Windows) lub <em>"setup-A7#ImprovedArcher.command"</em> (macOS). Należy postępować zgodnie z instrukcjami, co spowoduje zainstalowanie modyfikacji. Aby w pełni wykorzystać możliwości modyfikacji zalecane jest rozpoczęcie nowej gry.</p>
+        <p>Aby odinstalować modyfikację, wystarczy uruchomić ponownie plik <em>"setup-A7#ImprovedArcher.exe"</em> lub <em>"setup-A7#ImprovedArcher.command"</em> i postępować zgodnie z pojawiającymi się komunikatami.</p>
+        <hr class="spacer" />
+        <h3>Informacja dla osób grających w Siege of Dragonspear (SoD)</h3>
+        <p>GOG i Steam instalują „Siege of Dragonspear” w sposób, który nie pozwala na bezpośrednie modowanie gry. Aby można było instalować jakiekolwiek modyfikacje oparte na WeiDU, niezbędne jest zainstalowanie w folderze SoD modyfikacji o nazwie <a href="https://github.com/Argent77/A7-DlcMerger/releases/latest">DLC Merger</a>.</p>
+        <hr class="doublespacer" />
+        <h3>Kompatybilność</h3>
+        <p>Nie stwierdzono dotychczas niekompatybilności z innymi modyfikacjami. Należy jednak zwrócić uwagę, że nazwa podklasy złodzieja „Strzelec wyborowy” została już wykorzystana w podobnej podklasie w modyfikacji „Pieśń i Cisza”, co może zaowocować instalacją dwóch podklas o tej samej nazwie jednocześnie.</p>
+        <p><strong>Uwaga:</strong> Nie zaleca się instalowania więcej niż jednej modyfikacji zmieniającej podklasę Łucznika.</p>
+        <div class="back">
+          <a class="novisit" href="#top">POWRÓT NA GÓRĘ</a>
+        </div>
+      </section>
+
+      <!-- ================== C O M P O N E N T S ================== -->
+      <section id="components">
+        <h2>Komponenty</h2>
+        <ol class="gappedlist">
+          <li>
+            <p><strong>Ulepszona podklasa: Łucznik</strong> <em>(wspiera następujące gry: BG2:ToB, BGT, BG:EE, BG:SoD, BG2:EE, EET oraz IWD:EE)</em></p>
+            <p>Komponent ten ulepsza podklasę Łucznika poprzez zbilansowanie rozwoju statystyk oraz dodanie unikalnych umiejętności i zdolności.</p>
+            <p>Szczegółowy opis podklasy można znaleźć <a href="#details">tutaj</a>.</p>
+          </li>
+          <li>
+            <p><strong>Dodaj do gry nową podklasę wojownika: Snajper</strong> <em>(wspiera następujące gry: BG2:ToB, BGT, BG:EE, BG:SoD, BG2:EE, EET oraz IWD:EE)</em></p>
+            <p>Komponent ten instaluje podklasę wojownika o nazwie „Snajper”.</p>
+            <p>Szczegółowy opis podklasy można znaleźć <a href="#details">tutaj</a>.</p>
+          </li>
+          <li>
+            <p><strong>Dodaj do gry nową podklasę paladyna: Rycerz łucznik</strong> <em>(wspiera następujące gry: BG2:ToB, BGT, BG:EE, BG:SoD, BG2:EE, EET oraz IWD:EE)</em></p>
+            <p>Komponent ten instaluje podklasę paladyna o nazwie „Rycerz łucznik”.</p>
+            <p>Szczegółowy opis podklasy można znaleźć <a href="#details">tutaj</a>.</p>
+          </li>
+          <li>
+            <p><strong>Dodaj do gry nową podklasę złodzieja: Strzelec wyborowy</strong> <em>(wspiera następujące gry: BG2:ToB, BGT, BG:EE, BG:SoD, BG2:EE, EET oraz IWD:EE)</em></p>
+            <p>Komponent ten instaluje podklasę złodzieja o nazwie „Strzelec wyborowy”.</p>
+            <p>Szczegółowy opis podklasy można znaleźć <a href="#details">tutaj</a>.</p>
+          </li>
+          <li>
+            <p><strong>Dodaj do gry strzały i bełty +4, a także dwa potężne łuki</strong> <em>(wspiera następujące gry: BG2:ToB, BGT, BG2:EE oraz IWD:EE)</em></p>
+            <p>Dodaje strzały i bełty +4 do asortymentu różnych sklepów oraz ekwipunku niektórych istot w kampanii Tron Bhaala, oraz Twierdzy Strażnika.</p>
+            <p>BG2, BGT, BG2:EE oraz EET:</p>
+            <ul>
+              <li>Dodaje potężny długi łuk gdzieś na trzecim poziomie Twierdzy Strażnika.</li>
+              <li>Dodaje jeszcze potężniejszy łuk refleksyjny, który można znaleźć na obszarze przed Enklawą Sendai.</li>
+            </ul>
+            <p>IWD:EE:</p>
+            <ul>
+              <li>Dodaje dwa potężne łuki oraz kilka strzał i bełtów +4 do sklepu Conlana w Kuldahar po rozpoczęciu Rozdziału 4.</li>
+            </ul>
+            <p>Z racji tego, że w IWD:EE brakuje porządnych krótkich łuków, komponent ten pozwala również na rozmieszczenie kilku potężnych egzemplarzy po różnych mapach oraz sklepach, zarówno w głównej kampanii, jak i w dodatku Serce Zimy.</p>
+          </li>
+        </ol>
+        <p>Każdy z komponentów można zainstalować niezależnie od pozostałych.</p>
+        <div class="back">
+          <a class="novisit" href="#top">POWRÓT NA GÓRĘ</a>
+        </div>
+      </section>
+
+      <!-- ================== D E S C R I P T I O N S ================== -->
+      <section id="details">
+        <h2>Szczegółowe opisy</h2>
+        <hr class="spacer" />
+        <h3>Opis podklasy</h3>
+        <details>
+          <summary title="Click to show or hide description"><h4 style="display:inline">Ulepszona podklasa: Łucznik</h4></summary>
+          <p>Łucznik jest uosobieniem mistrzowskiego posługiwania się łukiem. To znakomity strzelec, umiejący oddać strzał niemal z każdej pozycji, niezależnie od stopnia trudności. Aby zyskać takie umiejętności, łucznik musiał poświęcić część swoich punktów biegłości za posługiwanie się bronią ręczną i zbroją.</p>
+          <hr class="spacer" />
+          <p><strong>Zalety:</strong></p>
+          <ul>
+            <li>+1 do testów trafienia i obrażeń bronią strzelecką, co cztery poziomy.</li>
+            <li>+1 do Klasy Pancerza przeciw broniom strzeleckim, co sześć poziomów.</li>
+            <li>+5% szans na trafienie krytyczne na poziomach 13 i 18.</li>
+            <li>Może osiągnąć Wielkie mistrzostwo (pięć punktów biegłości) w długich łukach, krótkich łukach oraz kuszach.</li>
+            <li>Może skorzystać ze zdolności Oplątujący strzał, raz dziennie na cztery poziomy (począwszy od jednego użycia na 4. poziomie). Zdolność ta nie może zostać użyta w połączeniu z innymi umiejętnościami strzeleckimi.</li>
+            <li>Może skorzystać ze zdolności Potężny strzał, raz dziennie na cztery poziomy (począwszy od jednego użycia na 8. poziomie). Zdolność ta nie może zostać użyta w połączeniu z innymi umiejętnościami strzeleckimi.</li>
+            <li>Może skorzystać ze zdolności Wybuchowy strzał, raz dziennie na cztery poziomy (począwszy od jednego użycia na 8. poziomie). Zdolność ta nie może zostać użyta w połączeniu z innymi umiejętnościami strzeleckimi.</li>
+            <li>Może skorzystać ze zdolności Wyczarowanie amunicji żywiołów, raz dziennie na osiem poziomów (począwszy od jednego użycia na 4. poziomie).</li>
+          </ul>
+          <hr class="spacer" />
+          <p><strong>OPLĄTUJĄCY STRZAŁ:</strong> Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, spowoduje oplątanie celu, zgodnie z poziomem łucznika:</p>
+          <ul>
+            <li>4. poziom: Cel jest oplątany przez trzy rundy (rzut obronny przeciw czarom neguje).</li>
+            <li>8. poziom: Cel jest oplątany przez trzy rundy (rzut obronny przeciw czarom z modyfikatorem -1 neguje).</li>
+            <li>12. poziom: Cel jest oplątany przez cztery rundy (rzut obronny przeciw czarom z modyfikatorem -1 neguje).</li>
+            <li>16. poziom: Cel jest oplątany przez cztery rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).</li>
+            <li>20. poziom: Cel jest oplątany przez pięć rund (rzut obronny przeciw czarom z modyfikatorem -2 neguje).</li>
+          </ul>
+          <hr class="spacer" />
+          <p><strong>POTĘŻNY STRZAŁ:</strong> Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, ma szansę na odrzucenie celu, w zależności od poziomu łucznika:</p>
+          <ul>
+            <li>8. poziom: Odrzuca cel (rzut obronny przeciw zionięciom neguje).</li>
+            <li>12. poziom: Odrzuca cel (rzut obronny przeciw zionięciom z modyfikatorem -1 neguje).</li>
+            <li>16. poziom: Odrzuca cel (rzut obronny przeciw zionięciom z modyfikatorem -2 neguje).</li>
+            <li>20. poziom: Odrzuca cel (rzut obronny przeciw zionięciom z modyfikatorem -3 neguje).</li>
+          </ul>
+          <hr class="spacer" />
+          <p><strong>WYBUCHOWY STRZAŁ:</strong> Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, powoduje eksplozję wystrzelonego pocisku po trafieniu, zadając fizyczne obrażenia znajdującym się w promieniu pięciu metrów celom, w zależności od poziomu łucznika:</p>
+          <ul>
+            <li>8. poziom: 1k4 obrażeń pobliskim celom</li>
+            <li>12. poziom: 1k4 +2 obrażeń pobliskim celom</li>
+            <li>16. poziom: 1k4 +4 obrażeń pobliskim celom</li>
+            <li>20. poziom: 1k4 +6 obrażeń pobliskim celom</li>
+          </ul>
+          <p><em>Uwaga: Rani wrogów, sojuszników i niewinne stworzenia.</em></p>
+          <hr class="spacer" />
+          <p><strong>WYCZAROWANIE AMUNICJI ŻYWIOŁÓW:</strong> Tworzy specjalnie przygotowaną strzałę lub bełt, pobłogosławione przez bóstwo, które wyznaje łucznik. Pocisk istnieje przez osiem godzin i zawiera wiele ładunków. Ilość ładunków wzrasta dwukrotnie na poziomach 8 i 16.</p>
+          <ul>
+            <li>4. poziom: umagicznienie +1, +1 do testów trafienia i obrażeń, dodatkowe 1k3 obrażeń od ognia.</li>
+            <li>8. poziom: umagicznienie +1, +2 do testów trafienia i obrażeń, dodatkowe 1k3 obrażeń od ognia i 1k3 obrażeń od zimna, oplątanie nienaturalnych istot przez dwie rundy (rzut obronny przeciw czarom neguje).</li>
+            <li>12. poziom: umagicznienie +2, +2 do testów trafienia i obrażeń, dodatkowe 1k3 obrażeń od ognia, 1k3 obrażeń od zimna i 1k3 obrażeń od kwasu, oślepienie nienaturalnych istot przez dwie rundy (rzut obronny przeciw czarom neguje).</li>
+            <li>16. poziom: umagicznienie +3, +3 do testów trafienia i obrażeń, dodatkowe 1k3 obrażeń od ognia, 1k3 obrażeń od zimna, 1k3 obrażeń od kwasu i 1k3 obrażeń od elektryczności, spowolnienie nienaturalnych istot przez dwie rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).</li>
+            <li>20. poziom: umagicznienie +4, +4 do testów trafienia i obrażeń, dodatkowe 1k3 +2 obrażeń od ognia, 1k3 +2 obrażeń od zimna, 1k3 +2 obrażeń od kwasu i 1k3 +2 obrażeń od elektryczności, spowolnienie i oślepienie nienaturalnych istot przez dwie rundy (rzut obronny przeciw czarom z modyfikatorem -4 neguje).</li>
+          </ul>
+          <hr class="spacer" />
+          <p><strong>NIEOMYLNY STRZAŁ (Zdolność wysokopoziomowa):</strong> Wysokopoziomowi łucznicy posiadają pełną kontrolę nad wybranymi przez siebie broniami dystansowymi, co pozwala im celować w istotne organy przeciwnika z przerażającą precyzją i szybkością. Po aktywowaniu tej zdolności łucznik przyjmuje odpowiednią postawę i zaczyna wystrzeliwać strzały jedna po drugiej. Przez następne dwanaście rund zdolność ta ustala ilość ataków łucznika na 10 i sprawia, że każdy jego strzał jest trafieniem krytycznym. Z racji tego, że technika ta wymaga najwyższych umiejętności i koncentracji, łucznik jest przykuty do miejsca przez następne dwie rundy. Zdolności tej nie można użyć razem z innymi zdolnościami strzeleckimi.</p>
+          <hr class="spacer" />
+          <p><strong>ZASTAWIANIE PUŁAPEK Z POCISKAMI (Zdolność wysokopoziomowa):</strong> Zdolność ta pozwala łucznikowi na zastawienie potężnej sprężynowej pułapki z pociskami w wybranym przez siebie miejscu, pod warunkiem, że w zasięgu wzroku nie ma wrogich istot. Pułapka zadaje istocie, która ją uruchomi, 3k10 obrażeń od pocisków oraz 1k10 obrażeń od różnego rodzaju żywiołów.</p>
+          <hr class="spacer" />
+          <p><strong>Wady:</strong></p>
+          <ul>
+            <li>-1 do Kondycji.</li>
+            <li>Nie może nosić żadnej metalowej zbroi.</li>
+            <li>Łucznik może osiągnąć stopień Wyszkolony (1 punkt biegłości) w broniach do walki wręcz.</li>
+          </ul>          
+        </details>
+
+        <hr class="doublespacer" />
+        <details>
+          <summary title="Click to show or hide description"><h4 style="display:inline">Podklasa wojownika: Snajper</h4></summary>
+          <p>Snajper jest uosobieniem mistrzowskiego posługiwania się łukiem. To znakomity strzelec, umiejący oddać strzał niemal z każdej pozycji, niezależnie od stopnia trudności. Aby zyskać takie umiejętności, snajper musiał poświęcić część swoich punktów biegłości za posługiwanie się bronią ręczną i zbroją.</p>
+          <hr class="spacer" />
+          <p><strong>Zalety:</strong></p>
+          <ul>
+            <li>+1 do testów trafienia i obrażeń bronią strzelecką, co cztery poziomy.</li>
+            <li>+1 do Klasy Pancerza przeciw broniom strzeleckim, co sześć poziomów.</li>
+            <li>+5% szans na trafienie krytyczne na poziomach 13 i 18.</li>
+            <li>Może osiągnąć Wielkie mistrzostwo (pięć punktów biegłości) w długich łukach, krótkich łukach, kuszach, strzałkach i procach.</li>
+            <li>Może skorzystać ze zdolności Oplątujący strzał, raz dziennie na cztery poziomy (począwszy od jednego użycia na 4. poziomie). Zdolność ta nie może zostać użyta w połączeniu z innymi umiejętnościami strzeleckimi.</li>
+            <li>Może skorzystać ze zdolności Potężny strzał, raz dziennie na cztery poziomy (począwszy od jednego użycia na 8. poziomie). Zdolność ta nie może zostać użyta w połączeniu z innymi umiejętnościami strzeleckimi.</li>
+            <li>Może skorzystać ze zdolności Wybuchowy strzał, raz dziennie na cztery poziomy (począwszy od jednego użycia na 8. poziomie). Zdolność ta nie może zostać użyta w połączeniu z innymi umiejętnościami strzeleckimi.</li>
+            <li>Może skorzystać ze zdolności Wytworzenie wzmocnionej amunicji, raz dziennie na osiem poziomów (począwszy od jednego użycia na 4. poziomie).</li>
+          </ul>
+          <hr class="spacer" />
+          <p><strong>OPLĄTUJĄCY STRZAŁ:</strong> Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, spowoduje oplątanie celu, zgodnie z poziomem snajpera:</p>
+          <ul>
+            <li>4. poziom: Cel jest oplątany przez trzy rundy (rzut obronny przeciw czarom neguje).</li>
+            <li>8. poziom: Cel jest oplątany przez trzy rundy (rzut obronny przeciw czarom z modyfikatorem -1 neguje).</li>
+            <li>12. poziom: Cel jest oplątany przez cztery rundy (rzut obronny przeciw czarom z modyfikatorem -1 neguje).</li>
+            <li>16. poziom: Cel jest oplątany przez cztery rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).</li>
+            <li>20. poziom: Cel jest oplątany przez pięć rund (rzut obronny przeciw czarom z modyfikatorem -2 neguje).</li>
+          </ul>
+          <hr class="spacer" />
+          <p><strong>POTĘŻNY STRZAŁ:</strong> Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, ma szansę na odrzucenie celu, w zależności od poziomu snajpera:</p>
+          <ul>
+            <li>8. poziom: Odrzuca cel (rzut obronny przeciw zionięciom neguje).</li>
+            <li>12. poziom: Odrzuca cel (rzut obronny przeciw zionięciom z modyfikatorem -1 neguje).</li>
+            <li>16. poziom: Odrzuca cel (rzut obronny przeciw zionięciom z modyfikatorem -2 neguje).</li>
+            <li>20. poziom: Odrzuca cel (rzut obronny przeciw zionięciom z modyfikatorem -3 neguje).</li>
+          </ul>
+          <hr class="spacer" />
+          <p><strong>WYBUCHOWY STRZAŁ:</strong> Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, powoduje eksplozję wystrzelonego pocisku po trafieniu, zadając fizyczne obrażenia znajdującym się w promieniu pięciu metrów celom, w zależności od poziomu snajpera:</p>
+          <ul>
+            <li>8. poziom: 1k4 obrażeń pobliskim celom</li>
+            <li>12. poziom: 1k4 +2 obrażeń pobliskim celom</li>
+            <li>16. poziom: 1k4 +4 obrażeń pobliskim celom</li>
+            <li>20. poziom: 1k4 +6 obrażeń pobliskim celom</li>
+          </ul>
+          <p><em>Uwaga: Rani wrogów, sojuszników i niewinne stworzenia.</em></p>
+          <hr class="spacer" />
+          <p><strong>WYTWORZENIE WZMOCNIONEJ AMUNICJI:</strong> Pozwala wytworzyć zestaw specjalnie przygotowanych strzał, bełtów lub pocisków. Ilość wytworzonych zestawów podwaja się na 16. poziomie.</p>
+          <ul>
+            <li>4. poziom: umagicznienie +1, premia +1 do testów trafienia, cel otrzymuje kumulatywną karę -1 do Klasy Pancerza na dwie rundy (rzut obronny przeciw śmierci neguje).</li>
+            <li>8. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -1 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci neguje).</li>
+            <li>12. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci neguje), a także zostaje odrzucony (rzut obronny przeciw zionięciom neguje).</li>
+            <li>16. poziom: umagicznienie +3, premia +3 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje), a także zostaje odrzucony i ogłuszony na jedną rundę (rzut obronny przeciw zionięciom neguje).</li>
+            <li>20. poziom: umagicznienie +4, premia +4 do testów trafienia, cel otrzymuje kumulatywną karę -3 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje), a także zostaje odrzucony i ogłuszony na jedną rundę (rzut obronny przeciw zionięciom z modyfikatorem -2 neguje).</li>
+          </ul>
+          <hr class="spacer" />
+          <p><strong>NIEOMYLNY STRZAŁ (Zdolność wysokopoziomowa):</strong> Wysokopoziomowi łucznicy posiadają pełną kontrolę nad wybranymi przez siebie broniami dystansowymi, co pozwala im celować w istotne organy przeciwnika z przerażającą precyzją i szybkością. Po aktywowaniu tej zdolności łucznik przyjmuje odpowiednią postawę i zaczyna wystrzeliwać strzały jedna po drugiej. Przez następne dwanaście rund zdolność ta ustala ilość ataków łucznika na 10 i sprawia, że każdy jego strzał jest trafieniem krytycznym. Z racji tego, że technika ta wymaga najwyższych umiejętności i koncentracji, łucznik jest przykuty do miejsca przez następne dwie rundy. Zdolności tej nie można użyć razem z innymi zdolnościami strzeleckimi.</p>
+          <hr class="spacer" />
+          <hr class="spacer" />
+          <p><strong>Wady:</strong></p>
+          <ul>
+            <li>Nie może nosić żadnej metalowej zbroi.</li>
+            <li>Snajper może osiągnąć stopień Specjalista (dwa punkty biegłości) w broniach do walki wręcz.</li>
+            <li>Snajper może przeznaczyć tylko jeden punkt biegłości na dowolny styl walki.</li>
+          </ul>
+        </details>
+
+        <hr class="doublespacer" />
+        <details>
+          <summary title="Click to show or hide description"><h4 style="display:inline">Podklasa paladyna: Rycerz łucznik</h4></summary>
+          <p>Rycerz łucznik jest uosobieniem mistrzowskiego posługiwania się łukiem. To znakomity strzelec, umiejący oddać strzał niemal z każdej pozycji, niezależnie od stopnia trudności. Aby zyskać takie umiejętności, rycerz łucznik musiał poświęcić część swoich punktów biegłości za posługiwanie się bronią ręczną i zbroją.</p>
+          <hr class="spacer" />
+          <p><strong>Zalety:</strong></p>
+          <ul>
+            <li>+1 do testów trafienia i obrażeń bronią strzelecką, co cztery poziomy.</li>
+            <li>+1 do Klasy Pancerza przeciw broniom strzeleckim, co sześć poziomów.</li>
+            <li>+5% szans na trafienie krytyczne na poziomach 13 i 18.</li>
+            <li>Może osiągnąć Wielkie mistrzostwo (pięć punktów biegłości) w długich łukach, krótkich łukach, kuszach i procach.</li>
+            <li>Może skorzystać ze zdolności Oplątujący strzał, raz dziennie na cztery poziomy (począwszy od jednego użycia na 4. poziomie). Zdolność ta nie może zostać użyta w połączeniu z innymi umiejętnościami strzeleckimi.</li>
+            <li>Może skorzystać ze zdolności Potężny strzał, raz dziennie na cztery poziomy (począwszy od jednego użycia na 8. poziomie). Zdolność ta nie może zostać użyta w połączeniu z innymi umiejętnościami strzeleckimi.</li>
+            <li>Może skorzystać ze zdolności Przywołanie błogosławionej amunicji, raz dziennie na osiem poziomów (począwszy od jednego użycia na 4. poziomie).</li>
+          </ul>
+          <hr class="spacer" />
+          <p><strong>OPLĄTUJĄCY STRZAŁ:</strong> Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, spowoduje oplątanie celu, zgodnie z poziomem rycerza łucznika:</p>
+          <ul>
+            <li>4. poziom: Cel jest oplątany przez trzy rundy (rzut obronny przeciw czarom neguje).</li>
+            <li>8. poziom: Cel jest oplątany przez trzy rundy (rzut obronny przeciw czarom z modyfikatorem -1 neguje).</li>
+            <li>12. poziom: Cel jest oplątany przez cztery rundy (rzut obronny przeciw czarom z modyfikatorem -1 neguje).</li>
+            <li>16. poziom: Cel jest oplątany przez cztery rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).</li>
+            <li>20. poziom: Cel jest oplątany przez pięć rund (rzut obronny przeciw czarom z modyfikatorem -2 neguje).</li>
+          </ul>
+          <hr class="spacer" />
+          <p><strong>POTĘŻNY STRZAŁ:</strong> Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, ma szansę na odrzucenie celu, w zależności od poziomu rycerza łucznika:</p>
+          <ul>
+            <li>8. poziom: Odrzuca cel (rzut obronny przeciw zionięciom neguje).</li>
+            <li>12. poziom: Odrzuca cel (rzut obronny przeciw zionięciom z modyfikatorem -1 neguje).</li>
+            <li>16. poziom: Odrzuca cel (rzut obronny przeciw zionięciom z modyfikatorem -2 neguje).</li>
+            <li>20. poziom: Odrzuca cel (rzut obronny przeciw zionięciom z modyfikatorem -3 neguje).</li>
+          </ul>
+          <hr class="spacer" />
+          <p><strong>PRZYWOŁANIE BŁOGOSŁAWIONEJ AMUNICJI:</strong> Przywołuje specjalnie przygotowaną strzałę, bełt lub pocisk, pobłogosławione przez bóstwo, które wyznaje rycerz łucznik. Amunicja istnieje przez osiem godzin i zawiera wiele ładunków. Ilość ładunków wzrasta dwukrotnie na poziomach 8 i 16.</p>
+          <ul>
+            <li>4. poziom: umagicznienie +1, +1 do testów trafienia, dodatkowe 1k6 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym.</li>
+            <li>8. poziom: umagicznienie +1, +2 do testów trafienia, dodatkowe 1k6 +2 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają oślepieni na dwie rundy (rzut obronny przeciw czarom neguje).</li>
+            <li>12. poziom: umagicznienie +2, +2 do testów trafienia, dodatkowe 1k6 +4 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają spowolnieni na dwie rundy (rzut obronny przeciw czarom neguje).</li>
+            <li>16. poziom: umagicznienie +3, +3 do testów trafienia, dodatkowe 1k6 +6 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają spowolnieni i oślepieni na dwie rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).</li>
+            <li>20. poziom: umagicznienie +4, +4 do testów trafienia, dodatkowe 1k6 +8 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają unieruchomieni na dwie rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).</li>
+          </ul>
+          <hr class="spacer" />
+          <p><strong>NIEOMYLNY STRZAŁ (Zdolność wysokopoziomowa):</strong> Wysokopoziomowi łucznicy posiadają pełną kontrolę nad wybranymi przez siebie broniami dystansowymi, co pozwala im celować w istotne organy przeciwnika z przerażającą precyzją i szybkością. Po aktywowaniu tej zdolności łucznik przyjmuje odpowiednią postawę i zaczyna wystrzeliwać strzały jedna po drugiej. Przez następne dwanaście rund zdolność ta ustala ilość ataków łucznika na 10 i sprawia, że każdy jego strzał jest trafieniem krytycznym. Z racji tego, że technika ta wymaga najwyższych umiejętności i koncentracji, łucznik jest przykuty do miejsca przez następne dwie rundy. Zdolności tej nie można użyć razem z innymi zdolnościami strzeleckimi.</p>
+          <hr class="spacer" />
+          <p><strong>Wady:</strong></p>
+          <ul>
+            <li>Nie może nosić żadnej metalowej zbroi.</li>
+            <li>Rycerz łucznik może osiągnąć stopień Wyszkolony (jeden punkt biegłości) w broniach do walki wręcz.</li>
+            <li>Rycerz łucznik może przeznaczyć tylko jeden punkt biegłości na dowolny styl walki.</li>
+          </ul>
+        </details>
+
+        <hr class="doublespacer" />
+        <details>
+          <summary title="Click to show or hide description"><h4 style="display:inline">Podklasa złodzieja: Strzelec wyborowy</h4></summary>
+          <p>Strzelec wyborowy jest uosobieniem mistrzowskiego posługiwania się łukiem. To znakomity strzelec, umiejący oddać strzał niemal z każdej pozycji, niezależnie od stopnia trudności. Aby zyskać takie umiejętności, strzelec wyborowy musiał poświęcić część swoich punktów biegłości za posługiwanie się bronią ręczną i zbroją.</p>
+          <hr class="spacer" />
+          <p><strong>Zalety:</strong></p>
+          <ul>
+            <li>+1 do testów trafienia i obrażeń bronią strzelecką, co pięć poziomów.</li>
+            <li>+1 do Klasy Pancerza przeciw broniom strzeleckim, co osiem poziomów.</li>
+            <li>+5% szans na trafienie krytyczne na 18. poziomie.</li>
+            <li>Może osiągnąć Wielkie mistrzostwo (pięć punktów biegłości) w krótkich łukach, kuszach, strzałkach i procach.</li>
+            <li>Może skorzystać ze zdolności Oplątujący strzał, raz dziennie na cztery poziomy (począwszy od jednego użycia na 4. poziomie). Zdolność ta nie może zostać użyta w połączeniu z innymi umiejętnościami strzeleckimi.</li>
+            <li>Może skorzystać ze zdolności Wybuchowy strzał, raz dziennie na cztery poziomy (począwszy od jednego użycia na 8. poziomie). Zdolność ta nie może zostać użyta w połączeniu z innymi umiejętnościami strzeleckimi.</li>
+            <li>Może skorzystać ze zdolności Stworzenie zaczarowanej amunicji, raz dziennie na osiem poziomów (począwszy od jednego użycia na 4. poziomie).</li>
+          </ul>
+          <hr class="spacer" />
+          <p><strong>OPLĄTUJĄCY STRZAŁ:</strong> Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, spowoduje oplątanie celu, zgodnie z poziomem strzelca wyborowego:</p>
+          <ul>
+            <li>4. poziom: Cel jest oplątany przez trzy rundy (rzut obronny przeciw czarom neguje).</li>
+            <li>8. poziom: Cel jest oplątany przez trzy rundy (rzut obronny przeciw czarom z modyfikatorem -1 neguje).</li>
+            <li>12. poziom: Cel jest oplątany przez cztery rundy (rzut obronny przeciw czarom z modyfikatorem -1 neguje).</li>
+            <li>16. poziom: Cel jest oplątany przez cztery rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).</li>
+            <li>20. poziom: Cel jest oplątany przez pięć rund (rzut obronny przeciw czarom z modyfikatorem -2 neguje).</li>
+          </ul>
+          <hr class="spacer" />
+          <p><strong>WYBUCHOWY STRZAŁ:</strong> Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, powoduje eksplozję wystrzelonego pocisku po trafieniu, zadając fizyczne obrażenia znajdującym się w promieniu pięciu metrów celom, w zależności od poziomu strzelca wyborowego:</p>
+          <ul>
+            <li>8. poziom: 1k4 obrażeń pobliskim celom</li>
+            <li>12. poziom: 1k4 +2 obrażeń pobliskim celom</li>
+            <li>16. poziom: 1k4 +4 obrażeń pobliskim celom</li>
+            <li>20. poziom: 1k4 +6 obrażeń pobliskim celom</li>
+          </ul>
+          <p><em>Uwaga: Rani wrogów, sojuszników i niewinne stworzenia.</em></p>
+          <hr class="spacer" />
+          <p><strong>STWORZENIE ZACZAROWANEJ AMUNICJI:</strong> Pozwala wytworzyć zestaw specjalnie przygotowanych strzał lub bełtów. Ilość wytworzonych zestawów podwaja się na 16. poziomie.</p>
+          <ul>
+            <li>4. poziom: umagicznienie +1, premia +1 do testów trafienia, cel otrzymuje kumulatywną karę -1 do Klasy Pancerza na dwie rundy (rzut obronny przeciw śmierci neguje).</li>
+            <li>8. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza na dwie rundy, chyba że wykona rzut obronny przeciw śmierci. Ponadto zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe 1 obrażenie od krwawienia na sekundę przez jedną rundę (rzut obronny przeciw śmierci neguje).</li>
+            <li>12. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci neguje). Ponadto zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe 1 obrażenie od krwawienia na sekundę przez jedną rundę (rzut obronny przeciw śmierci neguje).</li>
+            <li>16. poziom: umagicznienie +3, premia +3 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci neguje). Ponadto zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe 2 obrażenia od krwawienia na sekundę przez jedną rundę, a także zostają oślepione na dwie rundy (rzut obronny przeciw śmierci neguje).</li>
+            <li>20. poziom: umagicznienie +4, premia +4 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje). Ponadto zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe 4 obrażenia od krwawienia na sekundę przez jedną rundę, a także zostają oślepione na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje).</li>
+          </ul>
+          <hr class="spacer" />
+          <p><strong>ZASTAWIANIE PUŁAPEK Z POCISKAMI (Zdolność wysokopoziomowa):</strong> Zdolność ta pozwala łucznikowi na zastawienie potężnej sprężynowej pułapki z pociskami w wybranym przez siebie miejscu, pod warunkiem, że w zasięgu wzroku nie ma wrogich istot. Pułapka zadaje istocie, która ją uruchomi, 3k10 obrażeń od pocisków oraz 1k10 obrażeń od różnego rodzaju żywiołów.</p>
+          <hr class="spacer" />
+          <p><strong>Wady:</strong></p>
+          <ul>
+            <li>Co poziom dostaje tylko 15 punktów do wykorzystania na umiejętności złodziejskie.</li>
+            <li>Nie może korzystać ze zdolności Cios w plecy.</li>
+          </ul>
+        </details>
+
+        <hr class="doublespacer" />
+        <h3>Opisy długich łuków</h3>
+        <details>
+          <summary title="Click to show or hide description"><strong>Sięgający słońca +3</strong></summary>
+          <p>Elfowie z Evereski znani są ze swego izolacjonizmu w równym stopniu, co z umiejętności i odwagi w walce. Jednym z najbardziej znanych ludziom elfich wojowników był niebywale uzdolniony łucznik o imieniu Bariah Goldendown. Chociaż elfy nie potwierdzają ani nie zaprzeczają legendom, niektóre z opowiadanych przez ludzi historii głoszą, że mający iście sokoli wzrok Bariah nigdy nie spudłował w czasie bitwy. Łuk, którego używał, został wykonany przez jego matkę i otrzymał nazwę, która nie była znana nikomu, poza jego rodziną. Ludzie, którzy poczuli na własnej skórze potęgę tej broni, nazwali ją Sięgającym słońca, wierząc, że wypuszczane przez elfa strzały mogły sięgnąć niebios. Podczas bitwy, którą elfowie z Evereski do dziś wspominają z goryczą, gryf, na którym latał Bariah, został zabity podczas lotu przez zaklęcia niewidzialnych czarodziejów, którzy przygotowali zasadzkę na patrol elfów. Mimo iż przeżył tylko jeden mag, udało mu się zabrać ze sobą Sięgającego słońca.</p>
+          <p>PARAMETRY:</p>
+          <p>Właściwości ładunków:</p>
+          <ul>
+            <li>Ochrona przed zwykłymi pociskami, dwa razy dziennie</li>
+          </ul>
+          <p>Specjalne:</p>
+          <ul>
+            <li>Jeśli nie zostanie wyposażony w strzały, łuk ten wystrzeliwuje strzały +3, które zadają 1k6 obrażeń od pocisków i zapewniają premię +4 do trafienia</li>
+          </ul>
+          <p>TraK0: +4<br />
+          Waga: 3<br />
+          Opóźnienie: 2<br />
+          Rodzaj biegłości: długi łuk<br />
+          Typ broni: 2-ręczna<br />
+          Wymagana siła: 6<br />
+          Nie może używać: Druid, Kapłan, Mag, Złodziej, Mnich</p>
+        </details>
+
+        <hr class="spacer" />
+        <details>
+          <summary title="Click to show or hide description"><strong>Obrońca +5</strong></summary>
+          <p>Łuki refleksyjne to łuki krótkie lub długie, których drzewce wykonano z kilku rodzajów drewna. Dzięki temu są bardziej elastyczne, a wystrzeliwane strzały zadają większe obrażenia. Oprócz potężnych zaklęć, które na niego rzucono, łuk ten wykonano z materiałów wyjątkowej jakości. Wyjątkowo wytrzymałe łęczysko może służyć do odbijania nawet najsilniejszych ciosów, a jego ergonomiczny kształt pozwala użytkownikowi strzelać z ogromną prędkością.</p>
+          <p>PARAMETRY:</p>
+          <p>Specjalne:</p>
+          <ul>
+            <li>+4 do KP przeciw broniom do walki wręcz</li>
+            <li>3 strzały na rundę</li>
+          </ul>
+          <p>TraK0: +6<br />
+          Obrażenia: +2<br />
+          Waga: 5<br />
+          Opóźnienie: 2<br />
+          Rodzaj biegłości: długi łuk<br />
+          Typ broni: 2-ręczna<br />
+          Wymagana siła: 18<br />
+          Nie może używać: Druid, Kapłan, Mag, Złodziej, Mnich, Bard</p>
+        </details>
+
+        <div class="back">
+          <a class="novisit" href="#top">POWRÓT NA GÓRĘ</a>
+        </div>
+      </section>
+
+      <!-- ================== C R E D I T S ================== -->
+      <section id="credits">
+        <h2>Autorzy</h2>
+        <p><strong>Writing, coding &amp; testing:</strong> <a href="http://www.shsforums.net/user/14985-argent77/">Argent77</a></p>
+        <p><strong>Incorporated ideas from "Universal Archer Kit" by semiticgod</strong></p>
+        <p><strong>French translation:</strong> Gwendolyne</p>
+        <p><strong>Italian translation:</strong> Aedan</p>
+        <p><strong>Polish translation:</strong> Cahir</p>
+        <p><strong>Russian translation:</strong> Saigon1983, JamesMaxwell</p>
+        <hr class="spacer" />
+        <h5>Copyright Notice:</h5>
+        <div class="important">
+          <div>
+            <a rel="license" id="license" href="https://creativecommons.org/licenses/by-sa/4.0/">
+              <img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
+            </a>
+          </div>
+          <p>"Improved Archer Kit" is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.</p>
+        </div>
+        <div class="back">
+          <a class="novisit" href="#top">POWRÓT NA GÓRĘ</a>
+        </div>
+      </section>
+
+      <!-- ================== V E R S I O N   H I S T O R Y ================== -->
+      <section id="changelog">
+        <h2>Historia wersji</h2>
+        <h6>Version 4.0</h6>
+        <ul>
+          <li>Rebalanced passive bonuses for all kits</li>
+          <li>Removed "Power Shot" ability from Sharpshooter kit</li>
+          <li>Completely revised the "Create ammunition" ability for all kits</li>
+          <li>Adds several powerful shortbows to IWD:EE</li>
+          <li>Fixed incorrect abilities granted to Bow Knights</li>
+          <li>Fixed missing bonuses for Bow Knight and Marksman kit</li>
+        </ul>
+        <hr class="spacer" />
+        <h6>Version 3.2</h6>
+        <ul>
+          <li>Made all kit-related subcomponents independent of each other</li>
+          <li>"Improved Archer kit" component doesn't overwrite original class ability table anymore</li>
+          <li>Added Project Infinity metadata</li>
+          <li>Changed readme into html format</li>
+        </ul>
+        <hr class="spacer" />
+        <h6>Version 3.1</h6>
+        <ul>
+          <li>Updated Russian translation (thanks JamesMaxwell)</li>
+          <li>Fixed typos in ability descriptions</li>
+        </ul>
+        <hr class="spacer" />
+        <h6>Version 3.0</h6>
+        <ul>
+          <li>Rebalanced combat bonuses of the Archer kit</li>
+          <li>Rebalanced "Create Blessed Ammo" ability</li>
+          <li>Added Archer-like kits for fighters, paladins and thieves</li>
+          <li>Added bullets to "Create Blessed Ammo" ability for paladin kit</li>
+          <li>Fixed incorrect blessed ammo projectile for classic BG2/BGT</li>
+          <li>Added German readme</li>
+        </ul>
+        <hr class="spacer" />
+        <h6>Version 2.4</h6>
+        <ul>
+          <li>Fixed a bug that may cause installation error in BG2:EE</li>
+        </ul>
+        <hr class="spacer" />
+        <h6>Version 2.3</h6>
+        <ul>
+          <li>Added French translation (Thanks Gwendolyne)</li>
+          <li>Fixed THAC0 bonus of bow 'The Defender +5'</li>
+          <li>Excluded shamans from unusability list of arrows</li>
+          <li>Added 'Monk' to unusability list of bows</li>
+          <li>Fixed incorrect record screen class description in EET</li>
+        </ul>
+        <hr class="spacer" />
+        <h6>Version 2.2</h6>
+        <ul>
+          <li>Added Siege of Dragonspear support</li>
+          <li>Improved compatibility with Enhanced Edition patches v2.x</li>
+          <li>Added custom portrait icons for shot abilities in Enhanced Edition patches v2.x</li>
+          <li>Added Italian translation (Thanks Aedan)</li>
+          <li>Added Polish translation (Thanks Cahir)</li>
+        </ul>
+        <hr class="spacer" />
+        <h6>Version 2.1</h6>
+        <ul>
+          <li>Changed location of a longbow from 1st level to 3rd level of Watcher's Keep</li>
+          <li>Added german and russian translations</li>
+          <li>Added more information to the readme</li>
+        </ul>
+        <hr class="spacer" />
+        <h6>Version 2.0</h6>
+        <ul>
+          <li>Added IWD:EE support</li>
+          <li>Merged components</li>
+          <li>Removed spell casting restrictions because of technical reasons</li>
+        </ul>
+        <hr class="spacer" />
+        <h6>Version 1.0</h6>
+        <ul>
+          <li>Initial release</li>
+        </ul>
+        <div class="back">
+          <a class="novisit" href="#top">POWRÓT NA GÓRĘ</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
