@@ -80,17 +80,71 @@ COPY_EXISTING ~abclsmod.2da~ ~override~
 BUT_ONLY
 
 // Setting new HLA table
+OUTER_TEXT_SPRINT luabbrev ~~
 COPY_EXISTING ~luabbr.2da~ ~override~
   COUNT_2DA_COLS numCols
   COUNT_2DA_ROWS numCols numRows
   FOR (row = 0; row < numRows; row += 1) BEGIN
     READ_2DA_ENTRY row 0 numCols value
     PATCH_IF (~%value%~ STRING_EQUAL_CASE ~FERALAN~) BEGIN
-      SET_2DA_ENTRY row 1 numCols ~A7ra1~
+      READ_2DA_ENTRY row 1 numCols luabbrev
+      PATCH_IF (~%luabbrev%~ STR_EQ ~Ra0~) BEGIN
+        SET_2DA_ENTRY row 1 numCols ~A7ra1~
+      END
       SET row = numRows
     END
   END
 BUT_ONLY
+
+// Updating HLA table non-destructively
+ACTION_IF (~%luabbrev%~ STR_EQ ~Ra0~) BEGIN
+  // Don't use default ranger HLA table
+  COPY_EXISTING ~lura0.2da~ ~override/lua7ra1.2da~
+  OUTER_TEXT_SPRINT luabbrev ~a7ra1~
+END
+
+// Loading HLA entries for addition
+COPY ~%MOD_FOLDER%/kit/lua7ra1-add.2da~ ~%MOD_FOLDER%/kit/lua7ra1-add.2da~
+  COUNT_2DA_COLS num_cols
+  COUNT_2DA_ROWS num_cols abbrev_rows
+  READ_2DA_ENTRIES_NOW abbrev_add num_cols
+BUT_ONLY
+
+// Adding HLA entries to table
+OUTER_SET added = 0
+COPY_EXISTING ~lu%luabbrev%.2da~ ~override~
+  COUNT_2DA_COLS num_cols
+  COUNT_2DA_ROWS 1 num_rows
+  READ_2DA_ENTRIES_NOW abbrev 1
+  READ_2DA_ENTRY_FORMER abbrev 1 0 def_value
+  FOR (row = 3; row < num_rows; ++row) BEGIN
+    READ_2DA_ENTRY_FORMER abbrev row 1 value
+    PATCH_IF (~%value%~ STR_EQ ~%def_value%~ && added < abbrev_rows) BEGIN
+      FOR (col = 1; col < num_cols; ++col) BEGIN
+        TEXT_SPRINT value $abbrev_add(~%added%~ ~%col%~)
+        SET_2DA_ENTRY_LATER abbrev_out row col ~%value%~
+      END
+      SET added += 1
+    END
+  END
+  PATCH_IF (added > 0) BEGIN
+    SET_2DA_ENTRIES_NOW abbrev_out 1
+  END
+BUT_ONLY
+
+// Added remaining HLA entries, if any
+OUTER_SET num_rows -= 3
+OUTER_FOR (row = added; row < abbrev_rows; ++row) BEGIN
+  OUTER_TEXT_SPRINT line ~%num_rows%~
+  OUTER_FOR (col = 1; col < num_cols; ++col) BEGIN
+    OUTER_TEXT_SPRINT value $abbrev_add(~%row%~ ~%col%~)
+    OUTER_TEXT_SPRINT line ~%line% %value%~
+  END
+  APPEND ~lu%luabbrev%.2da~ ~%line%~
+  OUTER_SET num_rows += 1
+END
+
+COPY_EXISTING ~lu%luabbrev%.2da~ ~override~ PRETTY_PRINT_2DA BUT_ONLY
 
 ACTION_IF (IS_EE) BEGIN
   // using hardcoded class table by default
