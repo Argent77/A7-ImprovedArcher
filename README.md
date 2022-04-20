@@ -142,6 +142,7 @@ Disadvantages:
 - -1 CON penalty.
 - May not wear any metal armor.
 - May only become Proficient (one slot) with melee weapons.
+- May not use the Charm Animal ability.
 ```
 
 #### Fighter kit: Marksman
