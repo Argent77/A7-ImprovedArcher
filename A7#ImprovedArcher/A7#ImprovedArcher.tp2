@@ -18,7 +18,10 @@ ALWAYS
     OUTER_TEXT_SPRINT CLAB_DIR ~bg~
   END
 
-  OUTER_SET IS_EE = GAME_IS ~bgee bg2ee eet iwdee pstee~
+  OUTER_SET IS_BG2 = GAME_IS ~tob tutu tutu_totsc bgt~
+  OUTER_SET IS_BGEE = GAME_IS ~bgee bg2ee eet~
+  OUTER_SET IS_IWDEE = GAME_IS ~iwdee~
+  OUTER_SET IS_EE = IS_BGEE || IS_IWDEE
   OUTER_SET IS_EE_V2 = IS_EE && FILE_EXISTS_IN_GAME ~achievem.2da~
 
   ACTION_DEFINE_ARRAY a7#noconvert BEGIN ~setup~ ~kit-ee~ END
@@ -83,7 +86,7 @@ LANGUAGE ~Russian (Translation by Saigon1983 & JamesMaxwell)~
 
 
 BEGIN @1    // Improved Archer Kit
-  REQUIRE_PREDICATE GAME_IS ~tob bgt bgee bg2ee iwdee eet~ @100   // This mod requires BG2:ToB, BG:EE, BG2:EE or IWD:EE to be installed.
+  REQUIRE_PREDICATE GAME_IS ~tob tutu tutu_totsc bgt bgee bg2ee iwdee eet~ @100   // This mod requires BG2:ToB, BG:EE, BG2:EE or IWD:EE to be installed.
   DESIGNATED 0
   LABEL ~A7-IMPROVEDARCHER-ARCHER~
 
@@ -91,7 +94,7 @@ BEGIN @1    // Improved Archer Kit
 
 
 BEGIN @3    // Add fighter kit: Marksman
-  REQUIRE_PREDICATE GAME_IS ~tob bgt bgee bg2ee iwdee eet~ @100   // This mod requires BG2:ToB, BG:EE, BG2:EE or IWD:EE to be installed.
+  REQUIRE_PREDICATE GAME_IS ~tob tutu tutu_totsc bgt bgee bg2ee iwdee eet~ @100   // This mod requires BG2:ToB, BG:EE, BG2:EE or IWD:EE to be installed.
   // REQUIRE_COMPONENT ~setup-A7#ImprovedArcher.tp2~ 0 @102  // This component requires the main component "Improved Archer Kit" to be installed.
   DESIGNATED 10
   LABEL ~A7-IMPROVEDARCHER-MARKSMAN~
@@ -100,7 +103,7 @@ BEGIN @3    // Add fighter kit: Marksman
 
 
 BEGIN @4    // Add paladin kit: Bow Knight
-  REQUIRE_PREDICATE GAME_IS ~tob bgt bgee bg2ee iwdee eet~ @100   // This mod requires BG2:ToB, BG:EE, BG2:EE or IWD:EE to be installed.
+  REQUIRE_PREDICATE GAME_IS ~tob tutu tutu_totsc bgt bgee bg2ee iwdee eet~ @100   // This mod requires BG2:ToB, BG:EE, BG2:EE or IWD:EE to be installed.
   // REQUIRE_COMPONENT ~setup-A7#ImprovedArcher.tp2~ 0 @102  // This component requires the main component "Improved Archer Kit" to be installed.
   DESIGNATED 20
   LABEL ~A7-IMPROVEDARCHER-BOWKNIGHT~
@@ -109,7 +112,7 @@ BEGIN @4    // Add paladin kit: Bow Knight
 
 
 BEGIN @5    // Add thief kit: Sharpshooter
-  REQUIRE_PREDICATE GAME_IS ~tob bgt bgee bg2ee iwdee eet~ @100   // This mod requires BG2:ToB, BG:EE, BG2:EE or IWD:EE to be installed.
+  REQUIRE_PREDICATE GAME_IS ~tob tutu tutu_totsc bgt bgee bg2ee iwdee eet~ @100   // This mod requires BG2:ToB, BG:EE, BG2:EE or IWD:EE to be installed.
   // REQUIRE_COMPONENT ~setup-A7#ImprovedArcher.tp2~ 0 @102  // This component requires the main component "Improved Archer Kit" to be installed.
   DESIGNATED 30
   LABEL ~A7-IMPROVEDARCHER-SHARPSHOOTER~

@@ -11,7 +11,7 @@ END
 COPY ~%MOD_FOLDER%/kit/a7#bow01.itm~ ~override~
   SAY NAME2 @1021   // Great Sun-Reacher +4
   SAY IDENTIFIED_DESC @1117   // The elves of Evereska are known for their...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_LONG 0x34 16000     // Higher price in IWD
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
@@ -19,12 +19,12 @@ COPY ~%MOD_FOLDER%/kit/a7#bow01.itm~ ~override~
 COPY ~%MOD_FOLDER%/kit/a7#bow02.itm~ ~override~
   SAY NAME2 @1022   // The Defender +5
   SAY IDENTIFIED_DESC @1118   // Composite longbows are bows whose staves are made from...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_LONG 0x34 9000      // Higher price in IWD
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
 
-ACTION_IF (GAME_IS ~iwdee~) BEGIN
+ACTION_IF (IS_IWDEE) BEGIN
   COPY ~%MOD_FOLDER%/kit/a7#bow03.itm~ ~override~
     SAY NAME2 @1074   // Shortbow +2
     SAY IDENTIFIED_DESC @1160   // Shortbows were the first bows to be developed,...
@@ -67,7 +67,7 @@ ACTION_IF (GAME_IS ~tob bgt bg2ee eet~) BEGIN
   COPY_EXISTING ~teltief2.cre~ ~override~
     ADD_CRE_ITEM ~A7#BOW01~ #0 #0 #0 ~none~ ~inv1 inv2 inv3 inv4 inv5 inv6 inv7 inv8 inv9 inv10 inv11 inv12 inv13 inv14 inv15 inv16~
     ADD_CRE_ITEM ~A7#AROW1~ #40 #0 #0 ~none~ ~quiver1 quiver2 quiver3 quiver4 inv1 inv2 inv3 inv4 inv5 inv6 inv7 inv8 inv9 inv10 inv11 inv12 inv13 inv14 inv15 inv16~
-END ELSE ACTION_IF (GAME_IS ~iwdee~) BEGIN
+END ELSE ACTION_IF (IS_IWDEE) BEGIN
   <<<<<<<< .../inlined/A7#ImprovedArcher/ar2100.baf
   IF
     Global("A7#BowAdded","AR2100",0)
@@ -213,7 +213,7 @@ END
 
 
 // Adding IWD bows
-ACTION_IF (GAME_IS ~iwdee~) BEGIN
+ACTION_IF (IS_IWDEE) BEGIN
   // Shortbow +2
   COPY_EXISTING ~ar9400.are~ ~override~
     LPF fj_are_structure

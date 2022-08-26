@@ -360,110 +360,120 @@ COPY ~%KIT_FOLDER2%/a7#inr4b.spl~ ~override~
 COPY ~%KIT_FOLDER%/a7#inra1.itm~ ~override~
   SAY NAME2 @1032   // Elemental Arrow +1
   SAY IDENTIFIED_DESC @1125   // This is an arrow that has been blessed by the character's worshipped god or goddess...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+  LPF GET_PROJECTILE INT_VAR is_arrow = 1 enchantment = 1 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%KIT_FOLDER%/a7#inra2.itm~ ~override~
   SAY NAME2 @1033   // Elemental Arrow +2
   SAY IDENTIFIED_DESC @1126   // This is an arrow that has been blessed by the character's worshipped god or goddess...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+  LPF GET_PROJECTILE INT_VAR is_arrow = 1 enchantment = 2 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%KIT_FOLDER%/a7#inra3.itm~ ~override~
   SAY NAME2 @1033   // Elemental Arrow +2
   SAY IDENTIFIED_DESC @1127   // This is an arrow that has been blessed by the character's worshipped god or goddess...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+  LPF GET_PROJECTILE INT_VAR is_arrow = 1 enchantment = 2 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%KIT_FOLDER%/a7#inra4.itm~ ~override~
   SAY NAME2 @1034   // Elemental Arrow +3
   SAY IDENTIFIED_DESC @1128   // This is an arrow that has been blessed by the character's worshipped god or goddess...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+  LPF GET_PROJECTILE INT_VAR is_arrow = 1 enchantment = 3 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%KIT_FOLDER%/a7#inra5.itm~ ~override~
   SAY NAME2 @1035   // Elemental Arrow +4
   SAY IDENTIFIED_DESC @1129   // This is an arrow that has been blessed by the character's worshipped god or goddess...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+  LPF GET_PROJECTILE INT_VAR is_arrow = 1 enchantment = 4 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%KIT_FOLDER%/a7#inro1.itm~ ~override~
   SAY NAME2 @1036   // Elemental Bolt +1
   SAY IDENTIFIED_DESC @1130   // This is a bolt that has been blessed by the character's worshipped god or goddess...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+  LPF GET_PROJECTILE INT_VAR is_bolt = 1 enchantment = 1 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%KIT_FOLDER%/a7#inro2.itm~ ~override~
   SAY NAME2 @1037   // Elemental Bolt +2
   SAY IDENTIFIED_DESC @1131   // This is a bolt that has been blessed by the character's worshipped god or goddess...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+  LPF GET_PROJECTILE INT_VAR is_bolt = 1 enchantment = 2 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%KIT_FOLDER%/a7#inro3.itm~ ~override~
   SAY NAME2 @1037   // Elemental Bolt +2
   SAY IDENTIFIED_DESC @1132   // This is a bolt that has been blessed by the character's worshipped god or goddess...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+  LPF GET_PROJECTILE INT_VAR is_bolt = 1 enchantment = 2 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%KIT_FOLDER%/a7#inro4.itm~ ~override~
   SAY NAME2 @1038   // Elemental Bolt +3
   SAY IDENTIFIED_DESC @1133   // This is a bolt that has been blessed by the character's worshipped god or goddess...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+  LPF GET_PROJECTILE INT_VAR is_bolt = 1 enchantment = 3 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%KIT_FOLDER%/a7#inro5.itm~ ~override~
   SAY NAME2 @1039   // Elemental Bolt +4
   SAY IDENTIFIED_DESC @1134   // This is a bolt that has been blessed by the character's worshipped god or goddess...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+  LPF GET_PROJECTILE INT_VAR is_bolt = 1 enchantment = 4 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 

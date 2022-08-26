@@ -4,7 +4,7 @@ INCLUDE ~%MOD_FOLDER%/lib/kit.tph~
 
 ACTION_IF (GAME_IS ~tob bgt bg2ee eet~) BEGIN
   OUTER_TEXT_SPRINT stweap ~LEAT14 * * BAG28 RING06 RING05 * BOOT02 AMUL19 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 DAGG12 SW1H28 STAF08~
-END ELSE ACTION_IF (GAME_IS ~iwdee~) BEGIN
+END ELSE ACTION_IF (IS_IWDEE) BEGIN
   OUTER_TEXT_SPRINT stweap ~USLTR3A * * * SHADOWS URING5B * SHBOOTS BWTALIS KAYGLOV * AROW11,40 BULL03,40 BOLT06,40 FIREKIS POTN36,2 POTN08,5 BOW06 DART04,40 USSWD4A~
 END ELSE BEGIN
   OUTER_TEXT_SPRINT stweap ~* * * * * * * * * * * * * * * * * * * *~
@@ -96,110 +96,120 @@ COPY ~%KIT_FOLDER2%/a7#int4b.spl~ ~override~
 COPY ~%KIT_FOLDER%/a7#inta1.itm~ ~override~
   SAY NAME2 @1064   // Endowed Arrow +1
   SAY IDENTIFIED_DESC @1150   // These arrows have been carefully crafted with the aim to weaken the target's combat abilities...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+  LPF GET_PROJECTILE INT_VAR is_arrow = 1 enchantment = 1 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%KIT_FOLDER%/a7#inta2.itm~ ~override~
   SAY NAME2 @1065   // Endowed Arrow +2
   SAY IDENTIFIED_DESC @1151   // These arrows have been carefully crafted with the aim to weaken the target's combat abilities...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+  LPF GET_PROJECTILE INT_VAR is_arrow = 1 enchantment = 2 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%KIT_FOLDER%/a7#inta3.itm~ ~override~
   SAY NAME2 @1065   // Endowed Arrow +2
   SAY IDENTIFIED_DESC @1152   // These arrows have been carefully crafted with the aim to weaken the target's combat abilities...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+  LPF GET_PROJECTILE INT_VAR is_arrow = 1 enchantment = 2 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%KIT_FOLDER%/a7#inta4.itm~ ~override~
   SAY NAME2 @1066   // Endowed Arrow +3
   SAY IDENTIFIED_DESC @1153   // These arrows have been carefully crafted with the aim to weaken the target's combat abilities...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+  LPF GET_PROJECTILE INT_VAR is_arrow = 1 enchantment = 3 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%KIT_FOLDER%/a7#inta5.itm~ ~override~
   SAY NAME2 @1067   // Endowed Arrow +4
   SAY IDENTIFIED_DESC @1154   // These arrows have been carefully crafted with the aim to weaken the target's combat abilities...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+  LPF GET_PROJECTILE INT_VAR is_arrow = 1 enchantment = 4 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%KIT_FOLDER%/a7#into1.itm~ ~override~
   SAY NAME2 @1068   // Endowed Bolt +1
   SAY IDENTIFIED_DESC @1155   // These bolts have been carefully crafted with the aim to weaken the target's combat abilities...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+  LPF GET_PROJECTILE INT_VAR is_bolt = 1 enchantment = 1 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%KIT_FOLDER%/a7#into2.itm~ ~override~
   SAY NAME2 @1069   // Endowed Bolt +2
   SAY IDENTIFIED_DESC @1156   // These bolts have been carefully crafted with the aim to weaken the target's combat abilities...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+  LPF GET_PROJECTILE INT_VAR is_bolt = 1 enchantment = 2 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%KIT_FOLDER%/a7#into3.itm~ ~override~
   SAY NAME2 @1069   // Endowed Bolt +2
   SAY IDENTIFIED_DESC @1157   // These bolts have been carefully crafted with the aim to weaken the target's combat abilities...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+  LPF GET_PROJECTILE INT_VAR is_bolt = 1 enchantment = 2 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%KIT_FOLDER%/a7#into4.itm~ ~override~
   SAY NAME2 @1070   // Endowed Bolt +3
   SAY IDENTIFIED_DESC @1158   // These bolts have been carefully crafted with the aim to weaken the target's combat abilities...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+  LPF GET_PROJECTILE INT_VAR is_bolt = 1 enchantment = 3 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%KIT_FOLDER%/a7#into5.itm~ ~override~
   SAY NAME2 @1071   // Endowed Bolt +4
   SAY IDENTIFIED_DESC @1159   // These bolts have been carefully crafted with the aim to weaken the target's combat abilities...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+  LPF GET_PROJECTILE INT_VAR is_bolt = 1 enchantment = 3 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 

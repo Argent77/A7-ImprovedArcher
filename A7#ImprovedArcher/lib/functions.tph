@@ -1,3 +1,115 @@
+// Projectile identifiers for conjured/crafted ammo
+// Index: ammo type, game type, enchantment
+// Value: Projectile identifier
+ACTION_DEFINE_ASSOCIATIVE_ARRAY ammo_projectile BEGIN
+  // Arrow +1
+  ~arrow~, ~bg2~, ~1~   => 2
+  ~arrow~, ~bgee~, ~1~  => 285
+  ~arrow~, ~iwdee~, ~1~ => 5
+
+  // Arrow +2
+  ~arrow~, ~bg2~, ~2~   => 2
+  ~arrow~, ~bgee~, ~2~  => 291
+  ~arrow~, ~iwdee~, ~2~ => 5
+
+  // Arrow +3
+  ~arrow~, ~bg2~, ~3~   => 2
+  ~arrow~, ~bgee~, ~3~  => 292
+  ~arrow~, ~iwdee~, ~3~ => 5
+
+  // Arrow +4
+  ~arrow~, ~bg2~, ~4~   => 2
+  ~arrow~, ~bgee~, ~4~  => 292
+  ~arrow~, ~iwdee~, ~4~ => 5
+
+  // Bolt +1
+  ~bolt~, ~bg2~, ~1~    => 12
+  ~bolt~, ~bgee~, ~1~   => 299
+  ~bolt~, ~iwdee~, ~1~  => 12
+
+  // Bolt +2
+  ~bolt~, ~bg2~, ~2~    => 12
+  ~bolt~, ~bgee~, ~2~   => 303
+  ~bolt~, ~iwdee~, ~2~  => 12
+
+  // Bolt +3
+  ~bolt~, ~bg2~, ~3~    => 12
+  ~bolt~, ~bgee~, ~3~   => 304
+  ~bolt~, ~iwdee~, ~3~  => 12
+
+  // Bolt +4
+  ~bolt~, ~bg2~, ~4~    => 12
+  ~bolt~, ~bgee~, ~4~   => 304
+  ~bolt~, ~iwdee~, ~4~  => 12
+
+  // Bullet +1
+  ~bullet~, ~bg2~, ~1~    => 17
+  ~bullet~, ~bgee~, ~1~   => 305
+  ~bullet~, ~iwdee~, ~1~  => 333
+
+  // Bullet +2
+  ~bullet~, ~bg2~, ~2~    => 17
+  ~bullet~, ~bgee~, ~2~   => 306
+  ~bullet~, ~iwdee~, ~2~  => 333
+
+  // Bullet +3
+  ~bullet~, ~bg2~, ~3~    => 17
+  ~bullet~, ~bgee~, ~3~   => 308
+  ~bullet~, ~iwdee~, ~3~  => 333
+
+  // Bullet +4
+  ~bullet~, ~bg2~, ~4~    => 17
+  ~bullet~, ~bgee~, ~4~   => 309
+  ~bullet~, ~iwdee~, ~4~  => 333
+
+END
+
+// Returns a projectile identifier based on the given parameters.
+DEFINE_PATCH_FUNCTION GET_PROJECTILE
+INT_VAR
+  is_arrow    = 0   // whether item is an arrow
+  is_bolt     = 0   // whether item is a bolt
+  is_bullet   = 0   // whether item is a bullet
+  enchantment = 0   // ammo enchantment
+RET
+  projectile        // the new projectile if successful; the old projectile or 0, otherwise
+BEGIN
+  SET projectile = 0
+  READ_ASCII 0 sig (8)
+  PATCH_IF (~%sig%~ STR_EQ ~ITM V1  ~) BEGIN
+    // ammo type
+    TEXT_SPRINT ammo ~~
+    PATCH_IF (is_arrow) BEGIN
+      TEXT_SPRINT ammo ~arrow~
+    END ELSE PATCH_IF (is_bolt) BEGIN
+      TEXT_SPRINT ammo ~bolt~
+    END ELSE PATCH_IF (is_bullet) BEGIN
+      TEXT_SPRINT ammo ~bullet~
+    END
+
+    // game type
+    TEXT_SPRINT game ~bg2~
+    PATCH_IF (IS_BGEE) BEGIN
+      TEXT_SPRINT game ~bgee~
+    END  ELSE PATCH_IF (IS_IWDEE) BEGIN
+      TEXT_SPRINT game ~iwdee~
+    END
+
+    PATCH_IF (NOT ~%ammo%~ STR_EQ ~~ &&
+              NOT ~%game%~ STR_EQ ~~ &&
+              enchantment >= 1 &&
+              enchantment <= 4) BEGIN
+      SET projectile = $ammo_projectile(~%ammo%~ ~%game%~ ~%enchantment%~)
+    END ELSE BEGIN
+      READ_LONG 0x64 ofs_abil
+      READ_SHORT 0x68 num_abil
+      PATCH_IF (num_abil > 0) BEGIN
+        READ_SHORT (ofs_abil + 0x2a) projectile
+      END
+    END
+  END
+END
+
 // Removes excess entries from current CLAB table.
 DEFINE_PATCH_FUNCTION CLAB_FIX_ENTRY
 INT_VAR

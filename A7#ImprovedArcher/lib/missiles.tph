@@ -39,9 +39,11 @@ COPY ~%MOD_FOLDER%/kit/a7#arow1.itm~ ~override~
   SAY NAME2 @1019   // Arrow +4
   SAY IDENTIFIED_DESC @1115   // ...
   LPF REMOVE_SHAMAN_RESTRICTION END
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
+  LPF GET_PROJECTILE INT_VAR is_arrow = 1 enchantment = 4 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
   PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
@@ -50,9 +52,11 @@ COPY ~%MOD_FOLDER%/kit/a7#bolt1.itm~ ~override~
   SAY NAME2 @1020   // Bolt +4
   SAY IDENTIFIED_DESC @1116   // ...
   LPF REMOVE_SHAMAN_RESTRICTION END
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
+  LPF GET_PROJECTILE INT_VAR is_bolt = 1 enchantment = 4 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
   PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END

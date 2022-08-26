@@ -4,7 +4,7 @@ INCLUDE ~%MOD_FOLDER%/lib/kit.tph~
 
 ACTION_IF (GAME_IS ~tob bgt bg2ee eet~) BEGIN
   OUTER_TEXT_SPRINT stweap ~LEAT14 * HELM07 BAG20 RING06 RING31 CLCK02 BOOT01 AMUL19 BRAC16 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 BOW18 XBOW09 STAF08~
-END ELSE ACTION_IF (GAME_IS ~iwdee~) BEGIN
+END ELSE ACTION_IF (IS_IWDEE) BEGIN
   OUTER_TEXT_SPRINT stweap ~USLTR4A * HELMLA * URING3A * * BOOT03 * BRAC09 BELT03 AROW11,40 BULL03,40 BOLT06,40 POTN05,2 POTN20,5 POTN08,5 BLCKBOW ULXBW3B ULSWD3A~
 END ELSE BEGIN
   OUTER_TEXT_SPRINT stweap ~* * * * * * * * * * * * * * * * * * * *~
@@ -104,162 +104,167 @@ COPY ~%KIT_FOLDER2%/a7#inf4c.spl~ ~override~
 COPY ~%MOD_FOLDER%/kit/a7#infa1.itm~ ~override~
   SAY NAME2 @1046   // Reinforced Arrow +1
   SAY IDENTIFIED_DESC @1135   // These arrows have been specifically reinforced to tap into the full potential of the character's marksmanship...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+  LPF GET_PROJECTILE INT_VAR is_arrow = 1 enchantment = 1 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%MOD_FOLDER%/kit/a7#infa2.itm~ ~override~
   SAY NAME2 @1047   // Reinforced Arrow +2
   SAY IDENTIFIED_DESC @1136   // These arrows have been specifically reinforced to tap into the full potential of the character's marksmanship...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+  LPF GET_PROJECTILE INT_VAR is_arrow = 1 enchantment = 2 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%MOD_FOLDER%/kit/a7#infa3.itm~ ~override~
   SAY NAME2 @1047   // Reinforced Arrow +2
   SAY IDENTIFIED_DESC @1137   // These arrows have been specifically reinforced to tap into the full potential of the character's marksmanship...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+  LPF GET_PROJECTILE INT_VAR is_arrow = 1 enchantment = 2 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%MOD_FOLDER%/kit/a7#infa4.itm~ ~override~
   SAY NAME2 @1048   // Reinforced Arrow +3
   SAY IDENTIFIED_DESC @1138   // These arrows have been specifically reinforced to tap into the full potential of the character's marksmanship...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+  LPF GET_PROJECTILE INT_VAR is_arrow = 1 enchantment = 3 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%MOD_FOLDER%/kit/a7#infa5.itm~ ~override~
   SAY NAME2 @1049   // Reinforced Arrow +4
   SAY IDENTIFIED_DESC @1139   // These arrows have been specifically reinforced to tap into the full potential of the character's marksmanship...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible arrow projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 2 END
+  LPF GET_PROJECTILE INT_VAR is_arrow = 1 enchantment = 4 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%MOD_FOLDER%/kit/a7#info1.itm~ ~override~
   SAY NAME2 @1050   // Reinforced Bolt +1
   SAY IDENTIFIED_DESC @1140   // These bolts have been specifically reinforced to tap into the full potential of the character's marksmanship...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+  LPF GET_PROJECTILE INT_VAR is_bolt = 1 enchantment = 1 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%MOD_FOLDER%/kit/a7#info2.itm~ ~override~
   SAY NAME2 @1051   // Reinforced Bolt +2
   SAY IDENTIFIED_DESC @1141   // These bolts have been specifically reinforced to tap into the full potential of the character's marksmanship...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+  LPF GET_PROJECTILE INT_VAR is_bolt = 1 enchantment = 2 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%MOD_FOLDER%/kit/a7#info3.itm~ ~override~
   SAY NAME2 @1051   // Reinforced Bolt +2
   SAY IDENTIFIED_DESC @1142   // These bolts have been specifically reinforced to tap into the full potential of the character's marksmanship...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+  LPF GET_PROJECTILE INT_VAR is_bolt = 1 enchantment = 2 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%MOD_FOLDER%/kit/a7#info4.itm~ ~override~
   SAY NAME2 @1052   // Reinforced Bolt +3
   SAY IDENTIFIED_DESC @1143   // These bolts have been specifically reinforced to tap into the full potential of the character's marksmanship...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+  LPF GET_PROJECTILE INT_VAR is_bolt = 1 enchantment = 3 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%MOD_FOLDER%/kit/a7#info5.itm~ ~override~
   SAY NAME2 @1053   // Reinforced Bolt +4
   SAY IDENTIFIED_DESC @1144   // These bolts have been specifically reinforced to tap into the full potential of the character's marksmanship...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bolt projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 12 END
+  LPF GET_PROJECTILE INT_VAR is_bolt = 1 enchantment = 4 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
+  PATCH_IF (NOT IS_EE) BEGIN
     LPF CLEAR_ITEM_BONUS END
   END
 
 COPY ~%MOD_FOLDER%/kit/a7#infu1.itm~ ~override~
   SAY NAME2 @1054   // Reinforced Bullet +1
   SAY IDENTIFIED_DESC @1145   // These bullets have been specifically reinforced to tap into the full potential of the character's marksmanship...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bullet projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 17 END
-  END
+  LPF GET_PROJECTILE INT_VAR is_bullet = 1 enchantment = 1 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
 
 COPY ~%MOD_FOLDER%/kit/a7#infu2.itm~ ~override~
   SAY NAME2 @1055   // Reinforced Bullet +2
   SAY IDENTIFIED_DESC @1146   // These bullets have been specifically reinforced to tap into the full potential of the character's marksmanship...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bullet projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 17 END
-  END
+  LPF GET_PROJECTILE INT_VAR is_bullet = 1 enchantment = 2 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
 
 COPY ~%MOD_FOLDER%/kit/a7#infu3.itm~ ~override~
   SAY NAME2 @1055   // Reinforced Bullet +2
   SAY IDENTIFIED_DESC @1147   // These bullets have been specifically reinforced to tap into the full potential of the character's marksmanship...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bullet projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 17 END
-  END
+  LPF GET_PROJECTILE INT_VAR is_bullet = 1 enchantment = 2 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
 
 COPY ~%MOD_FOLDER%/kit/a7#infu4.itm~ ~override~
   SAY NAME2 @1056   // Reinforced Bullet +3
   SAY IDENTIFIED_DESC @1148   // These bullets have been specifically reinforced to tap into the full potential of the character's marksmanship...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bullet projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 17 END
-  END
+  LPF GET_PROJECTILE INT_VAR is_bullet = 1 enchantment = 3 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
 
 COPY ~%MOD_FOLDER%/kit/a7#infu5.itm~ ~override~
   SAY NAME2 @1057   // Reinforced Bullet +4
   SAY IDENTIFIED_DESC @1149   // These bullets have been specifically reinforced to tap into the full potential of the character's marksmanship...
-  PATCH_IF (GAME_IS ~iwdee~) BEGIN
+  PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
-  PATCH_IF (NOT IS_EE) BEGIN // apply compatible bullet projectile
-    LPF ALTER_ITEM_HEADER INT_VAR projectile = 17 END
-  END
+  LPF GET_PROJECTILE INT_VAR is_bullet = 1 enchantment = 4 RET projectile END
+  LPF ALTER_ITEM_HEADER INT_VAR projectile END
 
 COPY ~%KIT_FOLDER%/a7#infa1.bam~ ~override~
      ~%KIT_FOLDER%/a7#info1.bam~ ~override~
