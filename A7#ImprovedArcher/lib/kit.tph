@@ -14,7 +14,10 @@ END ELSE BEGIN
   OUTER_TEXT_SPRINT KIT_FOLDER2 ~%MOD_FOLDER%/kit~
 END
 
-ACTION_IF (NOT IS_EE) BEGIN
+ACTION_IF (IS_EE) BEGIN
+  OUTER_SET AMMO_STACK = 80 // max. # items in stack (crafted ammo only)
+END ELSE BEGIN
+  OUTER_SET AMMO_STACK = 40 // max. # items in stack (crafted ammo only)
   COPY ~%MOD_FOLDER%/kit/a7#in06a.eff~ ~override~
        ~%MOD_FOLDER%/kit/a7#in06b.eff~ ~override~
 END

@@ -96,6 +96,7 @@ COPY ~%KIT_FOLDER2%/a7#int4b.spl~ ~override~
 COPY ~%KIT_FOLDER%/a7#inta1.itm~ ~override~
   SAY NAME2 @1064   // Endowed Arrow +1
   SAY IDENTIFIED_DESC @1150   // These arrows have been carefully crafted with the aim to weaken the target's combat abilities...
+  WRITE_SHORT 0x38 AMMO_STACK // max. # items in stack
   PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
@@ -108,6 +109,7 @@ COPY ~%KIT_FOLDER%/a7#inta1.itm~ ~override~
 COPY ~%KIT_FOLDER%/a7#inta2.itm~ ~override~
   SAY NAME2 @1065   // Endowed Arrow +2
   SAY IDENTIFIED_DESC @1151   // These arrows have been carefully crafted with the aim to weaken the target's combat abilities...
+  WRITE_SHORT 0x38 AMMO_STACK // max. # items in stack
   PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
@@ -120,6 +122,7 @@ COPY ~%KIT_FOLDER%/a7#inta2.itm~ ~override~
 COPY ~%KIT_FOLDER%/a7#inta3.itm~ ~override~
   SAY NAME2 @1065   // Endowed Arrow +2
   SAY IDENTIFIED_DESC @1152   // These arrows have been carefully crafted with the aim to weaken the target's combat abilities...
+  WRITE_SHORT 0x38 AMMO_STACK // max. # items in stack
   PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
@@ -132,6 +135,7 @@ COPY ~%KIT_FOLDER%/a7#inta3.itm~ ~override~
 COPY ~%KIT_FOLDER%/a7#inta4.itm~ ~override~
   SAY NAME2 @1066   // Endowed Arrow +3
   SAY IDENTIFIED_DESC @1153   // These arrows have been carefully crafted with the aim to weaken the target's combat abilities...
+  WRITE_SHORT 0x38 AMMO_STACK // max. # items in stack
   PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
@@ -144,6 +148,7 @@ COPY ~%KIT_FOLDER%/a7#inta4.itm~ ~override~
 COPY ~%KIT_FOLDER%/a7#inta5.itm~ ~override~
   SAY NAME2 @1067   // Endowed Arrow +4
   SAY IDENTIFIED_DESC @1154   // These arrows have been carefully crafted with the aim to weaken the target's combat abilities...
+  WRITE_SHORT 0x38 AMMO_STACK // max. # items in stack
   PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
@@ -156,6 +161,7 @@ COPY ~%KIT_FOLDER%/a7#inta5.itm~ ~override~
 COPY ~%KIT_FOLDER%/a7#into1.itm~ ~override~
   SAY NAME2 @1068   // Endowed Bolt +1
   SAY IDENTIFIED_DESC @1155   // These bolts have been carefully crafted with the aim to weaken the target's combat abilities...
+  WRITE_SHORT 0x38 AMMO_STACK // max. # items in stack
   PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
@@ -168,6 +174,7 @@ COPY ~%KIT_FOLDER%/a7#into1.itm~ ~override~
 COPY ~%KIT_FOLDER%/a7#into2.itm~ ~override~
   SAY NAME2 @1069   // Endowed Bolt +2
   SAY IDENTIFIED_DESC @1156   // These bolts have been carefully crafted with the aim to weaken the target's combat abilities...
+  WRITE_SHORT 0x38 AMMO_STACK // max. # items in stack
   PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
@@ -180,6 +187,7 @@ COPY ~%KIT_FOLDER%/a7#into2.itm~ ~override~
 COPY ~%KIT_FOLDER%/a7#into3.itm~ ~override~
   SAY NAME2 @1069   // Endowed Bolt +2
   SAY IDENTIFIED_DESC @1157   // These bolts have been carefully crafted with the aim to weaken the target's combat abilities...
+  WRITE_SHORT 0x38 AMMO_STACK // max. # items in stack
   PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
@@ -192,6 +200,7 @@ COPY ~%KIT_FOLDER%/a7#into3.itm~ ~override~
 COPY ~%KIT_FOLDER%/a7#into4.itm~ ~override~
   SAY NAME2 @1070   // Endowed Bolt +3
   SAY IDENTIFIED_DESC @1158   // These bolts have been carefully crafted with the aim to weaken the target's combat abilities...
+  WRITE_SHORT 0x38 AMMO_STACK // max. # items in stack
   PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
@@ -204,6 +213,7 @@ COPY ~%KIT_FOLDER%/a7#into4.itm~ ~override~
 COPY ~%KIT_FOLDER%/a7#into5.itm~ ~override~
   SAY NAME2 @1071   // Endowed Bolt +4
   SAY IDENTIFIED_DESC @1159   // These bolts have been carefully crafted with the aim to weaken the target's combat abilities...
+  WRITE_SHORT 0x38 AMMO_STACK // max. # items in stack
   PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
