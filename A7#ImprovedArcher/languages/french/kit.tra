@@ -1278,3 +1278,140 @@ Désavantages :
 
 @1401 = ~tireur de précision~
 @1402 = ~Tireur de précision~
+
+
+// Innate ability descriptions
+@2001 = ~Tir renversant
+Tout tir réussi dans les 12 secondes qui suivent peut renverser la cible, selon le niveau du tireur :
+ niveau 8  : Renverse la cible si elle rate son JS contre le souffle.
+ niveau 12 : Renverse la cible si elle rate son JS contre le souffle avec un malus de 1.
+ niveau 16 : Renverse la cible si elle rate son JS contre le souffle avec un malus de 2.
+ niveau 20 : Renverse la cible si elle rate son JS contre le souffle avec un malus de 3.~
+
+@2002 = ~Tir immobilisant
+Tout tir réussi dans les 12 secondes qui suivent peut enchevêtrer la cible, selon la progression suivante :
+ niveau 4  : Enchevêtre la cible pendant trois rounds si elle rate son JS contre les sorts.
+ niveau 8  : Enchevêtre la cible pendant trois rounds si elle rate son JS contre les sorts avec un malus de 1.
+ niveau 12 : Enchevêtre la cible pendant quatre rounds si elle rate son JS contre les sorts avec un malus de 1.
+ niveau 16 : Enchevêtre la cible pendant quatre rounds si elle rate son JS contre les sorts avec un malus de 2.
+ niveau 20 : Enchevêtre la cible pendant cinq rounds si elle rate son JS contre les sorts avec un malus de 2.~
+
+@2003 = ~Tir explosif
+Tout tir réussi dans les 12 secondes qui suivent explose à l'impact et inflige à toutes les créatures situées dans un rayon de 5 mètres des dégâts dépendant du niveau du tireur :
+ niveau 8  : 1d4 points de dégâts
+ niveau 12 : 1d4+2 points de dégâts
+ niveau 16 : 1d4+4 points de dégâts
+ niveau 20 : 1d4+6 points de dégâts
+Attention : cette capacité inflige des dégâts aussi bien aux ennemis qu'aux alliés et aux passants innocents.~
+
+@2010 = ~Conjurer des munitions élémentaires
+L'archer conjure une munition spéciales (flèche ou carreau) bénie par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et dotée d'un certain nombre de charges.
+ niveau 4  : munition +1, +1 au toucher, 1d3 points de feu supplémentaires.
+ niveau 8  : munition +2, +2 au toucher, 1d3 points de feu et de froid supplémentaires. Enchevêtre les créatures non naturelles si elles ratent leur JS contre les sorts.
+ niveau 12 : munition +2, +2 au toucher, 1d3 points de feu, de froid et d'acide supplémentaires. Aveugle les créatures non naturelles pendant deux rounds si elles ratent leur JS contre les sorts.
+ niveau 16 : munition +3, +3 au toucher, 1d3 points de feu, de froid, d'acide et d'électricité supplémentaires. Ralentit les créatures non naturelles pendant deux rounds si elles ratent leur JS contre les sorts avec un malus de 2.
+ niveau 20 : munition +4, +4 au toucher, 1d3+2 points de feu, de froid, d'acide et d'électricité supplémentaires. Ralentit et aveugle les créatures non naturelles pendant deux rounds si elles ratent leur JS contre les sorts avec un malus de 4.~
+
+@2011 = ~Conjurer des flèches élémentaires
+L'archer conjure une flèche spéciale, bénie par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et dotée d'un certain nombre de charges.
+ niveau 4  : munition +1, +1 au toucher, 1d3 points de feu supplémentaires.
+ niveau 8  : munition +2, +2 au toucher, 1d3 points de feu et de froid supplémentaires. Enchevêtre les créatures non naturelles si elles ratent leur JS contre les sorts.
+ niveau 12 : munition +2, +2 au toucher, 1d3 points de feu, de froid et d'acide supplémentaires. Aveugle les créatures non naturelles pendant deux rounds si elles ratent leur JS contre les sorts.
+ niveau 16 : munition +3, +3 au toucher, 1d3 points de feu, de froid, d'acide et d'électricité supplémentaires. Ralentit les créatures non naturelles pendant deux rounds si elles ratent leur JS contre les sorts avec un malus de 2.
+ niveau 20 : munition +4, +4 au toucher, 1d3+2 points de feu, de froid, d'acide et d'électricité supplémentaires. Ralentit et aveugle les créatures non naturelles pendant deux rounds si elles ratent leur JS contre les sorts avec un malus de 4.~
+
+@2012 = ~Conjurer des carreaux élémentaires
+L'archer conjure un carreau spécial, béni par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et doté d'un certain nombre de charges.
+ niveau 4  : munition +1, +1 au toucher, 1d3 points de feu supplémentaires.
+ niveau 8  : munition +2, +2 au toucher, 1d3 points de feu et de froid supplémentaires. Enchevêtre les créatures non naturelles si elles ratent leur JS contre les sorts.
+ niveau 12 : munition +2, +2 au toucher, 1d3 points de feu, de froid et d'acide supplémentaires. Aveugle les créatures non naturelles pendant deux rounds si elles ratent leur JS contre les sorts.
+ niveau 16 : munition +3, +3 au toucher, 1d3 points de feu, de froid, d'acide et d'électricité supplémentaires. Ralentit les créatures non naturelles pendant deux rounds si elles ratent leur JS contre les sorts avec un malus de 2.
+ niveau 20 : munition +4, +4 au toucher, 1d3+2 points de feu, de froid, d'acide et d'électricité supplémentaires. Ralentit et aveugle les créatures non naturelles pendant deux rounds si elles ratent leur JS contre les sorts avec un malus de 4.~
+
+@2020 = ~Invoquer des munitions bénies
+Le Chevalier Archer invoque une munition spirituelle (flèche, carreau ou bille) bénie par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et dotée de plusieurs charges.
+ niveau 4  : munition +1, +1 au toucher, 1d6 points magiques supplémentaires contre les morts-vivants, les diables et les démons.
+ niveau 8  : munition +1, +2 au toucher, 1d6+2 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont aveuglés pendant deux rounds s'ils ratent leur JS contre les sorts.
+ niveau 12 : munition +2, +2 au toucher, 1d6+4 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont ralentis pendant deux rounds s'ils ratent leur JS contre les sorts.
+ niveau 16 : munition +3, +3 au toucher, 1d6+6 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont ralentis et aveuglés pendant deux rounds s'ils ratent leur JS contre les sorts avec un malus de 2.
+ niveau 20 : munition +4, +4 au toucher, 1d6+8 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont paralysés pendant deux rounds s'ils ratent leur JS contre les sorts avec un malus de 4.~
+
+@2021 = ~Invoquer des flèches bénies
+Le Chevalier Archer invoque une flèche spirituelle bénie par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et dotée de plusieurs charges.
+ niveau 4  : munition +1, +1 au toucher, 1d6 points magiques supplémentaires contre les morts-vivants, les diables et les démons.
+ niveau 8  : munition +1, +2 au toucher, 1d6+2 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont aveuglés pendant deux rounds s'ils ratent leur JS contre les sorts.
+ niveau 12 : munition +2, +2 au toucher, 1d6+4 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont ralentis pendant deux rounds s'ils ratent leur JS contre les sorts.
+ niveau 16 : munition +3, +3 au toucher, 1d6+6 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont ralentis et aveuglés pendant deux rounds s'ils ratent leur JS contre les sorts avec un malus de 2.
+ niveau 20 : munition +4, +4 au toucher, 1d6+8 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont paralysés pendant deux rounds s'ils ratent leur JS contre les sorts avec un malus de 4.~
+
+@2022 = ~Invoquer des carreaux bénis
+Le Chevalier Archer invoque un carreau spirituel béni par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et doté de plusieurs charges.
+ niveau 4  : munition +1, +1 au toucher, 1d6 points magiques supplémentaires contre les morts-vivants, les diables et les démons.
+ niveau 8  : munition +1, +2 au toucher, 1d6+2 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont aveuglés pendant deux rounds s'ils ratent leur JS contre les sorts.
+ niveau 12 : munition +2, +2 au toucher, 1d6+4 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont ralentis pendant deux rounds s'ils ratent leur JS contre les sorts.
+ niveau 16 : munition +3, +3 au toucher, 1d6+6 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont ralentis et aveuglés pendant deux rounds s'ils ratent leur JS contre les sorts avec un malus de 2.
+ niveau 20 : munition +4, +4 au toucher, 1d6+8 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont paralysés pendant deux rounds s'ils ratent leur JS contre les sorts avec un malus de 4.~
+
+@2023 = ~Invoquer des billes bénies
+Le Chevalier Archer invoque une bille spirituelle bénie par sa divinité tutélaire, qu'il peut utiliser pendant 8 heures et dotée de plusieurs charges.
+ niveau 4  : munition +1, +1 au toucher, 1d6 points magiques supplémentaires contre les morts-vivants, les diables et les démons.
+ niveau 8  : munition +1, +2 au toucher, 1d6+2 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont aveuglés pendant deux rounds s'ils ratent leur JS contre les sorts.
+ niveau 12 : munition +2, +2 au toucher, 1d6+4 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont ralentis pendant deux rounds s'ils ratent leur JS contre les sorts.
+ niveau 16 : munition +3, +3 au toucher, 1d6+6 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont ralentis et aveuglés pendant deux rounds s'ils ratent leur JS contre les sorts avec un malus de 2.
+ niveau 20 : munition +4, +4 au toucher, 1d6+8 points magiques supplémentaires contre les morts-vivants, les diables et les démons, qui sont paralysés pendant deux rounds s'ils ratent leur JS contre les sorts avec un malus de 4.~
+
+@2030 = ~Fabriquer des munitions blindées
+Le personnage crée plusieurs munitions spéciales (flèches, carreaux ou billes).
+ niveau 4  : munition +1, +1 au toucher, pénalité cumulative de 1 à la CA pendant 2 rounds si la cible rate son JS contre la mort.
+ niveau 8  : munition +2, +2 au toucher, pénalité cumulative de 1 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort.
+ niveau 12 : munition +2, +2 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort. Renverse la cible si elle rate son JS contre le souffle.
+ niveau 16 : munition +3, +3 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort avec un malus de 2. Renverse la cible et l'étourdit pendant 1 round si elle rate son JS contre le souffle.
+ niveau 20 : munition +4, +4 au toucher, pénalités cumulatives de 3 à la CA et au TAC0, de 1 à la Force pendant 2 rounds si la cible rate son JS contre la mort avec un malus de 2. Renverse la cible et l'étourdit pendant 1 round si elle rate son JS contre le souffle avec un malus de 2.~
+
+@2031 = ~Fabriquer des flèches blindées
+Le personnage crée plusieurs flèches spéciales.
+ niveau 4  : munition +1, +1 au toucher, pénalité cumulative de 1 à la CA pendant 2 rounds si la cible rate son JS contre la mort.
+ niveau 8  : munition +2, +2 au toucher, pénalité cumulative de 1 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort.
+ niveau 12 : munition +2, +2 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort. Renverse la cible si elle rate son JS contre le souffle.
+ niveau 16 : munition +3, +3 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort avec un malus de 2. Renverse la cible et l'étourdit pendant 1 round si elle rate son JS contre le souffle.
+ niveau 20 : munition +4, +4 au toucher, pénalités cumulatives de 3 à la CA et au TAC0, de 1 à la Force pendant 2 rounds si la cible rate son JS contre la mort avec un malus de 2. Renverse la cible et l'étourdit pendant 1 round si elle rate son JS contre le souffle avec un malus de 2.~
+
+@2032 = ~Fabriquer des carreaux blindés
+Le personnage crée plusieurs carreaux spéciaux.
+ niveau 4  : munition +1, +1 au toucher, pénalité cumulative de 1 à la CA pendant 2 rounds si la cible rate son JS contre la mort.
+ niveau 8  : munition +2, +2 au toucher, pénalité cumulative de 1 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort.
+ niveau 12 : munition +2, +2 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort. Renverse la cible si elle rate son JS contre le souffle.
+ niveau 16 : munition +3, +3 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort avec un malus de 2. Renverse la cible et l'étourdit pendant 1 round si elle rate son JS contre le souffle.
+ niveau 20 : munition +4, +4 au toucher, pénalités cumulatives de 3 à la CA et au TAC0, de 1 à la Force pendant 2 rounds si la cible rate son JS contre la mort avec un malus de 2. Renverse la cible et l'étourdit pendant 1 round si elle rate son JS contre le souffle avec un malus de 2.~
+
+@2033 = ~Fabriquer des billes blindées
+Le personnage crée plusieurs billes spéciales.
+ niveau 4  : munition +1, +1 au toucher, pénalité cumulative de 1 à la CA pendant 2 rounds si la cible rate son JS contre la mort.
+ niveau 8  : munition +2, +2 au toucher, pénalité cumulative de 1 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort.
+ niveau 12 : munition +2, +2 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort. Renverse la cible si elle rate son JS contre le souffle.
+ niveau 16 : munition +3, +3 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort avec un malus de 2. Renverse la cible et l'étourdit pendant 1 round si elle rate son JS contre le souffle.
+ niveau 20 : munition +4, +4 au toucher, pénalités cumulatives de 3 à la CA et au TAC0, de 1 à la Force pendant 2 rounds si la cible rate son JS contre la mort avec un malus de 2. Renverse la cible et l'étourdit pendant 1 round si elle rate son JS contre le souffle avec un malus de 2.~
+
+@2040 = ~Créer des munitions incapacitantes
+L'archer façonne plusieurs munitions spéciales (flèches ou carreaux).
+ niveau 4  : munition +1, +1 au toucher, pénalité cumulative de 1 à la CA pendant 2 rounds si la cible rate son JS contre la mort.
+ niveau 8  : munition +2, +2 au toucher, pénalité cumulative de 2 à la CA pendant 2 rounds si la cible rate son JS contre la mort. Les animaux, les humanoïdes et les humanoïdes géants subissent 1 point de dégâts supplémentaire d'hémorragie par seconde pendant un round s'ils ratent leur JS.
+ niveau 12 : munition +2, +2 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort. Les animaux, les humanoïdes et les humanoïdes géants subissent 1 point de dégâts supplémentaire d'hémorragie par seconde pendant un round s'ils ratent leur JS.
+ niveau 16 : munition +3, +3 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort. Les animaux, les humanoïdes et les humanoïdes géants subissent 2 points de dégâts supplémentaires d'hémorragie par seconde pendant un round et sont aveuglés pendant deux rounds s'ils ratent leur JS.
+ niveau 20 : munition +4, +4 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort avec un malus de 2. Les animaux, les humanoïdes et les humanoïdes géants subissent 4 points de dégâts supplémentaires d'hémorragie par seconde pendant un round et sont aveuglés pendant deux rounds s'ils ratent leur JS.~
+
+@2041 = ~Créer des flèches incapacitantes
+L'archer façonne plusieurs flèches spéciales.
+ niveau 4  : munition +1, +1 au toucher, pénalité cumulative de 1 à la CA pendant 2 rounds si la cible rate son JS contre la mort.
+ niveau 8  : munition +2, +2 au toucher, pénalité cumulative de 2 à la CA pendant 2 rounds si la cible rate son JS contre la mort. Les animaux, les humanoïdes et les humanoïdes géants subissent 1 point de dégâts supplémentaire d'hémorragie par seconde pendant un round s'ils ratent leur JS.
+ niveau 12 : munition +2, +2 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort. Les animaux, les humanoïdes et les humanoïdes géants subissent 1 point de dégâts supplémentaire d'hémorragie par seconde pendant un round s'ils ratent leur JS.
+ niveau 16 : munition +3, +3 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort. Les animaux, les humanoïdes et les humanoïdes géants subissent 2 points de dégâts supplémentaires d'hémorragie par seconde pendant un round et sont aveuglés pendant deux rounds s'ils ratent leur JS.
+ niveau 20 : munition +4, +4 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort avec un malus de 2. Les animaux, les humanoïdes et les humanoïdes géants subissent 4 points de dégâts supplémentaires d'hémorragie par seconde pendant un round et sont aveuglés pendant deux rounds s'ils ratent leur JS.~
+
+@2042 = ~Créer des carreaux incapacitants
+L'archer façonne plusieurs carreaux spéciaux.
+ niveau 4  : munition +1, +1 au toucher, pénalité cumulative de 1 à la CA pendant 2 rounds si la cible rate son JS contre la mort.
+ niveau 8  : munition +2, +2 au toucher, pénalité cumulative de 2 à la CA pendant 2 rounds si la cible rate son JS contre la mort. Les animaux, les humanoïdes et les humanoïdes géants subissent 1 point de dégâts supplémentaire d'hémorragie par seconde pendant un round s'ils ratent leur JS.
+ niveau 12 : munition +2, +2 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort. Les animaux, les humanoïdes et les humanoïdes géants subissent 1 point de dégâts supplémentaire d'hémorragie par seconde pendant un round s'ils ratent leur JS.
+ niveau 16 : munition +3, +3 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort. Les animaux, les humanoïdes et les humanoïdes géants subissent 2 points de dégâts supplémentaires d'hémorragie par seconde pendant un round et sont aveuglés pendant deux rounds s'ils ratent leur JS.
+ niveau 20 : munition +4, +4 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort avec un malus de 2. Les animaux, les humanoïdes et les humanoïdes géants subissent 4 points de dégâts supplémentaires d'hémorragie par seconde pendant un round et sont aveuglés pendant deux rounds s'ils ratent leur JS.~

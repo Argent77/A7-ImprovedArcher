@@ -107,15 +107,11 @@ BUT_ONLY
 // Ability: Evoke Blessed Ammunition
 COPY ~%MOD_FOLDER%/kit/a7#inp4.spl~ ~override~
   SAY NAME1 @1003   // Evoke Blessed Ammo
-  PATCH_IF (IS_EE) BEGIN
-    SAY UNIDENTIFIED_DESC @2020   // Evoke Blessed Ammunition...
-  END
+  SAY UNIDENTIFIED_DESC @2020   // Evoke Blessed Ammunition...
 
 COPY ~%KIT_FOLDER2%/a7#inp4a.spl~ ~override~
   SAY NAME1 @1004   // Evoke Blessed Arrows
-  PATCH_IF (IS_EE) BEGIN
-    SAY UNIDENTIFIED_DESC @2021   // Evoke Blessed Arrows...
-  END
+  SAY UNIDENTIFIED_DESC @2021   // Evoke Blessed Arrows...
   READ_LONG 0x6a "effects_ofs"
   WHILE (effects_ofs < SOURCE_SIZE) BEGIN
     READ_SHORT effects_ofs "fx_type"
@@ -127,9 +123,7 @@ COPY ~%KIT_FOLDER2%/a7#inp4a.spl~ ~override~
 
 COPY ~%KIT_FOLDER2%/a7#inp4b.spl~ ~override~
   SAY NAME1 @1005   // Evoke Blessed Bolts
-  PATCH_IF (IS_EE) BEGIN
-    SAY UNIDENTIFIED_DESC @2022   // Evoke Blessed Bolts...
-  END
+  SAY UNIDENTIFIED_DESC @2022   // Evoke Blessed Bolts...
   READ_LONG 0x6a "effects_ofs"
   WHILE (effects_ofs < SOURCE_SIZE) BEGIN
     READ_SHORT effects_ofs "fx_type"
@@ -141,9 +135,7 @@ COPY ~%KIT_FOLDER2%/a7#inp4b.spl~ ~override~
 
 COPY ~%KIT_FOLDER2%/a7#inp4c.spl~ ~override~
   SAY NAME1 @1023   // Evoke Blessed Bullets
-  PATCH_IF (IS_EE) BEGIN
-    SAY UNIDENTIFIED_DESC @2023   // Evoke Blessed Bullets...
-  END
+  SAY UNIDENTIFIED_DESC @2023   // Evoke Blessed Bullets...
   READ_LONG 0x6a "effects_ofs"
   WHILE (effects_ofs < SOURCE_SIZE) BEGIN
     READ_SHORT effects_ofs "fx_type"

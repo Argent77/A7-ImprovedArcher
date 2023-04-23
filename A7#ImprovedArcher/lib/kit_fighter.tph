@@ -54,15 +54,11 @@ COPY_EXISTING ~claba7f1.2da~ ~override~
 // Ability: Produce Reinforced Ammunition
 COPY ~%MOD_FOLDER%/kit/a7#inf4.spl~ ~override~
   SAY NAME1 @1042   // Produce Reinforced Ammo
-  PATCH_IF (IS_EE) BEGIN
-    SAY UNIDENTIFIED_DESC @2030   // Produce Reinforced Ammunition...
-  END
+  SAY UNIDENTIFIED_DESC @2030   // Produce Reinforced Ammunition...
 
 COPY ~%KIT_FOLDER2%/a7#inf4a.spl~ ~override~
   SAY NAME1 @1043   // Produce Reinforced Arrows
-  PATCH_IF (IS_EE) BEGIN
-    SAY UNIDENTIFIED_DESC @2031   // Produce Reinforced Arrows...
-  END
+  SAY UNIDENTIFIED_DESC @2031   // Produce Reinforced Arrows...
   READ_LONG 0x6a "effects_ofs"
   WHILE (effects_ofs < SOURCE_SIZE) BEGIN
     READ_SHORT effects_ofs "fx_type"
@@ -74,9 +70,7 @@ COPY ~%KIT_FOLDER2%/a7#inf4a.spl~ ~override~
 
 COPY ~%KIT_FOLDER2%/a7#inf4b.spl~ ~override~
   SAY NAME1 @1044   // Produce Reinforced Bolts
-  PATCH_IF (IS_EE) BEGIN
-    SAY UNIDENTIFIED_DESC @2032   // Produce Reinforced Bolts...
-  END
+  SAY UNIDENTIFIED_DESC @2032   // Produce Reinforced Bolts...
   READ_LONG 0x6a "effects_ofs"
   WHILE (effects_ofs < SOURCE_SIZE) BEGIN
     READ_SHORT effects_ofs "fx_type"
@@ -88,9 +82,7 @@ COPY ~%KIT_FOLDER2%/a7#inf4b.spl~ ~override~
 
 COPY ~%KIT_FOLDER2%/a7#inf4c.spl~ ~override~
   SAY NAME1 @1045   // Produce Reinforced Bullets
-  PATCH_IF (IS_EE) BEGIN
-    SAY UNIDENTIFIED_DESC @2033   // Produce Reinforced Bullets...
-  END
+  SAY UNIDENTIFIED_DESC @2033   // Produce Reinforced Bullets...
   READ_LONG 0x6a "effects_ofs"
   WHILE (effects_ofs < SOURCE_SIZE) BEGIN
     READ_SHORT effects_ofs "fx_type"

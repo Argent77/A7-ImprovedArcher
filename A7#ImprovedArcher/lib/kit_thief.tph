@@ -60,15 +60,11 @@ COPY_EXISTING ~claba7t1.2da~ ~override~
 // Ability: Craft Endowed Ammunition
 COPY ~%MOD_FOLDER%/kit/a7#int4.spl~ ~override~
   SAY NAME1 @1061   // Craft Endowed Ammo
-  PATCH_IF (IS_EE) BEGIN
-    SAY UNIDENTIFIED_DESC @2040   // Craft Endowed Ammunition...
-  END
+  SAY UNIDENTIFIED_DESC @2040   // Craft Endowed Ammunition...
 
 COPY ~%KIT_FOLDER2%/a7#int4a.spl~ ~override~
   SAY NAME1 @1062   // Craft Endowed Arrows
-  PATCH_IF (IS_EE) BEGIN
-    SAY UNIDENTIFIED_DESC @2041   // Craft Endowed Arrows...
-  END
+  SAY UNIDENTIFIED_DESC @2041   // Craft Endowed Arrows...
   READ_LONG 0x6a "effects_ofs"
   WHILE (effects_ofs < SOURCE_SIZE) BEGIN
     READ_SHORT effects_ofs "fx_type"
@@ -80,9 +76,7 @@ COPY ~%KIT_FOLDER2%/a7#int4a.spl~ ~override~
 
 COPY ~%KIT_FOLDER2%/a7#int4b.spl~ ~override~
   SAY NAME1 @1063   // Craft Endowed Bolts
-  PATCH_IF (IS_EE) BEGIN
-    SAY UNIDENTIFIED_DESC @2042   // Craft Endowed Bolts...
-  END
+  SAY UNIDENTIFIED_DESC @2042   // Craft Endowed Bolts...
   READ_LONG 0x6a "effects_ofs"
   WHILE (effects_ofs < SOURCE_SIZE) BEGIN
     READ_SHORT effects_ofs "fx_type"

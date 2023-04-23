@@ -1273,3 +1273,140 @@ Disadvantages:
 
 @1401 = ~sharpshooter~
 @1402 = ~Sharpshooter~
+
+
+// Innate ability descriptions
+@2001 = ~Power Shot
+All successful ranged attacks within the next 12 seconds have a chance to knock back the target, according to the level of the user:
+  8th level: Knock back target if failed save vs. Breath.
+  12th level: Knock back target if failed save vs. Breath at -1 penalty.
+  16th level: Knock back target if failed save vs. Breath at -2 penalty.
+  20th level: Knock back target if failed save vs. Breath at -3 penalty.~
+
+@2002 = ~Rooting Shot
+All successful ranged attacks within the next 12 seconds will entangle the target, according to the level of the user:
+  4th level: Target is entangled for three rounds if failed save vs. Death.
+  8th level: Target is entangled for three rounds if failed save vs. Death at -1 penalty.
+  12th level: Target is entangled for four rounds if failed save vs. Death at -1 penalty.
+  16th level: Target is entangled for four rounds if failed save vs. Death at -2 penalty.
+  20th level: Target is entangled for five rounds if failed save vs. Death at -2 penalty.~
+
+@2003 = ~Explosive Shot
+All successful ranged attacks within the next 12 seconds will explode on impact and cause physical damage to nearby targets in 15' range, according to the level of the user:
+  8th level: 1d4 damage to nearby targets
+  12th level: 1d4+2 damage to nearby targets
+  16th level: 1d4+4 damage to nearby targets
+  20th level: 1d4+6 damage to nearby targets
+Caution: Damages enemies, allies and innocent bystanders alike.~
+
+@2010 = ~Conjure Elemental Ammunition
+Conjure a specially prepared arrow or bolt blessed by the Archer's worshipped god or goddess for 8 hours containing one score of charges.
+  4th level: +1 enchantment, +1 to hit rolls, additional 1d3 fire damage.
+  8th level: +2 enchantment, +2 to hit rolls, additional 1d3 fire damage and 1d3 cold damage, entangle for two rounds vs. unnatural creatures if failed save vs. Spell.
+  12th level: +2 enchantment, +2 to hit rolls, additional 1d3 fire damage, 1d3 cold damage and 1d3 acid damage, blindness for two rounds vs. unnatural creatures if failed save vs. Spell.
+  16th level: +3 enchantment, +3 to hit rolls, additional 1d3 fire damage, 1d3 cold damage, 1d3 acid damage and 1d3 electrical damage, slow for two rounds vs. unnatural creatures if failed save vs. Spell at -2 penalty.
+  20th level: +4 enchantment, +4 to hit rolls, additional 1d3+2 fire damage, 1d3+2 cold damage, 1d3+2 acid damage and 1d3+2 electrical damage, slow and blindness for two rounds vs. unnatural creatures if failed save vs. Spell at -4 penalty.~
+
+@2011 = ~Conjure Elemental Arrows
+Conjure a specially prepared arrow blessed by the Archer's worshipped god or goddess for 8 hours containing one score of charges.
+  4th level: +1 enchantment, +1 to hit rolls, additional 1d3 fire damage.
+  8th level: +2 enchantment, +2 to hit rolls, additional 1d3 fire damage and 1d3 cold damage, entangle for two rounds vs. unnatural creatures if failed save vs. Spell.
+  12th level: +2 enchantment, +2 to hit rolls, additional 1d3 fire damage, 1d3 cold damage and 1d3 acid damage, blindness for two rounds vs. unnatural creatures if failed save vs. Spell.
+  16th level: +3 enchantment, +3 to hit rolls, additional 1d3 fire damage, 1d3 cold damage, 1d3 acid damage and 1d3 electrical damage, slow for two rounds vs. unnatural creatures if failed save vs. Spell at -2 penalty.
+  20th level: +4 enchantment, +4 to hit rolls, additional 1d3+2 fire damage, 1d3+2 cold damage, 1d3+2 acid damage and 1d3+2 electrical damage, slow and blindness for two rounds vs. unnatural creatures if failed save vs. Spell at -4 penalty.~
+
+@2012 = ~Conjure Elemental Bolts
+Conjure a specially prepared bolt blessed by the Archer's worshipped god or goddess for 8 hours containing one score of charges.
+  4th level: +1 enchantment, +1 to hit rolls, additional 1d3 fire damage.
+  8th level: +2 enchantment, +2 to hit rolls, additional 1d3 fire damage and 1d3 cold damage, entangle for two rounds vs. unnatural creatures if failed save vs. Spell.
+  12th level: +2 enchantment, +2 to hit rolls, additional 1d3 fire damage, 1d3 cold damage and 1d3 acid damage, blindness for two rounds vs. unnatural creatures if failed save vs. Spell.
+  16th level: +3 enchantment, +3 to hit rolls, additional 1d3 fire damage, 1d3 cold damage, 1d3 acid damage and 1d3 electrical damage, slow for two rounds vs. unnatural creatures if failed save vs. Spell at -2 penalty.
+  20th level: +4 enchantment, +4 to hit rolls, additional 1d3+2 fire damage, 1d3+2 cold damage, 1d3+2 acid damage and 1d3+2 electrical damage, slow and blindness for two rounds vs. unnatural creatures if failed save vs. Spell at -4 penalty.~
+
+@2020 = ~Evoke Blessed Ammunition
+Conjure a specially prepared arrow, bolt or bullet blessed by the Bow Knight's worshipped god for 8 hours containing one score of charges.
+  4th level: +1 enchantment, +1 to hit rolls, additional 1d6 magic damage vs. undead, demons, and devils.
+  8th level: +2 enchantment, +2 to hit rolls, additional 1d6+2 magic damage vs. undead, demons, and devils, blindness for two rounds vs. undead and demonic if failed save vs. Spell.
+  12th level: +2 enchantment, +2 to hit rolls, additional 1d6+4 magic damage vs. undead, demons, and devils, slow for two rounds vs. undead, demons, and devils if failed save vs. Spell.
+  16th level: +3 enchantment, +3 to hit rolls, additional 1d6+6 magic damage vs. undead, demons, and devils, slow and blindness for two rounds vs. undead, demons, and devils if failed save vs. Spell at -2 penalty.
+  20th level: +4 enchantment, +4 to hit rolls, additional 1d6+8 magic damage vs. undead, demons, and devils, hold for two rounds vs. undead, demons, and devils if failed save vs. Spell at -2 penalty.~
+
+@2021 = ~Evoke Blessed Arrows
+Conjure a specially prepared arrow blessed by the Bow Knight's worshipped god for 8 hours containing one score of charges.
+  4th level: +1 enchantment, +1 to hit rolls, additional 1d6 magic damage vs. undead, demons, and devils.
+  8th level: +2 enchantment, +2 to hit rolls, additional 1d6+2 magic damage vs. undead, demons, and devils, blindness for two rounds vs. undead and demonic if failed save vs. Spell.
+  12th level: +2 enchantment, +2 to hit rolls, additional 1d6+4 magic damage vs. undead, demons, and devils, slow for two rounds vs. undead, demons, and devils if failed save vs. Spell.
+  16th level: +3 enchantment, +3 to hit rolls, additional 1d6+6 magic damage vs. undead, demons, and devils, slow and blindness for two rounds vs. undead, demons, and devils if failed save vs. Spell at -2 penalty.
+  20th level: +4 enchantment, +4 to hit rolls, additional 1d6+8 magic damage vs. undead, demons, and devils, hold for two rounds vs. undead, demons, and devils if failed save vs. Spell at -2 penalty.~
+
+@2022 = ~Evoke Blessed Bolts
+Conjure a specially prepared bolt blessed by the Bow Knight's worshipped god for 8 hours containing one score of charges.
+  4th level: +1 enchantment, +1 to hit rolls, additional 1d6 magic damage vs. undead, demons, and devils.
+  8th level: +2 enchantment, +2 to hit rolls, additional 1d6+2 magic damage vs. undead, demons, and devils, blindness for two rounds vs. undead and demonic if failed save vs. Spell.
+  12th level: +2 enchantment, +2 to hit rolls, additional 1d6+4 magic damage vs. undead, demons, and devils, slow for two rounds vs. undead, demons, and devils if failed save vs. Spell.
+  16th level: +3 enchantment, +3 to hit rolls, additional 1d6+6 magic damage vs. undead, demons, and devils, slow and blindness for two rounds vs. undead, demons, and devils if failed save vs. Spell at -2 penalty.
+  20th level: +4 enchantment, +4 to hit rolls, additional 1d6+8 magic damage vs. undead, demons, and devils, hold for two rounds vs. undead, demons, and devils if failed save vs. Spell at -2 penalty.~
+
+@2023 = ~Evoke Blessed Bullets
+Conjure a specially prepared bullet blessed by the Bow Knight's worshipped god for 8 hours containing one score of charges.
+  4th level: +1 enchantment, +1 to hit rolls, additional 1d6 magic damage vs. undead, demons, and devils.
+  8th level: +2 enchantment, +2 to hit rolls, additional 1d6+2 magic damage vs. undead, demons, and devils, blindness for two rounds vs. undead and demonic if failed save vs. Spell.
+  12th level: +2 enchantment, +2 to hit rolls, additional 1d6+4 magic damage vs. undead, demons, and devils, slow for two rounds vs. undead, demons, and devils if failed save vs. Spell.
+  16th level: +3 enchantment, +3 to hit rolls, additional 1d6+6 magic damage vs. undead, demons, and devils, slow and blindness for two rounds vs. undead, demons, and devils if failed save vs. Spell at -2 penalty.
+  20th level: +4 enchantment, +4 to hit rolls, additional 1d6+8 magic damage vs. undead, demons, and devils, hold for two rounds vs. undead, demons, and devils if failed save vs. Spell at -2 penalty.~
+
+@2030 = ~Produce Reinforced Ammunition
+Create one score of specially prepared arrows, bolts or bullets.
+  4th level: +1 enchantment, +1 to hit rolls, cumulative -1 AC penalty for two rounds if failed save vs. Death.
+  8th level: +2 enchantment, +2 to hit rolls, cumulative -1 AC and -1 THAC0 penalties for two rounds if failed save vs. Death.
+  12th level: +2 enchantment, +2 to hit rolls, cumulative -2 AC and -2 THAC0 penalties for two rounds if failed save vs. Death, knockback if failed save vs. Breath.
+  16th level: +3 enchantment, +3 to hit rolls, cumulative -2 AC and -2 THAC0 penalties for two rounds if failed save vs. Death at -2 penalty, knockback and stun for one round if failed save vs. Breath.
+  20th level: +4 enchantment, +4 to hit rolls, cumulative -3 AC, -3 THAC0 and -1 strength penalties for two rounds if failed save vs. Death at -2 penalty, knockback and stun for one round if failed save vs. Breath at -2 penalty.~
+
+@2031 = ~Produce Reinforced Arrows
+Create one score of specially prepared arrows.
+  4th level: +1 enchantment, +1 to hit rolls, cumulative -1 AC penalty for two rounds if failed save vs. Death.
+  8th level: +2 enchantment, +2 to hit rolls, cumulative -1 AC and -1 THAC0 penalties for two rounds if failed save vs. Death.
+  12th level: +2 enchantment, +2 to hit rolls, cumulative -2 AC and -2 THAC0 penalties for two rounds if failed save vs. Death, knockback if failed save vs. Breath.
+  16th level: +3 enchantment, +3 to hit rolls, cumulative -2 AC and -2 THAC0 penalties for two rounds if failed save vs. Death at -2 penalty, knockback and stun for one round if failed save vs. Breath.
+  20th level: +4 enchantment, +4 to hit rolls, cumulative -3 AC, -3 THAC0 and -1 strength penalties for two rounds if failed save vs. Death at -2 penalty, knockback and stun for one round if failed save vs. Breath at -2 penalty.~
+
+@2032 = ~Produce Reinforced Bolts
+Create one score of specially prepared bolts.
+  4th level: +1 enchantment, +1 to hit rolls, cumulative -1 AC penalty for two rounds if failed save vs. Death.
+  8th level: +2 enchantment, +2 to hit rolls, cumulative -1 AC and -1 THAC0 penalties for two rounds if failed save vs. Death.
+  12th level: +2 enchantment, +2 to hit rolls, cumulative -2 AC and -2 THAC0 penalties for two rounds if failed save vs. Death, knockback if failed save vs. Breath.
+  16th level: +3 enchantment, +3 to hit rolls, cumulative -2 AC and -2 THAC0 penalties for two rounds if failed save vs. Death at -2 penalty, knockback and stun for one round if failed save vs. Breath.
+  20th level: +4 enchantment, +4 to hit rolls, cumulative -3 AC, -3 THAC0 and -1 strength penalties for two rounds if failed save vs. Death at -2 penalty, knockback and stun for one round if failed save vs. Breath at -2 penalty.~
+
+@2033 = ~Produce Reinforced Bullets
+Create one score of specially prepared bullets.
+  4th level: +1 enchantment, +1 to hit rolls, cumulative -1 AC penalty for two rounds if failed save vs. Death.
+  8th level: +2 enchantment, +2 to hit rolls, cumulative -1 AC and -1 THAC0 penalties for two rounds if failed save vs. Death.
+  12th level: +2 enchantment, +2 to hit rolls, cumulative -2 AC and -2 THAC0 penalties for two rounds if failed save vs. Death, knockback if failed save vs. Breath.
+  16th level: +3 enchantment, +3 to hit rolls, cumulative -2 AC and -2 THAC0 penalties for two rounds if failed save vs. Death at -2 penalty, knockback and stun for one round if failed save vs. Breath.
+  20th level: +4 enchantment, +4 to hit rolls, cumulative -3 AC, -3 THAC0 and -1 strength penalties for two rounds if failed save vs. Death at -2 penalty, knockback and stun for one round if failed save vs. Breath at -2 penalty.~
+
+@2040 = ~Craft Endowed Ammunition
+Create one score of specially prepared arrows or bolts.
+  4th level: +1 enchantment, +1 to hit rolls, cumulative -1 AC penalty for two rounds if failed save vs. Death.
+  8th level: +2 enchantment, +2 to hit rolls, cumulative -2 AC penalty for two rounds if failed save vs. Death, additional 1 HP per second bleeding damage for one round vs. animals, humanoids and giant humanoids if failed save vs. Death.
+  12th level: +2 enchantment, +2 to hit rolls, cumulative -2 AC and -2 THAC0 penalty for two rounds if failed save vs. Death, additional 1 HP per second bleeding damage for one round vs. animals, humanoids and giant humanoids if failed save vs. Death.
+  16th level: +3 enchantment, +3 to hit rolls, cumulative -2 AC and -2 THAC0 penalty for two rounds if failed save vs. Death, additional 2 HP per second bleeding damage for one round as well as blindness for two rounds vs. animals, humanoids and giant humanoids if failed save vs. Death.
+  20th level: +4 enchantment, +4 to hit rolls, cumulative -2 AC and -2 THAC0 penalty for two rounds if failed save vs. Death at -2 penalty, additional 4 HP per second bleeding damage for one round as well as blindness for two rounds vs. animals, humanoids and giant humanoids if failed save vs. Death at -2 penalty.~
+
+@2041 = ~Craft Endowed Arrows
+Create one score of specially prepared arrows.
+  4th level: +1 enchantment, +1 to hit rolls, cumulative -1 AC penalty for two rounds if failed save vs. Death.
+  8th level: +2 enchantment, +2 to hit rolls, cumulative -2 AC penalty for two rounds if failed save vs. Death, additional 1 HP per second bleeding damage for one round vs. animals, humanoids and giant humanoids if failed save vs. Death.
+  12th level: +2 enchantment, +2 to hit rolls, cumulative -2 AC and -2 THAC0 penalty for two rounds if failed save vs. Death, additional 1 HP per second bleeding damage for one round vs. animals, humanoids and giant humanoids if failed save vs. Death.
+  16th level: +3 enchantment, +3 to hit rolls, cumulative -2 AC and -2 THAC0 penalty for two rounds if failed save vs. Death, additional 2 HP per second bleeding damage for one round as well as blindness for two rounds vs. animals, humanoids and giant humanoids if failed save vs. Death.
+  20th level: +4 enchantment, +4 to hit rolls, cumulative -2 AC and -2 THAC0 penalty for two rounds if failed save vs. Death at -2 penalty, additional 4 HP per second bleeding damage for one round as well as blindness for two rounds vs. animals, humanoids and giant humanoids if failed save vs. Death at -2 penalty.~
+
+@2042 = ~Craft Endowed Bolts
+Create one score of specially prepared bolts.
+  4th level: +1 enchantment, +1 to hit rolls, cumulative -1 AC penalty for two rounds if failed save vs. Death.
+  8th level: +2 enchantment, +2 to hit rolls, cumulative -2 AC penalty for two rounds if failed save vs. Death, additional 1 HP per second bleeding damage for one round vs. animals, humanoids and giant humanoids if failed save vs. Death.
+  12th level: +2 enchantment, +2 to hit rolls, cumulative -2 AC and -2 THAC0 penalty for two rounds if failed save vs. Death, additional 1 HP per second bleeding damage for one round vs. animals, humanoids and giant humanoids if failed save vs. Death.
+  16th level: +3 enchantment, +3 to hit rolls, cumulative -2 AC and -2 THAC0 penalty for two rounds if failed save vs. Death, additional 2 HP per second bleeding damage for one round as well as blindness for two rounds vs. animals, humanoids and giant humanoids if failed save vs. Death.
+  20th level: +4 enchantment, +4 to hit rolls, cumulative -2 AC and -2 THAC0 penalty for two rounds if failed save vs. Death at -2 penalty, additional 4 HP per second bleeding damage for one round as well as blindness for two rounds vs. animals, humanoids and giant humanoids if failed save vs. Death at -2 penalty.~

@@ -155,8 +155,8 @@ END
 // Ability: Power Shot
 COPY ~%MOD_FOLDER%/kit/a7#in01.spl~ ~override~
   SAY NAME1 @1000   // Power Shot
+  SAY UNIDENTIFIED_DESC @2001   // Power Shot...
   PATCH_IF (IS_EE) BEGIN
-    SAY UNIDENTIFIED_DESC @2001   // Power Shot...
     PATCH_IF (VARIABLE_IS_SET $icon_indices(~A7#IN01D~)) BEGIN
       SET idx = $icon_indices(~A7#IN01D~)
       LPF ALTER_EFFECT
@@ -174,8 +174,8 @@ COPY ~%MOD_FOLDER%/kit/a7#in01.spl~ ~override~
 // Ability: Rooting Shot
 COPY ~%MOD_FOLDER%/kit/a7#in02.spl~ ~override~
   SAY NAME1 @1001   // Rooting Shot
+  SAY UNIDENTIFIED_DESC @2002   // Rooting Shot...
   PATCH_IF (IS_EE) BEGIN
-    SAY UNIDENTIFIED_DESC @2002   // Rooting Shot...
     PATCH_IF (VARIABLE_IS_SET $icon_indices(~A7#IN02D~)) BEGIN
       SET idx = $icon_indices(~A7#IN02D~)
       LPF ALTER_EFFECT
@@ -197,8 +197,8 @@ ACTION_IF (~A7#IN03~ = 0) BEGIN
 END
 COPY ~%MOD_FOLDER%/kit/a7#in03.spl~ ~override~
   SAY NAME1 @1002   // Explosive Shot
+  SAY UNIDENTIFIED_DESC @2003   // Explosive Shot...
   PATCH_IF (IS_EE) BEGIN
-    SAY UNIDENTIFIED_DESC @2003   // Explosive Shot...
     PATCH_IF (VARIABLE_IS_SET $icon_indices(~A7#IN03D~)) BEGIN
       SET idx = $icon_indices(~A7#IN03D~)
       LPF ALTER_EFFECT

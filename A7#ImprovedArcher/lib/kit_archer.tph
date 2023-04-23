@@ -324,15 +324,11 @@ END
 // Ability: Conjure Elemental Ammunition
 COPY ~%MOD_FOLDER%/kit/a7#inr4.spl~ ~override~
   SAY NAME1 @1029   // Conjure Elemental Ammo
-  PATCH_IF (IS_EE) BEGIN
-    SAY UNIDENTIFIED_DESC @2010   // Conjure Elemental Ammunition...
-  END
+  SAY UNIDENTIFIED_DESC @2010   // Conjure Elemental Ammunition...
 
 COPY ~%KIT_FOLDER2%/a7#inr4a.spl~ ~override~
   SAY NAME1 @1030   // Conjure Elemental Arrows
-  PATCH_IF (IS_EE) BEGIN
-    SAY UNIDENTIFIED_DESC @2011   // Conjure Elemental Arrows...
-  END
+  SAY UNIDENTIFIED_DESC @2011   // Conjure Elemental Arrows...
   READ_LONG 0x6a "effects_ofs"
   WHILE (effects_ofs < SOURCE_SIZE) BEGIN
     READ_SHORT effects_ofs "fx_type"
@@ -344,9 +340,7 @@ COPY ~%KIT_FOLDER2%/a7#inr4a.spl~ ~override~
 
 COPY ~%KIT_FOLDER2%/a7#inr4b.spl~ ~override~
   SAY NAME1 @1031   // Conjure Elemental Bolts
-  PATCH_IF (IS_EE) BEGIN
-    SAY UNIDENTIFIED_DESC @2012   // Conjure Elemental Bolts...
-  END
+  SAY UNIDENTIFIED_DESC @2012   // Conjure Elemental Bolts...
   READ_LONG 0x6a "effects_ofs"
   WHILE (effects_ofs < SOURCE_SIZE) BEGIN
     READ_SHORT effects_ofs "fx_type"
