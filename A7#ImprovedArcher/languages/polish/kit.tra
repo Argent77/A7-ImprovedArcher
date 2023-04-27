@@ -1330,6 +1330,7 @@ Wady:
 
 // Innate ability descriptions
 @2001 = ~Potężny strzał
+
 Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, ma szansę na odrzucenie celu, w zależności od poziomu strzelca:
 8. poziom: Odrzuca cel (rzut obronny przeciw zionięciom neguje).
 12. poziom: Odrzuca cel (rzut obronny przeciw zionięciom z modyfikatorem -1 neguje).
@@ -1337,6 +1338,7 @@ Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund,
 20. poziom: Odrzuca cel (rzut obronny przeciw zionięciom z modyfikatorem -3 neguje).~
 
 @2002 = ~Oplątujący strzał
+
 Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, spowoduje oplątanie celu, zgodnie z poziomem strzelca:
 4. poziom: Cel jest oplątany przez trzy rundy (rzut obronny przeciw czarom neguje).
 8. poziom: Cel jest oplątany przez trzy rundy (rzut obronny przeciw czarom z modyfikatorem -1 neguje).
@@ -1345,6 +1347,7 @@ Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund,
 20. poziom: Cel jest oplątany przez pięć rund (rzut obronny przeciw czarom z modyfikatorem -2 neguje).~
 
 @2003 = ~Wybuchowy strzał
+
 Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, powoduje eksplozję wystrzelonego pocisku po trafieniu, zadając fizyczne obrażenia znajdującym się w promieniu pięciu metrów celom, w zależności od poziomu strzelca:
 8. poziom: 1k4 obrażeń pobliskim celom
 12. poziom: 1k4 +2 obrażeń pobliskim celom
@@ -1353,6 +1356,7 @@ Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund,
 Uwaga: Rani wrogów, sojuszników i niewinne stworzenia.~
 
 @2010 = ~Wyczarowanie amunicji żywiołów
+
 Tworzy specjalnie przygotowaną strzałę lub bełt, pobłogosławione przez bóstwo, które wyznaje łucznik. Pocisk istnieje przez osiem godzin i zawiera wiele ładunków. Ilość ładunków wzrasta dwukrotnie na poziomach 8 i 16.
 4. poziom: umagicznienie +1, +1 do testów trafienia i obrażeń, dodatkowe 1k3 obrażeń od ognia.
 8. poziom: umagicznienie +1, +2 do testów trafienia i obrażeń, dodatkowe 1k3 obrażeń od ognia i 1k3 obrażeń od zimna, oplątanie nienaturalnych istot przez dwie rundy (rzut obronny przeciw czarom neguje).
@@ -1361,6 +1365,7 @@ Tworzy specjalnie przygotowaną strzałę lub bełt, pobłogosławione przez bó
 20. poziom: umagicznienie +4, +4 do testów trafienia i obrażeń, dodatkowe 1k3 +2 obrażeń od ognia, 1k3 +2 obrażeń od zimna, 1k3 +2 obrażeń od kwasu i 1k3 +2 obrażeń od elektryczności, spowolnienie i oślepienie nienaturalnych istot przez dwie rundy (rzut obronny przeciw czarom z modyfikatorem -4 neguje).~
 
 @2011 = ~Wyczarowanie strzał żywiołów
+
 Tworzy specjalnie przygotowaną strzałę, pobłogosławioną przez bóstwo, które wyznaje łucznik. Pocisk istnieje przez osiem godzin i zawiera wiele ładunków. Ilość ładunków wzrasta dwukrotnie na poziomach 8 i 16.
 4. poziom: umagicznienie +1, +1 do testów trafienia i obrażeń, dodatkowe 1k3 obrażeń od ognia.
 8. poziom: umagicznienie +1, +2 do testów trafienia i obrażeń, dodatkowe 1k3 obrażeń od ognia i 1k3 obrażeń od zimna, oplątanie nienaturalnych istot przez dwie rundy (rzut obronny przeciw czarom neguje).
@@ -1369,6 +1374,7 @@ Tworzy specjalnie przygotowaną strzałę, pobłogosławioną przez bóstwo, kt�
 20. poziom: umagicznienie +4, +4 do testów trafienia i obrażeń, dodatkowe 1k3 +2 obrażeń od ognia, 1k3 +2 obrażeń od zimna, 1k3 +2 obrażeń od kwasu i 1k3 +2 obrażeń od elektryczności, spowolnienie i oślepienie nienaturalnych istot przez dwie rundy (rzut obronny przeciw czarom z modyfikatorem -4 neguje).~
 
 @2012 = ~Wyczarowanie bełtów żywiołów
+
 Tworzy specjalnie przygotowany bełt, pobłogosławiony przez bóstwo, które wyznaje łucznik. Pocisk istnieje przez osiem godzin i zawiera wiele ładunków. Ilość ładunków wzrasta dwukrotnie na poziomach 8 i 16.
 4. poziom: umagicznienie +1, +1 do testów trafienia i obrażeń, dodatkowe 1k3 obrażeń od ognia.
 8. poziom: umagicznienie +1, +2 do testów trafienia i obrażeń, dodatkowe 1k3 obrażeń od ognia i 1k3 obrażeń od zimna, oplątanie nienaturalnych istot przez dwie rundy (rzut obronny przeciw czarom neguje).
@@ -1377,6 +1383,7 @@ Tworzy specjalnie przygotowany bełt, pobłogosławiony przez bóstwo, które wy
 20. poziom: umagicznienie +4, +4 do testów trafienia i obrażeń, dodatkowe 1k3 +2 obrażeń od ognia, 1k3 +2 obrażeń od zimna, 1k3 +2 obrażeń od kwasu i 1k3 +2 obrażeń od elektryczności, spowolnienie i oślepienie nienaturalnych istot przez dwie rundy (rzut obronny przeciw czarom z modyfikatorem -4 neguje).~
 
 @2020 = ~Przywołanie błogosławionej amunicji
+
 Przywołuje specjalnie przygotowaną strzałę, bełt lub pocisk, pobłogosławione przez bóstwo, które wyznaje rycerz łucznik. Amunicja istnieje przez osiem godzin i zawiera wiele ładunków. Ilość ładunków wzrasta dwukrotnie na poziomach 8 i 16.
 4. poziom: umagicznienie +1, +1 do testów trafienia, dodatkowe 1k6 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym.
 8. poziom: umagicznienie +1, +2 do testów trafienia, dodatkowe 1k6 +2 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają oślepieni na dwie rundy (rzut obronny przeciw czarom neguje).
@@ -1385,6 +1392,7 @@ Przywołuje specjalnie przygotowaną strzałę, bełt lub pocisk, pobłogosławi
 20. poziom: umagicznienie +4, +4 do testów trafienia, dodatkowe 1k6 +8 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają unieruchomieni na dwie rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).~
 
 @2021 = ~Przywołanie błogosławionych strzał
+
 Przywołuje specjalnie przygotowaną strzałę, pobłogosławioną przez bóstwo, które wyznaje rycerz łucznik. Amunicja istnieje przez osiem godzin i zawiera wiele ładunków. Ilość ładunków wzrasta dwukrotnie na poziomach 8 i 16.
 4. poziom: umagicznienie +1, +1 do testów trafienia, dodatkowe 1k6 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym.
 8. poziom: umagicznienie +1, +2 do testów trafienia, dodatkowe 1k6 +2 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają oślepieni na dwie rundy (rzut obronny przeciw czarom neguje).
@@ -1393,6 +1401,7 @@ Przywołuje specjalnie przygotowaną strzałę, pobłogosławioną przez bóstwo
 20. poziom: umagicznienie +4, +4 do testów trafienia, dodatkowe 1k6 +8 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają unieruchomieni na dwie rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).~
 
 @2022 = ~Przywołanie błogosławionych bełtów
+
 Przywołuje specjalnie przygotowany bełt, pobłogosławiony przez bóstwo, które wyznaje rycerz łucznik. Amunicja istnieje przez osiem godzin i zawiera wiele ładunków. Ilość ładunków wzrasta dwukrotnie na poziomach 8 i 16.
 4. poziom: umagicznienie +1, +1 do testów trafienia, dodatkowe 1k6 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym.
 8. poziom: umagicznienie +1, +2 do testów trafienia, dodatkowe 1k6 +2 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają oślepieni na dwie rundy (rzut obronny przeciw czarom neguje).
@@ -1401,6 +1410,7 @@ Przywołuje specjalnie przygotowany bełt, pobłogosławiony przez bóstwo, któ
 20. poziom: umagicznienie +4, +4 do testów trafienia, dodatkowe 1k6 +8 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają unieruchomieni na dwie rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).~
 
 @2022 = ~Przywołanie błogosławionych pocisków
+
 Przywołuje specjalnie przygotowany pocisk, pobłogosławiony przez bóstwo, które wyznaje rycerz łucznik. Amunicja istnieje przez osiem godzin i zawiera wiele ładunków. Ilość ładunków wzrasta dwukrotnie na poziomach 8 i 16.
 4. poziom: umagicznienie +1, +1 do testów trafienia, dodatkowe 1k6 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym.
 8. poziom: umagicznienie +1, +2 do testów trafienia, dodatkowe 1k6 +2 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają oślepieni na dwie rundy (rzut obronny przeciw czarom neguje).
@@ -1409,6 +1419,7 @@ Przywołuje specjalnie przygotowany pocisk, pobłogosławiony przez bóstwo, kt�
 20. poziom: umagicznienie +4, +4 do testów trafienia, dodatkowe 1k6 +8 obrażeń magicznych obrażeń przeciw demonom, diabłom i nieumarłym. Ponadto demony, diabły i nieumarli zostają unieruchomieni na dwie rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).~
 
 @2030 = ~Wytworzenie wzmocnionej amunicji
+
 Pozwala wytworzyć zestaw specjalnie przygotowanych strzał, bełtów lub pocisków. Ilość wytworzonych zestawów podwaja się na 16. poziomie.
 4. poziom: umagicznienie +1, premia +1 do testów trafienia, cel otrzymuje kumulatywną karę -1 do Klasy Pancerza na dwie rundy (rzut obronny przeciw śmierci neguje).
 8. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -1 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci neguje).
@@ -1417,6 +1428,7 @@ Pozwala wytworzyć zestaw specjalnie przygotowanych strzał, bełtów lub pocisk
 20. poziom: umagicznienie +4, premia +4 do testów trafienia, cel otrzymuje kumulatywną karę -3 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje), a także zostaje odrzucony i ogłuszony na jedną rundę (rzut obronny przeciw zionięciom z modyfikatorem -2 neguje).~
 
 @2031 = ~Wytworzenie wzmocnionych strzał
+
 Pozwala wytworzyć zestaw specjalnie przygotowanych strzał. Ilość wytworzonych zestawów podwaja się na 16. poziomie.
 4. poziom: umagicznienie +1, premia +1 do testów trafienia, cel otrzymuje kumulatywną karę -1 do Klasy Pancerza na dwie rundy (rzut obronny przeciw śmierci neguje).
 8. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -1 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci neguje).
@@ -1425,6 +1437,7 @@ Pozwala wytworzyć zestaw specjalnie przygotowanych strzał. Ilość wytworzonyc
 20. poziom: umagicznienie +4, premia +4 do testów trafienia, cel otrzymuje kumulatywną karę -3 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje), a także zostaje odrzucony i ogłuszony na jedną rundę (rzut obronny przeciw zionięciom z modyfikatorem -2 neguje).~
 
 @2032 = ~Wytworzenie wzmocnionych bełtów
+
 Pozwala wytworzyć zestaw specjalnie przygotowanych bełtów. Ilość wytworzonych zestawów podwaja się na 16. poziomie.
 4. poziom: umagicznienie +1, premia +1 do testów trafienia, cel otrzymuje kumulatywną karę -1 do Klasy Pancerza na dwie rundy (rzut obronny przeciw śmierci neguje).
 8. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -1 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci neguje).
@@ -1433,6 +1446,7 @@ Pozwala wytworzyć zestaw specjalnie przygotowanych bełtów. Ilość wytworzony
 20. poziom: umagicznienie +4, premia +4 do testów trafienia, cel otrzymuje kumulatywną karę -3 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje), a także zostaje odrzucony i ogłuszony na jedną rundę (rzut obronny przeciw zionięciom z modyfikatorem -2 neguje).~
 
 @2033 = ~Wytworzenie wzmocnionych pocisków
+
 Pozwala wytworzyć zestaw specjalnie przygotowanych pocisków. Ilość wytworzonych zestawów podwaja się na 16. poziomie.
 4. poziom: umagicznienie +1, premia +1 do testów trafienia, cel otrzymuje kumulatywną karę -1 do Klasy Pancerza na dwie rundy (rzut obronny przeciw śmierci neguje).
 8. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -1 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci neguje).
@@ -1441,6 +1455,7 @@ Pozwala wytworzyć zestaw specjalnie przygotowanych pocisków. Ilość wytworzon
 20. poziom: umagicznienie +4, premia +4 do testów trafienia, cel otrzymuje kumulatywną karę -3 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje), a także zostaje odrzucony i ogłuszony na jedną rundę (rzut obronny przeciw zionięciom z modyfikatorem -2 neguje).~
 
 @2040 = ~Stworzenie zaczarowanej amunicji
+
 Pozwala wytworzyć zestaw specjalnie przygotowanych strzał lub bełtów. Ilość wytworzonych zestawów podwaja się na 16. poziomie.
 4. poziom: umagicznienie +1, premia +1 do testów trafienia, cel otrzymuje kumulatywną karę -1 do Klasy Pancerza na dwie rundy (rzut obronny przeciw śmierci neguje).
 8. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza na dwie rundy, chyba że wykona rzut obronny przeciw śmierci. Ponadto zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe 1 obrażenie od krwawienia na sekundę przez jedną rundę (rzut obronny przeciw śmierci neguje).
@@ -1449,6 +1464,7 @@ Pozwala wytworzyć zestaw specjalnie przygotowanych strzał lub bełtów. Iloś�
 20. poziom: umagicznienie +4, premia +4 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje). Ponadto zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe 4 obrażenia od krwawienia na sekundę przez jedną rundę, a także zostają oślepione na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje).~
 
 @2041 = ~Stworzenie zaczarowanych strzał
+
 Pozwala wytworzyć zestaw specjalnie przygotowanych strzał. Ilość wytworzonych zestawów podwaja się na 16. poziomie.
 4. poziom: umagicznienie +1, premia +1 do testów trafienia, cel otrzymuje kumulatywną karę -1 do Klasy Pancerza na dwie rundy (rzut obronny przeciw śmierci neguje).
 8. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza na dwie rundy, chyba że wykona rzut obronny przeciw śmierci. Ponadto zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe 1 obrażenie od krwawienia na sekundę przez jedną rundę (rzut obronny przeciw śmierci neguje).
@@ -1457,6 +1473,7 @@ Pozwala wytworzyć zestaw specjalnie przygotowanych strzał. Ilość wytworzonyc
 20. poziom: umagicznienie +4, premia +4 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje). Ponadto zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe 4 obrażenia od krwawienia na sekundę przez jedną rundę, a także zostają oślepione na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje).~
 
 @2042 = ~Stworzenie zaczarowanych bełtów
+
 Pozwala wytworzyć zestaw specjalnie przygotowanych bełtów. Ilość wytworzonych zestawów podwaja się na 16. poziomie.
 4. poziom: umagicznienie +1, premia +1 do testów trafienia, cel otrzymuje kumulatywną karę -1 do Klasy Pancerza na dwie rundy (rzut obronny przeciw śmierci neguje).
 8. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza na dwie rundy, chyba że wykona rzut obronny przeciw śmierci. Ponadto zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe 1 obrażenie od krwawienia na sekundę przez jedną rundę (rzut obronny przeciw śmierci neguje).

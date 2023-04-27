@@ -30,6 +30,7 @@ COPY ~%KIT_FOLDER%/a7#in01b.bam~ ~override~
      ~%KIT_FOLDER%/a7#in4bb.bam~ ~override~
      ~%KIT_FOLDER%/a7#in4cb.bam~ ~override~
      ~%KIT_FOLDER%/a7#in0ab.bam~ ~override~
+     ~%KIT_FOLDER%/a7#insb.bam~  ~override~
      ~%KIT_FOLDER%/a7#in0bb.spl~ ~override~
      ~%KIT_FOLDER%/a7#in06.spl~  ~override~
      ~%KIT_FOLDER%/a7#in07.spl~  ~override~
@@ -93,6 +94,10 @@ COPY ~%KIT_FOLDER%/a7#in01b.bam~ ~override~
      ~%MOD_FOLDER%/kit/a7#in05.spl~  ~override~
      ~%MOD_FOLDER%/kit/a7#entg.bam~  ~override~
      ~%MOD_FOLDER%/kit/a7#entg1.vvc~ ~override~
+     ~%MOD_FOLDER%/kit/a7#ins1.2da~  ~override~
+     ~%MOD_FOLDER%/kit/a7#ins2.2da~  ~override~
+     ~%MOD_FOLDER%/kit/a7#ins3.2da~  ~override~
+     ~%MOD_FOLDER%/kit/a7#insx.spl~  ~override~
 
 // Initializing user-defined status icons for shot abilities (EE-only)
 ACTION_IF (IS_EE) BEGIN
@@ -236,6 +241,20 @@ COPY_EXISTING ~a7#in01.spl~ ~override~
     effects_ofs += 0x30
   END
   BUT_ONLY
+
+
+// Installing shot selection ability
+COPY ~%MOD_FOLDER%/kit/a7#ins1.spl~ ~override~
+  SAY NAME1 @1079   // Activate Shot Ability
+  SAY UNIDENTIFIED_DESC @2043   // Activate Shot Ability...
+
+COPY ~%MOD_FOLDER%/kit/a7#ins2.spl~ ~override~
+  SAY NAME1 @1079   // Activate Shot Ability
+  SAY UNIDENTIFIED_DESC @2044  // Activate Shot Ability...
+
+COPY ~%MOD_FOLDER%/kit/a7#ins3.spl~ ~override~
+  SAY NAME1 @1079   // Activate Shot Ability
+  SAY UNIDENTIFIED_DESC @2045   // Activate Shot Ability...
 
 
 // Ability: Sure Shot

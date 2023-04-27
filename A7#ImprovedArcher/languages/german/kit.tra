@@ -80,6 +80,7 @@
 @1076 = ~Auge des Jägers~
 @1077 = ~Kurzbogen +2: Verteidiger~
 @1078 = ~Kurzbogen der Handlung +2~
+@1079 = ~Schussfähigkeit aktivieren~
 
 // Beschreibungen
 @1100 = ~BOGENSCHÜTZE: Der Bogenschütze ist ein Meister im Umgang mit dem Bogen. Diesem ultimativen Schützen gelingt praktisch jeder Schuss, egal wie schwierig er ist. Da er sich so stark auf den Umgang mit dem Bogen spezialisiert hat, musste er sein Training mit Nahkampfwaffen und Rüstungen vernachlässigen.
@@ -1251,6 +1252,7 @@ Nachteile:
 // Natürliche Fähigkeiten
 
 @2001 = ~Kraftschuss
+
 Alle Schüsse, die innerhalb der nächsten 12 Sekunden nach dem Einsetzen dieser Fertigkeit erfolgen, erhalten die folgenden Eigenschaften:
  8. Stufe: Ziel wird zurückgestoßen (Rettungswurf gg. Odemwaffen)
  12. Stufe: Ziel wird zurückgestoßen (Rettungswurf gg. Odemwaffen, +1 Malus)
@@ -1258,6 +1260,7 @@ Alle Schüsse, die innerhalb der nächsten 12 Sekunden nach dem Einsetzen dieser
  20. Stufe: Ziel wird zurückgestoßen (Rettungswurf gg. Odemwaffen, +3 Malus)~
 
 @2002 = ~Wurzelschuss
+
 Alle Schüsse, die innerhalb der nächsten 12 Sekunden nach dem Einsetzen dieser Fertigkeit erfolgen, erhalten die folgenden Eigenschaften:
  4. Stufe: Das Ziel wird für drei Runden verstrickt (Rettungswurf gg. Zauber).
  8. Stufe: Das Ziel wird für drei Runden verstrickt (Rettungswurf gg. Zauber, +1 Malus).
@@ -1266,14 +1269,16 @@ Alle Schüsse, die innerhalb der nächsten 12 Sekunden nach dem Einsetzen dieser
  20. Stufe: Das Ziel wird für fünf Runden verstrickt (Rettungswurf gg. Zauber, +2 Malus).~
 
 @2003 = ~Explosivschuss
+
 Alle Schüsse, die innerhalb der nächsten 12 Sekunden nach dem Einsetzen dieser Fertigkeit erfolgen, explodieren beim Aufprall und verursachen zusätzlich physischen Schaden bei Zielen in der unmittelbaren Umgebung mit den folgenden Eigenschaften:
  8. Stufe: 1w4 Schaden gegen Ziele in 8 m Radius
  12. Stufe: 1w4+2 Schaden gegen Ziele in 8 m Radius
  16. Stufe: 1w4+4 Schaden gegen Ziele in 8 m Radius
  20. Stufe: 1w4+6 Schaden gegen Ziele in 8 m Radius
-Vorsicht: Fügt sowohl Gegnern als auch Verbündeten und Unbeteiligten Schaden hinzu.~
+Vorsicht: Fügt sowohl Gegnern als auch Verbündeten und Unbeteiligten Schaden zu.~
 
 @2010 = ~Elementare Geschosse verzaubern
+
 Erzeugt einen verzauberten Pfeil oder Bolzen mit der Macht der verehrten Gottheit des Schützen. Das Geschoss ist 8 Stunden lang verfügbar, beinhaltet 20 Ladungen und die folgenden Eigenschaften:
  4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht 1w3 Schaden durch Feuer.
  8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht 1w3 Schaden durch Feuer und Kälte. Unnatürliche Wesen werden für zwei Runden verstrickt (Rettungswurf gg. Zauber).
@@ -1282,6 +1287,7 @@ Erzeugt einen verzauberten Pfeil oder Bolzen mit der Macht der verehrten Gotthei
  20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht 1w3+2 Schaden durch Feuer, Kälte, Säure und Elektrizität. Unnatürliche Wesen werden für zwei Runden geblendet und verlangsamt (Rettungswurf gg. Zauber, +4 Malus).~
 
 @2011 = ~Elementare Pfeile verzaubern
+
 Erzeugt einen verzauberten Pfeil mit der Macht der verehrten Gottheit des Schützen. Das Geschoss ist 8 Stunden lang verfügbar, beinhaltet 20 Ladungen und die folgenden Eigenschaften:
  4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht 1w3 Schaden durch Feuer.
  8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht 1w3 Schaden durch Feuer und Kälte. Unnatürliche Wesen werden für zwei Runden verstrickt (Rettungswurf gg. Zauber).
@@ -1290,6 +1296,7 @@ Erzeugt einen verzauberten Pfeil mit der Macht der verehrten Gottheit des Schüt
  20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht 1w3+2 Schaden durch Feuer, Kälte, Säure und Elektrizität. Unnatürliche Wesen werden für zwei Runden geblendet und verlangsamt (Rettungswurf gg. Zauber, +4 Malus).~
 
 @2012 = ~Elementare Bolzen verzaubern
+
 Erzeugt einen verzauberten Bolzen mit der Macht der verehrten Gottheit des Schützen. Das Geschoss ist 8 Stunden lang verfügbar, beinhaltet 20 Ladungen und die folgenden Eigenschaften:
  4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht 1w3 Schaden durch Feuer.
  8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht 1w3 Schaden durch Feuer und Kälte. Unnatürliche Wesen werden für zwei Runden verstrickt (Rettungswurf gg. Zauber).
@@ -1298,6 +1305,7 @@ Erzeugt einen verzauberten Bolzen mit der Macht der verehrten Gottheit des Schü
  20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht 1w3+2 Schaden durch Feuer, Kälte, Säure und Elektrizität. Unnatürliche Wesen werden für zwei Runden geblendet und verlangsamt (Rettungswurf gg. Zauber, +4 Malus).~
 
 @2020 = ~Gesegnete Geschosse beschwören
+
 Erzeugt einen spirituellen Pfeil, Bolzen oder Kugel mit der heiligen Macht der verehrten Gottheit des Schützen. Das Geschoss ist 8 Stunden lang verfügbar, beinhaltet 20 Ladungen und die folgenden Eigenschaften:
  4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6 magischen Schaden.
  8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6+2 magischen Schaden sowie Blindheit für zwei Runden (Rettungswurf gg. Zauber).
@@ -1306,6 +1314,7 @@ Erzeugt einen spirituellen Pfeil, Bolzen oder Kugel mit der heiligen Macht der v
  20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6+8 magischen Schaden sowie Blindheit und Festhalten für zwei Runden (Rettungswurf gg. Zauber, +4 Malus).~
 
 @2021 = ~Gesegnete Pfeile beschwören
+
 Erzeugt einen spirituellen Pfeil mit der heiligen Macht der verehrten Gottheit des Schützen. Der Pfeil ist 8 Stunden lang verfügbar, beinhaltet 20 Ladungen und die folgenden Eigenschaften:
  4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6 magischen Schaden.
  8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6+2 magischen Schaden sowie Blindheit für zwei Runden (Rettungswurf gg. Zauber).
@@ -1314,6 +1323,7 @@ Erzeugt einen spirituellen Pfeil mit der heiligen Macht der verehrten Gottheit d
  20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6+8 magischen Schaden sowie Blindheit und Festhalten für zwei Runden (Rettungswurf gg. Zauber, +4 Malus).~
 
 @2022 = ~Gesegnete Bolzen beschwören
+
 Erzeugt einen spirituellen Bolzen mit der heiligen Macht der verehrten Gottheit des Schützen. Der Bolzen ist 8 Stunden lang verfügbar, beinhaltet 20 Ladungen und die folgenden Eigenschaften:
  4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6 magischen Schaden.
  8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6+2 magischen Schaden sowie Blindheit für zwei Runden (Rettungswurf gg. Zauber).
@@ -1322,6 +1332,7 @@ Erzeugt einen spirituellen Bolzen mit der heiligen Macht der verehrten Gottheit 
  20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6+8 magischen Schaden sowie Blindheit und Festhalten für zwei Runden (Rettungswurf gg. Zauber, +4 Malus).~
 
 @2023 = ~Gesegnete Kugeln beschwören
+
 Erzeugt eine spirituellen Kugel mit der heiligen Macht der verehrten Gottheit des Schützen. Die Kugel ist 8 Stunden lang verfügbar, beinhaltet 20 Ladungen und die folgenden Eigenschaften:
  4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6 magischen Schaden.
  8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6+2 magischen Schaden sowie Blindheit für zwei Runden (Rettungswurf gg. Zauber).
@@ -1330,6 +1341,7 @@ Erzeugt eine spirituellen Kugel mit der heiligen Macht der verehrten Gottheit de
  20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht bei Untoten, Dämonen und Teufeln zusätzlich 1w6+8 magischen Schaden sowie Blindheit und Festhalten für zwei Runden (Rettungswurf gg. Zauber, +4 Malus).~
 
 @2030 = ~Verstärkte Geschosse herstellen
+
 Erzeugt 20 verstärkte Pfeile, Bolzen oder Kugeln mit den folgenden Eigenschaften:
  4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +1 Malus auf die Rüstungsklasse (Rettungswurf gg. Tod).
  8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +1 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod).
@@ -1338,6 +1350,7 @@ Erzeugt 20 verstärkte Pfeile, Bolzen oder Kugeln mit den folgenden Eigenschafte
  20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +3 Malus auf Rüstungsklasse und ETW0, sowie einen -1 Malus auf Stärke (Rettungswurf gg. Tod, +2 Malus). Ziel wird zurückgeworfen und für eine Runde betäubt (Rettungswurf gg. Odemwaffen, +2 Malus).~
 
 @2031 = ~Verstärkte Pfeile herstellen
+
 Erzeugt 20 verstärkte Pfeile mit den folgenden Eigenschaften:
  4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +1 Malus auf die Rüstungsklasse (Rettungswurf gg. Tod).
  8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +1 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod).
@@ -1346,6 +1359,7 @@ Erzeugt 20 verstärkte Pfeile mit den folgenden Eigenschaften:
  20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +3 Malus auf Rüstungsklasse und ETW0, sowie einen -1 Malus auf Stärke (Rettungswurf gg. Tod, +2 Malus). Ziel wird zurückgeworfen und für eine Runde betäubt (Rettungswurf gg. Odemwaffen, +2 Malus).~
 
 @2032 = ~Verstärkte Bolzen herstellen
+
 Erzeugt 20 verstärkte Bolzen mit den folgenden Eigenschaften:
  4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +1 Malus auf die Rüstungsklasse (Rettungswurf gg. Tod).
  8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +1 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod).
@@ -1354,6 +1368,7 @@ Erzeugt 20 verstärkte Bolzen mit den folgenden Eigenschaften:
  20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +3 Malus auf Rüstungsklasse und ETW0, sowie einen -1 Malus auf Stärke (Rettungswurf gg. Tod, +2 Malus). Ziel wird zurückgeworfen und für eine Runde betäubt (Rettungswurf gg. Odemwaffen, +2 Malus).~
 
 @2033 = ~Verstärkte Kugeln herstellen
+
 Erzeugt 20 verstärkte Kugeln mit den folgenden Eigenschaften:
  4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +1 Malus auf die Rüstungsklasse (Rettungswurf gg. Tod).
  8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +1 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod).
@@ -1362,6 +1377,7 @@ Erzeugt 20 verstärkte Kugeln mit den folgenden Eigenschaften:
  20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +3 Malus auf Rüstungsklasse und ETW0, sowie einen -1 Malus auf Stärke (Rettungswurf gg. Tod, +2 Malus). Ziel wird zurückgeworfen und für eine Runde betäubt (Rettungswurf gg. Odemwaffen, +2 Malus).~
 
 @2040 = ~Bestückte Geschosse anfertigen
+
 Erzeugt 20 bestückte Pfeile oder Bolzen mit den folgenden Eigenschaften:
  4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +1 Malus auf die Rüstungsklasse (Rettungswurf gg. Tod).
  8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf die Rüstungsklasse (Rettungswurf gg. Tod). Tiere, Menschen und riesige Humanoide erleiden für eine Runde einen Schadenspunkt pro Sekunde durch Verbluten (Rettungswurf gg. Tod).
@@ -1370,6 +1386,7 @@ Erzeugt 20 bestückte Pfeile oder Bolzen mit den folgenden Eigenschaften:
  20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod, +2 Malus). Tiere, Menschen und riesige Humanoide erleiden für eine Runde vier Schadenspunkte pro Sekunde durch Verbluten (Rettungswurf gg. Tod, +2 Malus).~
 
 @2041 = ~Bestückte Pfeile anfertigen
+
 Erzeugt 20 bestückte Pfeile mit den folgenden Eigenschaften:
  4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +1 Malus auf die Rüstungsklasse (Rettungswurf gg. Tod).
  8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf die Rüstungsklasse (Rettungswurf gg. Tod). Tiere, Menschen und riesige Humanoide erleiden für eine Runde einen Schadenspunkt pro Sekunde durch Verbluten (Rettungswurf gg. Tod).
@@ -1378,9 +1395,70 @@ Erzeugt 20 bestückte Pfeile mit den folgenden Eigenschaften:
  20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod, +2 Malus). Tiere, Menschen und riesige Humanoide erleiden für eine Runde vier Schadenspunkte pro Sekunde durch Verbluten (Rettungswurf gg. Tod, +2 Malus).~
 
 @2042 = ~Bestückte Bolzen anfertigen
+
 Erzeugt 20 bestückte Bolzen mit den folgenden Eigenschaften:
  4. Stufe: +1 Verzauberung, +1 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +1 Malus auf die Rüstungsklasse (Rettungswurf gg. Tod).
  8. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf die Rüstungsklasse (Rettungswurf gg. Tod). Tiere, Menschen und riesige Humanoide erleiden für eine Runde einen Schadenspunkt pro Sekunde durch Verbluten (Rettungswurf gg. Tod).
  12. Stufe: +2 Verzauberung, +2 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod). Tiere, Menschen und riesige Humanoide erleiden für eine Runde einen Schadenspunkt pro Sekunde durch Verbluten (Rettungswurf gg. Tod).
  16. Stufe: +3 Verzauberung, +3 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod). Tiere, Menschen und riesige Humanoide erleiden für eine Runde zwei Schadenspunkte pro Sekunde durch Verbluten (Rettungswurf gg. Tod).
  20. Stufe: +4 Verzauberung, +4 auf Trefferwürfe. Verursacht für zwei Runden kumulativen +2 Malus auf Rüstungsklasse und ETW0 (Rettungswurf gg. Tod, +2 Malus). Tiere, Menschen und riesige Humanoide erleiden für eine Runde vier Schadenspunkte pro Sekunde durch Verbluten (Rettungswurf gg. Tod, +2 Malus).~
+
+@2043 = ~Aktiviert eine der folgenden Schussfähigkeiten:
+
+Wurzelschuss
+Alle Schüsse, die innerhalb der nächsten 12 Sekunden nach dem Einsetzen dieser Fertigkeit erfolgen, erhalten die folgenden Eigenschaften:
+ 4. Stufe: Das Ziel wird für drei Runden verstrickt (Rettungswurf gg. Zauber).
+ 8. Stufe: Das Ziel wird für drei Runden verstrickt (Rettungswurf gg. Zauber, +1 Malus).
+ 12. Stufe: Das Ziel wird für vier Runden verstrickt (Rettungswurf gg. Zauber, +1 Malus).
+ 16. Stufe: Das Ziel wird für vier Runden verstrickt (Rettungswurf gg. Zauber, +2 Malus).
+ 20. Stufe: Das Ziel wird für fünf Runden verstrickt (Rettungswurf gg. Zauber, +2 Malus).
+
+Kraftschuss
+Alle Schüsse, die innerhalb der nächsten 12 Sekunden nach dem Einsetzen dieser Fertigkeit erfolgen, erhalten die folgenden Eigenschaften:
+ 8. Stufe: Ziel wird zurückgestoßen (Rettungswurf gg. Odemwaffen)
+ 12. Stufe: Ziel wird zurückgestoßen (Rettungswurf gg. Odemwaffen, +1 Malus)
+ 16. Stufe: Ziel wird zurückgestoßen (Rettungswurf gg. Odemwaffen, +2 Malus)
+ 20. Stufe: Ziel wird zurückgestoßen (Rettungswurf gg. Odemwaffen, +3 Malus)
+
+Explosivschuss
+Alle Schüsse, die innerhalb der nächsten 12 Sekunden nach dem Einsetzen dieser Fertigkeit erfolgen, explodieren beim Aufprall und verursachen zusätzlich physischen Schaden bei Zielen in der unmittelbaren Umgebung mit den folgenden Eigenschaften:
+ 8. Stufe: 1w4 Schaden gegen Ziele in 8 m Radius
+ 12. Stufe: 1w4+2 Schaden gegen Ziele in 8 m Radius
+ 16. Stufe: 1w4+4 Schaden gegen Ziele in 8 m Radius
+ 20. Stufe: 1w4+6 Schaden gegen Ziele in 8 m Radius
+Vorsicht: Fügt sowohl Gegnern als auch Verbündeten und Unbeteiligten Schaden zu.~
+
+@2044 = ~Aktiviert eine der folgenden Schussfähigkeiten:
+
+Wurzelschuss
+Alle Schüsse, die innerhalb der nächsten 12 Sekunden nach dem Einsetzen dieser Fertigkeit erfolgen, erhalten die folgenden Eigenschaften:
+ 4. Stufe: Das Ziel wird für drei Runden verstrickt (Rettungswurf gg. Zauber).
+ 8. Stufe: Das Ziel wird für drei Runden verstrickt (Rettungswurf gg. Zauber, +1 Malus).
+ 12. Stufe: Das Ziel wird für vier Runden verstrickt (Rettungswurf gg. Zauber, +1 Malus).
+ 16. Stufe: Das Ziel wird für vier Runden verstrickt (Rettungswurf gg. Zauber, +2 Malus).
+ 20. Stufe: Das Ziel wird für fünf Runden verstrickt (Rettungswurf gg. Zauber, +2 Malus).
+
+Kraftschuss
+Alle Schüsse, die innerhalb der nächsten 12 Sekunden nach dem Einsetzen dieser Fertigkeit erfolgen, erhalten die folgenden Eigenschaften:
+ 8. Stufe: Ziel wird zurückgestoßen (Rettungswurf gg. Odemwaffen)
+ 12. Stufe: Ziel wird zurückgestoßen (Rettungswurf gg. Odemwaffen, +1 Malus)
+ 16. Stufe: Ziel wird zurückgestoßen (Rettungswurf gg. Odemwaffen, +2 Malus)
+ 20. Stufe: Ziel wird zurückgestoßen (Rettungswurf gg. Odemwaffen, +3 Malus)~
+
+@2045 = ~Aktiviert eine der folgenden Schussfähigkeiten:
+
+Wurzelschuss
+Alle Schüsse, die innerhalb der nächsten 12 Sekunden nach dem Einsetzen dieser Fertigkeit erfolgen, erhalten die folgenden Eigenschaften:
+ 4. Stufe: Das Ziel wird für drei Runden verstrickt (Rettungswurf gg. Zauber).
+ 8. Stufe: Das Ziel wird für drei Runden verstrickt (Rettungswurf gg. Zauber, +1 Malus).
+ 12. Stufe: Das Ziel wird für vier Runden verstrickt (Rettungswurf gg. Zauber, +1 Malus).
+ 16. Stufe: Das Ziel wird für vier Runden verstrickt (Rettungswurf gg. Zauber, +2 Malus).
+ 20. Stufe: Das Ziel wird für fünf Runden verstrickt (Rettungswurf gg. Zauber, +2 Malus).
+
+Explosivschuss
+Alle Schüsse, die innerhalb der nächsten 12 Sekunden nach dem Einsetzen dieser Fertigkeit erfolgen, explodieren beim Aufprall und verursachen zusätzlich physischen Schaden bei Zielen in der unmittelbaren Umgebung mit den folgenden Eigenschaften:
+ 8. Stufe: 1w4 Schaden gegen Ziele in 8 m Radius
+ 12. Stufe: 1w4+2 Schaden gegen Ziele in 8 m Radius
+ 16. Stufe: 1w4+4 Schaden gegen Ziele in 8 m Radius
+ 20. Stufe: 1w4+6 Schaden gegen Ziele in 8 m Radius
+Vorsicht: Fügt sowohl Gegnern als auch Verbündeten und Unbeteiligten Schaden zu.~
