@@ -88,7 +88,8 @@ CREARE MUNIZIONI BENEDETTE: Crea una freccia o un quadrello spirituale benedetto
 Svantaggi:
 - Penalità pari a -1 alla Costituzione.
 - Non può indossare armature di metallo.
-- Può diventare soltanto Competente (un punto) nelle armi da mischia.~
+- Può diventare soltanto Competente (un punto) nelle armi da mischia.
+- Non può utilizzare l'abilità Charmare Animali.~
 
 @1101 = ~Questa è una freccia che è stata benedetta dal dio o dalla dea venerata dal personaggio. Perfora persino le creature che normalmente sono immuni ai danni fisici e arreca danno addizionale ai non morti di ogni tipo.
 L'incantamento divino della freccia dura otto ore, dopo le quali la freccia perderà la sua forma fisica. Il numero di frecce create diventa maggiore con l'avanzare di livello.
@@ -655,11 +656,11 @@ Tutti gli attacchi a distanza messi a segno nei successivi 12 secondi hanno la p
 
 Tutti gli attacchi a distanza messi a segno nei successivi 12 secondi renderanno intralciato il bersaglio a seconda del livello del personaggio:
 
-4° livello: Il bersaglio viene intralciato per tre round se non effettua con successo un tiro-salvezza contro Morte.
-8° livello: Il bersaglio viene intralciato per tre round se non effettua con successo un tiro-salvezza contro Morte con una penalità pari a -1.
-12° livello: Il bersaglio viene intralciato per quattro round se non effettua con successo un tiro-salvezza contro Morte con una penalità pari a -1.
-16° livello: Il bersaglio viene intralciato per quattro round se non effettua con successo un tiro-salvezza contro Morte con una penalità pari a -2.
-20° livello: Il bersaglio viene intralciato per cinque round se non effettua con successo un tiro-salvezza contro Morte con una penalità pari a -2.~
+4° livello: Il bersaglio viene intralciato per tre round se non effettua con successo un tiro-salvezza contro Incantesimi.
+8° livello: Il bersaglio viene intralciato per tre round se non effettua con successo un tiro-salvezza contro Incantesimi con una penalità pari a -1.
+12° livello: Il bersaglio viene intralciato per quattro round se non effettua con successo un tiro-salvezza contro Incantesimi con una penalità pari a -1.
+16° livello: Il bersaglio viene intralciato per quattro round se non effettua con successo un tiro-salvezza contro Incantesimi con una penalità pari a -2.
+20° livello: Il bersaglio viene intralciato per cinque round se non effettua con successo un tiro-salvezza contro Incantesimi con una penalità pari a -2.~
 
 @2003 = ~Colpo Esplosivo
 

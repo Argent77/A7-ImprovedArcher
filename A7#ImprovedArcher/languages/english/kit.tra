@@ -1288,11 +1288,11 @@ All successful ranged attacks within the next 12 seconds have a chance to knock 
 @2002 = ~Rooting Shot
 
 All successful ranged attacks within the next 12 seconds will entangle the target, according to the level of the user:
-  4th level: Target is entangled for three rounds if failed save vs. Death.
-  8th level: Target is entangled for three rounds if failed save vs. Death at -1 penalty.
-  12th level: Target is entangled for four rounds if failed save vs. Death at -1 penalty.
-  16th level: Target is entangled for four rounds if failed save vs. Death at -2 penalty.
-  20th level: Target is entangled for five rounds if failed save vs. Death at -2 penalty.~
+  4th level: Target is entangled for three rounds if failed save vs. Spell.
+  8th level: Target is entangled for three rounds if failed save vs. Spell at -1 penalty.
+  12th level: Target is entangled for four rounds if failed save vs. Spell at -1 penalty.
+  16th level: Target is entangled for four rounds if failed save vs. Spell at -2 penalty.
+  20th level: Target is entangled for five rounds if failed save vs. Spell at -2 penalty.~
 
 @2003 = ~Explosive Shot
 
@@ -1433,11 +1433,11 @@ Create one score of specially prepared bolts.
 
 Rooting Shot
 All successful ranged attacks within the next 12 seconds will entangle the target, according to the level of the user:
-  4th level: Target is entangled for three rounds if failed save vs. Death.
-  8th level: Target is entangled for three rounds if failed save vs. Death at -1 penalty.
-  12th level: Target is entangled for four rounds if failed save vs. Death at -1 penalty.
-  16th level: Target is entangled for four rounds if failed save vs. Death at -2 penalty.
-  20th level: Target is entangled for five rounds if failed save vs. Death at -2 penalty.
+  4th level: Target is entangled for three rounds if failed save vs. Spell.
+  8th level: Target is entangled for three rounds if failed save vs. Spell at -1 penalty.
+  12th level: Target is entangled for four rounds if failed save vs. Spell at -1 penalty.
+  16th level: Target is entangled for four rounds if failed save vs. Spell at -2 penalty.
+  20th level: Target is entangled for five rounds if failed save vs. Spell at -2 penalty.
 
 Power Shot
 All successful ranged attacks within the next 12 seconds have a chance to knock back the target, according to the level of the user:
@@ -1458,11 +1458,11 @@ Caution: Damages enemies, allies and innocent bystanders alike.~
 
 Rooting Shot
 All successful ranged attacks within the next 12 seconds will entangle the target, according to the level of the user:
-  4th level: Target is entangled for three rounds if failed save vs. Death.
-  8th level: Target is entangled for three rounds if failed save vs. Death at -1 penalty.
-  12th level: Target is entangled for four rounds if failed save vs. Death at -1 penalty.
-  16th level: Target is entangled for four rounds if failed save vs. Death at -2 penalty.
-  20th level: Target is entangled for five rounds if failed save vs. Death at -2 penalty.
+  4th level: Target is entangled for three rounds if failed save vs. Spell.
+  8th level: Target is entangled for three rounds if failed save vs. Spell at -1 penalty.
+  12th level: Target is entangled for four rounds if failed save vs. Spell at -1 penalty.
+  16th level: Target is entangled for four rounds if failed save vs. Spell at -2 penalty.
+  20th level: Target is entangled for five rounds if failed save vs. Spell at -2 penalty.
 
 Power Shot
 All successful ranged attacks within the next 12 seconds have a chance to knock back the target, according to the level of the user:
@@ -1475,11 +1475,11 @@ All successful ranged attacks within the next 12 seconds have a chance to knock 
 
 Rooting Shot
 All successful ranged attacks within the next 12 seconds will entangle the target, according to the level of the user:
-  4th level: Target is entangled for three rounds if failed save vs. Death.
-  8th level: Target is entangled for three rounds if failed save vs. Death at -1 penalty.
-  12th level: Target is entangled for four rounds if failed save vs. Death at -1 penalty.
-  16th level: Target is entangled for four rounds if failed save vs. Death at -2 penalty.
-  20th level: Target is entangled for five rounds if failed save vs. Death at -2 penalty.
+  4th level: Target is entangled for three rounds if failed save vs. Spell.
+  8th level: Target is entangled for three rounds if failed save vs. Spell at -1 penalty.
+  12th level: Target is entangled for four rounds if failed save vs. Spell at -1 penalty.
+  16th level: Target is entangled for four rounds if failed save vs. Spell at -2 penalty.
+  20th level: Target is entangled for five rounds if failed save vs. Spell at -2 penalty.
 
 Explosive Shot
 All successful ranged attacks within the next 12 seconds will explode on impact and cause physical damage to nearby targets in 15' range, according to the level of the user:
