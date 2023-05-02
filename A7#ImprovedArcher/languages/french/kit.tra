@@ -1293,11 +1293,11 @@ Tout tir réussi dans les 12 secondes qui suivent peut renverser la cible, selon
 @2002 = ~Tir immobilisant
 
 Tout tir réussi dans les 12 secondes qui suivent peut enchevêtrer la cible, selon la progression suivante :
- niveau 4  : Enchevêtre la cible pendant trois rounds si elle rate son JS contre la mort.
- niveau 8  : Enchevêtre la cible pendant trois rounds si elle rate son JS contre la mort avec un malus de 1.
- niveau 12 : Enchevêtre la cible pendant quatre rounds si elle rate son JS contre la mort avec un malus de 1.
- niveau 16 : Enchevêtre la cible pendant quatre rounds si elle rate son JS contre la mort avec un malus de 2.
- niveau 20 : Enchevêtre la cible pendant cinq rounds si elle rate son JS contre la mort avec un malus de 2.~
+ niveau 4  : Enchevêtre la cible pendant trois rounds si elle rate son JS contre les sorts.
+ niveau 8  : Enchevêtre la cible pendant trois rounds si elle rate son JS contre les sorts avec un malus de 1.
+ niveau 12 : Enchevêtre la cible pendant quatre rounds si elle rate son JS contre les sorts avec un malus de 1.
+ niveau 16 : Enchevêtre la cible pendant quatre rounds si elle rate son JS contre les sorts avec un malus de 2.
+ niveau 20 : Enchevêtre la cible pendant cinq rounds si elle rate son JS contre les sorts avec un malus de 2.~
 
 @2003 = ~Tir explosif
 
@@ -1438,11 +1438,11 @@ L'archer façonne plusieurs carreaux spéciaux.
 
 Tir immobilisant
 Tout tir réussi dans les 12 secondes qui suivent enchevêtre la cible, selon le niveau de l'archer :
-  niveau 4  : Enchevêtre la cible pendant trois rounds si elle rate un JS contre la mort.
-  niveau 8  : Enchevêtre la cible pendant trois rounds si elle rate un JS contre la mort avec un malus de 1.
-  niveau 12 : Enchevêtre la cible pendant quatre rounds si elle rate un JS contre la mort avec un malus de 1.
-  niveau 16 : Enchevêtre la cible pendant quatre rounds si elle rate un JS contre la mort avec un malus de 2.
-  niveau 20 : Enchevêtre la cible pendant cinq rounds si elle rate un JS contre la mort avec un malus de 2.
+  niveau 4  : Enchevêtre la cible pendant trois rounds si elle rate un JS contre les sorts.
+  niveau 8  : Enchevêtre la cible pendant trois rounds si elle rate un JS contre les sorts avec un malus de 1.
+  niveau 12 : Enchevêtre la cible pendant quatre rounds si elle rate un JS contre les sorts avec un malus de 1.
+  niveau 16 : Enchevêtre la cible pendant quatre rounds si elle rate un JS contre les sorts avec un malus de 2.
+  niveau 20 : Enchevêtre la cible pendant cinq rounds si elle rate un JS contre les sorts avec un malus de 2.
 
 Tir renversant
 Tout tir réussi dans les 12 secondes qui suivent peut renverser la cible, selon le niveau de l'archer :
@@ -1463,11 +1463,11 @@ Attention : cette capacité inflige des dégâts aussi bien aux ennemis qu'aux a
 
 Tir immobilisant
 Tout tir réussi dans les 12 secondes qui suivent enchevêtre la cible, selon le niveau de l'archer :
-  niveau 4  : Enchevêtre la cible pendant trois rounds si elle rate un JS contre la mort.
-  niveau 8  : Enchevêtre la cible pendant trois rounds si elle rate un JS contre la mort avec un malus de 1.
-  niveau 12 : Enchevêtre la cible pendant quatre rounds si elle rate un JS contre la mort avec un malus de 1.
-  niveau 16 : Enchevêtre la cible pendant quatre rounds si elle rate un JS contre la mort avec un malus de 2.
-  niveau 20 : Enchevêtre la cible pendant cinq rounds si elle rate un JS contre la mort avec un malus de 2.
+  niveau 4  : Enchevêtre la cible pendant trois rounds si elle rate un JS contre les sorts.
+  niveau 8  : Enchevêtre la cible pendant trois rounds si elle rate un JS contre les sorts avec un malus de 1.
+  niveau 12 : Enchevêtre la cible pendant quatre rounds si elle rate un JS contre les sorts avec un malus de 1.
+  niveau 16 : Enchevêtre la cible pendant quatre rounds si elle rate un JS contre les sorts avec un malus de 2.
+  niveau 20 : Enchevêtre la cible pendant cinq rounds si elle rate un JS contre les sorts avec un malus de 2.
 
 Tir renversant
 Tout tir réussi dans les 12 secondes qui suivent peut renverser la cible, selon le niveau de l'archer :
@@ -1480,11 +1480,11 @@ Tout tir réussi dans les 12 secondes qui suivent peut renverser la cible, selon
 
 Tir immobilisant
 Tout tir réussi dans les 12 secondes qui suivent enchevêtre la cible, selon le niveau de l'archer :
-  niveau 4  : Enchevêtre la cible pendant trois rounds si elle rate un JS contre la mort.
-  niveau 8  : Enchevêtre la cible pendant trois rounds si elle rate un JS contre la mort avec un malus de 1.
-  niveau 12 : Enchevêtre la cible pendant quatre rounds si elle rate un JS contre la mort avec un malus de 1.
-  niveau 16 : Enchevêtre la cible pendant quatre rounds si elle rate un JS contre la mort avec un malus de 2.
-  niveau 20 : Enchevêtre la cible pendant cinq rounds si elle rate un JS contre la mort avec un malus de 2.
+  niveau 4  : Enchevêtre la cible pendant trois rounds si elle rate un JS contre les sorts.
+  niveau 8  : Enchevêtre la cible pendant trois rounds si elle rate un JS contre les sorts avec un malus de 1.
+  niveau 12 : Enchevêtre la cible pendant quatre rounds si elle rate un JS contre les sorts avec un malus de 1.
+  niveau 16 : Enchevêtre la cible pendant quatre rounds si elle rate un JS contre les sorts avec un malus de 2.
+  niveau 20 : Enchevêtre la cible pendant cinq rounds si elle rate un JS contre les sorts avec un malus de 2.
 
 Tir explosif
 Tout tir réussi dans les 12 secondes qui suivent explose à l'impact et inflige à toutes les créatures situées dans un rayon de 4,5 mètres des dégâts dépendant du niveau de l'archer :
