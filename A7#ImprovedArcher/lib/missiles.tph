@@ -51,7 +51,6 @@ COPY ~%MOD_FOLDER%/kit/a7#arow1.itm~ ~override~
 COPY ~%MOD_FOLDER%/kit/a7#bolt1.itm~ ~override~
   SAY NAME2 @1020   // Bolt +4
   SAY IDENTIFIED_DESC @1116   // ...
-  LPF REMOVE_SHAMAN_RESTRICTION END
   PATCH_IF (IS_IWDEE) BEGIN
     WRITE_ASCII 0x58 ~~ #8    // Description image
   END
