@@ -80,6 +80,7 @@
 @1076 = ~Œil du chasseur~
 @1077 = ~Arc court de protection +2~
 @1078 = ~Arc court d'action +2~
+@1079 = ~Activer une capacité de tir~
 
 // Descriptions
 @1100 = ~ARCHER : Archer d'élite, il est capable de réussir les tirs les plus précis et les plus difficiles. Mais pour devenir aussi efficace avec un arc, il doit négliger certaines des capacités propres aux guerriers.
@@ -107,7 +108,7 @@ TIR RENVERSANT : Tout tir réussi dans les 12 secondes qui suivent peut renverse
  niveau 16 : Renverse la cible si elle rate un JS contre le souffle avec un malus de 2.
  niveau 20 : Renverse la cible si elle rate un JS contre le souffle avec un malus de 3.
 
-TIR EXPLOSIF : Tout tir réussi dans les 12 secondes qui suivent explose à l'impact et inflige à toutes les créatures situées dans un rayon de 5 mètres des dégâts dépendant du niveau de l'archer :
+TIR EXPLOSIF : Tout tir réussi dans les 12 secondes qui suivent explose à l'impact et inflige à toutes les créatures situées dans un rayon de 4,5 mètres des dégâts dépendant du niveau de l'archer :
  niveau 8  : 1d4 points de dégâts
  niveau 12 : 1d4+2 points de dégâts
  niveau 16 : 1d4+4 points de dégâts
@@ -1168,7 +1169,7 @@ TIR RENVERSANT : Tout tir réussi dans les 12 secondes qui suivent peut renverse
  niveau 16 : Renverse la cible si elle rate un JS contre le souffle (à -2).
  niveau 20 : Renverse la cible si elle rate un JS contre le souffle (à -3).
 
-TIR EXPLOSIF : Tout tir réussi dans les 12 secondes qui suivent explose à l'impact et inflige à toutes les créatures situées dans un rayon de 5 mètres des dégâts dépendant du niveau du Tireur d'élite :
+TIR EXPLOSIF : Tout tir réussi dans les 12 secondes qui suivent explose à l'impact et inflige à toutes les créatures situées dans un rayon de 4,5 mètres des dégâts dépendant du niveau du Tireur d'élite :
  niveau 8  : 1d4 points de dégâts
  niveau 12 : 1d4+2 points de dégâts
  niveau 16 : 1d4+4 points de dégâts
@@ -1258,7 +1259,7 @@ TIR IMMOBILISANT : Tout tir réussi dans les 12 secondes qui suivent enchevêtre
  niveau 16 : Enchevêtre la cible pendant quatre rounds si elle rate un JS contre les sorts avec un malus de 2.
  niveau 20 : Enchevêtre la cible pendant cinq rounds si elle rate un JS contre les sorts avec un malus de 2.
 
-TIR EXPLOSIF : Tout tir réussi dans les 12 secondes qui suivent explose à l'impact et inflige à toutes les créatures situées dans un rayon de 5 mètres des dégâts dépendant du niveau du Tireur de précision :
+TIR EXPLOSIF : Tout tir réussi dans les 12 secondes qui suivent explose à l'impact et inflige à toutes les créatures situées dans un rayon de 4,5 mètres des dégâts dépendant du niveau du Tireur de précision :
  niveau 8  : 1d4 points de dégâts
  niveau 12 : 1d4+2 points de dégâts
  niveau 16 : 1d4+4 points de dégâts
@@ -1300,7 +1301,7 @@ Tout tir réussi dans les 12 secondes qui suivent peut enchevêtrer la cible, se
 
 @2003 = ~Tir explosif
 
-Tout tir réussi dans les 12 secondes qui suivent explose à l'impact et inflige à toutes les créatures situées dans un rayon de 5 mètres des dégâts dépendant du niveau du tireur :
+Tout tir réussi dans les 12 secondes qui suivent explose à l'impact et inflige à toutes les créatures situées dans un rayon de 4,5 mètres des dégâts dépendant du niveau du tireur :
  niveau 8  : 1d4 points de dégâts
  niveau 12 : 1d4+2 points de dégâts
  niveau 16 : 1d4+4 points de dégâts
@@ -1432,3 +1433,64 @@ L'archer façonne plusieurs carreaux spéciaux.
  niveau 12 : munition +2, +2 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort. Les animaux, les humanoïdes et les humanoïdes géants subissent 1 point de dégâts supplémentaire d'hémorragie par seconde pendant un round s'ils ratent leur JS.
  niveau 16 : munition +3, +3 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort. Les animaux, les humanoïdes et les humanoïdes géants subissent 2 points de dégâts supplémentaires d'hémorragie par seconde pendant un round et sont aveuglés pendant deux rounds s'ils ratent leur JS.
  niveau 20 : munition +4, +4 au toucher, pénalité cumulative de 2 à la CA et au TAC0 pendant 2 rounds si la cible rate son JS contre la mort avec un malus de 2. Les animaux, les humanoïdes et les humanoïdes géants subissent 4 points de dégâts supplémentaires d'hémorragie par seconde pendant un round et sont aveuglés pendant deux rounds s'ils ratent leur JS.~
+
+@2043 = ~Activer l'une des capacités de tir suivantes :
+
+Tir immobilisant
+Tout tir réussi dans les 12 secondes qui suivent enchevêtre la cible, selon le niveau de l'archer :
+  niveau 4  : Enchevêtre la cible pendant trois rounds si elle rate un JS contre les sorts.
+  niveau 8  : Enchevêtre la cible pendant trois rounds si elle rate un JS contre les sorts avec un malus de 1.
+  niveau 12 : Enchevêtre la cible pendant quatre rounds si elle rate un JS contre les sorts avec un malus de 1.
+  niveau 16 : Enchevêtre la cible pendant quatre rounds si elle rate un JS contre les sorts avec un malus de 2.
+  niveau 20 : Enchevêtre la cible pendant cinq rounds si elle rate un JS contre les sorts avec un malus de 2.
+
+Tir renversant
+Tout tir réussi dans les 12 secondes qui suivent peut renverser la cible, selon le niveau de l'archer :
+  niveau 8  : Renverse la cible si elle rate un JS contre le souffle.
+  niveau 12 : Renverse la cible si elle rate un JS contre le souffle avec un malus de 1.
+  niveau 16 : Renverse la cible si elle rate un JS contre le souffle avec un malus de 2.
+  niveau 20 : Renverse la cible si elle rate un JS contre le souffle avec un malus de 3.
+
+Tir explosif
+Tout tir réussi dans les 12 secondes qui suivent explose à l'impact et inflige à toutes les créatures situées dans un rayon de 4,5 mètres des dégâts dépendant du niveau de l'archer :
+  niveau 8  : 1d4 points de dégâts
+  niveau 12 : 1d4+2 points de dégâts
+  niveau 16 : 1d4+4 points de dégâts
+  niveau 20 : 1d4+6 points de dégâts
+Attention : cette capacité inflige des dégâts aussi bien aux ennemis qu'aux alliés et aux passants innocents.~
+
+@2044 = ~Activer l'une des capacités de tir suivantes :
+
+Tir immobilisant
+Tout tir réussi dans les 12 secondes qui suivent enchevêtre la cible, selon le niveau de l'archer :
+  niveau 4  : Enchevêtre la cible pendant trois rounds si elle rate un JS contre les sorts.
+  niveau 8  : Enchevêtre la cible pendant trois rounds si elle rate un JS contre les sorts avec un malus de 1.
+  niveau 12 : Enchevêtre la cible pendant quatre rounds si elle rate un JS contre les sorts avec un malus de 1.
+  niveau 16 : Enchevêtre la cible pendant quatre rounds si elle rate un JS contre les sorts avec un malus de 2.
+  niveau 20 : Enchevêtre la cible pendant cinq rounds si elle rate un JS contre les sorts avec un malus de 2.
+
+Tir renversant
+Tout tir réussi dans les 12 secondes qui suivent peut renverser la cible, selon le niveau de l'archer :
+  niveau 8  : Renverse la cible si elle rate un JS contre le souffle.
+  niveau 12 : Renverse la cible si elle rate un JS contre le souffle avec un malus de 1.
+  niveau 16 : Renverse la cible si elle rate un JS contre le souffle avec un malus de 2.
+  niveau 20 : Renverse la cible si elle rate un JS contre le souffle avec un malus de 3.~
+
+@2045 = ~Activer l'une des capacités de tir suivantes :
+
+Tir immobilisant
+Tout tir réussi dans les 12 secondes qui suivent enchevêtre la cible, selon le niveau de l'archer :
+  niveau 4  : Enchevêtre la cible pendant trois rounds si elle rate un JS contre les sorts.
+  niveau 8  : Enchevêtre la cible pendant trois rounds si elle rate un JS contre les sorts avec un malus de 1.
+  niveau 12 : Enchevêtre la cible pendant quatre rounds si elle rate un JS contre les sorts avec un malus de 1.
+  niveau 16 : Enchevêtre la cible pendant quatre rounds si elle rate un JS contre les sorts avec un malus de 2.
+  niveau 20 : Enchevêtre la cible pendant cinq rounds si elle rate un JS contre les sorts avec un malus de 2.
+
+Tir explosif
+Tout tir réussi dans les 12 secondes qui suivent explose à l'impact et inflige à toutes les créatures situées dans un rayon de 4,5 mètres des dégâts dépendant du niveau de l'archer :
+  niveau 8  : 1d4 points de dégâts
+  niveau 12 : 1d4+2 points de dégâts
+  niveau 16 : 1d4+4 points de dégâts
+  niveau 20 : 1d4+6 points de dégâts
+Attention : cette capacité inflige des dégâts aussi bien aux ennemis qu'aux alliés et aux passants innocents.~
+
