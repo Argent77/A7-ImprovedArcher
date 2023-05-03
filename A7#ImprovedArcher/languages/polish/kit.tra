@@ -80,6 +80,7 @@
 @1076 = ~Oko łowcy~
 @1077 = ~Krótki łuk +2: Obrońca~
 @1078 = ~Krótki łuk działania +2~
+@1079 = ~Aktywuj zdolność strzelecką~
 
 // Descriptions
 @1100 = ~ŁUCZNIK: Jest uosobieniem mistrzowskiego posługiwania się łukiem. To znakomity strzelec, umiejący oddać strzał niemal z każdej pozycji, niezależnie od stopnia trudności. Aby zyskać takie umiejętności, łucznik musiał poświęcić część swoich punktów biegłości za posługiwanie się bronią ręczną i zbroją.
@@ -124,7 +125,8 @@ WYCZAROWANIE AMUNICJI ŻYWIOŁÓW: Tworzy specjalnie przygotowaną strzałę lub
 Wady:
 - -1 do Kondycji.
 - Nie może nosić żadnej metalowej zbroi.
-- Łucznik może osiągnąć stopień Wyszkolony (jeden punkt biegłości) w broniach do walki wręcz.~
+- Łucznik może osiągnąć stopień Wyszkolony (jeden punkt biegłości) w broniach do walki wręcz.
+- Nie może używać zdolności Zauroczenie zwierzęcia.~
 
 @1101 = ~Strzała ta została pobłogosławiona przez bóstwo będące patronem strzelającej osoby. Potrafi przeszyć nawet istoty, które są normalnie niewrażliwe na fizyczne ataki, lecz prawdziwą moc uwalnia po trafieniu w nieumarłego, demona lub diabła. Pochodzące od bóstwa umagicznienie strzały utrzymuje się przez osiem godzin i pozwala strzelcowi na wykorzystanie określonej ilości ładunków. Po tym strzała traci swoją fizyczną postać.
 
@@ -1480,3 +1482,63 @@ Pozwala wytworzyć zestaw specjalnie przygotowanych bełtów. Ilość wytworzony
 12. poziom: umagicznienie +2, premia +2 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci neguje). Ponadto zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe 1 obrażenie od krwawienia na sekundę przez jedną rundę (rzut obronny przeciw śmierci neguje).
 16. poziom: umagicznienie +3, premia +3 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci neguje). Ponadto zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe 2 obrażenia od krwawienia na sekundę przez jedną rundę, a także zostają oślepione na dwie rundy (rzut obronny przeciw śmierci neguje).
 20. poziom: umagicznienie +4, premia +4 do testów trafienia, cel otrzymuje kumulatywną karę -2 do Klasy Pancerza i TraK0 na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje). Ponadto zwierzęta, humanoidy i olbrzymie humanoidy otrzymują dodatkowe 4 obrażenia od krwawienia na sekundę przez jedną rundę, a także zostają oślepione na dwie rundy (rzut obronny przeciw śmierci z modyfikatorem -2 neguje).~
+
+@2043 = ~Aktywuj jedną z następujących zdolności strzeleckich:
+
+Oplątujący strzał
+Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, spowoduje oplątanie celu, zgodnie z poziomem strzelca:
+4. poziom: Cel jest oplątany przez trzy rundy (rzut obronny przeciw czarom neguje).
+8. poziom: Cel jest oplątany przez trzy rundy (rzut obronny przeciw czarom z modyfikatorem -1 neguje).
+12. poziom: Cel jest oplątany przez cztery rundy (rzut obronny przeciw czarom z modyfikatorem -1 neguje).
+16. poziom: Cel jest oplątany przez cztery rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).
+20. poziom: Cel jest oplątany przez pięć rund (rzut obronny przeciw czarom z modyfikatorem -2 neguje).
+
+Potężny strzał
+Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, ma szansę na odrzucenie celu, w zależności od poziomu strzelca:
+8. poziom: Odrzuca cel (rzut obronny przeciw zionięciom neguje).
+12. poziom: Odrzuca cel (rzut obronny przeciw zionięciom z modyfikatorem -1 neguje).
+16. poziom: Odrzuca cel (rzut obronny przeciw zionięciom z modyfikatorem -2 neguje).
+20. poziom: Odrzuca cel (rzut obronny przeciw zionięciom z modyfikatorem -3 neguje).
+
+Wybuchowy strzał
+Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, powoduje eksplozję wystrzelonego pocisku po trafieniu, zadając fizyczne obrażenia znajdującym się w promieniu pięciu metrów celom, w zależności od poziomu strzelca:
+8. poziom: 1k4 obrażeń pobliskim celom
+12. poziom: 1k4 +2 obrażeń pobliskim celom
+16. poziom: 1k4 +4 obrażeń pobliskim celom
+20. poziom: 1k4 +6 obrażeń pobliskim celom
+Uwaga: Rani wrogów, sojuszników i niewinne stworzenia.~
+
+@2044 = ~Aktywuj jedną z następujących zdolności strzeleckich:
+
+Oplątujący strzał
+Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, spowoduje oplątanie celu, zgodnie z poziomem strzelca:
+4. poziom: Cel jest oplątany przez trzy rundy (rzut obronny przeciw czarom neguje).
+8. poziom: Cel jest oplątany przez trzy rundy (rzut obronny przeciw czarom z modyfikatorem -1 neguje).
+12. poziom: Cel jest oplątany przez cztery rundy (rzut obronny przeciw czarom z modyfikatorem -1 neguje).
+16. poziom: Cel jest oplątany przez cztery rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).
+20. poziom: Cel jest oplątany przez pięć rund (rzut obronny przeciw czarom z modyfikatorem -2 neguje).
+
+Potężny strzał
+Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, ma szansę na odrzucenie celu, w zależności od poziomu strzelca:
+8. poziom: Odrzuca cel (rzut obronny przeciw zionięciom neguje).
+12. poziom: Odrzuca cel (rzut obronny przeciw zionięciom z modyfikatorem -1 neguje).
+16. poziom: Odrzuca cel (rzut obronny przeciw zionięciom z modyfikatorem -2 neguje).
+20. poziom: Odrzuca cel (rzut obronny przeciw zionięciom z modyfikatorem -3 neguje).~
+
+@2045 = ~Aktywuj jedną z następujących zdolności strzeleckich:
+
+Oplątujący strzał
+Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, spowoduje oplątanie celu, zgodnie z poziomem strzelca:
+4. poziom: Cel jest oplątany przez trzy rundy (rzut obronny przeciw czarom neguje).
+8. poziom: Cel jest oplątany przez trzy rundy (rzut obronny przeciw czarom z modyfikatorem -1 neguje).
+12. poziom: Cel jest oplątany przez cztery rundy (rzut obronny przeciw czarom z modyfikatorem -1 neguje).
+16. poziom: Cel jest oplątany przez cztery rundy (rzut obronny przeciw czarom z modyfikatorem -2 neguje).
+20. poziom: Cel jest oplątany przez pięć rund (rzut obronny przeciw czarom z modyfikatorem -2 neguje).
+
+Wybuchowy strzał
+Każdy udany atak dystansowy, wykonany w przeciągu następnych dwunastu sekund, powoduje eksplozję wystrzelonego pocisku po trafieniu, zadając fizyczne obrażenia znajdującym się w promieniu pięciu metrów celom, w zależności od poziomu strzelca:
+8. poziom: 1k4 obrażeń pobliskim celom
+12. poziom: 1k4 +2 obrażeń pobliskim celom
+16. poziom: 1k4 +4 obrażeń pobliskim celom
+20. poziom: 1k4 +6 obrażeń pobliskim celom
+Uwaga: Rani wrogów, sojuszników i niewinne stworzenia.~
