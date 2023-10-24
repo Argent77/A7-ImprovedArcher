@@ -1,0 +1,1438 @@
+// -*- coding: utf-8 -*-
+
+// Spell related lines
+@1000 = ~Tiro potente~
+@1001 = ~Tiro apresador~
+@1002 = ~Tiro explosivo~
+@1003 = ~Crear munición bendita~
+@1004 = ~Crear flechas benditas~
+@1005 = ~Crear virotes benditos~
+@1006 = ~Flecha bendita +1~
+@1007 = ~Flecha bendita +2~
+@1008 = ~Flecha bendita +3~
+@1009 = ~Flecha bendita +4~
+@1010 = ~Virote bendito +1~
+@1011 = ~Virote bendito +2~
+@1012 = ~Virote bendito +3~
+@1013 = ~Virote bendito +4~
+@1014 = ~Flechas benditas creadas~
+@1015 = ~Virotes benditos creados~
+@1016 = ~No puedes usar otra habilidad de disparo mientras el efecto actual esté activo.~
+@1017 = ~Tiro de precisión~
+@1018 = ~Trampa de proyectiles~
+@1019 = ~Flecha +4~
+@1020 = ~Virote +4~
+@1021 = ~Alcanzasoles +3~
+@1022 = ~El Defensor +5~
+@1023 = ~Crear plomos benditos~
+@1024 = ~Plomo bendito +1~
+@1025 = ~Plomo bendito +2~
+@1026 = ~Plomo bendito +3~
+@1027 = ~Plomo bendito +4~
+@1028 = ~Plomos benditos creados~
+@1029 = ~Crear munición elemental~
+@1030 = ~Crear flechas elementales~
+@1031 = ~Crear virotes elementales~
+@1032 = ~Flecha elemental +1~
+@1033 = ~Flecha elemental +2~
+@1034 = ~Flecha elemental +3~
+@1035 = ~Flecha elemental +4~
+@1036 = ~Virote elemental +1~
+@1037 = ~Virote elemental +2~
+@1038 = ~Virote elemental +3~
+@1039 = ~Virote elemental +4~
+@1040 = ~Flechas elementales creadas~
+@1041 = ~Virotes elementales creados~
+@1042 = ~Crear munición reforzada~
+@1043 = ~Crear flechas reforzadas~
+@1044 = ~Crear virotes reforzados~
+@1045 = ~Crear plomos reforzados~
+@1046 = ~Flecha reforzada +1~
+@1047 = ~Flecha reforzada +2~
+@1048 = ~Flecha reforzada +3~
+@1049 = ~Flecha reforzada +4~
+@1050 = ~Virote reforzado +1~
+@1051 = ~Virote reforzado +2~
+@1052 = ~Virote reforzado +3~
+@1053 = ~Virote reforzado +4~
+@1054 = ~Plomo reforzado +1~
+@1055 = ~Plomo reforzado +2~
+@1056 = ~Plomo reforzado +3~
+@1057 = ~Plomo reforzado +4~
+@1058 = ~Flechas reforzadas creadas~
+@1059 = ~Virotes reforzados creados~
+@1060 = ~Plomos reforzados creados~
+@1061 = ~Crear munición incapacitante~
+@1062 = ~Crear flechas incapacitantes~
+@1063 = ~Crear virotes incapacitantes~
+@1064 = ~Flecha incapacitante +1~
+@1065 = ~Flecha incapacitante +2~
+@1066 = ~Flecha incapacitante +3~
+@1067 = ~Flecha incapacitante +4~
+@1068 = ~Virote incapacitante +1~
+@1069 = ~Virote incapacitante +2~
+@1070 = ~Virote incapacitante +3~
+@1071 = ~Virote incapacitante +4~
+@1072 = ~Flechas incapacitantes creadas~
+@1073 = ~Virotes incapacitantes creados~
+@1074 = ~Arco corto +2~
+@1075 = ~Arco corto +3~
+@1076 = ~Ojo del Cazador~
+@1077 = ~Arco corto de protección +2~
+@1078 = ~Arco corto de acción +2~
+@1079 = ~Activar habilidad de tiro~
+
+// Descriptions
+@1100 = ~ARQUERO: El arquero es la personificación de la habilidad con el arco.
+
+Es el tirador definitivo, capaz de realizar casi cualquier disparo, sin importar la dificultad del mismo.
+
+Para alcanzar tal nivel de habilidad, el personaje ha de sacrificar parte de su talento en el uso de armas de cuerpo a cuerpo y armaduras.
+
+VENTAJAS:
+
+- Bonificador +1 a las tiradas para golpear y de daño con cualquier arma de proyectiles cada 4 niveles.
+- Bonificador +1 a la clase de armadura contra armas de proyectiles cada 6 niveles.
+- +5% de probabilidad de golpe crítico en los niveles 13 y 18.
+- Puede alcanzar hasta cinco talentos marciales en arcos largos, arcos cortos y ballestas.
+- Puede usar la habilidad Tiro apresador una vez al día cada 4 niveles, a partir del nivel 4. No puede utilizarse junto con otras habilidades de disparo.
+- Puede usar la habilidad Tiro potente una vez al día cada 4 niveles, a partir del nivel 8. No puede utilizarse junto con otras habilidades de disparo.
+- Puede usar la habilidad Tiro explosivo una vez al día cada 4 niveles, a partir del nivel 8. No puede utilizarse junto con otras habilidades de disparo.
+- Puede usar la habilidad Crear munición elemental una vez al día cada 8 niveles, a partir del nivel 4.
+
+TIRO APRESADOR: Todos los ataques a distancia que tengan éxito en los siguientes 12 segundos enredarán al objetivo durante varios asaltos según el nivel del arquero.
+
+TIRO POTENTE: Todos los ataques a distancia con éxito durante los siguientes 12 segundos tienen una probabilidad de derribar al objetivo según el nivel del arquero.
+
+TIRO EXPLOSIVO: Todos los ataques a distancia que tengan éxito en los siguientes 12 segundos explotarán al impactar y causarán daño físico a los objetivos cercanos en un radio de 4,5 metros según el nivel del arquero.
+Precaución: Daña a enemigos, aliados y transeúntes inocentes por igual.
+
+CREAR MUNICIÓN ELEMENTAL: Conjura una munición (flecha o virote) especialmente preparada y bendecida por el dios o diosa venerado por el arquero durante 8 horas que contiene un número determinado de cargas. El número de cargas se duplica en los niveles 8 y 16 respectivamente.
+
+DESVENTAJAS:
+
+- Recibe una penalización -1 a la Constitución.
+- No puede llevar ninguna armadura metálica.
+- Solo puede asignar un talento marcial en armas de cuerpo a cuerpo.
+- No pueden utilizar la habilidad Hechizar Animal.~
+
+@1101 = ~Se trata de una flecha bendecida por el dios al que el personaje rinde culto. Atraviesa incluso a criaturas inmunes a los ataques físicos y desata la ira del dios contra muertos vivientes, demonios y diablos de todo tipo. El encantamiento divino de la flecha dura ocho horas y permite al usuario liberar un número determinado de cargas. Después, la flecha perderá su forma física.
+
+CARACTERÍSTICAS:
+
+Encantamiento: +1
+GAC0: +1
+Daño: 1D6, 1D6 de daño mágico adicional contra muertos vivientes, demonios y diablos
+Tipo de daño: Proyectil
+Arma de proyectil: Arco
+Peso: 0
+Sólo permitido a:
+ Personajes alineados con el bien
+ Paladín
+ Explorador~
+
+@1102 = ~Se trata de una flecha bendecida por el dios al que el personaje rinde culto. Atraviesa incluso a criaturas inmunes a los ataques físicos y desata la ira del dios contra muertos vivientes, demonios y diablos de todo tipo. El encantamiento divino de la flecha dura ocho horas y permite al usuario liberar un número determinado de cargas. Después, la flecha perderá su forma física.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- Los muertos vivientes, demonios y diablos deben realizar una tirada de salvación contra conjuro o quedarán ciegos durante dos asaltos.
+
+Encantamiento: +2
+GAC0: +2
+Daño: 1D6, 1D6+2 de daño mágico adicional contra muertos vivientes, demonios y diablos
+Tipo de daño: Proyectil
+Arma de proyectil: Arco
+Peso: 0
+Sólo permitido a:
+ Personajes alineados con el bien
+ Paladín
+ Explorador~
+
+
+@1103 = ~Se trata de una flecha bendecida por el dios al que el personaje rinde culto. Atraviesa incluso a criaturas inmunes a los ataques físicos y desata la ira del dios contra muertos vivientes, demonios y diablos de todo tipo. El encantamiento divino de la flecha dura ocho horas y permite al usuario liberar un número determinado de cargas. Después, la flecha perderá su forma física.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- Los muertos vivientes, demonios y diablos deben realizar una tirada de salvación contra conjuro o quedarán ralentizados durante dos asaltos.
+
+Encantamiento: +2
+GAC0: +2
+Daño: 1D6, 1D6+4 de daño mágico adicional contra muertos vivientes, demonios y diablos
+Tipo de daño: Proyectil
+Arma de proyectil: Arco
+Peso: 0
+Sólo permitido a:
+ Personajes alineados con el bien
+ Paladín
+ Explorador~
+
+@1104 = ~Se trata de una flecha bendecida por el dios al que el personaje rinde culto. Atraviesa incluso a criaturas inmunes a los ataques físicos y desata la ira del dios contra muertos vivientes, demonios y diablos de todo tipo. El encantamiento divino de la flecha dura ocho horas y permite al usuario liberar un número determinado de cargas. Después, la flecha perderá su forma física.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- Los muertos vivientes, demonios y diablos deben realizar una tirada de salvación contra conjuro con una penalización de -2 o quedarán ralentizados y cegados durante dos asaltos.
+
+Encantamiento: +3
+GAC0: +3
+Daño: 1D6, 1D6+6 de daño mágico adicional contra muertos vivientes, demonios y diablos
+Tipo de daño: Proyectil
+Arma de proyectil: Arco
+Peso: 0
+Sólo permitido a:
+ Personajes alineados con el bien
+ Paladín
+ Explorador~
+
+@1105 = ~Se trata de una flecha bendecida por el dios al que el personaje rinde culto. Atraviesa incluso a criaturas inmunes a los ataques físicos y desata la ira del dios contra muertos vivientes, demonios y diablos de todo tipo. El encantamiento divino de la flecha dura ocho horas y permite al usuario liberar un número determinado de cargas. Después, la flecha perderá su forma física.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- Los muertos vivientes, demonios y diablos deben realizar una tirada de salvación contra conjuro con una penalización de -2 o quedarán paralizados durante dos asaltos.
+
+Encantamiento: +4
+GAC0: +4
+Daño: 1D6, 1D6+8 de daño mágico adicional contra muertos vivientes, demonios y diablos
+Tipo de daño: Proyectil
+Arma de proyectil: Arco
+Peso: 0
+Sólo permitido a:
+ Personajes alineados con el bien
+ Paladín
+ Explorador~
+
+@1106 = ~Se trata de un virote bendecido por el dios al que el personaje rinde culto. Atraviesa incluso a criaturas inmunes a los ataques físicos y desata la ira del dios contra muertos vivientes, demonios y diablos de todo tipo. El encantamiento divino del virote dura ocho horas y permite al usuario liberar un número determinado de cargas. Después, la flecha perderá su forma física.
+
+CARACTERÍSTICAS:
+
+Encantamiento: +1
+GAC0: +1
+Daño: 1D8, 1D6 de daño mágico adicional contra muertos vivientes, demonios y diablos
+Tipo de daño: Proyectil
+Arma de proyectil: Ballesta
+Peso: 0
+Sólo permitido a:
+ Personajes alineados con el bien
+ Paladín
+ Explorador~
+
+@1107 = ~Se trata de un virote bendecido por el dios al que el personaje rinde culto. Atraviesa incluso a criaturas inmunes a los ataques físicos y desata la ira del dios contra muertos vivientes, demonios y diablos de todo tipo. El encantamiento divino del virote dura ocho horas y permite al usuario liberar un número determinado de cargas. Después, la flecha perderá su forma física.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- Los muertos vivientes, demonios y diablos deben realizar una tirada de salvación contra conjuro o quedarán cegados durante dos asaltos.
+
+Encantamiento: +2
+GAC0: +2
+Daño: 1D8, 1D6+2 de daño mágico adicional contra muertos vivientes, demonios y diablos
+Tipo de daño: Proyectil
+Arma de proyectil: Ballesta
+Peso: 0
+Sólo permitido a:
+ Personajes alineados con el bien
+ Paladín
+ Explorador~
+
+@1108 = ~Se trata de un virote bendecido por el dios al que el personaje rinde culto. Atraviesa incluso a criaturas inmunes a los ataques físicos y desata la ira del dios contra muertos vivientes, demonios y diablos de todo tipo. El encantamiento divino del virote dura ocho horas y permite al usuario liberar un número determinado de cargas. Después, la flecha perderá su forma física.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- Los muertos vivientes, demonios y diablos deben realizar una tirada de salvación contra conjuro o quedarán realentizados durante dos asaltos.
+
+Encantamiento: +2
+GAC0: +2
+Daño: 1D8, 1D6+4 de daño mágico adicional contra muertos vivientes, demonios y diablos
+Tipo de daño: Proyectil
+Arma de proyectil: Ballesta
+Peso: 0
+Sólo permitido a:
+ Personajes alineados con el bien
+ Paladín
+ Explorador~
+
+@1109 = ~Se trata de un virote bendecido por el dios al que el personaje rinde culto. Atraviesa incluso a criaturas inmunes a los ataques físicos y desata la ira del dios contra muertos vivientes, demonios y diablos de todo tipo. El encantamiento divino del virote dura ocho horas y permite al usuario liberar un número determinado de cargas. Después, la flecha perderá su forma física.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- Los muertos vivientes, demonios y diablos deben realizar una tirada de salvación contra conjuro con una penalización de -2 o quedarán ralentizados y cegados durante dos asaltos.
+
+Encantamiento: +3
+GAC0: +3
+Daño: 1D8, 1D6+6 de daño mágico adicional contra muertos vivientes, demonios y diablos
+Tipo de daño: Proyectil
+Arma de proyectil: Ballesta
+Peso: 0
+Sólo permitido a:
+ Personajes alineados con el bien
+ Paladín
+ Explorador~
+
+@1110 = ~Se trata de un virote bendecido por el dios al que el personaje rinde culto. Atraviesa incluso a criaturas inmunes a los ataques físicos y desata la ira del dios contra muertos vivientes, demonios y diablos de todo tipo. El encantamiento divino del virote dura ocho horas y permite al usuario liberar un número determinado de cargas. Después, la flecha perderá su forma física.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- Los muertos vivientes, demonios y diablos deben realizar una tirada de salvación contra conjuro con una penalización de -2 o quedarán paralizados durante dos asaltos.
+
+Encantamiento: +4
+GAC0: +4
+Daño: 1D8, 1D6+8 de daño mágico adicional contra muertos vivientes, demonios y diablos
+Tipo de daño: Proyectil
+Arma de proyectil: Ballesta
+Peso: 0
+Sólo permitido a:
+ Personajes alineados con el bien
+ Paladín
+ Explorador~
+
+@1111 = ~Tiro de precisión
+
+Los tiradores de alto nivel han adquirido un control perfecto sobre el arma a distancia de su elección, lo que les permite señalar y apuntar a zonas vitales del oponente con una precisión y velocidad aterradoras. Al activar esta habilidad, el tirador adopta su postura y dispara proyectiles en rápida sucesión. Durante los 12 segundos siguientes, esta habilidad aumenta a 10 el número de ataques por asalto y cada disparo se considera un golpe crítico.
+Dado que esta técnica requiere la máxima habilidad y concentración, el tirador se queda clavado en el sitio durante las dos rondas siguientes. No puede utilizarse junto con otras habilidades de disparo.
+
+Requisitos: Impacto crítico~
+
+@1112 = ~Colocar trampa de proyectiles
+
+Esta habilidad permite al tirador colocar una poderosa trampa de proyectiles cargada en el lugar elegido cuando no hay criaturas hostiles a la vista. Inflige 3D10 puntos de daño de misil y 1D10 puntos de daño de varios tipos elementales a la criatura desprevenida que la activa.~
+
+@1113 = ~Estos proyectiles encantados superan la artesanía de muchas flechas, mágicas o no, que hayáis visto.
+
+CARACTERÍSTICAS:
+
+GAC0: +3
+Daño: 1D6 (proyectil)
+Arma de proyectil: Arco
+Peso: 0
+No permitido a:
+ Clérigo
+ Druida
+ Mago~
+
+@1114 = ~Estos proyectiles encantados superan la artesanía de muchos virotes, mágicos o no, que hayáis visto.
+
+CARACTERÍSTICAS:
+
+GAC0: +3
+Daño: 1D8 (proyectil)
+Arma de proyectil: Ballesta
+Peso: 0
+No permitido a:
+ Clérigo
+ Druida
+ Mago~
+
+@1115 = ~Estos proyectiles encantados superan con creces la artesanía de cualquier flecha, mágica o no, que hayáis visto jamás.
+
+CARACTERÍSTICAS:
+
+GAC0: +4
+Daño: 1D6 (proyectil)
+Arma de proyectil: Arco
+Peso: 0
+No permitido a:
+ Clérigo
+ Druida
+ Mago~
+
+@1116 = ~Estos proyectiles encantados superan con creces la artesanía de cualquier virote, mágico o no, que hayáis visto jamás.
+
+CARACTERÍSTICAS:
+
+GAC0: +4
+Daño: 1D8 (proyectil)
+Arma de proyectil: Ballesta
+Peso: 0
+No permitido a:
+ Clérigo
+ Druida
+ Mago~
+
+@1117 = ~Los elfos de Eternoska son tan conocidos por su aislacionismo como por su habilidad y valentía en batalla. Uno de sus guerreros más famosos en las tierras humanas fue el increíblemente certero arquero Bariah Dorabajo. Aunque los elfos ni confirman ni niegan la leyenda, algunas historias humanas afirman que el clarividente Bariah nunca falló un disparo durante una batalla. Su arco, elaborado por su madre, nunca tuvo ningún nombre que fuera conocido fuera de la familia. Los humanos que sufrieron su poder le llamaron "Alcanzasoles", ya que creían que las flechas de Bariah podían llegar hasta el mismísimo cielo. Durante una batalla que aún hoy sigue causando amargura a los eternoskanos, el grifo de Bariah fue muerto en el aire por los conjuros de unos magos invisibles que tendieron una emboscada a una patrulla enana. Aunque sólo uno de los magos escapó con vida, éste consiguió llevarse consigo a Alcanzasoles.
+
+CARACTERÍSTICAS:
+
+Aptitudes especiales:
+- Protección contra misiles normales dos veces al día
+
+Aptitudes de combate:
+- Cuando no hay flechas equipadas, el arco dispara flechas +3 que reciben +4 para golpear e infligen 1D6 de daño de proyectil
+
+GAC0: +4
+Peso: 3
+Factor de velocidad: 2
+Talento marcial: Arco largo
+Tipo de arma: A dos manos
+Requisitos: Fuerza 6
+No permitido a:
+ Druida
+ Clérigo
+ Mago
+ Ladrón
+ Monje~
+
+@1118 = ~Los arcos largos compuestos son arcos cuyas varas están hechas de más de un tipo de material. Esto les confiere mayor flexibilidad y hace que las flechas disparadas con este arco causen más daño.
+Además de poderosos encantamientos, los materiales utilizados para este arco en particular son de una calidad especialmente exquisita. El armazón del arco, excepcionalmente resistente, permite desviar incluso los golpes más fuertes, y su diseño ergonómico permite al usuario disparar proyectiles en rápida sucesión.
+
+CARACTERÍSTICAS:
+
+Aptitudes poseídas:
+- Bonificación +4 de CA contra armas cuerpo a cuerpo
+- 3 disparos por asalto
+
+GAC0: +6
+Daño: +2 (proyectil)
+Peso: 5
+Factor de velocidad: 2
+Talento marcial: Arco largo
+Tipo de arma: A dos manos
+Requisitos: Fuerza 18
+No permitido a:
+ Druida
+ Clérigo
+ Mago
+ Ladrón
+ Monje
+ Bardo~
+
+@1119 = ~~
+
+@1120 = ~Se trata de una bala bendecida por el dios al que el personaje rinde culto. Atraviesa incluso a criaturas inmunes a los ataques físicos y desata la ira del dios contra muertos vivientes, demonios y diablos de todo tipo. El encantamiento divino de la bala dura ocho horas y permite al usuario liberar un número determinado de cargas. Después, la bala perderá su forma física.
+
+CARACTERÍSTICAS:
+
+Encantamiento: +1
+GAC0: +1
+Daño: 1D4+2, 1D6 de daño mágico adicional contra muertos vivientes, demonios y diablos
+Tipo de daño: Proyectil
+Arma de proyectil: Honda
+Peso: 0
+Sólo permitido a:
+ Personajes alineados con el bien
+ Paladín
+ Explorador
+ Clérigo~
+
+@1121 = ~Se trata de una bala bendecida por el dios al que el personaje rinde culto. Atraviesa incluso a criaturas inmunes a los ataques físicos y desata la ira del dios contra muertos vivientes, demonios y diablos de todo tipo. El encantamiento divino de la bala dura ocho horas y permite al usuario liberar un número determinado de cargas. Después, la bala perderá su forma física.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- Los muertos vivientes, demonios y diablos deben realizar una tirada de salvación contra conjuro o quedarán cegados durante dos asaltos.
+
+Encantamiento: +2
+GAC0: +2
+Daño: 1D4+3, 1D6+2 de daño mágico adicional contra muertos vivientes, demonios y diablos
+Tipo de daño: Proyectil
+Arma de proyectil: Honda
+Peso: 0
+Sólo permitido a:
+ Personajes alineados con el bien
+ Paladín
+ Explorador
+ Clérigo~
+
+@1122 = ~Se trata de una bala bendecida por el dios al que el personaje rinde culto. Atraviesa incluso a criaturas inmunes a los ataques físicos y desata la ira del dios contra muertos vivientes, demonios y diablos de todo tipo. El encantamiento divino de la bala dura ocho horas y permite al usuario liberar un número determinado de cargas. Después, la bala perderá su forma física.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- Los muertos vivientes, demonios y diablos deben realizar una tirada de salvación contra conjuro o quedarán ralentizados durante dos asaltos.
+
+Encantamiento: +2
+GAC0: +2
+Daño: 1D4+3, 1D6+4 de daño mágico adicional contra muertos vivientes, demonios y diablos
+Tipo de daño: Proyectil
+Arma de proyectil: Honda
+
+Peso: 0
+Sólo permitido a:
+ Personajes alineados con el bien
+ Paladín
+ Explorador
+ Clérigo~
+
+@1123 = ~Se trata de una bala bendecida por el dios al que el personaje rinde culto. Atraviesa incluso a criaturas inmunes a los ataques físicos y desata la ira del dios contra muertos vivientes, demonios y diablos de todo tipo. El encantamiento divino de la bala dura ocho horas y permite al usuario liberar un número determinado de cargas. Después, la bala perderá su forma física.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- Los muertos vivientes, demonios y diablos deben realizar una tirada de salvación contra conjuro con una penalización de -2 o quedarán ralentizados y cegados durante dos asaltos.
+
+Encantamiento: +3
+GAC0: +3
+Daño: 1D4+4, 1D6+6 de daño mágico adicional contra muertos vivientes, demonios y diablos
+Tipo de daño: Proyectil
+Arma de proyectil: Honda
+Peso: 0
+Sólo permitido a:
+ Personajes alineados con el bien
+ Paladín
+ Explorador
+ Clérigo~
+
+@1124 = ~Se trata de una bala bendecida por el dios al que el personaje rinde culto. Atraviesa incluso a criaturas inmunes a los ataques físicos y desata la ira del dios contra muertos vivientes, demonios y diablos de todo tipo. El encantamiento divino de la bala dura ocho horas y permite al usuario liberar un número determinado de cargas. Después, la bala perderá su forma física.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- Los muertos vivientes, demonios y diablos deben realizar una tirada de salvación contra conjuro con una penalización de -2 o quedarán paralizados durante dos asaltos.
+
+Encantamiento: +4
+GAC0: +4
+Daño: 1D4+5, 1D6+8 de daño mágico adicional contra muertos vivientes, demonios y diablos
+Tipo de daño: Proyectil
+Arma de proyectil: Honda
+Peso: 0
+Sólo permitido a:
+ Personajes alineados con el bien
+ Paladín
+ Explorador
+ Clérigo~
+
+@1125 = ~Se trata de una flecha que ha sido bendecida por el dios o diosa al que el personaje rinde culto. Atraviesa incluso a criaturas que de otro modo serían inmunes a los ataques físicos y las golpea con las energías elementales en bruto del mundo. El encantamiento divino de la flecha dura ocho horas y permite al usuario liberar un número determinado de cargas. Después, la flecha perderá su forma física.
+
+CARACTERÍSTICAS:
+
+Encantamiento: +1
+GAC0: +1
+Daño: 1D6, 1D3 adicionales de daño de fuego
+Tipo de daño: Proyectil
+Arma de proyectil: Arco
+Peso: 0
+Sólo permitido a:
+ Personajes alineados con el bien
+ Paladín
+ Explorador~
+
+@1126 = ~Se trata de una flecha que ha sido bendecida por el dios o diosa al que el personaje rinde culto. Atraviesa incluso a criaturas que de otro modo serían inmunes a los ataques físicos y las golpea con las energías elementales en bruto del mundo. Los seres no naturales, como los no muertos o las criaturas construidas, pueden sufrir efectos perjudiciales adicionales. El encantamiento divino de la flecha dura ocho horas y permite al usuario liberar un número determinado de cargas. Transcurrido ese tiempo, la flecha perderá su forma física.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- Las criaturas antinaturales deben realizar una tirada de salvación contra contra conjuro o quedarán enredadas durante dos asaltos.
+
+Encantamiento: +2
+GAC0: +2
+Daño: 1D6, 1D3 adicionales de daño de fuego y frío
+Tipo de daño: Proyectil
+Arma de proyectil: Arco
+Peso: 0
+Sólo permitido a:
+ Personajes alineados con el bien
+ Paladín
+ Explorador~
+
+@1127 = ~Se trata de una flecha que ha sido bendecida por el dios o diosa al que el personaje rinde culto. Atraviesa incluso a criaturas que de otro modo serían inmunes a los ataques físicos y las golpea con las energías elementales en bruto del mundo. Los seres no naturales, como los no muertos o las criaturas construidas, pueden sufrir efectos perjudiciales adicionales. El encantamiento divino de la flecha dura ocho horas y permite al usuario liberar un número determinado de cargas. Transcurrido ese tiempo, la flecha perderá su forma física.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- Las criaturas antinaturales deben realizar una tirada de salvación contra conjuro o quedarán cegadas durante dos asaltos.
+
+Encantamiento: +2
+GAC0: +2
+Daño: 1D6, 1D3 adicionales de fuego, frío y ácido
+Tipo de daño: Proyectil
+Arma de proyectil: Arco
+Peso: 0
+Sólo permitido a:
+ Personajes alineados con el bien
+ Paladín
+ Explorador~
+
+@1128 = ~Se trata de una flecha que ha sido bendecida por el dios o diosa al que el personaje rinde culto. Atraviesa incluso a criaturas que de otro modo serían inmunes a los ataques físicos y las golpea con las energías elementales en bruto del mundo. Los seres no naturales, como los no muertos o las criaturas construidas, pueden sufrir efectos perjudiciales adicionales. El encantamiento divino de la flecha dura ocho horas y permite al usuario liberar un número determinado de cargas. Transcurrido ese tiempo, la flecha perderá su forma física.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- Las criaturas antinaturales deben realizar una tirada de salvación contra conjuro con una penalización de -2 o quedarán ralentizadas durante dos asaltos.
+
+Encantamiento: +3
+GAC0: +3
+Daño: 1D6, 1D3 adicionales de fuego, frío, ácido y eléctrico
+Tipo de daño: Proyectil
+Arma de proyectil: Arco
+Peso: 0
+Sólo permitido a:
+ Personajes alineados con el bien
+ Paladín
+ Explorador~
+
+@1129 = ~Se trata de una flecha que ha sido bendecida por el dios o diosa al que el personaje rinde culto. Atraviesa incluso a criaturas que de otro modo serían inmunes a los ataques físicos y las golpea con las energías elementales en bruto del mundo. Los seres no naturales, como los no muertos o las criaturas construidas, pueden sufrir efectos perjudiciales adicionales. El encantamiento divino de la flecha dura ocho horas y permite al usuario liberar un número determinado de cargas. Transcurrido ese tiempo, la flecha perderá su forma física.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- Las criaturas antinaturales deben realizar una tirada de salvación contra conjuro con una penalización de -4 o quedarán ralentizadas y cegadas durante dos asaltos.
+
+Encantamiento: +4
+GAC0: +4
+Daño: 1D6, 1D3+2 adicionales de fuego, frío, ácido y eléctrico
+Tipo de daño: Proyectil
+Arma de proyectil: Arco
+Peso: 0
+Sólo permitido a:
+ Personajes alineados con el bien
+ Paladín
+ Explorador~
+
+@1130 = ~Se trata de un virote bendecido por el dios o diosa al que el personaje rinde culto. Atraviesa incluso a criaturas inmunes a los ataques físicos y las golpea con las energías elementales del mundo. El encantamiento divino del virote dura ocho horas y permite al usuario liberar un número determinado de cargas. Después, el virote pierde su forma física.
+
+CARACTERÍSTICAS:
+
+Encantamiento: +1
+GAC0: +1
+Daño: 1D8, 1D3 adicional de daño de fuego
+Tipo de daño: Proyectil
+Arma de proyectil: Ballesta
+Peso: 0
+Sólo permitido a:
+ Personajes alineados con el bien
+ Paladín
+ Explorador~
+
+@1131 = ~Se trata de un virote bendecido por el dios o diosa al que el personaje rinde culto. Atraviesa incluso a criaturas que de otro modo serían inmunes a los ataques físicos y las golpea con las energías elementales en bruto del mundo. Los seres no naturales, como los no muertos o las criaturas construidas, pueden sufrir efectos perjudiciales adicionales. El encantamiento divino del virote dura ocho horas y permite al usuario liberar un número determinado de cargas. Después, el virote perderá su forma física.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- Las criaturas antinaturales deben realizar una tirada de salvación contra conjuro o quedarán enredadas durante dos asaltos.
+
+Encantamiento: +2
+GAC0: +2
+Daño: 1D8, 1D3 adicionales de daño de fuego y frío
+Tipo de daño: Proyectil
+Arma de proyectil: Ballesta
+Peso: 0
+Sólo permitido a:
+ Personajes alineados con el bien
+ Paladín
+ Explorador~
+
+@1132 = ~Se trata de un virote bendecido por el dios o diosa al que el personaje rinde culto. Atraviesa incluso a criaturas que de otro modo serían inmunes a los ataques físicos y las golpea con las energías elementales en bruto del mundo. Los seres no naturales, como los no muertos o las criaturas construidas, pueden sufrir efectos perjudiciales adicionales. El encantamiento divino del virote dura ocho horas y permite al usuario liberar un número determinado de cargas. Después, el virote perderá su forma física.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- Las criaturas antinaturales deben realizar una tirada de salvación contra conjuro o quedarán cegadas durante dos asaltos.
+
+Encantamiento: +2
+GAC0: +2
+Daño: 1D8, 1D3 adicionales de daño de fuego, frío y ácido
+Tipo de daño: Proyectil
+Arma de proyectil: Ballesta
+Peso: 0
+Sólo permitido a:
+ Personajes alineados con el bien
+ Paladín
+ Explorador~
+
+@1133 = ~Se trata de un virote bendecido por el dios o diosa al que el personaje rinde culto. Atraviesa incluso a criaturas que de otro modo serían inmunes a los ataques físicos y las golpea con las energías elementales en bruto del mundo. Los seres no naturales, como los no muertos o las criaturas construidas, pueden sufrir efectos perjudiciales adicionales. El encantamiento divino del virote dura ocho horas y permite al usuario liberar un número determinado de cargas. Después, el virote perderá su forma física.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- Las criaturas antinaturales deben realizar una tirada de salvación contra conjuro con una penalización de -2 o quedarán ralentizadas durante dos asaltos.
+
+Encantamiento: +3
+GAC0: +3
+Daño: 1D8, 1D3 de daño adicional de fuego, frío, ácido y eléctrico
+Tipo de daño: Proyectil
+Arma de proyectil: Ballesta
+Peso: 0
+Sólo permitido a:
+ Personajes alineados con el bien
+ Paladín
+ Explorador~
+
+@1134 = ~Se trata de un virote bendecido por el dios o diosa al que el personaje rinde culto. Atraviesa incluso a criaturas que de otro modo serían inmunes a los ataques físicos y las golpea con las energías elementales en bruto del mundo. Los seres no naturales, como los no muertos o las criaturas construidas, pueden sufrir efectos perjudiciales adicionales. El encantamiento divino del virote dura ocho horas y permite al usuario liberar un número determinado de cargas. Después, el virote perderá su forma física.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- Las criaturas antinaturales deben realizar una tirada de salvación contra conjuro con una penalización de -4 o quedarán ralentizadas y cegadas durante dos asaltos.
+
+Encantamiento: +4
+GAC0: +4
+Daño: 1D8, 1D3+2 de daño adicional de fuego, frío, ácido y eléctrico
+Tipo de daño: Proyectil
+Arma de proyectil: Ballesta
+Peso: 0
+Sólo permitido a:
+ Personajes alineados con el bien
+ Paladín
+ Explorador~
+
+@1135 = ~Estas flechas se han reforzado específicamente para aprovechar todo el potencial de la puntería del personaje. Además de una precisión extra, el impacto puede dañar al objetivo. Sólo los personajes dedicados al arte del combate físico pueden manejar estas flechas adecuadamente.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- El objetivo golpeado sufre una penalización acumulativa de -1 a la clase de armadura y durante dos asaltos (salvación contra la muerte lo niega)
+
+Encantamiento: +1
+GAC0: +1
+Daño: 1D6
+Tipo de daño: Proyectil
+Arma de proyectil: Arco
+Peso: 0
+Sólo permitido a:
+ Guerreros
+ Paladines
+ Exploradores~
+
+@1136 = ~Estas flechas se han reforzado específicamente para aprovechar todo el potencial de la puntería del personaje. Además de una precisión extra, el impacto puede dañar al objetivo. Sólo los personajes dedicados al arte del combate físico pueden manejar estas flechas adecuadamente.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- El objetivo golpeado sufre una penalización acumulativa de -1 a la clase de armadura y a la tirada para golpear durante dos asaltos (salvación contra la muerte lo niega)
+
+Encantamiento: +2
+GAC0: +2
+Daño: 1D6
+Tipo de daño: Proyectil
+Arma de proyectil: Arco
+Peso: 0
+Sólo permitido a:
+ Guerreros
+ Paladines
+ Exploradores~
+
+@1137 = ~Estas flechas se han reforzado específicamente para aprovechar todo el potencial de la puntería del personaje. Además de una precisión extra, el impacto puede dañar al objetivo. Sólo los personajes dedicados al arte del combate físico pueden manejar estas flechas adecuadamente.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- El objetivo golpeado sufre una penalización acumulativa de -2 a la clase de armadura y a la tirada para golpear durante dos asaltos (salvación contra la muerte lo niega)
+- El objetivo golpeado es derribado (salvación contra aliento lo niega)
+
+Encantamiento: +2
+GAC0: +2
+Daño: 1D6
+Tipo de daño: Proyectil
+Arma de proyectil: Arco
+Peso: 0
+Sólo permitido a:
+ Guerreros
+ Paladines
+ Exploradores~
+
+@1138 = ~Estas flechas se han reforzado específicamente para aprovechar todo el potencial de la puntería del personaje. Además de una precisión extra, el impacto puede dañar al objetivo o incluso incapacitarlo por completo. Sólo los personajes dedicados al arte del combate físico pueden manejar estas flechas adecuadamente.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- El objetivo golpeado sufre una penalización acumulativa de -2 a la clase de armadura y a la tirada para golpear durante dos asaltos (salvación contra la muerte con una penalización de -2 lo niega)
+- El objetivo golpeado es derribado y queda atontado durante un asalto (salvación contra aliento lo niega)
+
+Encantamiento: +3
+GAC0: +3
+Daño: 1D6
+Tipo de daño: Proyectil
+Arma de proyectil: Arco
+Peso: 0
+Sólo permitido a:
+ Guerreros
+ Paladines
+ Exploradores~
+
+@1139 = ~Estas flechas se han reforzado específicamente para aprovechar todo el potencial de la puntería del personaje. Además de una precisión extra, el impacto puede dañar al objetivo o incluso incapacitarlo por completo. Sólo los personajes dedicados al arte del combate físico pueden manejar estas flechas adecuadamente.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- El objetivo golpeado sufre una penalización acumulativa de -3 a la clase de armadura, -3 para golpear y -1 a la fuerza durante dos asaltos (salvación contra la muerte con una penalización de -2 lo niega)
+- El objetivo golpeado es derribado y queda atontado durante un asalto (salvación contra aliento con una penalización de -2 lo niega)
+
+Encantamiento: +4
+GAC0: +4
+Daño: 1D6
+Tipo de daño: Proyectil
+Arma de proyectil: Arco
+Peso: 0
+Sólo permitido a:
+ Guerreros
+ Paladines
+ Exploradores~
+
+@1140 = ~Estos virotes se han reforzado específicamente para aprovechar todo el potencial de la puntería del personaje. Además de una precisión extra, el impacto puede dañar al objetivo. Sólo los personajes que se hayan dedicado al arte del combate físico pueden manejar estos virotes correctamente.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- El objetivo golpeado sufre una penalización acumulativa de -1 a la clase de armadura durante dos asaltos (salvación contra la muerte lo niega)
+
+Encantamiento: +1
+GAC0: +1
+Daño: 1D8
+Tipo de daño: Proyectil
+Arma de proyectil: Ballesta
+Peso: 0
+Sólo permitido a:
+ Guerreros
+ Paladines
+ Exploradores~
+
+@1141 = ~Estos virotes se han reforzado específicamente para aprovechar todo el potencial de la puntería del personaje. Además de una precisión extra, el impacto puede dañar al objetivo. Sólo los personajes que se hayan dedicado al arte del combate físico pueden manejar estos virotes correctamente.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- El objetivo golpeado sufre una penalización acumulativa de -1 a la clase de armadura y a la tirada para golpear durante dos asaltos (salvación contra la muerte lo niega)
+
+Encantamiento: +2
+GAC0: +2
+Daño: 1D8
+Tipo de daño: Proyectil
+Arma de proyectil: Ballesta
+Peso: 0
+Sólo permitido a:
+ Guerreros
+ Paladines
+ Exploradores~
+
+@1142 = ~Estos virotes se han reforzado específicamente para aprovechar todo el potencial de la puntería del personaje. Además de una precisión extra, el impacto puede dañar al objetivo. Sólo los personajes que se hayan dedicado al arte del combate físico pueden manejar estos virotes correctamente.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- El objetivo golpeado sufre una penalización acumulativa de -2 a la clase de armadura y a la tirada para golpear durante dos asaltos (salvación contra la muerte lo niega)
+- El objetivo golpeado es derribado (salvación contra aliento lo niega)
+
+Encantamiento: +2
+GAC0: +2
+Daño: 1D8
+Tipo de daño: Proyectil
+Arma de proyectil: Ballesta
+Peso: 0
+Sólo permitido a:
+ Guerreros
+ Paladines
+ Exploradores~
+
+@1143 = ~Estos virotes se han reforzado específicamente para aprovechar todo el potencial de la puntería del personaje. Además de una precisión extra, el impacto puede dañar al objetivo o incluso inutilizarlo por completo. Sólo los personajes que se hayan dedicado al arte del combate físico pueden manejar estos virotes adecuadamente.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- El objetivo golpeado sufre una penalización acumulativa de -2 a la clase de armadura y a la tirada para golpear durante dos asaltos (salvación contra la muerte con una penalización de -2 lo niega)
+- El objetivo golpeado es derribado y queda atontado durante un asalto (salvación contra aliento lo niega)
+
+Encantamiento: +3
+GAC0: +3
+Daño: 1D8
+Tipo de daño: Proyectil
+Arma de proyectil: Ballesta
+Peso: 0
+Sólo permitido a:
+ Guerreros
+ Paladines
+ Exploradores~
+
+@1144 = ~Estos virotes se han reforzado específicamente para aprovechar todo el potencial de la puntería del personaje. Además de una precisión extra, el impacto puede dañar al objetivo o incluso inutilizarlo por completo. Sólo los personajes que se hayan dedicado al arte del combate físico pueden manejar estos virotes adecuadamente.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- El objetivo golpeado sufre una penalización acumulativa de -3 a la clase de armadura, -3 a golpear y -1 a la fuerza durante dos asaltos (salvación contra la muerte con una penalización de -2 lo niega)
+- El objetivo golpeado es derribado y queda atontado durante un asalto (salvación contra aliento con una penalización de -2 lo niega)
+
+Encantamiento: +4
+GAC0: +4
+Daño: 1D8
+Tipo de daño: Proyectil
+Arma de proyectil: Ballesta
+Peso: 0
+Sólo permitido a:
+ Guerreros
+ Paladines
+ Exploradores~
+
+@1145 = ~Estas balas se han reforzado específicamente para aprovechar todo el potencial de la puntería del personaje. Además de daño y precisión extra, el impacto puede dañar al objetivo. Sólo los personajes dedicados al arte del combate físico pueden manejar estas balas adecuadamente.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- El objetivo golpeado sufre una penalización acumulativa de -1 a la clase de armadura durante dos asaltos (salvación contra la muerte lo niega)
+
+Encantamiento: +1
+GAC0: +1
+Daño: 1D4+2
+Tipo de daño: Proyectil
+Arma de proyectil: Honda
+Peso: 0
+Sólo permitido a:
+ Guerreros
+ Paladines
+ Exploradores
+ Monjes~
+
+@1146 = ~Estas balas se han reforzado específicamente para aprovechar todo el potencial de la puntería del personaje. Además de daño y precisión extra, el impacto puede dañar al objetivo. Sólo los personajes dedicados al arte del combate físico pueden manejar estas balas adecuadamente.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- El objetivo golpeado sufre una penalización acumulativa de -1 a la clase de armadura y a la tirada para golpear durante dos asaltos (salvación contra la muerte lo niega)
+
+Encantamiento: +2
+GAC0: +2
+Daño: 1D4+3
+Tipo de daño: Proyectil
+Arma de proyectil: Honda
+Peso: 0
+Sólo permitido a:
+ Guerreros
+ Paladines
+ Exploradores
+ Monjes~
+
+@1147 = ~Estas balas se han reforzado específicamente para aprovechar todo el potencial de la puntería del personaje. Además de daño y precisión extra, el impacto puede dañar al objetivo. Sólo los personajes dedicados al arte del combate físico pueden manejar estas balas adecuadamente.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- El objetivo golpeado sufre una penalización acumulativa de -2 a la clase de armadura y a la tirada para golpear durante dos asaltos (salvación contra la muerte lo niega)
+- El objetivo golpeado es derribado (salvación contra aliento lo niega)
+
+Encantamiento: +2
+GAC0: +2
+Daño: 1D4+3
+Tipo de daño: Proyectil
+Arma de proyectil: Honda
+Peso: 0
+Sólo permitido a:
+ Guerreros
+ Paladines
+ Exploradores
+ Monjes~
+
+@1148 = ~Estas balas se han reforzado específicamente para aprovechar todo el potencial de la puntería del personaje. Además de daño y precisión extra, el impacto puede dañar al objetivo o incluso inutilizarlo por completo. Sólo los personajes dedicados al arte del combate físico pueden manejar estas balas adecuadamente.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- El objetivo golpeado sufre una penalización acumulativa de -2 a la clase de armadura y a la tirada para golpear durante dos asaltos (salvación contra la muerte con una penalización de -2 lo niega)
+- El objetivo golpeado es derribado y queda atontado durante un asalto (salvación contra aliento lo niega)
+
+Encantamiento: +3
+GAC0: +3
+Daño: 1D4+4
+Tipo de daño: Proyectil
+Arma de proyectil: Honda
+Peso: 0
+Sólo permitido a:
+ Guerreros
+ Paladines
+ Exploradores
+ Monjes~
+
+@1149 = ~Estas balas se han reforzado específicamente para aprovechar todo el potencial de la puntería del personaje. Además de daño y precisión extra, el impacto puede dañar al objetivo o incluso inutilizarlo por completo. Sólo los personajes dedicados al arte del combate físico pueden manejar estas balas adecuadamente.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- El objetivo golpeado sufre una penalización acumulativa de -3 a la clase de armadura, -3 a golpear y -1 a la fuerza durante dos asaltos (salvación contra la muerte con una penalización de -2 lo niega)
+- El objetivo golpeado es derribado y queda atontado durante un asalto (salvación contra aliento con una penalización de -2 lo niega)
+
+Encantamiento: +4
+GAC0: +4
+Daño: 1D4+5
+Tipo de daño: Proyectil
+Arma de proyectil: Honda
+Peso: 0
+Sólo permitido a:
+ Guerreros
+ Paladines
+ Exploradores
+ Monjes~
+
+@1150 = ~Estas flechas han sido cuidadosamente elaboradas con el objetivo de debilitar las habilidades de combate del objetivo. Además de una precisión extra, el diseño especial del proyectil puede mermar las capacidades defensivas del objetivo. Sólo los personajes que conozcan bien la anatomía humana pueden utilizar estas flechas en todo su potencial.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- El objetivo golpeado sufre una penalización acumulativa de -1 a la clase de armadura durante dos asaltos (salvación contra la muerte lo niega)
+
+Encantamiento: +1
+GAC0: +1
+Daño: 1D6
+Tipo de daño: Proyectil
+Arma de proyectil: Arco
+Peso: 0
+Sólo permitido a:
+ Ladrones (solo, dual y multiclase)~
+
+@1151 = ~Estas flechas han sido cuidadosamente elaboradas con el objetivo de debilitar las habilidades de combate del objetivo. Además del daño y la precisión adicionales, el diseño especial del proyectil puede mermar las capacidades defensivas del objetivo. Sólo los personajes que conozcan bien la anatomía humana pueden utilizar estas flechas en todo su potencial.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- El objetivo golpeado sufre una penalización acumulativa de -2 a la clase de armadura durante dos asaltos (salvación contra la muerte lo niega)
+- Los animales, humanoides y humanoides gigantes sufren 1 punto de daño de hemorragia adicional por segundo durante un asalto (salvación contra la muerte lo niega)
+
+Encantamiento: +2
+GAC0: +2
+Daño: 1D6
+Tipo de daño: Proyectil
+Arma de proyectil: Arco
+Peso: 0
+Sólo permitido a:
+ Ladrones (solo, dual y multiclase)~
+
+@1152 = ~Estas flechas han sido cuidadosamente elaboradas con el objetivo de debilitar las habilidades de combate del objetivo. Además del daño y la precisión adicionales, el diseño especial del proyectil puede mermar las capacidades defensivas y ofensivas del objetivo. Sólo los personajes que conozcan bien la anatomía humana pueden utilizar estas flechas en todo su potencial.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- El objetivo golpeado sufre una penalización acumulativa de -2 a la clase de armadura y a la tirada para golpear durante dos asaltos (salvación contra la muerte lo niega)
+- Los animales, humanoides y humanoides gigantes sufren 1 punto de daño de hemorragia adicional por segundo durante un asalto (salvación contra la muerte lo niega)
+
+Encantamiento: +2
+GAC0: +2
+Daño: 1D6
+Tipo de daño: Proyectil
+Arma de proyectil: Arco
+Peso: 0
+Sólo permitido a:
+ Ladrones (solo, dual y multiclase)~
+
+@1153 = ~Estas flechas han sido cuidadosamente elaboradas con el objetivo de debilitar las habilidades de combate del objetivo. Además del daño y la precisión adicionales, el diseño especial del proyectil puede mermar las capacidades defensivas y ofensivas del objetivo. Sólo los personajes que conozcan bien la anatomía humana pueden utilizar estas flechas en todo su potencial.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- El objetivo golpeado sufre una penalización acumulativa de -2 a la clase de armadura y a la tirada para golpear durante dos asaltos (salvación contra la muerte con una penalización de -2 lo niega)
+- Los animales, humanoides y humanoides gigantes sufren 2 punto de daño de hemorragia adicional por segundo durante un asalto (salvación contra la muerte lo niega)
+- Los animales, humanoides y humanoides gigantes deben salvar contra la muerte o quedarán cegados durante dos asaltos.
+
+Encantamiento: +3
+GAC0: +3
+Daño: 1D6
+Tipo de daño: Proyectil
+Arma de proyectil: Arco
+Peso: 0
+Sólo permitido a:
+ Ladrones (solo, dual y multiclase)~
+
+@1154 = ~Estas flechas han sido cuidadosamente elaboradas con el objetivo de debilitar las habilidades de combate del objetivo. Además del daño y la precisión adicionales, el diseño especial del proyectil puede mermar las capacidades defensivas y ofensivas del objetivo. Sólo los personajes que conozcan bien la anatomía humana pueden utilizar estas flechas en todo su potencial.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- El objetivo golpeado sufre una penalización acumulativa de -2 a la clase de armadura y a la tirada para golpear durante dos asaltos (salvación contra la muerte con una penalización de -4 lo niega)
+- Los animales, humanoides y humanoides gigantes sufren 4 punto de daño de hemorragia adicional por segundo durante un asalto (salvación contra la muerte con una penalización de -2 lo niega)
+- Los animales, humanoides y humanoides gigantes deben salvar contra la muerte con una penalización de -2 o quedarán cegados durante dos asaltos.
+
+Encantamiento: +4
+GAC0: +4
+Daño: 1D6
+Tipo de daño: Proyectil
+Arma de proyectil: Arco
+Peso: 0
+Sólo permitido a:
+ Ladrones (solo, dual y multiclase)~
+
+@1155 = ~Estos virotes han sido cuidadosamente diseñados para debilitar las capacidades de combate del objetivo. Además del daño y la precisión adicionales, el diseño especial del proyectil puede mermar las capacidades defensivas del objetivo. Sólo los personajes que conozcan bien la anatomía humana pueden utilizar estos virotes en todo su potencial.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- El objetivo golpeado sufre una penalización acumulativa de -1 a la clase de armadura durante dos asaltos (salvación contra la muerte lo niega)
+
+Encantamiento: +1
+GAC0: +1
+Daño: 1D8
+Tipo de daño: Proyectil
+Arma de proyectil: Ballesta
+Peso: 0
+Sólo permitido a:
+ Ladrones (solo, dual y multiclase)~
+
+@1156 = ~Estos virotes han sido cuidadosamente diseñados para debilitar las capacidades de combate del objetivo. Además del daño y la precisión adicionales, el diseño especial del proyectil puede mermar las capacidades defensivas del objetivo. Sólo los personajes que conozcan bien la anatomía humana pueden utilizar estos virotes en todo su potencial.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- El objetivo golpeado sufre una penalización acumulativa de -2 a la clase de armadura durante dos asaltos (salvación contra la muerte lo niega)
+- Los animales, humanoides y humanoides gigantes sufren 1 punto de daño de hemorragia adicional por segundo durante un asalto (salvación contra la muerte lo niega)
+
+Encantamiento: +2
+GAC0: +2
+Daño: 1D8
+Tipo de daño: Proyectil
+Arma de proyectil: Ballesta
+Peso: 0
+Sólo permitido a:
+ Ladrones (solo, dual y multiclase)~
+
+@1157 = ~Estos virotes han sido cuidadosamente elaborados con el objetivo de debilitar las habilidades de combate del objetivo. Además del daño y la precisión adicionales, el diseño especial del proyectil puede mermar las capacidades defensivas y ofensivas del objetivo. Sólo los personajes que conozcan bien la anatomía humana pueden utilizar estos virotes en todo su potencial.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- El objetivo golpeado sufre una penalización acumulativa de -2 a la clase de armadura y a la tirada para golpear durante dos asaltos (salvación contra la muerte lo niega)
+- Los animales, humanoides y humanoides gigantes sufren 1 punto de daño de hemorragia adicional por segundo durante un asalto (salvación contra la muerte lo niega)
+
+Encantamiento: +2
+GAC0: +2
+Daño: 1D8
+Tipo de daño: Proyectil
+Arma de proyectil: Ballesta
+Peso: 0
+Sólo permitido a:
+ Ladrones (solo, dual y multiclase)~
+
+@1158 = ~Estos virotes han sido cuidadosamente elaborados con el objetivo de debilitar las habilidades de combate del objetivo. Además del daño y la precisión adicionales, el diseño especial del proyectil puede mermar las capacidades defensivas y ofensivas del objetivo. Sólo los personajes que conozcan bien la anatomía humana pueden utilizar estos virotes en todo su potencial.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- El objetivo golpeado sufre una penalización acumulativa de -2 a la clase de armadura y a la tirada para golpear durante dos asaltos (salvación contra la muerte con una penalización de -2 lo niega)
+- Los animales, humanoides y humanoides gigantes sufren 2 punto de daño de hemorragia adicional por segundo durante un asalto (salvación contra la muerte lo niega)
+- Los animales, humanoides y humanoides gigantes deben salvar contra la muerte o quedarán cegados durante dos asaltos.
+
+Encantamiento: +3
+GAC0: +3
+Daño: 1D8
+Tipo de daño: Proyectil
+Arma de proyectil: Ballesta
+Peso: 0
+Sólo permitido a:
+ Ladrones (solo, dual y multiclase)~
+
+@1159 = ~Estos virotes han sido cuidadosamente elaborados con el objetivo de debilitar las habilidades de combate del objetivo. Además del daño y la precisión adicionales, el diseño especial del proyectil puede mermar las capacidades defensivas y ofensivas del objetivo. Sólo los personajes que conozcan bien la anatomía humana pueden utilizar estos virotes en todo su potencial.
+
+CARACTERÍSTICAS:
+
+Aptitudes de combate:
+- El objetivo golpeado sufre una penalización acumulativa de -2 a la clase de armadura y a la tirada para golpear durante dos asaltos (salvación contra la muerte con una penalización de -4 lo niega)
+- Los animales, humanoides y humanoides gigantes sufren 4 punto de daño de hemorragia adicional por segundo durante un asalto (salvación contra la muerte con una penalización de -2 lo niega)
+- Los animales, humanoides y humanoides gigantes deben salvar contra la muerte con una penalización de -2 o quedarán cegados durante dos asaltos.
+
+Encantamiento: +4
+GAC0: +4
+Daño: 1D8
+Tipo de daño: Proyectil
+Arma de proyectil: Ballesta
+Peso: 0
+Sólo permitido a:
+ Ladrones (solo, dual y multiclase)~
+
+@1160 = ~~
+@1161 = ~~
+@1162 = ~~
+@1163 = ~~
+@1164 = ~~
+
+
+@1200 = ~CAMPEÓN TIRADOR: El campeón tirador es la personificación de la habilidad con cualquier arma a distancia: el tirador definitivo, capaz de realizar casi cualquier disparo, sin importar lo difícil que sea. Para volverse tan hábil con su arma a distancia preferida, el tirador ha tenido que sacrificar parte de su competencia con armas y armaduras cuerpo a cuerpo.
+
+VENTAJAS:
+
+- Bonificador +1 a las tiradas para golpear y de daño con cualquier arma de proyectiles cada 4 niveles.
+- Bonificador +1 a la clase de armadura contra armas de proyectiles cada 6 niveles.
+- +5% de probabilidad de golpe crítico en los niveles 13 y 18.
+- Puede alcanzar hasta cinco talentos marciales en arcos largos, arcos cortos, ballestas, dardos y hondas.
+- Puede usar la habilidad Tiro apresador una vez al día cada 4 niveles, a partir del nivel 4. No puede utilizarse junto con otras habilidades de disparo.
+- Puede usar la habilidad Tiro potente una vez al día cada 4 niveles, a partir del nivel 8. No puede utilizarse junto con otras habilidades de disparo.
+- Puede usar la habilidad Tiro explosivo una vez al día cada 4 niveles, a partir del nivel 8. No puede utilizarse junto con otras habilidades de disparo.
+- Puede usar la habilidad Crear munición reforzada una vez al día cada 8 niveles, a partir del nivel 4.
+
+TIRO APRESADOR: Todos los ataques a distancia que tengan éxito en los siguientes 12 segundos enredarán al objetivo durante varios asaltos según el nivel del campeón tirador.
+
+TIRO POTENTE: Todos los ataques a distancia con éxito durante los siguientes 12 segundos tienen una probabilidad de derribar al objetivo según el nivel del campeón tirador.
+
+TIRO EXPLOSIVO: Todos los ataques a distancia que tengan éxito en los siguientes 12 segundos explotarán al impactar y causarán daño físico a los objetivos cercanos en un radio de 4,5 metros según el nivel del campeón tirador.
+Precaución: Daña a enemigos, aliados y transeúntes inocentes por igual.
+
+CREAR MUNICIÓN REFORZADA: Crea varias municiones especiales (flechas, virotes o balas) que al impactar a un objetivo este puede recibir penalizaciones acumulativas a su clase de armadura, al GAC0 y hasta derribarlo con aturdirmiento según el nivel del campeón tirador.
+
+DESVENTAJAS:
+
+- No puede llevar ninguna armadura metálica.
+- Solo puede asignar hasta dos talentos marciales en armas de cuerpo a cuerpo.
+- Sólo puede asignar una ranura en cualquier estilo de lucha.~
+
+@1201 = ~campeón tirador~
+@1202 = ~Campeón tirador~
+
+
+@1300 = ~CABALLERO TIRADOR: El caballero tirador es la personificación de la habilidad con cualquier arma a distancia: el tirador definitivo, capaz de realizar casi cualquier disparo, por difícil que sea. Para llegar a ser tan hábil con su arma a distancia, el caballero tirador ha tenido que sacrificar parte de su destreza con las armas cuerpo a cuerpo y la armadura.
+
+VENTAJAS:
+
+- Bonificador +1 a las tiradas para golpear y de daño con cualquier arma de proyectiles cada 4 niveles.
+- Bonificador +1 a la clase de armadura contra armas de proyectiles cada 6 niveles.
+- +5% de probabilidad de golpe crítico en los niveles 13 y 18.
+- Puede alcanzar hasta cinco talentos marciales en arcos largos, arcos cortos, ballestas y hondas.
+- Puede usar la habilidad Tiro apresador una vez al día cada 4 niveles, a partir del nivel 4. No puede utilizarse junto con otras habilidades de disparo.
+- Puede usar la habilidad Tiro potente una vez al día cada 4 niveles, a partir del nivel 8. No puede utilizarse junto con otras habilidades de disparo.
+- Puede usar la habilidad Crear munición bendita una vez al día cada 8 niveles, a partir del nivel 4.
+
+TIRO APRESADOR: Todos los ataques a distancia que tengan éxito en los siguientes 12 segundos enredarán al objetivo durante varios asaltos según el nivel del caballero tirador.
+
+TIRO POTENTE: Todos los ataques a distancia con éxito durante los siguientes 12 segundos tienen una probabilidad de derribar al objetivo según el nivel del caballero tirador.
+
+CREAR MUNICIÓN BENDITA: Conjura una flecha, virote o bala especialmente preparada, bendecida por el dios al que venera el caballero tirador y especialmente útil contra criaturas demoniacas y no muertos.
+
+DESVENTAJAS:
+
+- No puede llevar ninguna armadura metálica.
+- Sólo puede asignar un talento marcial en armas de cuerpo a cuerpo.
+- Sólo puede asignar una ranura en cualquier estilo de lucha.~
+
+@1301 = ~caballero tirador~
+@1302 = ~Caballero tirador~
+@1303 = ~caballero tirador caído~
+@1304 = ~Caballero tirador caído~
+@1305 = ~Clase perdida: Caballero tirador~
+
+
+@1400 = ~TIRADOR SALTEADOR: El tirador salteador es la personificación de la habilidad con cualquier arma a distancia: el tirador definitivo, capaz de realizar casi cualquier disparo, por difícil que sea. Para llegar a ser tan hábil con su arma a distancia preferida, el tirador salteador ha tenido que sacrificar algunas de sus habilidades como ladrón.
+
+VENTAJAS:
+
+- Bonificador +1 a las tiradas para golpear y de daño con cualquier arma de proyectiles cada 5 niveles.
+- Bonificador +1 a la clase de armadura contra armas de proyectiles cada 8 niveles.
+- +5% de probabilidad de golpe crítico en el nivel 18.
+- Puede alcanzar hasta cinco talentos marciales en arcos cortos, ballestas, dardos y hondas.
+- Puede usar la habilidad Tiro apresador una vez al día cada 4 niveles, a partir del nivel 4. No puede utilizarse junto con otras habilidades de disparo.
+- Puede usar la habilidad Tiro explosivo una vez al día cada 4 niveles, a partir del nivel 8. No puede utilizarse junto con otras habilidades de disparo.
+- Puede usar la habilidad Crear munición incapacitante una vez al día cada 8 niveles, a partir del nivel 4.
+
+TIRO APRESADOR: Todos los ataques a distancia que tengan éxito en los siguientes 12 segundos enredarán al objetivo durante varios asaltos según el nivel del tirador salteador:
+
+TIRO EXPLOSIVO: Todos los ataques a distancia que tengan éxito en los siguientes 12 segundos explotarán al impactar y causarán daño físico a los objetivos cercanos en un radio de 4,5 metros, según el nivel del tirador salteador.
+Precaución: Daña a enemigos, aliados y transeúntes inocentes por igual.
+
+CREAR MUNICIÓN INCAPACITANTE: Crea varias municiones especiales (flechas o virotes) que al impactar a un objetivo este puede recibir penalizaciones acumulativas a su clase de armadura, al GAC0, producir sangrados e incluso cegera contra animales, humanoides y humanoides gigantes según el nivel del tirador salteador.
+
+DESVENTAJAS:
+
+- Sólo puede distribuir 15 puntos de habilidad por nivel entre las habilidades de ladrón.
+- Pierde la capacidad de apuñalar por la espalda.~
+
+@1401 = ~tirador salteador~
+@1402 = ~Tirador salteador~
+
+
+// Innate ability descriptions
+@2001 = ~Tiro potente
+
+Todos los ataques a distancia con éxito durante los siguientes 12 segundos tienen una probabilidad de derribar al objetivo, según el nivel del usuario:
+  Nivel 8: Derriba al objetivo si falla salvación contra aliento.
+  Nivel 12: Derriba al objetivo si falla salvación contra aliento con una penalización de -1.
+  Nivel 16: Derriba al objetivo si falla salvación contra aliento con una penalización de -2.
+  Nivel 20: Derriba al objetivo si falla salvación contra aliento con una penalización de -3.~
+
+@2002 = ~Tiro apresador
+
+Todos los ataques a distancia que tengan éxito en los siguientes 12 segundos enredarán al objetivo, según el nivel del usuario:
+  Nivel 4: El objetivo queda enredado durante tres asaltos si falla salvación contra conjuro.
+  Nivel 8: El objetivo queda enredado durante tres asaltos si falla salvación contra conjuro con una penalización de -1.
+  Nivel 12: El objetivo queda enredado durante cuatro asaltos si falla salvación contra conjuro con una penalización de -1.
+  Nivel 16: El objetivo queda enredado durante cuatro asaltos si falla salvación contra conjuro con una penalización de -2.
+  Nivel 20: El objetivo queda enredado durante cinco asaltos si falla salvación contra conjuro con una penalización de -2.~
+
+@2003 = ~Tiro explosivo
+
+Todos los ataques a distancia que tengan éxito en los próximos 12 segundos explotarán al impactar y causarán daño físico a los objetivos cercanos en un radio de 4,5 metros, según el nivel del usuario:
+  Nivel 8: 1D4 de daño a objetivos cercanos
+  Nivel 12: 1D4+2 de daño a objetivos cercanos
+  Nivel 16: 1D4+4 de daño a objetivos cercanos
+  Nivel 20: 1D4+6 de daño a objetivos cercanos
+Precaución: Daña a enemigos, aliados y transeúntes inocentes por igual.~
+
+@2010 = ~Crear munición elemental
+
+Conjura flechas o virotes especialmente preparados y bendecidos por el dios o diosa al que venera el arquero durante 8 horas con una veintena de cargas.
+  Nivel 4: +1 encantamiento, +1 a las tiradas para golpear, 1D3 de daño de fuego adicional.
+  Nivel 8: +2 encantamiento, +2 a las tiradas para golpear, 1D3 de daño de fuego, 1D3 de daño por frío, enredar durante dos asaltos contra criaturas antinaturales si se falla salvación contra conjuro.
+  Nivel 12: +2 encantamiento, +2 a las tiradas para golpear, 1D3 de daño de fuego, 1D3 de daño de frío, 1D3 de daño de ácido, ceguera durante dos asaltos contra criaturas antinaturales si se falla salvación contra conjuro.
+  Nivel 16: +3 encantamiento, +3 a las tiradas para golpear, 1D3 de daño de fuego, 1D3 de daño de frío, 1D3 de daño de ácido y 1D3 de daño eléctrico, ralentización durante dos asaltos contra criaturas antinaturales si se falla salvación contra conjuro con una penalización de -2.
+  Nivel 20: +4 encantamiento, +4 a las tiradas para golpear, 1D3+2 de daño de fuego, 1D3+2 de daño de frío, 1D3+2 de daño de ácido y 1D3+2 de daño eléctrico, lentitud y ceguera durante dos asaltos contra criaturas antinaturales si se falla salvación contra conjuro con una penalización de -4.~
+
+@2011 = ~Crear flechas elementales
+
+Conjura una flecha especialmente preparada y bendecida por el dios o diosa venerado por el arquero durante 8 horas que contiene una veintena de cargas.
+  Nivel 4: +1 encantamiento, +1 a las tiradas para golpear, 1D3 de daño de fuego adicional.
+  Nivel 8: +2 encantamiento, +2 a las tiradas para golpear, 1D3 de daño de fuego, 1D3 de daño por frío, enredar durante dos asaltos contra criaturas antinaturales si se falla salvación contra conjuro.
+  Nivel 12: +2 encantamiento, +2 a las tiradas para golpear, 1D3 de daño de fuego, 1D3 de daño de frío, 1D3 de daño de ácido, ceguera durante dos asaltos contra criaturas antinaturales si se falla salvación contra conjuro.
+  Nivel 16: +3 encantamiento, +3 a las tiradas para golpear, 1D3 de daño de fuego, 1D3 de daño de frío, 1D3 de daño de ácido y 1D3 de daño eléctrico, ralentización durante dos asaltos contra criaturas antinaturales si se falla salvación contra conjuro con una penalización de -2.
+  Nivel 20: +4 encantamiento, +4 a las tiradas para golpear, 1D3+2 de daño de fuego, 1D3+2 de daño de frío, 1D3+2 de daño de ácido y 1D3+2 de daño eléctrico, lentitud y ceguera durante dos asaltos contra criaturas antinaturales si se falla salvación contra conjuro con una penalización de -4.~
+
+@2012 = ~Crear virotes elementales
+
+Conjura un virote especialmente preparado y bendecido por el dios o diosa venerado por el arquero durante 8 horas que contiene una veintena de cargas.
+  Nivel 4: +1 encantamiento, +1 a las tiradas para golpear, 1D3 de daño de fuego adicional.
+  Nivel 8: +2 encantamiento, +2 a las tiradas para golpear, 1D3 de daño de fuego, 1D3 de daño por frío, enredar durante dos asaltos contra criaturas antinaturales si se falla salvación contra conjuro.
+  Nivel 12: +2 encantamiento, +2 a las tiradas para golpear, 1D3 de daño de fuego, 1D3 de daño de frío, 1D3 de daño de ácido, ceguera durante dos asaltos contra criaturas antinaturales si se falla salvación contra conjuro.
+  Nivel 16: +3 encantamiento, +3 a las tiradas para golpear, 1D3 de daño de fuego, 1D3 de daño de frío, 1D3 de daño de ácido y 1D3 de daño eléctrico, ralentización durante dos asaltos contra criaturas antinaturales si se falla salvación contra conjuro con una penalización de -2.
+  Nivel 20: +4 encantamiento, +4 a las tiradas para golpear, 1D3+2 de daño de fuego, 1D3+2 de daño de frío, 1D3+2 de daño de ácido y 1D3+2 de daño eléctrico, lentitud y ceguera durante dos asaltos contra criaturas antinaturales si se falla salvación contra conjuro con una penalización de -4.~
+
+@2020 = ~Crear munición bendita
+
+Conjura una flecha, virote o bala especialmente preparada y bendecida por el dios venerado del caballero tirador durante 8 horas que contiene una veintena de cargas.
+  Nivel 4: +1 encantamiento, +1 a las tiradas para golpear, 1D6 de daño mágico adicional contra muertos vivientes, demonios y diablos.
+  Nivel 8: +2 encantamiento, +2 a las tiradas para golpear, 1D6+2 de daño mágico adicional contra no muertos, demonios y diablos, ceguera durante dos asaltos contra no muertos y demoníacos si se falla salvación contra conjuro.
+  Nivel 12: +2 encantamiento, +2 a las tiradas para golpear, 1D6+4 de daño mágico adicional contra no muertos, demonios y diablos, lentitud durante dos asaltos contra no muertos, demonios y diablos si se falla salvación contra conjuro.
+  Nivel 16: +3 encantamiento, +3 a las tiradas para golpear, 1D6+6 de daño mágico adicional contra no muertos, demonios y diablos, lentitud y ceguera durante dos asaltos contra no muertos, demonios y diablos si se falla salvación contra conjuro con penalización de -2.
+  Nivel 20: +4 encantamiento, +4 a las tiradas para golpear, 1D6+8 de daño mágico adicional contra no muertos, demonios y diablos, paralizar durante dos asaltos contra no muertos, demonios y diablos si falla salvación contra conjuro con penalización de -2.~
+
+@2021 = ~Crear flechas benditas
+
+Conjura una flecha especialmente preparada y bendecida por el dios venerado del caballero tirador durante 8 horas que contiene una veintena de cargas.
+  Nivel 4: +1 encantamiento, +1 a las tiradas para golpear, 1D6 de daño mágico adicional contra muertos vivientes, demonios y diablos.
+  Nivel 8: +2 encantamiento, +2 a las tiradas para golpear, 1D6+2 de daño mágico adicional contra no muertos, demonios y diablos, ceguera durante dos asaltos contra no muertos y demoníacos si se falla salvación contra conjuro.
+  Nivel 12: +2 encantamiento, +2 a las tiradas para golpear, 1D6+4 de daño mágico adicional contra no muertos, demonios y diablos, lentitud durante dos asaltos contra no muertos, demonios y diablos si se falla salvación contra conjuro.
+  Nivel 16: +3 encantamiento, +3 a las tiradas para golpear, 1D6+6 de daño mágico adicional contra no muertos, demonios y diablos, lentitud y ceguera durante dos asaltos contra no muertos, demonios y diablos si se falla salvación contra conjuro con penalización de -2.
+  Nivel 20: +4 encantamiento, +4 a las tiradas para golpear, 1D6+8 de daño mágico adicional contra no muertos, demonios y diablos, paralizar durante dos asaltos contra no muertos, demonios y diablos si falla salvación contra conjuro con penalización de -2.~
+
+@2022 = ~Crear virotes benditos
+
+Conjura un virote especialmente preparado y bendecido por el dios venerado del caballero tirador durante 8 horas que contiene una veintena de cargas.
+  Nivel 4: +1 encantamiento, +1 a las tiradas para golpear, 1D6 de daño mágico adicional contra muertos vivientes, demonios y diablos.
+  Nivel 8: +2 encantamiento, +2 a las tiradas para golpear, 1D6+2 de daño mágico adicional contra no muertos, demonios y diablos, ceguera durante dos asaltos contra no muertos y demoníacos si se falla salvación contra conjuro.
+  Nivel 12: +2 encantamiento, +2 a las tiradas para golpear, 1D6+4 de daño mágico adicional contra no muertos, demonios y diablos, lentitud durante dos asaltos contra no muertos, demonios y diablos si se falla salvación contra conjuro.
+  Nivel 16: +3 encantamiento, +3 a las tiradas para golpear, 1D6+6 de daño mágico adicional contra no muertos, demonios y diablos, lentitud y ceguera durante dos asaltos contra no muertos, demonios y diablos si se falla salvación contra conjuro con penalización de -2.
+  Nivel 20: +4 encantamiento, +4 a las tiradas para golpear, 1D6+8 de daño mágico adicional contra no muertos, demonios y diablos, paralizar durante dos asaltos contra no muertos, demonios y diablos si falla salvación contra conjuro con penalización de -2.~
+
+@2023 = ~Crear plomos benditos
+
+Conjura una bala especialmente preparada y bendecida por el dios venerado del caballero tirador durante 8 horas que contiene una veintena de cargas.
+  Nivel 4: +1 encantamiento, +1 a las tiradas para golpear, 1D6 de daño mágico adicional contra muertos vivientes, demonios y diablos.
+  Nivel 8: +2 encantamiento, +2 a las tiradas para golpear, 1D6+2 de daño mágico adicional contra no muertos, demonios y diablos, ceguera durante dos asaltos contra no muertos y demoníacos si se falla salvación contra conjuro.
+  Nivel 12: +2 encantamiento, +2 a las tiradas para golpear, 1D6+4 de daño mágico adicional contra no muertos, demonios y diablos, lentitud durante dos asaltos contra no muertos, demonios y diablos si se falla salvación contra conjuro.
+  Nivel 16: +3 encantamiento, +3 a las tiradas para golpear, 1D6+6 de daño mágico adicional contra no muertos, demonios y diablos, lentitud y ceguera durante dos asaltos contra no muertos, demonios y diablos si se falla salvación contra conjuro con penalización de -2.
+  Nivel 20: +4 encantamiento, +4 a las tiradas para golpear, 1D6+8 de daño mágico adicional contra no muertos, demonios y diablos, paralizar durante dos asaltos contra no muertos, demonios y diablos si falla salvación contra conjuro con penalización de -2.~
+
+@2030 = ~Crear munición reforzada
+
+Crea una veintena de flechas, virotes o balas especialmente preparadas.
+  Nivel 4: +1 encantamiento, +1 a las tiradas para golpear, penalización acumulativa de -1 a la CA durante dos asaltos si se falla salvación contra muerte.
+  Nivel 8: +2 encantamiento, +2 a las tiradas para golpear, penalizaciones acumulativas de -1 CA y -1 GAC0 durante dos asaltos si se falla salvación contra muerte.
+  Nivel 12: +2 encantamiento, +2 a las tiradas para golpear, penalizaciones acumulativas de -2 CA y -2 GAC0 durante dos asaltos si se falla salvación contra muerte, derribo si se falla salvación contra aliento.
+  Nivel 16: +3 encantamiento, +3 a las tiradas para golpear, penalizaciones acumulativas de -2 CA y -2 GAC0 durante dos asaltos si se falla salvación contra muerte con una penalización de -2, derribo y aturdimiento durante un asalto si se falla salvación contra aliento.
+  Nivel 20: +4 encantamiento, +4 a las tiradas para golpear, penalizaciones acumulativas de -3 CA, -3 GAC0 y -1 a la fuerza durante dos asaltos si se falla salvación contra muerte con una penalización -2, derribo y aturdimiento durante un asalto si se falla salvación contra aliento con una penalización de -2.~
+
+@2031 = ~Crear flechas reforzadas
+
+Crea una veintena de flechas especialmente preparadas.
+  Nivel 4: +1 encantamiento, +1 a las tiradas para golpear, penalización acumulativa de -1 a la CA durante dos asaltos si se falla salvación contra muerte.
+  Nivel 8: +2 encantamiento, +2 a las tiradas para golpear, penalizaciones acumulativas de -1 CA y -1 GAC0 durante dos asaltos si se falla salvación contra muerte.
+  Nivel 12: +2 encantamiento, +2 a las tiradas para golpear, penalizaciones acumulativas de -2 CA y -2 GAC0 durante dos asaltos si se falla salvación contra muerte, derribo si se falla salvación contra aliento.
+  Nivel 16: +3 encantamiento, +3 a las tiradas para golpear, penalizaciones acumulativas de -2 CA y -2 GAC0 durante dos asaltos si se falla salvación contra muerte con una penalización de -2, derribo y aturdimiento durante un asalto si se falla salvación contra aliento.
+  Nivel 20: +4 encantamiento, +4 a las tiradas para golpear, penalizaciones acumulativas de -3 CA, -3 GAC0 y -1 a la fuerza durante dos asaltos si se falla salvación contra muerte con una penalización -2, derribo y aturdimiento durante un asalto si se falla salvación contra aliento con una penalización de -2.~
+
+@2032 = ~Crear virotes reforzados
+
+Crea una veintena de virotes especialmente preparados.
+  Nivel 4: +1 encantamiento, +1 a las tiradas para golpear, penalización acumulativa de -1 a la CA durante dos asaltos si se falla salvación contra muerte.
+  Nivel 8: +2 encantamiento, +2 a las tiradas para golpear, penalizaciones acumulativas de -1 CA y -1 GAC0 durante dos asaltos si se falla salvación contra muerte.
+  Nivel 12: +2 encantamiento, +2 a las tiradas para golpear, penalizaciones acumulativas de -2 CA y -2 GAC0 durante dos asaltos si se falla salvación contra muerte, derribo si se falla salvación contra aliento.
+  Nivel 16: +3 encantamiento, +3 a las tiradas para golpear, penalizaciones acumulativas de -2 CA y -2 GAC0 durante dos asaltos si se falla salvación contra muerte con una penalización de -2, derribo y aturdimiento durante un asalto si se falla salvación contra aliento.
+  Nivel 20: +4 encantamiento, +4 a las tiradas para golpear, penalizaciones acumulativas de -3 CA, -3 GAC0 y -1 a la fuerza durante dos asaltos si se falla salvación contra muerte con una penalización -2, derribo y aturdimiento durante un asalto si se falla salvación contra aliento con una penalización de -2.~
+
+@2033 = ~Crear plomos reforzados
+
+Crea una veintena de balas especialmente preparadas.
+  Nivel 4: +1 encantamiento, +1 a las tiradas para golpear, penalización acumulativa de -1 a la CA durante dos asaltos si se falla salvación contra muerte.
+  Nivel 8: +2 encantamiento, +2 a las tiradas para golpear, penalizaciones acumulativas de -1 CA y -1 GAC0 durante dos asaltos si se falla salvación contra muerte.
+  Nivel 12: +2 encantamiento, +2 a las tiradas para golpear, penalizaciones acumulativas de -2 CA y -2 GAC0 durante dos asaltos si se falla salvación contra muerte, derribo si se falla salvación contra aliento.
+  Nivel 16: +3 encantamiento, +3 a las tiradas para golpear, penalizaciones acumulativas de -2 CA y -2 GAC0 durante dos asaltos si se falla salvación contra muerte con una penalización de -2, derribo y aturdimiento durante un asalto si se falla salvación contra aliento.
+  Nivel 20: +4 encantamiento, +4 a las tiradas para golpear, penalizaciones acumulativas de -3 CA, -3 GAC0 y -1 a la fuerza durante dos asaltos si se falla salvación contra muerte con una penalización -2, derribo y aturdimiento durante un asalto si se falla salvación contra aliento con una penalización de -2.~
+
+@2040 = ~Crear munición incapacitante
+
+Crea una veintena de flechas o virotes especialmente preparados.
+  Nivel 4: +1 encantamiento, +1 a las tiradas para golpear, penalización acumulativa de -1 a la CA durante dos asaltos si se falla salvación contra muerte.
+  Nivel 8: +2 encantamiento, +2 a las tiradas para golpear, penalización acumulativa de -2 a la CA durante dos asaltos si se falla salvación contra muerte, daño adicional por sangrado de 1 PG por segundo durante un asalto contra animales, humanoides y humanoides gigantes si se falla salvación contra muerte.
+  Nivel 12: +2 encantamiento, +2 a las tiradas para golpear, penalización acumulativa de -2 CA y -2 GAC0 durante dos asaltos si se falla salvación contra muerte, daño adicional de 1 PG por segundo por hemorragia durante un asalto contra animales, humanoides y humanoides gigantes si se falla salvación contra muerte.
+  Nivel 16: +3 encantamiento, +3 a las tiradas para golpear, penalización acumulativa de -2 CA y -2 GAC0 durante dos asaltos si se falla salvación contra muerte, daño adicional de 2 PG por segundo por hemorragia durante un asalto, así como ceguera durante dos asaltos contra animales, humanoides y humanoides gigantes si se falla salvación contra muerte.
+  Nivel 20: +4 encantamiento, +4 a las tiradas para golpear, penalización acumulativa de -2 CA y -2 GAC0 durante dos asaltos si se falla salvación contra Muerte con penalización de -2, daño adicional por hemorragia de 4 PG por segundo durante un asalto, así como ceguera durante dos asaltos contra animales, humanoides y humanoides gigantes si se falla salvación contra muerte con penalización de -2.~
+
+@2041 = ~Crear flechas incapacitantes
+
+Crea una veintena de flechas especialmente preparadas.
+  Nivel 4: +1 encantamiento, +1 a las tiradas para golpear, penalización acumulativa de -1 a la CA durante dos asaltos si se falla salvación contra muerte.
+  Nivel 8: +2 encantamiento, +2 a las tiradas para golpear, penalización acumulativa de -2 a la CA durante dos asaltos si se falla salvación contra muerte, daño adicional por sangrado de 1 PG por segundo durante un asalto contra animales, humanoides y humanoides gigantes si se falla salvación contra muerte.
+  Nivel 12: +2 encantamiento, +2 a las tiradas para golpear, penalización acumulativa de -2 CA y -2 GAC0 durante dos asaltos si se falla salvación contra muerte, daño adicional de 1 PG por segundo por hemorragia durante un asalto contra animales, humanoides y humanoides gigantes si se falla salvación contra muerte.
+  Nivel 16: +3 encantamiento, +3 a las tiradas para golpear, penalización acumulativa de -2 CA y -2 GAC0 durante dos asaltos si se falla salvación contra muerte, daño adicional de 2 PG por segundo por hemorragia durante un asalto, así como ceguera durante dos asaltos contra animales, humanoides y humanoides gigantes si se falla salvación contra muerte.
+  Nivel 20: +4 encantamiento, +4 a las tiradas para golpear, penalización acumulativa de -2 CA y -2 GAC0 durante dos asaltos si se falla salvación contra Muerte con penalización de -2, daño adicional por hemorragia de 4 PG por segundo durante un asalto, así como ceguera durante dos asaltos contra animales, humanoides y humanoides gigantes si se falla salvación contra muerte con penalización de -2.~
+
+@2042 = ~Crear virotes incapacitantes
+
+Crea una veintena de virotes especialmente preparados.
+  Nivel 4: +1 encantamiento, +1 a las tiradas para golpear, penalización acumulativa de -1 a la CA durante dos asaltos si se falla salvación contra muerte.
+  Nivel 8: +2 encantamiento, +2 a las tiradas para golpear, penalización acumulativa de -2 a la CA durante dos asaltos si se falla salvación contra muerte, daño adicional por sangrado de 1 PG por segundo durante un asalto contra animales, humanoides y humanoides gigantes si se falla salvación contra muerte.
+  Nivel 12: +2 encantamiento, +2 a las tiradas para golpear, penalización acumulativa de -2 CA y -2 GAC0 durante dos asaltos si se falla salvación contra muerte, daño adicional de 1 PG por segundo por hemorragia durante un asalto contra animales, humanoides y humanoides gigantes si se falla salvación contra muerte.
+  Nivel 16: +3 encantamiento, +3 a las tiradas para golpear, penalización acumulativa de -2 CA y -2 GAC0 durante dos asaltos si se falla salvación contra muerte, daño adicional de 2 PG por segundo por hemorragia durante un asalto, así como ceguera durante dos asaltos contra animales, humanoides y humanoides gigantes si se falla salvación contra muerte.
+  Nivel 20: +4 encantamiento, +4 a las tiradas para golpear, penalización acumulativa de -2 CA y -2 GAC0 durante dos asaltos si se falla salvación contra Muerte con penalización de -2, daño adicional por hemorragia de 4 PG por segundo durante un asalto, así como ceguera durante dos asaltos contra animales, humanoides y humanoides gigantes si se falla salvación contra muerte con penalización de -2.~
+
+@2043 = ~Activa una de las siguientes habilidades de disparo:
+
+Tiro apresador
+Todos los ataques a distancia que tengan éxito en los siguientes 12 segundos enredarán al objetivo, según el nivel del usuario:
+  Nivel 4: El objetivo queda enredado durante tres asaltos si falla salvación contra conjuro.
+  Nivel 8: El objetivo queda enredado durante tres asaltos si falla salvación contra conjuro con -1 de penalización.
+  Nivel 12: El objetivo queda enredado durante cuatro asaltos si falla salvación contra conjuro con -1 de penalización.
+  Nivel 16: El objetivo queda enredado durante cuatro asaltos si falla salvación contra conjuro con -2 de penalización.
+  Nivel 20: El objetivo queda enredado durante cinco asaltos si falla salvación contra conjuro con -2 de penalización.
+
+Tiro potente
+Todos los ataques a distancia con éxito durante los siguientes 12 segundos tienen una probabilidad de derribar al objetivo, según el nivel del usuario:
+  Nivel 8: Derriba al objetivo si falla salvación contra aliento.
+  Nivel 12: Derriba al objetivo si falla salvación contra aliento con -1 de penalización.
+  Nivel 16: Derriba al objetivo si falla salvación contra aliento con -2 de penalización.
+  Nivel 20: Derriba al objetivo si falla alvación contra aliento con -3 de penalización.
+
+Tiro explosivo
+Todos los ataques a distancia que tengan éxito en los próximos 12 segundos explotarán al impactar y causarán daño físico a los objetivos cercanos en un radio de 4,5 metros, según el nivel del usuario:
+  Nivel 8: 1D4 de daño a objetivos cercanos
+  Nivel 12: 1D4+2 de daño a objetivos cercanos
+  Nivel 16: 1D4+4 de daño a objetivos cercanos
+  Nivel 20: 1D4+6 de daño a objetivos cercanos
+Precaución: Daña a enemigos, aliados y transeúntes inocentes por igual.~
+
+@2044 = ~Activa una de las siguientes habilidades de disparo:
+
+Tiro apresador
+Todos los ataques a distancia que tengan éxito en los siguientes 12 segundos enredarán al objetivo, según el nivel del usuario:
+  Nivel 4: El objetivo queda enredado durante tres asaltos si falla salvación contra conjuro.
+  Nivel 8: El objetivo queda enredado durante tres asaltos si falla salvación contra conjuro con -1 de penalización.
+  Nivel 12: El objetivo queda enredado durante cuatro asaltos si falla salvación contra conjuro con -1 de penalización.
+  Nivel 16: El objetivo queda enredado durante cuatro asaltos si falla salvación contra conjuro con -2 de penalización.
+  Nivel 20: El objetivo queda enredado durante cinco asaltos si falla salvación contra conjuro con -2 de penalización.
+
+Tiro potente
+Todos los ataques a distancia con éxito durante los siguientes 12 segundos tienen una probabilidad de derribar al objetivo, según el nivel del usuario:
+  Nivel 8: Derriba al objetivo si falla salvación contra aliento.
+  Nivel 12: Derriba al objetivo si falla salvación contra aliento con -1 de penalización.
+  Nivel 16: Derriba al objetivo si falla salvación contra aliento con -2 de penalización.
+  Nivel 20: Derriba al objetivo si falla alvación contra aliento con -3 de penalización.~
+
+@2045 = ~Activa una de las siguientes habilidades de disparo:
+
+Tiro apresador
+Todos los ataques a distancia que tengan éxito en los siguientes 12 segundos enredarán al objetivo, según el nivel del usuario:
+  Nivel 4: El objetivo queda enredado durante tres asaltos si falla salvación contra conjuro.
+  Nivel 8: El objetivo queda enredado durante tres asaltos si falla salvación contra conjuro con -1 de penalización.
+  Nivel 12: El objetivo queda enredado durante cuatro asaltos si falla salvación contra conjuro con -1 de penalización.
+  Nivel 16: El objetivo queda enredado durante cuatro asaltos si falla salvación contra conjuro con -2 de penalización.
+  Nivel 20: El objetivo queda enredado durante cinco asaltos si falla salvación contra conjuro con -2 de penalización.
+
+Tiro explosivo
+Todos los ataques a distancia que tengan éxito en los próximos 12 segundos explotarán al impactar y causarán daño físico a los objetivos cercanos en un radio de 4,5 metros, según el nivel del usuario:
+  Nivel 8: 1D4 de daño a objetivos cercanos
+  Nivel 12: 1D4+2 de daño a objetivos cercanos
+  Nivel 16: 1D4+4 de daño a objetivos cercanos
+  Nivel 20: 1D4+6 de daño a objetivos cercanos
+Precaución: Daña a enemigos, aliados y transeúntes inocentes por igual.~

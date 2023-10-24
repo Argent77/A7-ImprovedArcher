@@ -50,39 +50,45 @@ README ~A7#ImprovedArcher/readme/readme-%LANGUAGE%.html~
        ~A7#ImprovedArcher/readme/readme.txt~
 
 LANGUAGE ~English~
-         ~english~ 
+         ~english~
          ~A7#ImprovedArcher/languages/english/setup.tra~
          ~A7#ImprovedArcher/languages/english/kit.tra~
 LANGUAGE ~French (Translation by Gwendolyne)~
-         ~french~ 
+         ~french~
          ~A7#ImprovedArcher/languages/english/setup.tra~
          ~A7#ImprovedArcher/languages/english/kit.tra~
          ~A7#ImprovedArcher/languages/french/setup.tra~
          ~A7#ImprovedArcher/languages/french/kit.tra~
 LANGUAGE ~German~
-         ~german~ 
+         ~german~
          ~A7#ImprovedArcher/languages/english/setup.tra~
          ~A7#ImprovedArcher/languages/english/kit.tra~
          ~A7#ImprovedArcher/languages/german/setup.tra~
          ~A7#ImprovedArcher/languages/german/kit.tra~
 LANGUAGE ~Italian (Translation by Aedan)~
-         ~italian~ 
+         ~italian~
          ~A7#ImprovedArcher/languages/english/setup.tra~
          ~A7#ImprovedArcher/languages/english/kit.tra~
          ~A7#ImprovedArcher/languages/italian/setup.tra~
          ~A7#ImprovedArcher/languages/italian/kit.tra~
 LANGUAGE ~Polish (Translation by Cahir)~
-         ~polish~ 
+         ~polish~
          ~A7#ImprovedArcher/languages/english/setup.tra~
          ~A7#ImprovedArcher/languages/english/kit.tra~
          ~A7#ImprovedArcher/languages/polish/setup.tra~
          ~A7#ImprovedArcher/languages/polish/kit.tra~
 LANGUAGE ~Russian (Translation by Saigon1983 & JamesMaxwell)~
-         ~russian~ 
+         ~russian~
          ~A7#ImprovedArcher/languages/english/setup.tra~
          ~A7#ImprovedArcher/languages/english/kit.tra~
          ~A7#ImprovedArcher/languages/russian/setup.tra~
          ~A7#ImprovedArcher/languages/russian/kit.tra~
+LANGUAGE ~Spanish (Translation by ElGamerViejuno)~
+         ~spanish~
+         ~A7#ImprovedArcher/languages/english/setup.tra~
+         ~A7#ImprovedArcher/languages/english/kit.tra~
+         ~A7#ImprovedArcher/languages/spanish/setup.tra~
+         ~A7#ImprovedArcher/languages/spanish/kit.tra~
 
 
 BEGIN @1    // Improved Archer Kit
