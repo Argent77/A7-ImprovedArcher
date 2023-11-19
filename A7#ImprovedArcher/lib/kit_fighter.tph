@@ -277,3 +277,7 @@ COPY ~%KIT_FOLDER%/a7#infa1.bam~ ~override~
      ~%KIT_FOLDER%/a7#info1.bam~ ~override~
      ~%KIT_FOLDER%/a7#infu1.bam~ ~override~
      ~%MOD_FOLDER%/kit/a7#inf4.2da~ ~override~
+
+
+// Updating game items with Archer-specific properties
+LAF UPDATE_ITEM_USABILITIES INT_VAR kit_id END

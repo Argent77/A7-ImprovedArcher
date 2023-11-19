@@ -160,3 +160,30 @@ BEGIN
     END
   END
 END
+
+// Expands usability of selected game items to support new kits.
+DEFINE_ACTION_FUNCTION UPDATE_ITEM_USABILITIES
+INT_VAR
+  kit_id = 0
+BEGIN
+  ACTION_IF (kit_id > 0) BEGIN
+    OUTER_SET kit_id |= 0x4000
+    OUTER_SET archer_kit = IDS_OF_SYMBOL(~kit~ ~FERALAN~)
+
+    // Archer's Eyes
+    COPY_EXISTING ~bdamul02.itm~ ~override~
+      LPF CLONE_EFFECT
+        INT_VAR
+          check_globals = 1
+          check_headers = 0
+          multi_match = 1
+          match_opcode = 177        // Use EFF file
+          match_parameter1 = archer_kit
+          match_parameter2 = 9      // KIT.IDS
+          parameter1 = kit_id
+        STR_VAR
+          insert = ~below~
+      END
+    BUT_ONLY IF_EXISTS
+  END
+END

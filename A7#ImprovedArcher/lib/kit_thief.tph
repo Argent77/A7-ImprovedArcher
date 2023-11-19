@@ -237,3 +237,7 @@ COPY ~%KIT_FOLDER%/a7#inta1.bam~ ~override~
 ACTION_IF (IS_EE) BEGIN
   COPY ~%MOD_FOLDER%/kit/a7#int4h.eff~ ~override~
 END
+
+
+// Updating game items with Archer-specific properties
+LAF UPDATE_ITEM_USABILITIES INT_VAR kit_id END

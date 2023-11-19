@@ -343,3 +343,7 @@ ACTION_IF (IS_EE) BEGIN
   COPY ~%MOD_FOLDER%/kit/a7#inp2g.eff~ ~override~
        ~%MOD_FOLDER%/kit/a7#inp3f.eff~ ~override~
 END
+
+
+// Updating game items with Archer-specific properties
+LAF UPDATE_ITEM_USABILITIES INT_VAR kit_id END
