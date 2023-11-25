@@ -89,26 +89,26 @@ Avantages :
 – Bonus de 1 au toucher et aux dégâts avec les armes de jet tous les 6 niveaux.
 – Bonus de 1 à la classe d'armure contre les projectiles tous les 6 niveaux.
 - Gagne 5 % de chance supplémentaire de réaliser un coup critique aux niveaux 13 et 18.
-– Peut atteindre la grande maîtrise (cinq étoiles) des arcs longs, des arcs courts et des arbalètes.
-– Gagne tous les 4 niveaux la possibilité de tirer un trait immobilisant une fois par jour, à partir du niveau 4. Cette capacité n'est pas cumulable avec toute autre capacité de tir.
-– Gagne tous les 4 niveaux la possibilité de tirer un trait renversant une fois par jour, à partir du niveau 8. Cette capacité n'est pas cumulable avec toute autre capacité de tir.
-– Gagne tous les 4 niveaux la possibilité de tirer un trait explosif une fois par jour, à partir du niveau 8. Cette capacité n'est pas cumulable avec toute autre capacité de tir.
-– Gagne tous les 8 niveaux la possibilité de conjurer des munitions élémentaires une fois par jour, à partir du niveau 4.
+– Peut atteindre la grande maîtrise (cinq étoiles) avec les arcs et les arbalètes.
+– Gagne tous les 4 niveaux la capacité « Tir immobilisant » une fois par jour, à partir du niveau 4. Non cumulable avec toute autre capacité de tir.
+– Gagne tous les 4 niveaux la capacité « Tir renversant » une fois par jour, à partir du niveau 8. Non cumulable avec toute autre capacité de tir.
+– Gagne tous les 4 niveaux la capacité « Tir explosif » une fois par jour, à partir du niveau 8. Non cumulable avec toute autre capacité de tir.
+– Gagne tous les 8 niveaux la capacité « Conjurer des munitions élémentaires » une fois par jour, à partir du niveau 4.
 
-TIR IMMOBILISANT : Tout tir réussi dans les 12 secondes qui suivent enchevêtre la cible, selon le niveau de l'archer :
+TIR IMMOBILISANT : Tout tir réussi dans les 12 secondes qui suivent enchevêtre la cible :
  niveau 4  : Enchevêtre la cible pendant trois rounds si elle rate un JS contre les sorts.
  niveau 8  : Enchevêtre la cible pendant trois rounds si elle rate un JS contre les sorts avec un malus de 1.
  niveau 12 : Enchevêtre la cible pendant quatre rounds si elle rate un JS contre les sorts avec un malus de 1.
  niveau 16 : Enchevêtre la cible pendant quatre rounds si elle rate un JS contre les sorts avec un malus de 2.
  niveau 20 : Enchevêtre la cible pendant cinq rounds si elle rate un JS contre les sorts avec un malus de 2.
 
-TIR RENVERSANT : Tout tir réussi dans les 12 secondes qui suivent peut renverser la cible, selon le niveau de l'archer :
+TIR RENVERSANT : Tout tir réussi dans les 12 secondes qui suivent peut renverser la cible :
  niveau 8  : Renverse la cible si elle rate un JS contre le souffle.
  niveau 12 : Renverse la cible si elle rate un JS contre le souffle avec un malus de 1.
  niveau 16 : Renverse la cible si elle rate un JS contre le souffle avec un malus de 2.
  niveau 20 : Renverse la cible si elle rate un JS contre le souffle avec un malus de 3.
 
-TIR EXPLOSIF : Tout tir réussi dans les 12 secondes qui suivent explose à l'impact et inflige à toutes les créatures situées dans un rayon de 4,5 mètres des dégâts dépendant du niveau de l'archer :
+TIR EXPLOSIF : Tout tir réussi dans les 12 secondes qui suivent explose à l'impact et inflige à toutes les créatures situées dans un rayon de 4,5 mètres les dégâts suivants :
  niveau 8  : 1d4 points de dégâts
  niveau 12 : 1d4+2 points de dégâts
  niveau 16 : 1d4+4 points de dégâts
@@ -127,7 +127,7 @@ Désavantages :
 – -1 à la Constitution à la création.
 – Ne peut pas porter d'armure métallique.
 – Ne peut pas se spécialiser dans les armes de mêlée.
-– Ne peut utiliser « Charme-animal ».~
+– Ne peut utiliser « Charme-animal ».~ // 3975 characters
 
 @1101 = ~Cette flèche a été bénie par la divinité tutélaire du personnage. Elle peut percer les défenses des créatures immunisées contre les attaques physiques normales et déchaîne la colère vertueuse de la divinité contre les morts-vivants, les démons et les diables de toute espèce. Son enchantement divin dure huit heures et permet à son utilisateur de décocher un certain nombre de traits. Après quoi ou passé ce délai, la flèche s'évaporera.
 
