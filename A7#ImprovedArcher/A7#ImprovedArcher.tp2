@@ -89,12 +89,13 @@ LANGUAGE ~Spanish (Translation by ElGamerViejuno)~
          ~A7#ImprovedArcher/languages/english/kit.tra~
          ~A7#ImprovedArcher/languages/spanish/setup.tra~
          ~A7#ImprovedArcher/languages/spanish/kit.tra~
-LANGUAGE  ~Simplified Chinese (translation: Lewis Liu)~
-          ~schinese~
+LANGUAGE ~Simplified Chinese (translation: Lewis Liu)~
+         ~schinese~
          ~A7#ImprovedArcher/languages/english/setup.tra~
          ~A7#ImprovedArcher/languages/english/kit.tra~
          ~A7#ImprovedArcher/languages/schinese/setup.tra~
          ~A7#ImprovedArcher/languages/schinese/kit.tra~
+
 
 BEGIN @1    // Improved Archer Kit
   REQUIRE_PREDICATE GAME_IS ~tob tutu tutu_totsc bgt bgee bg2ee iwdee eet~ @100   // This mod requires BG2:ToB, BG:EE, BG2:EE or IWD:EE to be installed.
